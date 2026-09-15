@@ -2,7 +2,7 @@
 
 A standalone illustrated card collection for software and printing.
 
-**Current collection:** 30 backs (five colors × six formats), plus four French-suited poker kings. Every face uses the same multicolor palette and can pair with any back in its format. The kings remain review artwork with the known symmetry limitations below.
+**Current collection:** 30 backs (five colors × six formats), plus eight French-suited poker faces: four kings and four queens. Every face uses the same multicolor palette and can pair with any back in its format. The court cards remain review artwork with the known symmetry limitations below. This is an incomplete deck; aces, numeral cards and jacks are still to come.
 
 ## Layout
 
@@ -67,13 +67,15 @@ These are individual **trim-size artworks**, suitable for placement at the speci
 | Tarot | 2.75 × 4.75 | 825 × 1425 | 300 |
 | Travel | 1.75 × 2.50 | 525 × 750 | 300 |
 
-Poker kings are 1060 × 1484 pixels: 424 PPI at 2.5 × 3.5 inches. Their 96-DPI metadata is unchanged. The dimension-reference inch column defines this collection; millimeter measurements in the catalog are exact conversions from those inches.
+Poker kings and queens are 1060 × 1484 pixels: 424 PPI at 2.5 × 3.5 inches. Their 96-DPI metadata is unchanged. The dimension-reference inch column defines this collection; millimeter measurements in the catalog are exact conversions from those inches.
 
 ## Colors and design status
 
 Active back colors: Lamp Black, Madder Lake, Manganese Violet, Prussian Blue and Verdigris. Their names are pigment-inspired digital color labels, not physical ink specifications. Prussian Blue is the original recoloring source for each format.
 
 The four kings share a botanical frame and multicolor palette. Hearts has a clean upper lip and sword behind the head; Diamonds has a profile and axe; Spades has an upright broadsword; Clubs has a sword and orb. Their painted patterns and opposing halves are not pixel-exact repeats. See [design notes](docs/design/kings.md) and [generation prompts](docs/design/poker-kings-prompts.md).
+
+The four queens extend that same design: Spades carries a scepter, Hearts a rose beneath a crown and headdress, Diamonds a pointed-petal flower with an ivory veil, and Clubs a flower sprig with ribbon-woven braids. See the [queen gallery and design notes](docs/design/queens.md) and [queen generation prompts](docs/design/poker-queens-prompts.md). The same limits on exact repeated patterns and half-turn symmetry apply.
 
 ## Tools and checks
 
