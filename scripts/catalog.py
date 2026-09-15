@@ -38,8 +38,8 @@ def build_catalog() -> dict:
         with Image.open(path) as im:
             im.load()
             pixels = list(im.size)
-            if record["side"] == "back" and pixels != size_info["back_pixels"]:
-                raise ValueError(f"Wrong back dimensions: {path}")
+            if pixels != size_info["back_pixels"]:
+                raise ValueError(f"Wrong dimensions for {record['side']}: {path}")
             # Integer cross-products with hundredths of inches avoid float ratio errors.
             if pixels[0] * round(inches[1]*100) != pixels[1] * round(inches[0]*100):
                 raise ValueError(f"Wrong trim aspect ratio: {path}")
