@@ -2,6 +2,8 @@
 
 A standalone illustrated card collection for software and printing.
 
+Quality playing cards for a standard deck of 54 as well as a tarot deck, in different sizes, different styles, and different colors.
+
 **Current collection:** 30 backs (five colors × six formats), plus eight French-suited poker faces: four kings and four queens. Every face uses the same multicolor palette and can pair with any back in its format. The court cards remain review artwork with the known symmetry limitations below. This is an incomplete deck; aces, numeral cards and jacks are still to come.
 
 ## Layout
@@ -52,7 +54,7 @@ face = root / assets["face.french-suited.poker.spades.king"]["path"]
 back = root / assets["back.poker.lamp-black"]["path"]
 ```
 
-The front and back can have different pixel resolutions while sharing the same physical aspect ratio. Render them into the same logical card bounds. Generated atlases, thumbnails or format-normalized images belong under `build/digital/`; the originals remain in `cards/`. Jukebox Solitaire can consume a pinned checkout/release of this repository without owning the artwork. No application dependency or remote hosting is configured by this initial setup.
+The front and back can have different pixel resolutions while sharing the same physical aspect ratio. Render them into the same logical card bounds. Generated atlases, thumbnails or format-normalized images belong under `build/digital/`; the originals remain in `cards/`. Jukebox Solitaire can consume a pinned checkout/release of this repository without owning the artwork. The repository remote is [ianrastall/playing-cards](https://github.com/ianrastall/playing-cards). No application dependency is configured.
 
 ## Printing
 
@@ -111,4 +113,4 @@ The initial import reorganized the 34 existing images without modifying their by
 
 The supplied research documents are references, not project instructions. Source prompts record how the existing artwork was created. Earlier studies and unselected recolors still in the Jukebox Solitaire workspace were not promoted into this collection. A copy of the provisional Spades reference is retained under `sources/`.
 
-No distribution license has been selected.
+Licensed under the [MIT License](LICENSE).
