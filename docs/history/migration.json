@@ -1,0 +1,212 @@
+[
+  {
+    "original_path": "cards/backs/bridge/lamp-black_bridge.png",
+    "path": "cards/backs/bridge/lamp-black.png",
+    "sha256_at_import": "6e36220945d03e51fb6867fdab1a789425b5b3181707b0f1c0dade7ec9136145"
+  },
+  {
+    "original_path": "cards/backs/bridge/madder-lake_bridge.png",
+    "path": "cards/backs/bridge/madder-lake.png",
+    "sha256_at_import": "1bc2fe3ce3e595daf64b048ab63f01070571759dc737d00f7f9a49b15324c220"
+  },
+  {
+    "original_path": "cards/backs/bridge/manganese-violet_bridge.png",
+    "path": "cards/backs/bridge/manganese-violet.png",
+    "sha256_at_import": "da693deee7773da1e8a22bc8e031f791f7efa0600668d680776d845855e71a9c"
+  },
+  {
+    "original_path": "cards/backs/bridge/prussian-blue_bridge.png",
+    "path": "cards/backs/bridge/prussian-blue.png",
+    "sha256_at_import": "f99ddba560aecb22844d81ed81605b083aad7bb912e627616a13f178afdf7f67"
+  },
+  {
+    "original_path": "cards/backs/bridge/verdigris_bridge.png",
+    "path": "cards/backs/bridge/verdigris.png",
+    "sha256_at_import": "bddd51c49bbf54e9d884e57772020969634495184c68cdaa62341202fd8b2ab7"
+  },
+  {
+    "original_path": "cards/backs/european-standard/lamp-black_european-standard.png",
+    "path": "cards/backs/european-standard/lamp-black.png",
+    "sha256_at_import": "52d2d9d763ad5cdd3acbd3219cc9dbff318ab70646e5afc41918b670f277e2d0"
+  },
+  {
+    "original_path": "cards/backs/european-standard/madder-lake_european-standard.png",
+    "path": "cards/backs/european-standard/madder-lake.png",
+    "sha256_at_import": "f7fa5fb792fbb90bfb68d492085b80da8ac7cff313cbde8bc92077bf34afea2d"
+  },
+  {
+    "original_path": "cards/backs/european-standard/manganese-violet_european-standard.png",
+    "path": "cards/backs/european-standard/manganese-violet.png",
+    "sha256_at_import": "bad6ec59cbbc230a3bd0628b495ecc474ea42db8730e4051e38d25c6d19eb040"
+  },
+  {
+    "original_path": "cards/backs/european-standard/prussian-blue_european-standard.png",
+    "path": "cards/backs/european-standard/prussian-blue.png",
+    "sha256_at_import": "ea1e5cc0cac02a2f0d64db8197748cbbcfada0628f1dc7ae07fe1e89eb245005"
+  },
+  {
+    "original_path": "cards/backs/european-standard/verdigris_european-standard.png",
+    "path": "cards/backs/european-standard/verdigris.png",
+    "sha256_at_import": "72c5d829f0cd87f93c6d524e7ab3aa699c7ae71d99aa5339d711969265133cdb"
+  },
+  {
+    "original_path": "cards/backs/jumbo/lamp-black_jumbo.png",
+    "path": "cards/backs/jumbo/lamp-black.png",
+    "sha256_at_import": "9224b2d4d8bdf2784561d8344b555f7e20282a815d5926b8ee5cec61c52a7055"
+  },
+  {
+    "original_path": "cards/backs/jumbo/madder-lake_jumbo.png",
+    "path": "cards/backs/jumbo/madder-lake.png",
+    "sha256_at_import": "427f4e7afc3cb4ca390404c50c29b2ddf8120875cef52959c5e45a473fd7dc5e"
+  },
+  {
+    "original_path": "cards/backs/jumbo/manganese-violet_jumbo.png",
+    "path": "cards/backs/jumbo/manganese-violet.png",
+    "sha256_at_import": "94ebae9cf317e54326bec2661ac4313bc82d66535b157676afa5fba2524d2101"
+  },
+  {
+    "original_path": "cards/backs/jumbo/prussian-blue_jumbo.png",
+    "path": "cards/backs/jumbo/prussian-blue.png",
+    "sha256_at_import": "facffc2bee0f4a1f5c5a7196fd5ba6114338feeb90e0fddbc364d2e9d145e20c"
+  },
+  {
+    "original_path": "cards/backs/jumbo/verdigris_jumbo.png",
+    "path": "cards/backs/jumbo/verdigris.png",
+    "sha256_at_import": "c3f0bb636510fc0e2975f1f73c7e7a8f2e9a0b1e37a32ebba772a56cd537d468"
+  },
+  {
+    "original_path": "cards/backs/poker/lamp-black_poker.png",
+    "path": "cards/backs/poker/lamp-black.png",
+    "sha256_at_import": "bc6c21b8ed0d0461088567d0642b3c0267ec081199f359f99bd707cca2ddcefb"
+  },
+  {
+    "original_path": "cards/backs/poker/madder-lake_poker.png",
+    "path": "cards/backs/poker/madder-lake.png",
+    "sha256_at_import": "24337ad049d6a2c6535357c6251ea71aa304c1822289f29ff7c3bc063a1c4646"
+  },
+  {
+    "original_path": "cards/backs/poker/manganese-violet_poker.png",
+    "path": "cards/backs/poker/manganese-violet.png",
+    "sha256_at_import": "70c1061f125c1c0391a0491eb003d783cf0bfe940baf5e6750e52341f9c0be07"
+  },
+  {
+    "original_path": "cards/backs/poker/prussian-blue_poker.png",
+    "path": "cards/backs/poker/prussian-blue.png",
+    "sha256_at_import": "afaa6d4d785d97276a6a065c41de3d8976364e8cac3d3d719690cfbd77c1e80c"
+  },
+  {
+    "original_path": "cards/backs/poker/verdigris_poker.png",
+    "path": "cards/backs/poker/verdigris.png",
+    "sha256_at_import": "2408f5dacff2ec24197a1cfb25863cfa0a90cc9942eda65f64270569e0daedec"
+  },
+  {
+    "original_path": "cards/backs/tarot/lamp-black_tarot.png",
+    "path": "cards/backs/tarot/lamp-black.png",
+    "sha256_at_import": "3058e15157a0c237666bdf109edee8f25c1030d604019551667d2dadfedd991a"
+  },
+  {
+    "original_path": "cards/backs/tarot/madder-lake_tarot.png",
+    "path": "cards/backs/tarot/madder-lake.png",
+    "sha256_at_import": "d29cf9f9f05f90bdca6929f9ac9f35b879678df77735ce3ba954fc34ab87e9a5"
+  },
+  {
+    "original_path": "cards/backs/tarot/manganese-violet_tarot.png",
+    "path": "cards/backs/tarot/manganese-violet.png",
+    "sha256_at_import": "446ba9a5770d7437bf39a295b9da1b705ac8aae6a7066f5b607b12b9c55f9b4b"
+  },
+  {
+    "original_path": "cards/backs/tarot/prussian-blue_tarot.png",
+    "path": "cards/backs/tarot/prussian-blue.png",
+    "sha256_at_import": "f8cfd50e3f095d7893739fe2485c6544daa48891fa17d68c0e2c49dcc720a104"
+  },
+  {
+    "original_path": "cards/backs/tarot/verdigris_tarot.png",
+    "path": "cards/backs/tarot/verdigris.png",
+    "sha256_at_import": "735b337de0bb3626dcd7e111e1b7f817cbcda38344ff8b1f04f43a5d25540eb2"
+  },
+  {
+    "original_path": "cards/backs/travel/lamp-black_travel.png",
+    "path": "cards/backs/travel/lamp-black.png",
+    "sha256_at_import": "56238ea442585f9e3a7088400af3b2dfafe1068cf7be0a10582f1531e8e7b307"
+  },
+  {
+    "original_path": "cards/backs/travel/madder-lake_travel.png",
+    "path": "cards/backs/travel/madder-lake.png",
+    "sha256_at_import": "71a82e7af4799af2a8a2c774499c6719c1345c946eb668150b457d3fd38e9e3c"
+  },
+  {
+    "original_path": "cards/backs/travel/manganese-violet_travel.png",
+    "path": "cards/backs/travel/manganese-violet.png",
+    "sha256_at_import": "522e316b7f7783ac4ad069e8ec8ce39d56ae9bc75194b5fec389366e65533d2c"
+  },
+  {
+    "original_path": "cards/backs/travel/prussian-blue_travel.png",
+    "path": "cards/backs/travel/prussian-blue.png",
+    "sha256_at_import": "e94290d0e6d61975a1ac71e0f97a1a031fb307fc86ff6467d75ea0be8515dd80"
+  },
+  {
+    "original_path": "cards/backs/travel/verdigris_travel.png",
+    "path": "cards/backs/travel/verdigris.png",
+    "sha256_at_import": "c8b09b33746215b1e3f90cd69415bc67a63e8fbb03825f5b05c4c37e14750923"
+  },
+  {
+    "original_path": "cards/faces/king-clubs_poker-v1.png",
+    "path": "cards/faces/french-suited/poker/clubs/king.png",
+    "sha256_at_import": "742baea34a87e36caa75840e36cc59e51695a30190a140f46ce13bb34aaa4135"
+  },
+  {
+    "original_path": "cards/faces/king-diamonds_poker-v1.png",
+    "path": "cards/faces/french-suited/poker/diamonds/king.png",
+    "sha256_at_import": "c9984e7e5031261aa0344b9d9701315c9de91cb641a5d0e3d8ebf16b2e357d0b"
+  },
+  {
+    "original_path": "cards/faces/king-hearts_poker-v1.png",
+    "path": "cards/faces/french-suited/poker/hearts/king.png",
+    "sha256_at_import": "22d302a3280f63caa8c01f70403551ff2206f2f8f59025050a2dd388b85b5637"
+  },
+  {
+    "original_path": "cards/faces/king-spades_poker-v1.png",
+    "path": "cards/faces/french-suited/poker/spades/king.png",
+    "sha256_at_import": "f512f94f1ef2969e3bea1c8d7251338a35c7f91788601efe9b207a7738f77ab1"
+  },
+  {
+    "original_path": "dimensions-reference.png",
+    "path": "docs/reference/dimensions-reference.png",
+    "sha256_at_import": "7fd2794fe58bea5aba9e5bce7b068281748bf5411ef93e0da355d56d4c66743a"
+  },
+  {
+    "original_path": "Playing Card Backs and Virtual Implementations.md",
+    "path": "docs/reference/Playing Card Backs and Virtual Implementations.md",
+    "sha256_at_import": "ce2cb4f5193ee6a855aee9e5b5920549205dbe4e9ad0c2108898aede39c5a6e0"
+  },
+  {
+    "original_path": "Playing Card Design Standards.md",
+    "path": "docs/reference/Playing Card Design Standards.md",
+    "sha256_at_import": "9d8656ece1c879f910452be416f8245cc972d111363fbdb775a1c8401d844f05"
+  },
+  {
+    "original_path": "prompts.md",
+    "path": "docs/design/poker-kings-prompts.md",
+    "sha256_at_import": "ebedbdd48dec3f7f2256c6de88f087cf56343eda97f22901f42069380196f9b4"
+  },
+  {
+    "original_path": "recolor_card_backs.py",
+    "path": "scripts/recolor_card_backs.py",
+    "sha256_at_import": "9f6953535083cbbefa58ab867f629aff600227b769ea978660bee362c0fb48dc"
+  },
+  {
+    "original_path": "tree.txt",
+    "path": "docs/history/imported-tree.txt",
+    "sha256_at_import": "485b40836b908ff0072dcfb1dbc8d705bfab183360aa0cdd73ae7a9cbdaec5df"
+  },
+  {
+    "original_path": "cards/faces/README.md",
+    "path": "docs/history/imported-archive-readme.md",
+    "sha256_at_import": "1375b42f2fcc44501b2abc186f0f3496169191b562d490e902a9eedd70bbaeb3"
+  },
+  {
+    "original_path": "cards/backs/validation.json",
+    "path": "docs/history/imported-backs-validation.json",
+    "sha256_at_import": "2538cdec8b28b57515c124fb1304a2c7071cf0240134c10205a49ce2bf004da7"
+  }
+]

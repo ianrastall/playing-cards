@@ -1,0 +1,63 @@
+Folder PATH listing for volume Backup
+Volume serial number is FE5F-668D
+D:.
+|   dimensions-reference.png
+|   Playing Card Backs and Virtual Implementations.md
+|   Playing Card Design Standards.md
+|   prompts.md
+|   recolor_card_backs.py
+|   tree.txt
+|   
+\---cards
+    +---backs
+    |   |   validation.json
+    |   |   
+    |   +---bridge
+    |   |       lamp-black_bridge.png
+    |   |       madder-lake_bridge.png
+    |   |       manganese-violet_bridge.png
+    |   |       prussian-blue_bridge.png
+    |   |       verdigris_bridge.png
+    |   |       
+    |   +---european-standard
+    |   |       lamp-black_european-standard.png
+    |   |       madder-lake_european-standard.png
+    |   |       manganese-violet_european-standard.png
+    |   |       prussian-blue_european-standard.png
+    |   |       verdigris_european-standard.png
+    |   |       
+    |   +---jumbo
+    |   |       lamp-black_jumbo.png
+    |   |       madder-lake_jumbo.png
+    |   |       manganese-violet_jumbo.png
+    |   |       prussian-blue_jumbo.png
+    |   |       verdigris_jumbo.png
+    |   |       
+    |   +---poker
+    |   |       lamp-black_poker.png
+    |   |       madder-lake_poker.png
+    |   |       manganese-violet_poker.png
+    |   |       prussian-blue_poker.png
+    |   |       verdigris_poker.png
+    |   |       
+    |   +---tarot
+    |   |       lamp-black_tarot.png
+    |   |       madder-lake_tarot.png
+    |   |       manganese-violet_tarot.png
+    |   |       prussian-blue_tarot.png
+    |   |       verdigris_tarot.png
+    |   |       
+    |   \---travel
+    |           lamp-black_travel.png
+    |           madder-lake_travel.png
+    |           manganese-violet_travel.png
+    |           prussian-blue_travel.png
+    |           verdigris_travel.png
+    |           
+    \---faces
+            king-clubs_poker-v1.png
+            king-diamonds_poker-v1.png
+            king-hearts_poker-v1.png
+            king-spades_poker-v1.png
+            README.md
+            

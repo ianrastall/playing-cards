@@ -1,0 +1,1137 @@
+{
+  "schema_version": 1,
+  "deck_id": "playing-cards",
+  "path_base": "repository-root",
+  "formats": {
+    "bridge": {
+      "trim_inches": [
+        2.25,
+        3.5
+      ],
+      "back_pixels": [
+        675,
+        1050
+      ]
+    },
+    "european-standard": {
+      "trim_inches": [
+        2.32,
+        3.58
+      ],
+      "back_pixels": [
+        696,
+        1074
+      ]
+    },
+    "jumbo": {
+      "trim_inches": [
+        3.5,
+        5
+      ],
+      "back_pixels": [
+        1050,
+        1500
+      ]
+    },
+    "poker": {
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "back_pixels": [
+        750,
+        1050
+      ]
+    },
+    "tarot": {
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "back_pixels": [
+        825,
+        1425
+      ]
+    },
+    "travel": {
+      "trim_inches": [
+        1.75,
+        2.5
+      ],
+      "back_pixels": [
+        525,
+        750
+      ]
+    }
+  },
+  "back_colors": [
+    "lamp-black",
+    "madder-lake",
+    "manganese-violet",
+    "prussian-blue",
+    "verdigris"
+  ],
+  "print_notes": {
+    "geometry": "trim-size artwork",
+    "bleed_included": false,
+    "crop_marks_included": false,
+    "imposition_included": false,
+    "placement": "Use trim_inches; do not infer physical size from DPI metadata."
+  },
+  "assets": [
+    {
+      "id": "back.bridge.lamp-black",
+      "side": "back",
+      "format": "bridge",
+      "color": "lamp-black",
+      "status": "available",
+      "path": "cards/backs/bridge/lamp-black.png",
+      "media_type": "image/png",
+      "pixels": [
+        675,
+        1050
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.25,
+        3.5
+      ],
+      "trim_mm": [
+        57.15,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "6e36220945d03e51fb6867fdab1a789425b5b3181707b0f1c0dade7ec9136145"
+    },
+    {
+      "id": "back.bridge.madder-lake",
+      "side": "back",
+      "format": "bridge",
+      "color": "madder-lake",
+      "status": "available",
+      "path": "cards/backs/bridge/madder-lake.png",
+      "media_type": "image/png",
+      "pixels": [
+        675,
+        1050
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.25,
+        3.5
+      ],
+      "trim_mm": [
+        57.15,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "1bc2fe3ce3e595daf64b048ab63f01070571759dc737d00f7f9a49b15324c220"
+    },
+    {
+      "id": "back.bridge.manganese-violet",
+      "side": "back",
+      "format": "bridge",
+      "color": "manganese-violet",
+      "status": "available",
+      "path": "cards/backs/bridge/manganese-violet.png",
+      "media_type": "image/png",
+      "pixels": [
+        675,
+        1050
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.25,
+        3.5
+      ],
+      "trim_mm": [
+        57.15,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "da693deee7773da1e8a22bc8e031f791f7efa0600668d680776d845855e71a9c"
+    },
+    {
+      "id": "back.bridge.prussian-blue",
+      "side": "back",
+      "format": "bridge",
+      "color": "prussian-blue",
+      "status": "available",
+      "path": "cards/backs/bridge/prussian-blue.png",
+      "media_type": "image/png",
+      "pixels": [
+        675,
+        1050
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.25,
+        3.5
+      ],
+      "trim_mm": [
+        57.15,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "f99ddba560aecb22844d81ed81605b083aad7bb912e627616a13f178afdf7f67"
+    },
+    {
+      "id": "back.bridge.verdigris",
+      "side": "back",
+      "format": "bridge",
+      "color": "verdigris",
+      "status": "available",
+      "path": "cards/backs/bridge/verdigris.png",
+      "media_type": "image/png",
+      "pixels": [
+        675,
+        1050
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.25,
+        3.5
+      ],
+      "trim_mm": [
+        57.15,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "bddd51c49bbf54e9d884e57772020969634495184c68cdaa62341202fd8b2ab7"
+    },
+    {
+      "id": "back.european-standard.lamp-black",
+      "side": "back",
+      "format": "european-standard",
+      "color": "lamp-black",
+      "status": "available",
+      "path": "cards/backs/european-standard/lamp-black.png",
+      "media_type": "image/png",
+      "pixels": [
+        696,
+        1074
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.32,
+        3.58
+      ],
+      "trim_mm": [
+        58.928,
+        90.932
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "52d2d9d763ad5cdd3acbd3219cc9dbff318ab70646e5afc41918b670f277e2d0"
+    },
+    {
+      "id": "back.european-standard.madder-lake",
+      "side": "back",
+      "format": "european-standard",
+      "color": "madder-lake",
+      "status": "available",
+      "path": "cards/backs/european-standard/madder-lake.png",
+      "media_type": "image/png",
+      "pixels": [
+        696,
+        1074
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.32,
+        3.58
+      ],
+      "trim_mm": [
+        58.928,
+        90.932
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "f7fa5fb792fbb90bfb68d492085b80da8ac7cff313cbde8bc92077bf34afea2d"
+    },
+    {
+      "id": "back.european-standard.manganese-violet",
+      "side": "back",
+      "format": "european-standard",
+      "color": "manganese-violet",
+      "status": "available",
+      "path": "cards/backs/european-standard/manganese-violet.png",
+      "media_type": "image/png",
+      "pixels": [
+        696,
+        1074
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.32,
+        3.58
+      ],
+      "trim_mm": [
+        58.928,
+        90.932
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "bad6ec59cbbc230a3bd0628b495ecc474ea42db8730e4051e38d25c6d19eb040"
+    },
+    {
+      "id": "back.european-standard.prussian-blue",
+      "side": "back",
+      "format": "european-standard",
+      "color": "prussian-blue",
+      "status": "available",
+      "path": "cards/backs/european-standard/prussian-blue.png",
+      "media_type": "image/png",
+      "pixels": [
+        696,
+        1074
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.32,
+        3.58
+      ],
+      "trim_mm": [
+        58.928,
+        90.932
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "ea1e5cc0cac02a2f0d64db8197748cbbcfada0628f1dc7ae07fe1e89eb245005"
+    },
+    {
+      "id": "back.european-standard.verdigris",
+      "side": "back",
+      "format": "european-standard",
+      "color": "verdigris",
+      "status": "available",
+      "path": "cards/backs/european-standard/verdigris.png",
+      "media_type": "image/png",
+      "pixels": [
+        696,
+        1074
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.32,
+        3.58
+      ],
+      "trim_mm": [
+        58.928,
+        90.932
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "72c5d829f0cd87f93c6d524e7ab3aa699c7ae71d99aa5339d711969265133cdb"
+    },
+    {
+      "id": "back.jumbo.lamp-black",
+      "side": "back",
+      "format": "jumbo",
+      "color": "lamp-black",
+      "status": "available",
+      "path": "cards/backs/jumbo/lamp-black.png",
+      "media_type": "image/png",
+      "pixels": [
+        1050,
+        1500
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        3.5,
+        5
+      ],
+      "trim_mm": [
+        88.9,
+        127.0
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "9224b2d4d8bdf2784561d8344b555f7e20282a815d5926b8ee5cec61c52a7055"
+    },
+    {
+      "id": "back.jumbo.madder-lake",
+      "side": "back",
+      "format": "jumbo",
+      "color": "madder-lake",
+      "status": "available",
+      "path": "cards/backs/jumbo/madder-lake.png",
+      "media_type": "image/png",
+      "pixels": [
+        1050,
+        1500
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        3.5,
+        5
+      ],
+      "trim_mm": [
+        88.9,
+        127.0
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "427f4e7afc3cb4ca390404c50c29b2ddf8120875cef52959c5e45a473fd7dc5e"
+    },
+    {
+      "id": "back.jumbo.manganese-violet",
+      "side": "back",
+      "format": "jumbo",
+      "color": "manganese-violet",
+      "status": "available",
+      "path": "cards/backs/jumbo/manganese-violet.png",
+      "media_type": "image/png",
+      "pixels": [
+        1050,
+        1500
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        3.5,
+        5
+      ],
+      "trim_mm": [
+        88.9,
+        127.0
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "94ebae9cf317e54326bec2661ac4313bc82d66535b157676afa5fba2524d2101"
+    },
+    {
+      "id": "back.jumbo.prussian-blue",
+      "side": "back",
+      "format": "jumbo",
+      "color": "prussian-blue",
+      "status": "available",
+      "path": "cards/backs/jumbo/prussian-blue.png",
+      "media_type": "image/png",
+      "pixels": [
+        1050,
+        1500
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        3.5,
+        5
+      ],
+      "trim_mm": [
+        88.9,
+        127.0
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "facffc2bee0f4a1f5c5a7196fd5ba6114338feeb90e0fddbc364d2e9d145e20c"
+    },
+    {
+      "id": "back.jumbo.verdigris",
+      "side": "back",
+      "format": "jumbo",
+      "color": "verdigris",
+      "status": "available",
+      "path": "cards/backs/jumbo/verdigris.png",
+      "media_type": "image/png",
+      "pixels": [
+        1050,
+        1500
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        3.5,
+        5
+      ],
+      "trim_mm": [
+        88.9,
+        127.0
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "c3f0bb636510fc0e2975f1f73c7e7a8f2e9a0b1e37a32ebba772a56cd537d468"
+    },
+    {
+      "id": "back.poker.lamp-black",
+      "side": "back",
+      "format": "poker",
+      "color": "lamp-black",
+      "status": "available",
+      "path": "cards/backs/poker/lamp-black.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "bc6c21b8ed0d0461088567d0642b3c0267ec081199f359f99bd707cca2ddcefb"
+    },
+    {
+      "id": "back.poker.madder-lake",
+      "side": "back",
+      "format": "poker",
+      "color": "madder-lake",
+      "status": "available",
+      "path": "cards/backs/poker/madder-lake.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "24337ad049d6a2c6535357c6251ea71aa304c1822289f29ff7c3bc063a1c4646"
+    },
+    {
+      "id": "back.poker.manganese-violet",
+      "side": "back",
+      "format": "poker",
+      "color": "manganese-violet",
+      "status": "available",
+      "path": "cards/backs/poker/manganese-violet.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "70c1061f125c1c0391a0491eb003d783cf0bfe940baf5e6750e52341f9c0be07"
+    },
+    {
+      "id": "back.poker.prussian-blue",
+      "side": "back",
+      "format": "poker",
+      "color": "prussian-blue",
+      "status": "available",
+      "path": "cards/backs/poker/prussian-blue.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "afaa6d4d785d97276a6a065c41de3d8976364e8cac3d3d719690cfbd77c1e80c"
+    },
+    {
+      "id": "back.poker.verdigris",
+      "side": "back",
+      "format": "poker",
+      "color": "verdigris",
+      "status": "available",
+      "path": "cards/backs/poker/verdigris.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "2408f5dacff2ec24197a1cfb25863cfa0a90cc9942eda65f64270569e0daedec"
+    },
+    {
+      "id": "back.tarot.lamp-black",
+      "side": "back",
+      "format": "tarot",
+      "color": "lamp-black",
+      "status": "available",
+      "path": "cards/backs/tarot/lamp-black.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "3058e15157a0c237666bdf109edee8f25c1030d604019551667d2dadfedd991a"
+    },
+    {
+      "id": "back.tarot.madder-lake",
+      "side": "back",
+      "format": "tarot",
+      "color": "madder-lake",
+      "status": "available",
+      "path": "cards/backs/tarot/madder-lake.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "d29cf9f9f05f90bdca6929f9ac9f35b879678df77735ce3ba954fc34ab87e9a5"
+    },
+    {
+      "id": "back.tarot.manganese-violet",
+      "side": "back",
+      "format": "tarot",
+      "color": "manganese-violet",
+      "status": "available",
+      "path": "cards/backs/tarot/manganese-violet.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "446ba9a5770d7437bf39a295b9da1b705ac8aae6a7066f5b607b12b9c55f9b4b"
+    },
+    {
+      "id": "back.tarot.prussian-blue",
+      "side": "back",
+      "format": "tarot",
+      "color": "prussian-blue",
+      "status": "available",
+      "path": "cards/backs/tarot/prussian-blue.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "f8cfd50e3f095d7893739fe2485c6544daa48891fa17d68c0e2c49dcc720a104"
+    },
+    {
+      "id": "back.tarot.verdigris",
+      "side": "back",
+      "format": "tarot",
+      "color": "verdigris",
+      "status": "available",
+      "path": "cards/backs/tarot/verdigris.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "735b337de0bb3626dcd7e111e1b7f817cbcda38344ff8b1f04f43a5d25540eb2"
+    },
+    {
+      "id": "back.travel.lamp-black",
+      "side": "back",
+      "format": "travel",
+      "color": "lamp-black",
+      "status": "available",
+      "path": "cards/backs/travel/lamp-black.png",
+      "media_type": "image/png",
+      "pixels": [
+        525,
+        750
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        1.75,
+        2.5
+      ],
+      "trim_mm": [
+        44.45,
+        63.5
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "56238ea442585f9e3a7088400af3b2dfafe1068cf7be0a10582f1531e8e7b307"
+    },
+    {
+      "id": "back.travel.madder-lake",
+      "side": "back",
+      "format": "travel",
+      "color": "madder-lake",
+      "status": "available",
+      "path": "cards/backs/travel/madder-lake.png",
+      "media_type": "image/png",
+      "pixels": [
+        525,
+        750
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        1.75,
+        2.5
+      ],
+      "trim_mm": [
+        44.45,
+        63.5
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "71a82e7af4799af2a8a2c774499c6719c1345c946eb668150b457d3fd38e9e3c"
+    },
+    {
+      "id": "back.travel.manganese-violet",
+      "side": "back",
+      "format": "travel",
+      "color": "manganese-violet",
+      "status": "available",
+      "path": "cards/backs/travel/manganese-violet.png",
+      "media_type": "image/png",
+      "pixels": [
+        525,
+        750
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        1.75,
+        2.5
+      ],
+      "trim_mm": [
+        44.45,
+        63.5
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "522e316b7f7783ac4ad069e8ec8ce39d56ae9bc75194b5fec389366e65533d2c"
+    },
+    {
+      "id": "back.travel.prussian-blue",
+      "side": "back",
+      "format": "travel",
+      "color": "prussian-blue",
+      "status": "available",
+      "path": "cards/backs/travel/prussian-blue.png",
+      "media_type": "image/png",
+      "pixels": [
+        525,
+        750
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        1.75,
+        2.5
+      ],
+      "trim_mm": [
+        44.45,
+        63.5
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "e94290d0e6d61975a1ac71e0f97a1a031fb307fc86ff6467d75ea0be8515dd80"
+    },
+    {
+      "id": "back.travel.verdigris",
+      "side": "back",
+      "format": "travel",
+      "color": "verdigris",
+      "status": "available",
+      "path": "cards/backs/travel/verdigris.png",
+      "media_type": "image/png",
+      "pixels": [
+        525,
+        750
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        1.75,
+        2.5
+      ],
+      "trim_mm": [
+        44.45,
+        63.5
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "c8b09b33746215b1e3f90cd69415bc67a63e8fbb03825f5b05c4c37e14750923"
+    },
+    {
+      "id": "face.french-suited.poker.clubs.king",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "clubs",
+      "rank": "king",
+      "color_variant": null,
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/clubs/king.png",
+      "media_type": "image/png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        424.0,
+        424.0
+      ],
+      "sha256": "742baea34a87e36caa75840e36cc59e51695a30190a140f46ce13bb34aaa4135"
+    },
+    {
+      "id": "face.french-suited.poker.diamonds.king",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "diamonds",
+      "rank": "king",
+      "color_variant": null,
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/diamonds/king.png",
+      "media_type": "image/png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        424.0,
+        424.0
+      ],
+      "sha256": "c9984e7e5031261aa0344b9d9701315c9de91cb641a5d0e3d8ebf16b2e357d0b"
+    },
+    {
+      "id": "face.french-suited.poker.hearts.king",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "hearts",
+      "rank": "king",
+      "color_variant": null,
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/hearts/king.png",
+      "media_type": "image/png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        424.0,
+        424.0
+      ],
+      "sha256": "22d302a3280f63caa8c01f70403551ff2206f2f8f59025050a2dd388b85b5637"
+    },
+    {
+      "id": "face.french-suited.poker.spades.king",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "spades",
+      "rank": "king",
+      "color_variant": null,
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/spades/king.png",
+      "media_type": "image/png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        424.0,
+        424.0
+      ],
+      "sha256": "f512f94f1ef2969e3bea1c8d7251338a35c7f91788601efe9b207a7738f77ab1"
+    }
+  ]
+}

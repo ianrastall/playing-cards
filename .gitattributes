@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+
+# Preserve imported reference/provenance files exactly, including Markdown breaks.
+docs/reference/** -text -whitespace
+docs/history/imported-* -text -whitespace
+docs/design/poker-kings-prompts.md -text -whitespace

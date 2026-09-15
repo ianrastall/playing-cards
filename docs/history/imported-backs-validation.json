@@ -1,0 +1,2405 @@
+{
+  "method": "Exact pixel comparison to source and named palette",
+  "cards": [
+    {
+      "color": "prussian-blue",
+      "label": "Prussian Blue",
+      "size": "bridge",
+      "archive_path": "cards/backs/bridge/prussian-blue_bridge.png",
+      "sha256": "f99ddba560aecb22844d81ed81605b083aad7bb912e627616a13f178afdf7f67",
+      "source": "cards/backs/bridge/prussian-blue_bridge.png",
+      "source_sha256": "f99ddba560aecb22844d81ed81605b083aad7bb912e627616a13f178afdf7f67",
+      "pixels": [
+        675,
+        1050
+      ],
+      "inches": [
+        2.25,
+        3.5
+      ],
+      "millimeters": [
+        57.15,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        332,
+        524,
+        343,
+        535
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "madder-lake",
+      "label": "Madder Lake",
+      "size": "bridge",
+      "archive_path": "cards/backs/bridge/madder-lake_bridge.png",
+      "sha256": "1bc2fe3ce3e595daf64b048ab63f01070571759dc737d00f7f9a49b15324c220",
+      "source": "cards/backs/bridge/prussian-blue_bridge.png",
+      "source_sha256": "f99ddba560aecb22844d81ed81605b083aad7bb912e627616a13f178afdf7f67",
+      "pixels": [
+        675,
+        1050
+      ],
+      "inches": [
+        2.25,
+        3.5
+      ],
+      "millimeters": [
+        57.15,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        332,
+        524,
+        343,
+        535
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "viridian",
+      "label": "Viridian",
+      "size": "bridge",
+      "archive_path": "cards/backs/bridge/viridian_bridge.png",
+      "sha256": "c9e25364d90035b2cebbe46e0c7e9311c7322660c26870557c3c3022cf8360f5",
+      "source": "cards/backs/bridge/prussian-blue_bridge.png",
+      "source_sha256": "f99ddba560aecb22844d81ed81605b083aad7bb912e627616a13f178afdf7f67",
+      "pixels": [
+        675,
+        1050
+      ],
+      "inches": [
+        2.25,
+        3.5
+      ],
+      "millimeters": [
+        57.15,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        332,
+        524,
+        343,
+        535
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "manganese-violet",
+      "label": "Manganese Violet",
+      "size": "bridge",
+      "archive_path": "cards/backs/bridge/manganese-violet_bridge.png",
+      "sha256": "da693deee7773da1e8a22bc8e031f791f7efa0600668d680776d845855e71a9c",
+      "source": "cards/backs/bridge/prussian-blue_bridge.png",
+      "source_sha256": "f99ddba560aecb22844d81ed81605b083aad7bb912e627616a13f178afdf7f67",
+      "pixels": [
+        675,
+        1050
+      ],
+      "inches": [
+        2.25,
+        3.5
+      ],
+      "millimeters": [
+        57.15,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        332,
+        524,
+        343,
+        535
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "burnt-umber",
+      "label": "Burnt Umber",
+      "size": "bridge",
+      "archive_path": "cards/backs/bridge/burnt-umber_bridge.png",
+      "sha256": "886d02aeebf22dc3d0f03bb2e03b50392eb6a40381ae2dbe029f9cb4477d6ef8",
+      "source": "cards/backs/bridge/prussian-blue_bridge.png",
+      "source_sha256": "f99ddba560aecb22844d81ed81605b083aad7bb912e627616a13f178afdf7f67",
+      "pixels": [
+        675,
+        1050
+      ],
+      "inches": [
+        2.25,
+        3.5
+      ],
+      "millimeters": [
+        57.15,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        332,
+        524,
+        343,
+        535
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "yellow-ochre",
+      "label": "Yellow Ochre",
+      "size": "bridge",
+      "archive_path": "cards/backs/bridge/yellow-ochre_bridge.png",
+      "sha256": "b14b56fd6f5d0ef78a0fd7fc35deaca90b30cc9bbc76c421f3ef0e1fe78aa171",
+      "source": "cards/backs/bridge/prussian-blue_bridge.png",
+      "source_sha256": "f99ddba560aecb22844d81ed81605b083aad7bb912e627616a13f178afdf7f67",
+      "pixels": [
+        675,
+        1050
+      ],
+      "inches": [
+        2.25,
+        3.5
+      ],
+      "millimeters": [
+        57.15,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        332,
+        524,
+        343,
+        535
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "burnt-sienna",
+      "label": "Burnt Sienna",
+      "size": "bridge",
+      "archive_path": "cards/backs/bridge/burnt-sienna_bridge.png",
+      "sha256": "f95f3655d04f5c5f9dc44a39304eb1cc334acdc2f31e4d718f3b8ef27f928730",
+      "source": "cards/backs/bridge/prussian-blue_bridge.png",
+      "source_sha256": "f99ddba560aecb22844d81ed81605b083aad7bb912e627616a13f178afdf7f67",
+      "pixels": [
+        675,
+        1050
+      ],
+      "inches": [
+        2.25,
+        3.5
+      ],
+      "millimeters": [
+        57.15,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        332,
+        524,
+        343,
+        535
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "lamp-black",
+      "label": "Lamp Black",
+      "size": "bridge",
+      "archive_path": "cards/backs/bridge/lamp-black_bridge.png",
+      "sha256": "6e36220945d03e51fb6867fdab1a789425b5b3181707b0f1c0dade7ec9136145",
+      "source": "cards/backs/bridge/prussian-blue_bridge.png",
+      "source_sha256": "f99ddba560aecb22844d81ed81605b083aad7bb912e627616a13f178afdf7f67",
+      "pixels": [
+        675,
+        1050
+      ],
+      "inches": [
+        2.25,
+        3.5
+      ],
+      "millimeters": [
+        57.15,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        332,
+        524,
+        343,
+        535
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "verdigris",
+      "label": "Verdigris",
+      "size": "bridge",
+      "archive_path": "cards/backs/bridge/verdigris_bridge.png",
+      "sha256": "bddd51c49bbf54e9d884e57772020969634495184c68cdaa62341202fd8b2ab7",
+      "source": "cards/backs/bridge/prussian-blue_bridge.png",
+      "source_sha256": "f99ddba560aecb22844d81ed81605b083aad7bb912e627616a13f178afdf7f67",
+      "pixels": [
+        675,
+        1050
+      ],
+      "inches": [
+        2.25,
+        3.5
+      ],
+      "millimeters": [
+        57.15,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        332,
+        524,
+        343,
+        535
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "green-earth",
+      "label": "Green Earth",
+      "size": "bridge",
+      "archive_path": "cards/backs/bridge/green-earth_bridge.png",
+      "sha256": "90e6cf23a2a369d28a54018058d4487fbdd323d146ea409c043edc73058a3dcc",
+      "source": "cards/backs/bridge/prussian-blue_bridge.png",
+      "source_sha256": "f99ddba560aecb22844d81ed81605b083aad7bb912e627616a13f178afdf7f67",
+      "pixels": [
+        675,
+        1050
+      ],
+      "inches": [
+        2.25,
+        3.5
+      ],
+      "millimeters": [
+        57.15,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        332,
+        524,
+        343,
+        535
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "prussian-blue",
+      "label": "Prussian Blue",
+      "size": "european-standard",
+      "archive_path": "cards/backs/european-standard/prussian-blue_european-standard.png",
+      "sha256": "ea1e5cc0cac02a2f0d64db8197748cbbcfada0628f1dc7ae07fe1e89eb245005",
+      "source": "cards/backs/european-standard/prussian-blue_european-standard.png",
+      "source_sha256": "ea1e5cc0cac02a2f0d64db8197748cbbcfada0628f1dc7ae07fe1e89eb245005",
+      "pixels": [
+        696,
+        1074
+      ],
+      "inches": [
+        2.32,
+        3.58
+      ],
+      "millimeters": [
+        58.928,
+        90.932
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        342,
+        536,
+        353,
+        547
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "madder-lake",
+      "label": "Madder Lake",
+      "size": "european-standard",
+      "archive_path": "cards/backs/european-standard/madder-lake_european-standard.png",
+      "sha256": "f7fa5fb792fbb90bfb68d492085b80da8ac7cff313cbde8bc92077bf34afea2d",
+      "source": "cards/backs/european-standard/prussian-blue_european-standard.png",
+      "source_sha256": "ea1e5cc0cac02a2f0d64db8197748cbbcfada0628f1dc7ae07fe1e89eb245005",
+      "pixels": [
+        696,
+        1074
+      ],
+      "inches": [
+        2.32,
+        3.58
+      ],
+      "millimeters": [
+        58.928,
+        90.932
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        342,
+        536,
+        353,
+        547
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "viridian",
+      "label": "Viridian",
+      "size": "european-standard",
+      "archive_path": "cards/backs/european-standard/viridian_european-standard.png",
+      "sha256": "9d345251a00f72113d79ae7c851392b40e3456ea9c9bba8c5e56ea5b552c1914",
+      "source": "cards/backs/european-standard/prussian-blue_european-standard.png",
+      "source_sha256": "ea1e5cc0cac02a2f0d64db8197748cbbcfada0628f1dc7ae07fe1e89eb245005",
+      "pixels": [
+        696,
+        1074
+      ],
+      "inches": [
+        2.32,
+        3.58
+      ],
+      "millimeters": [
+        58.928,
+        90.932
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        342,
+        536,
+        353,
+        547
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "manganese-violet",
+      "label": "Manganese Violet",
+      "size": "european-standard",
+      "archive_path": "cards/backs/european-standard/manganese-violet_european-standard.png",
+      "sha256": "bad6ec59cbbc230a3bd0628b495ecc474ea42db8730e4051e38d25c6d19eb040",
+      "source": "cards/backs/european-standard/prussian-blue_european-standard.png",
+      "source_sha256": "ea1e5cc0cac02a2f0d64db8197748cbbcfada0628f1dc7ae07fe1e89eb245005",
+      "pixels": [
+        696,
+        1074
+      ],
+      "inches": [
+        2.32,
+        3.58
+      ],
+      "millimeters": [
+        58.928,
+        90.932
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        342,
+        536,
+        353,
+        547
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "burnt-umber",
+      "label": "Burnt Umber",
+      "size": "european-standard",
+      "archive_path": "cards/backs/european-standard/burnt-umber_european-standard.png",
+      "sha256": "163bd60b29829c9fee662be925d71713482f0132a0b01f389164b684239ea459",
+      "source": "cards/backs/european-standard/prussian-blue_european-standard.png",
+      "source_sha256": "ea1e5cc0cac02a2f0d64db8197748cbbcfada0628f1dc7ae07fe1e89eb245005",
+      "pixels": [
+        696,
+        1074
+      ],
+      "inches": [
+        2.32,
+        3.58
+      ],
+      "millimeters": [
+        58.928,
+        90.932
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        342,
+        536,
+        353,
+        547
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "yellow-ochre",
+      "label": "Yellow Ochre",
+      "size": "european-standard",
+      "archive_path": "cards/backs/european-standard/yellow-ochre_european-standard.png",
+      "sha256": "f5130c0a0b6da40f52af3a385dde564f4c474693143ef20c5b3bb60b008ce37e",
+      "source": "cards/backs/european-standard/prussian-blue_european-standard.png",
+      "source_sha256": "ea1e5cc0cac02a2f0d64db8197748cbbcfada0628f1dc7ae07fe1e89eb245005",
+      "pixels": [
+        696,
+        1074
+      ],
+      "inches": [
+        2.32,
+        3.58
+      ],
+      "millimeters": [
+        58.928,
+        90.932
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        342,
+        536,
+        353,
+        547
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "burnt-sienna",
+      "label": "Burnt Sienna",
+      "size": "european-standard",
+      "archive_path": "cards/backs/european-standard/burnt-sienna_european-standard.png",
+      "sha256": "aac136517ccf8b21ae6164b9481fc98e8b932d93c55bef05711382c61a2e0e4b",
+      "source": "cards/backs/european-standard/prussian-blue_european-standard.png",
+      "source_sha256": "ea1e5cc0cac02a2f0d64db8197748cbbcfada0628f1dc7ae07fe1e89eb245005",
+      "pixels": [
+        696,
+        1074
+      ],
+      "inches": [
+        2.32,
+        3.58
+      ],
+      "millimeters": [
+        58.928,
+        90.932
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        342,
+        536,
+        353,
+        547
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "lamp-black",
+      "label": "Lamp Black",
+      "size": "european-standard",
+      "archive_path": "cards/backs/european-standard/lamp-black_european-standard.png",
+      "sha256": "52d2d9d763ad5cdd3acbd3219cc9dbff318ab70646e5afc41918b670f277e2d0",
+      "source": "cards/backs/european-standard/prussian-blue_european-standard.png",
+      "source_sha256": "ea1e5cc0cac02a2f0d64db8197748cbbcfada0628f1dc7ae07fe1e89eb245005",
+      "pixels": [
+        696,
+        1074
+      ],
+      "inches": [
+        2.32,
+        3.58
+      ],
+      "millimeters": [
+        58.928,
+        90.932
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        342,
+        536,
+        353,
+        547
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "verdigris",
+      "label": "Verdigris",
+      "size": "european-standard",
+      "archive_path": "cards/backs/european-standard/verdigris_european-standard.png",
+      "sha256": "72c5d829f0cd87f93c6d524e7ab3aa699c7ae71d99aa5339d711969265133cdb",
+      "source": "cards/backs/european-standard/prussian-blue_european-standard.png",
+      "source_sha256": "ea1e5cc0cac02a2f0d64db8197748cbbcfada0628f1dc7ae07fe1e89eb245005",
+      "pixels": [
+        696,
+        1074
+      ],
+      "inches": [
+        2.32,
+        3.58
+      ],
+      "millimeters": [
+        58.928,
+        90.932
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        342,
+        536,
+        353,
+        547
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "green-earth",
+      "label": "Green Earth",
+      "size": "european-standard",
+      "archive_path": "cards/backs/european-standard/green-earth_european-standard.png",
+      "sha256": "db2bef9ec0ec5752f83f44cd7ce1f9d517f72415ed496bd40b0c117dcddba032",
+      "source": "cards/backs/european-standard/prussian-blue_european-standard.png",
+      "source_sha256": "ea1e5cc0cac02a2f0d64db8197748cbbcfada0628f1dc7ae07fe1e89eb245005",
+      "pixels": [
+        696,
+        1074
+      ],
+      "inches": [
+        2.32,
+        3.58
+      ],
+      "millimeters": [
+        58.928,
+        90.932
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        342,
+        536,
+        353,
+        547
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "prussian-blue",
+      "label": "Prussian Blue",
+      "size": "jumbo",
+      "archive_path": "cards/backs/jumbo/prussian-blue_jumbo.png",
+      "sha256": "facffc2bee0f4a1f5c5a7196fd5ba6114338feeb90e0fddbc364d2e9d145e20c",
+      "source": "cards/backs/jumbo/prussian-blue_jumbo.png",
+      "source_sha256": "facffc2bee0f4a1f5c5a7196fd5ba6114338feeb90e0fddbc364d2e9d145e20c",
+      "pixels": [
+        1050,
+        1500
+      ],
+      "inches": [
+        3.5,
+        5.0
+      ],
+      "millimeters": [
+        88.9,
+        127.0
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        520,
+        742,
+        531,
+        753
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "madder-lake",
+      "label": "Madder Lake",
+      "size": "jumbo",
+      "archive_path": "cards/backs/jumbo/madder-lake_jumbo.png",
+      "sha256": "427f4e7afc3cb4ca390404c50c29b2ddf8120875cef52959c5e45a473fd7dc5e",
+      "source": "cards/backs/jumbo/prussian-blue_jumbo.png",
+      "source_sha256": "facffc2bee0f4a1f5c5a7196fd5ba6114338feeb90e0fddbc364d2e9d145e20c",
+      "pixels": [
+        1050,
+        1500
+      ],
+      "inches": [
+        3.5,
+        5.0
+      ],
+      "millimeters": [
+        88.9,
+        127.0
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        520,
+        742,
+        531,
+        753
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "viridian",
+      "label": "Viridian",
+      "size": "jumbo",
+      "archive_path": "cards/backs/jumbo/viridian_jumbo.png",
+      "sha256": "7bcaedfc3f793fce34a3dadf45cea57574099d5d64f9714b84fd23f41a2792b2",
+      "source": "cards/backs/jumbo/prussian-blue_jumbo.png",
+      "source_sha256": "facffc2bee0f4a1f5c5a7196fd5ba6114338feeb90e0fddbc364d2e9d145e20c",
+      "pixels": [
+        1050,
+        1500
+      ],
+      "inches": [
+        3.5,
+        5.0
+      ],
+      "millimeters": [
+        88.9,
+        127.0
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        520,
+        742,
+        531,
+        753
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "manganese-violet",
+      "label": "Manganese Violet",
+      "size": "jumbo",
+      "archive_path": "cards/backs/jumbo/manganese-violet_jumbo.png",
+      "sha256": "94ebae9cf317e54326bec2661ac4313bc82d66535b157676afa5fba2524d2101",
+      "source": "cards/backs/jumbo/prussian-blue_jumbo.png",
+      "source_sha256": "facffc2bee0f4a1f5c5a7196fd5ba6114338feeb90e0fddbc364d2e9d145e20c",
+      "pixels": [
+        1050,
+        1500
+      ],
+      "inches": [
+        3.5,
+        5.0
+      ],
+      "millimeters": [
+        88.9,
+        127.0
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        520,
+        742,
+        531,
+        753
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "burnt-umber",
+      "label": "Burnt Umber",
+      "size": "jumbo",
+      "archive_path": "cards/backs/jumbo/burnt-umber_jumbo.png",
+      "sha256": "6ede8b27ab3d39ed20311ffb35bfd6dd82bb14bb3c3db6daca16054d0e152b08",
+      "source": "cards/backs/jumbo/prussian-blue_jumbo.png",
+      "source_sha256": "facffc2bee0f4a1f5c5a7196fd5ba6114338feeb90e0fddbc364d2e9d145e20c",
+      "pixels": [
+        1050,
+        1500
+      ],
+      "inches": [
+        3.5,
+        5.0
+      ],
+      "millimeters": [
+        88.9,
+        127.0
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        520,
+        742,
+        531,
+        753
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "yellow-ochre",
+      "label": "Yellow Ochre",
+      "size": "jumbo",
+      "archive_path": "cards/backs/jumbo/yellow-ochre_jumbo.png",
+      "sha256": "8f4dbb8e72b96c74cf115a076f834c7ff5fe820b68f9f13695b6005e1b95a00f",
+      "source": "cards/backs/jumbo/prussian-blue_jumbo.png",
+      "source_sha256": "facffc2bee0f4a1f5c5a7196fd5ba6114338feeb90e0fddbc364d2e9d145e20c",
+      "pixels": [
+        1050,
+        1500
+      ],
+      "inches": [
+        3.5,
+        5.0
+      ],
+      "millimeters": [
+        88.9,
+        127.0
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        520,
+        742,
+        531,
+        753
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "burnt-sienna",
+      "label": "Burnt Sienna",
+      "size": "jumbo",
+      "archive_path": "cards/backs/jumbo/burnt-sienna_jumbo.png",
+      "sha256": "fdc5ff887f6a80c64405e7b17216feeac7e1aa07745ad6e4299558832350ebd2",
+      "source": "cards/backs/jumbo/prussian-blue_jumbo.png",
+      "source_sha256": "facffc2bee0f4a1f5c5a7196fd5ba6114338feeb90e0fddbc364d2e9d145e20c",
+      "pixels": [
+        1050,
+        1500
+      ],
+      "inches": [
+        3.5,
+        5.0
+      ],
+      "millimeters": [
+        88.9,
+        127.0
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        520,
+        742,
+        531,
+        753
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "lamp-black",
+      "label": "Lamp Black",
+      "size": "jumbo",
+      "archive_path": "cards/backs/jumbo/lamp-black_jumbo.png",
+      "sha256": "9224b2d4d8bdf2784561d8344b555f7e20282a815d5926b8ee5cec61c52a7055",
+      "source": "cards/backs/jumbo/prussian-blue_jumbo.png",
+      "source_sha256": "facffc2bee0f4a1f5c5a7196fd5ba6114338feeb90e0fddbc364d2e9d145e20c",
+      "pixels": [
+        1050,
+        1500
+      ],
+      "inches": [
+        3.5,
+        5.0
+      ],
+      "millimeters": [
+        88.9,
+        127.0
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        520,
+        742,
+        531,
+        753
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "verdigris",
+      "label": "Verdigris",
+      "size": "jumbo",
+      "archive_path": "cards/backs/jumbo/verdigris_jumbo.png",
+      "sha256": "c3f0bb636510fc0e2975f1f73c7e7a8f2e9a0b1e37a32ebba772a56cd537d468",
+      "source": "cards/backs/jumbo/prussian-blue_jumbo.png",
+      "source_sha256": "facffc2bee0f4a1f5c5a7196fd5ba6114338feeb90e0fddbc364d2e9d145e20c",
+      "pixels": [
+        1050,
+        1500
+      ],
+      "inches": [
+        3.5,
+        5.0
+      ],
+      "millimeters": [
+        88.9,
+        127.0
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        520,
+        742,
+        531,
+        753
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "green-earth",
+      "label": "Green Earth",
+      "size": "jumbo",
+      "archive_path": "cards/backs/jumbo/green-earth_jumbo.png",
+      "sha256": "b8d616557c257d5706dfaf6e9b3a8e8c6275194e95d2c88f6e9710c961723b67",
+      "source": "cards/backs/jumbo/prussian-blue_jumbo.png",
+      "source_sha256": "facffc2bee0f4a1f5c5a7196fd5ba6114338feeb90e0fddbc364d2e9d145e20c",
+      "pixels": [
+        1050,
+        1500
+      ],
+      "inches": [
+        3.5,
+        5.0
+      ],
+      "millimeters": [
+        88.9,
+        127.0
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        520,
+        742,
+        531,
+        753
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "prussian-blue",
+      "label": "Prussian Blue",
+      "size": "poker",
+      "archive_path": "cards/backs/poker/prussian-blue_poker.png",
+      "sha256": "afaa6d4d785d97276a6a065c41de3d8976364e8cac3d3d719690cfbd77c1e80c",
+      "source": "cards/backs/poker/prussian-blue_poker.png",
+      "source_sha256": "afaa6d4d785d97276a6a065c41de3d8976364e8cac3d3d719690cfbd77c1e80c",
+      "pixels": [
+        750,
+        1050
+      ],
+      "inches": [
+        2.5,
+        3.5
+      ],
+      "millimeters": [
+        63.5,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        369,
+        517,
+        380,
+        528
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "madder-lake",
+      "label": "Madder Lake",
+      "size": "poker",
+      "archive_path": "cards/backs/poker/madder-lake_poker.png",
+      "sha256": "24337ad049d6a2c6535357c6251ea71aa304c1822289f29ff7c3bc063a1c4646",
+      "source": "cards/backs/poker/prussian-blue_poker.png",
+      "source_sha256": "afaa6d4d785d97276a6a065c41de3d8976364e8cac3d3d719690cfbd77c1e80c",
+      "pixels": [
+        750,
+        1050
+      ],
+      "inches": [
+        2.5,
+        3.5
+      ],
+      "millimeters": [
+        63.5,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        369,
+        517,
+        380,
+        528
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "viridian",
+      "label": "Viridian",
+      "size": "poker",
+      "archive_path": "cards/backs/poker/viridian_poker.png",
+      "sha256": "fca99d9f3fa200ae96f3d52b1d7a1c89b4f4727705a41874cc7d2b650aea59f7",
+      "source": "cards/backs/poker/prussian-blue_poker.png",
+      "source_sha256": "afaa6d4d785d97276a6a065c41de3d8976364e8cac3d3d719690cfbd77c1e80c",
+      "pixels": [
+        750,
+        1050
+      ],
+      "inches": [
+        2.5,
+        3.5
+      ],
+      "millimeters": [
+        63.5,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        369,
+        517,
+        380,
+        528
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "manganese-violet",
+      "label": "Manganese Violet",
+      "size": "poker",
+      "archive_path": "cards/backs/poker/manganese-violet_poker.png",
+      "sha256": "70c1061f125c1c0391a0491eb003d783cf0bfe940baf5e6750e52341f9c0be07",
+      "source": "cards/backs/poker/prussian-blue_poker.png",
+      "source_sha256": "afaa6d4d785d97276a6a065c41de3d8976364e8cac3d3d719690cfbd77c1e80c",
+      "pixels": [
+        750,
+        1050
+      ],
+      "inches": [
+        2.5,
+        3.5
+      ],
+      "millimeters": [
+        63.5,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        369,
+        517,
+        380,
+        528
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "burnt-umber",
+      "label": "Burnt Umber",
+      "size": "poker",
+      "archive_path": "cards/backs/poker/burnt-umber_poker.png",
+      "sha256": "b1b338ea24d2f6891234ccbf0543684070e2638d21af81b35034bf07d6bcca26",
+      "source": "cards/backs/poker/prussian-blue_poker.png",
+      "source_sha256": "afaa6d4d785d97276a6a065c41de3d8976364e8cac3d3d719690cfbd77c1e80c",
+      "pixels": [
+        750,
+        1050
+      ],
+      "inches": [
+        2.5,
+        3.5
+      ],
+      "millimeters": [
+        63.5,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        369,
+        517,
+        380,
+        528
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "yellow-ochre",
+      "label": "Yellow Ochre",
+      "size": "poker",
+      "archive_path": "cards/backs/poker/yellow-ochre_poker.png",
+      "sha256": "78bfa2fd1a243c302050a25e90cc024c58864253d09f210fdd1195da8efd7ce2",
+      "source": "cards/backs/poker/prussian-blue_poker.png",
+      "source_sha256": "afaa6d4d785d97276a6a065c41de3d8976364e8cac3d3d719690cfbd77c1e80c",
+      "pixels": [
+        750,
+        1050
+      ],
+      "inches": [
+        2.5,
+        3.5
+      ],
+      "millimeters": [
+        63.5,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        369,
+        517,
+        380,
+        528
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "burnt-sienna",
+      "label": "Burnt Sienna",
+      "size": "poker",
+      "archive_path": "cards/backs/poker/burnt-sienna_poker.png",
+      "sha256": "237cc46c9df71672352c0dc1018fdf4bc5773b030599b14846797ce73561e764",
+      "source": "cards/backs/poker/prussian-blue_poker.png",
+      "source_sha256": "afaa6d4d785d97276a6a065c41de3d8976364e8cac3d3d719690cfbd77c1e80c",
+      "pixels": [
+        750,
+        1050
+      ],
+      "inches": [
+        2.5,
+        3.5
+      ],
+      "millimeters": [
+        63.5,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        369,
+        517,
+        380,
+        528
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "lamp-black",
+      "label": "Lamp Black",
+      "size": "poker",
+      "archive_path": "cards/backs/poker/lamp-black_poker.png",
+      "sha256": "bc6c21b8ed0d0461088567d0642b3c0267ec081199f359f99bd707cca2ddcefb",
+      "source": "cards/backs/poker/prussian-blue_poker.png",
+      "source_sha256": "afaa6d4d785d97276a6a065c41de3d8976364e8cac3d3d719690cfbd77c1e80c",
+      "pixels": [
+        750,
+        1050
+      ],
+      "inches": [
+        2.5,
+        3.5
+      ],
+      "millimeters": [
+        63.5,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        369,
+        517,
+        380,
+        528
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "verdigris",
+      "label": "Verdigris",
+      "size": "poker",
+      "archive_path": "cards/backs/poker/verdigris_poker.png",
+      "sha256": "2408f5dacff2ec24197a1cfb25863cfa0a90cc9942eda65f64270569e0daedec",
+      "source": "cards/backs/poker/prussian-blue_poker.png",
+      "source_sha256": "afaa6d4d785d97276a6a065c41de3d8976364e8cac3d3d719690cfbd77c1e80c",
+      "pixels": [
+        750,
+        1050
+      ],
+      "inches": [
+        2.5,
+        3.5
+      ],
+      "millimeters": [
+        63.5,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        369,
+        517,
+        380,
+        528
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "green-earth",
+      "label": "Green Earth",
+      "size": "poker",
+      "archive_path": "cards/backs/poker/green-earth_poker.png",
+      "sha256": "8ee32d2f8aa9279cc9c8292e683cac5ab8c50df640dbab2b4b8b6c9c2bddc8dc",
+      "source": "cards/backs/poker/prussian-blue_poker.png",
+      "source_sha256": "afaa6d4d785d97276a6a065c41de3d8976364e8cac3d3d719690cfbd77c1e80c",
+      "pixels": [
+        750,
+        1050
+      ],
+      "inches": [
+        2.5,
+        3.5
+      ],
+      "millimeters": [
+        63.5,
+        88.9
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        369,
+        517,
+        380,
+        528
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "prussian-blue",
+      "label": "Prussian Blue",
+      "size": "tarot",
+      "archive_path": "cards/backs/tarot/prussian-blue_tarot.png",
+      "sha256": "f8cfd50e3f095d7893739fe2485c6544daa48891fa17d68c0e2c49dcc720a104",
+      "source": "cards/backs/tarot/prussian-blue_tarot.png",
+      "source_sha256": "f8cfd50e3f095d7893739fe2485c6544daa48891fa17d68c0e2c49dcc720a104",
+      "pixels": [
+        825,
+        1425
+      ],
+      "inches": [
+        2.75,
+        4.75
+      ],
+      "millimeters": [
+        69.85,
+        120.65
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        407,
+        680,
+        418,
+        691
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "madder-lake",
+      "label": "Madder Lake",
+      "size": "tarot",
+      "archive_path": "cards/backs/tarot/madder-lake_tarot.png",
+      "sha256": "d29cf9f9f05f90bdca6929f9ac9f35b879678df77735ce3ba954fc34ab87e9a5",
+      "source": "cards/backs/tarot/prussian-blue_tarot.png",
+      "source_sha256": "f8cfd50e3f095d7893739fe2485c6544daa48891fa17d68c0e2c49dcc720a104",
+      "pixels": [
+        825,
+        1425
+      ],
+      "inches": [
+        2.75,
+        4.75
+      ],
+      "millimeters": [
+        69.85,
+        120.65
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        407,
+        680,
+        418,
+        691
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "viridian",
+      "label": "Viridian",
+      "size": "tarot",
+      "archive_path": "cards/backs/tarot/viridian_tarot.png",
+      "sha256": "72f8bf373737c8d1169dec9c735147c02e4b307c9113cbcec321911446e6de7a",
+      "source": "cards/backs/tarot/prussian-blue_tarot.png",
+      "source_sha256": "f8cfd50e3f095d7893739fe2485c6544daa48891fa17d68c0e2c49dcc720a104",
+      "pixels": [
+        825,
+        1425
+      ],
+      "inches": [
+        2.75,
+        4.75
+      ],
+      "millimeters": [
+        69.85,
+        120.65
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        407,
+        680,
+        418,
+        691
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "manganese-violet",
+      "label": "Manganese Violet",
+      "size": "tarot",
+      "archive_path": "cards/backs/tarot/manganese-violet_tarot.png",
+      "sha256": "446ba9a5770d7437bf39a295b9da1b705ac8aae6a7066f5b607b12b9c55f9b4b",
+      "source": "cards/backs/tarot/prussian-blue_tarot.png",
+      "source_sha256": "f8cfd50e3f095d7893739fe2485c6544daa48891fa17d68c0e2c49dcc720a104",
+      "pixels": [
+        825,
+        1425
+      ],
+      "inches": [
+        2.75,
+        4.75
+      ],
+      "millimeters": [
+        69.85,
+        120.65
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        407,
+        680,
+        418,
+        691
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "burnt-umber",
+      "label": "Burnt Umber",
+      "size": "tarot",
+      "archive_path": "cards/backs/tarot/burnt-umber_tarot.png",
+      "sha256": "d1311880a88e32e79434fbd4e1f7ba46af16a9adb571b096b0a0c789dd0171ef",
+      "source": "cards/backs/tarot/prussian-blue_tarot.png",
+      "source_sha256": "f8cfd50e3f095d7893739fe2485c6544daa48891fa17d68c0e2c49dcc720a104",
+      "pixels": [
+        825,
+        1425
+      ],
+      "inches": [
+        2.75,
+        4.75
+      ],
+      "millimeters": [
+        69.85,
+        120.65
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        407,
+        680,
+        418,
+        691
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "yellow-ochre",
+      "label": "Yellow Ochre",
+      "size": "tarot",
+      "archive_path": "cards/backs/tarot/yellow-ochre_tarot.png",
+      "sha256": "ea5fa2bf8ab238384942ff7e03123eb0b63e8f8161f0281efec6f55d41b27e75",
+      "source": "cards/backs/tarot/prussian-blue_tarot.png",
+      "source_sha256": "f8cfd50e3f095d7893739fe2485c6544daa48891fa17d68c0e2c49dcc720a104",
+      "pixels": [
+        825,
+        1425
+      ],
+      "inches": [
+        2.75,
+        4.75
+      ],
+      "millimeters": [
+        69.85,
+        120.65
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        407,
+        680,
+        418,
+        691
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "burnt-sienna",
+      "label": "Burnt Sienna",
+      "size": "tarot",
+      "archive_path": "cards/backs/tarot/burnt-sienna_tarot.png",
+      "sha256": "accfa9377a9780f7f80e1a726076874a8a523eb292c4e83e4b8459f13ce8ba38",
+      "source": "cards/backs/tarot/prussian-blue_tarot.png",
+      "source_sha256": "f8cfd50e3f095d7893739fe2485c6544daa48891fa17d68c0e2c49dcc720a104",
+      "pixels": [
+        825,
+        1425
+      ],
+      "inches": [
+        2.75,
+        4.75
+      ],
+      "millimeters": [
+        69.85,
+        120.65
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        407,
+        680,
+        418,
+        691
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "lamp-black",
+      "label": "Lamp Black",
+      "size": "tarot",
+      "archive_path": "cards/backs/tarot/lamp-black_tarot.png",
+      "sha256": "3058e15157a0c237666bdf109edee8f25c1030d604019551667d2dadfedd991a",
+      "source": "cards/backs/tarot/prussian-blue_tarot.png",
+      "source_sha256": "f8cfd50e3f095d7893739fe2485c6544daa48891fa17d68c0e2c49dcc720a104",
+      "pixels": [
+        825,
+        1425
+      ],
+      "inches": [
+        2.75,
+        4.75
+      ],
+      "millimeters": [
+        69.85,
+        120.65
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        407,
+        680,
+        418,
+        691
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "verdigris",
+      "label": "Verdigris",
+      "size": "tarot",
+      "archive_path": "cards/backs/tarot/verdigris_tarot.png",
+      "sha256": "735b337de0bb3626dcd7e111e1b7f817cbcda38344ff8b1f04f43a5d25540eb2",
+      "source": "cards/backs/tarot/prussian-blue_tarot.png",
+      "source_sha256": "f8cfd50e3f095d7893739fe2485c6544daa48891fa17d68c0e2c49dcc720a104",
+      "pixels": [
+        825,
+        1425
+      ],
+      "inches": [
+        2.75,
+        4.75
+      ],
+      "millimeters": [
+        69.85,
+        120.65
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        407,
+        680,
+        418,
+        691
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "green-earth",
+      "label": "Green Earth",
+      "size": "tarot",
+      "archive_path": "cards/backs/tarot/green-earth_tarot.png",
+      "sha256": "6f576c76116f4ddf11fe0c87c9ed0b8f74d7f4f106659bb91275b10bd892f5ae",
+      "source": "cards/backs/tarot/prussian-blue_tarot.png",
+      "source_sha256": "f8cfd50e3f095d7893739fe2485c6544daa48891fa17d68c0e2c49dcc720a104",
+      "pixels": [
+        825,
+        1425
+      ],
+      "inches": [
+        2.75,
+        4.75
+      ],
+      "millimeters": [
+        69.85,
+        120.65
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        407,
+        680,
+        418,
+        691
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "prussian-blue",
+      "label": "Prussian Blue",
+      "size": "travel",
+      "archive_path": "cards/backs/travel/prussian-blue_travel.png",
+      "sha256": "e94290d0e6d61975a1ac71e0f97a1a031fb307fc86ff6467d75ea0be8515dd80",
+      "source": "cards/backs/travel/prussian-blue_travel.png",
+      "source_sha256": "e94290d0e6d61975a1ac71e0f97a1a031fb307fc86ff6467d75ea0be8515dd80",
+      "pixels": [
+        525,
+        750
+      ],
+      "inches": [
+        1.75,
+        2.5
+      ],
+      "millimeters": [
+        44.45,
+        63.5
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        257,
+        370,
+        268,
+        381
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "madder-lake",
+      "label": "Madder Lake",
+      "size": "travel",
+      "archive_path": "cards/backs/travel/madder-lake_travel.png",
+      "sha256": "71a82e7af4799af2a8a2c774499c6719c1345c946eb668150b457d3fd38e9e3c",
+      "source": "cards/backs/travel/prussian-blue_travel.png",
+      "source_sha256": "e94290d0e6d61975a1ac71e0f97a1a031fb307fc86ff6467d75ea0be8515dd80",
+      "pixels": [
+        525,
+        750
+      ],
+      "inches": [
+        1.75,
+        2.5
+      ],
+      "millimeters": [
+        44.45,
+        63.5
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        257,
+        370,
+        268,
+        381
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "viridian",
+      "label": "Viridian",
+      "size": "travel",
+      "archive_path": "cards/backs/travel/viridian_travel.png",
+      "sha256": "3fd5e4668039e9ff6d81b3af55129298c19771e2ef51d3610b942424ce5d3ed0",
+      "source": "cards/backs/travel/prussian-blue_travel.png",
+      "source_sha256": "e94290d0e6d61975a1ac71e0f97a1a031fb307fc86ff6467d75ea0be8515dd80",
+      "pixels": [
+        525,
+        750
+      ],
+      "inches": [
+        1.75,
+        2.5
+      ],
+      "millimeters": [
+        44.45,
+        63.5
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        257,
+        370,
+        268,
+        381
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "manganese-violet",
+      "label": "Manganese Violet",
+      "size": "travel",
+      "archive_path": "cards/backs/travel/manganese-violet_travel.png",
+      "sha256": "522e316b7f7783ac4ad069e8ec8ce39d56ae9bc75194b5fec389366e65533d2c",
+      "source": "cards/backs/travel/prussian-blue_travel.png",
+      "source_sha256": "e94290d0e6d61975a1ac71e0f97a1a031fb307fc86ff6467d75ea0be8515dd80",
+      "pixels": [
+        525,
+        750
+      ],
+      "inches": [
+        1.75,
+        2.5
+      ],
+      "millimeters": [
+        44.45,
+        63.5
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        257,
+        370,
+        268,
+        381
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "burnt-umber",
+      "label": "Burnt Umber",
+      "size": "travel",
+      "archive_path": "cards/backs/travel/burnt-umber_travel.png",
+      "sha256": "5d2c70276a0f7a7863c0bc2be8897bf04a4705940d99d7fc580f4a9d106fca8e",
+      "source": "cards/backs/travel/prussian-blue_travel.png",
+      "source_sha256": "e94290d0e6d61975a1ac71e0f97a1a031fb307fc86ff6467d75ea0be8515dd80",
+      "pixels": [
+        525,
+        750
+      ],
+      "inches": [
+        1.75,
+        2.5
+      ],
+      "millimeters": [
+        44.45,
+        63.5
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        257,
+        370,
+        268,
+        381
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "yellow-ochre",
+      "label": "Yellow Ochre",
+      "size": "travel",
+      "archive_path": "cards/backs/travel/yellow-ochre_travel.png",
+      "sha256": "2ee39108b95c12128ca2880f8ace94fa3862473d6e91c8280b63c397202a12f8",
+      "source": "cards/backs/travel/prussian-blue_travel.png",
+      "source_sha256": "e94290d0e6d61975a1ac71e0f97a1a031fb307fc86ff6467d75ea0be8515dd80",
+      "pixels": [
+        525,
+        750
+      ],
+      "inches": [
+        1.75,
+        2.5
+      ],
+      "millimeters": [
+        44.45,
+        63.5
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        257,
+        370,
+        268,
+        381
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "burnt-sienna",
+      "label": "Burnt Sienna",
+      "size": "travel",
+      "archive_path": "cards/backs/travel/burnt-sienna_travel.png",
+      "sha256": "b40a6404fd0919412eaf67b440c3a1fdc2d4df1ad7979cb8f2f8cac09e916871",
+      "source": "cards/backs/travel/prussian-blue_travel.png",
+      "source_sha256": "e94290d0e6d61975a1ac71e0f97a1a031fb307fc86ff6467d75ea0be8515dd80",
+      "pixels": [
+        525,
+        750
+      ],
+      "inches": [
+        1.75,
+        2.5
+      ],
+      "millimeters": [
+        44.45,
+        63.5
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        257,
+        370,
+        268,
+        381
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "lamp-black",
+      "label": "Lamp Black",
+      "size": "travel",
+      "archive_path": "cards/backs/travel/lamp-black_travel.png",
+      "sha256": "56238ea442585f9e3a7088400af3b2dfafe1068cf7be0a10582f1531e8e7b307",
+      "source": "cards/backs/travel/prussian-blue_travel.png",
+      "source_sha256": "e94290d0e6d61975a1ac71e0f97a1a031fb307fc86ff6467d75ea0be8515dd80",
+      "pixels": [
+        525,
+        750
+      ],
+      "inches": [
+        1.75,
+        2.5
+      ],
+      "millimeters": [
+        44.45,
+        63.5
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        257,
+        370,
+        268,
+        381
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "verdigris",
+      "label": "Verdigris",
+      "size": "travel",
+      "archive_path": "cards/backs/travel/verdigris_travel.png",
+      "sha256": "c8b09b33746215b1e3f90cd69415bc67a63e8fbb03825f5b05c4c37e14750923",
+      "source": "cards/backs/travel/prussian-blue_travel.png",
+      "source_sha256": "e94290d0e6d61975a1ac71e0f97a1a031fb307fc86ff6467d75ea0be8515dd80",
+      "pixels": [
+        525,
+        750
+      ],
+      "inches": [
+        1.75,
+        2.5
+      ],
+      "millimeters": [
+        44.45,
+        63.5
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        257,
+        370,
+        268,
+        381
+      ],
+      "checks_passed": true
+    },
+    {
+      "color": "green-earth",
+      "label": "Green Earth",
+      "size": "travel",
+      "archive_path": "cards/backs/travel/green-earth_travel.png",
+      "sha256": "c4b0114c4491544ef55d0089d76b363dbcb1e236083ed6d78fe9b9f7aab32740",
+      "source": "cards/backs/travel/prussian-blue_travel.png",
+      "source_sha256": "e94290d0e6d61975a1ac71e0f97a1a031fb307fc86ff6467d75ea0be8515dd80",
+      "pixels": [
+        525,
+        750
+      ],
+      "inches": [
+        1.75,
+        2.5
+      ],
+      "millimeters": [
+        44.45,
+        63.5
+      ],
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "checks": {
+        "dimensions_match": true,
+        "dpi_matches": true,
+        "matches_palette_pixel_for_pixel": true,
+        "nonblue_pixels_unchanged": true,
+        "central_dot_patch_identical": true,
+        "alpha_unchanged": true
+      },
+      "central_dot_check_box_xyxy_exclusive": [
+        257,
+        370,
+        268,
+        381
+      ],
+      "checks_passed": true
+    }
+  ]
+}
