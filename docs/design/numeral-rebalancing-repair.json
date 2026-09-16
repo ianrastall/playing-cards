@@ -1,0 +1,808 @@
+{
+  "schema_version": 1,
+  "canvas": [
+    750,
+    1050
+  ],
+  "nominal_dpi": 300,
+  "repair_of": "docs/design/numeral-rebalancing.json",
+  "target_pip_layout_anchor": [
+    375,
+    525
+  ],
+  "coordinate_basis": "zero-based rounded chroma-weighted mean of all turquoise pip-jewel centroids",
+  "method": "non-wrapping whole-pixel translation from preserved originals; original pixels retained in exposed strips and fixed cartouches; shared numeral border copied under the established border mask",
+  "template_source": "cards/faces/french-suited/poker/spades/10.png",
+  "template_sha256": "7019b5ec0e9a6e78ce87ba134ceaa4768207d30a03e78e5563aacdcebc61ce7c",
+  "border_mask": "scripts.align_courts.border_mask",
+  "movable_field_xyxy": [
+    75,
+    72,
+    675,
+    967
+  ],
+  "fixed_cartouches_xyxy": [
+    [
+      28,
+      44,
+      132,
+      290
+    ],
+    [
+      618,
+      760,
+      722,
+      1008
+    ]
+  ],
+  "cards": [
+    {
+      "path": "cards/faces/french-suited/poker/spades/2.png",
+      "rank": "2",
+      "backup": "sources/before-numeral-rebalancing/poker/spades/2.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/spades/2.png",
+      "shift_xy": [
+        1,
+        1
+      ],
+      "original_sha256": "cb1a985c970ca1b6a6f58d7bfd3e153b74fcf8d71fc1b823b7d85a036bdf1387",
+      "initial_glitched_sha256": "bc9ae5220c90b51261360b0882f0e4d14e29a79bafdbdab47b74968f9f5b0652",
+      "repaired_sha256": "0ac62a1029a14601f8bb70400d54c242395d50fac2d7dc7f883fe4d5c56526cb",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.274843,
+        524.958807
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/3.png",
+      "rank": "3",
+      "backup": "sources/before-numeral-rebalancing/poker/spades/3.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/spades/3.png",
+      "shift_xy": [
+        1,
+        19
+      ],
+      "original_sha256": "ebe9511e948bfad28b5b64a9067a0a11f295f506f005293603ebfc461162872e",
+      "initial_glitched_sha256": "a45ab4368a1edd35db779f7c47fa42ff23dc8fd2e9937bb27e3600e31d056f4d",
+      "repaired_sha256": "2e152a8c657ed41a619ce6cd4f9918fa4c852ffa037dae54fab42056cc7151b6",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.127252,
+        525.204207
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/4.png",
+      "rank": "4",
+      "backup": "sources/before-numeral-rebalancing/poker/spades/4.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/spades/4.png",
+      "shift_xy": [
+        1,
+        -7
+      ],
+      "original_sha256": "49c0929571618a01be2e62bf8f821200cd0348baf6d270e9606b34b1921f570f",
+      "initial_glitched_sha256": "79ead9385e36aa4398f0aee0f01cba6a316d434984c0bbc7e2f94c7a4235d7cb",
+      "repaired_sha256": "ea7ee790c64cfd67e92717e068105f22c7320fa708383d8ffa8c1989437817f0",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.338773,
+        525.311453
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/5.png",
+      "rank": "5",
+      "backup": "sources/before-numeral-rebalancing/poker/spades/5.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/spades/5.png",
+      "shift_xy": [
+        1,
+        -10
+      ],
+      "original_sha256": "384c16e073bc7855727a223b465772f71047a9472cef09b161347a27ed5f7e52",
+      "initial_glitched_sha256": "381494878a93fca13bcd38c51ffd018ddcd871f2c17a6f3ee08e5875bb9fac91",
+      "repaired_sha256": "9b9722c1d24101a310ba49ed4bb99cc2718d81e898a6f6dc4e6e88aa5e5bc54f",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.058509,
+        524.994422
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/6.png",
+      "rank": "6",
+      "backup": "sources/before-numeral-rebalancing/poker/spades/6.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/spades/6.png",
+      "shift_xy": [
+        1,
+        15
+      ],
+      "original_sha256": "40743b71ec814b08b271910b36c8f9f7939d5a744a4caef93b7e3c12ced413ff",
+      "initial_glitched_sha256": "08c195c411976a4eee2e963d75fd8f908fde7a989d2d2a8197a60ffb3a6744ec",
+      "repaired_sha256": "1b4ec687c86cbab378cf6aa6a1245215a57efcde7d569e6d76a5c8667b521b97",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.168018,
+        524.822053
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/7.png",
+      "rank": "7",
+      "backup": "sources/before-numeral-rebalancing/poker/spades/7.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/spades/7.png",
+      "shift_xy": [
+        0,
+        6
+      ],
+      "original_sha256": "86308102227ca4957c85e2ecef3830f4b6c2b9424cdf9c1de5b9302fc3580f0d",
+      "initial_glitched_sha256": "d6d96386d38f658c717fda8702033a5e12d3374b98564c67f550b0eed30dddd3",
+      "repaired_sha256": "9d062844425dfc6c1bfd81e662ccf806a467f6e6bda65bde5ce02f99eebba9fb",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        374.557919,
+        525.142577
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/8.png",
+      "rank": "8",
+      "backup": "sources/before-numeral-rebalancing/poker/spades/8.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/spades/8.png",
+      "shift_xy": [
+        1,
+        1
+      ],
+      "original_sha256": "3c9c542f78210e86547380ff062362db35b38d9aa1da648f35ae9390e6bd21c7",
+      "initial_glitched_sha256": "30c1ff8fc814ae606c9c3fd5fc86fab3ad8ea443c3196bacf8519b2c1302b355",
+      "repaired_sha256": "b360aab8c662aa88f495fe9f6c992b7e8d8764e8286a1b097169e87774ce9ecf",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.41982,
+        525.282681
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/9.png",
+      "rank": "9",
+      "backup": "sources/before-numeral-rebalancing/poker/spades/9.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/spades/9.png",
+      "shift_xy": [
+        1,
+        5
+      ],
+      "original_sha256": "04b66fbccd3c63370ec9b6e1e96730e8747ace559529b1a2c2954d8339ed3baa",
+      "initial_glitched_sha256": "90bb3895cce88019e713d8f7b02ec8f7c5fd4beb18cd105ab65501e8f1382c5b",
+      "repaired_sha256": "e16882d601159283efb91feb88fa7661e4c748d2ba6e4417f8a9c431ca579878",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        374.681241,
+        525.024782
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/2.png",
+      "rank": "2",
+      "backup": "sources/before-numeral-rebalancing/poker/hearts/2.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/hearts/2.png",
+      "shift_xy": [
+        1,
+        -3
+      ],
+      "original_sha256": "907b2b8de75615a043f95f47d493eac849ceaf4f69b664fc71138b10edbf3368",
+      "initial_glitched_sha256": "b27f4cb8eca96a65a5aa1805f79af43b1affc96077bdd09c631e46b272b34f03",
+      "repaired_sha256": "3eef32c44c362fd820e237d81e4111548f114d987c8ed72d11753e5de6bd0742",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.466599,
+        524.80466
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/3.png",
+      "rank": "3",
+      "backup": "sources/before-numeral-rebalancing/poker/hearts/3.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/hearts/3.png",
+      "shift_xy": [
+        0,
+        11
+      ],
+      "original_sha256": "24accf2f7260ab1270b9b0f0addb680c91306275e82b1d831e6c1a663ce0aa68",
+      "initial_glitched_sha256": "7ca9e41f28dd71564bda4ff272bbdebeca79ff6260140a26902943c9a16cfd1e",
+      "repaired_sha256": "46ef3b5e67b6924363526316cef89a11de105ca0f7f5b1fe3714bef2a421d82c",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        374.908887,
+        525.173655
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/4.png",
+      "rank": "4",
+      "backup": "sources/before-numeral-rebalancing/poker/hearts/4.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/hearts/4.png",
+      "shift_xy": [
+        1,
+        5
+      ],
+      "original_sha256": "f8052143dbd15ab07a7fc425e473836706e2acfea8857459b78691534c715df3",
+      "initial_glitched_sha256": "aa2ea5b7245b6e57dd5d6250bc613370f206579d6e8c748c973b3c5a02fe620f",
+      "repaired_sha256": "0e2b4b771b9942be53d3a633facd988f15b4299bb04156e3fd2a15b6decf7859",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.212742,
+        525.477044
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/5.png",
+      "rank": "5",
+      "backup": "sources/before-numeral-rebalancing/poker/hearts/5.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/hearts/5.png",
+      "shift_xy": [
+        0,
+        7
+      ],
+      "original_sha256": "9631e5fa024c5767af4607423802bfc4ff91628debd24a74628c5d591e621b3c",
+      "initial_glitched_sha256": "3d5e826b7e1c31051c96698149d82e40a8633eb29e29b562a93ca1e268f59e7e",
+      "repaired_sha256": "b6ea6de9336ff0d27c25b29111c593a4938620d8a5277f8b25dae82ff9783aff",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        374.627769,
+        525.471337
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/6.png",
+      "rank": "6",
+      "backup": "sources/before-numeral-rebalancing/poker/hearts/6.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/hearts/6.png",
+      "shift_xy": [
+        0,
+        15
+      ],
+      "original_sha256": "e873933e2839bff2cdb5dffcf0579927dadb2ed4d522d2b6f0651b8b9e90eff4",
+      "initial_glitched_sha256": "8ef7772b399e2e65649310cb9bc1641f68710362667636a14880d604a7e9c80d",
+      "repaired_sha256": "e11d1b9af2bb2857aaf42333106c1f447e5f8cc7466192bf890e64648b2cb543",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.080306,
+        524.615081
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/7.png",
+      "rank": "7",
+      "backup": "sources/before-numeral-rebalancing/poker/hearts/7.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/hearts/7.png",
+      "shift_xy": [
+        0,
+        15
+      ],
+      "original_sha256": "c00001e3f23c9bdd4ccb9949ace9abc157ae32c2a03720f4b6e7d28c15fb3279",
+      "initial_glitched_sha256": "318e5636b09c68914adb913f9f2d06120968644087f0a36daa9edc505d5633cb",
+      "repaired_sha256": "8359cefe4b8d503f422909f6682ff8479e4c5d4d6dcc13f94d23deee189373a2",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        374.618206,
+        525.377377
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/8.png",
+      "rank": "8",
+      "backup": "sources/before-numeral-rebalancing/poker/hearts/8.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/hearts/8.png",
+      "shift_xy": [
+        0,
+        28
+      ],
+      "original_sha256": "f6e3d9e487602abbdb11b5bc7f550867514be4c5c8fc5e69985029acb0149974",
+      "initial_glitched_sha256": "51690944fe319353260f6aa46fff9904edea72b42f47b86dc9a1cc579925b7b1",
+      "repaired_sha256": "05c7ae691b117b171908fc0b6d370a4bd5b2b3e82faf4606bdf575e7b0fa4034",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.1758,
+        524.938041
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/9.png",
+      "rank": "9",
+      "backup": "sources/before-numeral-rebalancing/poker/hearts/9.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/hearts/9.png",
+      "shift_xy": [
+        0,
+        21
+      ],
+      "original_sha256": "87201a9031deec5a82f6a45299dc0c992618803b94c1e7473571da4af783ddb6",
+      "initial_glitched_sha256": "56bb4773ac22c3388fce3ff7a1252f713513fedad6e2388eac719d9be2a56af3",
+      "repaired_sha256": "a36f9f2db15924145e737033c52f40af40418cc011c089ac9becae8964af2cee",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.266329,
+        524.599035
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/2.png",
+      "rank": "2",
+      "backup": "sources/before-numeral-rebalancing/poker/diamonds/2.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/diamonds/2.png",
+      "shift_xy": [
+        1,
+        9
+      ],
+      "original_sha256": "5f0e2c0f13ea6e5b5e90b48b71d45f2fa0fab4fe86fe0a88e91e80048ef4c564",
+      "initial_glitched_sha256": "6dd439bebd667751f84ebf4805f1ddd17f5cde6b03cade5ddac4efc076a957cc",
+      "repaired_sha256": "2d6fc8512a37496da55ca7e1bd7679b2283bef810c450347b96314701551c30d",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        374.913638,
+        525.079737
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/3.png",
+      "rank": "3",
+      "backup": "sources/before-numeral-rebalancing/poker/diamonds/3.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/diamonds/3.png",
+      "shift_xy": [
+        2,
+        5
+      ],
+      "original_sha256": "6c16ef3749d27074112564f3d533712a46df194d8b149cf7f640e0dbc4c1c760",
+      "initial_glitched_sha256": "b5d0e74291e92f75b36d874985c1b4961fbd4dd93f7c7be1a3c5ea4191c5fc08",
+      "repaired_sha256": "d8bac406eda7d19ae08fe6665d93a729f7a79ec0ce3b0651affbf1929e42c6a0",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.073163,
+        524.895792
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/4.png",
+      "rank": "4",
+      "backup": "sources/before-numeral-rebalancing/poker/diamonds/4.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/diamonds/4.png",
+      "shift_xy": [
+        1,
+        1
+      ],
+      "original_sha256": "2f3656d9e36dfa6d04e16c789646b88a5affb3507dd49682eb976d2df1e4237c",
+      "initial_glitched_sha256": "46a8ade8b5d9070688541dfda5a0424ab43c62272027ebadd8b5afc15284f771",
+      "repaired_sha256": "4c5e9316f9cbac1aaa099d669fdadae338de89acc77976cc27a50cabd6a325c3",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        374.710212,
+        524.900708
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/5.png",
+      "rank": "5",
+      "backup": "sources/before-numeral-rebalancing/poker/diamonds/5.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/diamonds/5.png",
+      "shift_xy": [
+        2,
+        10
+      ],
+      "original_sha256": "b3199217f1ad1d97405cde53ce9d22e81c8501417437b2049e51571f306d29da",
+      "initial_glitched_sha256": "9e339cb5a638d83e923853d742df0694392a33d536b706dd44662931458dce2a",
+      "repaired_sha256": "088b4b7ea831d823ef71984af255772f99a4dacebf800e4fbbbac24382f02175",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.417425,
+        525.261466
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/6.png",
+      "rank": "6",
+      "backup": "sources/before-numeral-rebalancing/poker/diamonds/6.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/diamonds/6.png",
+      "shift_xy": [
+        1,
+        23
+      ],
+      "original_sha256": "d4725d2dd72104430e2cd0238f174e96a7626e14543df740947eb29e7c5add37",
+      "initial_glitched_sha256": "2a75decea3f23f0086d524a8b59236fe7a4bd70d05a25c883a29dcd7aaf38a44",
+      "repaired_sha256": "2d1f553d906a1d5fcdef4239998185729dfc2e1de5818ff6e36b8b5f4a4168f8",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        374.88727,
+        524.572476
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/7.png",
+      "rank": "7",
+      "backup": "sources/before-numeral-rebalancing/poker/diamonds/7.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/diamonds/7.png",
+      "shift_xy": [
+        1,
+        9
+      ],
+      "original_sha256": "132aefe9ff690ce794a367767ac3549ecd1c401bd24a064e9fe1a6af8c5a2359",
+      "initial_glitched_sha256": "259f1791cb7afe897274a19d2b2a96055339e9c71bf3a313d41180f41bcd7077",
+      "repaired_sha256": "14ad606ecf974564ffc559bc7d9cda0b00ee8aa642bd1ecfff841d1ba03dc60c",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.447743,
+        525.10513
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/8.png",
+      "rank": "8",
+      "backup": "sources/before-numeral-rebalancing/poker/diamonds/8.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/diamonds/8.png",
+      "shift_xy": [
+        1,
+        23
+      ],
+      "original_sha256": "1b50afb7d2e3085f4681afc86f49513ec2d08f1874e5cf5c4350aea75667abbe",
+      "initial_glitched_sha256": "f3f26c7d7406a3cfffedd92f3afb6a941ee61f6e8da77fdc8e85db8d80a37ab5",
+      "repaired_sha256": "ab2619e273f5020c3fcf9a74f0686fd893b40e0c50b283a22441ad3180c35ef6",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        374.640006,
+        524.501317
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/9.png",
+      "rank": "9",
+      "backup": "sources/before-numeral-rebalancing/poker/diamonds/9.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/diamonds/9.png",
+      "shift_xy": [
+        2,
+        3
+      ],
+      "original_sha256": "e462b59836b711fd362c914b1b4168747881ba89c896978137d2c0a6626bfb28",
+      "initial_glitched_sha256": "0bf506eecfffe5835a29822383a9971ec9b31e14171dcfa1d2cc0da3fa610779",
+      "repaired_sha256": "bc95c86c663dfa91628a93d614160183e00250913f98bce9406fad401952dfb7",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.179088,
+        525.041928
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/2.png",
+      "rank": "2",
+      "backup": "sources/before-numeral-rebalancing/poker/clubs/2.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/clubs/2.png",
+      "shift_xy": [
+        1,
+        1
+      ],
+      "original_sha256": "853ca3e55a5aa599a899c2557a31d8bae4ad6ef25e6a0f209c9f1cf74f2454b3",
+      "initial_glitched_sha256": "0389ba0c3b9e25ad8259cdeddb52d9b71bc2781db64070436f23a13262a06b2d",
+      "repaired_sha256": "d18d104469e57077210d04ced439d8a0613463f73618b481062895c72a831ed1",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        374.651285,
+        524.528797
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/3.png",
+      "rank": "3",
+      "backup": "sources/before-numeral-rebalancing/poker/clubs/3.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/clubs/3.png",
+      "shift_xy": [
+        1,
+        1
+      ],
+      "original_sha256": "9a662cd20d5d91e6a456f30c3c15357a77f89dc6c42c62efa1ddb41f0a8e8502",
+      "initial_glitched_sha256": "1d4c0ed96cc39333037647fc21ccc023a5ca10ec5be0ff556e790a687db7f8d9",
+      "repaired_sha256": "eab8ea5618cdfece1d86f65fa29b2bb460011812072afd0c3c22537d5ea3cede",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.150523,
+        524.512667
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/4.png",
+      "rank": "4",
+      "backup": "sources/before-numeral-rebalancing/poker/clubs/4.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/clubs/4.png",
+      "shift_xy": [
+        1,
+        1
+      ],
+      "original_sha256": "031e556d33262b50993bbf90540d79d3e036fc336b37a17c2755b1bd6352427c",
+      "initial_glitched_sha256": "d553ad4a264ba1475b253e685b18c22a85bc89aff29963cef9c476b8a9ebc098",
+      "repaired_sha256": "1cc078872ab04c9968bdeaf0952706f24975556b0edcf1c23a2507a6ad345887",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.127781,
+        524.930847
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/5.png",
+      "rank": "5",
+      "backup": "sources/before-numeral-rebalancing/poker/clubs/5.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/clubs/5.png",
+      "shift_xy": [
+        0,
+        8
+      ],
+      "original_sha256": "9b67303a3245296cc210de5a23f9537d3607c8fa89a789f144bdc8f823e5e207",
+      "initial_glitched_sha256": "5872694deef4fe120fb620192e05429d34c26731ae39446fe493d3239effc96b",
+      "repaired_sha256": "e90c86453d6154103caf25d6b703ef571d71fd40ce17d8eef360a53511486324",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        374.682163,
+        525.110294
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/6.png",
+      "rank": "6",
+      "backup": "sources/before-numeral-rebalancing/poker/clubs/6.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/clubs/6.png",
+      "shift_xy": [
+        1,
+        23
+      ],
+      "original_sha256": "3cd32ae16a9d5c36b215752a3a736a067123e17ddd7dda0e3f81c6cdd72c97f0",
+      "initial_glitched_sha256": "abbe352d3044419da1934f7aaadaf185c74518c67bf5c8f6631bda6bba457e8c",
+      "repaired_sha256": "f26f95837a891dc5d9b3478d0bc1b22d9c5e2ab3bdf0babe5efdd114da4f88dd",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.298121,
+        524.618614
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/7.png",
+      "rank": "7",
+      "backup": "sources/before-numeral-rebalancing/poker/clubs/7.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/clubs/7.png",
+      "shift_xy": [
+        0,
+        4
+      ],
+      "original_sha256": "367e47ca2779f46b56ed2453854ea542d91250febd9936bb9308f0bc525b83af",
+      "initial_glitched_sha256": "f3a2193a564ac106582525cd1176813c64ba44fbbebe8c65f12945ce8814b51f",
+      "repaired_sha256": "b314f62999627f108cd33c85bd4b4aa018590d8b260586452009bf829005f8f7",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        374.504574,
+        524.829918
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/8.png",
+      "rank": "8",
+      "backup": "sources/before-numeral-rebalancing/poker/clubs/8.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/clubs/8.png",
+      "shift_xy": [
+        1,
+        10
+      ],
+      "original_sha256": "31722e5e94b0d799ee19d0612cdfe96a2113d816ff7c5ad157646ab269f9e711",
+      "initial_glitched_sha256": "fde9ae29646084e27addf02251c64e4e1567b73c49629407330a47420809b7cb",
+      "repaired_sha256": "bfcd69eab0027ebc8f0e57754dd5c52fdaf0e1758024185dbff3202bd195f4d5",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        375.410812,
+        524.826116
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/9.png",
+      "rank": "9",
+      "backup": "sources/before-numeral-rebalancing/poker/clubs/9.png",
+      "candidate": "work/numeral-rebalancing/repair/candidates/clubs/9.png",
+      "shift_xy": [
+        1,
+        11
+      ],
+      "original_sha256": "5b2b08f0c9e758ba1e010926cf1a93f9496807ded8a33f2b414ea63cb7b411ef",
+      "initial_glitched_sha256": "84a577f3774f0f37fe7549ab7cd0a65494c191b92dd299703e07694cbf00db50",
+      "repaired_sha256": "967dbc66af5cfb3e525162f3b2067511d6bf182cd1e42ea7be044e7fdaf12ddc",
+      "after_anchor": [
+        375,
+        525
+      ],
+      "after_centroid": [
+        374.76614,
+        524.502351
+      ],
+      "movable_field_exact_after_nonwrapping_translation": true,
+      "exposed_strips_and_cartouches_preserved_from_original": true,
+      "shared_numeral_border_exact": true
+    }
+  ]
+}

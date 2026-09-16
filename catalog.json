@@ -1075,7 +1075,7 @@
         300.0,
         300.0
       ],
-      "sha256": "853ca3e55a5aa599a899c2557a31d8bae4ad6ef25e6a0f209c9f1cf74f2454b3"
+      "sha256": "d18d104469e57077210d04ced439d8a0613463f73618b481062895c72a831ed1"
     },
     {
       "id": "face.french-suited.poker.clubs.3",
@@ -1109,7 +1109,7 @@
         300.0,
         300.0
       ],
-      "sha256": "9a662cd20d5d91e6a456f30c3c15357a77f89dc6c42c62efa1ddb41f0a8e8502"
+      "sha256": "eab8ea5618cdfece1d86f65fa29b2bb460011812072afd0c3c22537d5ea3cede"
     },
     {
       "id": "face.french-suited.poker.clubs.4",
@@ -1143,7 +1143,7 @@
         300.0,
         300.0
       ],
-      "sha256": "031e556d33262b50993bbf90540d79d3e036fc336b37a17c2755b1bd6352427c"
+      "sha256": "1cc078872ab04c9968bdeaf0952706f24975556b0edcf1c23a2507a6ad345887"
     },
     {
       "id": "face.french-suited.poker.clubs.5",
@@ -1177,7 +1177,7 @@
         300.0,
         300.0
       ],
-      "sha256": "9b67303a3245296cc210de5a23f9537d3607c8fa89a789f144bdc8f823e5e207"
+      "sha256": "e90c86453d6154103caf25d6b703ef571d71fd40ce17d8eef360a53511486324"
     },
     {
       "id": "face.french-suited.poker.clubs.6",
@@ -1211,7 +1211,7 @@
         300.0,
         300.0
       ],
-      "sha256": "3cd32ae16a9d5c36b215752a3a736a067123e17ddd7dda0e3f81c6cdd72c97f0"
+      "sha256": "f26f95837a891dc5d9b3478d0bc1b22d9c5e2ab3bdf0babe5efdd114da4f88dd"
     },
     {
       "id": "face.french-suited.poker.clubs.7",
@@ -1245,7 +1245,7 @@
         300.0,
         300.0
       ],
-      "sha256": "367e47ca2779f46b56ed2453854ea542d91250febd9936bb9308f0bc525b83af"
+      "sha256": "b314f62999627f108cd33c85bd4b4aa018590d8b260586452009bf829005f8f7"
     },
     {
       "id": "face.french-suited.poker.clubs.8",
@@ -1279,7 +1279,7 @@
         300.0,
         300.0
       ],
-      "sha256": "31722e5e94b0d799ee19d0612cdfe96a2113d816ff7c5ad157646ab269f9e711"
+      "sha256": "bfcd69eab0027ebc8f0e57754dd5c52fdaf0e1758024185dbff3202bd195f4d5"
     },
     {
       "id": "face.french-suited.poker.clubs.9",
@@ -1313,7 +1313,7 @@
         300.0,
         300.0
       ],
-      "sha256": "5b2b08f0c9e758ba1e010926cf1a93f9496807ded8a33f2b414ea63cb7b411ef"
+      "sha256": "967dbc66af5cfb3e525162f3b2067511d6bf182cd1e42ea7be044e7fdaf12ddc"
     },
     {
       "id": "face.french-suited.poker.clubs.ace",
@@ -1517,7 +1517,7 @@
         300.0,
         300.0
       ],
-      "sha256": "5f0e2c0f13ea6e5b5e90b48b71d45f2fa0fab4fe86fe0a88e91e80048ef4c564"
+      "sha256": "2d6fc8512a37496da55ca7e1bd7679b2283bef810c450347b96314701551c30d"
     },
     {
       "id": "face.french-suited.poker.diamonds.3",
@@ -1551,7 +1551,7 @@
         300.0,
         300.0
       ],
-      "sha256": "6c16ef3749d27074112564f3d533712a46df194d8b149cf7f640e0dbc4c1c760"
+      "sha256": "d8bac406eda7d19ae08fe6665d93a729f7a79ec0ce3b0651affbf1929e42c6a0"
     },
     {
       "id": "face.french-suited.poker.diamonds.4",
@@ -1585,7 +1585,7 @@
         300.0,
         300.0
       ],
-      "sha256": "2f3656d9e36dfa6d04e16c789646b88a5affb3507dd49682eb976d2df1e4237c"
+      "sha256": "4c5e9316f9cbac1aaa099d669fdadae338de89acc77976cc27a50cabd6a325c3"
     },
     {
       "id": "face.french-suited.poker.diamonds.5",
@@ -1619,7 +1619,7 @@
         300.0,
         300.0
       ],
-      "sha256": "b3199217f1ad1d97405cde53ce9d22e81c8501417437b2049e51571f306d29da"
+      "sha256": "088b4b7ea831d823ef71984af255772f99a4dacebf800e4fbbbac24382f02175"
     },
     {
       "id": "face.french-suited.poker.diamonds.6",
@@ -1653,7 +1653,7 @@
         300.0,
         300.0
       ],
-      "sha256": "d4725d2dd72104430e2cd0238f174e96a7626e14543df740947eb29e7c5add37"
+      "sha256": "2d1f553d906a1d5fcdef4239998185729dfc2e1de5818ff6e36b8b5f4a4168f8"
     },
     {
       "id": "face.french-suited.poker.diamonds.7",
@@ -1687,7 +1687,7 @@
         300.0,
         300.0
       ],
-      "sha256": "132aefe9ff690ce794a367767ac3549ecd1c401bd24a064e9fe1a6af8c5a2359"
+      "sha256": "14ad606ecf974564ffc559bc7d9cda0b00ee8aa642bd1ecfff841d1ba03dc60c"
     },
     {
       "id": "face.french-suited.poker.diamonds.8",
@@ -1721,7 +1721,7 @@
         300.0,
         300.0
       ],
-      "sha256": "1b50afb7d2e3085f4681afc86f49513ec2d08f1874e5cf5c4350aea75667abbe"
+      "sha256": "ab2619e273f5020c3fcf9a74f0686fd893b40e0c50b283a22441ad3180c35ef6"
     },
     {
       "id": "face.french-suited.poker.diamonds.9",
@@ -1755,7 +1755,7 @@
         300.0,
         300.0
       ],
-      "sha256": "e462b59836b711fd362c914b1b4168747881ba89c896978137d2c0a6626bfb28"
+      "sha256": "bc95c86c663dfa91628a93d614160183e00250913f98bce9406fad401952dfb7"
     },
     {
       "id": "face.french-suited.poker.diamonds.ace",
@@ -1959,7 +1959,7 @@
         300.0,
         300.0
       ],
-      "sha256": "907b2b8de75615a043f95f47d493eac849ceaf4f69b664fc71138b10edbf3368"
+      "sha256": "3eef32c44c362fd820e237d81e4111548f114d987c8ed72d11753e5de6bd0742"
     },
     {
       "id": "face.french-suited.poker.hearts.3",
@@ -1993,7 +1993,7 @@
         300.0,
         300.0
       ],
-      "sha256": "24accf2f7260ab1270b9b0f0addb680c91306275e82b1d831e6c1a663ce0aa68"
+      "sha256": "46ef3b5e67b6924363526316cef89a11de105ca0f7f5b1fe3714bef2a421d82c"
     },
     {
       "id": "face.french-suited.poker.hearts.4",
@@ -2027,7 +2027,7 @@
         300.0,
         300.0
       ],
-      "sha256": "f8052143dbd15ab07a7fc425e473836706e2acfea8857459b78691534c715df3"
+      "sha256": "0e2b4b771b9942be53d3a633facd988f15b4299bb04156e3fd2a15b6decf7859"
     },
     {
       "id": "face.french-suited.poker.hearts.5",
@@ -2061,7 +2061,7 @@
         300.0,
         300.0
       ],
-      "sha256": "9631e5fa024c5767af4607423802bfc4ff91628debd24a74628c5d591e621b3c"
+      "sha256": "b6ea6de9336ff0d27c25b29111c593a4938620d8a5277f8b25dae82ff9783aff"
     },
     {
       "id": "face.french-suited.poker.hearts.6",
@@ -2095,7 +2095,7 @@
         300.0,
         300.0
       ],
-      "sha256": "e873933e2839bff2cdb5dffcf0579927dadb2ed4d522d2b6f0651b8b9e90eff4"
+      "sha256": "e11d1b9af2bb2857aaf42333106c1f447e5f8cc7466192bf890e64648b2cb543"
     },
     {
       "id": "face.french-suited.poker.hearts.7",
@@ -2129,7 +2129,7 @@
         300.0,
         300.0
       ],
-      "sha256": "c00001e3f23c9bdd4ccb9949ace9abc157ae32c2a03720f4b6e7d28c15fb3279"
+      "sha256": "8359cefe4b8d503f422909f6682ff8479e4c5d4d6dcc13f94d23deee189373a2"
     },
     {
       "id": "face.french-suited.poker.hearts.8",
@@ -2163,7 +2163,7 @@
         300.0,
         300.0
       ],
-      "sha256": "f6e3d9e487602abbdb11b5bc7f550867514be4c5c8fc5e69985029acb0149974"
+      "sha256": "05c7ae691b117b171908fc0b6d370a4bd5b2b3e82faf4606bdf575e7b0fa4034"
     },
     {
       "id": "face.french-suited.poker.hearts.9",
@@ -2197,7 +2197,7 @@
         300.0,
         300.0
       ],
-      "sha256": "87201a9031deec5a82f6a45299dc0c992618803b94c1e7473571da4af783ddb6"
+      "sha256": "a36f9f2db15924145e737033c52f40af40418cc011c089ac9becae8964af2cee"
     },
     {
       "id": "face.french-suited.poker.hearts.ace",
@@ -2401,7 +2401,7 @@
         300.0,
         300.0
       ],
-      "sha256": "cb1a985c970ca1b6a6f58d7bfd3e153b74fcf8d71fc1b823b7d85a036bdf1387"
+      "sha256": "0ac62a1029a14601f8bb70400d54c242395d50fac2d7dc7f883fe4d5c56526cb"
     },
     {
       "id": "face.french-suited.poker.spades.3",
@@ -2435,7 +2435,7 @@
         300.0,
         300.0
       ],
-      "sha256": "ebe9511e948bfad28b5b64a9067a0a11f295f506f005293603ebfc461162872e"
+      "sha256": "2e152a8c657ed41a619ce6cd4f9918fa4c852ffa037dae54fab42056cc7151b6"
     },
     {
       "id": "face.french-suited.poker.spades.4",
@@ -2469,7 +2469,7 @@
         300.0,
         300.0
       ],
-      "sha256": "49c0929571618a01be2e62bf8f821200cd0348baf6d270e9606b34b1921f570f"
+      "sha256": "ea7ee790c64cfd67e92717e068105f22c7320fa708383d8ffa8c1989437817f0"
     },
     {
       "id": "face.french-suited.poker.spades.5",
@@ -2503,7 +2503,7 @@
         300.0,
         300.0
       ],
-      "sha256": "384c16e073bc7855727a223b465772f71047a9472cef09b161347a27ed5f7e52"
+      "sha256": "9b9722c1d24101a310ba49ed4bb99cc2718d81e898a6f6dc4e6e88aa5e5bc54f"
     },
     {
       "id": "face.french-suited.poker.spades.6",
@@ -2537,7 +2537,7 @@
         300.0,
         300.0
       ],
-      "sha256": "40743b71ec814b08b271910b36c8f9f7939d5a744a4caef93b7e3c12ced413ff"
+      "sha256": "1b4ec687c86cbab378cf6aa6a1245215a57efcde7d569e6d76a5c8667b521b97"
     },
     {
       "id": "face.french-suited.poker.spades.7",
@@ -2571,7 +2571,7 @@
         300.0,
         300.0
       ],
-      "sha256": "86308102227ca4957c85e2ecef3830f4b6c2b9424cdf9c1de5b9302fc3580f0d"
+      "sha256": "9d062844425dfc6c1bfd81e662ccf806a467f6e6bda65bde5ce02f99eebba9fb"
     },
     {
       "id": "face.french-suited.poker.spades.8",
@@ -2605,7 +2605,7 @@
         300.0,
         300.0
       ],
-      "sha256": "3c9c542f78210e86547380ff062362db35b38d9aa1da648f35ae9390e6bd21c7"
+      "sha256": "b360aab8c662aa88f495fe9f6c992b7e8d8764e8286a1b097169e87774ce9ecf"
     },
     {
       "id": "face.french-suited.poker.spades.9",
@@ -2639,7 +2639,7 @@
         300.0,
         300.0
       ],
-      "sha256": "04b66fbccd3c63370ec9b6e1e96730e8747ace559529b1a2c2954d8339ed3baa"
+      "sha256": "e16882d601159283efb91feb88fa7661e4c748d2ba6e4417f8a9c431ca579878"
     },
     {
       "id": "face.french-suited.poker.spades.ace",
