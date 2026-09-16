@@ -35,10 +35,10 @@ Hearts' headdress is a stylistic interpretation of the requested Tudor reference
 
 ## Validation and status
 
-All four PNGs are 1060 × 1484 pixels, exactly 5:7, and provide 424 PPI when placed at the intended 2.5 × 3.5-inch poker trim. The 96-DPI file metadata remains unchanged; the catalog records explicit physical sizes.
+The original generated PNGs were 1060 × 1484 pixels, exactly 5:7. The subsequent size-revision commit changed the current queen assets to 750 × 1050 at nominal 300 DPI, matching the intended 2.5 × 3.5-inch poker trim. Refer to the current catalog for dimensions and hashes.
 
-The saved PNGs are byte-for-byte copies of the selected imagegen outputs. All 34 previously cataloged images were checked against their recorded hashes and remain unchanged. No raster post-processing, resampling or modifications to the kings/backs were performed.
+At the queen-generation stage, the saved PNGs were byte-for-byte copies of the selected imagegen outputs, and all 34 previously cataloged images were checked against their recorded hashes. No resampling was performed in that generation stage; the later size-revision commit is noted above.
 
 Visual review checked Q indices and suit colors, visible eyes, held objects, crown clearance, framing, figure scale and palette. These remain review masters: painted flower details and the two portrait halves are not pixel-exact repetitions. No new claim of exact symmetry, shared pixel plates, bleed or imposed print sheets is made.
 
-The repository now contains eight of the 52 standard French-suited poker fronts. The other 44 fronts remain to be generated; optional jokers would be additional cards.
+The queen-generation stage brought the collection to eight standard fronts. See the root README for the current deck inventory.

@@ -4,7 +4,7 @@ A standalone illustrated card collection for software and printing.
 
 Quality playing cards for a standard deck of 54 as well as a tarot deck, in different sizes, different styles, and different colors.
 
-**Current collection:** 30 backs (five colors × six formats), plus eight French-suited poker faces: four kings and four queens. Every face uses the same multicolor palette and can pair with any back in its format. The court cards remain review artwork with the known symmetry limitations below. This is an incomplete deck; aces, numeral cards and jacks are still to come.
+**Current collection:** 30 backs (five colors × six formats), plus all 12 French-suited poker court cards: four kings, four queens and four jacks. Every face uses the same multicolor palette and can pair with any back in its format. The court cards remain review artwork with the known symmetry limitations below. This is an incomplete deck; the 40 aces/numeral cards and two planned jokers are still to come.
 
 ![Poker Card Back In Red](cards/backs/poker/madder-lake.png)
 ![](cards/faces/french-suited/poker/hearts/queen.png)
@@ -73,7 +73,7 @@ These are individual **trim-size artworks**, suitable for placement at the speci
 | Tarot | 2.75 × 4.75 | 825 × 1425 | 300 |
 | Travel | 1.75 × 2.50 | 525 × 750 | 300 |
 
-Poker kings and queens are 1060 × 1484 pixels: 424 PPI at 2.5 × 3.5 inches. Their 96-DPI metadata is unchanged. The dimension-reference inch column defines this collection; millimeter measurements in the catalog are exact conversions from those inches.
+All current poker courts are 750 × 1050 pixels at nominal 300 DPI, matching the poker backs and providing 300 PPI at 2.5 × 3.5 inches. The king/queen files were resized in the earlier size-revision commit. Untouched 1060 × 1484 jack masters are retained under `sources/generated/poker/jacks/`; their current exports use the user-approved resize workflow. The dimension-reference inch column defines this collection; millimeter measurements in the catalog are exact conversions from those inches.
 
 ## Colors and design status
 
@@ -82,6 +82,10 @@ Active back colors: Lamp Black, Madder Lake, Manganese Violet, Prussian Blue and
 The four kings share a botanical frame and multicolor palette. Hearts has a clean upper lip and sword behind the head; Diamonds has a profile and axe; Spades has an upright broadsword; Clubs has a sword and orb. Their painted patterns and opposing halves are not pixel-exact repeats. See [design notes](docs/design/kings.md) and [generation prompts](docs/design/poker-kings-prompts.md).
 
 The four queens extend that same design: Spades carries a scepter, Hearts a rose beneath a crown and headdress, Diamonds a pointed-petal flower with an ivory veil, and Clubs a flower sprig with ribbon-woven braids. See the [queen gallery and design notes](docs/design/queens.md) and [queen generation prompts](docs/design/poker-queens-prompts.md). The same limits on exact repeated patterns and half-turn symmetry apply.
+
+The four jacks wear soft feathered caps. Spades is a left-facing profile with a pike; Hearts is a right-facing profile with a leaf; Diamonds and Clubs show both eyes and carry a sword and arrow-like shaft, respectively. See the [jack gallery and export notes](docs/design/jacks.md) and [jack generation prompts](docs/design/poker-jacks-prompts.md).
+
+All twelve court cards now register their central floral dot to pixel **(375, 525)** within 750 × 1050, using whole-pixel shifts without resampling the figures. A shared existing border template makes the perimeter pixels identical while protecting each card's rank/suit panels. Original files, exact shifts and verification details are preserved in the [alignment notes](docs/design/court-alignment.md) and [machine-readable report](docs/design/court-alignment.json).
 
 ## Tools and checks
 

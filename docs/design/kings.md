@@ -11,7 +11,7 @@ The four current masters live under `cards/faces/french-suited/poker/<suit>/king
 - Each face works with every poker back color.
 
 ## Current checks and limits
-All four masters are 1060 × 1484, exactly 5:7. Their intended trim is 2.5 × 3.5 inches, independent of 96-DPI image metadata. No resampling or image editing was performed during repository setup.
+The generated masters were 1060 × 1484, exactly 5:7. No resampling or image editing was performed during initial repository setup. The subsequent size-revision commit changed the current king assets to 750 × 1050 at nominal 300 DPI, matching the 2.5 × 3.5-inch poker backs. Refer to the current catalog for dimensions and hashes.
 
 These are visually coordinated review masters. Repeated flower details and half-turn portraits are not mathematically identical. The smaller figure was generated from an approximately 13% reduction request, not a measured scaling operation. Exact shared ornament plates and exact opposing halves remain production refinements.
 

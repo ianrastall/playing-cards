@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "canvas": [
+    750,
+    1050
+  ],
+  "target_dot_anchor": [
+    375,
+    525
+  ],
+  "coordinate_basis": "Zero-based pixel column,row; rounded chroma-weighted dot centroid",
+  "subpixel_note": "Original painted dots differ in shading and shape; floating centroids are retained, not forced equal by resampling.",
+  "method": "Whole-pixel translation; shared existing border copied outside protected interior/index panels",
+  "template_backup": "sources/before-court-alignment/poker/spades/king.png",
+  "protected_interior_xyxy": [
+    75,
+    72,
+    675,
+    967
+  ],
+  "protected_index_panels_xyxy": [
+    [
+      28,
+      44,
+      132,
+      290
+    ],
+    [
+      618,
+      760,
+      722,
+      1008
+    ]
+  ],
+  "changed_pixels_allowed": "Only integer translation plus replacement inside the common border mask",
+  "cards": [
+    {
+      "path": "cards/faces/french-suited/poker/clubs/jack.png",
+      "backup": "sources/before-court-alignment/poker/clubs/jack.png",
+      "candidate": "work/court-alignment/candidates/clubs/jack.png",
+      "before_sha256": "97bae279651c57b78e9df61212144d23beae14de684d34391a7092ac529db893",
+      "after_sha256": "7ef080466badd053c5849b16d3ceb0dae708baf4ad929c4ca68b0c0f2832ad22",
+      "before_dot_anchor": [
+        375,
+        524
+      ],
+      "before_dot_centroid": [
+        374.984336,
+        524.153339
+      ],
+      "shift_xy": [
+        0,
+        1
+      ],
+      "after_dot_anchor": [
+        375,
+        525
+      ],
+      "after_dot_centroid": [
+        374.984336,
+        525.153339
+      ],
+      "court_pixels_exact_after_integer_translation": true,
+      "shared_border_pixels_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/king.png",
+      "backup": "sources/before-court-alignment/poker/clubs/king.png",
+      "candidate": "work/court-alignment/candidates/clubs/king.png",
+      "before_sha256": "866d70b36bc9cfc864e3cd7c8e7e417efde435db4179d2b2af6ff0c0f6302125",
+      "after_sha256": "d5d1dd2a43c479c3a08d4937903ab3593761cf27d8c2afe954233a07dd31529f",
+      "before_dot_anchor": [
+        375,
+        526
+      ],
+      "before_dot_centroid": [
+        375.082111,
+        525.577713
+      ],
+      "shift_xy": [
+        0,
+        -1
+      ],
+      "after_dot_anchor": [
+        375,
+        525
+      ],
+      "after_dot_centroid": [
+        375.082111,
+        524.577713
+      ],
+      "court_pixels_exact_after_integer_translation": true,
+      "shared_border_pixels_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/queen.png",
+      "backup": "sources/before-court-alignment/poker/clubs/queen.png",
+      "candidate": "work/court-alignment/candidates/clubs/queen.png",
+      "before_sha256": "e3fde9d8b795608aa527acd602bed0b7a11cd82a5db25fa97eea38b8fc4f36a7",
+      "after_sha256": "7c834951490e1e97b58d90145d9690e2d152b20402c969cd03b38f2b0d0eea1a",
+      "before_dot_anchor": [
+        375,
+        525
+      ],
+      "before_dot_centroid": [
+        374.856159,
+        525.396327
+      ],
+      "shift_xy": [
+        0,
+        0
+      ],
+      "after_dot_anchor": [
+        375,
+        525
+      ],
+      "after_dot_centroid": [
+        374.856159,
+        525.396327
+      ],
+      "court_pixels_exact_after_integer_translation": true,
+      "shared_border_pixels_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/jack.png",
+      "backup": "sources/before-court-alignment/poker/diamonds/jack.png",
+      "candidate": "work/court-alignment/candidates/diamonds/jack.png",
+      "before_sha256": "2a300f5a0e471daf8b8a5ad87e214fa4265b7cc04cd966d4b821254af6012f08",
+      "after_sha256": "b15b5d43e1894bea9088d08f8f22119cfad84e43e59c3993e2234680d0f6a21f",
+      "before_dot_anchor": [
+        375,
+        524
+      ],
+      "before_dot_centroid": [
+        375.010156,
+        524.211719
+      ],
+      "shift_xy": [
+        0,
+        1
+      ],
+      "after_dot_anchor": [
+        375,
+        525
+      ],
+      "after_dot_centroid": [
+        375.010156,
+        525.211719
+      ],
+      "court_pixels_exact_after_integer_translation": true,
+      "shared_border_pixels_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/king.png",
+      "backup": "sources/before-court-alignment/poker/diamonds/king.png",
+      "candidate": "work/court-alignment/candidates/diamonds/king.png",
+      "before_sha256": "af14416a189db059704a80dbd993d191c67334ee9305e91be38d20f0a1c85ce8",
+      "after_sha256": "182abd7e627c34d91743640c228ca62a26504aa53567aa820b4e1840f23b19a4",
+      "before_dot_anchor": [
+        375,
+        526
+      ],
+      "before_dot_centroid": [
+        374.730422,
+        525.838855
+      ],
+      "shift_xy": [
+        0,
+        -1
+      ],
+      "after_dot_anchor": [
+        375,
+        525
+      ],
+      "after_dot_centroid": [
+        374.730422,
+        524.838855
+      ],
+      "court_pixels_exact_after_integer_translation": true,
+      "shared_border_pixels_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/queen.png",
+      "backup": "sources/before-court-alignment/poker/diamonds/queen.png",
+      "candidate": "work/court-alignment/candidates/diamonds/queen.png",
+      "before_sha256": "cad37bc2450f3174c15f084365b91012295a4bdba1b327a87b71b21e5cddb182",
+      "after_sha256": "0c9ddc46a2716bf9dc40d418060b9c638bfd7cad55731b8e8a1f6b5e4207de8b",
+      "before_dot_anchor": [
+        375,
+        525
+      ],
+      "before_dot_centroid": [
+        375.376128,
+        525.207137
+      ],
+      "shift_xy": [
+        0,
+        0
+      ],
+      "after_dot_anchor": [
+        375,
+        525
+      ],
+      "after_dot_centroid": [
+        375.376128,
+        525.207137
+      ],
+      "court_pixels_exact_after_integer_translation": true,
+      "shared_border_pixels_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/jack.png",
+      "backup": "sources/before-court-alignment/poker/hearts/jack.png",
+      "candidate": "work/court-alignment/candidates/hearts/jack.png",
+      "before_sha256": "8ee77de54e1317215aa73199ca62df2de30720631531914763a4c00c3b86ee2b",
+      "after_sha256": "5b6f55927d790d5fda01b417af4aea46ccfcaf91a61aeabb7d4363d09d8cb2da",
+      "before_dot_anchor": [
+        375,
+        524
+      ],
+      "before_dot_centroid": [
+        374.922096,
+        524.143768
+      ],
+      "shift_xy": [
+        0,
+        1
+      ],
+      "after_dot_anchor": [
+        375,
+        525
+      ],
+      "after_dot_centroid": [
+        374.922096,
+        525.143768
+      ],
+      "court_pixels_exact_after_integer_translation": true,
+      "shared_border_pixels_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/king.png",
+      "backup": "sources/before-court-alignment/poker/hearts/king.png",
+      "candidate": "work/court-alignment/candidates/hearts/king.png",
+      "before_sha256": "ade030d8c689108d6ac7cd8835b4a8ab872d7f64cd2f17f10ba2867545ff59a4",
+      "after_sha256": "039d05e7e752fece7d53f3d9aa32699bd4f8f691d25a00aabb70b8a450f7d3bc",
+      "before_dot_anchor": [
+        375,
+        526
+      ],
+      "before_dot_centroid": [
+        375.11454,
+        525.730453
+      ],
+      "shift_xy": [
+        0,
+        -1
+      ],
+      "after_dot_anchor": [
+        375,
+        525
+      ],
+      "after_dot_centroid": [
+        375.11454,
+        524.730453
+      ],
+      "court_pixels_exact_after_integer_translation": true,
+      "shared_border_pixels_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/queen.png",
+      "backup": "sources/before-court-alignment/poker/hearts/queen.png",
+      "candidate": "work/court-alignment/candidates/hearts/queen.png",
+      "before_sha256": "3440a26f5f66ae924fd7fab002550e743ac69cf70b47488ed9320c3dfc0bddb4",
+      "after_sha256": "27d8e79d8ef36cb548d0f3d579c59479afd2a55c6194b55cf1657e6a5c25e147",
+      "before_dot_anchor": [
+        375,
+        525
+      ],
+      "before_dot_centroid": [
+        375.176223,
+        525.37191
+      ],
+      "shift_xy": [
+        0,
+        0
+      ],
+      "after_dot_anchor": [
+        375,
+        525
+      ],
+      "after_dot_centroid": [
+        375.176223,
+        525.37191
+      ],
+      "court_pixels_exact_after_integer_translation": true,
+      "shared_border_pixels_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/jack.png",
+      "backup": "sources/before-court-alignment/poker/spades/jack.png",
+      "candidate": "work/court-alignment/candidates/spades/jack.png",
+      "before_sha256": "7a0fdafc659723f9e4d5edd8a4d1b15427e6503cc346ae127cce001c6d70f91a",
+      "after_sha256": "02f01f4d8c875add83b0933640f19dbf87bd717a8030ffa5259b16d6de8bf44d",
+      "before_dot_anchor": [
+        375,
+        525
+      ],
+      "before_dot_centroid": [
+        374.766554,
+        524.74523
+      ],
+      "shift_xy": [
+        0,
+        0
+      ],
+      "after_dot_anchor": [
+        375,
+        525
+      ],
+      "after_dot_centroid": [
+        374.766554,
+        524.74523
+      ],
+      "court_pixels_exact_after_integer_translation": true,
+      "shared_border_pixels_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/king.png",
+      "backup": "sources/before-court-alignment/poker/spades/king.png",
+      "candidate": "work/court-alignment/candidates/spades/king.png",
+      "before_sha256": "7bb931748404400eea780c3505bf4318aeccfbbbacc0161167c8d4622c11bbfe",
+      "after_sha256": "f062d7a3b2871b43afe0a313377f4fac49b2c764a79cc9db9eb651ff6554c525",
+      "before_dot_anchor": [
+        375,
+        526
+      ],
+      "before_dot_centroid": [
+        374.762431,
+        526.007735
+      ],
+      "shift_xy": [
+        0,
+        -1
+      ],
+      "after_dot_anchor": [
+        375,
+        525
+      ],
+      "after_dot_centroid": [
+        374.762431,
+        525.007735
+      ],
+      "court_pixels_exact_after_integer_translation": true,
+      "shared_border_pixels_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/queen.png",
+      "backup": "sources/before-court-alignment/poker/spades/queen.png",
+      "candidate": "work/court-alignment/candidates/spades/queen.png",
+      "before_sha256": "874333cd28a14e4aa043fe81add4bb4d015c09b2baf173ee4f15997613619c62",
+      "after_sha256": "489db3457ec2fa4f9ee59a3e5bde83be2d4e000f0f3f61966b5a2c7d2cceb362",
+      "before_dot_anchor": [
+        375,
+        526
+      ],
+      "before_dot_centroid": [
+        374.865735,
+        525.640948
+      ],
+      "shift_xy": [
+        0,
+        -1
+      ],
+      "after_dot_anchor": [
+        375,
+        525
+      ],
+      "after_dot_centroid": [
+        374.865735,
+        524.640948
+      ],
+      "court_pixels_exact_after_integer_translation": true,
+      "shared_border_pixels_exact": true
+    }
+  ]
+}
