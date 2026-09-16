@@ -1,5 +1,7 @@
 # Poker numeral studies — generation prompts
 
+Historical studies. The current twos use the wide-panel frame and larger pips; see the [current gallery and prompts](poker-wide-twos-prompts.md). Descriptions of pending ranks below record the state at the time of these earlier studies.
+
 Built-in image generation, September 16, 2026. Current scope: the four twos, with miniature versions of their respective ornate ace emblems. The user approved the Two of Spades as the direction for the other suits.
 
 The initial solid-pip study is retained at `sources/generated/poker/numerals/spades/2.png`. The user requested miniature ace-style botanical emblems in the center, while keeping the rest of the design. The revised master is `sources/generated/poker/numerals/spades/2-ornate.png`.

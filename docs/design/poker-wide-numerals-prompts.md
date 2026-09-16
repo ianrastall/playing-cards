@@ -13,7 +13,9 @@ All ten center pips and both corner indices were visually checked. The initial D
 | ![10S](../../cards/faces/french-suited/poker/spades/10.png) | ![10H](../../cards/faces/french-suited/poker/hearts/10.png) | ![10D](../../cards/faces/french-suited/poker/diamonds/10.png) | ![10C](../../cards/faces/french-suited/poker/clubs/10.png) |
 
 
-## Replacement twos — pending usage reset
+## Earlier replacement attempt — superseded
+
+The wide-panel twos are now complete with larger pips, as requested in the subsequent user instruction. See the [current gallery and actual generation prompts](poker-wide-twos-prompts.md). The same-size-pip prompts below are historical and were superseded by that request.
 
 The user authorized replacement of all four twos with the approved wide-panel design if usage remained. After completing the tens, the usage-status tool still reported ordinary usage allowed, with 6% of the five-hour window and 5% of the weekly window remaining. All four image-generation requests nevertheless returned HTTP 429 `usage_limit_reached`. No replacement image was produced and no existing two was modified. These prompts are retained for the next attempt. Original twos are also backed up locally under `work/numerals/previous-twos/`.
 
