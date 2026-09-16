@@ -4,7 +4,7 @@ A standalone illustrated card collection for software and printing.
 
 Quality playing cards for a standard deck of 54 as well as a tarot deck, in different sizes, different styles, and different colors.
 
-**Current collection:** 30 backs (five colors × six formats), plus all 12 French-suited poker court cards: four kings, four queens and four jacks. Every face uses the same multicolor palette and can pair with any back in its format. The court cards remain review artwork with the known symmetry limitations below. This is an incomplete deck; the 40 aces/numeral cards and two planned jokers are still to come.
+**Current collection:** 30 backs (five colors × six formats), plus 16 French-suited poker faces: four kings, four queens, four jacks and four ornate aces. Every face uses the same multicolor palette and can pair with any back in its format. The faces remain review artwork with the known symmetry limitations below. This is an incomplete deck; the 36 numeral cards and two planned jokers are still to come.
 
 ![Poker Card Back In Red](cards/backs/poker/madder-lake.png)
 ![](cards/faces/french-suited/poker/hearts/queen.png)
@@ -73,7 +73,7 @@ These are individual **trim-size artworks**, suitable for placement at the speci
 | Tarot | 2.75 × 4.75 | 825 × 1425 | 300 |
 | Travel | 1.75 × 2.50 | 525 × 750 | 300 |
 
-All current poker courts are 750 × 1050 pixels at nominal 300 DPI, matching the poker backs and providing 300 PPI at 2.5 × 3.5 inches. The king/queen files were resized in the earlier size-revision commit. Untouched 1060 × 1484 jack masters are retained under `sources/generated/poker/jacks/`; their current exports use the user-approved resize workflow. The dimension-reference inch column defines this collection; millimeter measurements in the catalog are exact conversions from those inches.
+All current poker faces are 750 × 1050 pixels at nominal 300 DPI, matching the poker backs and providing 300 PPI at 2.5 × 3.5 inches. The king/queen files were resized in the earlier size-revision commit. Untouched 1060 × 1484 jack and ace masters are retained under `sources/generated/poker/jacks/` and `sources/generated/poker/aces/`; their current exports use the user-approved resize workflow. The dimension-reference inch column defines this collection; millimeter measurements in the catalog are exact conversions from those inches.
 
 ## Colors and design status
 
@@ -86,6 +86,8 @@ The four queens extend that same design: Spades carries a scepter, Hearts a rose
 The four jacks wear soft feathered caps. Spades is a left-facing profile with a pike; Hearts is a right-facing profile with a leaf; Diamonds and Clubs show both eyes and carry a sword and arrow-like shaft, respectively. See the [jack gallery and export notes](docs/design/jacks.md) and [jack generation prompts](docs/design/poker-jacks-prompts.md).
 
 All twelve court cards now register their central floral dot to pixel **(375, 525)** within 750 × 1050, using whole-pixel shifts without resampling the figures. A shared existing border template makes the perimeter pixels identical while protecting each card's rank/suit panels. Original files, exact shifts and verification details are preserved in the [alignment notes](docs/design/court-alignment.md) and [machine-readable report](docs/design/court-alignment.json).
+
+The four aces carry large ornate suit emblems filled with gold foliage, ivory flowers and berries. Each central turquoise jewel registers to **(375, 525)**. The aces share an identical perimeter from their own Spades template, distinct from the court frame, with card-specific A/suit indices. See the [ace gallery and preparation notes](docs/design/aces.md) and [ace generation prompts](docs/design/poker-aces-prompts.md).
 
 ## Tools and checks
 

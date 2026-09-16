@@ -1,0 +1,122 @@
+{
+  "canvas": [
+    750,
+    1050
+  ],
+  "nominal_dpi": 300,
+  "target_anchor": [
+    375,
+    525
+  ],
+  "coordinate_basis": "Zero-based rounded chroma-weighted turquoise jewel centroid",
+  "method": "Lanczos export, exact whole-pixel central-emblem translation; bilinear tapered displacement of surrounding ornament to keep frame and corner cartouches fixed; common ace frame copied from Spades export",
+  "frame_note": "Aces share their own frame. The court frame was not used because its different inner geometry created visible joins.",
+  "template_source": "sources/generated/poker/aces/spades.png",
+  "border_mask": "scripts.align_courts.border_mask",
+  "cards": [
+    {
+      "suit": "spades",
+      "path": "cards/faces/french-suited/poker/spades/ace.png",
+      "source": "sources/generated/poker/aces/spades.png",
+      "source_sha256": "62f6464c4f679b209c5d9389c3aa64c1eaa889e3a8c0fce12dacefeec5a11511",
+      "export_sha256": "f2b49d338f85f4a578878fade495b4ffa2512098050b65e6eda9e103e1618d86",
+      "candidate": "work/ace-preparation/final/spades.png",
+      "sha256": "782db306292028d2819ab5dc3cd04f8792b2aa253c91064412abd23709829f57",
+      "before_centroid": [
+        374.0873066951069,
+        519.2440284647776
+      ],
+      "shift_xy": [
+        1,
+        6
+      ],
+      "after_centroid": [
+        375.0873066951069,
+        525.2440284647776
+      ],
+      "anchor_xy": [
+        375,
+        525
+      ],
+      "shared_ace_border_exact": true
+    },
+    {
+      "suit": "hearts",
+      "path": "cards/faces/french-suited/poker/hearts/ace.png",
+      "source": "sources/generated/poker/aces/hearts.png",
+      "source_sha256": "19657e6d04826793b8c9d56406ce24191b7a3af787fcf7eee58f1843bfe9e74e",
+      "export_sha256": "c3043698edc3abc98922db650b311f7eb075ae68a25c35055330b6635b3e7e22",
+      "candidate": "work/ace-preparation/final/hearts.png",
+      "sha256": "0d1988d2eb21c8be323d3d987c3217ae44bf0a5a4ebcf4c67667154d9d702e28",
+      "before_centroid": [
+        374.68135427599435,
+        527.7334153667981
+      ],
+      "shift_xy": [
+        0,
+        -3
+      ],
+      "after_centroid": [
+        374.68135427599435,
+        524.7334153667981
+      ],
+      "anchor_xy": [
+        375,
+        525
+      ],
+      "shared_ace_border_exact": true
+    },
+    {
+      "suit": "diamonds",
+      "path": "cards/faces/french-suited/poker/diamonds/ace.png",
+      "source": "sources/generated/poker/aces/diamonds.png",
+      "source_sha256": "343144dc321af7b8227879f57f209857d026258ba94237a06f6b9de756f86a2b",
+      "export_sha256": "4e6a012d31a4044955ae64f4fc62c41236103675b5df1dd4784bea243b19ae16",
+      "candidate": "work/ace-preparation/final/diamonds.png",
+      "sha256": "8de6f2f3257139ded67c229fb6f774252263923e812b3ed97ba90302127af70e",
+      "before_centroid": [
+        374.3234909065176,
+        519.088121859741
+      ],
+      "shift_xy": [
+        1,
+        6
+      ],
+      "after_centroid": [
+        375.3234909065176,
+        525.088121859741
+      ],
+      "anchor_xy": [
+        375,
+        525
+      ],
+      "shared_ace_border_exact": true
+    },
+    {
+      "suit": "clubs",
+      "path": "cards/faces/french-suited/poker/clubs/ace.png",
+      "source": "sources/generated/poker/aces/clubs.png",
+      "source_sha256": "5a7b94a0651ccc212b6b663f6ee2ff6feac3bd3c6b448b75a74daaa4b143e7fa",
+      "export_sha256": "d5cfa1448b8d5181c0244e11f7afefebfc10f6bf864ad1cf7cca7caaacab2f87",
+      "candidate": "work/ace-preparation/final/clubs.png",
+      "sha256": "6c95143811f440a9cdf64a599e9cac6cdbc1b40a5be281f582cd334642d6c029",
+      "before_centroid": [
+        374.16600742302535,
+        519.3597379288714
+      ],
+      "shift_xy": [
+        1,
+        6
+      ],
+      "after_centroid": [
+        375.16600742302535,
+        525.3597379288714
+      ],
+      "anchor_xy": [
+        375,
+        525
+      ],
+      "shared_ace_border_exact": true
+    }
+  ]
+}
