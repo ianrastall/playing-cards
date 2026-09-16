@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Playing Cards — Design 1 Gallery</title>
-  <meta name="description" content="Browse the complete Design 1 collection: 30 card backs in five colors across six formats, plus 20 French-suited poker faces. Grab any asset without navigating the repo.">
+  <meta name="description" content="Browse the complete Design 1 collection: card backs in multiple colors and formats, plus French-suited poker faces. Dynamically rendered from the catalog — always up to date.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -265,272 +265,18 @@
   <!-- Header -->
   <header class="site-header">
     <h1>Playing Cards — Design 1</h1>
-    <p>The complete collection: 30 backs in five pigment-inspired colors across six card formats, plus 20 French-suited poker faces. Click any card to view full-size.</p>
+    <p>The complete collection: backs in five pigment-inspired colors across multiple card formats, plus French-suited poker faces. Click any card to view full-size.</p>
     <a class="repo-link" href="https://github.com/ianrastall/playing-cards" target="_blank" rel="noopener">
       <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
       View on GitHub
     </a>
   </header>
 
-  <!-- Navigation -->
-  <nav class="nav-bar" id="nav">
-    <a href="#backs-bridge">Bridge</a>
-    <a href="#backs-european-standard">European</a>
-    <a href="#backs-jumbo">Jumbo</a>
-    <a href="#backs-poker">Poker</a>
-    <a href="#backs-tarot">Tarot</a>
-    <a href="#backs-travel">Travel</a>
-    <a href="#faces-clubs">Clubs</a>
-    <a href="#faces-diamonds">Diamonds</a>
-    <a href="#faces-hearts">Hearts</a>
-    <a href="#faces-spades">Spades</a>
-  </nav>
+  <!-- Navigation (populated dynamically) -->
+  <nav class="nav-bar" id="nav"></nav>
 
-  <!-- ═══════════ BACKS ═══════════ -->
-  <section class="gallery-section">
-    <h2 class="section-title">Card Backs</h2>
-    <p class="section-subtitle">Five colors × six card formats — 30 images</p>
-
-    <!-- Bridge -->
-    <h3 class="group-heading" id="backs-bridge">Bridge — 2.25 × 3.50 in</h3>
-    <div class="card-grid">
-      <div class="card-item" data-src="cards/backs/bridge/lamp-black.png">
-        <img src="cards/backs/bridge/lamp-black.png" alt="Bridge back — Lamp Black" loading="lazy">
-        <div class="card-label">cards/backs/bridge/lamp-black.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/bridge/madder-lake.png">
-        <img src="cards/backs/bridge/madder-lake.png" alt="Bridge back — Madder Lake" loading="lazy">
-        <div class="card-label">cards/backs/bridge/madder-lake.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/bridge/manganese-violet.png">
-        <img src="cards/backs/bridge/manganese-violet.png" alt="Bridge back — Manganese Violet" loading="lazy">
-        <div class="card-label">cards/backs/bridge/manganese-violet.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/bridge/prussian-blue.png">
-        <img src="cards/backs/bridge/prussian-blue.png" alt="Bridge back — Prussian Blue" loading="lazy">
-        <div class="card-label">cards/backs/bridge/prussian-blue.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/bridge/verdigris.png">
-        <img src="cards/backs/bridge/verdigris.png" alt="Bridge back — Verdigris" loading="lazy">
-        <div class="card-label">cards/backs/bridge/verdigris.png</div>
-      </div>
-    </div>
-
-    <!-- European Standard -->
-    <h3 class="group-heading" id="backs-european-standard">European Standard — 2.32 × 3.58 in</h3>
-    <div class="card-grid">
-      <div class="card-item" data-src="cards/backs/european-standard/lamp-black.png">
-        <img src="cards/backs/european-standard/lamp-black.png" alt="European Standard back — Lamp Black" loading="lazy">
-        <div class="card-label">cards/backs/european-standard/lamp-black.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/european-standard/madder-lake.png">
-        <img src="cards/backs/european-standard/madder-lake.png" alt="European Standard back — Madder Lake" loading="lazy">
-        <div class="card-label">cards/backs/european-standard/madder-lake.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/european-standard/manganese-violet.png">
-        <img src="cards/backs/european-standard/manganese-violet.png" alt="European Standard back — Manganese Violet" loading="lazy">
-        <div class="card-label">cards/backs/european-standard/manganese-violet.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/european-standard/prussian-blue.png">
-        <img src="cards/backs/european-standard/prussian-blue.png" alt="European Standard back — Prussian Blue" loading="lazy">
-        <div class="card-label">cards/backs/european-standard/prussian-blue.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/european-standard/verdigris.png">
-        <img src="cards/backs/european-standard/verdigris.png" alt="European Standard back — Verdigris" loading="lazy">
-        <div class="card-label">cards/backs/european-standard/verdigris.png</div>
-      </div>
-    </div>
-
-    <!-- Jumbo -->
-    <h3 class="group-heading" id="backs-jumbo">Jumbo — 3.50 × 5.00 in</h3>
-    <div class="card-grid">
-      <div class="card-item" data-src="cards/backs/jumbo/lamp-black.png">
-        <img src="cards/backs/jumbo/lamp-black.png" alt="Jumbo back — Lamp Black" loading="lazy">
-        <div class="card-label">cards/backs/jumbo/lamp-black.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/jumbo/madder-lake.png">
-        <img src="cards/backs/jumbo/madder-lake.png" alt="Jumbo back — Madder Lake" loading="lazy">
-        <div class="card-label">cards/backs/jumbo/madder-lake.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/jumbo/manganese-violet.png">
-        <img src="cards/backs/jumbo/manganese-violet.png" alt="Jumbo back — Manganese Violet" loading="lazy">
-        <div class="card-label">cards/backs/jumbo/manganese-violet.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/jumbo/prussian-blue.png">
-        <img src="cards/backs/jumbo/prussian-blue.png" alt="Jumbo back — Prussian Blue" loading="lazy">
-        <div class="card-label">cards/backs/jumbo/prussian-blue.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/jumbo/verdigris.png">
-        <img src="cards/backs/jumbo/verdigris.png" alt="Jumbo back — Verdigris" loading="lazy">
-        <div class="card-label">cards/backs/jumbo/verdigris.png</div>
-      </div>
-    </div>
-
-    <!-- Poker -->
-    <h3 class="group-heading" id="backs-poker">Poker — 2.50 × 3.50 in</h3>
-    <div class="card-grid">
-      <div class="card-item" data-src="cards/backs/poker/lamp-black.png">
-        <img src="cards/backs/poker/lamp-black.png" alt="Poker back — Lamp Black" loading="lazy">
-        <div class="card-label">cards/backs/poker/lamp-black.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/poker/madder-lake.png">
-        <img src="cards/backs/poker/madder-lake.png" alt="Poker back — Madder Lake" loading="lazy">
-        <div class="card-label">cards/backs/poker/madder-lake.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/poker/manganese-violet.png">
-        <img src="cards/backs/poker/manganese-violet.png" alt="Poker back — Manganese Violet" loading="lazy">
-        <div class="card-label">cards/backs/poker/manganese-violet.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/poker/prussian-blue.png">
-        <img src="cards/backs/poker/prussian-blue.png" alt="Poker back — Prussian Blue" loading="lazy">
-        <div class="card-label">cards/backs/poker/prussian-blue.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/poker/verdigris.png">
-        <img src="cards/backs/poker/verdigris.png" alt="Poker back — Verdigris" loading="lazy">
-        <div class="card-label">cards/backs/poker/verdigris.png</div>
-      </div>
-    </div>
-
-    <!-- Tarot -->
-    <h3 class="group-heading" id="backs-tarot">Tarot — 2.75 × 4.75 in</h3>
-    <div class="card-grid">
-      <div class="card-item" data-src="cards/backs/tarot/lamp-black.png">
-        <img src="cards/backs/tarot/lamp-black.png" alt="Tarot back — Lamp Black" loading="lazy">
-        <div class="card-label">cards/backs/tarot/lamp-black.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/tarot/madder-lake.png">
-        <img src="cards/backs/tarot/madder-lake.png" alt="Tarot back — Madder Lake" loading="lazy">
-        <div class="card-label">cards/backs/tarot/madder-lake.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/tarot/manganese-violet.png">
-        <img src="cards/backs/tarot/manganese-violet.png" alt="Tarot back — Manganese Violet" loading="lazy">
-        <div class="card-label">cards/backs/tarot/manganese-violet.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/tarot/prussian-blue.png">
-        <img src="cards/backs/tarot/prussian-blue.png" alt="Tarot back — Prussian Blue" loading="lazy">
-        <div class="card-label">cards/backs/tarot/prussian-blue.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/tarot/verdigris.png">
-        <img src="cards/backs/tarot/verdigris.png" alt="Tarot back — Verdigris" loading="lazy">
-        <div class="card-label">cards/backs/tarot/verdigris.png</div>
-      </div>
-    </div>
-
-    <!-- Travel -->
-    <h3 class="group-heading" id="backs-travel">Travel — 1.75 × 2.50 in</h3>
-    <div class="card-grid">
-      <div class="card-item" data-src="cards/backs/travel/lamp-black.png">
-        <img src="cards/backs/travel/lamp-black.png" alt="Travel back — Lamp Black" loading="lazy">
-        <div class="card-label">cards/backs/travel/lamp-black.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/travel/madder-lake.png">
-        <img src="cards/backs/travel/madder-lake.png" alt="Travel back — Madder Lake" loading="lazy">
-        <div class="card-label">cards/backs/travel/madder-lake.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/travel/manganese-violet.png">
-        <img src="cards/backs/travel/manganese-violet.png" alt="Travel back — Manganese Violet" loading="lazy">
-        <div class="card-label">cards/backs/travel/manganese-violet.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/travel/prussian-blue.png">
-        <img src="cards/backs/travel/prussian-blue.png" alt="Travel back — Prussian Blue" loading="lazy">
-        <div class="card-label">cards/backs/travel/prussian-blue.png</div>
-      </div>
-      <div class="card-item" data-src="cards/backs/travel/verdigris.png">
-        <img src="cards/backs/travel/verdigris.png" alt="Travel back — Verdigris" loading="lazy">
-        <div class="card-label">cards/backs/travel/verdigris.png</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════ FACES ═══════════ -->
-  <section class="gallery-section">
-    <h2 class="section-title">Card Faces — French-Suited Poker</h2>
-    <p class="section-subtitle">Four suits × five ranks — 20 images at 750 × 1050 px</p>
-
-    <!-- Clubs -->
-    <h3 class="group-heading" id="faces-clubs">♣ Clubs</h3>
-    <div class="card-grid">
-      <div class="card-item" data-src="cards/faces/french-suited/poker/clubs/ace.png">
-        <img src="cards/faces/french-suited/poker/clubs/ace.png" alt="Clubs — Ace" loading="lazy">
-        <div class="card-label">clubs/ace.png</div>
-      </div>
-      <div class="card-item" data-src="cards/faces/french-suited/poker/clubs/jack.png">
-        <img src="cards/faces/french-suited/poker/clubs/jack.png" alt="Clubs — Jack" loading="lazy">
-        <div class="card-label">clubs/jack.png</div>
-      </div>
-      <div class="card-item" data-src="cards/faces/french-suited/poker/clubs/queen.png">
-        <img src="cards/faces/french-suited/poker/clubs/queen.png" alt="Clubs — Queen" loading="lazy">
-        <div class="card-label">clubs/queen.png</div>
-      </div>
-      <div class="card-item" data-src="cards/faces/french-suited/poker/clubs/king.png">
-        <img src="cards/faces/french-suited/poker/clubs/king.png" alt="Clubs — King" loading="lazy">
-        <div class="card-label">clubs/king.png</div>
-      </div>
-    </div>
-
-    <!-- Diamonds -->
-    <h3 class="group-heading" id="faces-diamonds">♦ Diamonds</h3>
-    <div class="card-grid">
-      <div class="card-item" data-src="cards/faces/french-suited/poker/diamonds/ace.png">
-        <img src="cards/faces/french-suited/poker/diamonds/ace.png" alt="Diamonds — Ace" loading="lazy">
-        <div class="card-label">diamonds/ace.png</div>
-      </div>
-      <div class="card-item" data-src="cards/faces/french-suited/poker/diamonds/jack.png">
-        <img src="cards/faces/french-suited/poker/diamonds/jack.png" alt="Diamonds — Jack" loading="lazy">
-        <div class="card-label">diamonds/jack.png</div>
-      </div>
-      <div class="card-item" data-src="cards/faces/french-suited/poker/diamonds/queen.png">
-        <img src="cards/faces/french-suited/poker/diamonds/queen.png" alt="Diamonds — Queen" loading="lazy">
-        <div class="card-label">diamonds/queen.png</div>
-      </div>
-      <div class="card-item" data-src="cards/faces/french-suited/poker/diamonds/king.png">
-        <img src="cards/faces/french-suited/poker/diamonds/king.png" alt="Diamonds — King" loading="lazy">
-        <div class="card-label">diamonds/king.png</div>
-      </div>
-    </div>
-
-    <!-- Hearts -->
-    <h3 class="group-heading" id="faces-hearts">♥ Hearts</h3>
-    <div class="card-grid">
-      <div class="card-item" data-src="cards/faces/french-suited/poker/hearts/ace.png">
-        <img src="cards/faces/french-suited/poker/hearts/ace.png" alt="Hearts — Ace" loading="lazy">
-        <div class="card-label">hearts/ace.png</div>
-      </div>
-      <div class="card-item" data-src="cards/faces/french-suited/poker/hearts/jack.png">
-        <img src="cards/faces/french-suited/poker/hearts/jack.png" alt="Hearts — Jack" loading="lazy">
-        <div class="card-label">hearts/jack.png</div>
-      </div>
-      <div class="card-item" data-src="cards/faces/french-suited/poker/hearts/queen.png">
-        <img src="cards/faces/french-suited/poker/hearts/queen.png" alt="Hearts — Queen" loading="lazy">
-        <div class="card-label">hearts/queen.png</div>
-      </div>
-      <div class="card-item" data-src="cards/faces/french-suited/poker/hearts/king.png">
-        <img src="cards/faces/french-suited/poker/hearts/king.png" alt="Hearts — King" loading="lazy">
-        <div class="card-label">hearts/king.png</div>
-      </div>
-    </div>
-
-    <!-- Spades -->
-    <h3 class="group-heading" id="faces-spades">♠ Spades</h3>
-    <div class="card-grid">
-      <div class="card-item" data-src="cards/faces/french-suited/poker/spades/ace.png">
-        <img src="cards/faces/french-suited/poker/spades/ace.png" alt="Spades — Ace" loading="lazy">
-        <div class="card-label">spades/ace.png</div>
-      </div>
-      <div class="card-item" data-src="cards/faces/french-suited/poker/spades/jack.png">
-        <img src="cards/faces/french-suited/poker/spades/jack.png" alt="Spades — Jack" loading="lazy">
-        <div class="card-label">spades/jack.png</div>
-      </div>
-      <div class="card-item" data-src="cards/faces/french-suited/poker/spades/queen.png">
-        <img src="cards/faces/french-suited/poker/spades/queen.png" alt="Spades — Queen" loading="lazy">
-        <div class="card-label">spades/queen.png</div>
-      </div>
-      <div class="card-item" data-src="cards/faces/french-suited/poker/spades/king.png">
-        <img src="cards/faces/french-suited/poker/spades/king.png" alt="Spades — King" loading="lazy">
-        <div class="card-label">spades/king.png</div>
-      </div>
-    </div>
-  </section>
+  <!-- Dynamic gallery content -->
+  <div id="gallery-root"></div>
 
   <!-- Footer -->
   <footer class="site-footer">
@@ -546,24 +292,20 @@
 
   <script>
     (() => {
+      /* ── Lightbox ──────────────────────────────────────── */
       const lightbox = document.getElementById('lightbox');
       const lbImg    = document.getElementById('lb-img');
       const lbLabel  = document.getElementById('lb-label');
       const lbClose  = document.getElementById('lb-close');
 
-      // Open lightbox on card click
-      document.querySelectorAll('.card-item').forEach(item => {
-        item.addEventListener('click', () => {
-          const src = item.dataset.src;
-          lbImg.src = src;
-          lbImg.alt = item.querySelector('img').alt;
-          lbLabel.textContent = src;
-          lightbox.classList.add('active');
-          document.body.style.overflow = 'hidden';
-        });
-      });
+      function openLightbox(src, alt) {
+        lbImg.src = src;
+        lbImg.alt = alt;
+        lbLabel.textContent = src;
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
 
-      // Close helpers
       function closeLightbox() {
         lightbox.classList.remove('active');
         document.body.style.overflow = '';
@@ -573,6 +315,168 @@
       lbClose.addEventListener('click', e => { e.stopPropagation(); closeLightbox(); });
       lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
       document.addEventListener('keydown', e => { if (e.key === 'Escape' && lightbox.classList.contains('active')) closeLightbox(); });
+
+      /* ── Helpers ───────────────────────────────────────── */
+      const suitSymbols = { clubs: '♣', diamonds: '♦', hearts: '♥', spades: '♠' };
+
+      /** Title-case a slug like "european-standard" → "European Standard" */
+      function titleCase(s) {
+        return s.replace(/(^|-)(\w)/g, (_, sep, ch) => (sep ? ' ' : '') + ch.toUpperCase());
+      }
+
+      /** Build a card-item element and wire its lightbox click. */
+      function makeCardItem(src, alt, label) {
+        const div = document.createElement('div');
+        div.className = 'card-item';
+        div.dataset.src = src;
+        div.innerHTML =
+          `<img src="${src}" alt="${alt}" loading="lazy">` +
+          `<div class="card-label">${label}</div>`;
+        div.addEventListener('click', () => openLightbox(src, alt));
+        return div;
+      }
+
+      /* ── Rank sort order (for natural card ordering) ──── */
+      const RANK_ORDER = [
+        'ace','2','3','4','5','6','7','8','9','10',
+        'jack','queen','king','joker'
+      ];
+      function rankIndex(r) {
+        const i = RANK_ORDER.indexOf(r);
+        return i === -1 ? 999 : i;
+      }
+
+      /* ── Load catalog and render ───────────────────────── */
+      fetch('catalog.json')
+        .then(r => r.json())
+        .then(catalog => {
+          const nav   = document.getElementById('nav');
+          const root  = document.getElementById('gallery-root');
+          const assets = catalog.assets;
+          const formats = catalog.formats;
+
+          /* ── 1. Backs ──────────────────────────────────── */
+          const backs = assets.filter(a => a.side === 'back');
+          const backsByFormat = new Map();
+          backs.forEach(a => {
+            if (!backsByFormat.has(a.format)) backsByFormat.set(a.format, []);
+            backsByFormat.get(a.format).push(a);
+          });
+
+          // Sort formats alphabetically
+          const sortedFormats = [...backsByFormat.keys()].sort();
+
+          const backsSection = document.createElement('section');
+          backsSection.className = 'gallery-section';
+
+          const backColors = new Set(backs.map(a => a.color));
+          backsSection.innerHTML =
+            `<h2 class="section-title">Card Backs</h2>` +
+            `<p class="section-subtitle">${backColors.size} colors × ${sortedFormats.length} card formats — ${backs.length} images</p>`;
+
+          sortedFormats.forEach(fmt => {
+            const fmtInfo = formats[fmt];
+            const trim = fmtInfo
+              ? `${fmtInfo.trim_inches[0].toFixed(2)} × ${fmtInfo.trim_inches[1].toFixed(2)} in`
+              : '';
+            const id = `backs-${fmt}`;
+
+            // Nav pill
+            const pill = document.createElement('a');
+            pill.href = `#${id}`;
+            pill.textContent = titleCase(fmt);
+            nav.appendChild(pill);
+
+            // Heading
+            const h3 = document.createElement('h3');
+            h3.className = 'group-heading';
+            h3.id = id;
+            h3.textContent = `${titleCase(fmt)}${trim ? ' — ' + trim : ''}`;
+            backsSection.appendChild(h3);
+
+            // Grid
+            const grid = document.createElement('div');
+            grid.className = 'card-grid';
+            const items = backsByFormat.get(fmt).sort((a, b) => a.color.localeCompare(b.color));
+            items.forEach(a => {
+              const colorLabel = titleCase(a.color);
+              grid.appendChild(makeCardItem(
+                a.path,
+                `${titleCase(fmt)} back — ${colorLabel}`,
+                a.path
+              ));
+            });
+            backsSection.appendChild(grid);
+          });
+          root.appendChild(backsSection);
+
+          /* ── 2. Faces ──────────────────────────────────── */
+          const faces = assets.filter(a => a.side === 'face');
+          if (faces.length === 0) return;
+
+          // Group by system → format → suit
+          const faceSystems = new Map();
+          faces.forEach(a => {
+            const key = `${a.system}|${a.format}`;
+            if (!faceSystems.has(key)) faceSystems.set(key, new Map());
+            const suitMap = faceSystems.get(key);
+            if (!suitMap.has(a.suit)) suitMap.set(a.suit, []);
+            suitMap.get(a.suit).push(a);
+          });
+
+          faceSystems.forEach((suitMap, sysKey) => {
+            const [system, format] = sysKey.split('|');
+            const suits = [...suitMap.keys()].sort();
+            const totalFaces = faces.filter(a => a.system === system && a.format === format).length;
+            const ranksPerSuit = suitMap.values().next().value.length;
+            const px = faces.find(a => a.system === system && a.format === format)?.pixels;
+            const pxLabel = px ? ` at ${px[0]} × ${px[1]} px` : '';
+
+            const section = document.createElement('section');
+            section.className = 'gallery-section';
+            section.innerHTML =
+              `<h2 class="section-title">Card Faces — ${titleCase(system)} ${titleCase(format)}</h2>` +
+              `<p class="section-subtitle">${suits.length} suits × ${ranksPerSuit} ranks — ${totalFaces} images${pxLabel}</p>`;
+
+            suits.forEach(suit => {
+              const id = `faces-${suit}`;
+              const symbol = suitSymbols[suit] || '';
+
+              // Nav pill
+              const pill = document.createElement('a');
+              pill.href = `#${id}`;
+              pill.textContent = titleCase(suit);
+              nav.appendChild(pill);
+
+              // Heading
+              const h3 = document.createElement('h3');
+              h3.className = 'group-heading';
+              h3.id = id;
+              h3.textContent = `${symbol} ${titleCase(suit)}`;
+              section.appendChild(h3);
+
+              // Grid
+              const grid = document.createElement('div');
+              grid.className = 'card-grid';
+              const items = suitMap.get(suit).sort((a, b) => rankIndex(a.rank) - rankIndex(b.rank));
+              items.forEach(a => {
+                const rankLabel = titleCase(a.rank);
+                grid.appendChild(makeCardItem(
+                  a.path,
+                  `${titleCase(suit)} — ${rankLabel}`,
+                  `${suit}/${a.rank}.png`
+                ));
+              });
+              section.appendChild(grid);
+            });
+            root.appendChild(section);
+          });
+        })
+        .catch(err => {
+          console.error('Failed to load catalog.json:', err);
+          document.getElementById('gallery-root').innerHTML =
+            '<p style="text-align:center;color:#f87171;padding:3rem;">Could not load catalog.json — are you serving this page from a web server?</p>';
+        });
     })();
   </script>
 </body>
