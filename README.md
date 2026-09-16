@@ -4,7 +4,7 @@ A standalone illustrated card collection for software and printing.
 
 Quality playing cards for a standard deck of 54 as well as a tarot deck, in different sizes, different styles, and different colors.
 
-**Current collection:** 30 backs (five colors × six formats), plus 16 French-suited poker faces: four kings, four queens, four jacks and four ornate aces. Every face uses the same multicolor palette and can pair with any back in its format. The faces remain review artwork with the known symmetry limitations below. This is an incomplete deck; the 36 numeral cards and two planned jokers are still to come.
+**Current collection (Design 1):** 30 backs (five colors × six formats), plus 20 French-suited poker faces: four kings, four queens, four jacks, four ornate aces and four ornate twos. Every face uses the same multicolor palette and can pair with any back in its format. The faces remain review artwork with the known symmetry limitations below. This is an incomplete deck; the 32 numeral cards ranked 3–10 and two planned jokers are still to come.
 
 ![Poker Card Back In Red](cards/backs/poker/madder-lake.png)
 ![](cards/faces/french-suited/poker/hearts/queen.png)
@@ -88,6 +88,8 @@ The four jacks wear soft feathered caps. Spades is a left-facing profile with a 
 All twelve court cards now register their central floral dot to pixel **(375, 525)** within 750 × 1050, using whole-pixel shifts without resampling the figures. A shared existing border template makes the perimeter pixels identical while protecting each card's rank/suit panels. Original files, exact shifts and verification details are preserved in the [alignment notes](docs/design/court-alignment.md) and [machine-readable report](docs/design/court-alignment.json).
 
 The four aces carry large ornate suit emblems filled with gold foliage, ivory flowers and berries. Each central turquoise jewel registers to **(375, 525)**. The aces share an identical perimeter from their own Spades template, distinct from the court frame, with card-specific A/suit indices. See the [ace gallery and preparation notes](docs/design/aces.md) and [ace generation prompts](docs/design/poker-aces-prompts.md).
+
+The four twos start the numeral cards with miniature versions of their respective ornate ace emblems and solid corner indices. Each has an upright upper pip and an inverted lower pip. Their ornament and frames are not pixel-exact repeats. Untouched 1060 × 1484 masters are retained under `sources/generated/poker/numerals/`; exports use the established 750 × 1050 workflow. See the [gallery, prompts and export notes](docs/design/poker-numerals-prompts.md).
 
 ## Tools and checks
 
