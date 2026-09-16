@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Playing Cards — Design 1 Gallery</title>
+  <meta name="description" content="Browse the complete Design 1 collection: 30 card backs in five colors across six formats, plus 20 French-suited poker faces. Grab any asset without navigating the repo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* ── Reset & base ─────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:          #0e0e10;
+      --bg-card:     #18181b;
+      --bg-card-hov: #232328;
+      --border:      #2a2a30;
+      --border-hov:  #46464f;
+      --text:        #e4e4e7;
+      --text-dim:    #a1a1aa;
+      --accent:      #818cf8;
+      --accent-dim:  #6366f1;
+      --radius:      10px;
+      --font:        'Inter', system-ui, -apple-system, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Header ───────────────────────────────────────────── */
+    .site-header {
+      text-align: center;
+      padding: 3.5rem 1.5rem 1rem;
+    }
+
+    .site-header h1 {
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      background: linear-gradient(135deg, #c4b5fd 0%, #818cf8 40%, #6366f1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .site-header p {
+      margin-top: 0.6rem;
+      color: var(--text-dim);
+      font-size: 0.95rem;
+      max-width: 44rem;
+      margin-inline: auto;
+    }
+
+    .site-header .repo-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--accent);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .site-header .repo-link:hover { color: #a5b4fc; }
+    .site-header .repo-link svg { width: 16px; height: 16px; fill: currentColor; }
+
+    /* ── Navigation pills ─────────────────────────────────── */
+    .nav-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.4rem;
+      padding: 0.75rem 1rem;
+      background: rgba(14, 14, 16, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-bar a {
+      padding: 0.35rem 0.85rem;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--text-dim);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      transition: all 0.2s;
+    }
+    .nav-bar a:hover {
+      color: var(--text);
+      border-color: var(--border-hov);
+      background: var(--bg-card);
+    }
+
+    /* ── Sections ─────────────────────────────────────────── */
+    .gallery-section {
+      max-width: 82rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 1rem;
+    }
+
+    .section-title {
+      font-size: clamp(1.1rem, 2.5vw, 1.45rem);
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.25rem;
+      color: var(--text);
+    }
+
+    .section-subtitle {
+      font-size: 0.82rem;
+      color: var(--text-dim);
+      margin-bottom: 1.25rem;
+    }
+
+    .group-heading {
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: capitalize;
+      color: var(--accent);
+      margin: 1.75rem 0 0.75rem;
+      padding-left: 0.1rem;
+    }
+    .group-heading:first-of-type { margin-top: 0; }
+
+    /* ── Card grid ─────────────────────────────────────────── */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 1rem;
+    }
+
+    .card-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-item:hover {
+      transform: translateY(-4px) scale(1.02);
+      border-color: var(--border-hov);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+    }
+
+    .card-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      background: #111113;
+    }
+
+    .card-label {
+      padding: 0.5rem 0.6rem;
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: var(--text-dim);
+      word-break: break-all;
+      line-height: 1.35;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── Lightbox ──────────────────────────────────────────── */
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      background: rgba(0, 0, 0, 0.88);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 2rem;
+      cursor: zoom-out;
+      animation: fadeIn 0.2s ease;
+    }
+    .lightbox.active { display: flex; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
+    .lightbox img {
+      max-width: min(90vw, 750px);
+      max-height: 80vh;
+      border-radius: var(--radius);
+      box-shadow: 0 16px 48px rgba(0, 0, 0, 0.6);
+      cursor: default;
+    }
+
+    .lightbox .lb-label {
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-dim);
+      text-align: center;
+      word-break: break-all;
+    }
+
+    .lightbox .lb-close {
+      position: absolute;
+      top: 1.25rem;
+      right: 1.5rem;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text-dim);
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .lightbox .lb-close:hover {
+      background: var(--bg-card-hov);
+      color: var(--text);
+      border-color: var(--border-hov);
+    }
+
+    /* ── Footer ───────────────────────────────────────────── */
+    .site-footer {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      font-size: 0.78rem;
+      color: var(--text-dim);
+    }
+    .site-footer a { color: var(--accent); text-decoration: none; }
+    .site-footer a:hover { text-decoration: underline; }
+
+    /* ── Responsive tweaks ────────────────────────────────── */
+    @media (max-width: 480px) {
+      .card-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 0.65rem; }
+      .card-label { font-size: 0.62rem; padding: 0.4rem 0.5rem; }
+      .nav-bar a { font-size: 0.7rem; padding: 0.3rem 0.65rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <h1>Playing Cards — Design 1</h1>
+    <p>The complete collection: 30 backs in five pigment-inspired colors across six card formats, plus 20 French-suited poker faces. Click any card to view full-size.</p>
+    <a class="repo-link" href="https://github.com/ianrastall/playing-cards" target="_blank" rel="noopener">
+      <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      View on GitHub
+    </a>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="nav-bar" id="nav">
+    <a href="#backs-bridge">Bridge</a>
+    <a href="#backs-european-standard">European</a>
+    <a href="#backs-jumbo">Jumbo</a>
+    <a href="#backs-poker">Poker</a>
+    <a href="#backs-tarot">Tarot</a>
+    <a href="#backs-travel">Travel</a>
+    <a href="#faces-clubs">Clubs</a>
+    <a href="#faces-diamonds">Diamonds</a>
+    <a href="#faces-hearts">Hearts</a>
+    <a href="#faces-spades">Spades</a>
+  </nav>
+
+  <!-- ═══════════ BACKS ═══════════ -->
+  <section class="gallery-section">
+    <h2 class="section-title">Card Backs</h2>
+    <p class="section-subtitle">Five colors × six card formats — 30 images</p>
+
+    <!-- Bridge -->
+    <h3 class="group-heading" id="backs-bridge">Bridge — 2.25 × 3.50 in</h3>
+    <div class="card-grid">
+      <div class="card-item" data-src="cards/backs/bridge/lamp-black.png">
+        <img src="cards/backs/bridge/lamp-black.png" alt="Bridge back — Lamp Black" loading="lazy">
+        <div class="card-label">cards/backs/bridge/lamp-black.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/bridge/madder-lake.png">
+        <img src="cards/backs/bridge/madder-lake.png" alt="Bridge back — Madder Lake" loading="lazy">
+        <div class="card-label">cards/backs/bridge/madder-lake.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/bridge/manganese-violet.png">
+        <img src="cards/backs/bridge/manganese-violet.png" alt="Bridge back — Manganese Violet" loading="lazy">
+        <div class="card-label">cards/backs/bridge/manganese-violet.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/bridge/prussian-blue.png">
+        <img src="cards/backs/bridge/prussian-blue.png" alt="Bridge back — Prussian Blue" loading="lazy">
+        <div class="card-label">cards/backs/bridge/prussian-blue.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/bridge/verdigris.png">
+        <img src="cards/backs/bridge/verdigris.png" alt="Bridge back — Verdigris" loading="lazy">
+        <div class="card-label">cards/backs/bridge/verdigris.png</div>
+      </div>
+    </div>
+
+    <!-- European Standard -->
+    <h3 class="group-heading" id="backs-european-standard">European Standard — 2.32 × 3.58 in</h3>
+    <div class="card-grid">
+      <div class="card-item" data-src="cards/backs/european-standard/lamp-black.png">
+        <img src="cards/backs/european-standard/lamp-black.png" alt="European Standard back — Lamp Black" loading="lazy">
+        <div class="card-label">cards/backs/european-standard/lamp-black.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/european-standard/madder-lake.png">
+        <img src="cards/backs/european-standard/madder-lake.png" alt="European Standard back — Madder Lake" loading="lazy">
+        <div class="card-label">cards/backs/european-standard/madder-lake.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/european-standard/manganese-violet.png">
+        <img src="cards/backs/european-standard/manganese-violet.png" alt="European Standard back — Manganese Violet" loading="lazy">
+        <div class="card-label">cards/backs/european-standard/manganese-violet.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/european-standard/prussian-blue.png">
+        <img src="cards/backs/european-standard/prussian-blue.png" alt="European Standard back — Prussian Blue" loading="lazy">
+        <div class="card-label">cards/backs/european-standard/prussian-blue.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/european-standard/verdigris.png">
+        <img src="cards/backs/european-standard/verdigris.png" alt="European Standard back — Verdigris" loading="lazy">
+        <div class="card-label">cards/backs/european-standard/verdigris.png</div>
+      </div>
+    </div>
+
+    <!-- Jumbo -->
+    <h3 class="group-heading" id="backs-jumbo">Jumbo — 3.50 × 5.00 in</h3>
+    <div class="card-grid">
+      <div class="card-item" data-src="cards/backs/jumbo/lamp-black.png">
+        <img src="cards/backs/jumbo/lamp-black.png" alt="Jumbo back — Lamp Black" loading="lazy">
+        <div class="card-label">cards/backs/jumbo/lamp-black.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/jumbo/madder-lake.png">
+        <img src="cards/backs/jumbo/madder-lake.png" alt="Jumbo back — Madder Lake" loading="lazy">
+        <div class="card-label">cards/backs/jumbo/madder-lake.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/jumbo/manganese-violet.png">
+        <img src="cards/backs/jumbo/manganese-violet.png" alt="Jumbo back — Manganese Violet" loading="lazy">
+        <div class="card-label">cards/backs/jumbo/manganese-violet.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/jumbo/prussian-blue.png">
+        <img src="cards/backs/jumbo/prussian-blue.png" alt="Jumbo back — Prussian Blue" loading="lazy">
+        <div class="card-label">cards/backs/jumbo/prussian-blue.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/jumbo/verdigris.png">
+        <img src="cards/backs/jumbo/verdigris.png" alt="Jumbo back — Verdigris" loading="lazy">
+        <div class="card-label">cards/backs/jumbo/verdigris.png</div>
+      </div>
+    </div>
+
+    <!-- Poker -->
+    <h3 class="group-heading" id="backs-poker">Poker — 2.50 × 3.50 in</h3>
+    <div class="card-grid">
+      <div class="card-item" data-src="cards/backs/poker/lamp-black.png">
+        <img src="cards/backs/poker/lamp-black.png" alt="Poker back — Lamp Black" loading="lazy">
+        <div class="card-label">cards/backs/poker/lamp-black.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/poker/madder-lake.png">
+        <img src="cards/backs/poker/madder-lake.png" alt="Poker back — Madder Lake" loading="lazy">
+        <div class="card-label">cards/backs/poker/madder-lake.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/poker/manganese-violet.png">
+        <img src="cards/backs/poker/manganese-violet.png" alt="Poker back — Manganese Violet" loading="lazy">
+        <div class="card-label">cards/backs/poker/manganese-violet.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/poker/prussian-blue.png">
+        <img src="cards/backs/poker/prussian-blue.png" alt="Poker back — Prussian Blue" loading="lazy">
+        <div class="card-label">cards/backs/poker/prussian-blue.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/poker/verdigris.png">
+        <img src="cards/backs/poker/verdigris.png" alt="Poker back — Verdigris" loading="lazy">
+        <div class="card-label">cards/backs/poker/verdigris.png</div>
+      </div>
+    </div>
+
+    <!-- Tarot -->
+    <h3 class="group-heading" id="backs-tarot">Tarot — 2.75 × 4.75 in</h3>
+    <div class="card-grid">
+      <div class="card-item" data-src="cards/backs/tarot/lamp-black.png">
+        <img src="cards/backs/tarot/lamp-black.png" alt="Tarot back — Lamp Black" loading="lazy">
+        <div class="card-label">cards/backs/tarot/lamp-black.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/tarot/madder-lake.png">
+        <img src="cards/backs/tarot/madder-lake.png" alt="Tarot back — Madder Lake" loading="lazy">
+        <div class="card-label">cards/backs/tarot/madder-lake.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/tarot/manganese-violet.png">
+        <img src="cards/backs/tarot/manganese-violet.png" alt="Tarot back — Manganese Violet" loading="lazy">
+        <div class="card-label">cards/backs/tarot/manganese-violet.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/tarot/prussian-blue.png">
+        <img src="cards/backs/tarot/prussian-blue.png" alt="Tarot back — Prussian Blue" loading="lazy">
+        <div class="card-label">cards/backs/tarot/prussian-blue.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/tarot/verdigris.png">
+        <img src="cards/backs/tarot/verdigris.png" alt="Tarot back — Verdigris" loading="lazy">
+        <div class="card-label">cards/backs/tarot/verdigris.png</div>
+      </div>
+    </div>
+
+    <!-- Travel -->
+    <h3 class="group-heading" id="backs-travel">Travel — 1.75 × 2.50 in</h3>
+    <div class="card-grid">
+      <div class="card-item" data-src="cards/backs/travel/lamp-black.png">
+        <img src="cards/backs/travel/lamp-black.png" alt="Travel back — Lamp Black" loading="lazy">
+        <div class="card-label">cards/backs/travel/lamp-black.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/travel/madder-lake.png">
+        <img src="cards/backs/travel/madder-lake.png" alt="Travel back — Madder Lake" loading="lazy">
+        <div class="card-label">cards/backs/travel/madder-lake.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/travel/manganese-violet.png">
+        <img src="cards/backs/travel/manganese-violet.png" alt="Travel back — Manganese Violet" loading="lazy">
+        <div class="card-label">cards/backs/travel/manganese-violet.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/travel/prussian-blue.png">
+        <img src="cards/backs/travel/prussian-blue.png" alt="Travel back — Prussian Blue" loading="lazy">
+        <div class="card-label">cards/backs/travel/prussian-blue.png</div>
+      </div>
+      <div class="card-item" data-src="cards/backs/travel/verdigris.png">
+        <img src="cards/backs/travel/verdigris.png" alt="Travel back — Verdigris" loading="lazy">
+        <div class="card-label">cards/backs/travel/verdigris.png</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FACES ═══════════ -->
+  <section class="gallery-section">
+    <h2 class="section-title">Card Faces — French-Suited Poker</h2>
+    <p class="section-subtitle">Four suits × five ranks — 20 images at 750 × 1050 px</p>
+
+    <!-- Clubs -->
+    <h3 class="group-heading" id="faces-clubs">♣ Clubs</h3>
+    <div class="card-grid">
+      <div class="card-item" data-src="cards/faces/french-suited/poker/clubs/ace.png">
+        <img src="cards/faces/french-suited/poker/clubs/ace.png" alt="Clubs — Ace" loading="lazy">
+        <div class="card-label">clubs/ace.png</div>
+      </div>
+      <div class="card-item" data-src="cards/faces/french-suited/poker/clubs/2.png">
+        <img src="cards/faces/french-suited/poker/clubs/2.png" alt="Clubs — 2" loading="lazy">
+        <div class="card-label">clubs/2.png</div>
+      </div>
+      <div class="card-item" data-src="cards/faces/french-suited/poker/clubs/jack.png">
+        <img src="cards/faces/french-suited/poker/clubs/jack.png" alt="Clubs — Jack" loading="lazy">
+        <div class="card-label">clubs/jack.png</div>
+      </div>
+      <div class="card-item" data-src="cards/faces/french-suited/poker/clubs/queen.png">
+        <img src="cards/faces/french-suited/poker/clubs/queen.png" alt="Clubs — Queen" loading="lazy">
+        <div class="card-label">clubs/queen.png</div>
+      </div>
+      <div class="card-item" data-src="cards/faces/french-suited/poker/clubs/king.png">
+        <img src="cards/faces/french-suited/poker/clubs/king.png" alt="Clubs — King" loading="lazy">
+        <div class="card-label">clubs/king.png</div>
+      </div>
+    </div>
+
+    <!-- Diamonds -->
+    <h3 class="group-heading" id="faces-diamonds">♦ Diamonds</h3>
+    <div class="card-grid">
+      <div class="card-item" data-src="cards/faces/french-suited/poker/diamonds/ace.png">
+        <img src="cards/faces/french-suited/poker/diamonds/ace.png" alt="Diamonds — Ace" loading="lazy">
+        <div class="card-label">diamonds/ace.png</div>
+      </div>
+      <div class="card-item" data-src="cards/faces/french-suited/poker/diamonds/2.png">
+        <img src="cards/faces/french-suited/poker/diamonds/2.png" alt="Diamonds — 2" loading="lazy">
+        <div class="card-label">diamonds/2.png</div>
+      </div>
+      <div class="card-item" data-src="cards/faces/french-suited/poker/diamonds/jack.png">
+        <img src="cards/faces/french-suited/poker/diamonds/jack.png" alt="Diamonds — Jack" loading="lazy">
+        <div class="card-label">diamonds/jack.png</div>
+      </div>
+      <div class="card-item" data-src="cards/faces/french-suited/poker/diamonds/queen.png">
+        <img src="cards/faces/french-suited/poker/diamonds/queen.png" alt="Diamonds — Queen" loading="lazy">
+        <div class="card-label">diamonds/queen.png</div>
+      </div>
+      <div class="card-item" data-src="cards/faces/french-suited/poker/diamonds/king.png">
+        <img src="cards/faces/french-suited/poker/diamonds/king.png" alt="Diamonds — King" loading="lazy">
+        <div class="card-label">diamonds/king.png</div>
+      </div>
+    </div>
+
+    <!-- Hearts -->
+    <h3 class="group-heading" id="faces-hearts">♥ Hearts</h3>
+    <div class="card-grid">
+      <div class="card-item" data-src="cards/faces/french-suited/poker/hearts/ace.png">
+        <img src="cards/faces/french-suited/poker/hearts/ace.png" alt="Hearts — Ace" loading="lazy">
+        <div class="card-label">hearts/ace.png</div>
+      </div>
+      <div class="card-item" data-src="cards/faces/french-suited/poker/hearts/2.png">
+        <img src="cards/faces/french-suited/poker/hearts/2.png" alt="Hearts — 2" loading="lazy">
+        <div class="card-label">hearts/2.png</div>
+      </div>
+      <div class="card-item" data-src="cards/faces/french-suited/poker/hearts/jack.png">
+        <img src="cards/faces/french-suited/poker/hearts/jack.png" alt="Hearts — Jack" loading="lazy">
+        <div class="card-label">hearts/jack.png</div>
+      </div>
+      <div class="card-item" data-src="cards/faces/french-suited/poker/hearts/queen.png">
+        <img src="cards/faces/french-suited/poker/hearts/queen.png" alt="Hearts — Queen" loading="lazy">
+        <div class="card-label">hearts/queen.png</div>
+      </div>
+      <div class="card-item" data-src="cards/faces/french-suited/poker/hearts/king.png">
+        <img src="cards/faces/french-suited/poker/hearts/king.png" alt="Hearts — King" loading="lazy">
+        <div class="card-label">hearts/king.png</div>
+      </div>
+    </div>
+
+    <!-- Spades -->
+    <h3 class="group-heading" id="faces-spades">♠ Spades</h3>
+    <div class="card-grid">
+      <div class="card-item" data-src="cards/faces/french-suited/poker/spades/ace.png">
+        <img src="cards/faces/french-suited/poker/spades/ace.png" alt="Spades — Ace" loading="lazy">
+        <div class="card-label">spades/ace.png</div>
+      </div>
+      <div class="card-item" data-src="cards/faces/french-suited/poker/spades/2.png">
+        <img src="cards/faces/french-suited/poker/spades/2.png" alt="Spades — 2" loading="lazy">
+        <div class="card-label">spades/2.png</div>
+      </div>
+      <div class="card-item" data-src="cards/faces/french-suited/poker/spades/jack.png">
+        <img src="cards/faces/french-suited/poker/spades/jack.png" alt="Spades — Jack" loading="lazy">
+        <div class="card-label">spades/jack.png</div>
+      </div>
+      <div class="card-item" data-src="cards/faces/french-suited/poker/spades/queen.png">
+        <img src="cards/faces/french-suited/poker/spades/queen.png" alt="Spades — Queen" loading="lazy">
+        <div class="card-label">spades/queen.png</div>
+      </div>
+      <div class="card-item" data-src="cards/faces/french-suited/poker/spades/king.png">
+        <img src="cards/faces/french-suited/poker/spades/king.png" alt="Spades — King" loading="lazy">
+        <div class="card-label">spades/king.png</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>Playing Cards — Design 1 &middot; <a href="https://github.com/ianrastall/playing-cards">ianrastall/playing-cards</a> &middot; MIT License</p>
+  </footer>
+
+  <!-- Lightbox overlay -->
+  <div class="lightbox" id="lightbox">
+    <button class="lb-close" id="lb-close" aria-label="Close">&times;</button>
+    <img id="lb-img" src="" alt="">
+    <div class="lb-label" id="lb-label"></div>
+  </div>
+
+  <script>
+    (() => {
+      const lightbox = document.getElementById('lightbox');
+      const lbImg    = document.getElementById('lb-img');
+      const lbLabel  = document.getElementById('lb-label');
+      const lbClose  = document.getElementById('lb-close');
+
+      // Open lightbox on card click
+      document.querySelectorAll('.card-item').forEach(item => {
+        item.addEventListener('click', () => {
+          const src = item.dataset.src;
+          lbImg.src = src;
+          lbImg.alt = item.querySelector('img').alt;
+          lbLabel.textContent = src;
+          lightbox.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        });
+      });
+
+      // Close helpers
+      function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+        lbImg.src = '';
+      }
+
+      lbClose.addEventListener('click', e => { e.stopPropagation(); closeLightbox(); });
+      lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
+      document.addEventListener('keydown', e => { if (e.key === 'Escape' && lightbox.classList.contains('active')) closeLightbox(); });
+    })();
+  </script>
+</body>
+</html>

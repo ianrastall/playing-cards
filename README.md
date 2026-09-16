@@ -4,7 +4,7 @@ A standalone illustrated card collection for software and printing.
 
 Quality playing cards for a standard deck of 54 as well as a tarot deck, in different sizes, different styles, and different colors.
 
-**Current collection (Design 1):** 30 backs (five colors × six formats), plus 20 French-suited poker faces: four kings, four queens, four jacks, four ornate aces and four ornate twos. Every face uses the same multicolor palette and can pair with any back in its format. The faces remain review artwork with the known symmetry limitations below. This is an incomplete deck; the 32 numeral cards ranked 3–10 and two planned jokers are still to come.
+**Current collection (Design 1):** 30 backs (five colors × six formats), plus 21 French-suited poker faces: four kings, four queens, four jacks, four ornate aces, four ornate twos and a Ten of Spades. Every face uses the same multicolor palette and can pair with any back in its format. The faces remain review artwork with the known symmetry limitations below. This is an incomplete deck; the other 31 numeral cards ranked 3–10 and two planned jokers are still to come. The twos await revision to the more expansive numeral frame being tested on the ten.
 
 ![Poker Card Back In Red](cards/backs/poker/madder-lake.png)
 ![](cards/faces/french-suited/poker/hearts/queen.png)
@@ -90,6 +90,8 @@ All twelve court cards now register their central floral dot to pixel **(375, 52
 The four aces carry large ornate suit emblems filled with gold foliage, ivory flowers and berries. Each central turquoise jewel registers to **(375, 525)**. The aces share an identical perimeter from their own Spades template, distinct from the court frame, with card-specific A/suit indices. See the [ace gallery and preparation notes](docs/design/aces.md) and [ace generation prompts](docs/design/poker-aces-prompts.md).
 
 The four twos start the numeral cards with miniature versions of their respective ornate ace emblems and solid corner indices. Each has an upright upper pip and an inverted lower pip. Their ornament and frames are not pixel-exact repeats. Untouched 1060 × 1484 masters are retained under `sources/generated/poker/numerals/`; exports use the established 750 × 1050 workflow. See the [gallery, prompts and export notes](docs/design/poker-numerals-prompts.md).
+
+The [Ten of Spades](docs/design/poker-ten-spades-prompts.md) tests a new numeral-card frame: a broad rounded rectangular ivory panel, narrow botanical perimeter, and pale champagne-gold filigree. Ten miniature ornate spades occupy the familiar four-plus-four-plus-two arrangement. This more spacious field supersedes the lobed frame as the direction for number cards; the existing twos are retained pending revision.
 
 ## Tools and checks
 

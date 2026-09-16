@@ -1520,6 +1520,40 @@
       "sha256": "27d8e79d8ef36cb548d0f3d579c59479afd2a55c6194b55cf1657e6a5c25e147"
     },
     {
+      "id": "face.french-suited.poker.spades.10",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "spades",
+      "rank": "10",
+      "color_variant": null,
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/spades/10.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGB",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "7019b5ec0e9a6e78ce87ba134ceaa4768207d30a03e78e5563aacdcebc61ce7c"
+    },
+    {
       "id": "face.french-suited.poker.spades.2",
       "side": "face",
       "system": "french-suited",
