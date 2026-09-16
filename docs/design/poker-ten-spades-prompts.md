@@ -8,7 +8,7 @@ The botanical palette, small solid corner pips and miniature ace emblems continu
 
 Final export: `cards/faces/french-suited/poker/spades/10.png`, 750 × 1050 at nominal 300 DPI. The untouched 1060 × 1484 generated master is retained locally at `work/numerals/spades-10-filigree-master.png`; the plain-panel comparison is at `work/numerals/spades-10-plain-panel-master.png`. Work files are Git-ignored. Export uses `scripts/export_face.py`, with aspect ratio preserved and no cropping.
 
-This remains review artwork. Pip positions, internal ornament, filigree and frame are generative, not mathematically exact repeats. The four existing twos use the earlier lobed frame and await replacement once the revised numeral frame is settled. Only the Ten of Spades has been made in this new direction; other tens and ranks 3–9 remain unmade. Courts and aces retain their existing frames.
+This remains review artwork. Pip positions, internal ornament, filigree and frame are generative, not mathematically exact repeats. The user approved this revised numeral frame, and [all four tens are now complete](poker-wide-numerals-prompts.md). Replacing the four earlier lobed-frame twos was attempted next but image generation reached its usage limit; those files remain unchanged. Ranks 3–9 remain unmade. Courts and aces retain their existing frames.
 
 ## Prompt sequence
 
@@ -66,4 +66,3 @@ KEEP EVERYTHING ELSE EXACTLY AS SHOWN: all TEN ornate spade pips at their existi
 The traditional ten arrangement remains FOUR in each side column, TWO in the center column, with upper central pip BETWEEN first and second side rows and lower central pip BETWEEN third and fourth side rows. Exactly ten, no additional suit signs.
 Output ONE complete flat card at 1060 x 1484 pixels, exact 5:7 portrait, same proportions as the input. Only add the subtle background filigree inside the ivory panel.
 ```
-
