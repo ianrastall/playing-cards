@@ -1,0 +1,327 @@
+{
+  "method": "Entire painted layer registered before center jewel overlay",
+  "tolerance_px": 0.1,
+  "cards": [
+    {
+      "format": "poker",
+      "suit": "spades",
+      "canvas": [
+        750,
+        1050
+      ],
+      "before_painted_center": [
+        374.60375,
+        525.33875
+      ],
+      "after_painted_center": [
+        374.4994192799071,
+        524.4994192799071
+      ],
+      "target": [
+        374.5,
+        524.5
+      ]
+    },
+    {
+      "format": "poker",
+      "suit": "hearts",
+      "canvas": [
+        750,
+        1050
+      ],
+      "before_painted_center": [
+        375.11293634496917,
+        524.7378507871321
+      ],
+      "after_painted_center": [
+        374.5094957432875,
+        524.5127701375245
+      ],
+      "target": [
+        374.5,
+        524.5
+      ]
+    },
+    {
+      "format": "poker",
+      "suit": "diamonds",
+      "canvas": [
+        750,
+        1050
+      ],
+      "before_painted_center": [
+        374.77080291970805,
+        524.914598540146
+      ],
+      "after_painted_center": [
+        374.45559566787006,
+        524.4729241877257
+      ],
+      "target": [
+        374.5,
+        524.5
+      ]
+    },
+    {
+      "format": "poker",
+      "suit": "clubs",
+      "canvas": [
+        750,
+        1050
+      ],
+      "before_painted_center": [
+        375.07339449541286,
+        524.6753705010585
+      ],
+      "after_painted_center": [
+        374.4897182025895,
+        524.5118050266565
+      ],
+      "target": [
+        374.5,
+        524.5
+      ]
+    },
+    {
+      "format": "jumbo",
+      "suit": "spades",
+      "canvas": [
+        1050,
+        1500
+      ],
+      "before_painted_center": [
+        525.0726035167329,
+        750.1724333522405
+      ],
+      "after_painted_center": [
+        524.4797827398913,
+        749.5075437537719
+      ],
+      "target": [
+        524.5,
+        749.5
+      ]
+    },
+    {
+      "format": "jumbo",
+      "suit": "hearts",
+      "canvas": [
+        1050,
+        1500
+      ],
+      "before_painted_center": [
+        525.4027555270746,
+        749.8548542133932
+      ],
+      "after_painted_center": [
+        524.4935856318152,
+        749.4890955740859
+      ],
+      "target": [
+        524.5,
+        749.5
+      ]
+    },
+    {
+      "format": "jumbo",
+      "suit": "diamonds",
+      "canvas": [
+        1050,
+        1500
+      ],
+      "before_painted_center": [
+        524.870111230714,
+        750.0828848223897
+      ],
+      "after_painted_center": [
+        524.4916697519437,
+        749.5142539800074
+      ],
+      "target": [
+        524.5,
+        749.5
+      ]
+    },
+    {
+      "format": "jumbo",
+      "suit": "clubs",
+      "canvas": [
+        1050,
+        1500
+      ],
+      "before_painted_center": [
+        525.3658187029738,
+        749.8011465424579
+      ],
+      "after_painted_center": [
+        524.5241592578276,
+        749.4468496327793
+      ],
+      "target": [
+        524.5,
+        749.5
+      ]
+    },
+    {
+      "format": "travel",
+      "suit": "spades",
+      "canvas": [
+        525,
+        750
+      ],
+      "before_painted_center": [
+        262.3939393939394,
+        375.1691919191919
+      ],
+      "after_painted_center": [
+        262.0047393364929,
+        374.521327014218
+      ],
+      "target": [
+        262.0,
+        374.5
+      ]
+    },
+    {
+      "format": "travel",
+      "suit": "hearts",
+      "canvas": [
+        525,
+        750
+      ],
+      "before_painted_center": [
+        262.3928143712575,
+        374.62754491017967
+      ],
+      "after_painted_center": [
+        261.95412844036696,
+        374.50764525993884
+      ],
+      "target": [
+        262.0,
+        374.5
+      ]
+    },
+    {
+      "format": "travel",
+      "suit": "diamonds",
+      "canvas": [
+        525,
+        750
+      ],
+      "before_painted_center": [
+        262.15384615384613,
+        375.1438127090301
+      ],
+      "after_painted_center": [
+        261.974958263773,
+        374.4223706176962
+      ],
+      "target": [
+        262.0,
+        374.5
+      ]
+    },
+    {
+      "format": "travel",
+      "suit": "clubs",
+      "canvas": [
+        525,
+        750
+      ],
+      "before_painted_center": [
+        262.3272727272727,
+        374.65034965034965
+      ],
+      "after_painted_center": [
+        261.937898089172,
+        374.50955414012736
+      ],
+      "target": [
+        262.0,
+        374.5
+      ]
+    },
+    {
+      "format": "bridge",
+      "suit": "spades",
+      "canvas": [
+        675,
+        1050
+      ],
+      "before_painted_center": [
+        337.48285714285714,
+        525.3214285714286
+      ],
+      "after_painted_center": [
+        336.9327610872675,
+        524.4291845493563
+      ],
+      "target": [
+        337.0,
+        524.5
+      ]
+    },
+    {
+      "format": "bridge",
+      "suit": "hearts",
+      "canvas": [
+        675,
+        1050
+      ],
+      "before_painted_center": [
+        337.5472088215024,
+        524.7587870434184
+      ],
+      "after_painted_center": [
+        337.02835921674546,
+        524.5280216070223
+      ],
+      "target": [
+        337.0,
+        524.5
+      ]
+    },
+    {
+      "format": "bridge",
+      "suit": "diamonds",
+      "canvas": [
+        675,
+        1050
+      ],
+      "before_painted_center": [
+        337.14161392405066,
+        524.9319620253165
+      ],
+      "after_painted_center": [
+        336.9687255668491,
+        524.5269741985926
+      ],
+      "target": [
+        337.0,
+        524.5
+      ]
+    },
+    {
+      "format": "bridge",
+      "suit": "clubs",
+      "canvas": [
+        675,
+        1050
+      ],
+      "before_painted_center": [
+        337.6106333072713,
+        524.8577013291634
+      ],
+      "after_painted_center": [
+        337.015,
+        524.4941666666666
+      ],
+      "target": [
+        337.0,
+        524.5
+      ]
+    }
+  ],
+  "european_standard": "Resized from corrected Bridge"
+}

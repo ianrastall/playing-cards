@@ -72,7 +72,10 @@
   ],
   "face_systems": {
     "french-suited": {
-      "jokers": ["black", "red"],
+      "jokers": [
+        "black",
+        "red"
+      ],
       "suits": [
         "clubs",
         "diamonds",
@@ -93,9 +96,18 @@
         "jack",
         "queen",
         "king"
+      ],
+      "formats": [
+        "poker",
+        "jumbo",
+        "travel",
+        "bridge",
+        "european-standard"
       ]
     }
   },
   "face_status": "review",
-  "back_status": "available"
+  "back_status": "available",
+  "renderer": "face-formats-v1",
+  "frame_palette": "suit-aware faces; palette-aware backs"
 }

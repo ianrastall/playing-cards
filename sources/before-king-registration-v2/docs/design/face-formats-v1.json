@@ -1,0 +1,1832 @@
+{
+  "version": 1,
+  "order": [
+    "poker",
+    "jumbo",
+    "travel",
+    "bridge",
+    "european-standard"
+  ],
+  "sources": {
+    "docs/design/numeral-layout-v1.json": "b9693493299dfc5cd3a1897efc99807c36d44f4c901dde266d16b7f64875859a",
+    "scripts/complete_poker.py": "6326992b11fcdebd992c6e90225e011a08aa7d1df336f4f1a9342998ee2b9a32",
+    "scripts/expand_faces.py": "2bbb13359e5fd41f78662405f2c841f27d2a93bb620cb2cb87289ceb25f0b4fe",
+    "scripts/frame_palette.py": "79e3ea406dca389fe096e44d402bcad45957fe3f1749eb2abfff50ebf2fe31cb",
+    "scripts/rebuild_deck.py": "82caa612321fd8107d5d5af394f483d8131af702040c24caa49f161184544b9c",
+    "scripts/recolor_card_backs.py": "2f1cb66144a259e621a4f1402db60188db66de6719b66d3d9792a23a0e2fbf7b",
+    "sources/before-deck-rebuild-v1/cards/backs/bridge/prussian-blue.png": "f99ddba560aecb22844d81ed81605b083aad7bb912e627616a13f178afdf7f67",
+    "sources/before-deck-rebuild-v1/cards/backs/european-standard/prussian-blue.png": "ea1e5cc0cac02a2f0d64db8197748cbbcfada0628f1dc7ae07fe1e89eb245005",
+    "sources/before-deck-rebuild-v1/cards/backs/jumbo/prussian-blue.png": "facffc2bee0f4a1f5c5a7196fd5ba6114338feeb90e0fddbc364d2e9d145e20c",
+    "sources/before-deck-rebuild-v1/cards/backs/poker/prussian-blue.png": "afaa6d4d785d97276a6a065c41de3d8976364e8cac3d3d719690cfbd77c1e80c",
+    "sources/before-deck-rebuild-v1/cards/backs/tarot/prussian-blue.png": "f8cfd50e3f095d7893739fe2485c6544daa48891fa17d68c0e2c49dcc720a104",
+    "sources/before-deck-rebuild-v1/cards/backs/travel/prussian-blue.png": "e94290d0e6d61975a1ac71e0f97a1a031fb307fc86ff6467d75ea0be8515dd80",
+    "sources/before-deck-rebuild-v1/cards/faces/french-suited/poker/clubs/jack.png": "7ef080466badd053c5849b16d3ceb0dae708baf4ad929c4ca68b0c0f2832ad22",
+    "sources/before-deck-rebuild-v1/cards/faces/french-suited/poker/clubs/king.png": "d5d1dd2a43c479c3a08d4937903ab3593761cf27d8c2afe954233a07dd31529f",
+    "sources/before-deck-rebuild-v1/cards/faces/french-suited/poker/clubs/queen.png": "7c834951490e1e97b58d90145d9690e2d152b20402c969cd03b38f2b0d0eea1a",
+    "sources/before-deck-rebuild-v1/cards/faces/french-suited/poker/diamonds/jack.png": "b15b5d43e1894bea9088d08f8f22119cfad84e43e59c3993e2234680d0f6a21f",
+    "sources/before-deck-rebuild-v1/cards/faces/french-suited/poker/diamonds/king.png": "182abd7e627c34d91743640c228ca62a26504aa53567aa820b4e1840f23b19a4",
+    "sources/before-deck-rebuild-v1/cards/faces/french-suited/poker/diamonds/queen.png": "0c9ddc46a2716bf9dc40d418060b9c638bfd7cad55731b8e8a1f6b5e4207de8b",
+    "sources/before-deck-rebuild-v1/cards/faces/french-suited/poker/hearts/jack.png": "5b6f55927d790d5fda01b417af4aea46ccfcaf91a61aeabb7d4363d09d8cb2da",
+    "sources/before-deck-rebuild-v1/cards/faces/french-suited/poker/hearts/king.png": "039d05e7e752fece7d53f3d9aa32699bd4f8f691d25a00aabb70b8a450f7d3bc",
+    "sources/before-deck-rebuild-v1/cards/faces/french-suited/poker/hearts/queen.png": "27d8e79d8ef36cb548d0f3d579c59479afd2a55c6194b55cf1657e6a5c25e147",
+    "sources/before-deck-rebuild-v1/cards/faces/french-suited/poker/spades/jack.png": "02f01f4d8c875add83b0933640f19dbf87bd717a8030ffa5259b16d6de8bf44d",
+    "sources/before-deck-rebuild-v1/cards/faces/french-suited/poker/spades/king.png": "f062d7a3b2871b43afe0a313377f4fac49b2c764a79cc9db9eb651ff6554c525",
+    "sources/before-deck-rebuild-v1/cards/faces/french-suited/poker/spades/queen.png": "489db3457ec2fa4f9ee59a3e5bde83be2d4e000f0f3f61966b5a2c7d2cceb362",
+    "sources/components/poker/v1/field-mask.png": "1acbbb429eb81548bca479c7d0f2243543b5a07100a43511f48855af6d8846fd",
+    "sources/components/poker/v1/frame.png": "a8639367d9cdb3112cac251de13c99e4176047081f115b4c2fd6123aa9940efe",
+    "sources/components/poker/v1/indices/clubs/10.png": "af119b0220b7a2ec28e1ad624fef8e9aac58df991a2bed396dbce8fc902f0f9c",
+    "sources/components/poker/v1/indices/clubs/2.png": "73272a199a225ebecffca616b4a613c6649f501baab5feeeadb0f4e92734d1aa",
+    "sources/components/poker/v1/indices/clubs/3.png": "24a7d651d1360acb059dd392545c4370f0b44a6d3d8576c52a6a1b7ebbbbda9c",
+    "sources/components/poker/v1/indices/clubs/4.png": "6ce5b893461e84ba03a0a63a85412d08492342c5342289cb585d408170613e11",
+    "sources/components/poker/v1/indices/clubs/5.png": "93de8370ceb5ac08ccf717b442bd7ced6facf352444edffd8c2b8c9750d4e493",
+    "sources/components/poker/v1/indices/clubs/6.png": "d62a0e02bb831cc3ad3bc1f43b10cb968cc5e63986e755d6fc8090e734554785",
+    "sources/components/poker/v1/indices/clubs/7.png": "6f9aafb00932a4e01bf8799021990dbc528ad6160a63cf49e861223f2cc06ae9",
+    "sources/components/poker/v1/indices/clubs/8.png": "5c1985c3bc2a103cba37c1f453ae4f67c85602857e1853dda3f6cb985d444dff",
+    "sources/components/poker/v1/indices/clubs/9.png": "cc2f2cd1e6cd72dae94736b806247a382c961a109b6aab19e3213266c42b9bd3",
+    "sources/components/poker/v1/indices/clubs/ace.png": "814abe92cf91b3839604c51e6dd3aa4e5178fad1ccd26aeba1c963242d911cdb",
+    "sources/components/poker/v1/indices/clubs/jack.png": "316a0711153d6451d178f29d02be9ff3bd83b3381584b63b33836bfffe10a1f9",
+    "sources/components/poker/v1/indices/clubs/king.png": "13ca2e7b1f6e6427f7add3dafcc1700922dae8a637f2980c70044c617f3b1ea1",
+    "sources/components/poker/v1/indices/clubs/queen.png": "7d25976fd4992f06f5eb45b2eb2f9c47bf71277dd4290cc7ba67b0171d5cdde2",
+    "sources/components/poker/v1/indices/diamonds/10.png": "b5998c00fe48e4ba8ffdf652f57e3f72d0aef95323e1fb101833fdb56e4d0ac6",
+    "sources/components/poker/v1/indices/diamonds/2.png": "7dec2bc9fa460bc4201d80c54233aa1a0c316fc525210e72ea86e16181177f05",
+    "sources/components/poker/v1/indices/diamonds/3.png": "5e2b6f519c8077bc45e873e8653994d889087150430fdd75a4289d376761851f",
+    "sources/components/poker/v1/indices/diamonds/4.png": "47d2064b8660ec371668f69a48b97d4716d1383ba54adab4fda657cad2a9d057",
+    "sources/components/poker/v1/indices/diamonds/5.png": "e47b71c7ee972c27c9a9b8928fecabedc479099db0a59ea702206eade34b3316",
+    "sources/components/poker/v1/indices/diamonds/6.png": "e0b95cbbd87b4dedda5a93f313cb24822296cfee78663c045c9ce6c83c3c2280",
+    "sources/components/poker/v1/indices/diamonds/7.png": "75c341816a1d61c50b231f0d9b639e83fe37ec253adb8ac5ac95524ad2c245b1",
+    "sources/components/poker/v1/indices/diamonds/8.png": "5265c3d41293094044c6d749335fb2877095a040bb2719a61fa49a73dbd366e9",
+    "sources/components/poker/v1/indices/diamonds/9.png": "4e8104cb565e6d9bb368d19d328b6e4d11991a893dbdec3a536d19f25e602ff9",
+    "sources/components/poker/v1/indices/diamonds/ace.png": "99264b1e09761f61b7bf599df06597cfee53832b9b8f9abfd385acd49d4eca08",
+    "sources/components/poker/v1/indices/diamonds/jack.png": "d5affc81a1b423170c4c013c48f06b322477322aa134ace4adeef8b1c5c02f0a",
+    "sources/components/poker/v1/indices/diamonds/king.png": "a3da19781d34412e305d5fccee82bd5aa7b1819d704b320d0609fce28be9ef49",
+    "sources/components/poker/v1/indices/diamonds/queen.png": "1b6b930bbf99be8db8f2799aeb6fd995ffaaf9229febe6d2a6c29b913cb308a9",
+    "sources/components/poker/v1/indices/hearts/10.png": "3c2a6e5115a224b5f20fb2f9ac62d959fa77c38580433aca638596efaf64dab5",
+    "sources/components/poker/v1/indices/hearts/2.png": "741f0dbe52ae07fd012fb77c1b7b522411b064abd100757da92cfe35b4445eed",
+    "sources/components/poker/v1/indices/hearts/3.png": "5bce355a45d8763c8d6379df057801229568b8a6a9706b38df4668c103607e0b",
+    "sources/components/poker/v1/indices/hearts/4.png": "d363ef716eeb2b5bab02caedf5f80c75a1bbb859d950bc29e88cd5b245054761",
+    "sources/components/poker/v1/indices/hearts/5.png": "42378431995e033a0a78e1140bb8c6ec6f2ae0b46e98a2efeccd53c9ed8829e7",
+    "sources/components/poker/v1/indices/hearts/6.png": "76b41c4804eb5d8c3d6210e88306e4fccea5c2eb09aac9a44964fcef4808978a",
+    "sources/components/poker/v1/indices/hearts/7.png": "a760c160c0d26bf6517b30e5acf460712fbd40d771a873544b104a6d95b5cd8d",
+    "sources/components/poker/v1/indices/hearts/8.png": "488df1c83294fa9bf6957d68c3c440d60290630d1645a875abdf4742e3794309",
+    "sources/components/poker/v1/indices/hearts/9.png": "20f7de20b6af5d338e52be9131d10ebc68504e6bd9cd441e0f600b04edf14d69",
+    "sources/components/poker/v1/indices/hearts/ace.png": "5f34c61328ba9f2d1e7d6cf1c36bfb03197de3e5ebcba3a205f712cf69849fba",
+    "sources/components/poker/v1/indices/hearts/jack.png": "7e855e5a40c3c43681486f1ba9e50c990b3039f8ee243e80cd2dacb861e9400d",
+    "sources/components/poker/v1/indices/hearts/king.png": "265db45a1a23cce537afee824b69e2db46a2dd9cf7dd21cbf2bba0e973adb935",
+    "sources/components/poker/v1/indices/hearts/queen.png": "d5b90680ee3ad96bff2c1e784b82bcccb77c6f13f7d2a9c95d4fad4e8a774e0c",
+    "sources/components/poker/v1/indices/spades/10.png": "9922850b4f3592a98ccb609aa81e47add2456968fab84b2665a0cdd50f98f1f5",
+    "sources/components/poker/v1/indices/spades/2.png": "4205f48a8187e282a44d33038791d53889259102ca940b86b9f6ff050bad9ae8",
+    "sources/components/poker/v1/indices/spades/3.png": "fed9e487809fb3d4d7220956cf42bc686c034777a7138c44bb18be80f1f2d7fa",
+    "sources/components/poker/v1/indices/spades/4.png": "187610c739a47aa7f964280831a78ff297c1c792c39d270b0cbfb3e7d58bb751",
+    "sources/components/poker/v1/indices/spades/5.png": "d6202f543bc0d5da99980c74ae95efe41b36e53cd41e6f13804866e0b033ac39",
+    "sources/components/poker/v1/indices/spades/6.png": "a352049ca67211623b4692230db82411ccc36890ca0816c66a3b26ec142d8cea",
+    "sources/components/poker/v1/indices/spades/7.png": "42ead11a58f2eb1b8fa137cfcdbe03c290ae45fe9847c9cb47a335724f420db3",
+    "sources/components/poker/v1/indices/spades/8.png": "599e5db20b68ad7d836cd66e6486bd6f6e92a765fb8f20601f9892e36b1f933a",
+    "sources/components/poker/v1/indices/spades/9.png": "2852beedc09781588ffd683e4e693f23f9d676a1bf520d974913f999ecbe2a4c",
+    "sources/components/poker/v1/indices/spades/ace.png": "c4c564e9097e7f95ac4082689c657485fd8cbfde723e5b97402ff142e63133e5",
+    "sources/components/poker/v1/indices/spades/jack.png": "2143c2edee554e5b9c7a9b937e85c115d5939ebb007875556574c15c4229945b",
+    "sources/components/poker/v1/indices/spades/king.png": "9b8f8e08e3313f1ac1523d4be0be048886666d4a379b35771309a9420637f5a9",
+    "sources/components/poker/v1/indices/spades/queen.png": "8b63f9aa7361715175dc4b171a8e96366003cd780f0307b40a5c32bb4ddf3d40",
+    "sources/components/poker/v1/jewel-master.png": "0cedafa3db6ee3c54069e841ff2fadd7d529464a6cb05df13b842d4dd440c1da",
+    "sources/components/poker/v1/outline-mask.png": "eec00e1c49155f8b4e9a689ab72fcc8b649bb301e6430ab9ddc0bb64a57e267c",
+    "sources/components/poker/v1/panel-mask.png": "5254e1c44e89218c29cdc1e69c5625c408e04f23156814f7f23a33327e2885cf",
+    "sources/components/poker/v1/pips/clubs/10.png": "1c498e17e967b7e8124c20db190971667e16fb3259e1d57a87f9e9ff6ef61899",
+    "sources/components/poker/v1/pips/clubs/2.png": "2c5bf620bd5b8f6cf551a8a8d2548864c4f6215057dbed72532a5f7cc9d88dd9",
+    "sources/components/poker/v1/pips/clubs/3.png": "1527a1913dd0a6d94e041295a6ea5d77bfd63a17f37dc73d5d3c48e338975792",
+    "sources/components/poker/v1/pips/clubs/4.png": "1527a1913dd0a6d94e041295a6ea5d77bfd63a17f37dc73d5d3c48e338975792",
+    "sources/components/poker/v1/pips/clubs/5.png": "d535cdf7a55c851a682cc876a63a478673a2e5c2d7fe2e7a68f6a9961bb1a1b8",
+    "sources/components/poker/v1/pips/clubs/6.png": "77076ccd39eb7c6436cd2a88b974776e6922dd6d2296d64dd7f6788bcd2b8552",
+    "sources/components/poker/v1/pips/clubs/7.png": "f1cf6880b4a502df5ac2433e8c6098db74138d1a5d3362c6f0d7075d5b51636c",
+    "sources/components/poker/v1/pips/clubs/8.png": "d768c354fe93ec9dc1600734f7f659e039f2f93eb1bead86739d4e26c2f06fa0",
+    "sources/components/poker/v1/pips/clubs/9.png": "1c498e17e967b7e8124c20db190971667e16fb3259e1d57a87f9e9ff6ef61899",
+    "sources/components/poker/v1/pips/clubs/ace.png": "c330e6f290b275e12cc4379679f87fe5e839acccd332a314771306098787b6ef",
+    "sources/components/poker/v1/pips/diamonds/10.png": "fd8151e54fc9fa4852a24d912997b4b219b035a362385a53ebded04e684b681f",
+    "sources/components/poker/v1/pips/diamonds/2.png": "43fb614e2e97185cf77e38fd3d8c6dc9d15312509d100a8c9fd7f818404c96cd",
+    "sources/components/poker/v1/pips/diamonds/3.png": "8e085ef1cfd86f7846d714b876b06912339c8e23ac3a0fecebb8b9baf13fc5f8",
+    "sources/components/poker/v1/pips/diamonds/4.png": "8e085ef1cfd86f7846d714b876b06912339c8e23ac3a0fecebb8b9baf13fc5f8",
+    "sources/components/poker/v1/pips/diamonds/5.png": "3c7f25b936abe2f83dd3c5f92e3209459e0fef29c77841c7b2f90890f7196dbd",
+    "sources/components/poker/v1/pips/diamonds/6.png": "178fa254a305d6e00ec0d1aac7f0b8636d991dbf793be57053938e8e8f5b83aa",
+    "sources/components/poker/v1/pips/diamonds/7.png": "48c16cd0a1a9ffac92ef395e1d38f2b27b6e610713686b68fa9d8fce72f85195",
+    "sources/components/poker/v1/pips/diamonds/8.png": "3c4acb65936d680949632beb7f5bc788139159f17fa436a8c8a3057614202d3e",
+    "sources/components/poker/v1/pips/diamonds/9.png": "c58c576c568d09732e8cc88387c35b500501efc027437fe010227dd0832ae7d2",
+    "sources/components/poker/v1/pips/diamonds/ace.png": "89c0e8d204a1c361f357a926aa1e8720d2c2866d29ede78ca4e34d73431f3e42",
+    "sources/components/poker/v1/pips/hearts/10.png": "a88822752b0a276d4a4372db5c53216a27a282eccb1356dc9bdb4cb966ea3c8d",
+    "sources/components/poker/v1/pips/hearts/2.png": "a44e21eea75b6db105be8932d622e5006a3841ded10ac5f9fcef5ac483b74458",
+    "sources/components/poker/v1/pips/hearts/3.png": "5f2fa6308b43eef6ba1adc07ba82fdc3da77013c1211f006d5ad9901a679b0e2",
+    "sources/components/poker/v1/pips/hearts/4.png": "5f2fa6308b43eef6ba1adc07ba82fdc3da77013c1211f006d5ad9901a679b0e2",
+    "sources/components/poker/v1/pips/hearts/5.png": "1ffc3e91638eed66d8c04a267f4d85539cf44803fc8368197a2cbde7803e4d74",
+    "sources/components/poker/v1/pips/hearts/6.png": "8e8a8fd7f9b80d9a6f228376f0e7253921e7e5d3bd1e98b015f6932799cae273",
+    "sources/components/poker/v1/pips/hearts/7.png": "febe207a39067398ab6a8c8ff26f4f3d06a6a0af918908fec7f474f10e804337",
+    "sources/components/poker/v1/pips/hearts/8.png": "3fdc503faee25bf8a8b8bb9e1d3b90d6f493c8cbf4476952290a8d0f0f0aab97",
+    "sources/components/poker/v1/pips/hearts/9.png": "a88822752b0a276d4a4372db5c53216a27a282eccb1356dc9bdb4cb966ea3c8d",
+    "sources/components/poker/v1/pips/hearts/ace.png": "76b1c9b6f3ff1d2e138ee0e4e27443236f8374c2d7331a2a132199ab8e2e4ac9",
+    "sources/components/poker/v1/pips/spades/10.png": "2869d35a1c5759c333181f19afaf0be61e4556ba65e5218f7508f04de691ff1f",
+    "sources/components/poker/v1/pips/spades/2.png": "9e66a421fd8280ae6fe1b24a243d6122440cc9cdf5d8a375c4e16be54a57adea",
+    "sources/components/poker/v1/pips/spades/3.png": "438f70d63cca1ac2a821cf3282390f6340279f8e61bc1a6c044ebd981e76cacb",
+    "sources/components/poker/v1/pips/spades/4.png": "438f70d63cca1ac2a821cf3282390f6340279f8e61bc1a6c044ebd981e76cacb",
+    "sources/components/poker/v1/pips/spades/5.png": "940c9c32b90d74b5388ace2b9501235d43584e96e56ce4ee7707dcce897844f7",
+    "sources/components/poker/v1/pips/spades/6.png": "832073a341d79c4c2feb4344bac81b28a90f60123fea4499f6b9fa70eb488972",
+    "sources/components/poker/v1/pips/spades/7.png": "5c49c0886c48241e439f4ab2bd3f83e3dd51184bf737ea2a7c6e3339a3ed59eb",
+    "sources/components/poker/v1/pips/spades/8.png": "1cac6c89ed76c352959643cf9bd3a1e6a4f6affcc6cf9d990ccda81ebd15876c",
+    "sources/components/poker/v1/pips/spades/9.png": "3a53163ba33b8d9ac45174e76646bc150cbec234a69946d711fa2ef65392244b",
+    "sources/components/poker/v1/pips/spades/ace.png": "693892656a62bf27b3f804158a28cb9e32402c9a59eef9baaa11eec346c53e8f",
+    "sources/components/poker/v2/back-field-mask.png": "ce736f298caffe0462a3b537c48bf89124dcc2c31ff228115f5975485173f3a9",
+    "sources/components/poker/v2/back-frame.png": "c4ed5c437c059e8975642f17e4ca7e5b31ed8168408a78a27b4f45856f9a65a0",
+    "sources/components/poker/v2/joker-black-index.png": "ce3214b16ee5252219db33e510586167ae4361fd53071d453df884bf06d834b6",
+    "sources/components/poker/v2/joker-black-upright.png": "69c331f3a4cb178c4790687a1207d5eb3c8c235c98dfe745cf8ad891e940076d",
+    "sources/components/poker/v2/joker-center-rosette.png": "88f1575e1b129693c2c9974d98d935d0795e03b2a078a79cfcd90fc4dc712dea",
+    "sources/components/poker/v2/joker-red-index.png": "e548ecdff15cf9246a63ff39a41a6188f8bfea6fdfa55dd873b1f1f27343065c",
+    "sources/components/poker/v2/joker-red-upright.png": "a55b654181a5c355df08d872441b870028fd01a821d07ef8e644db18f2ea78b5",
+    "sources/generated/deck-rebuild-v1/clubs-master.png": "5330328ebb5295c3446528fce56c4137ec890c1053ee0f8beaf298f3b074a974",
+    "sources/generated/deck-rebuild-v1/diamonds-master.png": "dee79068d4765d6fde950c00254c75ab20c41d0a3ffcc4c60d5af8f20be521ab",
+    "sources/generated/deck-rebuild-v1/hearts-master.png": "90e649ece388a3ff85dec627a9374a4c251201e6ed5ac8eed38f3ab0c789a87e",
+    "sources/generated/deck-rebuild-v1/spades-master.png": "bb5b1dd3bd18ab0f696da1fa0f358f666fe0c74e12889043df04a7d698e1375c"
+  },
+  "formats": {
+    "poker": {
+      "pixels": [
+        750,
+        1050
+      ],
+      "method": "native-components",
+      "center": [
+        374.5,
+        524.5
+      ],
+      "ranks": {
+        "ace": [
+          {
+            "center": [
+              374.5,
+              524.5
+            ],
+            "rotation": 0
+          }
+        ],
+        "2": [
+          {
+            "center": [
+              374.5,
+              314.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              374.5,
+              734.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "3": [
+          {
+            "center": [
+              374.5,
+              284.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              374.5,
+              524.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              374.5,
+              764.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "4": [
+          {
+            "center": [
+              244.5,
+              294.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              504.5,
+              294.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              244.5,
+              754.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              504.5,
+              754.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "5": [
+          {
+            "center": [
+              244.5,
+              294.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              504.5,
+              294.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              244.5,
+              754.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              504.5,
+              754.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              374.5,
+              524.5
+            ],
+            "rotation": 0
+          }
+        ],
+        "6": [
+          {
+            "center": [
+              234.5,
+              284.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              514.5,
+              284.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              234.5,
+              764.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              514.5,
+              764.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              234.5,
+              524.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              514.5,
+              524.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "7": [
+          {
+            "center": [
+              234.5,
+              284.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              514.5,
+              284.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              234.5,
+              764.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              514.5,
+              764.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              234.5,
+              524.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              514.5,
+              524.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              374.5,
+              404.5
+            ],
+            "rotation": 0
+          }
+        ],
+        "8": [
+          {
+            "center": [
+              234.5,
+              244.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              514.5,
+              244.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              234.5,
+              424.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              514.5,
+              424.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              234.5,
+              624.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              514.5,
+              624.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              234.5,
+              804.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              514.5,
+              804.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "9": [
+          {
+            "center": [
+              224.5,
+              284.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              374.5,
+              284.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              524.5,
+              284.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              224.5,
+              764.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              374.5,
+              764.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              524.5,
+              764.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              224.5,
+              524.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              374.5,
+              524.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              524.5,
+              524.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "10": [
+          {
+            "center": [
+              234.5,
+              244.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              514.5,
+              244.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              234.5,
+              424.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              514.5,
+              424.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              234.5,
+              624.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              514.5,
+              624.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              234.5,
+              804.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              514.5,
+              804.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              374.5,
+              334.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              374.5,
+              714.5
+            ],
+            "rotation": 180
+          }
+        ]
+      }
+    },
+    "jumbo": {
+      "pixels": [
+        1050,
+        1500
+      ],
+      "method": "native-components",
+      "center": [
+        524.5,
+        749.5
+      ],
+      "ranks": {
+        "ace": [
+          {
+            "center": [
+              524.5,
+              749.5
+            ],
+            "rotation": 0
+          }
+        ],
+        "2": [
+          {
+            "center": [
+              524.5,
+              449.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              524.5,
+              1049.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "3": [
+          {
+            "center": [
+              524.5,
+              406.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              524.5,
+              749.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              524.5,
+              1092.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "4": [
+          {
+            "center": [
+              342.5,
+              420.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              706.5,
+              420.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              342.5,
+              1078.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              706.5,
+              1078.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "5": [
+          {
+            "center": [
+              342.5,
+              420.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              706.5,
+              420.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              342.5,
+              1078.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              706.5,
+              1078.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              524.5,
+              749.5
+            ],
+            "rotation": 0
+          }
+        ],
+        "6": [
+          {
+            "center": [
+              328.5,
+              406.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              720.5,
+              406.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              328.5,
+              1092.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              720.5,
+              1092.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              328.5,
+              749.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              720.5,
+              749.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "7": [
+          {
+            "center": [
+              328.5,
+              406.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              720.5,
+              406.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              328.5,
+              1092.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              720.5,
+              1092.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              328.5,
+              749.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              720.5,
+              749.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              524.5,
+              578.5
+            ],
+            "rotation": 0
+          }
+        ],
+        "8": [
+          {
+            "center": [
+              328.5,
+              349.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              720.5,
+              349.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              328.5,
+              606.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              720.5,
+              606.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              328.5,
+              892.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              720.5,
+              892.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              328.5,
+              1149.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              720.5,
+              1149.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "9": [
+          {
+            "center": [
+              314.5,
+              406.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              524.5,
+              406.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              734.5,
+              406.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              314.5,
+              1092.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              524.5,
+              1092.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              734.5,
+              1092.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              314.5,
+              749.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              524.5,
+              749.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              734.5,
+              749.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "10": [
+          {
+            "center": [
+              328.5,
+              349.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              720.5,
+              349.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              328.5,
+              606.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              720.5,
+              606.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              328.5,
+              892.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              720.5,
+              892.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              328.5,
+              1149.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              720.5,
+              1149.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              524.5,
+              478.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              524.5,
+              1020.5
+            ],
+            "rotation": 180
+          }
+        ]
+      }
+    },
+    "travel": {
+      "pixels": [
+        525,
+        750
+      ],
+      "method": "native-components",
+      "center": [
+        262.0,
+        374.5
+      ],
+      "ranks": {
+        "ace": [
+          {
+            "center": [
+              262.0,
+              374.5
+            ],
+            "rotation": 0
+          }
+        ],
+        "2": [
+          {
+            "center": [
+              262.0,
+              224.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              262.0,
+              524.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "3": [
+          {
+            "center": [
+              262.0,
+              203.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              262.0,
+              374.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              262.0,
+              545.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "4": [
+          {
+            "center": [
+              171.0,
+              210.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              353.0,
+              210.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              171.0,
+              538.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              353.0,
+              538.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "5": [
+          {
+            "center": [
+              171.0,
+              210.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              353.0,
+              210.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              171.0,
+              538.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              353.0,
+              538.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              262.0,
+              374.5
+            ],
+            "rotation": 0
+          }
+        ],
+        "6": [
+          {
+            "center": [
+              164.0,
+              203.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              360.0,
+              203.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              164.0,
+              545.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              360.0,
+              545.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              164.0,
+              374.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              360.0,
+              374.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "7": [
+          {
+            "center": [
+              164.0,
+              203.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              360.0,
+              203.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              164.0,
+              545.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              360.0,
+              545.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              164.0,
+              374.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              360.0,
+              374.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              262.0,
+              288.5
+            ],
+            "rotation": 0
+          }
+        ],
+        "8": [
+          {
+            "center": [
+              164.0,
+              174.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              360.0,
+              174.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              164.0,
+              303.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              360.0,
+              303.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              164.0,
+              445.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              360.0,
+              445.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              164.0,
+              574.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              360.0,
+              574.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "9": [
+          {
+            "center": [
+              157.0,
+              203.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              262.0,
+              203.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              367.0,
+              203.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              157.0,
+              545.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              262.0,
+              545.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              367.0,
+              545.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              157.0,
+              374.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              262.0,
+              374.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              367.0,
+              374.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "10": [
+          {
+            "center": [
+              164.0,
+              174.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              360.0,
+              174.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              164.0,
+              303.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              360.0,
+              303.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              164.0,
+              445.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              360.0,
+              445.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              164.0,
+              574.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              360.0,
+              574.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              262.0,
+              238.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              262.0,
+              510.5
+            ],
+            "rotation": 180
+          }
+        ]
+      }
+    },
+    "bridge": {
+      "pixels": [
+        675,
+        1050
+      ],
+      "method": "native-components",
+      "center": [
+        337.0,
+        524.5
+      ],
+      "ranks": {
+        "ace": [
+          {
+            "center": [
+              337.0,
+              524.5
+            ],
+            "rotation": 0
+          }
+        ],
+        "2": [
+          {
+            "center": [
+              337.0,
+              314.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              337.0,
+              734.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "3": [
+          {
+            "center": [
+              337.0,
+              284.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              337.0,
+              524.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              337.0,
+              764.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "4": [
+          {
+            "center": [
+              220.0,
+              294.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              454.0,
+              294.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              220.0,
+              754.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              454.0,
+              754.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "5": [
+          {
+            "center": [
+              220.0,
+              294.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              454.0,
+              294.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              220.0,
+              754.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              454.0,
+              754.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              337.0,
+              524.5
+            ],
+            "rotation": 0
+          }
+        ],
+        "6": [
+          {
+            "center": [
+              211.0,
+              284.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              463.0,
+              284.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              211.0,
+              764.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              463.0,
+              764.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              211.0,
+              524.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              463.0,
+              524.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "7": [
+          {
+            "center": [
+              211.0,
+              284.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              463.0,
+              284.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              211.0,
+              764.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              463.0,
+              764.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              211.0,
+              524.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              463.0,
+              524.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              337.0,
+              404.5
+            ],
+            "rotation": 0
+          }
+        ],
+        "8": [
+          {
+            "center": [
+              211.0,
+              244.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              463.0,
+              244.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              211.0,
+              424.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              463.0,
+              424.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              211.0,
+              624.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              463.0,
+              624.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              211.0,
+              804.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              463.0,
+              804.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "9": [
+          {
+            "center": [
+              202.0,
+              284.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              337.0,
+              284.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              472.0,
+              284.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              202.0,
+              764.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              337.0,
+              764.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              472.0,
+              764.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              202.0,
+              524.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              337.0,
+              524.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              472.0,
+              524.5
+            ],
+            "rotation": 180
+          }
+        ],
+        "10": [
+          {
+            "center": [
+              211.0,
+              244.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              463.0,
+              244.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              211.0,
+              424.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              463.0,
+              424.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              211.0,
+              624.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              463.0,
+              624.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              211.0,
+              804.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              463.0,
+              804.5
+            ],
+            "rotation": 180
+          },
+          {
+            "center": [
+              337.0,
+              334.5
+            ],
+            "rotation": 0
+          },
+          {
+            "center": [
+              337.0,
+              714.5
+            ],
+            "rotation": 180
+          }
+        ]
+      }
+    },
+    "european-standard": {
+      "pixels": [
+        696,
+        1074
+      ],
+      "method": "bridge-resize",
+      "center": [
+        347.5,
+        536.5
+      ],
+      "ranks": null
+    }
+  },
+  "palette_policy": "suit-aware faces; palette-aware backs",
+  "backup": "sources/before-face-formats-v1/sha256.json"
+}

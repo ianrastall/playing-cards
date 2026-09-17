@@ -45,24 +45,27 @@ def opaque_native(im):
 def print_images(native):
     # An exact 2x pixel replication changes the density container, not the art.
     # Original trim pixels can be recovered byte-for-byte after compositing alpha.
-    art=opaque_native(native).resize(PRINT_TRIM,Image.Resampling.NEAREST)
-    clean=Image.new('RGB',BLEED_SIZE,GROUND)
+    print_trim=(native.width*2,native.height*2)
+    bleed_size=tuple(n+2*BLEED for n in print_trim)
+    guide_size=tuple(n+2*GUTTER for n in bleed_size)
+    art=opaque_native(native).resize(print_trim,Image.Resampling.NEAREST)
+    clean=Image.new('RGB',bleed_size,GROUND)
     clean.paste(art,(BLEED,BLEED))
-    guide=Image.new('RGB',GUIDE_SIZE,'white')
+    guide=Image.new('RGB',guide_size,'white')
     guide.paste(clean,(GUTTER,GUTTER))
     draw=ImageDraw.Draw(guide)
     left=top=BLEED+GUTTER
-    right=left+PRINT_TRIM[0]
-    bottom=top+PRINT_TRIM[1]
+    right=left+print_trim[0]
+    bottom=top+print_trim[1]
     # One-pixel faint blue rounded die line, and short crop marks only in slug.
     radius=3.5/25.4*PRINT_DPI
     draw.rounded_rectangle((left,top,right-1,bottom-1),radius=radius,outline=BLUE,width=1)
     for x in (left,right):
         draw.line((x,20,x,60),fill=BLUE,width=2)
-        draw.line((x,GUIDE_SIZE[1]-60,x,GUIDE_SIZE[1]-20),fill=BLUE,width=2)
+        draw.line((x,guide_size[1]-60,x,guide_size[1]-20),fill=BLUE,width=2)
     for y in (top,bottom):
         draw.line((20,y,60,y),fill=BLUE,width=2)
-        draw.line((GUIDE_SIZE[0]-60,y,GUIDE_SIZE[0]-20,y),fill=BLUE,width=2)
+        draw.line((guide_size[0]-60,y,guide_size[0]-20,y),fill=BLUE,width=2)
     return clean,guide
 
 
@@ -101,6 +104,10 @@ Native face filenames include the suit and rank, such as `spades-ace.png` and
 `hearts-10.png`. The unsuited cards are `joker-black.png` and `joker-red.png`.
 Back colors are Lamp Black, Madder Lake, Manganese Violet, Prussian Blue, and
 Verdigris. These are pigment-inspired digital color names, not ink formulas.
+Face frames follow their suits: Lamp Black for spades/clubs and the black
+Joker, Madder Lake for hearts/diamonds and the red Joker. Back frames follow
+their named palette. Aces, number cards and Jokers have faint gold botanical
+tracery with clear ivory halos around their artwork.
 Use `manifest.json` for exact inventory, ordering, source hashes, and dimensions.
 
 ## Trim, centers, and corner shape
@@ -240,93 +247,13 @@ building it does not publish a release or upload files anywhere.
 
 
 def build():
-    from catalog import build_catalog
-    current=build_catalog()
-    saved=json.loads((ROOT/'catalog.json').read_text(encoding='utf-8'))
-    assert current==saved,'Catalog is stale'
-    assets=[a for a in saved['assets'] if a['format']=='poker']
-    assert len(assets)==59 and sum(a['side']=='face' for a in assets)==54
-    names={release_name(a) for a in assets}
-    assert len(names)==59
-    PACKAGE.mkdir(parents=True,exist_ok=True)
-    records=[]
-    for order,asset in enumerate(assets,1):
-        name=release_name(asset)
-        src=ROOT/asset['path']
-        target=PACKAGE/name
-        target.parent.mkdir(parents=True,exist_ok=True)
-        shutil.copy2(src,target)
-        with Image.open(src) as im:
-            assert im.size==TRIM and im.mode=='RGBA'
-            clean,guide=print_images(im)
-        variants={"native":name,"bleed":'print/bleed/'+name,"guides":'print/guides/'+name}
-        for label,im in (('bleed',clean),('guides',guide)):
-            p=PACKAGE/variants[label]
-            p.parent.mkdir(parents=True,exist_ok=True)
-            im.save(p,dpi=(600,600),icc_profile=SRGB)
-        records.append(dict(order=order,id=asset['id'],source_path=asset['path'],
-                            source_sha256=asset['sha256'],files=variants))
-    (PACKAGE/'README.md').write_text(readme(),encoding='utf-8',newline='\n')
-    shutil.copy2(ROOT/'LICENSE',PACKAGE/'LICENSE')
-    manifest=dict(version=1,name='design1-poker',unique_assets=59,faces=54,backs=5,
-                  png_count=177,trim_inches=[2.5,3.5],trim_mm=[63.5,88.9],corner_radius_mm=3.5,
-                  native=dict(pixels=list(TRIM),ppi=300,mode='RGBA'),
-                  bleed=dict(pixels=list(BLEED_SIZE),ppi=600,mode='RGB',margin_pixels=75,
-                             trim_pixel_edges=[75,75,1575,2175],bleed_inches=.125),
-                  guides=dict(pixels=list(GUIDE_SIZE),ppi=600,mode='RGB',slug_pixels=75,
-                              trim_pixel_edges=[150,150,1650,2250],proof_only=True),
-                  files=records)
-    (PACKAGE/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
-    expected={f for r in records for f in r['files'].values()}|{'README.md','LICENSE','manifest.json','SHA256SUMS.txt'}
-    actual={p.relative_to(PACKAGE).as_posix() for p in PACKAGE.rglob('*') if p.is_file()}
-    assert not (actual-expected),f'Unexpected release files: {actual-expected}'
-    hashes=''.join(f'{sha(PACKAGE/name)}  {name}\n' for name in sorted(expected-{'SHA256SUMS.txt'}))
-    (PACKAGE/'SHA256SUMS.txt').write_text(hashes,encoding='utf-8')
-    with zipfile.ZipFile(ZIP,'w') as archive:
-        for name in sorted(expected):
-            info=zipfile.ZipInfo(name,date_time=(2026,9,17,0,0,0))
-            info.compress_type=zipfile.ZIP_STORED if name.endswith('.png') else zipfile.ZIP_DEFLATED
-            info.external_attr=0o100644<<16
-            archive.writestr(info,(PACKAGE/name).read_bytes())
-    (OUT/'design1-poker.zip.sha256').write_text(f'{sha(ZIP)}  {ZIP.name}\n',encoding='ascii')
-    check()
-    print(f'Created {ZIP} ({ZIP.stat().st_size/1024/1024:.1f} MiB)')
+    from package_decks import build as build_format
+    build_format('poker')
 
 
 def check():
-    manifest=json.loads((PACKAGE/'manifest.json').read_text())
-    assert manifest['png_count']==177 and len(manifest['files'])==59
-    hash_lines=(PACKAGE/'SHA256SUMS.txt').read_text().splitlines()
-    hashes={line.split('  ',1)[1]:line.split('  ',1)[0] for line in hash_lines}
-    with zipfile.ZipFile(ZIP) as archive:
-        assert archive.testzip() is None,'ZIP CRC failure'
-        assert len(archive.namelist())==len(set(archive.namelist()))==181
-        assert set(archive.namelist())==set(hashes)|{'SHA256SUMS.txt'}
-        for name,expected in hashes.items():
-            assert sha(PACKAGE/name)==expected,(name,'Disk hash mismatch')
-            assert hashlib.sha256(archive.read(name)).hexdigest()==expected,(name,'ZIP hash mismatch')
-    for record in manifest['files']:
-        native_path=PACKAGE/record['files']['native']
-        assert sha(native_path)==record['source_sha256']
-        assert sha(ROOT/record['source_path'])==record['source_sha256'],'Active source changed'
-        with Image.open(native_path) as native:
-            assert native.size==TRIM and native.mode=='RGBA'
-            expected=opaque_native(native).resize(PRINT_TRIM,Image.Resampling.NEAREST)
-        with Image.open(PACKAGE/record['files']['bleed']) as clean:
-            assert clean.size==BLEED_SIZE and clean.mode=='RGB'
-            assert max(abs(d-600) for d in clean.info['dpi'])<.01
-            assert clean.info.get('icc_profile'),'Missing sRGB profile'
-            assert np.array_equal(np.array(clean.crop((75,75,1575,2175))),np.array(expected)),record['id']
-            a=np.array(clean)
-            assert np.all(a[:75]==GROUND) and np.all(a[-75:]==GROUND)
-            assert np.all(a[:,:75]==GROUND) and np.all(a[:,-75:]==GROUND)
-        with Image.open(PACKAGE/record['files']['guides']) as guide:
-            assert guide.size==GUIDE_SIZE and guide.mode=='RGB'
-            assert guide.getpixel((900,150))==BLUE,'Missing trim guide'
-            assert guide.getpixel((150,30))==BLUE,'Missing crop mark'
-    expected_zip_hash=(OUT/'design1-poker.zip.sha256').read_text().split()[0]
-    assert sha(ZIP)==expected_zip_hash
-    print('PASS package: 59 unique cards, 177 PNGs; pixels, margins, guides, DPI, profiles, and ZIP hashes verified')
+    from package_decks import check as check_format
+    check_format('poker')
 
 
 def main():

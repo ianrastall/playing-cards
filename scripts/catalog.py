@@ -41,6 +41,11 @@ def build_catalog() -> dict:
         else:
             raise ValueError(f"Invalid asset hierarchy: {path}")
         size_info = config["formats"][size]
+        if config.get('renderer') == 'face-formats-v1':
+            from frame_palette import face_color
+            record['frame_color'] = record['color'] if record['side']=='back' else face_color(
+                'jokers' if record['rank']=='joker' else record['suit'],
+                record['color_variant'] if record['rank']=='joker' else record['rank'])
         inches = size_info["trim_inches"]
         with Image.open(path) as im:
             im.load()
@@ -64,10 +69,13 @@ def build_catalog() -> dict:
     actual_backs = {a["id"] for a in assets if a["side"] == "back"}
     if actual_backs != expected_backs:
         raise ValueError(f"Back inventory mismatch: {expected_backs ^ actual_backs}")
-    expected_faces={f"face.french-suited.poker.{suit}.{rank}"
+    face_formats=config['face_systems']['french-suited'].get('formats',['poker'])
+    expected_faces={f"face.french-suited.{fmt}.{suit}.{rank}"
+                    for fmt in face_formats
                     for suit in config["face_systems"]["french-suited"]["suits"]
                     for rank in config["face_systems"]["french-suited"]["ranks"]}
-    expected_faces.update(f"face.french-suited.poker.joker.{variant}"
+    expected_faces.update(f"face.french-suited.{fmt}.joker.{variant}"
+                          for fmt in face_formats
                           for variant in config["face_systems"]["french-suited"].get("jokers",[]))
     actual_faces={a["id"] for a in assets if a["side"]=="face"}
     if actual_faces!=expected_faces:

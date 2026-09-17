@@ -297,6 +297,9 @@ def frame_for(size):
     field = Image.open(COMP/"field-mask.png").convert("L")
     panels = Image.open(COMP/"panel-mask.png").convert("L")
     if size != SIZE:
+        ground = Image.new('RGBA', frame.size, GROUND+(255,))
+        ground.alpha_composite(frame)
+        frame = ground
         frame = frame.resize(size,LANCZOS)
         field = field.resize(size,LANCZOS)
         panels = panels.resize(size,LANCZOS)
@@ -554,6 +557,13 @@ def main():
         group.add_argument("--"+flag,action="store_true")
     parser.add_argument("--active",action="store_true")
     args=parser.parse_args()
+    config=json.loads((ROOT/'deck.json').read_text(encoding='utf-8'))
+    if config.get('renderer')=='face-formats-v1' and not args.prepare:
+        import expand_faces
+        if args.stage: expand_faces.stage()
+        elif args.check: expand_faces.check(ROOT/'cards' if args.active else expand_faces.WORK/'cards')
+        elif args.apply: expand_faces.apply()
+        return
     if args.prepare: prepare()
     elif args.stage:
         render_all(WORK/"cards")

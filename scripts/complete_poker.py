@@ -40,6 +40,9 @@ def back_frame(size):
     frame=Image.open(COMP/'back-frame.png').convert('RGBA')
     field=Image.open(COMP/'back-field-mask.png').convert('L')
     if size != base.SIZE:
+        ground=Image.new('RGBA',frame.size,base.GROUND+(255,))
+        ground.alpha_composite(frame)
+        frame=ground
         frame=base.reciprocal(frame.resize(size,base.LANCZOS))
         field=base.reciprocal(field.resize(size,base.LANCZOS))
     frame.putalpha(base.silhouette(size))
