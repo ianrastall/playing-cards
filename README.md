@@ -1,51 +1,48 @@
 # Playing Cards
 
-A standalone illustrated card collection for software and printing.
+An illustrated collection for software and printing: **54 poker faces (including
+two Jokers) and 30 backs** in five colors across six formats. All 84 active images
+use the component-based rebuild with [poker completion v2](docs/design/poker-completion-v2.md).
 
-Quality playing cards for a standard deck of 54 as well as a tarot deck, in different sizes, different styles, and different colors.
+![Rebuilt Three of Spades](cards/faces/french-suited/poker/spades/3.png)
 
-**Current collection (Design 1):** 30 backs (five colors × six formats), plus 24 French-suited poker faces: four kings, four queens, four jacks, four ornate aces, four ornate twos and four ornate tens. Every face uses the same multicolor palette and can pair with any back in its format. The faces remain review artwork with the known symmetry limitations below. This is an incomplete deck; the 28 numeral cards ranked 3–9 and two planned jokers are still to come. The twos and tens share the approved wide-panel numeral design.
+The rebuilt deck has a common botanical frame, antique-white ground
+(`#FAEBD7`), exact center anchors, and 3.5 mm rounded corners. Poker faces
+and backs are 750 x 1050 pixels at nominal 300 dpi. Active PNGs use **RGBA**
+so the rounded silhouette travels with the image.
 
-![Poker Card Back In Red](cards/backs/poker/madder-lake.png)
-![](cards/faces/french-suited/poker/hearts/queen.png)
+The aces and numeral pips use four reusable illustrated suit masters. Positions,
+sizes, orientations, and component hashes are defined in
+[the layout manifest](docs/design/numeral-layout-v1.json).
+Twos, Fours, Sixes, Eights, Tens, both Jokers, and all backs are pixel-exact under a half-turn.
+The odd numeral ranks intentionally retain one-way pips. Courts preserve the
+original painted opposing portraits, with a common frame and registered dot;
+their portraits are not pixel-exact half-turn duplicates.
 
+## Files
 
-## Layout
+- `cards/faces/french-suited/poker/<suit>/<rank>.png`: active faces.
+- `cards/faces/french-suited/poker/jokers/<black|red>.png`: the two unsuited Jokers.
+- `cards/backs/<format>/<color>.png`: active backs.
+- `catalog.json`: actual paths, IDs, hashes, pixel dimensions, and print sizes.
+- `deck.json`: formats, colors, suits, and ranks.
+- `sources/components/poker/v1/`: reusable frame, masks, indices, and pips.
+- `sources/components/poker/v2/`: dedicated panel-free back frame and Jokers.
+- `sources/generated/deck-rebuild-v1/`: generated masters and exact prompts.
+- `sources/before-deck-rebuild-v1/`: all 82 original images and hash inventory.
+- `scripts/rebuild_deck.py`: component preparation, rendering, validation,
+  previews, and checked promotion.
+- `work/deck-rebuild-v1/`: generated staging images and review sheets.
 
-```text
-playing-cards/
-├── cards/
-│   ├── backs/
-│   │   └── <format>/<color>.png
-│   └── faces/
-│       └── french-suited/<format>/<suit>/<rank>.png
-├── catalog.json              # Actual asset paths, IDs, hashes, pixels and print sizes
-├── deck.json                 # Format definitions, active colors and card vocabulary
-├── sources/                  # Earlier artwork retained as design reference
-├── scripts/                  # Catalog verification and recoloring tools
-├── docs/
-│   ├── design/               # Current design notes and generation prompts
-│   ├── reference/            # Supplied research and dimension reference
-│   └── history/              # Original imported records and migration map
-├── work/                     # Local candidates/previews; generated and Git-ignored
-└── build/                    # Future digital/print deliveries; generated and Git-ignored
-```
-
-Concrete examples:
-
-- `cards/backs/poker/lamp-black.png`
-- `cards/backs/bridge/madder-lake.png`
-- `cards/faces/french-suited/poker/spades/king.png`
-
-**Taxonomy:** side → format → color for backs; side → card system → format → suit → rank for faces. Rank identifies a card; its gameplay value belongs to the consuming game's rules. Color applies to backs, so faces are not copied into color folders. A card system describes content; a format describes dimensions. Thus tarot-sized backs do not imply that French-suited faces are tarot cards.
-
-Keep filenames lowercase with hyphens. A filename need not repeat its parent folders. Git records revisions; current assets use stable names without `v1` suffixes. Use descriptive versioned names under `work/` for simultaneous candidates. This repo currently contains one visual collection; add a collection namespace if a second independent deck style actually arrives.
-
-Tarot faces will have their own `cards/faces/tarot/` branch and appropriate major/minor-arcana identities. No tarot fronts or additional face sizes exist yet. Their catalog definitions will be introduced with those assets.
+The five back colors are Lamp Black, Madder Lake, Manganese Violet,
+Prussian Blue, and Verdigris. They are pigment-inspired digital labels.
+The complete poker deck has 52 suited cards and two Jokers. Tarot-sized backs do not imply
+that tarot faces exist; no tarot fronts or additional face sizes are included.
 
 ## Software use
 
-Load [catalog.json](catalog.json) and select an asset by ID or its attributes. Paths are relative to the repository root, use forward slashes, and can be resolved against a filesystem directory or an application's asset base URL.
+Read `catalog.json` and select assets by ID or attributes. Paths are relative
+to the repository root:
 
 ```python
 import json
@@ -58,73 +55,74 @@ face = root / assets["face.french-suited.poker.spades.king"]["path"]
 back = root / assets["back.poker.lamp-black"]["path"]
 ```
 
-The front and back can have different pixel resolutions while sharing the same physical aspect ratio. Render them into the same logical card bounds. Generated atlases, thumbnails or format-normalized images belong under `build/digital/`; the originals remain in `cards/`. Jukebox Solitaire can consume a pinned checkout/release of this repository without owning the artwork. The repository remote is [ianrastall/playing-cards](https://github.com/ianrastall/playing-cards). No application dependency is configured.
+Keep alpha, preserve aspect ratio, and use the same display rectangle for cards
+of a format. Do not add a separate corner-radius clip. The exact poker center
+is (374.5, 524.5) in zero-based pixel-center coordinates, or (375, 525) measured
+from the outside edges of the canvas.
+
+The existing [gallery](index.html) reads the catalog. Serve the repository over
+HTTP to browse it; click a card to inspect it at a larger size.
 
 ## Printing
 
-These are individual **trim-size artworks**, suitable for placement at the specified physical dimensions. They are not imposed press sheets and contain no added bleed, cut marks or gutters. Place using `trim_inches` in the catalog, not the PNG's embedded DPI. Future printer-specific layouts belong under `build/print/`.
+The active files under `cards/` are individual trim-size artworks, without bleed, crop marks, gutters,
+or imposed press sheets. Place by catalog `trim_inches`; do not infer physical
+size from PNG density metadata. Composite transparency onto the intended paper
+background for workflows requiring opaque RGB.
 
-| Format | Trim inches | Back pixels | Effective back PPI |
-| --- | --- | --- | --- |
-| Bridge | 2.25 × 3.50 | 675 × 1050 | 300 |
-| European standard | 2.32 × 3.58 | 696 × 1074 | 300 |
-| Jumbo | 3.50 × 5.00 | 1050 × 1500 | 300 |
-| Poker | 2.50 × 3.50 | 750 × 1050 | 300 |
-| Tarot | 2.75 × 4.75 | 825 × 1425 | 300 |
-| Travel | 1.75 × 2.50 | 525 × 750 | 300 |
+Build the poker release with `python scripts/package_poker.py --build`.
+`build/releases/design1-poker.zip` contains five poker backs and all 54 faces,
+plus clean bleed and separate blue-cut-guide variants and a detailed README.
+The archive is prepared locally for a GitHub release; this command publishes nothing.
 
-All current poker faces are 750 × 1050 pixels at nominal 300 DPI, matching the poker backs and providing 300 PPI at 2.5 × 3.5 inches. The king/queen files were resized in the earlier size-revision commit. Untouched 1060 × 1484 jack and ace masters are retained under `sources/generated/poker/jacks/` and `sources/generated/poker/aces/`; their current exports use the user-approved resize workflow. The dimension-reference inch column defines this collection; millimeter measurements in the catalog are exact conversions from those inches.
+| Format | Trim inches | Pixels |
+| --- | --- | --- |
+| Bridge | 2.25 x 3.50 | 675 x 1050 |
+| European standard | 2.32 x 3.58 | 696 x 1074 |
+| Jumbo | 3.50 x 5.00 | 1050 x 1500 |
+| Poker | 2.50 x 3.50 | 750 x 1050 |
+| Tarot | 2.75 x 4.75 | 825 x 1425 |
+| Travel | 1.75 x 2.50 | 525 x 750 |
 
-## Colors and design status
+All are 300 pixels per inch at the specified trim size. The supplied dimension
+reference's inch column defines the collection; catalog millimeters are exact
+conversions from those inches. The 3.5 mm corner radius is the adopted deck
+setting, not a claim that every printer uses that radius.
 
-Active back colors: Lamp Black, Madder Lake, Manganese Violet, Prussian Blue and Verdigris. Their names are pigment-inspired digital color labels, not physical ink specifications. Prussian Blue is the original recoloring source for each format.
+## Build and checks
 
-The four kings share a botanical frame and multicolor palette. Hearts has a clean upper lip and sword behind the head; Diamonds has a profile and axe; Spades has an upright broadsword; Clubs has a sword and orb. Their painted patterns and opposing halves are not pixel-exact repeats. See [design notes](docs/design/kings.md) and [generation prompts](docs/design/poker-kings-prompts.md).
-
-The four queens extend that same design: Spades carries a scepter, Hearts a rose beneath a crown and headdress, Diamonds a pointed-petal flower with an ivory veil, and Clubs a flower sprig with ribbon-woven braids. See the [queen gallery and design notes](docs/design/queens.md) and [queen generation prompts](docs/design/poker-queens-prompts.md). The same limits on exact repeated patterns and half-turn symmetry apply.
-
-The four jacks wear soft feathered caps. Spades is a left-facing profile with a pike; Hearts is a right-facing profile with a leaf; Diamonds and Clubs show both eyes and carry a sword and arrow-like shaft, respectively. See the [jack gallery and export notes](docs/design/jacks.md) and [jack generation prompts](docs/design/poker-jacks-prompts.md).
-
-All twelve court cards now register their central floral dot to pixel **(375, 525)** within 750 × 1050, using whole-pixel shifts without resampling the figures. A shared existing border template makes the perimeter pixels identical while protecting each card's rank/suit panels. Original files, exact shifts and verification details are preserved in the [alignment notes](docs/design/court-alignment.md) and [machine-readable report](docs/design/court-alignment.json).
-
-The four aces carry large ornate suit emblems filled with gold foliage, ivory flowers and berries. Each central turquoise jewel registers to **(375, 525)**. The aces share an identical perimeter from their own Spades template, distinct from the court frame, with card-specific A/suit indices. See the [ace gallery and preparation notes](docs/design/aces.md) and [ace generation prompts](docs/design/poker-aces-prompts.md).
-
-The four twos use the wide ivory numeral panel, with two larger versions of their respective ornate ace-style emblems and solid corner indices. Hearts, Spades and Clubs pair an upright upper pip with an inverted lower pip; the Diamonds ornament is approximately paired. Their ornament and frames are not pixel-exact repeats. Untouched 1060 × 1484 masters are retained under `sources/generated/poker/numerals/wide-twos/`; exports use the established 750 × 1050 workflow. See the [current gallery, prompts and export notes](docs/design/poker-wide-twos-prompts.md). The [earlier numeral studies](docs/design/poker-numerals-prompts.md) remain as design history.
-
-The [four tens](docs/design/poker-wide-numerals-prompts.md) use the approved numeral-card frame: a broad rounded rectangular ivory panel, narrow botanical perimeter, and pale champagne-gold filigree. Ten miniature ornate suit emblems occupy the familiar four-plus-four-plus-two arrangement. The [Ten of Spades development notes](docs/design/poker-ten-spades-prompts.md) record the initial design. This more spacious field supersedes the lobed frame as the direction for number cards and is now used by the twos, with larger pips to suit their lower count.
-
-## Tools and checks
-
-Python with Pillow and NumPy:
+Install the dependencies in `requirements.txt`, then verify the active deck:
 
 ```text
-python -m pip install -r requirements.txt
+python scripts/rebuild_deck.py --check --active
 python scripts/catalog.py --check
-python scripts/recolor_card_backs.py --verify-archive
+python -m unittest discover -s scripts -p "test_*.py"
 ```
 
-After an intentional asset/configuration update, rebuild the catalog, then check it:
+To reproduce all cards from the saved components:
 
 ```text
-python scripts/catalog.py --write
-python scripts/catalog.py --check
+python scripts/rebuild_deck.py --stage
+python scripts/rebuild_deck.py --check
+python scripts/rebuild_deck.py --apply
 ```
 
-The catalog check verifies the complete file inventory against its saved records, unique identities, hashes, dimensions and trim ratios. Recolor verification compares all 30 current backs with their original pixels and palette recipes, including alpha, unchanged non-blue pixels and central-dot patches.
+Staging also creates rank contact sheets, back previews, and before/after
+comparisons. It makes no image-generation calls. Promotion requires a checked
+stage and verifies that active inputs have not changed unexpectedly.
 
-Recoloring writes candidates under `work/recolored-backs/`, never over the archive:
-
-```text
-python scripts/recolor_card_backs.py --colors lamp-black verdigris
-python scripts/recolor_card_backs.py --preview
-```
-
-The default generates the four active recolors. Older optional color recipes remain in the script for provenance and explicit experimentation; they are not members of the current collection. Adding a color requires adopting its files and updating `deck.json`.
+The [completion notes](docs/design/poker-completion-v2.md) describe the workflow,
+[validation report](docs/design/poker-completion-v2-report.json), exact geometry,
+and remaining distinctions between deterministic components and preserved
+court artwork. Earlier alignment, ace-preparation, and numeral-rebalancing
+scripts are historical; do not apply them to these rebuilt exports.
 
 ## Provenance
 
-The initial import reorganized the 34 existing images without modifying their bytes. [Migration records](docs/history/migration.json) map every imported path to its destination and hash at import. Imported documentation, tree and the former 60-card validation report are preserved under `docs/history/`; they describe an earlier inventory and are not current manifests.
+The original import and earlier artwork development remain documented under
+`docs/history/` and `docs/design/`. Supplied research and historical generation
+prompts are references. The rebuild preserved every active input before making
+changes; previously deleted older source folders were not silently restored.
 
-The supplied research documents are references, not project instructions. Source prompts record how the existing artwork was created. Earlier studies and unselected recolors still in the Jukebox Solitaire workspace were not promoted into this collection. A copy of the provisional Spades reference is retained under `sources/`.
-
+Repository: [ianrastall/playing-cards](https://github.com/ianrastall/playing-cards).
 Licensed under the [MIT License](LICENSE).

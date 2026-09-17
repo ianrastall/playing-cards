@@ -91,7 +91,7 @@
         675,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -108,7 +108,7 @@
         300.0,
         300.0
       ],
-      "sha256": "6e36220945d03e51fb6867fdab1a789425b5b3181707b0f1c0dade7ec9136145"
+      "sha256": "472cf4b80a6178735881b49c5a6f6b458185568565d6a397f7ad40518cc9a377"
     },
     {
       "id": "back.bridge.madder-lake",
@@ -122,7 +122,7 @@
         675,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -139,7 +139,7 @@
         300.0,
         300.0
       ],
-      "sha256": "1bc2fe3ce3e595daf64b048ab63f01070571759dc737d00f7f9a49b15324c220"
+      "sha256": "d5b357e4e692accbd64e462e3e22217324b3eeb10053db13028384c5cf9d8e19"
     },
     {
       "id": "back.bridge.manganese-violet",
@@ -153,7 +153,7 @@
         675,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -170,7 +170,7 @@
         300.0,
         300.0
       ],
-      "sha256": "da693deee7773da1e8a22bc8e031f791f7efa0600668d680776d845855e71a9c"
+      "sha256": "4548c76b88d208762b3348664074910042a2cd74d2e72a9abdce9ad4fbac63f6"
     },
     {
       "id": "back.bridge.prussian-blue",
@@ -184,7 +184,7 @@
         675,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -201,7 +201,7 @@
         300.0,
         300.0
       ],
-      "sha256": "f99ddba560aecb22844d81ed81605b083aad7bb912e627616a13f178afdf7f67"
+      "sha256": "2e574725f0a719b6345111c0db1b6c3205d48b91ca3fee152d4e77d857a5180d"
     },
     {
       "id": "back.bridge.verdigris",
@@ -215,7 +215,7 @@
         675,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -232,7 +232,7 @@
         300.0,
         300.0
       ],
-      "sha256": "bddd51c49bbf54e9d884e57772020969634495184c68cdaa62341202fd8b2ab7"
+      "sha256": "4a553228a77bba04380cdeb48430af203552db91a253e8e7a6f3027101ee72c9"
     },
     {
       "id": "back.european-standard.lamp-black",
@@ -246,7 +246,7 @@
         696,
         1074
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -263,7 +263,7 @@
         300.0,
         300.0
       ],
-      "sha256": "52d2d9d763ad5cdd3acbd3219cc9dbff318ab70646e5afc41918b670f277e2d0"
+      "sha256": "e52fe152145ba8336a21022ab4a6fdfe4adeb809a6339bb71aa1f85351cfce95"
     },
     {
       "id": "back.european-standard.madder-lake",
@@ -277,7 +277,7 @@
         696,
         1074
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -294,7 +294,7 @@
         300.0,
         300.0
       ],
-      "sha256": "f7fa5fb792fbb90bfb68d492085b80da8ac7cff313cbde8bc92077bf34afea2d"
+      "sha256": "b0c2a05328c7b1062f0135ef9edd2f7d3f460d217c90d4db752732b61764c81e"
     },
     {
       "id": "back.european-standard.manganese-violet",
@@ -308,7 +308,7 @@
         696,
         1074
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -325,7 +325,7 @@
         300.0,
         300.0
       ],
-      "sha256": "bad6ec59cbbc230a3bd0628b495ecc474ea42db8730e4051e38d25c6d19eb040"
+      "sha256": "0195babc6b84648e18e296c6c337a0e8f2cdde3e43eab442c14c9f4c52c15523"
     },
     {
       "id": "back.european-standard.prussian-blue",
@@ -339,7 +339,7 @@
         696,
         1074
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -356,7 +356,7 @@
         300.0,
         300.0
       ],
-      "sha256": "ea1e5cc0cac02a2f0d64db8197748cbbcfada0628f1dc7ae07fe1e89eb245005"
+      "sha256": "396794d118932c88a049fb5c55449056e8d6e2b52c9311ccb26356a408d4b07d"
     },
     {
       "id": "back.european-standard.verdigris",
@@ -370,7 +370,7 @@
         696,
         1074
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -387,7 +387,7 @@
         300.0,
         300.0
       ],
-      "sha256": "72c5d829f0cd87f93c6d524e7ab3aa699c7ae71d99aa5339d711969265133cdb"
+      "sha256": "4e919d877c3c3ae1ce1ba8740dafd73fca3231e224ecbaa2ab6c936f204fdd38"
     },
     {
       "id": "back.jumbo.lamp-black",
@@ -401,7 +401,7 @@
         1050,
         1500
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -418,7 +418,7 @@
         300.0,
         300.0
       ],
-      "sha256": "9224b2d4d8bdf2784561d8344b555f7e20282a815d5926b8ee5cec61c52a7055"
+      "sha256": "fe3f17869ca2b537c07397917ff888cd01cff32bd25957d03fb49b44edc1c555"
     },
     {
       "id": "back.jumbo.madder-lake",
@@ -432,7 +432,7 @@
         1050,
         1500
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -449,7 +449,7 @@
         300.0,
         300.0
       ],
-      "sha256": "427f4e7afc3cb4ca390404c50c29b2ddf8120875cef52959c5e45a473fd7dc5e"
+      "sha256": "5f0902f20f220c41d61bd9950d98e22c0c6982cf0104190bb55e06811f582e70"
     },
     {
       "id": "back.jumbo.manganese-violet",
@@ -463,7 +463,7 @@
         1050,
         1500
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -480,7 +480,7 @@
         300.0,
         300.0
       ],
-      "sha256": "94ebae9cf317e54326bec2661ac4313bc82d66535b157676afa5fba2524d2101"
+      "sha256": "c849e42db56bd8613058d7bd7e7f7930635b7168de47f5ee82a14d3044a54171"
     },
     {
       "id": "back.jumbo.prussian-blue",
@@ -494,7 +494,7 @@
         1050,
         1500
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -511,7 +511,7 @@
         300.0,
         300.0
       ],
-      "sha256": "facffc2bee0f4a1f5c5a7196fd5ba6114338feeb90e0fddbc364d2e9d145e20c"
+      "sha256": "4ef10748291f9982483f2394f9253bd25232f0e8a9f44bbeb08f916cea0817e8"
     },
     {
       "id": "back.jumbo.verdigris",
@@ -525,7 +525,7 @@
         1050,
         1500
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -542,7 +542,7 @@
         300.0,
         300.0
       ],
-      "sha256": "c3f0bb636510fc0e2975f1f73c7e7a8f2e9a0b1e37a32ebba772a56cd537d468"
+      "sha256": "e034cddacaeb28e651fa0b7378ffc985d0aec098e0ac2cc12822be42e7fe576b"
     },
     {
       "id": "back.poker.lamp-black",
@@ -556,7 +556,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -573,7 +573,7 @@
         300.0,
         300.0
       ],
-      "sha256": "bc6c21b8ed0d0461088567d0642b3c0267ec081199f359f99bd707cca2ddcefb"
+      "sha256": "0cfd2f0726569fa7a595b3dc14149c4fab44b26d9c29fadb7d672106d52feab3"
     },
     {
       "id": "back.poker.madder-lake",
@@ -587,7 +587,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -604,7 +604,7 @@
         300.0,
         300.0
       ],
-      "sha256": "24337ad049d6a2c6535357c6251ea71aa304c1822289f29ff7c3bc063a1c4646"
+      "sha256": "0bca596eec6e6edf289c921df404b948da1cbfb028c26ac3e33dfb7fc7817ff3"
     },
     {
       "id": "back.poker.manganese-violet",
@@ -618,7 +618,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -635,7 +635,7 @@
         300.0,
         300.0
       ],
-      "sha256": "70c1061f125c1c0391a0491eb003d783cf0bfe940baf5e6750e52341f9c0be07"
+      "sha256": "f701e9ae0433f8eb71b4feba6facdd130f2d9613b9ce28788e984239ce8e435a"
     },
     {
       "id": "back.poker.prussian-blue",
@@ -649,7 +649,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -666,7 +666,7 @@
         300.0,
         300.0
       ],
-      "sha256": "afaa6d4d785d97276a6a065c41de3d8976364e8cac3d3d719690cfbd77c1e80c"
+      "sha256": "666c8f5051b7146d69e847721127d3c52c48a4d8b45d050cb831c9aecf199557"
     },
     {
       "id": "back.poker.verdigris",
@@ -680,7 +680,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -697,7 +697,7 @@
         300.0,
         300.0
       ],
-      "sha256": "2408f5dacff2ec24197a1cfb25863cfa0a90cc9942eda65f64270569e0daedec"
+      "sha256": "86470806d3ed6d4c57b5ec5b37d7e641923cea07593488a3e95b5c04be19e4c1"
     },
     {
       "id": "back.tarot.lamp-black",
@@ -711,7 +711,7 @@
         825,
         1425
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -728,7 +728,7 @@
         300.0,
         300.0
       ],
-      "sha256": "3058e15157a0c237666bdf109edee8f25c1030d604019551667d2dadfedd991a"
+      "sha256": "9f43c41aa828247682118935d26ab701b6be8a0cfdb374e727eb051a257889cc"
     },
     {
       "id": "back.tarot.madder-lake",
@@ -742,7 +742,7 @@
         825,
         1425
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -759,7 +759,7 @@
         300.0,
         300.0
       ],
-      "sha256": "d29cf9f9f05f90bdca6929f9ac9f35b879678df77735ce3ba954fc34ab87e9a5"
+      "sha256": "16ac163da20202646ed5f47a3055ba4359b6eb886ee6ddf7f0cb484af355e583"
     },
     {
       "id": "back.tarot.manganese-violet",
@@ -773,7 +773,7 @@
         825,
         1425
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -790,7 +790,7 @@
         300.0,
         300.0
       ],
-      "sha256": "446ba9a5770d7437bf39a295b9da1b705ac8aae6a7066f5b607b12b9c55f9b4b"
+      "sha256": "c48544d5e2cba2c07660e86b7df0eb79f6a025ef3f6ade1ab2dcc7fce78683da"
     },
     {
       "id": "back.tarot.prussian-blue",
@@ -804,7 +804,7 @@
         825,
         1425
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -821,7 +821,7 @@
         300.0,
         300.0
       ],
-      "sha256": "f8cfd50e3f095d7893739fe2485c6544daa48891fa17d68c0e2c49dcc720a104"
+      "sha256": "ac034c44f7d90ac372600d8efa50cab52743dc218dc79bf9cc247e98baeb6a9c"
     },
     {
       "id": "back.tarot.verdigris",
@@ -835,7 +835,7 @@
         825,
         1425
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -852,7 +852,7 @@
         300.0,
         300.0
       ],
-      "sha256": "735b337de0bb3626dcd7e111e1b7f817cbcda38344ff8b1f04f43a5d25540eb2"
+      "sha256": "c20ef7870906e529b0ad0233bf5b83738f0e7ed7e35534bcd3937e47021b6bdf"
     },
     {
       "id": "back.travel.lamp-black",
@@ -866,7 +866,7 @@
         525,
         750
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -883,7 +883,7 @@
         300.0,
         300.0
       ],
-      "sha256": "56238ea442585f9e3a7088400af3b2dfafe1068cf7be0a10582f1531e8e7b307"
+      "sha256": "fc5f8d2983cb85dc70c6c25c99d53b06507c9bb501db3835e402538f6ebc15ea"
     },
     {
       "id": "back.travel.madder-lake",
@@ -897,7 +897,7 @@
         525,
         750
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -914,7 +914,7 @@
         300.0,
         300.0
       ],
-      "sha256": "71a82e7af4799af2a8a2c774499c6719c1345c946eb668150b457d3fd38e9e3c"
+      "sha256": "a0238e1cb6dc28ecdcc8559315c5dd7d0b680a4a1facd0c71f1ff352211afdb6"
     },
     {
       "id": "back.travel.manganese-violet",
@@ -928,7 +928,7 @@
         525,
         750
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -945,7 +945,7 @@
         300.0,
         300.0
       ],
-      "sha256": "522e316b7f7783ac4ad069e8ec8ce39d56ae9bc75194b5fec389366e65533d2c"
+      "sha256": "c76a8eece0c27cb837b54c1ff8a193a0c1924d73cf020d4fd2126a361c9af1c7"
     },
     {
       "id": "back.travel.prussian-blue",
@@ -959,7 +959,7 @@
         525,
         750
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -976,7 +976,7 @@
         300.0,
         300.0
       ],
-      "sha256": "e94290d0e6d61975a1ac71e0f97a1a031fb307fc86ff6467d75ea0be8515dd80"
+      "sha256": "474217a7adf8cc990cc7622ba493376b442e121414c59dd9df2904f1896b23cc"
     },
     {
       "id": "back.travel.verdigris",
@@ -990,7 +990,7 @@
         525,
         750
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1007,7 +1007,7 @@
         300.0,
         300.0
       ],
-      "sha256": "c8b09b33746215b1e3f90cd69415bc67a63e8fbb03825f5b05c4c37e14750923"
+      "sha256": "62cfb2206f04790df825a5a046576869f1d8fa094f1c6f0614476700bf249c0e"
     },
     {
       "id": "face.french-suited.poker.clubs.10",
@@ -1024,7 +1024,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1041,7 +1041,7 @@
         300.0,
         300.0
       ],
-      "sha256": "de1692c9beebbdc0bff444aaddac27febe0c92322f06e7fdbae33762c1cc8f30"
+      "sha256": "bdb30ace79fc3d52d373fcf0a0f87954055fd5ec0d9c903ad0db5d148a85a12e"
     },
     {
       "id": "face.french-suited.poker.clubs.2",
@@ -1058,7 +1058,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1075,7 +1075,7 @@
         300.0,
         300.0
       ],
-      "sha256": "d18d104469e57077210d04ced439d8a0613463f73618b481062895c72a831ed1"
+      "sha256": "9d1a37af4ea4e6ddbeeac1b366ab9134df406d6e61e8596391ac5563ada5704d"
     },
     {
       "id": "face.french-suited.poker.clubs.3",
@@ -1092,7 +1092,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1109,7 +1109,7 @@
         300.0,
         300.0
       ],
-      "sha256": "eab8ea5618cdfece1d86f65fa29b2bb460011812072afd0c3c22537d5ea3cede"
+      "sha256": "9169f576ec58febe9e9aa8244ed1d43b7af62aaf12a5603dd876e49b6c02bb0e"
     },
     {
       "id": "face.french-suited.poker.clubs.4",
@@ -1126,7 +1126,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1143,7 +1143,7 @@
         300.0,
         300.0
       ],
-      "sha256": "1cc078872ab04c9968bdeaf0952706f24975556b0edcf1c23a2507a6ad345887"
+      "sha256": "9fbfc6a87dba84750c791c965e7ff3af30253f9e2bd001423cafa8388384c91b"
     },
     {
       "id": "face.french-suited.poker.clubs.5",
@@ -1160,7 +1160,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1177,7 +1177,7 @@
         300.0,
         300.0
       ],
-      "sha256": "e90c86453d6154103caf25d6b703ef571d71fd40ce17d8eef360a53511486324"
+      "sha256": "2c87f0da3255f14001f83e9aaeeea00de22696fe5ceccacb1b34f15b6f60d9be"
     },
     {
       "id": "face.french-suited.poker.clubs.6",
@@ -1194,7 +1194,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1211,7 +1211,7 @@
         300.0,
         300.0
       ],
-      "sha256": "f26f95837a891dc5d9b3478d0bc1b22d9c5e2ab3bdf0babe5efdd114da4f88dd"
+      "sha256": "0feec3357f3d316d025bbec51c07e79b84ddcb02f39d09f08f738b5fb14878bd"
     },
     {
       "id": "face.french-suited.poker.clubs.7",
@@ -1228,7 +1228,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1245,7 +1245,7 @@
         300.0,
         300.0
       ],
-      "sha256": "b314f62999627f108cd33c85bd4b4aa018590d8b260586452009bf829005f8f7"
+      "sha256": "a768a53762398a2cf5c9b4ac49fe7cb30ce1e575ffcdfbb7a7e09c3fb22221a0"
     },
     {
       "id": "face.french-suited.poker.clubs.8",
@@ -1262,7 +1262,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1279,7 +1279,7 @@
         300.0,
         300.0
       ],
-      "sha256": "bfcd69eab0027ebc8f0e57754dd5c52fdaf0e1758024185dbff3202bd195f4d5"
+      "sha256": "faa427b4378e3d9fd5c5ea6d9f4df53d5b27fbdb5604837bce42926d8af59943"
     },
     {
       "id": "face.french-suited.poker.clubs.9",
@@ -1296,7 +1296,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1313,7 +1313,7 @@
         300.0,
         300.0
       ],
-      "sha256": "967dbc66af5cfb3e525162f3b2067511d6bf182cd1e42ea7be044e7fdaf12ddc"
+      "sha256": "d94e1cad793d17562b33621296b9e3d46e9c947e8d63f8e81b7450aa64cf4806"
     },
     {
       "id": "face.french-suited.poker.clubs.ace",
@@ -1330,7 +1330,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1347,7 +1347,7 @@
         300.0,
         300.0
       ],
-      "sha256": "6c95143811f440a9cdf64a599e9cac6cdbc1b40a5be281f582cd334642d6c029"
+      "sha256": "2fb0c7bca41497716bfdd568e35c7b534677b1941f71ee56f93bb085ed934036"
     },
     {
       "id": "face.french-suited.poker.clubs.jack",
@@ -1364,7 +1364,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1381,7 +1381,7 @@
         300.0,
         300.0
       ],
-      "sha256": "7ef080466badd053c5849b16d3ceb0dae708baf4ad929c4ca68b0c0f2832ad22"
+      "sha256": "76e96640eb3e5e63be73f8814dfd6a85f10acd7ad971060b4c7198e40db57c67"
     },
     {
       "id": "face.french-suited.poker.clubs.king",
@@ -1398,7 +1398,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1415,7 +1415,7 @@
         300.0,
         300.0
       ],
-      "sha256": "d5d1dd2a43c479c3a08d4937903ab3593761cf27d8c2afe954233a07dd31529f"
+      "sha256": "4df51cb86b8beeb0a11ed71795372d4db3f851a51b83dfb43e8f965542935a1b"
     },
     {
       "id": "face.french-suited.poker.clubs.queen",
@@ -1432,7 +1432,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1449,7 +1449,7 @@
         300.0,
         300.0
       ],
-      "sha256": "7c834951490e1e97b58d90145d9690e2d152b20402c969cd03b38f2b0d0eea1a"
+      "sha256": "da925818717dde047ddfbc6f320583a37f584d3078ffe21a2f63be94c31967f9"
     },
     {
       "id": "face.french-suited.poker.diamonds.10",
@@ -1466,7 +1466,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1483,7 +1483,7 @@
         300.0,
         300.0
       ],
-      "sha256": "ddbec0c83751d28929ecc96e484ad3031446eddc9379070048997313f6908285"
+      "sha256": "14d39a31971f5ebfd290872684e0b7ff6cf057326c93dc14e37073dce6858827"
     },
     {
       "id": "face.french-suited.poker.diamonds.2",
@@ -1500,7 +1500,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1517,7 +1517,7 @@
         300.0,
         300.0
       ],
-      "sha256": "2d6fc8512a37496da55ca7e1bd7679b2283bef810c450347b96314701551c30d"
+      "sha256": "d556cbebb9b2681817d04ae3b41464d6ff43ef195571d1474954938496c43fb5"
     },
     {
       "id": "face.french-suited.poker.diamonds.3",
@@ -1534,7 +1534,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1551,7 +1551,7 @@
         300.0,
         300.0
       ],
-      "sha256": "d8bac406eda7d19ae08fe6665d93a729f7a79ec0ce3b0651affbf1929e42c6a0"
+      "sha256": "95c724197d3227053f0657aedbf0e1a17559beb5f2a3574db9d7293cddb1b979"
     },
     {
       "id": "face.french-suited.poker.diamonds.4",
@@ -1568,7 +1568,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1585,7 +1585,7 @@
         300.0,
         300.0
       ],
-      "sha256": "4c5e9316f9cbac1aaa099d669fdadae338de89acc77976cc27a50cabd6a325c3"
+      "sha256": "ee411b2f4819c03349be54e31725ce0f38e4b0eb4d3b5d8466194f9b6de8cece"
     },
     {
       "id": "face.french-suited.poker.diamonds.5",
@@ -1602,7 +1602,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1619,7 +1619,7 @@
         300.0,
         300.0
       ],
-      "sha256": "088b4b7ea831d823ef71984af255772f99a4dacebf800e4fbbbac24382f02175"
+      "sha256": "3c74ac5503601a0d4b6f4e604aacc4f1ddd89c4249d727048cfcfe490b1ec583"
     },
     {
       "id": "face.french-suited.poker.diamonds.6",
@@ -1636,7 +1636,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1653,7 +1653,7 @@
         300.0,
         300.0
       ],
-      "sha256": "2d1f553d906a1d5fcdef4239998185729dfc2e1de5818ff6e36b8b5f4a4168f8"
+      "sha256": "f5f643f998460f4c7d2935c1659a8fa9c7281e17082b6f07b9f0832f5c00ebe9"
     },
     {
       "id": "face.french-suited.poker.diamonds.7",
@@ -1670,7 +1670,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1687,7 +1687,7 @@
         300.0,
         300.0
       ],
-      "sha256": "14ad606ecf974564ffc559bc7d9cda0b00ee8aa642bd1ecfff841d1ba03dc60c"
+      "sha256": "35de92146d0cee0c5c854ab08f9433f2a61a2e1d98a0daa861a0b37ce63748ba"
     },
     {
       "id": "face.french-suited.poker.diamonds.8",
@@ -1704,7 +1704,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1721,7 +1721,7 @@
         300.0,
         300.0
       ],
-      "sha256": "ab2619e273f5020c3fcf9a74f0686fd893b40e0c50b283a22441ad3180c35ef6"
+      "sha256": "4a511c71dca3c6db036e0927e2556539e85a027c7ed92a7f59ee0e3e6df95475"
     },
     {
       "id": "face.french-suited.poker.diamonds.9",
@@ -1738,7 +1738,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1755,7 +1755,7 @@
         300.0,
         300.0
       ],
-      "sha256": "bc95c86c663dfa91628a93d614160183e00250913f98bce9406fad401952dfb7"
+      "sha256": "e40a411003afe6731ce1baf104890a95933b7266b6cfd3bae9040a4fefae251a"
     },
     {
       "id": "face.french-suited.poker.diamonds.ace",
@@ -1772,7 +1772,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1789,7 +1789,7 @@
         300.0,
         300.0
       ],
-      "sha256": "8de6f2f3257139ded67c229fb6f774252263923e812b3ed97ba90302127af70e"
+      "sha256": "85542c7dd07247dcbf5d782cf2b176c6520ad6db25bdca6f1fab1afb56ad9d5f"
     },
     {
       "id": "face.french-suited.poker.diamonds.jack",
@@ -1806,7 +1806,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1823,7 +1823,7 @@
         300.0,
         300.0
       ],
-      "sha256": "b15b5d43e1894bea9088d08f8f22119cfad84e43e59c3993e2234680d0f6a21f"
+      "sha256": "70ce8bf88b9606f8fb7f594d303747b3595df75903d050485e1e62c85df3d9e9"
     },
     {
       "id": "face.french-suited.poker.diamonds.king",
@@ -1840,7 +1840,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1857,7 +1857,7 @@
         300.0,
         300.0
       ],
-      "sha256": "182abd7e627c34d91743640c228ca62a26504aa53567aa820b4e1840f23b19a4"
+      "sha256": "9f61d52bf1d4d96a8b52fa6435046a2d464c73c3d30adef47181226300d2d48d"
     },
     {
       "id": "face.french-suited.poker.diamonds.queen",
@@ -1874,7 +1874,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1891,7 +1891,7 @@
         300.0,
         300.0
       ],
-      "sha256": "0c9ddc46a2716bf9dc40d418060b9c638bfd7cad55731b8e8a1f6b5e4207de8b"
+      "sha256": "f5e604a76837ac7deafee276878addb656e0544bf282cf6d17e9e7826932094e"
     },
     {
       "id": "face.french-suited.poker.hearts.10",
@@ -1908,7 +1908,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1925,7 +1925,7 @@
         300.0,
         300.0
       ],
-      "sha256": "dafb7a16dada7370b1c027fa32bdd35688c64d5cce7726257079d8ad8d1e4c65"
+      "sha256": "dea5de6fc1fc0bfbe788c60b390a7d83317ba5f98c434a79ec59a19c57752924"
     },
     {
       "id": "face.french-suited.poker.hearts.2",
@@ -1942,7 +1942,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1959,7 +1959,7 @@
         300.0,
         300.0
       ],
-      "sha256": "3eef32c44c362fd820e237d81e4111548f114d987c8ed72d11753e5de6bd0742"
+      "sha256": "c0732290685205f6bd393a847efcd24be396c1dcd99facbba185577be4e9ea67"
     },
     {
       "id": "face.french-suited.poker.hearts.3",
@@ -1976,7 +1976,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -1993,7 +1993,7 @@
         300.0,
         300.0
       ],
-      "sha256": "46ef3b5e67b6924363526316cef89a11de105ca0f7f5b1fe3714bef2a421d82c"
+      "sha256": "19a064074830d8c93c4c35b9a1e73f555c0da11dcd7ea3676b8ba1ee9ebf19f9"
     },
     {
       "id": "face.french-suited.poker.hearts.4",
@@ -2010,7 +2010,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2027,7 +2027,7 @@
         300.0,
         300.0
       ],
-      "sha256": "0e2b4b771b9942be53d3a633facd988f15b4299bb04156e3fd2a15b6decf7859"
+      "sha256": "09635d38ca8aefbdda80bfe50f4657af7ca844bde2efe8fd1eb4c86988369f69"
     },
     {
       "id": "face.french-suited.poker.hearts.5",
@@ -2044,7 +2044,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2061,7 +2061,7 @@
         300.0,
         300.0
       ],
-      "sha256": "b6ea6de9336ff0d27c25b29111c593a4938620d8a5277f8b25dae82ff9783aff"
+      "sha256": "21b2b06ecfe808df27e7b1fb3fa1ffc4a324703cf9ccca171e4b103158cbe4c8"
     },
     {
       "id": "face.french-suited.poker.hearts.6",
@@ -2078,7 +2078,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2095,7 +2095,7 @@
         300.0,
         300.0
       ],
-      "sha256": "e11d1b9af2bb2857aaf42333106c1f447e5f8cc7466192bf890e64648b2cb543"
+      "sha256": "1415270b736a38704272d32b1c4266b18e7a5731d15fe17981bda083bf33cc9d"
     },
     {
       "id": "face.french-suited.poker.hearts.7",
@@ -2112,7 +2112,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2129,7 +2129,7 @@
         300.0,
         300.0
       ],
-      "sha256": "8359cefe4b8d503f422909f6682ff8479e4c5d4d6dcc13f94d23deee189373a2"
+      "sha256": "9fe044d83ba43efaa22fc23aa7cd93af27fa1016440dc3a9c0f8bca571bd781d"
     },
     {
       "id": "face.french-suited.poker.hearts.8",
@@ -2146,7 +2146,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2163,7 +2163,7 @@
         300.0,
         300.0
       ],
-      "sha256": "05c7ae691b117b171908fc0b6d370a4bd5b2b3e82faf4606bdf575e7b0fa4034"
+      "sha256": "dcc23f9c75dcd0c21fa4b3417ab6715bb0ef18065988801535895ec63597e73b"
     },
     {
       "id": "face.french-suited.poker.hearts.9",
@@ -2180,7 +2180,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2197,7 +2197,7 @@
         300.0,
         300.0
       ],
-      "sha256": "a36f9f2db15924145e737033c52f40af40418cc011c089ac9becae8964af2cee"
+      "sha256": "78f92ce4114fcee645db8c22bb599ddaab5523714c868207362e737b6d59df5c"
     },
     {
       "id": "face.french-suited.poker.hearts.ace",
@@ -2214,7 +2214,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2231,7 +2231,7 @@
         300.0,
         300.0
       ],
-      "sha256": "0d1988d2eb21c8be323d3d987c3217ae44bf0a5a4ebcf4c67667154d9d702e28"
+      "sha256": "3a602e37b64d92ffbf343cbfa68781b6158ce7f0927d30b7bed49a97f6dd5244"
     },
     {
       "id": "face.french-suited.poker.hearts.jack",
@@ -2248,7 +2248,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2265,7 +2265,7 @@
         300.0,
         300.0
       ],
-      "sha256": "5b6f55927d790d5fda01b417af4aea46ccfcaf91a61aeabb7d4363d09d8cb2da"
+      "sha256": "7523442f819c4954c8ad1f9bef105230a2edfdd57fdb6962389b8957396a9f03"
     },
     {
       "id": "face.french-suited.poker.hearts.king",
@@ -2282,7 +2282,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2299,7 +2299,7 @@
         300.0,
         300.0
       ],
-      "sha256": "039d05e7e752fece7d53f3d9aa32699bd4f8f691d25a00aabb70b8a450f7d3bc"
+      "sha256": "a99355c7029eb7baaaf81a6b697f053203c0ee597295a534dbeb69c2dbf70707"
     },
     {
       "id": "face.french-suited.poker.hearts.queen",
@@ -2316,7 +2316,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2333,7 +2333,75 @@
         300.0,
         300.0
       ],
-      "sha256": "27d8e79d8ef36cb548d0f3d579c59479afd2a55c6194b55cf1657e6a5c25e147"
+      "sha256": "3353dfb7fa1b9403e0899d4aaa2d66fef9446196efcaa07f7abf5b17dd6d341a"
+    },
+    {
+      "id": "face.french-suited.poker.joker.black",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": null,
+      "rank": "joker",
+      "color_variant": "black",
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/jokers/black.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "5305c58fecc021073d7b7d05600f51c126f2f2d1dff4fd3390cf94ba2fca139d"
+    },
+    {
+      "id": "face.french-suited.poker.joker.red",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": null,
+      "rank": "joker",
+      "color_variant": "red",
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/jokers/red.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "d485256ded15009fc14c22ec4f7a6f4db6ff80e88213d1422845cee329b9eeba"
     },
     {
       "id": "face.french-suited.poker.spades.10",
@@ -2350,7 +2418,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2367,7 +2435,7 @@
         300.0,
         300.0
       ],
-      "sha256": "7019b5ec0e9a6e78ce87ba134ceaa4768207d30a03e78e5563aacdcebc61ce7c"
+      "sha256": "ee367977fd1791779cc3ce7b0720086521bfb198e2028efb7ca771b93ce832fe"
     },
     {
       "id": "face.french-suited.poker.spades.2",
@@ -2384,7 +2452,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2401,7 +2469,7 @@
         300.0,
         300.0
       ],
-      "sha256": "0ac62a1029a14601f8bb70400d54c242395d50fac2d7dc7f883fe4d5c56526cb"
+      "sha256": "a3a82a5136fc5b673a980b4d000c221633ef36152e7cdbe02aa215b0bac362ee"
     },
     {
       "id": "face.french-suited.poker.spades.3",
@@ -2418,7 +2486,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2435,7 +2503,7 @@
         300.0,
         300.0
       ],
-      "sha256": "2e152a8c657ed41a619ce6cd4f9918fa4c852ffa037dae54fab42056cc7151b6"
+      "sha256": "8a49ed71319d5e2ea990d7497f5db4e088ce388dbb86f3b53b48b683c51f6633"
     },
     {
       "id": "face.french-suited.poker.spades.4",
@@ -2452,7 +2520,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2469,7 +2537,7 @@
         300.0,
         300.0
       ],
-      "sha256": "ea7ee790c64cfd67e92717e068105f22c7320fa708383d8ffa8c1989437817f0"
+      "sha256": "9e520deadb05ae99751e52cf55982f50bfa698864dc4ecef023711fb2bba89f3"
     },
     {
       "id": "face.french-suited.poker.spades.5",
@@ -2486,7 +2554,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2503,7 +2571,7 @@
         300.0,
         300.0
       ],
-      "sha256": "9b9722c1d24101a310ba49ed4bb99cc2718d81e898a6f6dc4e6e88aa5e5bc54f"
+      "sha256": "1dc978a30bd65129bc0c0c6d285828181f86dcf5d84f647f1cee056ebbf35993"
     },
     {
       "id": "face.french-suited.poker.spades.6",
@@ -2520,7 +2588,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2537,7 +2605,7 @@
         300.0,
         300.0
       ],
-      "sha256": "1b4ec687c86cbab378cf6aa6a1245215a57efcde7d569e6d76a5c8667b521b97"
+      "sha256": "d4a2be6a786b0d237f5204ebb39c7202c0b86bfdd41079ba84b1a573e73b1ff8"
     },
     {
       "id": "face.french-suited.poker.spades.7",
@@ -2554,7 +2622,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2571,7 +2639,7 @@
         300.0,
         300.0
       ],
-      "sha256": "9d062844425dfc6c1bfd81e662ccf806a467f6e6bda65bde5ce02f99eebba9fb"
+      "sha256": "2e7f4f41b60988e7667804af2cbe0f673c3e3bec3aa1434191ac5a485950df7d"
     },
     {
       "id": "face.french-suited.poker.spades.8",
@@ -2588,7 +2656,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2605,7 +2673,7 @@
         300.0,
         300.0
       ],
-      "sha256": "b360aab8c662aa88f495fe9f6c992b7e8d8764e8286a1b097169e87774ce9ecf"
+      "sha256": "c2daa098b89326d842fd6f8a237a325aecf85ff0af0167e6bceec54eb3b31e1f"
     },
     {
       "id": "face.french-suited.poker.spades.9",
@@ -2622,7 +2690,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2639,7 +2707,7 @@
         300.0,
         300.0
       ],
-      "sha256": "e16882d601159283efb91feb88fa7661e4c748d2ba6e4417f8a9c431ca579878"
+      "sha256": "fc9cc62332ea4e43b4bafa6000644e787ef5414c3851ec55794b8908fd2383c8"
     },
     {
       "id": "face.french-suited.poker.spades.ace",
@@ -2656,7 +2724,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2673,7 +2741,7 @@
         300.0,
         300.0
       ],
-      "sha256": "782db306292028d2819ab5dc3cd04f8792b2aa253c91064412abd23709829f57"
+      "sha256": "a8101fbb4997457c52c88d972d74690d60d95efa034fcbd783fe98f4408fe530"
     },
     {
       "id": "face.french-suited.poker.spades.jack",
@@ -2690,7 +2758,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2707,7 +2775,7 @@
         300.0,
         300.0
       ],
-      "sha256": "02f01f4d8c875add83b0933640f19dbf87bd717a8030ffa5259b16d6de8bf44d"
+      "sha256": "55761ee662504434b12a12b4aa0d0e68b3b7a20efcfc6a3862e8c9b4aeed2995"
     },
     {
       "id": "face.french-suited.poker.spades.king",
@@ -2724,7 +2792,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2741,7 +2809,7 @@
         300.0,
         300.0
       ],
-      "sha256": "f062d7a3b2871b43afe0a313377f4fac49b2c764a79cc9db9eb651ff6554c525"
+      "sha256": "dc2c50dbe1b6d0d4c203397c92a23940382c0bafd79593a9d20c554c24f45b98"
     },
     {
       "id": "face.french-suited.poker.spades.queen",
@@ -2758,7 +2826,7 @@
         750,
         1050
       ],
-      "mode": "RGB",
+      "mode": "RGBA",
       "encoded_dpi": [
         299.9994,
         299.9994
@@ -2775,7 +2843,7 @@
         300.0,
         300.0
       ],
-      "sha256": "489db3457ec2fa4f9ee59a3e5bde83be2d4e000f0f3f61966b5a2c7d2cceb362"
+      "sha256": "82f1ce796606ee66ac1acbf84744b3992efd731518d3a4e2db896595511ce03c"
     }
   ]
 }

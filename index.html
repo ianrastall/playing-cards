@@ -205,7 +205,7 @@
     .lightbox img {
       max-width: min(90vw, 750px);
       max-height: 80vh;
-      border-radius: var(--radius);
+      border-radius: 0;
       box-shadow: 0 16px 48px rgba(0, 0, 0, 0.6);
       cursor: default;
     }
@@ -420,15 +420,15 @@
             const key = `${a.system}|${a.format}`;
             if (!faceSystems.has(key)) faceSystems.set(key, new Map());
             const suitMap = faceSystems.get(key);
-            if (!suitMap.has(a.suit)) suitMap.set(a.suit, []);
-            suitMap.get(a.suit).push(a);
+            const group = a.rank === 'joker' ? 'jokers' : a.suit;
+            if (!suitMap.has(group)) suitMap.set(group, []);
+            suitMap.get(group).push(a);
           });
 
           faceSystems.forEach((suitMap, sysKey) => {
             const [system, format] = sysKey.split('|');
             const suits = [...suitMap.keys()].sort();
             const totalFaces = faces.filter(a => a.system === system && a.format === format).length;
-            const ranksPerSuit = suitMap.values().next().value.length;
             const px = faces.find(a => a.system === system && a.format === format)?.pixels;
             const pxLabel = px ? ` at ${px[0]} × ${px[1]} px` : '';
 
@@ -436,7 +436,7 @@
             section.className = 'gallery-section';
             section.innerHTML =
               `<h2 class="section-title">Card Faces — ${titleCase(system)} ${titleCase(format)}</h2>` +
-              `<p class="section-subtitle">${suits.length} suits × ${ranksPerSuit} ranks — ${totalFaces} images${pxLabel}</p>`;
+              `<p class="section-subtitle">${suits.filter(s => s !== 'jokers').length} suits plus ${suitMap.get('jokers')?.length || 0} Jokers — ${totalFaces} images${pxLabel}</p>`;
 
             suits.forEach(suit => {
               const id = `faces-${suit}`;
@@ -460,11 +460,11 @@
               grid.className = 'card-grid';
               const items = suitMap.get(suit).sort((a, b) => rankIndex(a.rank) - rankIndex(b.rank));
               items.forEach(a => {
-                const rankLabel = titleCase(a.rank);
+                const rankLabel = a.rank === 'joker' ? `${titleCase(a.color_variant)} Joker` : titleCase(a.rank);
                 grid.appendChild(makeCardItem(
                   a.path,
                   `${titleCase(suit)} — ${rankLabel}`,
-                  `${suit}/${a.rank}.png`
+                  a.rank === 'joker' ? `jokers/${a.color_variant}.png` : `${suit}/${a.rank}.png`
                 ));
               });
               section.appendChild(grid);

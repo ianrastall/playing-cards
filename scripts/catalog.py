@@ -26,11 +26,18 @@ def build_catalog() -> dict:
             _, system, size, suit, filename = parts
             rank = Path(filename).stem
             definition = config["face_systems"][system]
-            if suit not in definition["suits"] or rank not in definition["ranks"]:
-                raise ValueError(f"Invalid suit/rank: {path}")
-            record = dict(id=f"face.{system}.{size}.{suit}.{rank}", side="face",
-                          system=system, format=size, suit=suit, rank=rank,
-                          color_variant=None, status=config["face_status"])
+            if suit == "jokers":
+                if rank not in definition.get("jokers", []):
+                    raise ValueError(f"Invalid Joker variant: {path}")
+                record = dict(id=f"face.{system}.{size}.joker.{rank}", side="face",
+                              system=system, format=size, suit=None, rank="joker",
+                              color_variant=rank, status=config["face_status"])
+            else:
+                if suit not in definition["suits"] or rank not in definition["ranks"]:
+                    raise ValueError(f"Invalid suit/rank: {path}")
+                record = dict(id=f"face.{system}.{size}.{suit}.{rank}", side="face",
+                              system=system, format=size, suit=suit, rank=rank,
+                              color_variant=None, status=config["face_status"])
         else:
             raise ValueError(f"Invalid asset hierarchy: {path}")
         size_info = config["formats"][size]
@@ -57,8 +64,14 @@ def build_catalog() -> dict:
     actual_backs = {a["id"] for a in assets if a["side"] == "back"}
     if actual_backs != expected_backs:
         raise ValueError(f"Back inventory mismatch: {expected_backs ^ actual_backs}")
-    if not any(a["side"] == "face" for a in assets):
-        raise ValueError("Face inventory is empty")
+    expected_faces={f"face.french-suited.poker.{suit}.{rank}"
+                    for suit in config["face_systems"]["french-suited"]["suits"]
+                    for rank in config["face_systems"]["french-suited"]["ranks"]}
+    expected_faces.update(f"face.french-suited.poker.joker.{variant}"
+                          for variant in config["face_systems"]["french-suited"].get("jokers",[]))
+    actual_faces={a["id"] for a in assets if a["side"]=="face"}
+    if actual_faces!=expected_faces:
+        raise ValueError(f"Face inventory mismatch: {actual_faces ^ expected_faces}")
     return dict(schema_version=1, deck_id=config["id"], path_base="repository-root",
                 formats=config["formats"], back_colors=config["back_colors"],
                 print_notes=dict(geometry="trim-size artwork", bleed_included=False,

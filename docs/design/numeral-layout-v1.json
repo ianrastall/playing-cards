@@ -1,0 +1,1149 @@
+{
+  "version": 1,
+  "coordinate_basis": "zero-based pixel centers",
+  "canvas": [
+    750,
+    1050
+  ],
+  "center": [
+    374.5,
+    524.5
+  ],
+  "ground_rgb": [
+    250,
+    235,
+    215
+  ],
+  "corner_radius_mm": 3.5,
+  "dpi": 300,
+  "ranks": {
+    "ace": {
+      "pips": [
+        {
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 0,
+          "id": "pip-1",
+          "z": 0
+        }
+      ],
+      "component_bounds": [
+        420,
+        570
+      ],
+      "reversibility": "one-way",
+      "expected_centroid": [
+        374.5,
+        524.5
+      ],
+      "components": {
+        "spades": {
+          "path": "sources/components/poker/v1/pips/spades/ace.png",
+          "anchor": [
+            217.5,
+            297.5
+          ],
+          "size": [
+            436,
+            596
+          ],
+          "sha256": "693892656a62bf27b3f804158a28cb9e32402c9a59eef9baaa11eec346c53e8f"
+        },
+        "hearts": {
+          "path": "sources/components/poker/v1/pips/hearts/ace.png",
+          "anchor": [
+            217.5,
+            230.5
+          ],
+          "size": [
+            436,
+            462
+          ],
+          "sha256": "76b1c9b6f3ff1d2e138ee0e4e27443236f8374c2d7331a2a132199ab8e2e4ac9"
+        },
+        "diamonds": {
+          "path": "sources/components/poker/v1/pips/diamonds/ace.png",
+          "anchor": [
+            217.5,
+            290.5
+          ],
+          "size": [
+            436,
+            582
+          ],
+          "sha256": "89c0e8d204a1c361f357a926aa1e8720d2c2866d29ede78ca4e34d73431f3e42"
+        },
+        "clubs": {
+          "path": "sources/components/poker/v1/pips/clubs/ace.png",
+          "anchor": [
+            217.5,
+            238.5
+          ],
+          "size": [
+            436,
+            478
+          ],
+          "sha256": "c330e6f290b275e12cc4379679f87fe5e839acccd332a314771306098787b6ef"
+        }
+      }
+    },
+    "2": {
+      "pips": [
+        {
+          "center": [
+            374.5,
+            314.5
+          ],
+          "rotation": 0,
+          "id": "pip-1",
+          "z": 0
+        },
+        {
+          "center": [
+            374.5,
+            734.5
+          ],
+          "rotation": 180,
+          "id": "pip-2",
+          "z": 1
+        }
+      ],
+      "component_bounds": [
+        230,
+        280
+      ],
+      "reversibility": "two-way",
+      "expected_centroid": [
+        374.5,
+        524.5
+      ],
+      "components": {
+        "spades": {
+          "path": "sources/components/poker/v1/pips/spades/2.png",
+          "anchor": [
+            114.5,
+            154.5
+          ],
+          "size": [
+            230,
+            310
+          ],
+          "sha256": "9e66a421fd8280ae6fe1b24a243d6122440cc9cdf5d8a375c4e16be54a57adea"
+        },
+        "hearts": {
+          "path": "sources/components/poker/v1/pips/hearts/2.png",
+          "anchor": [
+            122.5,
+            129.5
+          ],
+          "size": [
+            246,
+            260
+          ],
+          "sha256": "a44e21eea75b6db105be8932d622e5006a3841ded10ac5f9fcef5ac483b74458"
+        },
+        "diamonds": {
+          "path": "sources/components/poker/v1/pips/diamonds/2.png",
+          "anchor": [
+            111.5,
+            147.5
+          ],
+          "size": [
+            224,
+            296
+          ],
+          "sha256": "43fb614e2e97185cf77e38fd3d8c6dc9d15312509d100a8c9fd7f818404c96cd"
+        },
+        "clubs": {
+          "path": "sources/components/poker/v1/pips/clubs/2.png",
+          "anchor": [
+            122.5,
+            133.5
+          ],
+          "size": [
+            246,
+            268
+          ],
+          "sha256": "2c5bf620bd5b8f6cf551a8a8d2548864c4f6215057dbed72532a5f7cc9d88dd9"
+        }
+      }
+    },
+    "3": {
+      "pips": [
+        {
+          "center": [
+            374.5,
+            284.5
+          ],
+          "rotation": 0,
+          "id": "pip-1",
+          "z": 0
+        },
+        {
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 0,
+          "id": "pip-2",
+          "z": 1
+        },
+        {
+          "center": [
+            374.5,
+            764.5
+          ],
+          "rotation": 180,
+          "id": "pip-3",
+          "z": 2
+        }
+      ],
+      "component_bounds": [
+        190,
+        220
+      ],
+      "reversibility": "one-way-center",
+      "expected_centroid": [
+        374.5,
+        524.5
+      ],
+      "components": {
+        "spades": {
+          "path": "sources/components/poker/v1/pips/spades/3.png",
+          "anchor": [
+            91.5,
+            123.5
+          ],
+          "size": [
+            184,
+            248
+          ],
+          "sha256": "438f70d63cca1ac2a821cf3282390f6340279f8e61bc1a6c044ebd981e76cacb"
+        },
+        "hearts": {
+          "path": "sources/components/poker/v1/pips/hearts/3.png",
+          "anchor": [
+            102.5,
+            108.5
+          ],
+          "size": [
+            206,
+            218
+          ],
+          "sha256": "5f2fa6308b43eef6ba1adc07ba82fdc3da77013c1211f006d5ad9901a679b0e2"
+        },
+        "diamonds": {
+          "path": "sources/components/poker/v1/pips/diamonds/3.png",
+          "anchor": [
+            89.5,
+            117.5
+          ],
+          "size": [
+            180,
+            236
+          ],
+          "sha256": "8e085ef1cfd86f7846d714b876b06912339c8e23ac3a0fecebb8b9baf13fc5f8"
+        },
+        "clubs": {
+          "path": "sources/components/poker/v1/pips/clubs/3.png",
+          "anchor": [
+            102.5,
+            111.5
+          ],
+          "size": [
+            206,
+            224
+          ],
+          "sha256": "1527a1913dd0a6d94e041295a6ea5d77bfd63a17f37dc73d5d3c48e338975792"
+        }
+      }
+    },
+    "4": {
+      "pips": [
+        {
+          "center": [
+            244.5,
+            294.5
+          ],
+          "rotation": 0,
+          "id": "pip-1",
+          "z": 0
+        },
+        {
+          "center": [
+            504.5,
+            294.5
+          ],
+          "rotation": 0,
+          "id": "pip-2",
+          "z": 1
+        },
+        {
+          "center": [
+            244.5,
+            754.5
+          ],
+          "rotation": 180,
+          "id": "pip-3",
+          "z": 2
+        },
+        {
+          "center": [
+            504.5,
+            754.5
+          ],
+          "rotation": 180,
+          "id": "pip-4",
+          "z": 3
+        }
+      ],
+      "component_bounds": [
+        190,
+        220
+      ],
+      "reversibility": "two-way",
+      "expected_centroid": [
+        374.5,
+        524.5
+      ],
+      "components": {
+        "spades": {
+          "path": "sources/components/poker/v1/pips/spades/4.png",
+          "anchor": [
+            91.5,
+            123.5
+          ],
+          "size": [
+            184,
+            248
+          ],
+          "sha256": "438f70d63cca1ac2a821cf3282390f6340279f8e61bc1a6c044ebd981e76cacb"
+        },
+        "hearts": {
+          "path": "sources/components/poker/v1/pips/hearts/4.png",
+          "anchor": [
+            102.5,
+            108.5
+          ],
+          "size": [
+            206,
+            218
+          ],
+          "sha256": "5f2fa6308b43eef6ba1adc07ba82fdc3da77013c1211f006d5ad9901a679b0e2"
+        },
+        "diamonds": {
+          "path": "sources/components/poker/v1/pips/diamonds/4.png",
+          "anchor": [
+            89.5,
+            117.5
+          ],
+          "size": [
+            180,
+            236
+          ],
+          "sha256": "8e085ef1cfd86f7846d714b876b06912339c8e23ac3a0fecebb8b9baf13fc5f8"
+        },
+        "clubs": {
+          "path": "sources/components/poker/v1/pips/clubs/4.png",
+          "anchor": [
+            102.5,
+            111.5
+          ],
+          "size": [
+            206,
+            224
+          ],
+          "sha256": "1527a1913dd0a6d94e041295a6ea5d77bfd63a17f37dc73d5d3c48e338975792"
+        }
+      }
+    },
+    "5": {
+      "pips": [
+        {
+          "center": [
+            244.5,
+            294.5
+          ],
+          "rotation": 0,
+          "id": "pip-1",
+          "z": 0
+        },
+        {
+          "center": [
+            504.5,
+            294.5
+          ],
+          "rotation": 0,
+          "id": "pip-2",
+          "z": 1
+        },
+        {
+          "center": [
+            244.5,
+            754.5
+          ],
+          "rotation": 180,
+          "id": "pip-3",
+          "z": 2
+        },
+        {
+          "center": [
+            504.5,
+            754.5
+          ],
+          "rotation": 180,
+          "id": "pip-4",
+          "z": 3
+        },
+        {
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 0,
+          "id": "pip-5",
+          "z": 4
+        }
+      ],
+      "component_bounds": [
+        175,
+        205
+      ],
+      "reversibility": "one-way-center",
+      "expected_centroid": [
+        374.5,
+        524.5
+      ],
+      "components": {
+        "spades": {
+          "path": "sources/components/poker/v1/pips/spades/5.png",
+          "anchor": [
+            85.5,
+            115.5
+          ],
+          "size": [
+            172,
+            232
+          ],
+          "sha256": "940c9c32b90d74b5388ace2b9501235d43584e96e56ce4ee7707dcce897844f7"
+        },
+        "hearts": {
+          "path": "sources/components/poker/v1/pips/hearts/5.png",
+          "anchor": [
+            95.5,
+            100.5
+          ],
+          "size": [
+            192,
+            202
+          ],
+          "sha256": "1ffc3e91638eed66d8c04a267f4d85539cf44803fc8368197a2cbde7803e4d74"
+        },
+        "diamonds": {
+          "path": "sources/components/poker/v1/pips/diamonds/5.png",
+          "anchor": [
+            83.5,
+            110.5
+          ],
+          "size": [
+            168,
+            222
+          ],
+          "sha256": "3c7f25b936abe2f83dd3c5f92e3209459e0fef29c77841c7b2f90890f7196dbd"
+        },
+        "clubs": {
+          "path": "sources/components/poker/v1/pips/clubs/5.png",
+          "anchor": [
+            95.5,
+            103.5
+          ],
+          "size": [
+            192,
+            208
+          ],
+          "sha256": "d535cdf7a55c851a682cc876a63a478673a2e5c2d7fe2e7a68f6a9961bb1a1b8"
+        }
+      }
+    },
+    "6": {
+      "pips": [
+        {
+          "center": [
+            234.5,
+            284.5
+          ],
+          "rotation": 0,
+          "id": "pip-1",
+          "z": 0
+        },
+        {
+          "center": [
+            514.5,
+            284.5
+          ],
+          "rotation": 0,
+          "id": "pip-2",
+          "z": 1
+        },
+        {
+          "center": [
+            234.5,
+            764.5
+          ],
+          "rotation": 180,
+          "id": "pip-3",
+          "z": 2
+        },
+        {
+          "center": [
+            514.5,
+            764.5
+          ],
+          "rotation": 180,
+          "id": "pip-4",
+          "z": 3
+        },
+        {
+          "center": [
+            234.5,
+            524.5
+          ],
+          "rotation": 0,
+          "id": "pip-5",
+          "z": 4
+        },
+        {
+          "center": [
+            514.5,
+            524.5
+          ],
+          "rotation": 180,
+          "id": "pip-6",
+          "z": 5
+        }
+      ],
+      "component_bounds": [
+        160,
+        190
+      ],
+      "reversibility": "two-way",
+      "expected_centroid": [
+        374.5,
+        524.5
+      ],
+      "components": {
+        "spades": {
+          "path": "sources/components/poker/v1/pips/spades/6.png",
+          "anchor": [
+            80.5,
+            107.5
+          ],
+          "size": [
+            162,
+            216
+          ],
+          "sha256": "832073a341d79c4c2feb4344bac81b28a90f60123fea4499f6b9fa70eb488972"
+        },
+        "hearts": {
+          "path": "sources/components/poker/v1/pips/hearts/6.png",
+          "anchor": [
+            87.5,
+            92.5
+          ],
+          "size": [
+            176,
+            186
+          ],
+          "sha256": "8e8a8fd7f9b80d9a6f228376f0e7253921e7e5d3bd1e98b015f6932799cae273"
+        },
+        "diamonds": {
+          "path": "sources/components/poker/v1/pips/diamonds/6.png",
+          "anchor": [
+            78.5,
+            102.5
+          ],
+          "size": [
+            158,
+            206
+          ],
+          "sha256": "178fa254a305d6e00ec0d1aac7f0b8636d991dbf793be57053938e8e8f5b83aa"
+        },
+        "clubs": {
+          "path": "sources/components/poker/v1/pips/clubs/6.png",
+          "anchor": [
+            87.5,
+            95.5
+          ],
+          "size": [
+            176,
+            192
+          ],
+          "sha256": "77076ccd39eb7c6436cd2a88b974776e6922dd6d2296d64dd7f6788bcd2b8552"
+        }
+      }
+    },
+    "7": {
+      "pips": [
+        {
+          "center": [
+            234.5,
+            284.5
+          ],
+          "rotation": 0,
+          "id": "pip-1",
+          "z": 0
+        },
+        {
+          "center": [
+            514.5,
+            284.5
+          ],
+          "rotation": 0,
+          "id": "pip-2",
+          "z": 1
+        },
+        {
+          "center": [
+            234.5,
+            764.5
+          ],
+          "rotation": 180,
+          "id": "pip-3",
+          "z": 2
+        },
+        {
+          "center": [
+            514.5,
+            764.5
+          ],
+          "rotation": 180,
+          "id": "pip-4",
+          "z": 3
+        },
+        {
+          "center": [
+            234.5,
+            524.5
+          ],
+          "rotation": 0,
+          "id": "pip-5",
+          "z": 4
+        },
+        {
+          "center": [
+            514.5,
+            524.5
+          ],
+          "rotation": 0,
+          "id": "pip-6",
+          "z": 5
+        },
+        {
+          "center": [
+            374.5,
+            404.5
+          ],
+          "rotation": 0,
+          "id": "pip-7",
+          "z": 6
+        }
+      ],
+      "component_bounds": [
+        135,
+        160
+      ],
+      "reversibility": "one-way-offset",
+      "expected_centroid": [
+        374.5,
+        507.35714285714283
+      ],
+      "components": {
+        "spades": {
+          "path": "sources/components/poker/v1/pips/spades/7.png",
+          "anchor": [
+            68.5,
+            91.5
+          ],
+          "size": [
+            138,
+            184
+          ],
+          "sha256": "5c49c0886c48241e439f4ab2bd3f83e3dd51184bf737ea2a7c6e3339a3ed59eb"
+        },
+        "hearts": {
+          "path": "sources/components/poker/v1/pips/hearts/7.png",
+          "anchor": [
+            75.5,
+            79.5
+          ],
+          "size": [
+            152,
+            160
+          ],
+          "sha256": "febe207a39067398ab6a8c8ff26f4f3d06a6a0af918908fec7f474f10e804337"
+        },
+        "diamonds": {
+          "path": "sources/components/poker/v1/pips/diamonds/7.png",
+          "anchor": [
+            67.5,
+            87.5
+          ],
+          "size": [
+            136,
+            176
+          ],
+          "sha256": "48c16cd0a1a9ffac92ef395e1d38f2b27b6e610713686b68fa9d8fce72f85195"
+        },
+        "clubs": {
+          "path": "sources/components/poker/v1/pips/clubs/7.png",
+          "anchor": [
+            75.5,
+            81.5
+          ],
+          "size": [
+            152,
+            164
+          ],
+          "sha256": "f1cf6880b4a502df5ac2433e8c6098db74138d1a5d3362c6f0d7075d5b51636c"
+        }
+      }
+    },
+    "8": {
+      "pips": [
+        {
+          "center": [
+            234.5,
+            244.5
+          ],
+          "rotation": 0,
+          "id": "pip-1",
+          "z": 0
+        },
+        {
+          "center": [
+            514.5,
+            244.5
+          ],
+          "rotation": 0,
+          "id": "pip-2",
+          "z": 1
+        },
+        {
+          "center": [
+            234.5,
+            424.5
+          ],
+          "rotation": 0,
+          "id": "pip-3",
+          "z": 2
+        },
+        {
+          "center": [
+            514.5,
+            424.5
+          ],
+          "rotation": 0,
+          "id": "pip-4",
+          "z": 3
+        },
+        {
+          "center": [
+            234.5,
+            624.5
+          ],
+          "rotation": 180,
+          "id": "pip-5",
+          "z": 4
+        },
+        {
+          "center": [
+            514.5,
+            624.5
+          ],
+          "rotation": 180,
+          "id": "pip-6",
+          "z": 5
+        },
+        {
+          "center": [
+            234.5,
+            804.5
+          ],
+          "rotation": 180,
+          "id": "pip-7",
+          "z": 6
+        },
+        {
+          "center": [
+            514.5,
+            804.5
+          ],
+          "rotation": 180,
+          "id": "pip-8",
+          "z": 7
+        }
+      ],
+      "component_bounds": [
+        145,
+        175
+      ],
+      "reversibility": "two-way",
+      "expected_centroid": [
+        374.5,
+        524.5
+      ],
+      "components": {
+        "spades": {
+          "path": "sources/components/poker/v1/pips/spades/8.png",
+          "anchor": [
+            74.5,
+            99.5
+          ],
+          "size": [
+            150,
+            200
+          ],
+          "sha256": "1cac6c89ed76c352959643cf9bd3a1e6a4f6affcc6cf9d990ccda81ebd15876c"
+        },
+        "hearts": {
+          "path": "sources/components/poker/v1/pips/hearts/8.png",
+          "anchor": [
+            80.5,
+            84.5
+          ],
+          "size": [
+            162,
+            170
+          ],
+          "sha256": "3fdc503faee25bf8a8b8bb9e1d3b90d6f493c8cbf4476952290a8d0f0f0aab97"
+        },
+        "diamonds": {
+          "path": "sources/components/poker/v1/pips/diamonds/8.png",
+          "anchor": [
+            72.5,
+            95.5
+          ],
+          "size": [
+            146,
+            192
+          ],
+          "sha256": "3c4acb65936d680949632beb7f5bc788139159f17fa436a8c8a3057614202d3e"
+        },
+        "clubs": {
+          "path": "sources/components/poker/v1/pips/clubs/8.png",
+          "anchor": [
+            80.5,
+            87.5
+          ],
+          "size": [
+            162,
+            176
+          ],
+          "sha256": "d768c354fe93ec9dc1600734f7f659e039f2f93eb1bead86739d4e26c2f06fa0"
+        }
+      }
+    },
+    "9": {
+      "pips": [
+        {
+          "center": [
+            224.5,
+            284.5
+          ],
+          "rotation": 0,
+          "id": "pip-1",
+          "z": 0
+        },
+        {
+          "center": [
+            374.5,
+            284.5
+          ],
+          "rotation": 0,
+          "id": "pip-2",
+          "z": 1
+        },
+        {
+          "center": [
+            524.5,
+            284.5
+          ],
+          "rotation": 0,
+          "id": "pip-3",
+          "z": 2
+        },
+        {
+          "center": [
+            224.5,
+            764.5
+          ],
+          "rotation": 180,
+          "id": "pip-4",
+          "z": 3
+        },
+        {
+          "center": [
+            374.5,
+            764.5
+          ],
+          "rotation": 180,
+          "id": "pip-5",
+          "z": 4
+        },
+        {
+          "center": [
+            524.5,
+            764.5
+          ],
+          "rotation": 180,
+          "id": "pip-6",
+          "z": 5
+        },
+        {
+          "center": [
+            224.5,
+            524.5
+          ],
+          "rotation": 0,
+          "id": "pip-7",
+          "z": 6
+        },
+        {
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 0,
+          "id": "pip-8",
+          "z": 7
+        },
+        {
+          "center": [
+            524.5,
+            524.5
+          ],
+          "rotation": 180,
+          "id": "pip-9",
+          "z": 8
+        }
+      ],
+      "component_bounds": [
+        125,
+        175
+      ],
+      "reversibility": "one-way-center",
+      "expected_centroid": [
+        374.5,
+        524.5
+      ],
+      "components": {
+        "spades": {
+          "path": "sources/components/poker/v1/pips/spades/9.png",
+          "anchor": [
+            70.5,
+            93.5
+          ],
+          "size": [
+            142,
+            188
+          ],
+          "sha256": "3a53163ba33b8d9ac45174e76646bc150cbec234a69946d711fa2ef65392244b"
+        },
+        "hearts": {
+          "path": "sources/components/poker/v1/pips/hearts/9.png",
+          "anchor": [
+            70.5,
+            74.5
+          ],
+          "size": [
+            142,
+            150
+          ],
+          "sha256": "a88822752b0a276d4a4372db5c53216a27a282eccb1356dc9bdb4cb966ea3c8d"
+        },
+        "diamonds": {
+          "path": "sources/components/poker/v1/pips/diamonds/9.png",
+          "anchor": [
+            70.5,
+            91.5
+          ],
+          "size": [
+            142,
+            184
+          ],
+          "sha256": "c58c576c568d09732e8cc88387c35b500501efc027437fe010227dd0832ae7d2"
+        },
+        "clubs": {
+          "path": "sources/components/poker/v1/pips/clubs/9.png",
+          "anchor": [
+            70.5,
+            76.5
+          ],
+          "size": [
+            142,
+            154
+          ],
+          "sha256": "1c498e17e967b7e8124c20db190971667e16fb3259e1d57a87f9e9ff6ef61899"
+        }
+      }
+    },
+    "10": {
+      "pips": [
+        {
+          "center": [
+            234.5,
+            244.5
+          ],
+          "rotation": 0,
+          "id": "pip-1",
+          "z": 0
+        },
+        {
+          "center": [
+            514.5,
+            244.5
+          ],
+          "rotation": 0,
+          "id": "pip-2",
+          "z": 1
+        },
+        {
+          "center": [
+            234.5,
+            424.5
+          ],
+          "rotation": 0,
+          "id": "pip-3",
+          "z": 2
+        },
+        {
+          "center": [
+            514.5,
+            424.5
+          ],
+          "rotation": 0,
+          "id": "pip-4",
+          "z": 3
+        },
+        {
+          "center": [
+            234.5,
+            624.5
+          ],
+          "rotation": 180,
+          "id": "pip-5",
+          "z": 4
+        },
+        {
+          "center": [
+            514.5,
+            624.5
+          ],
+          "rotation": 180,
+          "id": "pip-6",
+          "z": 5
+        },
+        {
+          "center": [
+            234.5,
+            804.5
+          ],
+          "rotation": 180,
+          "id": "pip-7",
+          "z": 6
+        },
+        {
+          "center": [
+            514.5,
+            804.5
+          ],
+          "rotation": 180,
+          "id": "pip-8",
+          "z": 7
+        },
+        {
+          "center": [
+            374.5,
+            334.5
+          ],
+          "rotation": 0,
+          "id": "pip-9",
+          "z": 8
+        },
+        {
+          "center": [
+            374.5,
+            714.5
+          ],
+          "rotation": 180,
+          "id": "pip-10",
+          "z": 9
+        }
+      ],
+      "component_bounds": [
+        125,
+        155
+      ],
+      "reversibility": "two-way",
+      "expected_centroid": [
+        374.5,
+        524.5
+      ],
+      "components": {
+        "spades": {
+          "path": "sources/components/poker/v1/pips/spades/10.png",
+          "anchor": [
+            66.5,
+            88.5
+          ],
+          "size": [
+            134,
+            178
+          ],
+          "sha256": "2869d35a1c5759c333181f19afaf0be61e4556ba65e5218f7508f04de691ff1f"
+        },
+        "hearts": {
+          "path": "sources/components/poker/v1/pips/hearts/10.png",
+          "anchor": [
+            70.5,
+            74.5
+          ],
+          "size": [
+            142,
+            150
+          ],
+          "sha256": "a88822752b0a276d4a4372db5c53216a27a282eccb1356dc9bdb4cb966ea3c8d"
+        },
+        "diamonds": {
+          "path": "sources/components/poker/v1/pips/diamonds/10.png",
+          "anchor": [
+            65.5,
+            85.5
+          ],
+          "size": [
+            132,
+            172
+          ],
+          "sha256": "fd8151e54fc9fa4852a24d912997b4b219b035a362385a53ebded04e684b681f"
+        },
+        "clubs": {
+          "path": "sources/components/poker/v1/pips/clubs/10.png",
+          "anchor": [
+            70.5,
+            76.5
+          ],
+          "size": [
+            142,
+            154
+          ],
+          "sha256": "1c498e17e967b7e8124c20db190971667e16fb3259e1d57a87f9e9ff6ef61899"
+        }
+      }
+    }
+  },
+  "seven_policy": "Six side pips retain fixed rows. Offset seventh pip is intentional; its aggregate centroid is not the card anchor.",
+  "placement_tolerance_px": 0,
+  "jewel_measurement_tolerance_px": 1e-06
+}

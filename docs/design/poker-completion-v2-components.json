@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "center": [
+    374.5,
+    524.5
+  ],
+  "files": {
+    "sources/components/poker/v2/back-field-mask.png": "ce736f298caffe0462a3b537c48bf89124dcc2c31ff228115f5975485173f3a9",
+    "sources/components/poker/v2/back-frame.png": "c4ed5c437c059e8975642f17e4ca7e5b31ed8168408a78a27b4f45856f9a65a0",
+    "sources/components/poker/v2/joker-black-index.png": "ce3214b16ee5252219db33e510586167ae4361fd53071d453df884bf06d834b6",
+    "sources/components/poker/v2/joker-black-upright.png": "69c331f3a4cb178c4790687a1207d5eb3c8c235c98dfe745cf8ad891e940076d",
+    "sources/components/poker/v2/joker-center-rosette.png": "88f1575e1b129693c2c9974d98d935d0795e03b2a078a79cfcd90fc4dc712dea",
+    "sources/components/poker/v2/joker-red-index.png": "e548ecdff15cf9246a63ff39a41a6188f8bfea6fdfa55dd873b1f1f27343065c",
+    "sources/components/poker/v2/joker-red-upright.png": "a55b654181a5c355df08d872441b870028fd01a821d07ef8e644db18f2ea78b5"
+  },
+  "joker_upper_center": [
+    374.5,
+    302.5
+  ],
+  "joker_lower_center": [
+    374.5,
+    746.5
+  ]
+}
