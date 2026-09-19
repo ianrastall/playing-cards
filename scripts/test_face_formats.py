@@ -7,6 +7,15 @@ from frame_palette import color_frame, face_color
 
 
 class FaceFormatsTests(unittest.TestCase):
+    def test_tracery_is_two_way_without_doubling_ink(self):
+        for size in ((750,1050),(1050,1500),(525,750),(675,1050)):
+            with self.subTest(size=size):
+                pixels = np.array(faces.filigree(size))
+                np.testing.assert_array_equal(pixels,pixels[::-1,::-1])
+                self.assertGreater(int(pixels[:,:,3].max()),0)
+                # 26% is the approved ink strength, including where halves meet.
+                self.assertLessEqual(int(pixels[:,:,3].max()),66)
+
     def test_odd_width_centers_and_pairs(self):
         for size in ((675,1050),(525,750),(1050,1500)):
             a=faces.native_point((234.5,244.5),size)

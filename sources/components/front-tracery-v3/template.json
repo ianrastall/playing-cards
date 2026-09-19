@@ -1,0 +1,9 @@
+{
+  "description": "Gilded vine tracery: fine arabesque scrollwork and acanthus leaves in light antique printer's gold ink.",
+  "master": "ornament-master.png",
+  "opacity": 0.26,
+  "scale": 0.85,
+  "half_turn_blend_height": 0.08,
+  "edge_continuation": "mirror",
+  "approval": "Color and visibility approved on the fine-visible preview; ornament reduced a further 15 percent for finer granularity."
+}

@@ -13,7 +13,7 @@ import shutil
 from functools import lru_cache
 
 import numpy as np
-from PIL import Image, ImageDraw, ImageFilter
+from PIL import Image, ImageFilter
 
 import rebuild_deck as base
 import complete_poker as complete
@@ -26,6 +26,7 @@ REPORT = ROOT / 'docs/design/face-formats-v1-report.json'
 FORMATS = ('poker', 'jumbo', 'travel', 'bridge', 'european-standard')
 BACKUP = ROOT / 'sources/before-face-formats-v1'
 COURTS = ('jack', 'queen', 'king')
+TRACERY = ROOT / 'sources/components/front-tracery-v3'
 RANKS = (*base.load_manifest()['ranks'], *COURTS)
 
 
@@ -80,32 +81,30 @@ def pip_component(suit, rank, size):
 
 @lru_cache(maxsize=4)
 def filigree(size):
-    """Sparse code-native botanical hairlines, paired under a half-turn."""
+    """Approved gold acanthus texture, scaled and registered for two-way cards."""
+    spec = json.loads((TRACERY/'template.json').read_text(encoding='utf-8'))
     w, h = size
-    aa = 3
-    layer = Image.new('RGBA', (w*aa, h*aa))
-    draw = ImageDraw.Draw(layer)
-
-    def curve(points):
-        p = np.array(points, dtype=float)
-        t = np.linspace(0, 1, 100)[:, None]
-        xy = (1-t)**3*p[0]+3*(1-t)**2*t*p[1]+3*(1-t)*t*t*p[2]+t**3*p[3]
-        draw.line([(round(x*w*aa), round(y*h*aa)) for x, y in xy],
-                  fill=(170, 132, 60, 38), width=max(1, round(w/750*aa*.75)))
-
-    # Each stem and narrow leaf uses cubic curves in normalized coordinates.
-    for x, y, direction in ((.19, .28, 1), (.81, .15, -1), (.18, .58, 1)):
-        def pts(coords):
-            return [(x+direction*dx, y+dy) for dx, dy in coords]
-        curve(pts([(0, 0), (.09, -.09), (-.035, -.12), (.045, -.18)]))
-        curve(pts([(.027, -.048), (.11, -.07), (.09, -.12), (.045, -.105)]))
-        curve(pts([(.045, -.105), (.018, -.09), (.063, -.07), (.027, -.048)]))
-        curve(pts([(.027, -.095), (-.02, -.10), (-.034, -.14), (.003, -.148)]))
-        curve(pts([(.003, -.148), (.03, -.13), (-.007, -.119), (.027, -.095)]))
-        curve(pts([(.032, -.155), (.088, -.155), (.075, -.19), (.064, -.175)]))
-    layer = layer.resize(size, base.LANCZOS)
-    layer.alpha_composite(base.halfturn(layer))
-    return base.reciprocal(layer)
+    assert 0 < spec['scale'] <= 1 and 0 < spec['opacity'] <= 1
+    assert 0 < spec['half_turn_blend_height'] <= 1
+    master = Image.open(TRACERY/spec['master']).convert('RGBA')
+    scaled = tuple(round(n*spec['scale']) for n in size)
+    master = master.resize(scaled, base.LANCZOS)
+    dx, dy = w-scaled[0], h-scaled[1]
+    # Continue only the outer margins, retaining the approved source colors.
+    pixels = np.pad(np.array(master), ((dy//2,dy-dy//2),(dx//2,dx-dx//2),(0,0)),
+                    mode='symmetric').astype(np.float32)
+    # Blend a narrow center band in premultiplied alpha so the two halves
+    # meet without a hard seam or an increase in the gold's ink coverage.
+    y = (np.arange(h, dtype=np.float32)+.5)/h
+    weight = np.clip(.5+(.5-y)/spec['half_turn_blend_height'],0,1)
+    weight = (weight*weight*(3-2*weight))[:,None,None]
+    alpha = pixels[:,:,3:4]/255
+    ink = pixels[:,:,:3]*alpha
+    mixed_alpha = alpha*weight+alpha[::-1,::-1]*(1-weight)
+    mixed_ink = ink*weight+ink[::-1,::-1]*(1-weight)
+    rgb = np.divide(mixed_ink,mixed_alpha,out=np.zeros_like(ink),where=mixed_alpha>0)
+    result = np.concatenate((rgb,mixed_alpha*255*spec['opacity']),axis=2)
+    return base.reciprocal(Image.fromarray(np.rint(result).clip(0,255).astype(np.uint8)))
 
 
 @lru_cache(maxsize=16)
@@ -256,6 +255,7 @@ def european(bridge):
 def provenance():
     paths = [base.MANIFEST, ROOT/'scripts/expand_faces.py',ROOT/'scripts/rebuild_deck.py',
              ROOT/'scripts/complete_poker.py', ROOT/'scripts/frame_palette.py', ROOT/'scripts/recolor_card_backs.py']
+    paths += [TRACERY/'template.json', TRACERY/'ornament-master.png']
     paths += list(base.COMP.rglob('*.png'))+list(complete.COMP.rglob('*.png'))
     paths += [base.GENERATED/f'{suit}-master.png' for suit in base.SUITS]
     paths += [base.BACKUP/f'cards/faces/french-suited/poker/{suit}/{rank}.png'

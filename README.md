@@ -14,6 +14,8 @@ so the rounded silhouette travels with the image. Face frames follow suit color:
 Lamp Black for spades/clubs and the black Joker, Madder Lake for hearts/diamonds
 and the red Joker. Back frames follow their named palette. Aces, numbers, and
 Jokers include faint gold botanical tracery with clear halos around their artwork.
+The [gilded vine front template](docs/design/front-tracery-v3.md) uses fine
+arabesque scrollwork and acanthus leaves in light antique-gold ink.
 
 The aces and numeral pips use four reusable illustrated suit masters. Positions,
 sizes, orientations, and component hashes are defined in

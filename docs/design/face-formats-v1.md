@@ -32,12 +32,16 @@ chroma without moving the artwork; luminous gold, ivory, red flowers and
 chromatic green foliage are protected. These are digital pigment-inspired
 choices, not measured historical ink colors.
 
-Faint botanical hairlines are drawn as a reusable code-native layer in
-normalized coordinates. They appear on aces, number cards, and Jokers. The
-layer is paired under a half-turn, then masked away from the pip/portrait
-silhouettes to leave clear ivory halos. Dense court paintings are unchanged
-inside the frame. This replaces the flat numeral backgrounds of the v2
-rebuild; it does not claim to recover the exact older generated tracery.
+The [gilded vine tracery template](front-tracery-v3.md) supplies fine arabesque
+scrollwork and acanthus leaves in a light antique-gold printer's-ink treatment.
+It uses the approved generated ornament at 26% opacity, reduced a further 15%
+in scale for finer granularity. The saved source and template settings live in
+`sources/components/front-tracery-v3/` and are included in render provenance.
+
+The texture appears on aces, number cards, and Jokers. Its halves match under
+a half-turn, with a narrow blend through the center to avoid a hard seam or
+darkened overlap. Artwork silhouettes mask it to leave clear ivory halos.
+Dense court paintings are unchanged inside the frame.
 
 ## Reproduction and checks
 
