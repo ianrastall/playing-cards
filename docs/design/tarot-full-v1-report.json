@@ -1,0 +1,791 @@
+{
+  "version": 1,
+  "status": "promoted-and-validated",
+  "card_count": 78,
+  "layout_manifest": "docs/design/tarot-full-layout-v1.json",
+  "layout_sha256": "07276fe1743442910db326c985365f0cf7c88b5e2e020da77e47b74c11aec686",
+  "background_component": "sources/components/front-tracery-v3/ornament-master.png",
+  "background_sha256": "804e34c7208339443608a91e40f1b05b2a11ae04fd0cea9927d1e27c06b07794",
+  "cards": [
+    {
+      "id": "ace-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "ace",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/swords/ace.png",
+      "sha256": "27fe3e7dd6b4c0ad3f364255f9b0b3519cb6db7d4138408d72f35f48c3786600"
+    },
+    {
+      "id": "2-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "2",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/swords/2.png",
+      "sha256": "ca5d360e8524d8a5ab07eb2ce818c87165abdb2338a60e3bf51bf32222a062bc"
+    },
+    {
+      "id": "3-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "3",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/swords/3.png",
+      "sha256": "95e7ccf88b5488450decb305b24e30837f8a30520a489f530eadbb67ee2ac232"
+    },
+    {
+      "id": "4-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "4",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/swords/4.png",
+      "sha256": "c0d70b0d00a1533810cf1ce50e9543598737d75530768082e05de20c92838747"
+    },
+    {
+      "id": "5-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "5",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/swords/5.png",
+      "sha256": "b48856246d2689d95be98d2343f62ecb6c7c56f9aba8183f5f2b7ff7f53cc5a6"
+    },
+    {
+      "id": "6-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "6",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/swords/6.png",
+      "sha256": "16ba6e46e52d2b0607093af387668b3cbc1b867e567f00d90dac3fb3a43c824b"
+    },
+    {
+      "id": "7-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "7",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/swords/7.png",
+      "sha256": "5dd0a14d8c00c965e42095d77a0b88316215372a1411c4862d7db53188195518"
+    },
+    {
+      "id": "8-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "8",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/swords/8.png",
+      "sha256": "6dbafd9e6a31d8bd93ef08a316f3a3e5d98b3a6c1a3517d5ff24e4bf0450843e"
+    },
+    {
+      "id": "9-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "9",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/swords/9.png",
+      "sha256": "d2fdf829308151e5815401756ca0b0fe95199826198705e0c4e857cb68ecae45"
+    },
+    {
+      "id": "10-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "10",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/swords/10.png",
+      "sha256": "e777fe745ef3fc779dbd05eac414d3c0afa6d6f11134e9da444ef97485589de1"
+    },
+    {
+      "id": "page-of-swords",
+      "kind": "court",
+      "suit": "swords",
+      "rank": "page",
+      "number": null,
+      "title": "PAGE OF SWORDS",
+      "path": "cards/faces/tarot/tarot/swords/page.png",
+      "sha256": "cfa702d313e02547bb0b379c47a8a801d41460e04e42a1c15b8f7eb5f3846f53"
+    },
+    {
+      "id": "knight-of-swords",
+      "kind": "court",
+      "suit": "swords",
+      "rank": "knight",
+      "number": null,
+      "title": "KNIGHT OF SWORDS",
+      "path": "cards/faces/tarot/tarot/swords/knight.png",
+      "sha256": "eeca573ced5a7f6d1aaca53742daac80004cdcef15535365d86b619e376da72f"
+    },
+    {
+      "id": "queen-of-swords",
+      "kind": "court",
+      "suit": "swords",
+      "rank": "queen",
+      "number": null,
+      "title": "QUEEN OF SWORDS",
+      "path": "cards/faces/tarot/tarot/swords/queen.png",
+      "sha256": "43be7dc4f39ca620d81a74314251250871d486bbc0664c95f896527db38c3e60"
+    },
+    {
+      "id": "king-of-swords",
+      "kind": "court",
+      "suit": "swords",
+      "rank": "king",
+      "number": null,
+      "title": "KING OF SWORDS",
+      "path": "cards/faces/tarot/tarot/swords/king.png",
+      "sha256": "f4b2ed17dc1d6d27ddf089016f6e51f89ab5a6ca16c651082fc75ee09178c6ce"
+    },
+    {
+      "id": "ace-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "ace",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/batons/ace.png",
+      "sha256": "d2ae1bb4307977bf917bc90f8238999dab77252142adf678cca82b016485b2b0"
+    },
+    {
+      "id": "2-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "2",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/batons/2.png",
+      "sha256": "810a4ec9cf5f9ac99da73381638abc1fcffbcb4c24b13fc67791be0691c50d85"
+    },
+    {
+      "id": "3-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "3",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/batons/3.png",
+      "sha256": "bee483e79337f417856b558ac1ff8131091f836e7347996ba16c7b3359fb10c1"
+    },
+    {
+      "id": "4-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "4",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/batons/4.png",
+      "sha256": "d6b9cc34b8f1e4cc1f25df2f71339ec6e519c44bb4289df33bfc0f43d842f7d5"
+    },
+    {
+      "id": "5-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "5",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/batons/5.png",
+      "sha256": "313bb419287a485619f56c7469bd428b6189183ecb1c65cf58db74400ee5c1ea"
+    },
+    {
+      "id": "6-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "6",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/batons/6.png",
+      "sha256": "45d1e47c46b23b86856de62360801d0997aaa13adee06185c03666171c450904"
+    },
+    {
+      "id": "7-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "7",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/batons/7.png",
+      "sha256": "cb597fc23f8db6f764a50d471cecf82cc908615d2c9f776f9185a997b6de2a3b"
+    },
+    {
+      "id": "8-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "8",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/batons/8.png",
+      "sha256": "38cdf53c419940521ec42e91240cbc976e28d5fb8180fd08ba655ded260e5879"
+    },
+    {
+      "id": "9-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "9",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/batons/9.png",
+      "sha256": "e6fc935349819c7578d2f613213f68784686c5068402dee84ba2098d7b6d2b20"
+    },
+    {
+      "id": "10-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "10",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/batons/10.png",
+      "sha256": "0e55adb847c4f3a6d1785dbb0afeb01a49e8e7b7ac9324b14d4f2aca5c6c5e64"
+    },
+    {
+      "id": "page-of-batons",
+      "kind": "court",
+      "suit": "batons",
+      "rank": "page",
+      "number": null,
+      "title": "PAGE OF BATONS",
+      "path": "cards/faces/tarot/tarot/batons/page.png",
+      "sha256": "6252a6a2804003c49c56bde664182931273a48d4c03344ec3a87eb52b741f3cd"
+    },
+    {
+      "id": "knight-of-batons",
+      "kind": "court",
+      "suit": "batons",
+      "rank": "knight",
+      "number": null,
+      "title": "KNIGHT OF BATONS",
+      "path": "cards/faces/tarot/tarot/batons/knight.png",
+      "sha256": "1e6c9a4f429e504a7e1275005e40d57a0bd4a1d96bdfa3e55dc7ef4fabfb367b"
+    },
+    {
+      "id": "queen-of-batons",
+      "kind": "court",
+      "suit": "batons",
+      "rank": "queen",
+      "number": null,
+      "title": "QUEEN OF BATONS",
+      "path": "cards/faces/tarot/tarot/batons/queen.png",
+      "sha256": "b494627e02dcf4ce4469aba04bd4d9956cf7ec9393a3a4042aac3bceac83e378"
+    },
+    {
+      "id": "king-of-batons",
+      "kind": "court",
+      "suit": "batons",
+      "rank": "king",
+      "number": null,
+      "title": "KING OF BATONS",
+      "path": "cards/faces/tarot/tarot/batons/king.png",
+      "sha256": "dd0cee3503f0e023a433534a675b6babd5438f8335cab9e12ed19e491d82a294"
+    },
+    {
+      "id": "ace-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "ace",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/cups/ace.png",
+      "sha256": "a55226af74e421edc4c4f459656677fa9d30a6463fe5f9ebe43a434c5fc1ff24"
+    },
+    {
+      "id": "2-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "2",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/cups/2.png",
+      "sha256": "a72c8dd71d7ba90483a4fc03df69773c45ed087de3bf057217e1b5a3db49a46e"
+    },
+    {
+      "id": "3-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "3",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/cups/3.png",
+      "sha256": "a1711065b5199b8bd35bfcbd54c514476c792360e6aeee7bc0c19ab234a62755"
+    },
+    {
+      "id": "4-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "4",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/cups/4.png",
+      "sha256": "6e776bfdad0c901ec3aaccf94eb9ee0791427e11a8e35a71e31a4cc2427b4597"
+    },
+    {
+      "id": "5-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "5",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/cups/5.png",
+      "sha256": "09f0e1d67bef4cb5826f49837a92e34018271bfbf92626ac52ee0388ca2790d0"
+    },
+    {
+      "id": "6-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "6",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/cups/6.png",
+      "sha256": "9a110be88dfc2b6569de55c2429ca4091656a2c4915c0be7dbc079c32a5f05aa"
+    },
+    {
+      "id": "7-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "7",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/cups/7.png",
+      "sha256": "fbb5b207eb025183c90db16629669f781c3cc342db06336ed9329336f6bac554"
+    },
+    {
+      "id": "8-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "8",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/cups/8.png",
+      "sha256": "ce12047b2e7a4f76546b03d11d12b89d45a8248c5fbdc22d6173f9cc0df1bd4d"
+    },
+    {
+      "id": "9-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "9",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/cups/9.png",
+      "sha256": "b23575b9033f9db879a82fe1c27e12637905a651d6bb6c0681e3ffe6652bcc23"
+    },
+    {
+      "id": "10-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "10",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/cups/10.png",
+      "sha256": "450355c7e926b3e1c37e448862a0c7015f531669cfc1270d5903213ce9f0b61b"
+    },
+    {
+      "id": "page-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "page",
+      "number": null,
+      "title": "PAGE OF CUPS",
+      "path": "cards/faces/tarot/tarot/cups/page.png",
+      "sha256": "09289409570374fb6f45b1646cca26c6aa60646ab5cc23365fafc722b4b0fe62"
+    },
+    {
+      "id": "knight-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "knight",
+      "number": null,
+      "title": "KNIGHT OF CUPS",
+      "path": "cards/faces/tarot/tarot/cups/knight.png",
+      "sha256": "22671d415966d38b26a71e39989de46394b47bc52d6e3751f2ab45b6c6d645c3"
+    },
+    {
+      "id": "queen-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "queen",
+      "number": null,
+      "title": "QUEEN OF CUPS",
+      "path": "cards/faces/tarot/tarot/cups/queen.png",
+      "sha256": "c3e92ea9c6857ebc385eedcf8c057c3e3f7a81737c67eef6a03a0edfd78781c9"
+    },
+    {
+      "id": "king-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "king",
+      "number": null,
+      "title": "KING OF CUPS",
+      "path": "cards/faces/tarot/tarot/cups/king.png",
+      "sha256": "b6b002cb8c3a8c29bafa39e85999edea5f4b01dd4f5440277751aaf22d1cd76f"
+    },
+    {
+      "id": "ace-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "ace",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/coins/ace.png",
+      "sha256": "fc5ee55feed9e5bebbd443ef2c9ab75dfdd657c5e4656ec6009e583671c66e86"
+    },
+    {
+      "id": "2-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "2",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/coins/2.png",
+      "sha256": "281d8dc955a5d544451a32c8cf7794e232ec9db6715300f95ceb40b1c3888747"
+    },
+    {
+      "id": "3-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "3",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/coins/3.png",
+      "sha256": "7bc44bdef4401658eebdf7fc5f95cd78af96c3b3a7dbfcd81102aa458d9f51de"
+    },
+    {
+      "id": "4-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "4",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/coins/4.png",
+      "sha256": "dbd8a460aef62972960e0d50b1b4f14f1ea9ec1513f69a991c58d8a56a5b73b0"
+    },
+    {
+      "id": "5-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "5",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/coins/5.png",
+      "sha256": "478e6ae7837e62516e994277cb84f0ee1cf847bfa17dfc0f26b1d7912f0b4d4e"
+    },
+    {
+      "id": "6-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "6",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/coins/6.png",
+      "sha256": "f63e4a3a75bd0e1bc8a6661321e2cea5b71bf42cf9b9085148c0aa773699a583"
+    },
+    {
+      "id": "7-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "7",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/coins/7.png",
+      "sha256": "073ef3fdf8e64208913f825c015fefbb4bddb27e33f62ad1c43bcaa38ae1feca"
+    },
+    {
+      "id": "8-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "8",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/coins/8.png",
+      "sha256": "0038df93c6e3c671ce5e63468ed2aa07049967822363d7d22bb1296c66d610a6"
+    },
+    {
+      "id": "9-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "9",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/coins/9.png",
+      "sha256": "b8961136573628af0b8c668a30637f4ae4f83f183f4b7c6516ff6c7aa8fa809f"
+    },
+    {
+      "id": "10-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "10",
+      "number": null,
+      "title": null,
+      "path": "cards/faces/tarot/tarot/coins/10.png",
+      "sha256": "8af5f9017e9e20c6e0f25fb3f5f60b80f15bd7baac354af49aa0895be0fda507"
+    },
+    {
+      "id": "page-of-coins",
+      "kind": "court",
+      "suit": "coins",
+      "rank": "page",
+      "number": null,
+      "title": "PAGE OF COINS",
+      "path": "cards/faces/tarot/tarot/coins/page.png",
+      "sha256": "d4340e313026f68fa74096b2930917e5e015cfed83197f2b54faca12d8b7c762"
+    },
+    {
+      "id": "knight-of-coins",
+      "kind": "court",
+      "suit": "coins",
+      "rank": "knight",
+      "number": null,
+      "title": "KNIGHT OF COINS",
+      "path": "cards/faces/tarot/tarot/coins/knight.png",
+      "sha256": "a8f71694c19d725c3cd2e5ab78c742a9b0040e266bf068e38194b87cef6ecc77"
+    },
+    {
+      "id": "queen-of-coins",
+      "kind": "court",
+      "suit": "coins",
+      "rank": "queen",
+      "number": null,
+      "title": "QUEEN OF COINS",
+      "path": "cards/faces/tarot/tarot/coins/queen.png",
+      "sha256": "605b0ca32293496793c180757423adca3ee50c016fc5a26de7d76466fa731180"
+    },
+    {
+      "id": "king-of-coins",
+      "kind": "court",
+      "suit": "coins",
+      "rank": "king",
+      "number": null,
+      "title": "KING OF COINS",
+      "path": "cards/faces/tarot/tarot/coins/king.png",
+      "sha256": "f2c6a01ad817f2d6746799dd15c64ddc63f79f2c059b3d0dd6995130f434e9eb"
+    },
+    {
+      "id": "the-fool",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 0,
+      "title": "THE FOOL",
+      "path": "cards/faces/tarot/tarot/trumps/00-the-fool.png",
+      "sha256": "aea061bc3d669ae083a8c5d4138b8df569ab4f7d4b204bb63cee74bb8e081d56"
+    },
+    {
+      "id": "the-magician",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 1,
+      "title": "THE MAGICIAN",
+      "path": "cards/faces/tarot/tarot/trumps/01-the-magician.png",
+      "sha256": "ad31fee189914dc0789dbfc726830fa2974395d3914d618322c9e1e51303fbd5"
+    },
+    {
+      "id": "the-high-priestess",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 2,
+      "title": "THE HIGH PRIESTESS",
+      "path": "cards/faces/tarot/tarot/trumps/02-the-high-priestess.png",
+      "sha256": "e403433821f402be9e7c3b72f64d0a0e0e3db3306c7be5be303d804b2fd618aa"
+    },
+    {
+      "id": "the-empress",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 3,
+      "title": "THE EMPRESS",
+      "path": "cards/faces/tarot/tarot/trumps/03-the-empress.png",
+      "sha256": "466e0879a0dccde74a07473a544ef612c1a952cd2168c84bd5950cb581ced76c"
+    },
+    {
+      "id": "the-emperor",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 4,
+      "title": "THE EMPEROR",
+      "path": "cards/faces/tarot/tarot/trumps/04-the-emperor.png",
+      "sha256": "8b837e63a98a92ebc6e59a84a441ef315d7726b7f670f71cf7a5b441040d984c"
+    },
+    {
+      "id": "the-hierophant",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 5,
+      "title": "THE HIEROPHANT",
+      "path": "cards/faces/tarot/tarot/trumps/05-the-hierophant.png",
+      "sha256": "d22092b2d8a06ba8e4491c487f8d4796f38af6722df194c85260dd35573001c4"
+    },
+    {
+      "id": "the-lovers",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 6,
+      "title": "THE LOVERS",
+      "path": "cards/faces/tarot/tarot/trumps/06-the-lovers.png",
+      "sha256": "ca585402342dbbedaeba0a9d4b4f4d20a1b8819e0f32a3cf2b2913e09d56c8df"
+    },
+    {
+      "id": "the-chariot",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 7,
+      "title": "THE CHARIOT",
+      "path": "cards/faces/tarot/tarot/trumps/07-the-chariot.png",
+      "sha256": "dc19cc8bdec18458ab18188ed606e8c5bef3e0e5eb5e675ac70e2cdad53cb46e"
+    },
+    {
+      "id": "strength",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 8,
+      "title": "STRENGTH",
+      "path": "cards/faces/tarot/tarot/trumps/08-strength.png",
+      "sha256": "dd49a6493287c0c287a71d3c3ad0858649ccdefdd29c69948159dd87c8a9464c"
+    },
+    {
+      "id": "the-hermit",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 9,
+      "title": "THE HERMIT",
+      "path": "cards/faces/tarot/tarot/trumps/09-the-hermit.png",
+      "sha256": "d6bd7d2991ff06e7ea59bec885b170d4ccc6512db04ae5c2553a9565c4cddd02"
+    },
+    {
+      "id": "wheel-of-fortune",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 10,
+      "title": "WHEEL OF FORTUNE",
+      "path": "cards/faces/tarot/tarot/trumps/10-wheel-of-fortune.png",
+      "sha256": "a7f87e3b1f5304091302d56c70ff3eae4c0f22fe683e43e87d0258dd18677d45"
+    },
+    {
+      "id": "justice",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 11,
+      "title": "JUSTICE",
+      "path": "cards/faces/tarot/tarot/trumps/11-justice.png",
+      "sha256": "085206e930744b39b3ca2ecbe072e3638bff27a0f1259288b022a88d55c97617"
+    },
+    {
+      "id": "the-hanged-man",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 12,
+      "title": "THE HANGED MAN",
+      "path": "cards/faces/tarot/tarot/trumps/12-the-hanged-man.png",
+      "sha256": "41cd48a7a80a4a3c9e53782a0eca2b14227e4811b0b88fcbdc4e679246f935a6"
+    },
+    {
+      "id": "death",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 13,
+      "title": "DEATH",
+      "path": "cards/faces/tarot/tarot/trumps/13-death.png",
+      "sha256": "a4d933d0f14d70b98b6697f4028fb0c4453440969484c0634a938fdc0daa6583"
+    },
+    {
+      "id": "temperance",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 14,
+      "title": "TEMPERANCE",
+      "path": "cards/faces/tarot/tarot/trumps/14-temperance.png",
+      "sha256": "88cba9234a35094e40e45962966ccdbf823c0b4b3d4a0c3fe506fa37472b3515"
+    },
+    {
+      "id": "the-devil",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 15,
+      "title": "THE DEVIL",
+      "path": "cards/faces/tarot/tarot/trumps/15-the-devil.png",
+      "sha256": "4dad4f0f4751f55b99762f5aef023b90a1db143023de75004794eb7407643b18"
+    },
+    {
+      "id": "the-tower",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 16,
+      "title": "THE TOWER",
+      "path": "cards/faces/tarot/tarot/trumps/16-the-tower.png",
+      "sha256": "636ffc5b81f6d02901937efca049dd9321b5c543d508d98e56396d22504fffe7"
+    },
+    {
+      "id": "the-star",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 17,
+      "title": "THE STAR",
+      "path": "cards/faces/tarot/tarot/trumps/17-the-star.png",
+      "sha256": "7f91868cf11b4ccda289724f4041ce45423c9125e7c1172d730a8f03405f9759"
+    },
+    {
+      "id": "the-moon",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 18,
+      "title": "THE MOON",
+      "path": "cards/faces/tarot/tarot/trumps/18-the-moon.png",
+      "sha256": "5a2dcda6d7942d54423e7b1565a22cc182aeb85bad9a3930884ff91e6857115c"
+    },
+    {
+      "id": "the-sun",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 19,
+      "title": "THE SUN",
+      "path": "cards/faces/tarot/tarot/trumps/19-the-sun.png",
+      "sha256": "b93112accfeb59289972cd55b0d2a8f809e725ffa3bfe7e6963141dc5133f80e"
+    },
+    {
+      "id": "judgement",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 20,
+      "title": "JUDGEMENT",
+      "path": "cards/faces/tarot/tarot/trumps/20-judgement.png",
+      "sha256": "c29e84fc20ce95e577a9243f7eae1873b25bdc24169f9d7d5091efbeb50c0dc4"
+    },
+    {
+      "id": "the-world",
+      "kind": "trump",
+      "suit": null,
+      "rank": null,
+      "number": 21,
+      "title": "THE WORLD",
+      "path": "cards/faces/tarot/tarot/trumps/21-the-world.png",
+      "sha256": "32745b8fa0546c1a638e71215bd0ee67e498cd59afded9721d122df981daa900"
+    }
+  ]
+}

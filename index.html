@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Playing Cards — Design 1 Gallery</title>
-  <meta name="description" content="Browse Design 1: 270 French-suited faces in five formats and 30 card backs, with suit-aware frames and delicate gold tracery.">
+  <meta name="description" content="Browse Design 1 v1.1: 348 French-suited and Tarot faces across six formats, plus 30 card backs, with suit-aware frames and delicate gold tracery.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -265,7 +265,7 @@
   <!-- Header -->
   <header class="site-header">
     <h1>Playing Cards — Design 1</h1>
-    <p>Design 1: 270 faces across five formats, plus 30 backs in five pigment-inspired colors. Suit-aware frames and delicate gold tracery. Click any card to view full-size.</p>
+    <p>Design 1 v1.1: 348 faces across six formats, plus 30 backs in five pigment-inspired colors. French-suited and Tarot decks share suit-aware frames and delicate gold tracery. Click any card to view full-size.</p>
     <a class="repo-link" href="https://github.com/ianrastall/playing-cards" target="_blank" rel="noopener">
       <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
       View on GitHub
@@ -317,7 +317,10 @@
       document.addEventListener('keydown', e => { if (e.key === 'Escape' && lightbox.classList.contains('active')) closeLightbox(); });
 
       /* ── Helpers ───────────────────────────────────────── */
-      const suitSymbols = { clubs: '♣', diamonds: '♦', hearts: '♥', spades: '♠' };
+      const suitSymbols = {
+        clubs: '♣', diamonds: '♦', hearts: '♥', spades: '♠',
+        swords: '⚔', batons: '❧', cups: '♜', coins: '◉', trumps: '☆'
+      };
 
       /** Title-case a slug like "european-standard" → "European Standard" */
       function titleCase(s) {
@@ -339,11 +342,12 @@
       /* ── Rank sort order (for natural card ordering) ──── */
       const RANK_ORDER = [
         'ace','2','3','4','5','6','7','8','9','10',
-        'jack','queen','king','joker'
+        'page','knight','jack','queen','king','joker'
       ];
       function rankIndex(r) {
         const i = RANK_ORDER.indexOf(r);
-        return i === -1 ? 999 : i;
+        if (i !== -1) return i;
+        return /^\d+$/.test(r) ? Number(r) : 999;
       }
 
       /* ── Load catalog and render ───────────────────────── */
@@ -420,7 +424,7 @@
             const key = `${a.system}|${a.format}`;
             if (!faceSystems.has(key)) faceSystems.set(key, new Map());
             const suitMap = faceSystems.get(key);
-            const group = a.rank === 'joker' ? 'jokers' : a.suit;
+            const group = a.arcana === 'major' ? 'trumps' : (a.rank === 'joker' ? 'jokers' : a.suit);
             if (!suitMap.has(group)) suitMap.set(group, []);
             suitMap.get(group).push(a);
           });
@@ -436,10 +440,12 @@
             section.className = 'gallery-section';
             section.innerHTML =
               `<h2 class="section-title">Card Faces — ${titleCase(system)} ${titleCase(format)}</h2>` +
-              `<p class="section-subtitle">${suits.filter(s => s !== 'jokers').length} suits plus ${suitMap.get('jokers')?.length || 0} Jokers — ${totalFaces} images${pxLabel}</p>`;
+              `<p class="section-subtitle">${system === 'tarot'
+                ? `${suits.filter(s => s !== 'trumps').length} suits plus ${suitMap.get('trumps')?.length || 0} trumps`
+                : `${suits.filter(s => s !== 'jokers').length} suits plus ${suitMap.get('jokers')?.length || 0} Jokers`} — ${totalFaces} images${pxLabel}</p>`;
 
             suits.forEach(suit => {
-              const id = `faces-${suit}`;
+              const id = `faces-${system}-${format}-${suit}`;
               const symbol = suitSymbols[suit] || '';
 
               // Nav pill
@@ -460,11 +466,13 @@
               grid.className = 'card-grid';
               const items = suitMap.get(suit).sort((a, b) => rankIndex(a.rank) - rankIndex(b.rank));
               items.forEach(a => {
-                const rankLabel = a.rank === 'joker' ? `${titleCase(a.color_variant)} Joker` : titleCase(a.rank);
+                const rankLabel = a.arcana === 'major' ? `${a.number}. ${titleCase(a.slug)}`
+                  : (a.rank === 'joker' ? `${titleCase(a.color_variant)} Joker` : titleCase(a.rank));
                 grid.appendChild(makeCardItem(
                   a.path,
                   `${titleCase(suit)} — ${rankLabel}`,
-                  a.rank === 'joker' ? `jokers/${a.color_variant}.png` : `${suit}/${a.rank}.png`
+                  a.arcana === 'major' ? `trumps/${String(a.number).padStart(2,'0')}-${a.slug}.png`
+                    : (a.rank === 'joker' ? `jokers/${a.color_variant}.png` : `${suit}/${a.rank}.png`)
                 ));
               });
               section.appendChild(grid);

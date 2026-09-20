@@ -1,0 +1,1081 @@
+{
+  "version": 1,
+  "status": "78 faces staged and validated; awaiting visual review before catalog promotion",
+  "asset_manifest": "docs/design/tarot-full-assets-v1.json",
+  "layout_manifest": "docs/design/tarot-full-layout-v1.json",
+  "render_report": "work/tarot-full-v1/report.json",
+  "canvas": [
+    825,
+    1425
+  ],
+  "dpi": 300,
+  "corner_radius_mm": 3.5,
+  "index_policy": "paired by half-turn independently of upright artwork",
+  "numbering": "Working custom sequence: Fool 0; Strength 8; Justice 11",
+  "reused_components": {
+    "sword-straight": {
+      "path": "sources/components/tarot/review-v1/sword-straight.png",
+      "sha256": "85eecf90fbbb79b482ab293bbcbb5c0fa2b57102e1fd76cc7b4673ef04463235",
+      "source": "sources/generated/tarot-review-v1/sword-straight.png",
+      "source_sha256": "b26eabd66de9465060067bf08f79fc2a3fd83689216d127b880d60315356669a",
+      "crop": [
+        297,
+        12,
+        727,
+        1524
+      ],
+      "size": [
+        430,
+        1512
+      ],
+      "anchor": [
+        214.5,
+        755.5
+      ]
+    },
+    "sword-curved": {
+      "path": "sources/components/tarot/review-v1/sword-curved.png",
+      "sha256": "da219e13177f9cc520a9cb3727bb17ae365a0f13cdf57220bda335c8f4587637",
+      "source": "sources/generated/tarot-review-v1/sword-curved.png",
+      "source_sha256": "7822bd30df2b54d05539f3dedbad052e4752decd96dabb0a0dfdb85d58deffa0",
+      "crop": [
+        436,
+        11,
+        759,
+        1524
+      ],
+      "size": [
+        323,
+        1513
+      ],
+      "anchor": [
+        161.0,
+        756.0
+      ]
+    },
+    "ace-crown": {
+      "path": "sources/components/tarot/review-v1/ace-crown.png",
+      "sha256": "704290237a1a181c255d8279924c2ce737d328e0b069b08dd66d1e7a604590f2",
+      "source": "sources/generated/tarot-review-v1/ace-crown.png",
+      "source_sha256": "50098902358ddc9498a841f3711b923dd8adb262ed85e73bee952d368c4071b7",
+      "crop": [
+        33,
+        124,
+        1503,
+        883
+      ],
+      "size": [
+        1470,
+        759
+      ],
+      "anchor": [
+        734.5,
+        379.0
+      ]
+    },
+    "foliage": {
+      "path": "sources/components/tarot/review-v1/foliage.png",
+      "sha256": "400f181dfcf84b7f075bf4b89151c3d336d3e90cbc8da32b31a7fe318f47d92a",
+      "source": "sources/generated/tarot-review-v1/foliage.png",
+      "source_sha256": "de37a7793fc159fb0afa3df0720e30b228fa8a892d06f9581a3259cfbd9152ee",
+      "crop": [
+        288,
+        19,
+        733,
+        1524
+      ],
+      "size": [
+        445,
+        1505
+      ],
+      "anchor": [
+        222.0,
+        752.0
+      ]
+    },
+    "empress": {
+      "path": "sources/components/tarot/review-v1/empress.png",
+      "sha256": "33686dbce743ee48c81b0d312d2244d1f6593f22079c31539226333c0c336d13",
+      "source": "sources/generated/tarot-review-v1/empress.png",
+      "source_sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86",
+      "crop": [
+        8,
+        8,
+        1016,
+        1527
+      ],
+      "size": [
+        1008,
+        1519
+      ],
+      "anchor": [
+        503.5,
+        759.0
+      ]
+    },
+    "queen-cups": {
+      "path": "sources/components/tarot/review-v1/queen-cups.png",
+      "sha256": "290aafc3e85baa97973dba00de2a3d11e4a96b8234adfac6ef954b5f305809cc",
+      "source": "sources/generated/tarot-review-v1/queen-cups.png",
+      "source_sha256": "1453bd8b341957ee95421c5fbc9d7b582e2334d4476757c9caadd9593dc2d2e3",
+      "crop": [
+        13,
+        0,
+        1009,
+        1534
+      ],
+      "size": [
+        996,
+        1534
+      ],
+      "anchor": [
+        497.5,
+        766.5
+      ]
+    },
+    "swords-index": {
+      "path": "sources/components/tarot/review-v1/swords-index-mask.png",
+      "sha256": "12defc657ea01e24d11f73c59f1cdd156d71eefa25974b0323d25c0418b16485",
+      "size": [
+        160,
+        160
+      ],
+      "anchor": [
+        79.5,
+        79.5
+      ],
+      "source": "code-native glyph in scripts/tarot_review.py"
+    },
+    "cups-index": {
+      "path": "sources/components/tarot/review-v1/cups-index-mask.png",
+      "sha256": "5e95138b1343758f46785a862331604b85e62c35310e6f2a3e5010a4f25998af",
+      "size": [
+        160,
+        160
+      ],
+      "anchor": [
+        79.5,
+        79.5
+      ],
+      "source": "code-native glyph in scripts/tarot_review.py"
+    },
+    "trumps-index": {
+      "path": "sources/components/tarot/review-v1/trumps-index-mask.png",
+      "sha256": "457b9cea1e63ca27341012b53fddc47cd83dfcecd2f576f3294f22f94312eb65",
+      "size": [
+        160,
+        160
+      ],
+      "anchor": [
+        79.5,
+        79.5
+      ],
+      "source": "code-native glyph in scripts/tarot_review.py"
+    }
+  },
+  "new_illustration_ids": [
+    "batons-master",
+    "cups-master",
+    "coins-master",
+    "page-of-swords",
+    "knight-of-swords",
+    "queen-of-swords",
+    "king-of-swords",
+    "page-of-batons",
+    "knight-of-batons",
+    "queen-of-batons",
+    "king-of-batons",
+    "page-of-cups",
+    "knight-of-cups",
+    "king-of-cups",
+    "page-of-coins",
+    "knight-of-coins",
+    "queen-of-coins",
+    "king-of-coins",
+    "the-fool",
+    "the-magician",
+    "the-high-priestess",
+    "the-emperor",
+    "the-hierophant",
+    "the-lovers",
+    "the-chariot",
+    "strength",
+    "the-hermit",
+    "wheel-of-fortune",
+    "justice",
+    "the-hanged-man",
+    "death",
+    "temperance",
+    "the-devil",
+    "the-tower",
+    "the-star",
+    "the-moon",
+    "the-sun",
+    "judgement",
+    "the-world"
+  ],
+  "new_code_glyphs": [
+    "batons-index",
+    "coins-index"
+  ],
+  "cards": [
+    {
+      "id": "ace-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "ace",
+      "primary_asset": "sword-straight",
+      "index": "A",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "2-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "2",
+      "primary_asset": "sword-straight",
+      "index": "2",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "3-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "3",
+      "primary_asset": "sword-straight",
+      "index": "3",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "4-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "4",
+      "primary_asset": "sword-straight",
+      "index": "4",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "5-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "5",
+      "primary_asset": "sword-straight",
+      "index": "5",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "6-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "6",
+      "primary_asset": "sword-straight",
+      "index": "6",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "7-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "7",
+      "primary_asset": "sword-straight",
+      "index": "7",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "8-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "8",
+      "primary_asset": "sword-straight",
+      "index": "8",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "9-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "9",
+      "primary_asset": "sword-straight",
+      "index": "9",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "10-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "10",
+      "primary_asset": "sword-straight",
+      "index": "10",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "page-of-swords",
+      "kind": "court",
+      "suit": "swords",
+      "rank": "page",
+      "primary_asset": "page-of-swords",
+      "index": "P",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": "PAGE OF SWORDS"
+    },
+    {
+      "id": "knight-of-swords",
+      "kind": "court",
+      "suit": "swords",
+      "rank": "knight",
+      "primary_asset": "knight-of-swords",
+      "index": "N",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": "KNIGHT OF SWORDS"
+    },
+    {
+      "id": "queen-of-swords",
+      "kind": "court",
+      "suit": "swords",
+      "rank": "queen",
+      "primary_asset": "queen-of-swords",
+      "index": "Q",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": "QUEEN OF SWORDS"
+    },
+    {
+      "id": "king-of-swords",
+      "kind": "court",
+      "suit": "swords",
+      "rank": "king",
+      "primary_asset": "king-of-swords",
+      "index": "K",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": "KING OF SWORDS"
+    },
+    {
+      "id": "ace-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "ace",
+      "primary_asset": "batons-master",
+      "index": "A",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "2-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "2",
+      "primary_asset": "batons-master",
+      "index": "2",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "3-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "3",
+      "primary_asset": "batons-master",
+      "index": "3",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "4-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "4",
+      "primary_asset": "batons-master",
+      "index": "4",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "5-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "5",
+      "primary_asset": "batons-master",
+      "index": "5",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "6-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "6",
+      "primary_asset": "batons-master",
+      "index": "6",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "7-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "7",
+      "primary_asset": "batons-master",
+      "index": "7",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "8-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "8",
+      "primary_asset": "batons-master",
+      "index": "8",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "9-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "9",
+      "primary_asset": "batons-master",
+      "index": "9",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "10-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "10",
+      "primary_asset": "batons-master",
+      "index": "10",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "page-of-batons",
+      "kind": "court",
+      "suit": "batons",
+      "rank": "page",
+      "primary_asset": "page-of-batons",
+      "index": "P",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": "PAGE OF BATONS"
+    },
+    {
+      "id": "knight-of-batons",
+      "kind": "court",
+      "suit": "batons",
+      "rank": "knight",
+      "primary_asset": "knight-of-batons",
+      "index": "N",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": "KNIGHT OF BATONS"
+    },
+    {
+      "id": "queen-of-batons",
+      "kind": "court",
+      "suit": "batons",
+      "rank": "queen",
+      "primary_asset": "queen-of-batons",
+      "index": "Q",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": "QUEEN OF BATONS"
+    },
+    {
+      "id": "king-of-batons",
+      "kind": "court",
+      "suit": "batons",
+      "rank": "king",
+      "primary_asset": "king-of-batons",
+      "index": "K",
+      "frame_ink": "lamp-black",
+      "upright": true,
+      "title": "KING OF BATONS"
+    },
+    {
+      "id": "ace-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "ace",
+      "primary_asset": "cups-master",
+      "index": "A",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "2-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "2",
+      "primary_asset": "cups-master",
+      "index": "2",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "3-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "3",
+      "primary_asset": "cups-master",
+      "index": "3",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "4-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "4",
+      "primary_asset": "cups-master",
+      "index": "4",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "5-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "5",
+      "primary_asset": "cups-master",
+      "index": "5",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "6-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "6",
+      "primary_asset": "cups-master",
+      "index": "6",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "7-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "7",
+      "primary_asset": "cups-master",
+      "index": "7",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "8-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "8",
+      "primary_asset": "cups-master",
+      "index": "8",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "9-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "9",
+      "primary_asset": "cups-master",
+      "index": "9",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "10-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "10",
+      "primary_asset": "cups-master",
+      "index": "10",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "page-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "page",
+      "primary_asset": "page-of-cups",
+      "index": "P",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": "PAGE OF CUPS"
+    },
+    {
+      "id": "knight-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "knight",
+      "primary_asset": "knight-of-cups",
+      "index": "N",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": "KNIGHT OF CUPS"
+    },
+    {
+      "id": "queen-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "queen",
+      "primary_asset": "queen-cups",
+      "index": "Q",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": "QUEEN OF CUPS"
+    },
+    {
+      "id": "king-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "king",
+      "primary_asset": "king-of-cups",
+      "index": "K",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": "KING OF CUPS"
+    },
+    {
+      "id": "ace-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "ace",
+      "primary_asset": "coins-master",
+      "index": "A",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "2-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "2",
+      "primary_asset": "coins-master",
+      "index": "2",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "3-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "3",
+      "primary_asset": "coins-master",
+      "index": "3",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "4-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "4",
+      "primary_asset": "coins-master",
+      "index": "4",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "5-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "5",
+      "primary_asset": "coins-master",
+      "index": "5",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "6-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "6",
+      "primary_asset": "coins-master",
+      "index": "6",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "7-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "7",
+      "primary_asset": "coins-master",
+      "index": "7",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "8-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "8",
+      "primary_asset": "coins-master",
+      "index": "8",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "9-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "9",
+      "primary_asset": "coins-master",
+      "index": "9",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "10-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "10",
+      "primary_asset": "coins-master",
+      "index": "10",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": null
+    },
+    {
+      "id": "page-of-coins",
+      "kind": "court",
+      "suit": "coins",
+      "rank": "page",
+      "primary_asset": "page-of-coins",
+      "index": "P",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": "PAGE OF COINS"
+    },
+    {
+      "id": "knight-of-coins",
+      "kind": "court",
+      "suit": "coins",
+      "rank": "knight",
+      "primary_asset": "knight-of-coins",
+      "index": "N",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": "KNIGHT OF COINS"
+    },
+    {
+      "id": "queen-of-coins",
+      "kind": "court",
+      "suit": "coins",
+      "rank": "queen",
+      "primary_asset": "queen-of-coins",
+      "index": "Q",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": "QUEEN OF COINS"
+    },
+    {
+      "id": "king-of-coins",
+      "kind": "court",
+      "suit": "coins",
+      "rank": "king",
+      "primary_asset": "king-of-coins",
+      "index": "K",
+      "frame_ink": "madder-lake",
+      "upright": true,
+      "title": "KING OF COINS"
+    },
+    {
+      "number": 0,
+      "id": "the-fool",
+      "title": "THE FOOL",
+      "kind": "trump",
+      "primary_asset": "the-fool",
+      "index": "0",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 1,
+      "id": "the-magician",
+      "title": "THE MAGICIAN",
+      "kind": "trump",
+      "primary_asset": "the-magician",
+      "index": "1",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 2,
+      "id": "the-high-priestess",
+      "title": "THE HIGH PRIESTESS",
+      "kind": "trump",
+      "primary_asset": "the-high-priestess",
+      "index": "2",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 3,
+      "id": "the-empress",
+      "title": "THE EMPRESS",
+      "kind": "trump",
+      "primary_asset": "empress",
+      "index": "3",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 4,
+      "id": "the-emperor",
+      "title": "THE EMPEROR",
+      "kind": "trump",
+      "primary_asset": "the-emperor",
+      "index": "4",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 5,
+      "id": "the-hierophant",
+      "title": "THE HIEROPHANT",
+      "kind": "trump",
+      "primary_asset": "the-hierophant",
+      "index": "5",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 6,
+      "id": "the-lovers",
+      "title": "THE LOVERS",
+      "kind": "trump",
+      "primary_asset": "the-lovers",
+      "index": "6",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 7,
+      "id": "the-chariot",
+      "title": "THE CHARIOT",
+      "kind": "trump",
+      "primary_asset": "the-chariot",
+      "index": "7",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 8,
+      "id": "strength",
+      "title": "STRENGTH",
+      "kind": "trump",
+      "primary_asset": "strength",
+      "index": "8",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 9,
+      "id": "the-hermit",
+      "title": "THE HERMIT",
+      "kind": "trump",
+      "primary_asset": "the-hermit",
+      "index": "9",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 10,
+      "id": "wheel-of-fortune",
+      "title": "WHEEL OF FORTUNE",
+      "kind": "trump",
+      "primary_asset": "wheel-of-fortune",
+      "index": "10",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 11,
+      "id": "justice",
+      "title": "JUSTICE",
+      "kind": "trump",
+      "primary_asset": "justice",
+      "index": "11",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 12,
+      "id": "the-hanged-man",
+      "title": "THE HANGED MAN",
+      "kind": "trump",
+      "primary_asset": "the-hanged-man",
+      "index": "12",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 13,
+      "id": "death",
+      "title": "DEATH",
+      "kind": "trump",
+      "primary_asset": "death",
+      "index": "13",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 14,
+      "id": "temperance",
+      "title": "TEMPERANCE",
+      "kind": "trump",
+      "primary_asset": "temperance",
+      "index": "14",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 15,
+      "id": "the-devil",
+      "title": "THE DEVIL",
+      "kind": "trump",
+      "primary_asset": "the-devil",
+      "index": "15",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 16,
+      "id": "the-tower",
+      "title": "THE TOWER",
+      "kind": "trump",
+      "primary_asset": "the-tower",
+      "index": "16",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 17,
+      "id": "the-star",
+      "title": "THE STAR",
+      "kind": "trump",
+      "primary_asset": "the-star",
+      "index": "17",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 18,
+      "id": "the-moon",
+      "title": "THE MOON",
+      "kind": "trump",
+      "primary_asset": "the-moon",
+      "index": "18",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 19,
+      "id": "the-sun",
+      "title": "THE SUN",
+      "kind": "trump",
+      "primary_asset": "the-sun",
+      "index": "19",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 20,
+      "id": "judgement",
+      "title": "JUDGEMENT",
+      "kind": "trump",
+      "primary_asset": "judgement",
+      "index": "20",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    },
+    {
+      "number": 21,
+      "id": "the-world",
+      "title": "THE WORLD",
+      "kind": "trump",
+      "primary_asset": "the-world",
+      "index": "21",
+      "glyph": "trumps",
+      "frame_ink": "lamp-black",
+      "upright": true
+    }
+  ]
+}

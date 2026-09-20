@@ -1,4 +1,4 @@
-"""Build/verify all five non-Tarot Design 1 release ZIPs, without publishing.
+"""Build/verify all six Design 1 v1.1 release ZIPs, without publishing.
 
 python scripts/package_decks.py --build --all
 python scripts/package_decks.py --check --format jumbo
@@ -19,12 +19,13 @@ from catalog import build_catalog
 
 ROOT=poker.ROOT
 OUT=poker.OUT
-FORMATS=('poker','jumbo','travel','bridge','european-standard')
+FORMATS=('poker','jumbo','travel','bridge','european-standard','tarot')
+RELEASE_VERSION='1.1'
 
 
 def geometry(fmt):
     if fmt not in FORMATS:
-        raise ValueError('Only the five completed non-Tarot formats can be packaged')
+        raise ValueError(f'Unknown release format: {fmt}')
     spec=json.loads((ROOT/'deck.json').read_text(encoding='utf-8'))['formats'][fmt]
     native=spec['back_pixels']
     trim=[n*2 for n in native]
@@ -35,15 +36,27 @@ def geometry(fmt):
 
 
 def readme(fmt,g):
-    if fmt=='poker':
-        return poker.readme().replace('python scripts/package_poker.py','python scripts/package_decks.py --format poker')
     w,h=g['inches'];nw,nh=g['native'];pw,ph=g['trim'];bw,bh=g['bleed'];gw,gh=g['guides']
-    cx,cy=(nw-1)/2,(nh-1)/2
-    return f'''# Design 1 — {fmt.replace('-', ' ').title()}
-
-54 faces (52 suited cards and two Jokers), plus five alternative backs.
+    if fmt == 'tarot':
+        face_summary = '''78 faces: 40 numbered suit cards, 16 courts, and 22 trumps; plus five
+alternative backs. Choose one back color for a physical deck. There are 83
+unique images, each supplied in native, clean-bleed, and cut-guide versions:
+249 PNGs total.'''
+        face_notes = '''The four suits are Swords, Batons, Cups, and Coins. Courts use Page,
+Knight, Queen, and King. Trumps run from 0 The Fool through 21 The World.
+Faces use paired side indices; court and trump art is upright. Swords, Batons,
+and trumps use Lamp Black frames; Cups and Coins use Madder Lake.'''
+    else:
+        face_summary = '''54 faces (52 suited cards and two Jokers), plus five alternative backs.
 Choose one back color and use it for every face in a physical deck.
-59 unique cards, each supplied in three versions: 177 PNGs total.
+59 unique cards, each supplied in three versions: 177 PNGs total.'''
+        face_notes = '''Jokers are `joker-black.png` and `joker-red.png`; they are not a fifth suit.
+Face frames use Lamp Black for spades/clubs and the black Joker, Madder Lake for
+hearts/diamonds and the red Joker.'''
+    cx,cy=(nw-1)/2,(nh-1)/2
+    return f'''# Design 1 v{RELEASE_VERSION} — {fmt.replace('-', ' ').title()}
+
+{face_summary}
 
 ## Files
 
@@ -55,10 +68,9 @@ Choose one back color and use it for every face in a physical deck.
 - `SHA256SUMS.txt`: hashes of every other packaged file.
 - `LICENSE`: repository MIT license.
 
-Jokers are `joker-black.png` and `joker-red.png`; they are not a fifth suit.
+{face_notes}
 Backs are Lamp Black, Madder Lake, Manganese Violet, Prussian Blue and Verdigris.
-Frames follow those back palettes. Face frames use Lamp Black for spades/clubs
-and the black Joker, Madder Lake for hearts/diamonds and the red Joker.
+Back frames follow those back palettes.
 These names describe digital pigment-inspired colors, not physical ink formulas.
 
 ## Native geometry
@@ -71,10 +83,7 @@ Center: ({cx:g}, {cy:g}) in zero-based pixel-center coordinates;
 Corner radius: 3.5 mm. Preserve the supplied alpha for software; do not crop
 transparent margins or apply a second independent corner-radius clip.
 
-{'European Standard artwork is resized from the component-built Bridge cards. Interpolation may introduce single-level differences between rotated pairs.' if fmt=='european-standard' else 'Faces are assembled from shared source components at this format size, not resized from flattened Poker cards. Declared two-way number cards, Jokers, and backs have exact half-turn symmetry.'}
-Odd-number layouts retain intentional one-way pips; Seven has an offset pip.
-Court portraits are separately painted opposing poses, not exact rotated copies.
-Kings register the underlying painting before the central jewel is added.
+{'European Standard artwork is resized from the component-built Bridge cards. Interpolation may introduce single-level differences between rotated pairs.' if fmt=='european-standard' else 'Faces are assembled from shared source components at this format size, not resized from flattened cards.'}
 
 ## Clean bleed files
 
@@ -124,10 +133,23 @@ The package checker verifies native bytes against current source assets,
 exact print trim pixels, bleed/slug geometry, guides, density, profiles,
 complete inventory, and SHA-256 hashes on disk and inside the ZIP.
 ZIP generation is deterministic for the same sources and script.
-Building publishes nothing. Tarot and source/working files are excluded.
+Building publishes nothing. Source and working files are excluded.
 
 Repository: https://github.com/ianrastall/playing-cards
 '''
+
+
+def release_name(asset):
+    if asset['side'] == 'face' and asset.get('system') == 'tarot':
+        if asset['arcana'] == 'major':
+            return f"faces/trumps/{asset['number']:02d}-{asset['slug']}.png"
+        return f"faces/{asset['suit']}/{asset['rank']}.png"
+    return poker.release_name(asset)
+
+
+def release_paths(fmt):
+    stem=f'design1-v{RELEASE_VERSION}-{fmt}'
+    return OUT/stem,OUT/f'{stem}.zip',OUT/f'{stem}.zip.sha256'
 
 
 def build(fmt):
@@ -135,16 +157,21 @@ def build(fmt):
     catalog=build_catalog()
     assert catalog==json.loads((ROOT/'catalog.json').read_text(encoding='utf-8')),'Catalog stale'
     # Tie packages to the last complete artwork validation, not just its catalog.
-    report=json.loads((ROOT/'docs/design/face-formats-v1-report.json').read_text(encoding='utf-8'))
-    validated={'cards/'+a['path']:a['sha256'] for a in report['cards']}
+    reports=[json.loads((ROOT/'docs/design/face-formats-v1-report.json').read_text(encoding='utf-8')),
+             json.loads((ROOT/'docs/design/tarot-full-v1-report.json').read_text(encoding='utf-8'))]
+    validated={(a['path'] if a['path'].startswith('cards/') else 'cards/'+a['path']):a['sha256']
+               for report in reports for a in report['cards']}
     assets=[a for a in catalog['assets'] if a['format']==fmt]
-    assert len(assets)==59 and sum(a['side']=='face' for a in assets)==54
-    folder=OUT/f'design1-{fmt}'
+    face_count=78 if fmt=='tarot' else 54
+    unique_count=face_count+5
+    png_count=unique_count*3
+    assert len(assets)==unique_count and sum(a['side']=='face' for a in assets)==face_count
+    folder,archive_path,checksum_path=release_paths(fmt)
     folder.mkdir(parents=True,exist_ok=True)
     records=[]
     for asset in assets:
         assert validated[asset['path']]==asset['sha256'],'Unvalidated source'
-        name=poker.release_name(asset)
+        name=release_name(asset)
         source=ROOT/asset['path']
         destination=folder/name
         destination.parent.mkdir(parents=True,exist_ok=True)
@@ -158,7 +185,8 @@ def build(fmt):
             path.parent.mkdir(parents=True,exist_ok=True)
             im.save(path,dpi=(600,600),icc_profile=poker.SRGB)
         records.append(dict(id=asset['id'],source_path=asset['path'],source_sha256=asset['sha256'],files=variants))
-    manifest=dict(version=2,format=fmt,unique_assets=59,faces=54,backs=5,png_count=177,
+    manifest=dict(version=3,design='Design 1',release_version=RELEASE_VERSION,
+                  format=fmt,unique_assets=unique_count,faces=face_count,backs=5,png_count=png_count,
                   geometry=g,corner_radius_mm=3.5,native_ppi=300,print_ppi=600,
                   bleed_inches=.125,bleed_pixels=75,slug_pixels=75,files=records)
     (folder/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
@@ -169,31 +197,33 @@ def build(fmt):
     assert not actual-expected,(fmt,'Unexpected release files',actual-expected)
     hashes=''.join(f'{poker.sha(folder/name)}  {name}\n' for name in sorted(expected-{'SHA256SUMS.txt'}))
     (folder/'SHA256SUMS.txt').write_text(hashes,encoding='ascii')
-    archive_path=OUT/f'design1-{fmt}.zip'
     with zipfile.ZipFile(archive_path,'w') as archive:
         for name in sorted(expected):
-            entry=zipfile.ZipInfo(name,date_time=(2026,9,17,0,0,0))
+            entry=zipfile.ZipInfo(name,date_time=(2026,9,19,0,0,0))
             entry.compress_type=zipfile.ZIP_STORED if name.endswith('.png') else zipfile.ZIP_DEFLATED
             entry.external_attr=0o100644<<16
             archive.writestr(entry,(folder/name).read_bytes())
-    (OUT/f'design1-{fmt}.zip.sha256').write_text(f'{poker.sha(archive_path)}  {archive_path.name}\n',encoding='ascii')
+    checksum_path.write_text(f'{poker.sha(archive_path)}  {archive_path.name}\n',encoding='ascii')
     check(fmt)
     print(f'Created {archive_path} ({archive_path.stat().st_size/1024**2:.1f} MiB)',flush=True)
 
 
 def check(fmt):
     g=geometry(fmt)
-    folder=OUT/f'design1-{fmt}'
-    archive_path=OUT/f'design1-{fmt}.zip'
+    folder,archive_path,checksum_path=release_paths(fmt)
     manifest=json.loads((folder/'manifest.json').read_text(encoding='utf-8'))
+    face_count=78 if fmt=='tarot' else 54
+    unique_count=face_count+5
+    png_count=unique_count*3
     assert manifest['format']==fmt and manifest['geometry']==g
-    assert manifest['png_count']==177 and len(manifest['files'])==59
+    assert manifest['release_version']==RELEASE_VERSION
+    assert manifest['png_count']==png_count and len(manifest['files'])==unique_count
     catalog=build_catalog()
     current={a['id']:a for a in catalog['assets'] if a['format']==fmt}
     assert {r['id'] for r in manifest['files']}==set(current)
     hashes={line.split('  ',1)[1]:line.split('  ',1)[0] for line in (folder/'SHA256SUMS.txt').read_text().splitlines()}
     with zipfile.ZipFile(archive_path) as archive:
-        assert len(archive.namelist())==len(set(archive.namelist()))==181
+        assert len(archive.namelist())==len(set(archive.namelist()))==png_count+4
         assert set(archive.namelist())==set(hashes)|{'SHA256SUMS.txt'}
         assert archive.read('SHA256SUMS.txt')==(folder/'SHA256SUMS.txt').read_bytes()
         assert archive.testzip() is None
@@ -218,8 +248,26 @@ def check(fmt):
         with Image.open(native_path) as native:
             trim=poker.opaque_native(native).resize(tuple(g['trim']),Image.Resampling.NEAREST)
         assert np.array_equal(np.array(expected_clean.crop(g['bleed_trim'])),np.array(trim))
-    assert poker.sha(archive_path)==(OUT/f'design1-{fmt}.zip.sha256').read_text().split()[0]
-    print(f'PASS {fmt}: 59 cards, 177 PNGs; geometry, source pixels, profiles and ZIP hashes',flush=True)
+    assert poker.sha(archive_path)==checksum_path.read_text().split()[0]
+    print(f'PASS {fmt}: {unique_count} cards, {png_count} PNGs; geometry, source pixels, profiles and ZIP hashes',flush=True)
+
+
+def write_release_index():
+    archives=[]
+    for fmt in FORMATS:
+        _,archive_path,checksum_path=release_paths(fmt)
+        archives.append(dict(format=fmt,path=archive_path.name,
+            sha256=poker.sha(archive_path),bytes=archive_path.stat().st_size,
+            checksum_file=checksum_path.name,
+            faces=78 if fmt=='tarot' else 54,backs=5))
+    release=dict(version=1,design='Design 1',release_version=RELEASE_VERSION,
+                 formats=list(FORMATS),archives=archives,
+                 total_active_faces=348,total_active_backs=30,total_active_pngs=378)
+    path=OUT/f'design1-v{RELEASE_VERSION}.json'
+    path.write_text(json.dumps(release,indent=2)+'\n',encoding='utf-8')
+    sums=''.join(f"{a['sha256']}  {a['path']}\n" for a in archives)
+    (OUT/f'design1-v{RELEASE_VERSION}-SHA256SUMS.txt').write_text(sums,encoding='ascii')
+    print(f'Created Design 1 v{RELEASE_VERSION} release index for {len(archives)} archives',flush=True)
 
 
 def main():
@@ -229,8 +277,11 @@ def main():
     selection=parser.add_mutually_exclusive_group(required=True)
     selection.add_argument('--format',choices=FORMATS);selection.add_argument('--all',action='store_true')
     args=parser.parse_args()
-    for fmt in FORMATS if args.all else (args.format,):
+    selected=FORMATS if args.all else (args.format,)
+    for fmt in selected:
         (build if args.build else check)(fmt)
+    if args.all:
+        write_release_index()
 
 
 if __name__=='__main__':

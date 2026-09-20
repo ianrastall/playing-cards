@@ -1,0 +1,1993 @@
+{
+  "version": 1,
+  "status": "assets-prepared; paused-before-full-render",
+  "new_generated_count": 39,
+  "planned_generated_count": 39,
+  "missing_asset_ids": [],
+  "unresolved_card_ids": [],
+  "new_code_glyph_count": 2,
+  "reused_component_count": 9,
+  "planned_card_count": 78,
+  "components": {
+    "batons-master": {
+      "kind": "suit-master",
+      "source": "sources/generated/tarot-full-assets-v1/batons-master.png",
+      "source_sha256": "6e279ffda443b3f2019beac9a52b2f3f3f1b3d2f3162fa61cdb121948ddf497b",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/batons-master.png",
+      "sha256": "26bc8bdd4229095a9a0ca1d6ee3ae712fce3c3cad07b48e3b2be4bc2b7b618f8",
+      "crop": [
+        420,
+        6,
+        642,
+        1529
+      ],
+      "size": [
+        222,
+        1523
+      ],
+      "anchor": [
+        110.5,
+        761.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        432,
+        18,
+        630,
+        1517
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "batons-master",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/sword-straight.png",
+          "sha256": "b26eabd66de9465060067bf08f79fc2a3fd83689216d127b880d60315356669a"
+        }
+      ]
+    },
+    "cups-master": {
+      "kind": "suit-master",
+      "source": "sources/generated/tarot-full-assets-v1/cups-master.png",
+      "source_sha256": "f9141dcdf06242b53dd603bb2250f15c1e13e7ee812843c3936a1b5199eebc41",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/cups-master.png",
+      "sha256": "e7ef7f303f5d6ad0898a66bebe761e745e534622c0ee2e692c86b9584a201c7d",
+      "crop": [
+        151,
+        18,
+        873,
+        1513
+      ],
+      "size": [
+        722,
+        1495
+      ],
+      "anchor": [
+        360.5,
+        747.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        163,
+        30,
+        861,
+        1501
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "cups-master",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/queen-cups.png",
+          "sha256": "1453bd8b341957ee95421c5fbc9d7b582e2334d4476757c9caadd9593dc2d2e3"
+        }
+      ]
+    },
+    "coins-master": {
+      "kind": "suit-master",
+      "source": "sources/generated/tarot-full-assets-v1/coins-master.png",
+      "source_sha256": "a32eb0e3b92cba7f447d9e9ac3f31ef9a571b51c98d97c745538eb64f1757127",
+      "source_size": [
+        1230,
+        1278
+      ],
+      "path": "sources/components/tarot/full-assets-v1/coins-master.png",
+      "sha256": "a2b20f0767111958cba9d4e4e2b531156cd3ad1558376f6aa03fdaf4698fc0e3",
+      "crop": [
+        35,
+        54,
+        1194,
+        1217
+      ],
+      "size": [
+        1159,
+        1163
+      ],
+      "anchor": [
+        579.0,
+        581.0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_source_bounds": [
+        47,
+        66,
+        1182,
+        1205
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "coins-master",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/sword-straight.png",
+          "sha256": "b26eabd66de9465060067bf08f79fc2a3fd83689216d127b880d60315356669a"
+        }
+      ]
+    },
+    "page-of-swords": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/page-of-swords.png",
+      "source_sha256": "13c381b8b72ecfd6d7c85296683d3e81cc8e2c1b98379a1ca235e6fc6bc23bc5",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/page-of-swords.png",
+      "sha256": "2571ed0ab4de8121883d1c8fb53301b660290797ca5be40bfefb93a334392f1e",
+      "crop": [
+        44,
+        4,
+        884,
+        1528
+      ],
+      "size": [
+        840,
+        1524
+      ],
+      "anchor": [
+        419.5,
+        761.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        56,
+        16,
+        872,
+        1516
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "page-of-swords",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/sword-straight.png",
+          "sha256": "b26eabd66de9465060067bf08f79fc2a3fd83689216d127b880d60315356669a"
+        }
+      ]
+    },
+    "knight-of-swords": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/knight-of-swords.png",
+      "source_sha256": "d0557c564929774238acb268e1b41e109d09f89760916942749c06ef73e38276",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/knight-of-swords.png",
+      "sha256": "2f2091de5181a9467e2cd830873445244adf7da68437ca5bb1e617738f3c7d48",
+      "crop": [
+        2,
+        1,
+        1015,
+        1500
+      ],
+      "size": [
+        1013,
+        1499
+      ],
+      "anchor": [
+        506.0,
+        749.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        14,
+        13,
+        1003,
+        1488
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "knight-of-swords",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/sword-straight.png",
+          "sha256": "b26eabd66de9465060067bf08f79fc2a3fd83689216d127b880d60315356669a"
+        }
+      ]
+    },
+    "queen-of-swords": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/queen-of-swords.png",
+      "source_sha256": "226162ba1f959aa579a24296bbb811f1137e241da258ed744ee908cb653c95bb",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/queen-of-swords.png",
+      "sha256": "226931d46c818a5e6a550dd0e185b02b3c17b9eaaaa2d7d7b91c14e5efc0eb9f",
+      "crop": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "size": [
+        1024,
+        1536
+      ],
+      "anchor": [
+        511.5,
+        767.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        6,
+        8,
+        1019,
+        1526
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "queen-of-swords",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/queen-cups.png",
+          "sha256": "1453bd8b341957ee95421c5fbc9d7b582e2334d4476757c9caadd9593dc2d2e3"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/sword-straight.png",
+          "sha256": "b26eabd66de9465060067bf08f79fc2a3fd83689216d127b880d60315356669a"
+        }
+      ]
+    },
+    "king-of-swords": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/king-of-swords.png",
+      "source_sha256": "ea317710b1fb7a14590509ba1579c567437d0d77b765533a0c2d5a0468908b7c",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/king-of-swords.png",
+      "sha256": "c732cf189240a3c365b583e9bb5e8b9613e75ba64029c2d4c03f26cbd5d05296",
+      "crop": [
+        27,
+        0,
+        1016,
+        1536
+      ],
+      "size": [
+        989,
+        1536
+      ],
+      "anchor": [
+        494.0,
+        767.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        39,
+        4,
+        1004,
+        1526
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "king-of-swords",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/sword-straight.png",
+          "sha256": "b26eabd66de9465060067bf08f79fc2a3fd83689216d127b880d60315356669a"
+        }
+      ]
+    },
+    "page-of-batons": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/page-of-batons.png",
+      "source_sha256": "3fd5d10a87310138a49b08946aa0fda1553c93fb8784612efed5b239d33e40bc",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/page-of-batons.png",
+      "sha256": "a600d9f27807e1b87bea462512ede99a71a1e2728836063c2f7b50ff9e2af55a",
+      "crop": [
+        135,
+        7,
+        847,
+        1527
+      ],
+      "size": [
+        712,
+        1520
+      ],
+      "anchor": [
+        355.5,
+        759.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        147,
+        19,
+        835,
+        1515
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "page-of-batons",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/batons-master.png",
+          "sha256": "6e279ffda443b3f2019beac9a52b2f3f3f1b3d2f3162fa61cdb121948ddf497b"
+        }
+      ]
+    },
+    "knight-of-batons": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/knight-of-batons.png",
+      "source_sha256": "0df65805883d73a31b381115e591453427c9d38ca59acdefafd04ec54ba8f4dd",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/knight-of-batons.png",
+      "sha256": "d5852b57b6f69972b7fc962574c43ec5fe457edd3ff371b5814505262bcecefc",
+      "crop": [
+        2,
+        3,
+        1024,
+        1504
+      ],
+      "size": [
+        1022,
+        1501
+      ],
+      "anchor": [
+        510.5,
+        750.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        14,
+        15,
+        1012,
+        1492
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "knight-of-batons",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/batons-master.png",
+          "sha256": "6e279ffda443b3f2019beac9a52b2f3f3f1b3d2f3162fa61cdb121948ddf497b"
+        }
+      ]
+    },
+    "queen-of-batons": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/queen-of-batons.png",
+      "source_sha256": "905e8a529fa1cde815b5224a1675baddf465d4c2104b8866b53c2495ad85ec96",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/queen-of-batons.png",
+      "sha256": "3d2111b4b847df6786cbd985b815a55a10769a960108b30a1ae656678380273b",
+      "crop": [
+        0,
+        5,
+        1023,
+        1536
+      ],
+      "size": [
+        1023,
+        1531
+      ],
+      "anchor": [
+        511.0,
+        765.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        12,
+        17,
+        1011,
+        1524
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "queen-of-batons",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/queen-cups.png",
+          "sha256": "1453bd8b341957ee95421c5fbc9d7b582e2334d4476757c9caadd9593dc2d2e3"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/batons-master.png",
+          "sha256": "6e279ffda443b3f2019beac9a52b2f3f3f1b3d2f3162fa61cdb121948ddf497b"
+        }
+      ]
+    },
+    "king-of-batons": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/king-of-batons.png",
+      "source_sha256": "48ac4672b2cd661295bdb26ff7efc139b08b479da7b49c141beaab0e5ddcc16a",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/king-of-batons.png",
+      "sha256": "8e8a98c328be3510d093efe512cf5e2ba8a4b603df604c56e903cfc4945e67fe",
+      "crop": [
+        1,
+        0,
+        1023,
+        1515
+      ],
+      "size": [
+        1022,
+        1515
+      ],
+      "anchor": [
+        510.5,
+        757.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        13,
+        11,
+        1011,
+        1503
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "king-of-batons",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/batons-master.png",
+          "sha256": "6e279ffda443b3f2019beac9a52b2f3f3f1b3d2f3162fa61cdb121948ddf497b"
+        }
+      ]
+    },
+    "page-of-cups": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/page-of-cups.png",
+      "source_sha256": "748e91c3757f30627769823a2c566ec5291d95e0515325c52fde000b6d41d894",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/page-of-cups.png",
+      "sha256": "955faad40a7a0d163b19694602e34d5d100a2f11bb16a3bc51cb06dfac64ed01",
+      "crop": [
+        51,
+        3,
+        840,
+        1535
+      ],
+      "size": [
+        789,
+        1532
+      ],
+      "anchor": [
+        394.0,
+        765.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        63,
+        15,
+        828,
+        1523
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "page-of-cups",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/cups-master.png",
+          "sha256": "f9141dcdf06242b53dd603bb2250f15c1e13e7ee812843c3936a1b5199eebc41"
+        }
+      ]
+    },
+    "knight-of-cups": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/knight-of-cups-v2.png",
+      "source_sha256": "b6ce52ce56c7888f65856c9d989bb4700eb107c0e812a16855805c3dd1d2618a",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/knight-of-cups.png",
+      "sha256": "40e55327e78aa8f35dbae8e83d46fdbfbe1ccf86c3e06166b35bb1204ef73dae",
+      "crop": [
+        22,
+        37,
+        1024,
+        1502
+      ],
+      "size": [
+        1002,
+        1465
+      ],
+      "anchor": [
+        500.5,
+        732.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        34,
+        49,
+        1013,
+        1490
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "knight-of-cups",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/cups-master.png",
+          "sha256": "f9141dcdf06242b53dd603bb2250f15c1e13e7ee812843c3936a1b5199eebc41"
+        }
+      ],
+      "revision": {
+        "id": "knight-of-cups",
+        "source": "knight-of-cups-v2.png",
+        "prompt": "Precise local edit of this Knight of Cups illustration. Remove ONLY the sheathed sword hanging at the knight's right hip (viewer right, from the little turquoise pommel beside his waist down along the red cloak). Replace that narrow area with continuous matching robe/cloak fabric and gold embroidery. The cup must remain the only suit emblem. Preserve the exact knight, face, hands, cup, armor, pose, horse and four legs, reins, composition, colors, fine linework, and all other ornaments. Keep genuinely transparent RGBA background and entire complete silhouette. No new objects, text, frame, shadow or crop.",
+        "references": [
+          "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/knight-of-cups.png"
+        ],
+        "output_hint": "Generated images are saved to C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb as C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-c0492a9f-adc4-482a-8bfd-c0eecf075af3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+      }
+    },
+    "king-of-cups": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/king-of-cups.png",
+      "source_sha256": "c4cca3aea7e0576c8ca3504068fcad0af798a9cda4d9a610fc9d86946a0b5911",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/king-of-cups.png",
+      "sha256": "557bdd8fb8ee204f800c25f17c0d95fe649faba395ab3bf2715517c50cc8da94",
+      "crop": [
+        35,
+        5,
+        1001,
+        1531
+      ],
+      "size": [
+        966,
+        1526
+      ],
+      "anchor": [
+        482.5,
+        762.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        47,
+        17,
+        989,
+        1519
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "king-of-cups",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/cups-master.png",
+          "sha256": "f9141dcdf06242b53dd603bb2250f15c1e13e7ee812843c3936a1b5199eebc41"
+        }
+      ]
+    },
+    "page-of-coins": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/page-of-coins.png",
+      "source_sha256": "2e1671847fcf89bad2facb8df0db41f83e9cc3871404c998d0dd0f07b5113e92",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/page-of-coins.png",
+      "sha256": "eda9f3663789f820256474711b5e07d28646693300ecc90fc0ae30067ba82cbd",
+      "crop": [
+        107,
+        17,
+        956,
+        1527
+      ],
+      "size": [
+        849,
+        1510
+      ],
+      "anchor": [
+        424.0,
+        754.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        119,
+        29,
+        944,
+        1515
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "page-of-coins",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/coins-master.png",
+          "sha256": "a32eb0e3b92cba7f447d9e9ac3f31ef9a571b51c98d97c745538eb64f1757127"
+        }
+      ]
+    },
+    "knight-of-coins": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/knight-of-coins.png",
+      "source_sha256": "06262d8f8e243a18d667602370e92b852830dbc10e8acf76ad20351e2d4b2103",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/knight-of-coins.png",
+      "sha256": "622369ca2d9c79f5d4de15c2502f8a4bd8826f431666ab1b15b2371abd462bd8",
+      "crop": [
+        0,
+        35,
+        1023,
+        1498
+      ],
+      "size": [
+        1023,
+        1463
+      ],
+      "anchor": [
+        511.0,
+        731.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        7,
+        47,
+        1011,
+        1486
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "knight-of-coins",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/coins-master.png",
+          "sha256": "a32eb0e3b92cba7f447d9e9ac3f31ef9a571b51c98d97c745538eb64f1757127"
+        }
+      ]
+    },
+    "queen-of-coins": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/queen-of-coins.png",
+      "source_sha256": "471ad5f63680ef1b92a4a62a24ad6e3e8ed0dd505f03f3e483c3b2dd9495b1d4",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/queen-of-coins.png",
+      "sha256": "f35291c3fa9f9d3a8fda45ec896710f4902d2b1e106c1e76dca216cd7d74bd4b",
+      "crop": [
+        11,
+        0,
+        1021,
+        1536
+      ],
+      "size": [
+        1010,
+        1536
+      ],
+      "anchor": [
+        504.5,
+        767.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        23,
+        5,
+        1009,
+        1526
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "queen-of-coins",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/queen-cups.png",
+          "sha256": "1453bd8b341957ee95421c5fbc9d7b582e2334d4476757c9caadd9593dc2d2e3"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/coins-master.png",
+          "sha256": "a32eb0e3b92cba7f447d9e9ac3f31ef9a571b51c98d97c745538eb64f1757127"
+        }
+      ]
+    },
+    "king-of-coins": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/king-of-coins.png",
+      "source_sha256": "6daf23ebeb96eb45768c8a6e83d3e03473122b9b85eb632d3d3f549b6b28e427",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/king-of-coins.png",
+      "sha256": "33b4946674703865b3528ae7782d2f1c1ee4266ade5af95da2cb48c9bbcf8d31",
+      "crop": [
+        1,
+        0,
+        1024,
+        1536
+      ],
+      "size": [
+        1023,
+        1536
+      ],
+      "anchor": [
+        511.0,
+        767.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        13,
+        6,
+        1014,
+        1528
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "king-of-coins",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/coins-master.png",
+          "sha256": "a32eb0e3b92cba7f447d9e9ac3f31ef9a571b51c98d97c745538eb64f1757127"
+        }
+      ]
+    },
+    "the-fool": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-fool.png",
+      "source_sha256": "c4b0106dd15825c8e39fecdfbd1e570e23a1e01c91f475e1a4c0283bcb738173",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-fool.png",
+      "sha256": "25b45555139cbca784d368e6509d9bc288df745563b586706e205493697a4e18",
+      "crop": [
+        45,
+        0,
+        977,
+        1536
+      ],
+      "size": [
+        932,
+        1536
+      ],
+      "anchor": [
+        465.5,
+        767.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        57,
+        9,
+        965,
+        1529
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-fool",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "the-magician": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-magician.png",
+      "source_sha256": "691fc9e41dcec972a71c8578dc3aa5ac7031d7e2890968339872a5510a81db4a",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-magician.png",
+      "sha256": "cd218fb026dfb4583c37ed129bc158c834fe38a7feabd8b5b4219cf5344f22dd",
+      "crop": [
+        21,
+        0,
+        1019,
+        1536
+      ],
+      "size": [
+        998,
+        1536
+      ],
+      "anchor": [
+        498.5,
+        767.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        33,
+        12,
+        1007,
+        1526
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-magician",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "the-high-priestess": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-high-priestess.png",
+      "source_sha256": "797f774999aedb582d7c688328887c54359099e5e169d206f77ad5b1756151e7",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-high-priestess.png",
+      "sha256": "b1afdce9734960028dda5cfc45a1ae16b97a5e8b848106b9885430b871696e19",
+      "crop": [
+        4,
+        0,
+        1011,
+        1534
+      ],
+      "size": [
+        1007,
+        1534
+      ],
+      "anchor": [
+        503.0,
+        766.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        16,
+        10,
+        999,
+        1522
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-high-priestess",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "the-emperor": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-emperor.png",
+      "source_sha256": "02d59dc7fa6c5544ead343e020063de076b978f6959e7f6c2921f58bd2d25c3e",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-emperor.png",
+      "sha256": "f030db53e6390871b7bc08054d8e655307fe84aac454b596cac730eb2a7a175d",
+      "crop": [
+        4,
+        0,
+        1021,
+        1533
+      ],
+      "size": [
+        1017,
+        1533
+      ],
+      "anchor": [
+        508.0,
+        766.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        16,
+        10,
+        1009,
+        1521
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-emperor",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "the-hierophant": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-hierophant.png",
+      "source_sha256": "93f43a49836c1605a5ade7e793644e9bc494ff02a38048fd1c43edffc674caaf",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-hierophant.png",
+      "sha256": "b5bb5b7a906c349921fed0601847903151ecb323369e0e72dde68e40a25e10bb",
+      "crop": [
+        0,
+        0,
+        1024,
+        1531
+      ],
+      "size": [
+        1024,
+        1531
+      ],
+      "anchor": [
+        511.5,
+        765.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        3,
+        7,
+        1020,
+        1519
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-hierophant",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "the-lovers": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-lovers.png",
+      "source_sha256": "20aa734ad1d38131cc4f4dacac6c87eba151594627a3a714e45cc21e3a4a6584",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-lovers.png",
+      "sha256": "1ab513224b9d45d17b31844dc17f7616898ec1d7dffdcdf2b721f78c6f0f0b77",
+      "crop": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "size": [
+        1024,
+        1536
+      ],
+      "anchor": [
+        511.5,
+        767.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        9,
+        1,
+        1021,
+        1527
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-lovers",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "the-chariot": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-chariot.png",
+      "source_sha256": "e81786dab018b8637b6f299f68dfd17957714c77e5b5d57b23df10f9acceb2da",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-chariot.png",
+      "sha256": "03f958bb919adbb60362c0da1b442140af14ca5d3374f4969c177c1b02a9acae",
+      "crop": [
+        22,
+        0,
+        1003,
+        1477
+      ],
+      "size": [
+        981,
+        1477
+      ],
+      "anchor": [
+        490.0,
+        738.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        34,
+        12,
+        991,
+        1465
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-chariot",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "strength": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/strength.png",
+      "source_sha256": "40181abf9bc23087889977db63c5efaf1244562cc96a974a6c58095a954e8565",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/strength.png",
+      "sha256": "ec710a0bf1cbd2c5ddc679f6b94c34a12d2eebd9da428e6f1de77f61922dafce",
+      "crop": [
+        3,
+        6,
+        1024,
+        1530
+      ],
+      "size": [
+        1021,
+        1524
+      ],
+      "anchor": [
+        510.0,
+        761.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        15,
+        18,
+        1012,
+        1518
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "strength",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "the-hermit": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-hermit.png",
+      "source_sha256": "02e1200f19fe09bb0627841a88475ebfc56ec228a5243247a0a227d8ac7f657c",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-hermit.png",
+      "sha256": "f24df5e1954c08312b9820182023673d876998342c824acdbfac7f6da873cb20",
+      "crop": [
+        98,
+        6,
+        988,
+        1534
+      ],
+      "size": [
+        890,
+        1528
+      ],
+      "anchor": [
+        444.5,
+        763.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        110,
+        18,
+        976,
+        1522
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-hermit",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "wheel-of-fortune": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/wheel-of-fortune.png",
+      "source_sha256": "e95ddd02cd59a3008b788cc6d793efaf16945c6c6258048f0c79ed3652dd6331",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/wheel-of-fortune.png",
+      "sha256": "7f00a47c0a5d398d8ef92ff971a93cb2fb14b41f135bdf227a3d8a5f5f6f233b",
+      "crop": [
+        17,
+        0,
+        1020,
+        1535
+      ],
+      "size": [
+        1003,
+        1535
+      ],
+      "anchor": [
+        501.0,
+        767.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        29,
+        12,
+        1008,
+        1523
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "wheel-of-fortune",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "justice": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/justice.png",
+      "source_sha256": "8fa53702d877bf220bcc8adb45f82c867f891ace6ef59e044bfdd6b18f67ad00",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/justice.png",
+      "sha256": "0b25282c3b854c39de784a7337590accff008a40a51361a8dbfa10d748942197",
+      "crop": [
+        36,
+        0,
+        1019,
+        1532
+      ],
+      "size": [
+        983,
+        1532
+      ],
+      "anchor": [
+        491.0,
+        765.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        48,
+        10,
+        1007,
+        1520
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "justice",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "the-hanged-man": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-hanged-man.png",
+      "source_sha256": "81e5331a5f53fe83a03f57c91255e3041da038f24aea1c8412898290e8f37a3e",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-hanged-man.png",
+      "sha256": "2c87446f281d93636ffae42da3a33026873a199ab4e4eb8db0ff4b4708623904",
+      "crop": [
+        124,
+        0,
+        883,
+        1534
+      ],
+      "size": [
+        759,
+        1534
+      ],
+      "anchor": [
+        379.0,
+        766.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        136,
+        9,
+        871,
+        1522
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-hanged-man",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "death": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/death.png",
+      "source_sha256": "2faa4b679330866eac3ce6350b09e5391f3a1ee4233901fb5ceb4610fc087181",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/death.png",
+      "sha256": "2780b995ea28301712c34cbdeb157364e8edf37f9ff72f6816da6cfd8572b165",
+      "crop": [
+        0,
+        0,
+        1024,
+        1522
+      ],
+      "size": [
+        1024,
+        1522
+      ],
+      "anchor": [
+        511.5,
+        760.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        6,
+        8,
+        1016,
+        1510
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "death",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "temperance": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/temperance.png",
+      "source_sha256": "40853753e40ed3b02fadab52409a3fc8765cf4b670cd4f1d219fe1df0de7fc41",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/temperance.png",
+      "sha256": "5369e23672d1250c315311c00fb018d59446747bb3d8b6517c0922dd67d86c4b",
+      "crop": [
+        51,
+        0,
+        1013,
+        1531
+      ],
+      "size": [
+        962,
+        1531
+      ],
+      "anchor": [
+        480.5,
+        765.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        63,
+        11,
+        1001,
+        1519
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "temperance",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "the-devil": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-devil.png",
+      "source_sha256": "fa6649c47992153dbc03331dcd2589dfe87a6820e087e29bcd52d6278dfe96fb",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-devil.png",
+      "sha256": "0a0e7ad2b7d4c33ab3fe78aa2a05ff387a94c857040beb26e3dc2c5cd22274e7",
+      "crop": [
+        7,
+        5,
+        1021,
+        1528
+      ],
+      "size": [
+        1014,
+        1523
+      ],
+      "anchor": [
+        506.5,
+        761.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        19,
+        17,
+        1009,
+        1516
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-devil",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "the-tower": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-tower-v2.png",
+      "source_sha256": "5f69c7189f40aaae402dd980630deb21e0ac1a3800853a602857379ab75b5b18",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-tower.png",
+      "sha256": "85a338ce4f2218001c07ec9ef81558aaa61a8f738f61e8e55803febf34728111",
+      "crop": [
+        68,
+        36,
+        1017,
+        1536
+      ],
+      "size": [
+        949,
+        1500
+      ],
+      "anchor": [
+        474.0,
+        749.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        80,
+        48,
+        1005,
+        1525
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-tower",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ],
+      "revision": {
+        "id": "the-tower",
+        "source": "the-tower-v2.png",
+        "prompt": "Precise edit of this Tarot Tower asset: keep the artwork and composition, but bring the upper-left gold lightning bolt entirely INSIDE the image. Shorten only its remote upper-left tail to a finished sharp point with generous clear transparent margin above and left. Keep the lightning striking the crown, tower, debris, two falling adults, figures' anatomy and rocky base unchanged. No new elements, no text or border. Preserve true RGBA transparency and clean cutout.",
+        "references": [
+          "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-tower.png"
+        ],
+        "output_hint": "Generated images are saved to C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb as C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-2ff470d5-70bd-4461-a5e0-d82d4c9f1de8.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+      }
+    },
+    "the-star": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-star-v2.png",
+      "source_sha256": "f5c10900566e60f3ac0711f4f2980a0b70a83897858d4cfedb8a3c7cb26903a8",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-star.png",
+      "sha256": "7ebe84a916961d184070669bc3ddc6edcd49c03062356c445f0b6412c4645825",
+      "crop": [
+        5,
+        0,
+        1023,
+        1530
+      ],
+      "size": [
+        1018,
+        1530
+      ],
+      "anchor": [
+        508.5,
+        764.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        17,
+        12,
+        1011,
+        1518
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-star",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ],
+      "revision": {
+        "id": "the-star",
+        "source": "the-star-v2.png",
+        "prompt": "Precise local edit to this Tarot Star illustration. It currently has ONE large eight-point star and SIX small stars. ADD exactly ONE matching small eight-point gold star in the open gap directly BELOW the large center star and ABOVE the woman's floral headpiece, between the two existing small stars in that region. The result must be ONE large star plus SEVEN small stars, eight stars total. Preserve all six existing small stars and the large star. Preserve the woman, face, pose, both vessels, water, plants, gown, colors, dimensions and transparent background unchanged. No other changes, new symbols or text. Genuine RGBA transparency.",
+        "references": [
+          "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-star.png"
+        ],
+        "output_hint": "Generated images are saved to C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb as C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-dd536447-a78d-4932-97ea-3ee6a56d3b8e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+      }
+    },
+    "the-moon": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-moon.png",
+      "source_sha256": "8494a7413730bb4267a396046b2580072db06961ee6247ac911dfb38b5ad9b7b",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-moon.png",
+      "sha256": "5eb3a5fdf4d37dbc09d31418c9d7ece4b8c548cb5d04d0e80b4c90b91c8887ce",
+      "crop": [
+        0,
+        0,
+        1024,
+        1532
+      ],
+      "size": [
+        1024,
+        1532
+      ],
+      "anchor": [
+        511.5,
+        765.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        12,
+        10,
+        1014,
+        1520
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-moon",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "the-sun": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-sun.png",
+      "source_sha256": "f67606cb906f684905ff165fb26cfcb10370d10b4de59545bb6f2240f32f87a7",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-sun.png",
+      "sha256": "8a02b2ee734f30d86c453c68349337861bb7eefccaca163e25c3ff9c0196828d",
+      "crop": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "size": [
+        1024,
+        1536
+      ],
+      "anchor": [
+        511.5,
+        767.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        7,
+        4,
+        1020,
+        1531
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-sun",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "judgement": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/judgement-v2.png",
+      "source_sha256": "ee7d72d37a4549c7c1abd205703575856b32ff5e7b5f3869a80622e42c5b5147",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/judgement.png",
+      "sha256": "20b0a9c7733762e9d4f3d2416a53565d78ff1119e2af1edf91086170550d87fd",
+      "crop": [
+        9,
+        19,
+        1015,
+        1492
+      ],
+      "size": [
+        1006,
+        1473
+      ],
+      "anchor": [
+        502.5,
+        736.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        21,
+        31,
+        1003,
+        1480
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "judgement",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ],
+      "revision": {
+        "id": "judgement",
+        "source": "judgement-v2.png",
+        "prompt": "Precise edit of this Tarot Judgement asset. Preserve the angel, trumpet, cross banner, three awakening people, coffers, plants, fine antique illustration and colors. Reframe the complete composition slightly smaller with at least 50 pixels of clear TRANSPARENT padding on every side. Finish the trumpet bell and wings completely within the canvas; no clipping of any object. Do not change identities, pose, anatomy, symbols or count. Genuine transparent RGBA, no background, glow, text or border.",
+        "references": [
+          "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/judgement.png"
+        ],
+        "output_hint": "Generated images are saved to C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb as C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-3e1231df-b564-415c-871b-b919e3216e75.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+      }
+    },
+    "the-world": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-world.png",
+      "source_sha256": "8a592c65802a164ed089ce1ecd3cdce41618f2c1710c3db7942fa685901b7595",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-world.png",
+      "sha256": "50dba0623a7d88d37b86ab97891f5394c722a58884821ffb1ab82c04877cca15",
+      "crop": [
+        7,
+        5,
+        1016,
+        1515
+      ],
+      "size": [
+        1009,
+        1510
+      ],
+      "anchor": [
+        504.0,
+        754.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        19,
+        17,
+        1004,
+        1503
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-world",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "batons-index": {
+      "kind": "code-native-index",
+      "path": "sources/components/tarot/full-assets-v1/batons-index-mask.png",
+      "sha256": "130fe05aa9520b4460fbcb84863787980459fa8f5ff392b0acf29821eea2a61a",
+      "size": [
+        160,
+        160
+      ],
+      "anchor": [
+        79.5,
+        79.5
+      ],
+      "source": "scripts/prepare_tarot_assets.py"
+    },
+    "coins-index": {
+      "kind": "code-native-index",
+      "path": "sources/components/tarot/full-assets-v1/coins-index-mask.png",
+      "sha256": "abc0c5cbb33e30ed70f23bcd1220833cae175e396d6c2dcd42afc99699e020be",
+      "size": [
+        160,
+        160
+      ],
+      "anchor": [
+        79.5,
+        79.5
+      ],
+      "source": "scripts/prepare_tarot_assets.py"
+    },
+    "sword-straight": {
+      "path": "sources/components/tarot/review-v1/sword-straight.png",
+      "sha256": "85eecf90fbbb79b482ab293bbcbb5c0fa2b57102e1fd76cc7b4673ef04463235",
+      "source": "sources/generated/tarot-review-v1/sword-straight.png",
+      "source_sha256": "b26eabd66de9465060067bf08f79fc2a3fd83689216d127b880d60315356669a",
+      "crop": [
+        297,
+        12,
+        727,
+        1524
+      ],
+      "size": [
+        430,
+        1512
+      ],
+      "anchor": [
+        214.5,
+        755.5
+      ],
+      "reused": true
+    },
+    "sword-curved": {
+      "path": "sources/components/tarot/review-v1/sword-curved.png",
+      "sha256": "da219e13177f9cc520a9cb3727bb17ae365a0f13cdf57220bda335c8f4587637",
+      "source": "sources/generated/tarot-review-v1/sword-curved.png",
+      "source_sha256": "7822bd30df2b54d05539f3dedbad052e4752decd96dabb0a0dfdb85d58deffa0",
+      "crop": [
+        436,
+        11,
+        759,
+        1524
+      ],
+      "size": [
+        323,
+        1513
+      ],
+      "anchor": [
+        161.0,
+        756.0
+      ],
+      "reused": true
+    },
+    "ace-crown": {
+      "path": "sources/components/tarot/review-v1/ace-crown.png",
+      "sha256": "704290237a1a181c255d8279924c2ce737d328e0b069b08dd66d1e7a604590f2",
+      "source": "sources/generated/tarot-review-v1/ace-crown.png",
+      "source_sha256": "50098902358ddc9498a841f3711b923dd8adb262ed85e73bee952d368c4071b7",
+      "crop": [
+        33,
+        124,
+        1503,
+        883
+      ],
+      "size": [
+        1470,
+        759
+      ],
+      "anchor": [
+        734.5,
+        379.0
+      ],
+      "reused": true
+    },
+    "foliage": {
+      "path": "sources/components/tarot/review-v1/foliage.png",
+      "sha256": "400f181dfcf84b7f075bf4b89151c3d336d3e90cbc8da32b31a7fe318f47d92a",
+      "source": "sources/generated/tarot-review-v1/foliage.png",
+      "source_sha256": "de37a7793fc159fb0afa3df0720e30b228fa8a892d06f9581a3259cfbd9152ee",
+      "crop": [
+        288,
+        19,
+        733,
+        1524
+      ],
+      "size": [
+        445,
+        1505
+      ],
+      "anchor": [
+        222.0,
+        752.0
+      ],
+      "reused": true
+    },
+    "empress": {
+      "path": "sources/components/tarot/review-v1/empress.png",
+      "sha256": "33686dbce743ee48c81b0d312d2244d1f6593f22079c31539226333c0c336d13",
+      "source": "sources/generated/tarot-review-v1/empress.png",
+      "source_sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86",
+      "crop": [
+        8,
+        8,
+        1016,
+        1527
+      ],
+      "size": [
+        1008,
+        1519
+      ],
+      "anchor": [
+        503.5,
+        759.0
+      ],
+      "reused": true
+    },
+    "queen-cups": {
+      "path": "sources/components/tarot/review-v1/queen-cups.png",
+      "sha256": "290aafc3e85baa97973dba00de2a3d11e4a96b8234adfac6ef954b5f305809cc",
+      "source": "sources/generated/tarot-review-v1/queen-cups.png",
+      "source_sha256": "1453bd8b341957ee95421c5fbc9d7b582e2334d4476757c9caadd9593dc2d2e3",
+      "crop": [
+        13,
+        0,
+        1009,
+        1534
+      ],
+      "size": [
+        996,
+        1534
+      ],
+      "anchor": [
+        497.5,
+        766.5
+      ],
+      "reused": true
+    },
+    "swords-index": {
+      "path": "sources/components/tarot/review-v1/swords-index-mask.png",
+      "sha256": "12defc657ea01e24d11f73c59f1cdd156d71eefa25974b0323d25c0418b16485",
+      "size": [
+        160,
+        160
+      ],
+      "anchor": [
+        79.5,
+        79.5
+      ],
+      "source": "code-native glyph in scripts/tarot_review.py",
+      "reused": true
+    },
+    "cups-index": {
+      "path": "sources/components/tarot/review-v1/cups-index-mask.png",
+      "sha256": "5e95138b1343758f46785a862331604b85e62c35310e6f2a3e5010a4f25998af",
+      "size": [
+        160,
+        160
+      ],
+      "anchor": [
+        79.5,
+        79.5
+      ],
+      "source": "code-native glyph in scripts/tarot_review.py",
+      "reused": true
+    },
+    "trumps-index": {
+      "path": "sources/components/tarot/review-v1/trumps-index-mask.png",
+      "sha256": "457b9cea1e63ca27341012b53fddc47cd83dfcecd2f576f3294f22f94312eb65",
+      "size": [
+        160,
+        160
+      ],
+      "anchor": [
+        79.5,
+        79.5
+      ],
+      "source": "code-native glyph in scripts/tarot_review.py",
+      "reused": true
+    }
+  },
+  "inspection_sheets": [
+    "work/tarot-full-assets-v1/suit-masters.jpg",
+    "work/tarot-full-assets-v1/courts.jpg",
+    "work/tarot-full-assets-v1/trumps-00-10.jpg",
+    "work/tarot-full-assets-v1/trumps-11-21.jpg"
+  ],
+  "mechanical_warnings": [],
+  "prompt_file": "sources/generated/tarot-full-assets-v1/actual-prompts.json",
+  "prompt_sha256": "84239036abd7c77247b73f50124762ca7c0723c0f2fd6df49bdab952afa1cb8a",
+  "selection_file": "sources/generated/tarot-full-assets-v1/asset-selections.json",
+  "selection_sha256": "f4fcdc3db33bea99802e7a90cef448f28d2f9de11869c7288359839c099a7050"
+}

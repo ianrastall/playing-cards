@@ -1,0 +1,399 @@
+{
+  "tool": "built-in image_gen",
+  "status": "planned",
+  "jobs": [
+    {
+      "id": "batons-master",
+      "kind": "suit-master",
+      "subject": "One isolated straight slender wooden staff, upright, with warm carved wood grain, fine antique gold collars and olive leaf shoots near the top only. Complete tip and base, narrow consistent shaft suitable for repeated crossed arrangements. No hand or figure.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/sword-straight.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. One isolated straight slender wooden staff, upright, with warm carved wood grain, fine antique gold collars and olive leaf shoots near the top only. Complete tip and base, narrow consistent shaft suitable for repeated crossed arrangements. No hand or figure."
+    },
+    {
+      "id": "cups-master",
+      "kind": "suit-master",
+      "subject": "One isolated ornate LIDDED golden chalice, front view, completely visible including lid finial, bowl, stem and foot. Match the painted vessel in the Queen reference; fine Safavid arabesque, restrained madder-red enamel, tiny turquoise jewel. Balanced symmetrical silhouette, no hands or person.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/queen-cups.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. One isolated ornate LIDDED golden chalice, front view, completely visible including lid finial, bowl, stem and foot. Match the painted vessel in the Queen reference; fine Safavid arabesque, restrained madder-red enamel, tiny turquoise jewel. Balanced symmetrical silhouette, no hands or person."
+    },
+    {
+      "id": "coins-master",
+      "kind": "suit-master",
+      "subject": "One isolated perfectly round golden coin/disc seen straight-on, circular silhouette. Central radiant sun rosette surrounded by fine Safavid arabesque and restrained olive/madder inlays, matte engraved antique gold. No face, text, number, monetary mark, crown, person or perspective tilt. Entire disc with padding.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/sword-straight.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. One isolated perfectly round golden coin/disc seen straight-on, circular silhouette. Central radiant sun rosette surrounded by fine Safavid arabesque and restrained olive/madder inlays, matte engraved antique gold. No face, text, number, monetary mark, crown, person or perspective tilt. Entire disc with padding."
+    },
+    {
+      "id": "page-of-swords",
+      "kind": "court",
+      "subject": "A young ADULT page, standing in a poised attentive stance, full figure, holding the suit emblem prominently. Fine simple circlet or soft ceremonial cap, no royal crown. Youthful dignity, visibly distinct from the rulers. Suit: SWORDS. Emblem: straight sword with turquoise engraved steel and antique gold hilt. Palette emphasis: turquoise detailing and madder red robes. No other suit emblems.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A young ADULT page, standing in a poised attentive stance, full figure, holding the suit emblem prominently. Fine simple circlet or soft ceremonial cap, no royal crown. Youthful dignity, visibly distinct from the rulers. Suit: SWORDS. Emblem: straight sword with turquoise engraved steel and antique gold hilt. Palette emphasis: turquoise detailing and madder red robes. No other suit emblems."
+    },
+    {
+      "id": "knight-of-swords",
+      "kind": "court",
+      "subject": "An adult knight in ornamental engraved armor, mounted on one fully visible horse in a calm poised walking stance. Horse in three-quarter side view, correct four-legged anatomy, full hooves and head in frame. Knight upright, holding the suit emblem prominently; human hands naturally positioned. Compact tall composition, legs and horse not cropped. Suit: SWORDS. Emblem: straight sword with turquoise engraved steel and antique gold hilt. Palette emphasis: turquoise detailing and madder red robes. No other suit emblems.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. An adult knight in ornamental engraved armor, mounted on one fully visible horse in a calm poised walking stance. Horse in three-quarter side view, correct four-legged anatomy, full hooves and head in frame. Knight upright, holding the suit emblem prominently; human hands naturally positioned. Compact tall composition, legs and horse not cropped. Suit: SWORDS. Emblem: straight sword with turquoise engraved steel and antique gold hilt. Palette emphasis: turquoise detailing and madder red robes. No other suit emblems."
+    },
+    {
+      "id": "queen-of-swords",
+      "kind": "court",
+      "subject": "A mature regal queen seated on an ornate throne, full upright figure and crown visible, holding the suit emblem prominently. Distinct mature face and hairstyle from the reference queen; natural hands. Decorative foreground appropriate to the suit. Suit: SWORDS. Emblem: straight sword with turquoise engraved steel and antique gold hilt. Palette emphasis: turquoise detailing and madder red robes. No other suit emblems.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/queen-cups.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A mature regal queen seated on an ornate throne, full upright figure and crown visible, holding the suit emblem prominently. Distinct mature face and hairstyle from the reference queen; natural hands. Decorative foreground appropriate to the suit. Suit: SWORDS. Emblem: straight sword with turquoise engraved steel and antique gold hilt. Palette emphasis: turquoise detailing and madder red robes. No other suit emblems."
+    },
+    {
+      "id": "king-of-swords",
+      "kind": "court",
+      "subject": "A mature bearded king seated on an ornate throne, full upright crowned figure visible, dignified expression, holding the suit emblem prominently. Natural hands and proportionate anatomy, an individual composition. Suit: SWORDS. Emblem: straight sword with turquoise engraved steel and antique gold hilt. Palette emphasis: turquoise detailing and madder red robes. No other suit emblems.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A mature bearded king seated on an ornate throne, full upright crowned figure visible, dignified expression, holding the suit emblem prominently. Natural hands and proportionate anatomy, an individual composition. Suit: SWORDS. Emblem: straight sword with turquoise engraved steel and antique gold hilt. Palette emphasis: turquoise detailing and madder red robes. No other suit emblems."
+    },
+    {
+      "id": "page-of-batons",
+      "kind": "court",
+      "subject": "A young ADULT page, standing in a poised attentive stance, full figure, holding the suit emblem prominently. Fine simple circlet or soft ceremonial cap, no royal crown. Youthful dignity, visibly distinct from the rulers. Suit: BATONS. Emblem: one straight wooden staff with carved gold collars and small olive shoots. Palette emphasis: olive robes and restrained madder red details. No other suit emblems.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A young ADULT page, standing in a poised attentive stance, full figure, holding the suit emblem prominently. Fine simple circlet or soft ceremonial cap, no royal crown. Youthful dignity, visibly distinct from the rulers. Suit: BATONS. Emblem: one straight wooden staff with carved gold collars and small olive shoots. Palette emphasis: olive robes and restrained madder red details. No other suit emblems."
+    },
+    {
+      "id": "knight-of-batons",
+      "kind": "court",
+      "subject": "An adult knight in ornamental engraved armor, mounted on one fully visible horse in a calm poised walking stance. Horse in three-quarter side view, correct four-legged anatomy, full hooves and head in frame. Knight upright, holding the suit emblem prominently; human hands naturally positioned. Compact tall composition, legs and horse not cropped. Suit: BATONS. Emblem: one straight wooden staff with carved gold collars and small olive shoots. Palette emphasis: olive robes and restrained madder red details. No other suit emblems.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. An adult knight in ornamental engraved armor, mounted on one fully visible horse in a calm poised walking stance. Horse in three-quarter side view, correct four-legged anatomy, full hooves and head in frame. Knight upright, holding the suit emblem prominently; human hands naturally positioned. Compact tall composition, legs and horse not cropped. Suit: BATONS. Emblem: one straight wooden staff with carved gold collars and small olive shoots. Palette emphasis: olive robes and restrained madder red details. No other suit emblems."
+    },
+    {
+      "id": "queen-of-batons",
+      "kind": "court",
+      "subject": "A mature regal queen seated on an ornate throne, full upright figure and crown visible, holding the suit emblem prominently. Distinct mature face and hairstyle from the reference queen; natural hands. Decorative foreground appropriate to the suit. Suit: BATONS. Emblem: one straight wooden staff with carved gold collars and small olive shoots. Palette emphasis: olive robes and restrained madder red details. No other suit emblems.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/queen-cups.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A mature regal queen seated on an ornate throne, full upright figure and crown visible, holding the suit emblem prominently. Distinct mature face and hairstyle from the reference queen; natural hands. Decorative foreground appropriate to the suit. Suit: BATONS. Emblem: one straight wooden staff with carved gold collars and small olive shoots. Palette emphasis: olive robes and restrained madder red details. No other suit emblems."
+    },
+    {
+      "id": "king-of-batons",
+      "kind": "court",
+      "subject": "A mature bearded king seated on an ornate throne, full upright crowned figure visible, dignified expression, holding the suit emblem prominently. Natural hands and proportionate anatomy, an individual composition. Suit: BATONS. Emblem: one straight wooden staff with carved gold collars and small olive shoots. Palette emphasis: olive robes and restrained madder red details. No other suit emblems.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A mature bearded king seated on an ornate throne, full upright crowned figure visible, dignified expression, holding the suit emblem prominently. Natural hands and proportionate anatomy, an individual composition. Suit: BATONS. Emblem: one straight wooden staff with carved gold collars and small olive shoots. Palette emphasis: olive robes and restrained madder red details. No other suit emblems."
+    },
+    {
+      "id": "page-of-cups",
+      "kind": "court",
+      "subject": "A young ADULT page, standing in a poised attentive stance, full figure, holding the suit emblem prominently. Fine simple circlet or soft ceremonial cap, no royal crown. Youthful dignity, visibly distinct from the rulers. Suit: CUPS. Emblem: one ornate LIDDED golden chalice. Palette emphasis: madder red robes with olive detail. No other suit emblems.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A young ADULT page, standing in a poised attentive stance, full figure, holding the suit emblem prominently. Fine simple circlet or soft ceremonial cap, no royal crown. Youthful dignity, visibly distinct from the rulers. Suit: CUPS. Emblem: one ornate LIDDED golden chalice. Palette emphasis: madder red robes with olive detail. No other suit emblems."
+    },
+    {
+      "id": "knight-of-cups",
+      "kind": "court",
+      "subject": "An adult knight in ornamental engraved armor, mounted on one fully visible horse in a calm poised walking stance. Horse in three-quarter side view, correct four-legged anatomy, full hooves and head in frame. Knight upright, holding the suit emblem prominently; human hands naturally positioned. Compact tall composition, legs and horse not cropped. Suit: CUPS. Emblem: one ornate LIDDED golden chalice. Palette emphasis: madder red robes with olive detail. No other suit emblems.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. An adult knight in ornamental engraved armor, mounted on one fully visible horse in a calm poised walking stance. Horse in three-quarter side view, correct four-legged anatomy, full hooves and head in frame. Knight upright, holding the suit emblem prominently; human hands naturally positioned. Compact tall composition, legs and horse not cropped. Suit: CUPS. Emblem: one ornate LIDDED golden chalice. Palette emphasis: madder red robes with olive detail. No other suit emblems."
+    },
+    {
+      "id": "king-of-cups",
+      "kind": "court",
+      "subject": "A mature bearded king seated on an ornate throne, full upright crowned figure visible, dignified expression, holding the suit emblem prominently. Natural hands and proportionate anatomy, an individual composition. Suit: CUPS. Emblem: one ornate LIDDED golden chalice. Palette emphasis: madder red robes with olive detail. No other suit emblems.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A mature bearded king seated on an ornate throne, full upright crowned figure visible, dignified expression, holding the suit emblem prominently. Natural hands and proportionate anatomy, an individual composition. Suit: CUPS. Emblem: one ornate LIDDED golden chalice. Palette emphasis: madder red robes with olive detail. No other suit emblems."
+    },
+    {
+      "id": "page-of-coins",
+      "kind": "court",
+      "subject": "A young ADULT page, standing in a poised attentive stance, full figure, holding the suit emblem prominently. Fine simple circlet or soft ceremonial cap, no royal crown. Youthful dignity, visibly distinct from the rulers. Suit: COINS. Emblem: one round radiant golden disc with arabesque engraving, no lettering. Palette emphasis: antique gold and olive robes with restrained madder details. No other suit emblems.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A young ADULT page, standing in a poised attentive stance, full figure, holding the suit emblem prominently. Fine simple circlet or soft ceremonial cap, no royal crown. Youthful dignity, visibly distinct from the rulers. Suit: COINS. Emblem: one round radiant golden disc with arabesque engraving, no lettering. Palette emphasis: antique gold and olive robes with restrained madder details. No other suit emblems."
+    },
+    {
+      "id": "knight-of-coins",
+      "kind": "court",
+      "subject": "An adult knight in ornamental engraved armor, mounted on one fully visible horse in a calm poised walking stance. Horse in three-quarter side view, correct four-legged anatomy, full hooves and head in frame. Knight upright, holding the suit emblem prominently; human hands naturally positioned. Compact tall composition, legs and horse not cropped. Suit: COINS. Emblem: one round radiant golden disc with arabesque engraving, no lettering. Palette emphasis: antique gold and olive robes with restrained madder details. No other suit emblems.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. An adult knight in ornamental engraved armor, mounted on one fully visible horse in a calm poised walking stance. Horse in three-quarter side view, correct four-legged anatomy, full hooves and head in frame. Knight upright, holding the suit emblem prominently; human hands naturally positioned. Compact tall composition, legs and horse not cropped. Suit: COINS. Emblem: one round radiant golden disc with arabesque engraving, no lettering. Palette emphasis: antique gold and olive robes with restrained madder details. No other suit emblems."
+    },
+    {
+      "id": "queen-of-coins",
+      "kind": "court",
+      "subject": "A mature regal queen seated on an ornate throne, full upright figure and crown visible, holding the suit emblem prominently. Distinct mature face and hairstyle from the reference queen; natural hands. Decorative foreground appropriate to the suit. Suit: COINS. Emblem: one round radiant golden disc with arabesque engraving, no lettering. Palette emphasis: antique gold and olive robes with restrained madder details. No other suit emblems.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/queen-cups.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A mature regal queen seated on an ornate throne, full upright figure and crown visible, holding the suit emblem prominently. Distinct mature face and hairstyle from the reference queen; natural hands. Decorative foreground appropriate to the suit. Suit: COINS. Emblem: one round radiant golden disc with arabesque engraving, no lettering. Palette emphasis: antique gold and olive robes with restrained madder details. No other suit emblems."
+    },
+    {
+      "id": "king-of-coins",
+      "kind": "court",
+      "subject": "A mature bearded king seated on an ornate throne, full upright crowned figure visible, dignified expression, holding the suit emblem prominently. Natural hands and proportionate anatomy, an individual composition. Suit: COINS. Emblem: one round radiant golden disc with arabesque engraving, no lettering. Palette emphasis: antique gold and olive robes with restrained madder details. No other suit emblems.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A mature bearded king seated on an ornate throne, full upright crowned figure visible, dignified expression, holding the suit emblem prominently. Natural hands and proportionate anatomy, an individual composition. Suit: COINS. Emblem: one round radiant golden disc with arabesque engraving, no lettering. Palette emphasis: antique gold and olive robes with restrained madder details. No other suit emblems."
+    },
+    {
+      "id": "the-fool",
+      "kind": "trump",
+      "number": 0,
+      "title": "THE FOOL",
+      "subject": "A cheerful young adult traveler in patterned tunic stepping lightly beside a small isolated rocky ledge, carrying a small bundle on a staff over one shoulder and a white flower. One small alert dog beside the ankles. A small radiant sun emblem above. Complete upright figure, playful innocence, no text.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A cheerful young adult traveler in patterned tunic stepping lightly beside a small isolated rocky ledge, carrying a small bundle on a staff over one shoulder and a white flower. One small alert dog beside the ankles. A small radiant sun emblem above. Complete upright figure, playful innocence, no text."
+    },
+    {
+      "id": "the-magician",
+      "kind": "trump",
+      "number": 1,
+      "title": "THE MAGICIAN",
+      "subject": "One adult magician standing behind a small ornate table, one hand raising a slender wand and the other pointing downward. On the table exactly one cup, one coin, one sword and one baton, clearly separated. Infinity loop ornament above the head, red flowers at base. Entire table and figure visible.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. One adult magician standing behind a small ornate table, one hand raising a slender wand and the other pointing downward. On the table exactly one cup, one coin, one sword and one baton, clearly separated. Infinity loop ornament above the head, red flowers at base. Entire table and figure visible."
+    },
+    {
+      "id": "the-high-priestess",
+      "kind": "trump",
+      "number": 2,
+      "title": "THE HIGH PRIESTESS",
+      "subject": "A serene adult priestess seated between two freestanding narrow columns, one dark and one light, with NO lettering. Lunar diadem, closed scroll held on lap, a crescent at her feet and a small pomegranate-patterned textile veil behind the throne, contained within the silhouette. Full figure.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A serene adult priestess seated between two freestanding narrow columns, one dark and one light, with NO lettering. Lunar diadem, closed scroll held on lap, a crescent at her feet and a small pomegranate-patterned textile veil behind the throne, contained within the silhouette. Full figure."
+    },
+    {
+      "id": "the-emperor",
+      "kind": "trump",
+      "number": 4,
+      "title": "THE EMPEROR",
+      "subject": "A mature bearded emperor in a rich red robe over ornamental armor, seated firmly on a stone throne with ram-head finials. Crown, upright scepter in one hand, gold orb in the other. Stern composed bearing, complete boots and throne visible. Sparse isolated rocky base.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A mature bearded emperor in a rich red robe over ornamental armor, seated firmly on a stone throne with ram-head finials. Crown, upright scepter in one hand, gold orb in the other. Stern composed bearing, complete boots and throne visible. Sparse isolated rocky base."
+    },
+    {
+      "id": "the-hierophant",
+      "kind": "trump",
+      "number": 5,
+      "title": "THE HIEROPHANT",
+      "subject": "A dignified elder spiritual teacher seated on a throne wearing an elaborate tiered ceremonial crown and patterned robes, one hand raised in blessing and the other holding a staff with three crossbars. Two small adult acolytes kneel in the lower foreground, and two crossed keys at the base. Balanced sacred allegory, full figures, no lettering.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A dignified elder spiritual teacher seated on a throne wearing an elaborate tiered ceremonial crown and patterned robes, one hand raised in blessing and the other holding a staff with three crossbars. Two small adult acolytes kneel in the lower foreground, and two crossed keys at the base. Balanced sacred allegory, full figures, no lettering."
+    },
+    {
+      "id": "the-lovers",
+      "kind": "trump",
+      "number": 6,
+      "title": "THE LOVERS",
+      "subject": "Two clearly adult lovers, a woman and man in flowing modest patterned garments, facing one another beneath a benevolent winged angel. A small flowering tree and a small fruiting tree frame their lower bodies as isolated botanical elements. Affection and choice, natural anatomy, complete figures, no scenery rectangle.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. Two clearly adult lovers, a woman and man in flowing modest patterned garments, facing one another beneath a benevolent winged angel. A small flowering tree and a small fruiting tree frame their lower bodies as isolated botanical elements. Affection and choice, natural anatomy, complete figures, no scenery rectangle."
+    },
+    {
+      "id": "the-chariot",
+      "kind": "trump",
+      "number": 7,
+      "title": "THE CHARIOT",
+      "subject": "One crowned armored adult charioteer upright in a small ornate chariot beneath a compact star-pattern canopy. Two clearly separate seated sphinxes, one dark and one ivory, in the foreground. Natural proportions, wheels visible, a staff held upright; complete compact composition, no landscape.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. One crowned armored adult charioteer upright in a small ornate chariot beneath a compact star-pattern canopy. Two clearly separate seated sphinxes, one dark and one ivory, in the foreground. Natural proportions, wheels visible, a staff held upright; complete compact composition, no landscape."
+    },
+    {
+      "id": "strength",
+      "kind": "trump",
+      "number": 8,
+      "title": "STRENGTH",
+      "subject": "A calm adult woman in flowing ivory and madder robes gently resting both hands on a lion's head, compassionate rather than forceful. One complete golden lion with a flowing mane, all paws visible, small infinity loop above the woman's head. Sparse olive foliage at base, complete upright composition.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A calm adult woman in flowing ivory and madder robes gently resting both hands on a lion's head, compassionate rather than forceful. One complete golden lion with a flowing mane, all paws visible, small infinity loop above the woman's head. Sparse olive foliage at base, complete upright composition."
+    },
+    {
+      "id": "the-hermit",
+      "kind": "trump",
+      "number": 9,
+      "title": "THE HERMIT",
+      "subject": "An elderly bearded traveler in a long olive and ivory hooded robe, holding a raised golden lantern containing a small six-point star light, and a long walking staff in the other hand. Full figure on a tiny isolated rocky base, thoughtful introspection, no surrounding night sky.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. An elderly bearded traveler in a long olive and ivory hooded robe, holding a raised golden lantern containing a small six-point star light, and a long walking staff in the other hand. Full figure on a tiny isolated rocky base, thoughtful introspection, no surrounding night sky."
+    },
+    {
+      "id": "wheel-of-fortune",
+      "kind": "trump",
+      "number": 10,
+      "title": "WHEEL OF FORTUNE",
+      "subject": "One large ornate golden eight-spoked wheel centered in a tall field, a small crowned sphinx perched above, a stylized serpent descending one side and a jackal-headed allegorical figure ascending the other. Four small winged emblems around the wheel: human, eagle, lion and bull. Fine mechanical clarity, balanced separated silhouettes. No text, letters or inscriptions on the wheel.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. One large ornate golden eight-spoked wheel centered in a tall field, a small crowned sphinx perched above, a stylized serpent descending one side and a jackal-headed allegorical figure ascending the other. Four small winged emblems around the wheel: human, eagle, lion and bull. Fine mechanical clarity, balanced separated silhouettes. No text, letters or inscriptions on the wheel."
+    },
+    {
+      "id": "justice",
+      "kind": "trump",
+      "number": 11,
+      "title": "JUSTICE",
+      "subject": "A composed crowned adult woman seated frontally on a throne, holding one straight sword perfectly upright and a clearly balanced two-pan scale in the other hand. Madder robes and olive textile, symmetrical dignified composition, full feet and throne visible. Scale pans separate and equal.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A composed crowned adult woman seated frontally on a throne, holding one straight sword perfectly upright and a clearly balanced two-pan scale in the other hand. Madder robes and olive textile, symmetrical dignified composition, full feet and throne visible. Scale pans separate and equal."
+    },
+    {
+      "id": "the-hanged-man",
+      "kind": "trump",
+      "number": 12,
+      "title": "THE HANGED MAN",
+      "subject": "One serene adult man suspended upside down by ONE ankle from a simple leafy wooden T-shaped support. Other knee bent with that leg crossing behind, hands calmly behind his back. Clear peaceful expression and small gold halo around his inverted head, fully clothed in patterned garments. Nonviolent allegorical suspension, no injury, no neck rope, whole support and figure visible.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. One serene adult man suspended upside down by ONE ankle from a simple leafy wooden T-shaped support. Other knee bent with that leg crossing behind, hands calmly behind his back. Clear peaceful expression and small gold halo around his inverted head, fully clothed in patterned garments. Nonviolent allegorical suspension, no injury, no neck rope, whole support and figure visible."
+    },
+    {
+      "id": "death",
+      "kind": "trump",
+      "number": 13,
+      "title": "DEATH",
+      "subject": "An allegorical skeletal rider in dark engraved armor on one complete pale horse, carrying a black banner with one ivory five-petalled rose and no lettering. A fallen crown and fresh green shoot at the feet symbolize transition. Calm processional mood, no corpses, gore, injury or violence. Whole horse and rider visible.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. An allegorical skeletal rider in dark engraved armor on one complete pale horse, carrying a black banner with one ivory five-petalled rose and no lettering. A fallen crown and fresh green shoot at the feet symbolize transition. Calm processional mood, no corpses, gore, injury or violence. Whole horse and rider visible."
+    },
+    {
+      "id": "temperance",
+      "kind": "trump",
+      "number": 14,
+      "title": "TEMPERANCE",
+      "subject": "One serene adult winged angel in ivory robes with restrained madder and gold trim, pouring a clearly visible slender stream between TWO golden cups held at different heights. One foot on a small stone and one in a shallow isolated pool, irises beside the feet. Complete wings, hands and feet, balanced tall composition.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. One serene adult winged angel in ivory robes with restrained madder and gold trim, pouring a clearly visible slender stream between TWO golden cups held at different heights. One foot on a small stone and one in a shallow isolated pool, irises beside the feet. Complete wings, hands and feet, balanced tall composition."
+    },
+    {
+      "id": "the-devil",
+      "kind": "trump",
+      "number": 15,
+      "title": "THE DEVIL",
+      "subject": "An allegorical horned goat-headed winged figure seated on a small dark plinth, one hand lifted and the other holding a downward torch. Two clearly adult human attendants in modest flowing garments stand on either side with loose removable chains at their wrists. Symbolic temptation and bondage, no gore, injury, sexual content or lettering. Entire figures and wings visible.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. An allegorical horned goat-headed winged figure seated on a small dark plinth, one hand lifted and the other holding a downward torch. Two clearly adult human attendants in modest flowing garments stand on either side with loose removable chains at their wrists. Symbolic temptation and bondage, no gore, injury, sexual content or lettering. Entire figures and wings visible."
+    },
+    {
+      "id": "the-tower",
+      "kind": "trump",
+      "number": 16,
+      "title": "THE TOWER",
+      "subject": "A tall freestanding stone tower with a gold crown-shaped roof dislodged by a clear jagged gold lightning bolt. Stylized small flames and two fully clothed adult figures falling through open space at its sides, no injury detail. Isolated rocky base, distinct readable tower silhouette, no enclosing sky rectangle or written symbols.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A tall freestanding stone tower with a gold crown-shaped roof dislodged by a clear jagged gold lightning bolt. Stylized small flames and two fully clothed adult figures falling through open space at its sides, no injury detail. Isolated rocky base, distinct readable tower silhouette, no enclosing sky rectangle or written symbols."
+    },
+    {
+      "id": "the-star",
+      "kind": "trump",
+      "number": 17,
+      "title": "THE STAR",
+      "subject": "One serene adult woman kneeling beside a small isolated pool, draped in an elegant ivory cloth with gold edging, pouring water from TWO vessels, one into the pool and one onto the ground. ONE large eight-point gold star above with seven smaller stars, sparse olive foliage. Complete natural anatomy, graceful hopeful composition, transparent space between stars.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. One serene adult woman kneeling beside a small isolated pool, draped in an elegant ivory cloth with gold edging, pouring water from TWO vessels, one into the pool and one onto the ground. ONE large eight-point gold star above with seven smaller stars, sparse olive foliage. Complete natural anatomy, graceful hopeful composition, transparent space between stars."
+    },
+    {
+      "id": "the-moon",
+      "kind": "trump",
+      "number": 18,
+      "title": "THE MOON",
+      "subject": "A large gold moon disc bearing a gentle face above two narrow distant-looking freestanding towers. Below, one dog and one wolf face upward on either side of a small winding path; one crayfish emerges from a small pool at the base. Isolated symbolic elements linked by subtle olive plants, tall coherent composition, no rectangular night sky.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. A large gold moon disc bearing a gentle face above two narrow distant-looking freestanding towers. Below, one dog and one wolf face upward on either side of a small winding path; one crayfish emerges from a small pool at the base. Isolated symbolic elements linked by subtle olive plants, tall coherent composition, no rectangular night sky."
+    },
+    {
+      "id": "the-sun",
+      "kind": "trump",
+      "number": 19,
+      "title": "THE SUN",
+      "subject": "One great radiant golden sun with a gentle face above a joyful fully clothed young child riding a complete calm white horse, holding a flowing madder-red banner without lettering. A low row of four large sunflowers and a small wall fragment behind the horse, all isolated on transparency. Bright warmth in restrained palette, safe natural pose and correct horse anatomy.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. One great radiant golden sun with a gentle face above a joyful fully clothed young child riding a complete calm white horse, holding a flowing madder-red banner without lettering. A low row of four large sunflowers and a small wall fragment behind the horse, all isolated on transparency. Bright warmth in restrained palette, safe natural pose and correct horse anatomy."
+    },
+    {
+      "id": "judgement",
+      "kind": "trump",
+      "number": 20,
+      "title": "JUDGEMENT",
+      "subject": "One benevolent winged adult angel above sounding a long golden trumpet with a small ivory banner bearing a simple madder cross. Below, three adult figures in modest ivory and madder robes rise upright from three simple open stone coffers with arms lifted in awakening. Peaceful allegory of renewal, no gore, full figures, transparent gaps, no words.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. One benevolent winged adult angel above sounding a long golden trumpet with a small ivory banner bearing a simple madder cross. Below, three adult figures in modest ivory and madder robes rise upright from three simple open stone coffers with arms lifted in awakening. Peaceful allegory of renewal, no gore, full figures, transparent gaps, no words."
+    },
+    {
+      "id": "the-world",
+      "kind": "trump",
+      "number": 21,
+      "title": "THE WORLD",
+      "subject": "One graceful adult woman draped in a flowing madder and ivory cloth, holding a slender baton in each hand, centered within an oval laurel wreath tied with small red ribbons. Four small symbolic heads outside the oval: human upper left, eagle upper right, bull lower left, lion lower right. Entire oval and all figures visible, finely controlled botanical symmetry, no lettering.",
+      "refs": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Produce ONE original reusable Tarot illustration asset, NOT a completed card or contact sheet. Match the reference artwork's fine dark Mucha contours, detailed matte antique-gold engraving, Morris botanical discipline and Persian Safavid-inspired textiles. Rich madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, restrained turquoise #2E9C9C; intended for ivory #FAEBD7. Reference is STYLE only: create the specified new subject with distinct pose and identity. Tall portrait, entire coherent subject visible, generous empty margins, especially upper left and lower right, no cut-off extremities. TRUE transparent RGBA background with clean cutout edges and transparent holes, no glow, cast shadow, mist, rectangle, paper texture, frame, side panels, letters, numbers, titles, signature, watermark, French suit signs or all-over background tracery. Keep identifying attributes readable. One graceful adult woman draped in a flowing madder and ivory cloth, holding a slender baton in each hand, centered within an oval laurel wreath tied with small red ribbons. Four small symbolic heads outside the oval: human upper left, eagle upper right, bull lower left, lion lower right. Entire oval and all figures visible, finely controlled botanical symmetry, no lettering."
+    }
+  ]
+}

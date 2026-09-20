@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "status": "complete; full deck render paused by user",
+  "tool": "built-in image_gen",
+  "planned": 39,
+  "generated": 39,
+  "remaining": [],
+  "results": [
+    {
+      "id": "cups-master",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/cups-master.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-bcaeaa7a-d9e2-4388-ab4c-09ffdadeb48c.png"
+    },
+    {
+      "id": "batons-master",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/batons-master.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-caf51fc5-65e4-429a-8023-7ee84a623109.png"
+    },
+    {
+      "id": "coins-master",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/coins-master.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-b531e405-3903-458a-9e90-7fa2948ebb21.png"
+    },
+    {
+      "id": "queen-of-swords",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/queen-of-swords.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-d87b3b9c-765c-4b35-b507-98a4db21a357.png"
+    },
+    {
+      "id": "page-of-swords",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/page-of-swords.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-0cda1016-46a9-41a7-be73-51b5c34423f7.png"
+    },
+    {
+      "id": "knight-of-swords",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/knight-of-swords.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-68c5ac64-e6ec-4ab3-bd2d-fca3c40c3355.png"
+    },
+    {
+      "id": "king-of-swords",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/king-of-swords.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-76ee06c9-269a-4b84-a34b-496c1d527e3a.png"
+    },
+    {
+      "id": "queen-of-batons",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/queen-of-batons.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-13ac68a7-ddc5-408c-819f-f14f3b503852.png"
+    },
+    {
+      "id": "page-of-batons",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/page-of-batons.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-1c2a7806-17fc-4595-96eb-aebf5687c99b.png"
+    },
+    {
+      "id": "knight-of-batons",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/knight-of-batons.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-4cb0ec90-fdd7-4299-b2f9-9fb05fceba42.png"
+    },
+    {
+      "id": "king-of-batons",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/king-of-batons.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-d48a3914-f060-45a9-8825-9c7a9a7ef44a.png"
+    },
+    {
+      "id": "king-of-cups",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/king-of-cups.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-a03384ba-7a4e-4873-9cba-b3f0c3357d2a.png"
+    },
+    {
+      "id": "page-of-coins",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/page-of-coins.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-a2bc34bc-ba08-4025-b408-6cc7963741f9.png"
+    },
+    {
+      "id": "knight-of-coins",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/knight-of-coins.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-a692ab06-8637-419b-bb7c-a0295e66dc82.png"
+    },
+    {
+      "id": "queen-of-coins",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/queen-of-coins.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-8f871238-b61b-410b-b0ff-28676d813744.png"
+    },
+    {
+      "id": "knight-of-cups",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/knight-of-cups.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-aca5c0c4-c7df-4971-97c3-f2c24bcafac6.png"
+    },
+    {
+      "id": "page-of-cups",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/page-of-cups.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-659b4d8e-a281-4fbb-8552-320576667df8.png"
+    },
+    {
+      "id": "king-of-coins",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/king-of-coins.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-a0baea59-8fd8-4664-924e-8a53d921a199.png"
+    },
+    {
+      "id": "the-high-priestess",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-high-priestess.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-48de8f94-e664-4433-b41c-42834b47ec5a.png"
+    },
+    {
+      "id": "the-emperor",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-emperor.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-9b92bd20-2ba9-4f19-a77f-af8b95bc435c.png"
+    },
+    {
+      "id": "the-hierophant",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-hierophant.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-3643afdc-730a-4dc0-b2db-fbf12de06143.png"
+    },
+    {
+      "id": "the-magician",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-magician.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-802574a3-2a8d-4a45-ad1a-8186a4ebdfed.png"
+    },
+    {
+      "id": "the-fool",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-fool.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-b01af3d9-c646-4666-aad2-69312bf73b94.png"
+    },
+    {
+      "id": "the-lovers",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-lovers.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-bce31718-2314-4448-adab-5b4b6f05cc98.png"
+    },
+    {
+      "id": "wheel-of-fortune",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/wheel-of-fortune.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-78655863-05cf-49d1-9fae-1b55bd0c9e9a.png"
+    },
+    {
+      "id": "the-chariot",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-chariot.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-c60123ce-0526-463a-83a4-6690676f531b.png"
+    },
+    {
+      "id": "the-hermit",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-hermit.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-6a6684d4-fd55-4830-9f4f-b623d04a3b11.png"
+    },
+    {
+      "id": "strength",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/strength.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-d885f74f-63e0-4e7f-bcf0-38ea273476fc.png"
+    },
+    {
+      "id": "justice",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/justice.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-ed6077bf-8f05-4b87-8c98-b0752345e50f.png"
+    },
+    {
+      "id": "temperance",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/temperance.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-d3524e6d-8ef1-48a2-91be-fb1bf815f7ed.png"
+    },
+    {
+      "id": "the-devil",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-devil.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-d9c21753-cd02-4fcb-a3b1-0539609d0c7e.png"
+    },
+    {
+      "id": "death",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/death.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-ce3a377a-9115-46e6-affa-5ecdd29daf8e.png"
+    },
+    {
+      "id": "the-hanged-man",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-hanged-man.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-15a7be30-33cf-48e9-8029-f2dd8cda4337.png"
+    },
+    {
+      "id": "the-tower",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-tower.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-db88b7df-fa23-42db-aab2-fcca7f4dcb1f.png"
+    },
+    {
+      "id": "the-sun",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-sun.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-e4defb59-76b2-45d6-8842-33446c00f42f.png"
+    },
+    {
+      "id": "judgement",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/judgement.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-84a74888-08b8-477e-883e-433fd12906ee.png"
+    },
+    {
+      "id": "the-moon",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-moon.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-683ff5f7-865d-4024-b657-bb9606f58dcc.png"
+    },
+    {
+      "id": "the-star",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-star.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-85428c46-99e4-404f-be76-a9c05198ce41.png"
+    },
+    {
+      "id": "the-world",
+      "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-world.png",
+      "generated_path": "C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-78b9a814-97b2-4a89-baa8-a34b1f43e6f0.png"
+    }
+  ],
+  "selected_revisions": [
+    {
+      "id": "knight-of-cups",
+      "source": "knight-of-cups-v2.png"
+    },
+    {
+      "id": "the-tower",
+      "source": "the-tower-v2.png"
+    },
+    {
+      "id": "judgement",
+      "source": "judgement-v2.png"
+    },
+    {
+      "id": "the-star",
+      "source": "the-star-v2.png"
+    }
+  ]
+}

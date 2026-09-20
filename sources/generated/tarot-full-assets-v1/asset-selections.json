@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "selections": {
+    "knight-of-cups": {
+      "id": "knight-of-cups",
+      "source": "knight-of-cups-v2.png",
+      "prompt": "Precise local edit of this Knight of Cups illustration. Remove ONLY the sheathed sword hanging at the knight's right hip (viewer right, from the little turquoise pommel beside his waist down along the red cloak). Replace that narrow area with continuous matching robe/cloak fabric and gold embroidery. The cup must remain the only suit emblem. Preserve the exact knight, face, hands, cup, armor, pose, horse and four legs, reins, composition, colors, fine linework, and all other ornaments. Keep genuinely transparent RGBA background and entire complete silhouette. No new objects, text, frame, shadow or crop.",
+      "references": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/knight-of-cups.png"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb as C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-c0492a9f-adc4-482a-8bfd-c0eecf075af3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    "the-tower": {
+      "id": "the-tower",
+      "source": "the-tower-v2.png",
+      "prompt": "Precise edit of this Tarot Tower asset: keep the artwork and composition, but bring the upper-left gold lightning bolt entirely INSIDE the image. Shorten only its remote upper-left tail to a finished sharp point with generous clear transparent margin above and left. Keep the lightning striking the crown, tower, debris, two falling adults, figures' anatomy and rocky base unchanged. No new elements, no text or border. Preserve true RGBA transparency and clean cutout.",
+      "references": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-tower.png"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb as C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-2ff470d5-70bd-4461-a5e0-d82d4c9f1de8.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    "judgement": {
+      "id": "judgement",
+      "source": "judgement-v2.png",
+      "prompt": "Precise edit of this Tarot Judgement asset. Preserve the angel, trumpet, cross banner, three awakening people, coffers, plants, fine antique illustration and colors. Reframe the complete composition slightly smaller with at least 50 pixels of clear TRANSPARENT padding on every side. Finish the trumpet bell and wings completely within the canvas; no clipping of any object. Do not change identities, pose, anatomy, symbols or count. Genuine transparent RGBA, no background, glow, text or border.",
+      "references": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/judgement.png"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb as C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-3e1231df-b564-415c-871b-b919e3216e75.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    "the-star": {
+      "id": "the-star",
+      "source": "the-star-v2.png",
+      "prompt": "Precise local edit to this Tarot Star illustration. It currently has ONE large eight-point star and SIX small stars. ADD exactly ONE matching small eight-point gold star in the open gap directly BELOW the large center star and ABOVE the woman's floral headpiece, between the two existing small stars in that region. The result must be ONE large star plus SEVEN small stars, eight stars total. Preserve all six existing small stars and the large star. Preserve the woman, face, pose, both vessels, water, plants, gown, colors, dimensions and transparent background unchanged. No other changes, new symbols or text. Genuine RGBA transparency.",
+      "references": [
+        "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/the-star.png"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb as C:\\Users\\Ian\\.codex\\generated_images\\01a0bb5c-570d-73d3-852f-fe41997741bb\\exec-dd536447-a78d-4932-97ea-3ee6a56d3b8e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  }
+}

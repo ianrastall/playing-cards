@@ -1,4 +1,4 @@
-# Design 1 Tarot: production brief and open choice
+# Design 1 Tarot: production brief
 
 The supplied *Tarot Card Standards and History* is preserved under
 `docs/reference/` in both supplied formats. It is background research, not
@@ -6,12 +6,17 @@ instructions. The user's design requirements take precedence: William Morris,
 Alphonse Mucha, and Persian Safavid influences, with faint gold tracery wherever
 open space permits.
 
-The Tarot tradition remains an open user choice: traditional Latin suits with
-ornamental pips, Rider–Waite–Smith narrative minors, or French-suited playing
-tarot. No Tarot faces have been placed in the active catalog. The recommended
-production route is ornamental Cups, Coins, Swords, and Batons because it
-supports the existing reusable-asset approach. That recommendation is not a
-recorded user decision.
+The working direction is ornamental Cups, Coins, Swords, and Batons. Supplied
+prompts and palette suggestions are references, not a record that the user
+personally reviewed or approved each choice. The user has explicitly requested
+reusable assets with recorded positioning and the existing small rank/symbol
+side panels. No Tarot faces have been placed in the active catalog.
+
+The current authoring plan is the
+[component and layout contract](tarot-component-layout-v1.md), with
+[component prompts and four-card review](tarot-review-set-v1.md). Palette,
+index abbreviations, numbering, and upright artwork defaults remain review
+proposals. Those documents supersede the earlier whole-card generation prompts.
 
 For the recommended route, the inventory is 40 ace/number cards, 16 courts
 (Page, Knight, Queen, King in each suit), and 22 trumps including the Fool.
@@ -34,11 +39,13 @@ double-square construction rule for Tarot illustration.
 
 ## Artwork system
 
-Create four high-resolution suit masters appropriate to the chosen tradition.
-Do not relabel French-suited assets. Each master should share Design 1's gold,
-ivory, red-flower, olive foliage, and turquoise-detail vocabulary. Build each
-number card from those masters at Tarot size, with intentionally chosen
-arrangements appropriate to its long symbols and narrow aspect ratio.
+Create four high-resolution suit component families, not necessarily just four
+images. Swords may need straight and curved variants; Ace crowns and foliage
+remain separate furniture. Do not relabel French-suited assets. Share Design 1's
+gold, ivory, red-flower, olive foliage, and turquoise-detail vocabulary. Build
+ace/number cards through code with explicit anchors, positions, scales,
+rotations, and overlap masks. Save these in a layout manifest, along with source
+hashes and expected counts. Never generate the complete Ten as one illustration.
 
 Create sixteen distinct court paintings and twenty-two distinct trump
 compositions. Their iconographic attributes must remain legible beneath the
@@ -47,12 +54,25 @@ as artistic influences rather than assertions about the historical identity
 of Tarot figures. Major titles, numbering, court labels, upright/reversible
 policy, and suit palette mapping belong in a dedicated Tarot manifest.
 
-Use the shared frame assets as components; the Tarot frame needs dedicated
-title/number treatment rather than stretching a Poker corner index into a
-title. Apply the same faint, masked gold background tracery in open spaces.
+Retain the shared botanical frame and its upper-left/lower-right rank/symbol
+panels. Pair indices by a half-turn even when the figure is upright. Typeset
+new Tarot indices within the measured panels; do not stretch French labels.
+The review proposal uses A/2–10/P/N/Q/K with suit glyphs, and 0–21 with a shared
+trump star. Full court/trump titles go below the illustration, separately from
+side indices; no extra top number cartouche is planned. Apply the same faint,
+masked gold background tracery in open spaces.
 Validate counts, title spelling, symbols, anatomy, placement, borders, and
 native dimensions before catalog promotion.
 
-The first representative review set should include a trump, a court, an ace,
-and a dense number card. Finalize the chosen Tarot tradition before scaling
-that art direction to all 78 cards.
+The first representative review set is The Empress, Queen of Cups, Ace of
+Swords, and Ten of Swords, assembled with the shared frame and side panels.
+Evaluate component reuse, layout, palette, indices, titles, and reversibility
+on these composites before scaling to all 78. The existing French renderer is
+an implementation reference. A separate four-card prototype now exists in
+`scripts/tarot_review.py`; see [review results](tarot-review-v1-results.md).
+Full-deck Tarot support remains to be built.
+
+The subsequent asset phase is complete: all 39 additional illustrations and
+both missing index glyphs are prepared. See the [full-run plan](tarot-full-run-plan-v1.md)
+and [asset results](tarot-full-assets-v1-results.md). The user requested a pause
+before the full rendering pass; that pass has not started.

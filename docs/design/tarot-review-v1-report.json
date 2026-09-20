@@ -1,0 +1,290 @@
+{
+  "status": "review-only",
+  "cards": [
+    {
+      "id": "the-empress",
+      "emblem_count": 0,
+      "artwork_pixels_outside_field": 0,
+      "index_pixels_outside_panels": 0,
+      "artwork_pixels_in_title_band": 0,
+      "transforms": {
+        "figure": {
+          "scale": 0.5990783410138248,
+          "top_left": [
+            110,
+            232
+          ],
+          "transformed_size": [
+            604,
+            910
+          ]
+        }
+      },
+      "crossings": [],
+      "path": "work/tarot-review-v1/the-empress.png",
+      "sha256": "18d3b07ce069e3f2009d4fda014d068a009a11ff2959f6ec95f7721175c2bd38"
+    },
+    {
+      "id": "queen-of-cups",
+      "emblem_count": 0,
+      "artwork_pixels_outside_field": 0,
+      "index_pixels_outside_panels": 0,
+      "artwork_pixels_in_title_band": 0,
+      "transforms": {
+        "figure": {
+          "scale": 0.60625814863103,
+          "top_left": [
+            110,
+            222
+          ],
+          "transformed_size": [
+            604,
+            930
+          ]
+        }
+      },
+      "crossings": [],
+      "path": "work/tarot-review-v1/queen-of-cups.png",
+      "sha256": "32e8352bf2e1979542a5cf1cf0b604212058c5a803a77499434e34731267c512"
+    },
+    {
+      "id": "ace-of-swords",
+      "emblem_count": 1,
+      "artwork_pixels_outside_field": 0,
+      "index_pixels_outside_panels": 0,
+      "artwork_pixels_in_title_band": 0,
+      "transforms": {
+        "sword-1": {
+          "scale": 0.6415343915343915,
+          "top_left": [
+            274,
+            278
+          ],
+          "transformed_size": [
+            276,
+            970
+          ]
+        },
+        "sprig-left": {
+          "scale": 0.2857142857142857,
+          "top_left": [
+            183,
+            234
+          ],
+          "transformed_size": [
+            215,
+            448
+          ]
+        },
+        "sprig-right": {
+          "scale": 0.2857142857142857,
+          "top_left": [
+            427,
+            234
+          ],
+          "transformed_size": [
+            215,
+            448
+          ]
+        },
+        "crown": {
+          "scale": 0.19104084321475626,
+          "top_left": [
+            272,
+            268
+          ],
+          "transformed_size": [
+            281,
+            145
+          ]
+        }
+      },
+      "crossings": [],
+      "path": "work/tarot-review-v1/ace-of-swords.png",
+      "sha256": "2016d1b049f0ca586b9dace96ed1fef292c194ea751a4920ab88bb9feb935c54"
+    },
+    {
+      "id": "ten-of-swords",
+      "emblem_count": 10,
+      "artwork_pixels_outside_field": 0,
+      "index_pixels_outside_panels": 0,
+      "artwork_pixels_in_title_band": 0,
+      "transforms": {
+        "sword-1": {
+          "scale": 0.29081295439524124,
+          "top_left": [
+            192,
+            128
+          ],
+          "transformed_size": [
+            346,
+            406
+          ]
+        },
+        "sword-2": {
+          "scale": 0.29081295439524124,
+          "top_left": [
+            288,
+            128
+          ],
+          "transformed_size": [
+            346,
+            406
+          ]
+        },
+        "sword-3": {
+          "scale": 0.29081295439524124,
+          "top_left": [
+            192,
+            318
+          ],
+          "transformed_size": [
+            346,
+            406
+          ]
+        },
+        "sword-4": {
+          "scale": 0.29081295439524124,
+          "top_left": [
+            288,
+            318
+          ],
+          "transformed_size": [
+            346,
+            406
+          ]
+        },
+        "sword-5": {
+          "scale": 0.291005291005291,
+          "top_left": [
+            179,
+            498
+          ],
+          "transformed_size": [
+            371,
+            424
+          ]
+        },
+        "sword-6": {
+          "scale": 0.291005291005291,
+          "top_left": [
+            275,
+            498
+          ],
+          "transformed_size": [
+            371,
+            424
+          ]
+        },
+        "sword-7": {
+          "scale": 0.29081295439524124,
+          "top_left": [
+            192,
+            698
+          ],
+          "transformed_size": [
+            346,
+            406
+          ]
+        },
+        "sword-8": {
+          "scale": 0.29081295439524124,
+          "top_left": [
+            288,
+            698
+          ],
+          "transformed_size": [
+            346,
+            406
+          ]
+        },
+        "sword-9": {
+          "scale": 0.29081295439524124,
+          "top_left": [
+            192,
+            888
+          ],
+          "transformed_size": [
+            346,
+            406
+          ]
+        },
+        "sword-10": {
+          "scale": 0.29081295439524124,
+          "top_left": [
+            288,
+            888
+          ],
+          "transformed_size": [
+            346,
+            406
+          ]
+        }
+      },
+      "crossings": [
+        {
+          "over": "sword-1",
+          "under": "sword-2",
+          "mask": "work/tarot-review-v1/crossings/sword-1-over-sword-2.png",
+          "bounds": [
+            397,
+            220,
+            429,
+            242
+          ],
+          "mask_pixel_sha256": "73e4b9d94fc7e9112728afe1d335300a828300533675d761c8e3c13b55d39377"
+        },
+        {
+          "over": "sword-4",
+          "under": "sword-3",
+          "mask": "work/tarot-review-v1/crossings/sword-4-over-sword-3.png",
+          "bounds": [
+            397,
+            410,
+            429,
+            432
+          ],
+          "mask_pixel_sha256": "dbff9e69d02a7f8d576304d3b25163e8c6d48ec1d4f8dae894bbee59eb6ff9bb"
+        },
+        {
+          "over": "sword-5",
+          "under": "sword-6",
+          "mask": "work/tarot-review-v1/crossings/sword-5-over-sword-6.png",
+          "bounds": [
+            398,
+            631,
+            427,
+            667
+          ],
+          "mask_pixel_sha256": "c460f46ae79f92c025fe767da94f609490f1ac43a5cf0b3b5e204a6cf057f73f"
+        },
+        {
+          "over": "sword-8",
+          "under": "sword-7",
+          "mask": "work/tarot-review-v1/crossings/sword-8-over-sword-7.png",
+          "bounds": [
+            397,
+            790,
+            429,
+            812
+          ],
+          "mask_pixel_sha256": "c53bdc1960257506e194eacb4eb06c0832cc6b3fe650cb81d546633641223fa8"
+        },
+        {
+          "over": "sword-9",
+          "under": "sword-10",
+          "mask": "work/tarot-review-v1/crossings/sword-9-over-sword-10.png",
+          "bounds": [
+            397,
+            980,
+            429,
+            1002
+          ],
+          "mask_pixel_sha256": "58b32018f6f9e26c7bd4220665354543381e89159f3c350672bc2198eb2e51ed"
+        }
+      ],
+      "path": "work/tarot-review-v1/ten-of-swords.png",
+      "sha256": "5a41a74b5b2f1417ef935041ef42ae84ab4d826a737046a036f10d1fc3b039c8"
+    }
+  ]
+}

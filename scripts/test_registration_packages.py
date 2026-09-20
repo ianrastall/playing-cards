@@ -30,8 +30,9 @@ class RegistrationPackageTests(unittest.TestCase):
             self.assertEqual(guide.getpixel((150+g['trim'][0],30)),poker.BLUE)
             self.assertEqual(guide.getpixel((g['guides'][0]-30,150+g['trim'][1])),poker.BLUE)
 
-    def test_tarot_is_not_packaged(self):
-        with self.assertRaises(ValueError): packages.geometry('tarot')
+    def test_tarot_geometry_is_packaged(self):
+        self.assertEqual(packages.geometry('tarot')['native'],[825,1425])
+        self.assertEqual(packages.geometry('tarot')['trim'],[1650,2850])
 
 
 if __name__=='__main__': unittest.main()

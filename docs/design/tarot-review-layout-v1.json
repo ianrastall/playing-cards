@@ -1,0 +1,477 @@
+{
+  "version": 1,
+  "status": "review-only",
+  "canvas": [
+    825,
+    1425
+  ],
+  "center": [
+    412,
+    712
+  ],
+  "coordinate_basis": "zero-based pixel centers",
+  "dpi": 300,
+  "corner_radius_mm": 3.5,
+  "components": {
+    "sword-straight": {
+      "path": "sources/components/tarot/review-v1/sword-straight.png",
+      "sha256": "85eecf90fbbb79b482ab293bbcbb5c0fa2b57102e1fd76cc7b4673ef04463235",
+      "source": "sources/generated/tarot-review-v1/sword-straight.png",
+      "source_sha256": "b26eabd66de9465060067bf08f79fc2a3fd83689216d127b880d60315356669a",
+      "crop": [
+        297,
+        12,
+        727,
+        1524
+      ],
+      "size": [
+        430,
+        1512
+      ],
+      "anchor": [
+        214.5,
+        755.5
+      ]
+    },
+    "sword-curved": {
+      "path": "sources/components/tarot/review-v1/sword-curved.png",
+      "sha256": "da219e13177f9cc520a9cb3727bb17ae365a0f13cdf57220bda335c8f4587637",
+      "source": "sources/generated/tarot-review-v1/sword-curved.png",
+      "source_sha256": "7822bd30df2b54d05539f3dedbad052e4752decd96dabb0a0dfdb85d58deffa0",
+      "crop": [
+        436,
+        11,
+        759,
+        1524
+      ],
+      "size": [
+        323,
+        1513
+      ],
+      "anchor": [
+        161.0,
+        756.0
+      ]
+    },
+    "ace-crown": {
+      "path": "sources/components/tarot/review-v1/ace-crown.png",
+      "sha256": "704290237a1a181c255d8279924c2ce737d328e0b069b08dd66d1e7a604590f2",
+      "source": "sources/generated/tarot-review-v1/ace-crown.png",
+      "source_sha256": "50098902358ddc9498a841f3711b923dd8adb262ed85e73bee952d368c4071b7",
+      "crop": [
+        33,
+        124,
+        1503,
+        883
+      ],
+      "size": [
+        1470,
+        759
+      ],
+      "anchor": [
+        734.5,
+        379.0
+      ]
+    },
+    "foliage": {
+      "path": "sources/components/tarot/review-v1/foliage.png",
+      "sha256": "400f181dfcf84b7f075bf4b89151c3d336d3e90cbc8da32b31a7fe318f47d92a",
+      "source": "sources/generated/tarot-review-v1/foliage.png",
+      "source_sha256": "de37a7793fc159fb0afa3df0720e30b228fa8a892d06f9581a3259cfbd9152ee",
+      "crop": [
+        288,
+        19,
+        733,
+        1524
+      ],
+      "size": [
+        445,
+        1505
+      ],
+      "anchor": [
+        222.0,
+        752.0
+      ]
+    },
+    "empress": {
+      "path": "sources/components/tarot/review-v1/empress.png",
+      "sha256": "33686dbce743ee48c81b0d312d2244d1f6593f22079c31539226333c0c336d13",
+      "source": "sources/generated/tarot-review-v1/empress.png",
+      "source_sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86",
+      "crop": [
+        8,
+        8,
+        1016,
+        1527
+      ],
+      "size": [
+        1008,
+        1519
+      ],
+      "anchor": [
+        503.5,
+        759.0
+      ]
+    },
+    "queen-cups": {
+      "path": "sources/components/tarot/review-v1/queen-cups.png",
+      "sha256": "290aafc3e85baa97973dba00de2a3d11e4a96b8234adfac6ef954b5f305809cc",
+      "source": "sources/generated/tarot-review-v1/queen-cups.png",
+      "source_sha256": "1453bd8b341957ee95421c5fbc9d7b582e2334d4476757c9caadd9593dc2d2e3",
+      "crop": [
+        13,
+        0,
+        1009,
+        1534
+      ],
+      "size": [
+        996,
+        1534
+      ],
+      "anchor": [
+        497.5,
+        766.5
+      ]
+    },
+    "swords-index": {
+      "path": "sources/components/tarot/review-v1/swords-index-mask.png",
+      "sha256": "12defc657ea01e24d11f73c59f1cdd156d71eefa25974b0323d25c0418b16485",
+      "size": [
+        160,
+        160
+      ],
+      "anchor": [
+        79.5,
+        79.5
+      ],
+      "source": "code-native glyph in scripts/tarot_review.py"
+    },
+    "cups-index": {
+      "path": "sources/components/tarot/review-v1/cups-index-mask.png",
+      "sha256": "5e95138b1343758f46785a862331604b85e62c35310e6f2a3e5010a4f25998af",
+      "size": [
+        160,
+        160
+      ],
+      "anchor": [
+        79.5,
+        79.5
+      ],
+      "source": "code-native glyph in scripts/tarot_review.py"
+    },
+    "trumps-index": {
+      "path": "sources/components/tarot/review-v1/trumps-index-mask.png",
+      "sha256": "457b9cea1e63ca27341012b53fddc47cd83dfcecd2f576f3294f22f94312eb65",
+      "size": [
+        160,
+        160
+      ],
+      "anchor": [
+        79.5,
+        79.5
+      ],
+      "source": "code-native glyph in scripts/tarot_review.py"
+    }
+  },
+  "cards": [
+    {
+      "id": "the-empress",
+      "title": "THE EMPRESS",
+      "index": "3",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "expected_emblems": 0,
+      "reversible": false,
+      "instances": [
+        {
+          "id": "figure",
+          "component": "empress",
+          "center": [
+            412,
+            687
+          ],
+          "height": 910,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "queen-of-cups",
+      "title": "QUEEN OF CUPS",
+      "index": "Q",
+      "glyph": "cups",
+      "ink": "madder-lake",
+      "expected_emblems": 0,
+      "reversible": false,
+      "instances": [
+        {
+          "id": "figure",
+          "component": "queen-cups",
+          "center": [
+            412,
+            687
+          ],
+          "height": 930,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "ace-of-swords",
+      "title": null,
+      "index": "A",
+      "glyph": "swords",
+      "ink": "lamp-black",
+      "expected_emblems": 1,
+      "reversible": false,
+      "instances": [
+        {
+          "id": "sword-1",
+          "component": "sword-straight",
+          "center": [
+            412,
+            763
+          ],
+          "height": 970,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "sprig-left",
+          "component": "foliage",
+          "center": [
+            290,
+            458
+          ],
+          "height": 430,
+          "rotation": 12,
+          "mirror": false,
+          "role": "furniture"
+        },
+        {
+          "id": "sprig-right",
+          "component": "foliage",
+          "center": [
+            534,
+            458
+          ],
+          "height": 430,
+          "rotation": -12,
+          "mirror": true,
+          "role": "furniture"
+        },
+        {
+          "id": "crown",
+          "component": "ace-crown",
+          "center": [
+            412,
+            340
+          ],
+          "height": 145,
+          "rotation": 0,
+          "mirror": false,
+          "role": "furniture"
+        }
+      ]
+    },
+    {
+      "id": "ten-of-swords",
+      "title": null,
+      "index": "10",
+      "glyph": "swords",
+      "ink": "lamp-black",
+      "expected_emblems": 10,
+      "reversible": false,
+      "instances": [
+        {
+          "id": "sword-1",
+          "component": "sword-curved",
+          "center": [
+            364,
+            330
+          ],
+          "height": 440,
+          "rotation": -38,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "sword-2",
+          "component": "sword-curved",
+          "center": [
+            460,
+            330
+          ],
+          "height": 440,
+          "rotation": 38,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "sword-3",
+          "component": "sword-curved",
+          "center": [
+            364,
+            520
+          ],
+          "height": 440,
+          "rotation": -38,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "sword-4",
+          "component": "sword-curved",
+          "center": [
+            460,
+            520
+          ],
+          "height": 440,
+          "rotation": 38,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "sword-5",
+          "component": "sword-straight",
+          "center": [
+            364,
+            710
+          ],
+          "height": 440,
+          "rotation": -38,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "sword-6",
+          "component": "sword-straight",
+          "center": [
+            460,
+            710
+          ],
+          "height": 440,
+          "rotation": 38,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "sword-7",
+          "component": "sword-curved",
+          "center": [
+            364,
+            900
+          ],
+          "height": 440,
+          "rotation": -38,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "sword-8",
+          "component": "sword-curved",
+          "center": [
+            460,
+            900
+          ],
+          "height": 440,
+          "rotation": 38,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "sword-9",
+          "component": "sword-curved",
+          "center": [
+            364,
+            1090
+          ],
+          "height": 440,
+          "rotation": -38,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "sword-10",
+          "component": "sword-curved",
+          "center": [
+            460,
+            1090
+          ],
+          "height": 440,
+          "rotation": 38,
+          "mirror": true,
+          "role": "emblem"
+        }
+      ],
+      "crossing_policy": "Five open crossed pairs; alternating over/under with saved local masks.",
+      "crossings": [
+        {
+          "over": "sword-1",
+          "under": "sword-2"
+        },
+        {
+          "over": "sword-4",
+          "under": "sword-3"
+        },
+        {
+          "over": "sword-5",
+          "under": "sword-6"
+        },
+        {
+          "over": "sword-8",
+          "under": "sword-7"
+        },
+        {
+          "over": "sword-9",
+          "under": "sword-10"
+        }
+      ]
+    }
+  ],
+  "shared_inputs": {
+    "sources/components/poker/v1/frame.png": "a8639367d9cdb3112cac251de13c99e4176047081f115b4c2fd6123aa9940efe",
+    "sources/components/poker/v1/field-mask.png": "1acbbb429eb81548bca479c7d0f2243543b5a07100a43511f48855af6d8846fd",
+    "sources/components/poker/v1/panel-mask.png": "5254e1c44e89218c29cdc1e69c5625c408e04f23156814f7f23a33327e2885cf",
+    "sources/components/front-tracery-v3/ornament-master.png": "804e34c7208339443608a91e40f1b05b2a11ae04fd0cea9927d1e27c06b07794",
+    "sources/components/front-tracery-v3/template.json": "1684ffdd7db6f8471e590bf1ee5bad4098872c44ff3e85a99e46562f68a3a736",
+    "sources/generated/tarot-review-v1/prompts.json": "9f18dd9ed90aa25b90602f3a6f0a07352d9d7b4b76474f4596fbef1ebfd7b73a"
+  },
+  "font": {
+    "path": "C:\\Windows\\Fonts\\timesbd.ttf",
+    "sha256": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5"
+  },
+  "transform_policy": "uniform scale from height, rounded dimensions; rotation bicubic expanded; nearest integral top-left from center",
+  "indices": {
+    "center_x": 78,
+    "rank_center_y": 166,
+    "rank_size": 76,
+    "wide_rank_size": 60,
+    "glyph_center": [
+      78,
+      252
+    ],
+    "glyph_size": [
+      43,
+      49
+    ],
+    "paired_rotation": 180
+  },
+  "title": {
+    "center": [
+      412,
+      1254
+    ],
+    "font_size": 35,
+    "rule_y": 1215,
+    "rule_x": [
+      225,
+      599
+    ]
+  }
+}

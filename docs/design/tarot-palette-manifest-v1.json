@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "status": "proposed",
+  "description": "Suit and trump color mapping for the Design 1 Latin-ornamental Tarot. Frame inks and the ground are exact values already used by the deck; accent targets are nominal art direction to be tuned against the first render. Titles, numbering, court labels, and upright/reversible policy are tracked separately and are not part of this palette manifest.",
+  "tradition": "latin-ornamental",
+  "decision_status": "Working proposal; supplied documents were not individually reviewed or approved by the user. Reusable components, recorded positioning, and the existing paired side panels are user requirements.",
+  "component_contract": "docs/design/tarot-component-layout-v1.md",
+  "component_path_status": "Planned component directories, not assertions that assets exist. Concrete component IDs, paths, anchors, and hashes belong in the future Tarot layout manifest.",
+  "authority": {
+    "exact": [
+      "ground",
+      "frame_inks"
+    ],
+    "nominal_targets_to_tune": [
+      "accents",
+      "suits[].accent",
+      "trumps.accent"
+    ]
+  },
+  "ground": {
+    "name": "antique-ivory",
+    "rgb": [250, 235, 215],
+    "hex": "#FAEBD7",
+    "source": "shared across the collection (numeral-layout-v1.json ground_rgb)"
+  },
+  "frame_inks": {
+    "source": "scripts/frame_palette.py GROUNDS (digital labels, not measured ink)",
+    "lamp-black": { "rgb": [5, 5, 5], "hex": "#050505" },
+    "madder-lake": { "rgb": [78, 9, 23], "hex": "#4E0917" },
+    "manganese-violet": { "rgb": [43, 16, 58], "hex": "#2B103A" },
+    "prussian-blue": { "rgb": [7, 29, 46], "hex": "#071D2E" },
+    "verdigris": { "rgb": [8, 53, 49], "hex": "#083531" }
+  },
+  "accents": {
+    "note": "Nominal art-direction targets for the shared Design 1 vocabulary; label-level, tune against the first approved render. Turquoise is also the registration-dot color detected by expand_faces.py.",
+    "antique-gold": { "rgb": [198, 161, 91], "hex": "#C6A15B", "role": "tracery, fine ornament, hilts, radiant discs" },
+    "madder-red": { "rgb": [158, 43, 59], "hex": "#9E2B3B", "role": "flowers" },
+    "olive": { "rgb": [110, 122, 58], "hex": "#6E7A3A", "role": "foliage" },
+    "turquoise": { "rgb": [46, 156, 156], "hex": "#2E9C9C", "role": "jewel and detail accents; registration dot" }
+  },
+  "suit_correspondence_rationale": "Proposed visual mapping for this deck: Swords=Spades, Batons=Clubs, Cups=Hearts, Coins=Diamonds. This carries Design 1's two frame inks into Tarot (frame_palette.face_color: madder-lake for hearts/diamonds, lamp-black otherwise); adopting this Tarot mapping remains a review decision.",
+  "suits": {
+    "swords": {
+      "emblem": "sword family: straight double-edged blade and curved variants for interlace",
+      "corresponds_to": "spades",
+      "frame_ink": "lamp-black",
+      "accent": "turquoise",
+      "component_directory": "sources/components/tarot/swords/",
+      "planned_components": ["straight", "curved", "optional-opposite-curve", "optional-tighter-curve"],
+      "furniture": ["separate-crown", "separate-foliage"]
+    },
+    "batons": {
+      "emblem": "wooden staff / baton",
+      "corresponds_to": "clubs",
+      "frame_ink": "lamp-black",
+      "accent": "olive",
+      "component_directory": "sources/components/tarot/batons/",
+      "planned_components": ["staff", "optional-crossing-variant"],
+      "furniture": ["separate-foliage"]
+    },
+    "cups": {
+      "emblem": "lidded chalice",
+      "corresponds_to": "hearts",
+      "frame_ink": "madder-lake",
+      "accent": "madder-red",
+      "component_directory": "sources/components/tarot/cups/",
+      "planned_components": ["lidded-chalice"]
+    },
+    "coins": {
+      "emblem": "radiant coin / disc",
+      "corresponds_to": "diamonds",
+      "frame_ink": "madder-lake",
+      "accent": "antique-gold",
+      "component_directory": "sources/components/tarot/coins/",
+      "planned_components": ["radiant-disc"]
+    }
+  },
+  "courts": {
+    "ranks": ["page", "knight", "queen", "king"],
+    "frame_ink_rule": "inherit the suit's frame_ink",
+    "accent_rule": "inherit the suit's accent"
+  },
+  "trumps": {
+    "count": 22,
+    "includes_fool": true,
+    "suit_neutral": true,
+    "frame_ink": "lamp-black",
+    "accent": "antique-gold",
+    "rationale": "Trumps belong to no suit, so they use the neutral black frame with gold ornament rather than a suit accent."
+  },
+  "reversibility_default": {
+    "courts": "upright-single-ended",
+    "trumps": "upright-single-ended",
+    "pip_numbers": "symmetric-where-master-allows",
+    "note": "Proposed defaults only; record per-card policy in the future Tarot production/layout manifest. Paired side indices rotate by 180 degrees independently of central artwork."
+  },
+  "excludes": {
+    "french_jokers": true,
+    "note": "The 78-card Tarot inventory does not include the two French-suited Jokers."
+  },
+  "open_decisions": [
+    "Review of the proposed tradition and color mapping on representative composites",
+    "Accent hex tuning against the first approved render",
+    "Title spelling, trump order, and proposed side index vocabulary (component/layout contract; future production manifest)",
+    "Upright vs reversible policy (separate manifest)"
+  ]
+}

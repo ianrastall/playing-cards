@@ -26,7 +26,32 @@ def build_catalog() -> dict:
             _, system, size, suit, filename = parts
             rank = Path(filename).stem
             definition = config["face_systems"][system]
-            if suit == "jokers":
+            if system == 'tarot':
+                if size not in definition['formats']:
+                    raise ValueError(f"Invalid Tarot format: {path}")
+                if suit == 'trumps':
+                    try:
+                        number_text, slug = rank.split('-', 1)
+                        number = int(number_text)
+                    except ValueError as error:
+                        raise ValueError(f"Invalid Tarot trump filename: {path}") from error
+                    trump = next((t for t in definition['trumps']
+                                  if t['number'] == number and t['slug'] == slug), None)
+                    if trump is None:
+                        raise ValueError(f"Invalid Tarot trump: {path}")
+                    record = dict(id=f"face.tarot.{size}.trump.{number}.{slug}", side='face',
+                                  system=system, format=size, arcana='major', suit=None,
+                                  rank=str(number), number=number, slug=slug,
+                                  title=trump['title'], color_variant=None,
+                                  status=config['face_status'])
+                else:
+                    if suit not in definition['suits'] or rank not in definition['ranks']:
+                        raise ValueError(f"Invalid Tarot suit/rank: {path}")
+                    record = dict(id=f"face.tarot.{size}.{suit}.{rank}", side='face',
+                                  system=system, format=size, arcana='minor', suit=suit,
+                                  rank=rank, title=None, color_variant=None,
+                                  status=config['face_status'])
+            elif suit == "jokers":
                 if rank not in definition.get("jokers", []):
                     raise ValueError(f"Invalid Joker variant: {path}")
                 record = dict(id=f"face.{system}.{size}.joker.{rank}", side="face",
@@ -43,9 +68,15 @@ def build_catalog() -> dict:
         size_info = config["formats"][size]
         if config.get('renderer') == 'face-formats-v1':
             from frame_palette import face_color
-            record['frame_color'] = record['color'] if record['side']=='back' else face_color(
-                'jokers' if record['rank']=='joker' else record['suit'],
-                record['color_variant'] if record['rank']=='joker' else record['rank'])
+            if record['side'] == 'back':
+                record['frame_color'] = record['color']
+            elif record['system'] == 'tarot':
+                record['frame_color'] = ('madder-lake' if record['suit'] in ('cups', 'coins')
+                                         else 'lamp-black')
+            else:
+                record['frame_color'] = face_color(
+                    'jokers' if record['rank']=='joker' else record['suit'],
+                    record['color_variant'] if record['rank']=='joker' else record['rank'])
         inches = size_info["trim_inches"]
         with Image.open(path) as im:
             im.load()
@@ -77,6 +108,13 @@ def build_catalog() -> dict:
     expected_faces.update(f"face.french-suited.{fmt}.joker.{variant}"
                           for fmt in face_formats
                           for variant in config["face_systems"]["french-suited"].get("jokers",[]))
+    tarot = config['face_systems'].get('tarot')
+    if tarot:
+        expected_faces.update(f"face.tarot.{fmt}.{suit}.{rank}"
+                              for fmt in tarot['formats']
+                              for suit in tarot['suits'] for rank in tarot['ranks'])
+        expected_faces.update(f"face.tarot.{fmt}.trump.{trump['number']}.{trump['slug']}"
+                              for fmt in tarot['formats'] for trump in tarot['trumps'])
     actual_faces={a["id"] for a in assets if a["side"]=="face"}
     if actual_faces!=expected_faces:
         raise ValueError(f"Face inventory mismatch: {actual_faces ^ expected_faces}")
