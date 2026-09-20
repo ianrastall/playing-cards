@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Playing Cards — Design 1 Gallery</title>
+  <meta name="description" content="Browse Design 1 v1.1: 348 French-suited and Tarot faces across six formats, plus 30 card backs, with suit-aware frames and delicate gold tracery.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* ── Reset & base ─────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:          #0e0e10;
+      --bg-card:     #18181b;
+      --bg-card-hov: #232328;
+      --border:      #2a2a30;
+      --border-hov:  #46464f;
+      --text:        #e4e4e7;
+      --text-dim:    #a1a1aa;
+      --accent:      #818cf8;
+      --accent-dim:  #6366f1;
+      --radius:      10px;
+      --font:        'Inter', system-ui, -apple-system, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Header ───────────────────────────────────────────── */
+    .site-header {
+      text-align: center;
+      padding: 3.5rem 1.5rem 1rem;
+    }
+
+    .site-header h1 {
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      background: linear-gradient(135deg, #c4b5fd 0%, #818cf8 40%, #6366f1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .site-header p {
+      margin-top: 0.6rem;
+      color: var(--text-dim);
+      font-size: 0.95rem;
+      max-width: 44rem;
+      margin-inline: auto;
+    }
+
+    .site-header .repo-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--accent);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .site-header .repo-link:hover { color: #a5b4fc; }
+    .site-header .repo-link svg { width: 16px; height: 16px; fill: currentColor; }
+
+    /* ── Navigation pills ─────────────────────────────────── */
+    .nav-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.4rem;
+      padding: 0.75rem 1rem;
+      background: rgba(14, 14, 16, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-bar a {
+      padding: 0.35rem 0.85rem;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--text-dim);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      transition: all 0.2s;
+    }
+    .nav-bar a:hover {
+      color: var(--text);
+      border-color: var(--border-hov);
+      background: var(--bg-card);
+    }
+
+    /* ── Sections ─────────────────────────────────────────── */
+    .gallery-section {
+      max-width: 82rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 1rem;
+    }
+
+    .section-title {
+      font-size: clamp(1.1rem, 2.5vw, 1.45rem);
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.25rem;
+      color: var(--text);
+    }
+
+    .section-subtitle {
+      font-size: 0.82rem;
+      color: var(--text-dim);
+      margin-bottom: 1.25rem;
+    }
+
+    .group-heading {
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: capitalize;
+      color: var(--accent);
+      margin: 1.75rem 0 0.75rem;
+      padding-left: 0.1rem;
+    }
+    .group-heading:first-of-type { margin-top: 0; }
+
+    /* ── Card grid ─────────────────────────────────────────── */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 1rem;
+    }
+
+    .card-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-item:hover {
+      transform: translateY(-4px) scale(1.02);
+      border-color: var(--border-hov);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+    }
+
+    .card-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      background: #111113;
+    }
+
+    .card-label {
+      padding: 0.5rem 0.6rem;
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: var(--text-dim);
+      word-break: break-all;
+      line-height: 1.35;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── Lightbox ──────────────────────────────────────────── */
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      background: rgba(0, 0, 0, 0.88);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 2rem;
+      cursor: zoom-out;
+      animation: fadeIn 0.2s ease;
+    }
+    .lightbox.active { display: flex; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
+    .lightbox img {
+      max-width: min(90vw, 750px);
+      max-height: 80vh;
+      border-radius: 0;
+      box-shadow: 0 16px 48px rgba(0, 0, 0, 0.6);
+      cursor: default;
+    }
+
+    .lightbox .lb-label {
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-dim);
+      text-align: center;
+      word-break: break-all;
+    }
+
+    .lightbox .lb-close {
+      position: absolute;
+      top: 1.25rem;
+      right: 1.5rem;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text-dim);
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .lightbox .lb-close:hover {
+      background: var(--bg-card-hov);
+      color: var(--text);
+      border-color: var(--border-hov);
+    }
+
+    /* ── Footer ───────────────────────────────────────────── */
+    .site-footer {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      font-size: 0.78rem;
+      color: var(--text-dim);
+    }
+    .site-footer a { color: var(--accent); text-decoration: none; }
+    .site-footer a:hover { text-decoration: underline; }
+
+    /* ── Responsive tweaks ────────────────────────────────── */
+    @media (max-width: 480px) {
+      .card-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 0.65rem; }
+      .card-label { font-size: 0.62rem; padding: 0.4rem 0.5rem; }
+      .nav-bar a { font-size: 0.7rem; padding: 0.3rem 0.65rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <p><a href="../../index.html">← All designs</a> · <a href="../design2/index.html">Design 2</a></p>
+    <h1>Playing Cards — Design 1</h1>
+    <p>Design 1 v1.1: 348 faces across six formats, plus 30 backs in five pigment-inspired colors. French-suited and Tarot decks share suit-aware frames and delicate gold tracery. Click any card to view full-size.</p>
+    <a class="repo-link" href="https://github.com/ianrastall/playing-cards" target="_blank" rel="noopener">
+      <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      View on GitHub
+    </a>
+  </header>
+
+  <!-- Navigation (populated dynamically) -->
+  <nav class="nav-bar" id="nav"></nav>
+
+  <!-- Dynamic gallery content -->
+  <div id="gallery-root"></div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>Playing Cards — Design 1 &middot; <a href="https://github.com/ianrastall/playing-cards">ianrastall/playing-cards</a> &middot; MIT License</p>
+  </footer>
+
+  <!-- Lightbox overlay -->
+  <div class="lightbox" id="lightbox">
+    <button class="lb-close" id="lb-close" aria-label="Close">&times;</button>
+    <img id="lb-img" src="" alt="">
+    <div class="lb-label" id="lb-label"></div>
+  </div>
+
+  <script>
+    (() => {
+      /* ── Lightbox ──────────────────────────────────────── */
+      const lightbox = document.getElementById('lightbox');
+      const lbImg    = document.getElementById('lb-img');
+      const lbLabel  = document.getElementById('lb-label');
+      const lbClose  = document.getElementById('lb-close');
+
+      function openLightbox(src, alt) {
+        lbImg.src = src;
+        lbImg.alt = alt;
+        lbLabel.textContent = src;
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+        lbImg.src = '';
+      }
+
+      lbClose.addEventListener('click', e => { e.stopPropagation(); closeLightbox(); });
+      lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
+      document.addEventListener('keydown', e => { if (e.key === 'Escape' && lightbox.classList.contains('active')) closeLightbox(); });
+
+      /* ── Helpers ───────────────────────────────────────── */
+      const suitSymbols = {
+        clubs: '♣', diamonds: '♦', hearts: '♥', spades: '♠',
+        swords: '⚔', batons: '❧', cups: '♜', coins: '◉', trumps: '☆'
+      };
+
+      /** Title-case a slug like "european-standard" → "European Standard" */
+      function titleCase(s) {
+        return s.replace(/(^|-)(\w)/g, (_, sep, ch) => (sep ? ' ' : '') + ch.toUpperCase());
+      }
+
+      /** Build a card-item element and wire its lightbox click. */
+      function makeCardItem(src, alt, label) {
+        const div = document.createElement('div');
+        div.className = 'card-item';
+        div.dataset.src = src;
+        div.innerHTML =
+          `<img src="${src}" alt="${alt}" loading="lazy">` +
+          `<div class="card-label">${label}</div>`;
+        div.addEventListener('click', () => openLightbox(src, alt));
+        return div;
+      }
+
+      /* ── Rank sort order (for natural card ordering) ──── */
+      const RANK_ORDER = [
+        'ace','2','3','4','5','6','7','8','9','10',
+        'page','knight','jack','queen','king','joker'
+      ];
+      function rankIndex(r) {
+        const i = RANK_ORDER.indexOf(r);
+        if (i !== -1) return i;
+        return /^\d+$/.test(r) ? Number(r) : 999;
+      }
+
+      /* ── Load catalog and render ───────────────────────── */
+      fetch('catalog.json')
+        .then(r => r.json())
+        .then(catalog => {
+          const nav   = document.getElementById('nav');
+          const root  = document.getElementById('gallery-root');
+          const assets = catalog.assets;
+          const formats = catalog.formats;
+
+          /* ── 1. Backs ──────────────────────────────────── */
+          const backs = assets.filter(a => a.side === 'back');
+          const backsByFormat = new Map();
+          backs.forEach(a => {
+            if (!backsByFormat.has(a.format)) backsByFormat.set(a.format, []);
+            backsByFormat.get(a.format).push(a);
+          });
+
+          // Sort formats alphabetically
+          const sortedFormats = [...backsByFormat.keys()].sort();
+
+          const backsSection = document.createElement('section');
+          backsSection.className = 'gallery-section';
+
+          const backColors = new Set(backs.map(a => a.color));
+          backsSection.innerHTML =
+            `<h2 class="section-title">Card Backs</h2>` +
+            `<p class="section-subtitle">${backColors.size} colors × ${sortedFormats.length} card formats — ${backs.length} images</p>`;
+
+          sortedFormats.forEach(fmt => {
+            const fmtInfo = formats[fmt];
+            const trim = fmtInfo
+              ? `${fmtInfo.trim_inches[0].toFixed(2)} × ${fmtInfo.trim_inches[1].toFixed(2)} in`
+              : '';
+            const id = `backs-${fmt}`;
+
+            // Nav pill
+            const pill = document.createElement('a');
+            pill.href = `#${id}`;
+            pill.textContent = titleCase(fmt);
+            nav.appendChild(pill);
+
+            // Heading
+            const h3 = document.createElement('h3');
+            h3.className = 'group-heading';
+            h3.id = id;
+            h3.textContent = `${titleCase(fmt)}${trim ? ' — ' + trim : ''}`;
+            backsSection.appendChild(h3);
+
+            // Grid
+            const grid = document.createElement('div');
+            grid.className = 'card-grid';
+            const items = backsByFormat.get(fmt).sort((a, b) => a.color.localeCompare(b.color));
+            items.forEach(a => {
+              const colorLabel = titleCase(a.color);
+              grid.appendChild(makeCardItem(
+                a.path,
+                `${titleCase(fmt)} back — ${colorLabel}`,
+                a.path
+              ));
+            });
+            backsSection.appendChild(grid);
+          });
+          root.appendChild(backsSection);
+
+          /* ── 2. Faces ──────────────────────────────────── */
+          const faces = assets.filter(a => a.side === 'face');
+          if (faces.length === 0) return;
+
+          // Group by system → format → suit
+          const faceSystems = new Map();
+          faces.forEach(a => {
+            const key = `${a.system}|${a.format}`;
+            if (!faceSystems.has(key)) faceSystems.set(key, new Map());
+            const suitMap = faceSystems.get(key);
+            const group = a.arcana === 'major' ? 'trumps' : (a.rank === 'joker' ? 'jokers' : a.suit);
+            if (!suitMap.has(group)) suitMap.set(group, []);
+            suitMap.get(group).push(a);
+          });
+
+          faceSystems.forEach((suitMap, sysKey) => {
+            const [system, format] = sysKey.split('|');
+            const suits = [...suitMap.keys()].sort();
+            const totalFaces = faces.filter(a => a.system === system && a.format === format).length;
+            const px = faces.find(a => a.system === system && a.format === format)?.pixels;
+            const pxLabel = px ? ` at ${px[0]} × ${px[1]} px` : '';
+
+            const section = document.createElement('section');
+            section.className = 'gallery-section';
+            section.innerHTML =
+              `<h2 class="section-title">Card Faces — ${titleCase(system)} ${titleCase(format)}</h2>` +
+              `<p class="section-subtitle">${system === 'tarot'
+                ? `${suits.filter(s => s !== 'trumps').length} suits plus ${suitMap.get('trumps')?.length || 0} trumps`
+                : `${suits.filter(s => s !== 'jokers').length} suits plus ${suitMap.get('jokers')?.length || 0} Jokers`} — ${totalFaces} images${pxLabel}</p>`;
+
+            suits.forEach(suit => {
+              const id = `faces-${system}-${format}-${suit}`;
+              const symbol = suitSymbols[suit] || '';
+
+              // Nav pill
+              const pill = document.createElement('a');
+              pill.href = `#${id}`;
+              pill.textContent = titleCase(suit);
+              nav.appendChild(pill);
+
+              // Heading
+              const h3 = document.createElement('h3');
+              h3.className = 'group-heading';
+              h3.id = id;
+              h3.textContent = `${symbol} ${titleCase(suit)}`;
+              section.appendChild(h3);
+
+              // Grid
+              const grid = document.createElement('div');
+              grid.className = 'card-grid';
+              const items = suitMap.get(suit).sort((a, b) => rankIndex(a.rank) - rankIndex(b.rank));
+              items.forEach(a => {
+                const rankLabel = a.arcana === 'major' ? `${a.number}. ${titleCase(a.slug)}`
+                  : (a.rank === 'joker' ? `${titleCase(a.color_variant)} Joker` : titleCase(a.rank));
+                grid.appendChild(makeCardItem(
+                  a.path,
+                  `${titleCase(suit)} — ${rankLabel}`,
+                  a.arcana === 'major' ? `trumps/${String(a.number).padStart(2,'0')}-${a.slug}.png`
+                    : (a.rank === 'joker' ? `jokers/${a.color_variant}.png` : `${suit}/${a.rank}.png`)
+                ));
+              });
+              section.appendChild(grid);
+            });
+            root.appendChild(section);
+          });
+        })
+        .catch(err => {
+          console.error('Failed to load catalog.json:', err);
+          document.getElementById('gallery-root').innerHTML =
+            '<p style="text-align:center;color:#f87171;padding:3rem;">Could not load catalog.json — are you serving this page from a web server?</p>';
+        });
+    })();
+  </script>
+</body>
+</html>

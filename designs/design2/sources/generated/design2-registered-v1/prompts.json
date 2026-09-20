@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "file": "floral-master.png",
+      "prompt": "Use case: precise-object-edit. This is the selected silk playing-card back. Replace ONLY the small GOLD/ochre geometric interlocking-circle ornaments scattered in the antique-white central field. These are the thin looping spirograph-like knots: one near the upper middle, two near the top diagonal roundels, two beside the central medallion, one below the center, and their counterparts. Remove EVERY such overlapping-loop geometric ornament and replace each in place with a small, beautifully drawn Chinese-inspired floral sprig or stylized treasure-flower blossom: delicate lobed peony petals, pointed layered lotus petals, slender curled stems and two little turned leaves, in restrained antique-gold/ochre ink. Clearly botanical blossoms with petal anatomy, not circles or knots. Use the same scale and visual weight as the ornaments being replaced, airy and finely detailed, not dense or oversized. Preserve all existing RED/IVORY main flowers, all jade leaves and circular floral medallions, the eightfold central flower, the exact positions and shapes of all other artwork, the antique-white ground, the blue outer border and pale gold lotus-vine linework, border width and corner shapes, full-card 5:7 crop. Keep the current pattern density. The new small gold florals should feel native to Chinese silk ornament and integrate organically with the established design. No spirographs, interlocking rings, flower-of-life geometry, circular scribbles, Celtic knots, repeated coin rings, new frames, symbols, lettering or text. Do not change the center medallion or its large petal structure. One full single flat card back. Change only these scattered small gold ornaments.",
+      "reference": "sources/generated/design2-winner-v2/prussian-blue.png"
+    }
+  ],
+  "production": "One common artwork/frame master, registered and recolored deterministically to prevent palette-to-palette movement."
+}

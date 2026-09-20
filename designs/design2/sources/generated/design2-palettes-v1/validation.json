@@ -1,0 +1,62 @@
+{
+  "master": "sources/generated/design2-v2/silk-cinnabar-jade.png",
+  "tool": "built-in image_gen",
+  "status": "generated color masters; production normalization pending",
+  "cards": [
+    {
+      "file": "prussian-blue.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "1f7ee502499c8ffa860f553181f9876f59e3d4f8ab97356a6e2bd5b4ad20c2a9",
+      "half_turn_exact": false,
+      "decode_passed": true
+    },
+    {
+      "file": "verdigris.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "3dd69710acc88ffe56311e0975e96d1c57790157336bede2adba91c889befac1",
+      "half_turn_exact": false,
+      "decode_passed": true
+    },
+    {
+      "file": "madder-lake.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "96ba5e14997f2bf3a7c62424bb2220bedca1d40aada9ffe8bb2db6e364e0ebcb",
+      "half_turn_exact": false,
+      "decode_passed": true
+    },
+    {
+      "file": "manganese-violet.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "9f20547a7dc5c3549261a88bab4dc13ea773539be1407ead5537d001c1c24e95",
+      "half_turn_exact": false,
+      "decode_passed": true
+    },
+    {
+      "file": "lamp-black.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "1592d94327fca0a89c3fa4ff4778f6ed2fd4f848ec5b9f9ec5452a7e0b5c52e2",
+      "half_turn_exact": false,
+      "decode_passed": true
+    }
+  ]
+}

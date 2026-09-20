@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Design 2 · Registered silk backs</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#ede6da;color:#342b24;font:17px/1.5 Georgia,serif}
+main{max-width:1240px;margin:auto;padding:28px;display:grid;grid-template-columns:minmax(300px,640px) minmax(260px,1fr);gap:36px;align-items:start}
+h1{font-size:34px;font-weight:normal;line-height:1.15;margin:14px 0}h2{font-size:22px;font-weight:normal}p{margin:16px 0}
+.stage{width:100%;height:min(82vh,820px);min-height:360px;position:sticky;top:28px;display:grid;place-items:center;overscroll-behavior:contain;outline:none}
+.stage img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;display:block}
+.stage.guide:before,.stage.guide:after{content:"";position:absolute;background:#00a6cc99;z-index:2;pointer-events:none}
+.stage.guide:before{width:1px;top:0;bottom:0;left:50%}.stage.guide:after{height:1px;left:0;right:0;top:50%}
+.palettes{display:grid;gap:9px}button,select{font:15px system-ui;min-height:44px;border:1px solid #bbaa90;background:#faf4e8;border-radius:7px;color:inherit;cursor:pointer;padding:9px 13px}
+button.active{outline:2px solid #5e4a30;outline-offset:2px}button.palette{text-align:left;display:flex;gap:12px;align-items:center}.swatch{width:23px;height:23px;border-radius:50%;border:1px solid #0003}
+.row{display:flex;gap:10px;margin:14px 0;flex-wrap:wrap}.row button{flex:1}.details,small,label{font:14px/1.5 system-ui}.details{color:#665849;min-height:44px}
+select{width:100%}a{color:#694d28}label{display:block;margin:15px 0}.gallery{max-width:1240px;margin:30px auto;padding:0 28px 40px}.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:20px}.cards img{width:100%;height:auto}.cards figure{margin:0}.cards figcaption{padding:8px 0;font-size:15px}
+@media(max-width:760px){main{grid-template-columns:1fr;padding:18px;gap:12px}.stage{height:65vh;position:relative;top:0}.palettes{grid-template-columns:repeat(2,1fr)}h1{font-size:29px}.cards{grid-template-columns:repeat(2,1fr)}}
+</style>
+<main>
+<div class="stage" id="stage" tabindex="0" aria-label="Card preview. Use left and right arrows or scroll to change color."><img id="card" src="backs/poker/prussian-blue.png" alt="Prussian Blue Poker silk card back"></div>
+<aside>
+<small>DESIGN 2 · FLORAL REVISION</small><h1>Registered silk backs</h1>
+<p>Small gold florals replace the looping ornaments. Every color shares the same centered artwork and frame.</p>
+<label for="format">Card size</label><select id="format"></select>
+<h2>Border color</h2><div class="palettes" id="palettes"></div>
+<div class="row"><button id="previous">← Previous</button><button id="next">Next →</button></div>
+<label><input type="checkbox" id="guides"> Show center guides</label>
+<p class="details" id="details" aria-live="polite"></p>
+<p><small>Scroll over the card or use the arrow keys to cycle colors. The preview stays in one fixed position. Different card sizes retain their intended proportions.</small></p>
+<p><a id="download" href="backs/poker/prussian-blue.png" download>Save this PNG</a></p>
+<p><small><a href="registration-audit.json">Registration checks</a> · <a href="manifest.json">File manifest</a> · <a href="prompts.json">Artwork prompt</a></small></p>
+</aside></main>
+<div class="gallery"><h2>All six formats</h2><div id="gallery"></div></div>
+<script>
+const colors=['prussian-blue','verdigris','madder-lake','manganese-violet','lamp-black'];
+const palette=['#1a5375','#398d72','#a73443','#74509b','#21211f'];
+const sizes={poker:[750,1050],bridge:[675,1050],'european-standard':[696,1074],jumbo:[1050,1500],travel:[525,750],tarot:[825,1425]};
+const label=s=>s.replaceAll('-',' ').replace(/\b\w/g,c=>c.toUpperCase());
+const format=document.querySelector('#format'),card=document.querySelector('#card'),stage=document.querySelector('#stage');
+let index=0,ticket=0,lastWheel=0;
+Object.keys(sizes).forEach(f=>format.add(new Option(label(f),f)));
+colors.forEach((c,i)=>{const b=document.createElement('button');b.className='palette';b.innerHTML='<span class="swatch" style="background:'+palette[i]+'"></span>'+label(c);b.onclick=()=>show(i);document.querySelector('#palettes').append(b)});
+function mark(){const color=colors[index],fmt=format.value,[w,h]=sizes[fmt];document.querySelectorAll('.palette').forEach((b,i)=>{b.classList.toggle('active',i===index);b.setAttribute('aria-pressed',String(i===index))});document.querySelector('#details').textContent=label(color)+' · '+label(fmt)+' · '+w+' × '+h+' px';card.alt=label(color)+' '+label(fmt)+' silk card back';document.querySelector('#download').href=card.getAttribute('src')}
+async function show(i){index=(i+colors.length)%colors.length;const serial=++ticket,src='backs/'+format.value+'/'+colors[index]+'.png';const ready=new Image();ready.src=src;try{await ready.decode()}catch(e){document.querySelector('#details').textContent='Could not load this image.';return}if(serial!==ticket)return;card.src=src;mark()}
+document.querySelector('#previous').onclick=()=>show(index-1);document.querySelector('#next').onclick=()=>show(index+1);format.onchange=()=>show(index);
+document.querySelector('#guides').onchange=e=>stage.classList.toggle('guide',e.target.checked);
+stage.addEventListener('wheel',e=>{e.preventDefault();const now=performance.now();if(now-lastWheel>160){lastWheel=now;show(index+(e.deltaY>0?1:-1))}},{passive:false});
+document.addEventListener('keydown',e=>{if(e.target.tagName==='SELECT')return;if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();show(index+(e.key==='ArrowRight'?1:-1))}});
+const gallery=document.querySelector('#gallery');Object.keys(sizes).forEach(f=>{const section=document.createElement('section');section.innerHTML='<h2>'+label(f)+'</h2><div class="cards">'+colors.map(c=>'<figure><a href="backs/'+f+'/'+c+'.png"><img loading="lazy" src="backs/'+f+'/'+c+'.png" alt="'+label(f)+' '+label(c)+'"></a><figcaption>'+label(c)+'</figcaption></figure>').join('')+'</div>';gallery.append(section)});
+mark();
+</script></html>

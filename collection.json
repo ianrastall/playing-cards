@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "playing-cards",
+  "designs": [
+    {
+      "id": "design1",
+      "name": "Design 1",
+      "path": "designs/design1",
+      "description": "Morris, Mucha and Safavid-inspired botanical cards; complete French-suited and Tarot decks."
+    },
+    {
+      "id": "design2",
+      "name": "Design 2",
+      "path": "designs/design2",
+      "description": "Ming and Tang-inspired silk florals; approved backs in five colors and six sizes."
+    }
+  ]
+}
