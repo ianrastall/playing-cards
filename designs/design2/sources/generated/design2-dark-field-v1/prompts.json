@@ -1,0 +1,14 @@
+{
+  "tool": "built-in image_gen",
+  "status": "visual study; not registered or promoted to production",
+  "assets": [
+    {
+      "file": "prussian-blue.png",
+      "prompt": "Use case: precise-object-edit. Asset: a revised Design 2 playing-card back color study. Image 1 is the EDIT TARGET: Design 2, with a Prussian-blue narrow outer border, antique-white interior, red-and-ivory Chinese silk flowers, jade vines, a central circular floral medallion and four smaller circular medallions. Image 2 is REFERENCE ONLY: Design 1, showing the rich dark-blue interior background treatment the user wants to try. Change ONLY the antique-white negative-space background inside Design 2's thin inner gold frame to a deep dark Prussian blue, approximately #10354B, visibly darker than its existing border blue #1A5375. Fill the open background between and around the interior vines, flowers, gold botanical sprigs, and medallions consistently, including small enclosed background spaces. This should give the middle more richness and make it feel less empty as in Design 1. Preserve Design 2's exact existing layout and all floral artwork: the red/ivory petals, green leaves and vines, ochre/gold sprigs, central medallion and four satellite medallions, gold outlines, their positions, shapes, scale, and fine painted detail. Keep the outer border blue, pale gold lotus-vine linework, inner frame, antique-white outermost paper margin, rounded corners, and full-card 5:7 proportions unchanged. Do not copy any Design 1 ornament or restructure the composition. No new objects, text, shadows, mockup, or perspective. One flat full card back, same crop as image 1. Preserve the opposing half-turn composition.",
+      "references": [
+        "designs/design2/cards/backs/poker/prussian-blue.png",
+        "designs/design1/cards/backs/poker/prussian-blue.png"
+      ]
+    }
+  ]
+}

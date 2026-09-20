@@ -1,0 +1,54 @@
+{
+  "tool": "built-in image_gen",
+  "status": "five visual studies; not registered or promoted to production",
+  "revision": "Prominent continuous gold panel band, completed edge coverage, and a darker surrounding field matching each border hue.",
+  "palette_note": "Hex values are prompt targets; generated pixels retain painted variation. Medallion grounds remain teal.",
+  "assets": [
+    {
+      "file": "prussian-blue.png",
+      "prompt": "Use case: precise-object-edit. Image 1 is the edit target: the approved Design 2 study with antique-white lobed middle panel. Image 2 is Design 1, REFERENCE ONLY for its prominent gold band around the ornamental middle. Make a careful refinement of image 1. (1) Enclose the ENTIRE antique-white middle panel in a clear, continuous, substantial antique-gold accent band, following its exact present lobed silhouette. Use warm ochre-gold, a brighter gold inner and outer hairline, and restrained tiny bead accents like the reference. The band should have roughly the visual weight of Design 1's middle-panel gold bar, about 8–12 pixels wide at this 1060px card width, not a faint single thin line. Carry this gold band all the way around the top lotus cap, both shoulders, both broad side lobes, lower shoulders and bottom lotus cap with no missing runs. Preserve the panel shape and antique-white fill. (2) Fix all incomplete color coverage at the inner and outer border, especially near the bottom, lower corners and bottom panel tip. The dark interior fill must meet the gold inner rectangular frame completely, with no leftover ivory slivers, unpainted strips, light gaps or short stops. The outer colored frame must likewise be continuously colored to its gold outlines. Only the intentional outside paper margin and the ornamental middle panel are antique white. (3) This is the Prussian Blue variant: outer border #1A5375, surrounding interior field a darker version of that SAME hue #10354B. Preserve all five circular floral medallions, their teal grounds, red/ivory flowers, jade leaves and vines, small gold floral sprigs, all positions and scale, outer border's gold lotus vine linework, centered composition, opposing half-turn design, full card 5:7 crop, and paper margin. Do not import Design 1's floral artwork, change any medallion to a diamond, or recolor the cream middle panel. One flat single card back, no text or mockup. Keep ornament legible and crisp.",
+      "border": "#1A5375",
+      "field": "#10354B",
+      "references": [
+        "designs/design2/sources/generated/design2-dark-field-v2/prussian-blue.png",
+        "designs/design1/cards/backs/poker/prussian-blue.png"
+      ]
+    },
+    {
+      "file": "madder-lake.png",
+      "prompt": "Use case: precise-object-edit. The reference is the EDIT TARGET, a Design 2 playing-card back with a substantial beaded gold band enclosing an antique-white lobed middle panel. Create ONLY its Madder Lake palette variant. Recolor precisely TWO background regions: (1) the entire narrow outer border ground, currently medium Prussian blue, becomes #A73443; (2) ALL the dark Prussian-blue interior background outside the gold-edged antique-white middle panel and around the four satellite medallions becomes #6B212B, a visibly darker version of the SAME Madder Lake border hue. The result must have muted crimson red outer border and deep burgundy red inner surrounding field. Do not leave blue field remnants near the bottom, edges, corners, leaf gaps, or frame. Both color regions must reach their gold outlines continuously without ivory slivers or short stops. Keep absolutely everything else unchanged: antique-white middle panel and outside paper margin, complete prominent gold beaded band around the panel, outer gold lotus-vine border linework, central medallion and all four smaller circular medallions with their original teal grounds, red/ivory flowers, jade leaves and vines, gold sprigs, exact positions, silhouette, scale, line detail, 5:7 card proportions and opposing half-turn layout. Change background colors only. In particular do NOT color the antique-white middle panel or leave the surrounding field blue: its dark hue MUST match this variant's outer border. One flat full card, no text or mockup.",
+      "border": "#A73443",
+      "field": "#6B212B",
+      "references": [
+        "designs/design2/sources/generated/design2-dark-field-v3/prussian-blue.png"
+      ]
+    },
+    {
+      "file": "manganese-violet.png",
+      "prompt": "Use case: precise-object-edit. The reference is the EDIT TARGET, a Design 2 playing-card back with a substantial beaded gold band enclosing an antique-white lobed middle panel. Create ONLY its Manganese Violet palette variant. Recolor precisely TWO background regions: (1) the entire narrow outer border ground, currently medium Prussian blue, becomes #74509B; (2) ALL the dark Prussian-blue interior background outside the gold-edged antique-white middle panel and around the four satellite medallions becomes #4A3363, a visibly darker version of the SAME Manganese Violet border hue. The result must have pigment violet purple outer border and deep dark purple inner surrounding field. Do not leave blue field remnants near the bottom, edges, corners, leaf gaps, or frame. Both color regions must reach their gold outlines continuously without ivory slivers or short stops. Keep absolutely everything else unchanged: antique-white middle panel and outside paper margin, complete prominent gold beaded band around the panel, outer gold lotus-vine border linework, central medallion and all four smaller circular medallions with their original teal grounds, red/ivory flowers, jade leaves and vines, gold sprigs, exact positions, silhouette, scale, line detail, 5:7 card proportions and opposing half-turn layout. Change background colors only. In particular do NOT color the antique-white middle panel or leave the surrounding field blue: its dark hue MUST match this variant's outer border. One flat full card, no text or mockup.",
+      "border": "#74509B",
+      "field": "#4A3363",
+      "references": [
+        "designs/design2/sources/generated/design2-dark-field-v3/prussian-blue.png"
+      ]
+    },
+    {
+      "file": "verdigris.png",
+      "prompt": "Use case: precise-object-edit. The reference is the EDIT TARGET, a Design 2 playing-card back with a substantial beaded gold band enclosing an antique-white lobed middle panel. Create ONLY its Verdigris palette variant. Recolor precisely TWO background regions: (1) the entire narrow outer border ground, currently medium Prussian blue, becomes #398D72; (2) ALL the dark Prussian-blue interior background outside the gold-edged antique-white middle panel and around the four satellite medallions becomes #245A49, a visibly darker version of the SAME Verdigris border hue. The result must have verdigris green outer border and deep forest/verdigris green inner surrounding field. Do not leave blue field remnants near the bottom, edges, corners, leaf gaps, or frame. Both color regions must reach their gold outlines continuously without ivory slivers or short stops. Keep absolutely everything else unchanged: antique-white middle panel and outside paper margin, complete prominent gold beaded band around the panel, outer gold lotus-vine border linework, central medallion and all four smaller circular medallions with their original teal grounds, red/ivory flowers, jade leaves and vines, gold sprigs, exact positions, silhouette, scale, line detail, 5:7 card proportions and opposing half-turn layout. Change background colors only. In particular do NOT color the antique-white middle panel or leave the surrounding field blue: its dark hue MUST match this variant's outer border. One flat full card, no text or mockup.",
+      "border": "#398D72",
+      "field": "#245A49",
+      "references": [
+        "designs/design2/sources/generated/design2-dark-field-v3/prussian-blue.png"
+      ]
+    },
+    {
+      "file": "lamp-black.png",
+      "prompt": "Use case: precise-object-edit. The reference is the EDIT TARGET, a Design 2 playing-card back with a substantial beaded gold band enclosing an antique-white lobed middle panel. Create ONLY its Lamp Black palette variant. Recolor precisely TWO background regions: (1) the entire narrow outer border ground, currently medium Prussian blue, becomes #21211F; (2) ALL the dark Prussian-blue interior background outside the gold-edged antique-white middle panel and around the four satellite medallions becomes #151514, a visibly darker version of the SAME Lamp Black border hue. The result must have warm charcoal black outer border and deeper near-black inner surrounding field. Do not leave blue field remnants near the bottom, edges, corners, leaf gaps, or frame. Both color regions must reach their gold outlines continuously without ivory slivers or short stops. Keep absolutely everything else unchanged: antique-white middle panel and outside paper margin, complete prominent gold beaded band around the panel, outer gold lotus-vine border linework, central medallion and all four smaller circular medallions with their original teal grounds, red/ivory flowers, jade leaves and vines, gold sprigs, exact positions, silhouette, scale, line detail, 5:7 card proportions and opposing half-turn layout. Change background colors only. In particular do NOT color the antique-white middle panel or leave the surrounding field blue: its dark hue MUST match this variant's outer border. One flat full card, no text or mockup.",
+      "border": "#21211F",
+      "field": "#151514",
+      "references": [
+        "designs/design2/sources/generated/design2-dark-field-v3/prussian-blue.png"
+      ]
+    }
+  ]
+}

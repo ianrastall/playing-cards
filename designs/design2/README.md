@@ -6,6 +6,12 @@ The approved PNGs live in `cards/backs/<format>/<color>.png` in this folder.
 They are permanent source assets, separate from ignored build output.
 There are no finished Design 2 faces yet.
 
+The [gold-panel color studies](sources/generated/design2-dark-field-v3/index.html)
+preserve the antique-white middle panel with a prominent gold band and complete
+border coverage. All five colors have a surrounding field in a darker shade of
+their own border hue. These are ImageGen visual candidates; the production set remains the
+registered version described below.
+
 Run the commands below from `designs/design2/`.
 
 Thirty trim-size backs: five border colors in all six formats, including Tarot.
