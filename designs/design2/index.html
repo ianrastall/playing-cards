@@ -22,6 +22,7 @@ select{width:100%}a{color:#694d28}label{display:block;margin:15px 0}.gallery{max
 <p><a href="../../index.html">← All designs</a> · <a href="../design1/index.html">Design 1</a></p>
 <small>DESIGN 2 · APPROVED GOLD PANEL</small><h1>Registered silk backs</h1>
 <p>A beaded gold band defines the antique-white middle. Each surrounding field is a darker shade of its border color. All six formats have centered artwork and matching physical border widths and corner curves.</p>
+<p><a href="#face-frames">Browse the new blank face frames ↓</a></p>
 <label for="format">Card size</label><select id="format"></select>
 <h2>Border color</h2><div class="palettes" id="palettes"></div>
 <div class="row"><button id="previous">← Previous</button><button id="next">Next →</button></div>
@@ -32,6 +33,7 @@ select{width:100%}a{color:#694d28}label{display:block;margin:15px 0}.gallery{max
 <p><small><a href="registration-audit.json">Registration checks</a> · <a href="manifest.json">File manifest</a> · <a href="sources/generated/design2-gold-panel-v1/prompts.json">Artwork prompts</a></small></p>
 </aside></main>
 <div class="gallery"><h2>All six formats</h2><div id="gallery"></div></div>
+<div class="gallery" id="face-frames"><h2>Blank face frames</h2><p>Gold lotus vines, an open antique-white center, and two blank corner panels. Lamp Black is for black suits; Madder Lake is for red suits. Select an image to open its full-size PNG.</p><p><a href="docs/design/face-frames-v1.md">Construction and reusable components</a></p><div id="frame-gallery"></div></div>
 <script>
 const colors=['prussian-blue','verdigris','madder-lake','manganese-violet','lamp-black'];
 const palette=['#1a5375','#398d72','#a73443','#74509b','#21211f'];
@@ -49,4 +51,6 @@ stage.addEventListener('wheel',e=>{e.preventDefault();const now=performance.now(
 document.addEventListener('keydown',e=>{if(e.target.tagName==='SELECT')return;if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();show(index+(e.key==='ArrowRight'?1:-1))}});
 const gallery=document.querySelector('#gallery');Object.keys(sizes).forEach(f=>{const section=document.createElement('section');section.innerHTML='<h2>'+label(f)+'</h2><div class="cards">'+colors.map(c=>'<figure><a href="cards/backs/'+f+'/'+c+'.png"><img loading="lazy" src="cards/backs/'+f+'/'+c+'.png" alt="'+label(f)+' '+label(c)+'"></a><figcaption>'+label(c)+'</figcaption></figure>').join('')+'</div>';gallery.append(section)});
 mark();
+const frameGallery=document.querySelector('#frame-gallery');
+Object.keys(sizes).forEach(f=>{const section=document.createElement('section');section.innerHTML='<h2>'+label(f)+'</h2><div class="cards" style="grid-template-columns:repeat(2,minmax(0,300px))">'+['lamp-black','madder-lake'].map(c=>{const src='sources/components/design2-face-frames-v1/'+f+'/'+c+'.png';return '<figure><a href="'+src+'"><img loading="lazy" src="'+src+'" alt="'+label(f)+' '+label(c)+' blank face frame"></a><figcaption>'+label(c)+'</figcaption></figure>'}).join('')+'</div>';frameGallery.append(section)});
 </script></html>

@@ -1,0 +1,14 @@
+{
+  "tool": "built-in image_gen",
+  "reference_roles": [
+    {
+      "path": "designs/design1/sources/components/poker/v1/frame.png",
+      "role": "structure"
+    },
+    {
+      "path": "designs/design2/cards/backs/poker/prussian-blue.png",
+      "role": "style"
+    }
+  ],
+  "prompt": "Use case: stylized-concept.\nAsset type: reusable blank playing-card FACE frame, flat print artwork, portrait 5:7 proportion.\nInput image 1 is a STRUCTURAL reference only: Design 1 blank frame showing the large empty center and the two blank corner index cartouches. Input image 2 is the STYLE reference: approved Design 2 card back.\nCreate the Design 2 equivalent of image 1. Match image 2's elegant Ming/Tang silk-inspired lotus-vine ornament: thin pale antique-gold trailing stems, leaves and small lotus blossoms on a uniform Lamp Black (#21211F) border. Match the simple single-color ornamental OUTER band of image 2, not its densely painted central artwork. Gold outlines, subtle beaded inner gold edge. Keep the border fine and consistent on all four sides. No large painted flowers, no medallions in the center.\nComposition: show a single full-bleed card template straight-on, absolutely no mockup, no perspective, no external backdrop or shadow. Image itself is the card. At target 750x1050 equivalent: antique-white (#FAEBD7) paper margin 23px; ornamental band about 50px thick with small rounded outside corners and larger rounded inner corners. Entire large central aperture is perfectly uniform antique-white #FAEBD7, with no texture or markings, available for later pips and portraits.\nInclude exactly TWO blank narrow antique-white vertical rounded cartouches inset into the band, one at upper left and a matching 180-degree rotated one at lower right, like image 1. Cartouches at approximate target coordinates x=31..109,y=62..220 and x=641..719,y=830..988. Refined fine double gold outline, tiny lotus-petal terminals; blank interiors. They need to hold rank and suit later.\nFrame must be centered and two-way rotationally symmetric; bottom half must visually repeat top half under 180 degree turn. Clean sharp print detail, restrained beautiful gold lotus-vine tracery.\nNo lettering, numbers, suit symbols, portraits, center emblems, inner floral texture, labels, watermark, cut guides, measurement lines, vignette, distressed paper, or drop shadow. Export one clean high-resolution portrait raster."
+}

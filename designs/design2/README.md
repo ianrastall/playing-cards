@@ -11,6 +11,13 @@ Finished RGBA PNGs live in `cards/backs/<format>/<color>.png`. There are no
 finished Design 2 faces. Discarded dark-field studies are out of the active
 source tree; local recovery copies are in the ignored work folder.
 
+[Blank face frames](docs/design/face-frames-v1.md) are now available in Lamp
+Black and Madder Lake for all six formats. They adapt Design 1's reusable
+central-field and corner-index structure to Design 2's gold lotus vines.
+The twelve templates and their masks live in
+`sources/components/design2-face-frames-v1/`; browse them in the gallery's
+[face frames section](index.html#face-frames).
+
 ## Formats and construction
 
 | Format | Pixels | Trim inches | Construction |

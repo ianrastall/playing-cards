@@ -1,0 +1,400 @@
+{
+  "revision": "design2-face-frames-v1",
+  "status": "frame-components",
+  "source": {
+    "path": "sources/generated/design2-face-frames-v1/frame-master.png",
+    "sha256": "d65d2b52588cf59000faaaee7bb69f92c910db0b8e077830027037c117b3c288",
+    "tool": "built-in image_gen",
+    "prompts": "sources/generated/design2-face-frames-v1/prompts.json"
+  },
+  "ground_rgb": [
+    250,
+    235,
+    215
+  ],
+  "palettes": {
+    "lamp-black": [
+      33,
+      33,
+      31
+    ],
+    "madder-lake": [
+      167,
+      52,
+      67
+    ]
+  },
+  "corner_radius_mm": 3.5,
+  "ppi": 300,
+  "construction": "Shared generated Poker master and masks, format-aware component resampling as in Design 1; European Standard derives from Bridge. Exact half-turn registration and physical corner alpha are reapplied after sampling. Border ornament scales with the canvas; these are not independent native-format generations.",
+  "face_palette_policy": {
+    "spades": "lamp-black",
+    "clubs": "lamp-black",
+    "hearts": "madder-lake",
+    "diamonds": "madder-lake",
+    "black-joker": "lamp-black",
+    "red-joker": "madder-lake"
+  },
+  "formats": {
+    "poker": {
+      "pixels": [
+        750,
+        1050
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "center_pixel": [
+        374.5,
+        524.5
+      ],
+      "field_bounds": [
+        94,
+        77,
+        656,
+        973
+      ],
+      "top_index_panel_bounds": [
+        36,
+        69,
+        106,
+        221
+      ],
+      "index_safe_box": [
+        48,
+        87,
+        94,
+        203
+      ],
+      "components": {
+        "field": {
+          "path": "sources/components/design2-face-frames-v1/poker/field-mask.png",
+          "sha256": "62942da62428617627017ce0407c0c5ae379134f9be696b6de386f03c27b1719"
+        },
+        "panels": {
+          "path": "sources/components/design2-face-frames-v1/poker/panel-mask.png",
+          "sha256": "86276fcf5e8ec51f268b4c242450395d13bbafb6705dc0d015974cda1d5e9549"
+        },
+        "palette": {
+          "path": "sources/components/design2-face-frames-v1/poker/frame-color-mask.png",
+          "sha256": "2db25ebb78fea258ac019ccf53540d5df4e84a8706a63de4eac88948b3a3db9f"
+        },
+        "outline": {
+          "path": "sources/components/design2-face-frames-v1/poker/outline-mask.png",
+          "sha256": "30010a291b9afb91995dc80ca967f1dc4d97f79d0b324e6056eed06a5acf3587"
+        }
+      },
+      "frames": {
+        "lamp-black": {
+          "path": "sources/components/design2-face-frames-v1/poker/lamp-black.png",
+          "sha256": "5dcdf487f6db1f6885778558856aade97d2dfb8ded8311ddcbf0d6d65a722a25"
+        },
+        "madder-lake": {
+          "path": "sources/components/design2-face-frames-v1/poker/madder-lake.png",
+          "sha256": "19b4c547c0558158e3edd0eb5499a8b9832390ea5366be36e96b663855a11af3"
+        }
+      }
+    },
+    "bridge": {
+      "pixels": [
+        675,
+        1050
+      ],
+      "trim_inches": [
+        2.25,
+        3.5
+      ],
+      "center_pixel": [
+        337,
+        524.5
+      ],
+      "field_bounds": [
+        85,
+        77,
+        590,
+        973
+      ],
+      "top_index_panel_bounds": [
+        32,
+        69,
+        95,
+        221
+      ],
+      "index_safe_box": [
+        43,
+        87,
+        84,
+        203
+      ],
+      "components": {
+        "field": {
+          "path": "sources/components/design2-face-frames-v1/bridge/field-mask.png",
+          "sha256": "b7d1dbbaecbb8008e92a49498c4e385087cf96e235f3d0846b5d70fac9d7fe3f"
+        },
+        "panels": {
+          "path": "sources/components/design2-face-frames-v1/bridge/panel-mask.png",
+          "sha256": "4329876879a0ee020a1b66c280c2fb4bd5afa2a73eae0cca58531abc7dd54161"
+        },
+        "palette": {
+          "path": "sources/components/design2-face-frames-v1/bridge/frame-color-mask.png",
+          "sha256": "c27f9a72518954a69ef6ac5d50a3e8776a055b3050560e4c72fe675734dc9d60"
+        },
+        "outline": {
+          "path": "sources/components/design2-face-frames-v1/bridge/outline-mask.png",
+          "sha256": "6ad94cfafc9fb41fb2fd09df9f67b87d8a838dc1553186622b72589b7c01d3de"
+        }
+      },
+      "frames": {
+        "lamp-black": {
+          "path": "sources/components/design2-face-frames-v1/bridge/lamp-black.png",
+          "sha256": "0ae6c5fe1ecbe28d3adfb729476a1b321be135277855910953400258ce67eeeb"
+        },
+        "madder-lake": {
+          "path": "sources/components/design2-face-frames-v1/bridge/madder-lake.png",
+          "sha256": "b9855c5559031e817775eec3993534acfac4535063b99169f54d0671510daa85"
+        }
+      }
+    },
+    "european-standard": {
+      "pixels": [
+        696,
+        1074
+      ],
+      "trim_inches": [
+        2.32,
+        3.58
+      ],
+      "center_pixel": [
+        347.5,
+        536.5
+      ],
+      "field_bounds": [
+        87,
+        79,
+        609,
+        995
+      ],
+      "top_index_panel_bounds": [
+        33,
+        71,
+        98,
+        226
+      ],
+      "index_safe_box": [
+        45,
+        90,
+        86,
+        207
+      ],
+      "components": {
+        "field": {
+          "path": "sources/components/design2-face-frames-v1/european-standard/field-mask.png",
+          "sha256": "8bad0f0988016c5d523d115d09f051a81bae4b1c4d5abc932cb8bce661af99aa"
+        },
+        "panels": {
+          "path": "sources/components/design2-face-frames-v1/european-standard/panel-mask.png",
+          "sha256": "0d6c63d687fd53f8dba2fe361db56c7923837e4e657251570b95e85ff0454d1c"
+        },
+        "palette": {
+          "path": "sources/components/design2-face-frames-v1/european-standard/frame-color-mask.png",
+          "sha256": "cc4b9a34f59480d6117581c9f3454f2996c3bf99b5b2cdbcc4e94110f0fa27f0"
+        },
+        "outline": {
+          "path": "sources/components/design2-face-frames-v1/european-standard/outline-mask.png",
+          "sha256": "ddff3f3214251594dc4f87e72d070198652aa84b9bdd8fb56f38e0263574f9fc"
+        }
+      },
+      "frames": {
+        "lamp-black": {
+          "path": "sources/components/design2-face-frames-v1/european-standard/lamp-black.png",
+          "sha256": "0ac07a63a8569922657f954c147cb0ab2d52e0b0238c0d0d9cc660754e3e1b37"
+        },
+        "madder-lake": {
+          "path": "sources/components/design2-face-frames-v1/european-standard/madder-lake.png",
+          "sha256": "7acd72a9a6ef5344372e2726b1f78f85dbad053518d829ba0a084460c30c8f80"
+        }
+      }
+    },
+    "jumbo": {
+      "pixels": [
+        1050,
+        1500
+      ],
+      "trim_inches": [
+        3.5,
+        5
+      ],
+      "center_pixel": [
+        524.5,
+        749.5
+      ],
+      "field_bounds": [
+        131,
+        110,
+        919,
+        1390
+      ],
+      "top_index_panel_bounds": [
+        50,
+        99,
+        148,
+        316
+      ],
+      "index_safe_box": [
+        67,
+        125,
+        131,
+        290
+      ],
+      "components": {
+        "field": {
+          "path": "sources/components/design2-face-frames-v1/jumbo/field-mask.png",
+          "sha256": "d4aff509d249141bf465743630d761853fc3849664fc3bd25952ec4e3e718c14"
+        },
+        "panels": {
+          "path": "sources/components/design2-face-frames-v1/jumbo/panel-mask.png",
+          "sha256": "da1d2248ca1d07eb7302d0261dfb160bb05a021b80e9452de316345884c25203"
+        },
+        "palette": {
+          "path": "sources/components/design2-face-frames-v1/jumbo/frame-color-mask.png",
+          "sha256": "44a454fb451292f9b46cbcd4ce2a376dab11b951eccd3ea302afaccc739aa65b"
+        },
+        "outline": {
+          "path": "sources/components/design2-face-frames-v1/jumbo/outline-mask.png",
+          "sha256": "c061aa33b14de29636d39523294f8c60b0237c20da1c5a24d765a087e5f1a0c1"
+        }
+      },
+      "frames": {
+        "lamp-black": {
+          "path": "sources/components/design2-face-frames-v1/jumbo/lamp-black.png",
+          "sha256": "bff77efa677d84f8c6961c3357dc64ee85569ee0437440ad8b1d6f6898a504b0"
+        },
+        "madder-lake": {
+          "path": "sources/components/design2-face-frames-v1/jumbo/madder-lake.png",
+          "sha256": "fc288433346a1db0a3381b02e0d4c16dd14b08dc983690f33c408ecc759f0fe5"
+        }
+      }
+    },
+    "travel": {
+      "pixels": [
+        525,
+        750
+      ],
+      "trim_inches": [
+        1.75,
+        2.5
+      ],
+      "center_pixel": [
+        262,
+        374.5
+      ],
+      "field_bounds": [
+        66,
+        55,
+        459,
+        695
+      ],
+      "top_index_panel_bounds": [
+        25,
+        49,
+        74,
+        158
+      ],
+      "index_safe_box": [
+        34,
+        62,
+        65,
+        145
+      ],
+      "components": {
+        "field": {
+          "path": "sources/components/design2-face-frames-v1/travel/field-mask.png",
+          "sha256": "e4ac44ee1617ef7d778b8146cd34e894acc134a042efca9052f64dc28302b6bf"
+        },
+        "panels": {
+          "path": "sources/components/design2-face-frames-v1/travel/panel-mask.png",
+          "sha256": "65171d0df64a93e6203d507f5c865a09e4d8f5341a7a4b617a949d9eedcea435"
+        },
+        "palette": {
+          "path": "sources/components/design2-face-frames-v1/travel/frame-color-mask.png",
+          "sha256": "e2dd3d56bbb9a05061b42a3c7b3d686287911ac60e66581d46823ec3aa8aba8f"
+        },
+        "outline": {
+          "path": "sources/components/design2-face-frames-v1/travel/outline-mask.png",
+          "sha256": "9bf1dfaaa8116258b639e58b64f4c922bc1eef2ae54ae92fa55b5a668d59a6e5"
+        }
+      },
+      "frames": {
+        "lamp-black": {
+          "path": "sources/components/design2-face-frames-v1/travel/lamp-black.png",
+          "sha256": "4ed72f031927bbbee79954587f44eaf6f5e6ba252af1f76df74c4e989054556f"
+        },
+        "madder-lake": {
+          "path": "sources/components/design2-face-frames-v1/travel/madder-lake.png",
+          "sha256": "4c51ddd225f113dbe4f2dc10b8aec86c8ed1feeea88cde7d7107cc7a8f854448"
+        }
+      }
+    },
+    "tarot": {
+      "pixels": [
+        825,
+        1425
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "center_pixel": [
+        412,
+        712
+      ],
+      "field_bounds": [
+        103,
+        104,
+        722,
+        1321
+      ],
+      "top_index_panel_bounds": [
+        40,
+        94,
+        117,
+        300
+      ],
+      "index_safe_box": [
+        54,
+        119,
+        103,
+        275
+      ],
+      "components": {
+        "field": {
+          "path": "sources/components/design2-face-frames-v1/tarot/field-mask.png",
+          "sha256": "ddb82a2de49ea9c8b4233915208be539828c8c88eafa6896cc0084fa5c33d628"
+        },
+        "panels": {
+          "path": "sources/components/design2-face-frames-v1/tarot/panel-mask.png",
+          "sha256": "c6b6268f56194d0acdf6a293a7eaf4132a3ceae13f1a8928a38cefd940523ee5"
+        },
+        "palette": {
+          "path": "sources/components/design2-face-frames-v1/tarot/frame-color-mask.png",
+          "sha256": "4d2c0db24a956f5486e1a5cbc4f723f5e19d6d85328dbda8c9b80f6a1735af9d"
+        },
+        "outline": {
+          "path": "sources/components/design2-face-frames-v1/tarot/outline-mask.png",
+          "sha256": "8b61c77de14b339e2fb972e3e03281b0e1c4bb19cb4198fedc389a48b168fd1a"
+        }
+      },
+      "frames": {
+        "lamp-black": {
+          "path": "sources/components/design2-face-frames-v1/tarot/lamp-black.png",
+          "sha256": "13491e139ba4bde6562bcb2c238e52b4011806365c85290f978a1ff505a97edc"
+        },
+        "madder-lake": {
+          "path": "sources/components/design2-face-frames-v1/tarot/madder-lake.png",
+          "sha256": "7b7ddb6b05d0b39100d7dd07e494d0b801b7219561513ffb31f0f43c64a46220"
+        }
+      }
+    }
+  }
+}
