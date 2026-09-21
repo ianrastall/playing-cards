@@ -1,8 +1,10 @@
 {
   "status": "passed",
+  "revision": "gold-panel-v1",
   "card_count": 30,
   "max_measured_center_error_px": 0.0,
-  "method": "Independent saved-PNG inspection with Pillow/NumPy; localized gold/red disk centroid and source-plate/mask comparisons.",
+  "european_standard_derived_from_bridge": true,
+  "method": "Independent saved-PNG hashes, mask compositing, localized central-flower centroids, physical silhouette, frame-ink samples and Bridge enlargement comparison.",
   "cards": [
     {
       "path": "cards/backs/poker/prussian-blue.png",
@@ -21,10 +23,13 @@
         50,
         50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/poker/verdigris.png",
@@ -43,10 +48,13 @@
         50,
         50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/poker/madder-lake.png",
@@ -65,10 +73,13 @@
         50,
         50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/poker/manganese-violet.png",
@@ -87,10 +98,13 @@
         50,
         50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/poker/lamp-black.png",
@@ -109,10 +123,13 @@
         50,
         50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/bridge/prussian-blue.png",
@@ -126,15 +143,18 @@
       ],
       "center_error_px": 0.0,
       "border_widths_px": [
-        45.0,
-        45.0,
-        45.0,
-        45.0
+        50,
+        50,
+        50,
+        50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/bridge/verdigris.png",
@@ -148,15 +168,18 @@
       ],
       "center_error_px": 0.0,
       "border_widths_px": [
-        45.0,
-        45.0,
-        45.0,
-        45.0
+        50,
+        50,
+        50,
+        50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/bridge/madder-lake.png",
@@ -170,15 +193,18 @@
       ],
       "center_error_px": 0.0,
       "border_widths_px": [
-        45.0,
-        45.0,
-        45.0,
-        45.0
+        50,
+        50,
+        50,
+        50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/bridge/manganese-violet.png",
@@ -192,15 +218,18 @@
       ],
       "center_error_px": 0.0,
       "border_widths_px": [
-        45.0,
-        45.0,
-        45.0,
-        45.0
+        50,
+        50,
+        50,
+        50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/bridge/lamp-black.png",
@@ -214,235 +243,18 @@
       ],
       "center_error_px": 0.0,
       "border_widths_px": [
-        45.0,
-        45.0,
-        45.0,
-        45.0
+        50,
+        50,
+        50,
+        50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
-    },
-    {
-      "path": "cards/backs/european-standard/prussian-blue.png",
-      "center_expected": [
-        347.5,
-        536.5
-      ],
-      "center_measured": [
-        347.5,
-        536.5
-      ],
-      "center_error_px": 0.0,
-      "border_widths_px": [
-        46.4,
-        46.4,
-        46.39999999999998,
-        46.39999999999998
-      ],
-      "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
-    },
-    {
-      "path": "cards/backs/european-standard/verdigris.png",
-      "center_expected": [
-        347.5,
-        536.5
-      ],
-      "center_measured": [
-        347.5,
-        536.5
-      ],
-      "center_error_px": 0.0,
-      "border_widths_px": [
-        46.4,
-        46.4,
-        46.39999999999998,
-        46.39999999999998
-      ],
-      "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
-    },
-    {
-      "path": "cards/backs/european-standard/madder-lake.png",
-      "center_expected": [
-        347.5,
-        536.5
-      ],
-      "center_measured": [
-        347.5,
-        536.5
-      ],
-      "center_error_px": 0.0,
-      "border_widths_px": [
-        46.4,
-        46.4,
-        46.39999999999998,
-        46.39999999999998
-      ],
-      "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
-    },
-    {
-      "path": "cards/backs/european-standard/manganese-violet.png",
-      "center_expected": [
-        347.5,
-        536.5
-      ],
-      "center_measured": [
-        347.5,
-        536.5
-      ],
-      "center_error_px": 0.0,
-      "border_widths_px": [
-        46.4,
-        46.4,
-        46.39999999999998,
-        46.39999999999998
-      ],
-      "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
-    },
-    {
-      "path": "cards/backs/european-standard/lamp-black.png",
-      "center_expected": [
-        347.5,
-        536.5
-      ],
-      "center_measured": [
-        347.5,
-        536.5
-      ],
-      "center_error_px": 0.0,
-      "border_widths_px": [
-        46.4,
-        46.4,
-        46.39999999999998,
-        46.39999999999998
-      ],
-      "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
-    },
-    {
-      "path": "cards/backs/jumbo/prussian-blue.png",
-      "center_expected": [
-        524.5,
-        749.5
-      ],
-      "center_measured": [
-        524.5,
-        749.5
-      ],
-      "center_error_px": 0.0,
-      "border_widths_px": [
-        70.0,
-        70.0,
-        70.0,
-        70.0
-      ],
-      "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
-    },
-    {
-      "path": "cards/backs/jumbo/verdigris.png",
-      "center_expected": [
-        524.5,
-        749.5
-      ],
-      "center_measured": [
-        524.5,
-        749.5
-      ],
-      "center_error_px": 0.0,
-      "border_widths_px": [
-        70.0,
-        70.0,
-        70.0,
-        70.0
-      ],
-      "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
-    },
-    {
-      "path": "cards/backs/jumbo/madder-lake.png",
-      "center_expected": [
-        524.5,
-        749.5
-      ],
-      "center_measured": [
-        524.5,
-        749.5
-      ],
-      "center_error_px": 0.0,
-      "border_widths_px": [
-        70.0,
-        70.0,
-        70.0,
-        70.0
-      ],
-      "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
-    },
-    {
-      "path": "cards/backs/jumbo/manganese-violet.png",
-      "center_expected": [
-        524.5,
-        749.5
-      ],
-      "center_measured": [
-        524.5,
-        749.5
-      ],
-      "center_error_px": 0.0,
-      "border_widths_px": [
-        70.0,
-        70.0,
-        70.0,
-        70.0
-      ],
-      "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
-    },
-    {
-      "path": "cards/backs/jumbo/lamp-black.png",
-      "center_expected": [
-        524.5,
-        749.5
-      ],
-      "center_measured": [
-        524.5,
-        749.5
-      ],
-      "center_error_px": 0.0,
-      "border_widths_px": [
-        70.0,
-        70.0,
-        70.0,
-        70.0
-      ],
-      "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/travel/prussian-blue.png",
@@ -456,15 +268,18 @@
       ],
       "center_error_px": 0.0,
       "border_widths_px": [
-        35.0,
-        35.0,
-        35.0,
-        35.0
+        50,
+        50,
+        50,
+        50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/travel/verdigris.png",
@@ -478,15 +293,18 @@
       ],
       "center_error_px": 0.0,
       "border_widths_px": [
-        35.0,
-        35.0,
-        35.0,
-        35.0
+        50,
+        50,
+        50,
+        50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/travel/madder-lake.png",
@@ -500,15 +318,18 @@
       ],
       "center_error_px": 0.0,
       "border_widths_px": [
-        35.0,
-        35.0,
-        35.0,
-        35.0
+        50,
+        50,
+        50,
+        50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/travel/manganese-violet.png",
@@ -522,15 +343,18 @@
       ],
       "center_error_px": 0.0,
       "border_widths_px": [
-        35.0,
-        35.0,
-        35.0,
-        35.0
+        50,
+        50,
+        50,
+        50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/travel/lamp-black.png",
@@ -544,15 +368,143 @@
       ],
       "center_error_px": 0.0,
       "border_widths_px": [
-        35.0,
-        35.0,
-        35.0,
-        35.0
+        50,
+        50,
+        50,
+        50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
+    },
+    {
+      "path": "cards/backs/jumbo/prussian-blue.png",
+      "center_expected": [
+        524.5,
+        749.5
+      ],
+      "center_measured": [
+        524.5,
+        749.5
+      ],
+      "center_error_px": 0.0,
+      "border_widths_px": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
+      "rgba_half_turn_exact": true,
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
+    },
+    {
+      "path": "cards/backs/jumbo/verdigris.png",
+      "center_expected": [
+        524.5,
+        749.5
+      ],
+      "center_measured": [
+        524.5,
+        749.5
+      ],
+      "center_error_px": 0.0,
+      "border_widths_px": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
+      "rgba_half_turn_exact": true,
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
+    },
+    {
+      "path": "cards/backs/jumbo/madder-lake.png",
+      "center_expected": [
+        524.5,
+        749.5
+      ],
+      "center_measured": [
+        524.5,
+        749.5
+      ],
+      "center_error_px": 0.0,
+      "border_widths_px": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
+      "rgba_half_turn_exact": true,
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
+    },
+    {
+      "path": "cards/backs/jumbo/manganese-violet.png",
+      "center_expected": [
+        524.5,
+        749.5
+      ],
+      "center_measured": [
+        524.5,
+        749.5
+      ],
+      "center_error_px": 0.0,
+      "border_widths_px": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
+      "rgba_half_turn_exact": true,
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
+    },
+    {
+      "path": "cards/backs/jumbo/lamp-black.png",
+      "center_expected": [
+        524.5,
+        749.5
+      ],
+      "center_measured": [
+        524.5,
+        749.5
+      ],
+      "center_error_px": 0.0,
+      "border_widths_px": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
+      "rgba_half_turn_exact": true,
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/tarot/prussian-blue.png",
@@ -566,15 +518,18 @@
       ],
       "center_error_px": 0.0,
       "border_widths_px": [
-        55.000000000000014,
-        55.000000000000014,
-        55.0,
-        55.0
+        50,
+        50,
+        50,
+        50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/tarot/verdigris.png",
@@ -588,15 +543,18 @@
       ],
       "center_error_px": 0.0,
       "border_widths_px": [
-        55.000000000000014,
-        55.000000000000014,
-        55.0,
-        55.0
+        50,
+        50,
+        50,
+        50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/tarot/madder-lake.png",
@@ -610,15 +568,18 @@
       ],
       "center_error_px": 0.0,
       "border_widths_px": [
-        55.000000000000014,
-        55.000000000000014,
-        55.0,
-        55.0
+        50,
+        50,
+        50,
+        50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/tarot/manganese-violet.png",
@@ -632,15 +593,18 @@
       ],
       "center_error_px": 0.0,
       "border_widths_px": [
-        55.000000000000014,
-        55.000000000000014,
-        55.0,
-        55.0
+        50,
+        50,
+        50,
+        50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     },
     {
       "path": "cards/backs/tarot/lamp-black.png",
@@ -654,15 +618,143 @@
       ],
       "center_error_px": 0.0,
       "border_widths_px": [
-        55.000000000000014,
-        55.000000000000014,
-        55.0,
-        55.0
+        50,
+        50,
+        50,
+        50
       ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
       "rgba_half_turn_exact": true,
-      "shared_frame_geometry_exact": true,
-      "unchanged_outside_color_mask": true,
-      "alpha_matches_existing_deck": true
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
+    },
+    {
+      "path": "cards/backs/european-standard/prussian-blue.png",
+      "center_expected": [
+        347.5,
+        536.5
+      ],
+      "center_measured": [
+        347.5,
+        536.5
+      ],
+      "center_error_px": 0.0,
+      "border_widths_px": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
+      "rgba_half_turn_exact": true,
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
+    },
+    {
+      "path": "cards/backs/european-standard/verdigris.png",
+      "center_expected": [
+        347.5,
+        536.5
+      ],
+      "center_measured": [
+        347.5,
+        536.5
+      ],
+      "center_error_px": 0.0,
+      "border_widths_px": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
+      "rgba_half_turn_exact": true,
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
+    },
+    {
+      "path": "cards/backs/european-standard/madder-lake.png",
+      "center_expected": [
+        347.5,
+        536.5
+      ],
+      "center_measured": [
+        347.5,
+        536.5
+      ],
+      "center_error_px": 0.0,
+      "border_widths_px": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
+      "rgba_half_turn_exact": true,
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
+    },
+    {
+      "path": "cards/backs/european-standard/manganese-violet.png",
+      "center_expected": [
+        347.5,
+        536.5
+      ],
+      "center_measured": [
+        347.5,
+        536.5
+      ],
+      "center_error_px": 0.0,
+      "border_widths_px": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
+      "rgba_half_turn_exact": true,
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
+    },
+    {
+      "path": "cards/backs/european-standard/lamp-black.png",
+      "center_expected": [
+        347.5,
+        536.5
+      ],
+      "center_measured": [
+        347.5,
+        536.5
+      ],
+      "center_error_px": 0.0,
+      "border_widths_px": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "inner_frame_radius_px": 40,
+      "outer_frame_radius_px": 6,
+      "rgba_half_turn_exact": true,
+      "alpha_matches_existing_deck": true,
+      "shared_artwork_geometry_exact": true,
+      "palette_masks_exact": true,
+      "surrounding_field_darker_than_own_border": true
     }
   ]
 }

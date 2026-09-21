@@ -2,69 +2,84 @@
 
 [All designs](../../README.md) · [Gallery](index.html) · [Finished backs](cards/backs/)
 
-The approved PNGs live in `cards/backs/<format>/<color>.png` in this folder.
-They are permanent source assets, separate from ignored build output.
-There are no finished Design 2 faces yet.
+The approved gold-panel release contains **30 finished backs: five colors in six
+formats**. The antique-white ornamental middle has a prominent beaded gold band.
+Each surrounding field is a darker shade of its own border color; floral artwork
+and teal medallions are shared across the five colors within each format.
 
-The [gold-panel color studies](sources/generated/design2-dark-field-v3/index.html)
-preserve the antique-white middle panel with a prominent gold band and complete
-border coverage. All five colors have a surrounding field in a darker shade of
-their own border hue. These are ImageGen visual candidates; the production set remains the
-registered version described below.
+Finished RGBA PNGs live in `cards/backs/<format>/<color>.png`. There are no
+finished Design 2 faces. Discarded dark-field studies are out of the active
+source tree; local recovery copies are in the ignored work folder.
 
-Run the commands below from `designs/design2/`.
+## Formats and construction
 
-Thirty trim-size backs: five border colors in all six formats, including Tarot.
-The gold looping ornaments have been replaced with small Chinese-inspired
-floral sprigs. Every color uses the same centered artwork and frame.
-
-Open `index.html`. Scroll over the card or press the left/right arrow keys to
-cycle colors in a fixed position. Buttons, a format selector and optional
-center guides are also available. Use each PNG at its natural aspect ratio;
-different formats intentionally have different proportions.
-
-## Geometry
-
-| Format | Pixels | Trim inches | Center pixel coordinates |
+| Format | Pixels | Trim inches | Construction |
 | --- | --- | --- | --- |
-| Poker | 750 x 1050 | 2.5 x 3.5 | (374.5, 524.5) |
-| Bridge | 675 x 1050 | 2.25 x 3.5 | (337, 524.5) |
-| European Standard | 696 x 1074 | 2.32 x 3.58 | (347.5, 536.5) |
-| Jumbo | 1050 x 1500 | 3.5 x 5 | (524.5, 749.5) |
-| Travel | 525 x 750 | 1.75 x 2.5 | (262, 374.5) |
-| Tarot | 825 x 1425 | 2.75 x 4.75 | (412, 712) |
+| Poker | 750 × 1050 | 2.5 × 3.5 | Approved Poker composition, registered and framed |
+| Bridge | 675 × 1050 | 2.25 × 3.5 | Independently reconfigured narrow composition |
+| Travel | 525 × 750 | 1.75 × 2.5 | Independently reconfigured with simpler filler |
+| Jumbo | 1050 × 1500 | 3.5 × 5 | Independently reconfigured with fuller ornament |
+| Tarot | 825 × 1425 | 2.75 × 4.75 | Independently reconfigured tall composition |
+| European Standard | 696 × 1074 | 2.32 × 3.58 | Bridge enlargement, then common framing |
 
-All PNGs are RGBA at nominal 300 ppi with the collection's 3.5 mm corner alpha,
-antique-white #FAEBD7 paper ground and exact half-turn symmetry. The outside
-paper margin is 23/750 of the card width; the floral border is 50/750 of the
-width on all four straight sides. Each format's five variants are identical
-outside the border-color mask. The central roundel remains proportional;
-surrounding patterned bands adapt to the available height.
+Bridge, Travel, Jumbo and Tarot were generated as separate native compositions
+with built-in ImageGen, using the approved Poker artwork as the reference.
+Their flowers, panel shapes and filler were composed for the different boxes.
+The exporter samples each format's own master uniformly and translates its
+measured floral center to the exact canvas center; it does not stretch Poker
+into those formats. European Standard alone enlarges Bridge's artwork and field
+mask with Lanczos sampling, then receives the same physical border geometry.
 
-`manifest.json` records file hashes, palettes, layout and source registration.
-`registration-audit.json` records independent saved-file checks, including
-zero measured center error in all 30 outputs. `prompts.json` preserves the
-built-in image-generation edit prompt (under `sources/generated/design2-registered-v1/`). The repository can reproduce the set:
+All formats have a **50 px (4.233 mm) border**, a 23 px (1.947 mm) outside paper
+margin, a 40 px inner-frame corner radius and a 6 px outer-frame corner radius
+at 300 ppi. The card silhouette uses the collection's 3.5 mm rounded corners.
+The interior is fitted uniformly; small residual space is filled with the
+matching dark ground. The border is reconstructed from the master's lotus-vine
+ornament with consistent gold outlines. All saved PNGs have exact half-turn
+symmetry, with their central flower at `((width-1)/2, (height-1)/2)`.
+
+The five palettes are Prussian Blue, Verdigris, Madder Lake, Manganese Violet and
+Lamp Black. Each field palette is 64% of its border RGB values, rounded to the
+nearest integer. Separate masks control border and surrounding-field color,
+leaving the common flowers, antique-white panel and medallions fixed.
+
+## Browse and reproduce
+
+Open `index.html` directly or through the repository's HTTP server. Select a
+format, then use the color buttons, arrow keys or mouse wheel to compare colors
+in a fixed position. Center guides and all 30 downloads are included.
+
+Run from `designs/design2/`:
 
 ```text
-node scripts/register_design2.mjs
+node scripts/register_gold_panel.mjs
 python scripts/audit_design2_registration.py --build
+node scripts/register_gold_panel.mjs --apply
 ```
 
-The renderer writes to `build/design2-registered-v1/` for review. It does not
-overwrite the approved cards. To check the permanent set, run:
+The first command builds a review set in `build/design2-gold-panel-v1/`.
+`--apply` rebuilds, independently audits, promotes the checked PNGs and refreshes
+the catalogs and artwork-revision ledger. Exports exclude timestamp metadata
+so the same masters and toolchain reproduce stable file hashes.
+Node.js and ImageMagick must be on PATH; Python dependencies are in the root
+`requirements.txt`. To verify the permanent set:
 
 ```text
 python scripts/audit_design2_registration.py
 python ../../scripts/catalog.py --check
 ```
 
-Choose one back color for a physical deck. This package includes no faces,
-bleed, cutting guides or imposed sheets. The prior Design 1 decks, including
-its completed Tarot release, are unchanged.
+`manifest.json` records sources, palette targets, source-center measurements,
+geometry, component hashes and finished PNG hashes. `registration-audit.json`
+checks the saved files independently, including the Bridge-derived European
+artwork, exact alpha, palette invariance, center alignment and frame geometry.
 
-Source studies and earlier candidates are preserved in `sources/generated/`;
-registration plates and masks live in `sources/components/`. Notes live in
-`docs/design/`. The final manifest paths are relative to this design folder.
-The image renderer needs Node.js and ImageMagick on PATH; audits need the Python
-dependencies from `../../requirements.txt`. Licensed under [MIT](../../LICENSE).
+Approved masters and exact ImageGen prompts are in
+`sources/generated/design2-gold-panel-v1/`. Reusable artwork plates and the two
+palette masks are in `sources/components/design2-gold-panel-v1/`. Older source
+directories document historical releases; their scripts do not produce this
+approved release.
+
+Choose one back color for a physical deck. Files are trim-size artwork without
+bleed, cutting guides or imposed sheets. Preserve alpha and aspect ratio; place
+by the catalog's `trim_inches`. Licensed under [MIT](../../LICENSE).

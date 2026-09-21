@@ -25,6 +25,9 @@ def silhouette(size):
 
 def audit(out=ROOT):
     manifest = json.loads((out / 'manifest.json').read_text())
+    if manifest.get('revision') == 'gold-panel-v1':
+        from audit_gold_panel import audit as audit_gold_panel
+        return audit_gold_panel(out)
     records = []
     for fmt in manifest['formats']:
         plate = np.array(Image.open(COMP / fmt / 'shared-plate.png').convert('RGBA'))
@@ -79,4 +82,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--build', action='store_true', help='Check staged output instead of approved cards')
     args = parser.parse_args()
-    audit(ROOT/'build/design2-registered-v1' if args.build else ROOT)
+    stage = ROOT/'build/design2-gold-panel-v1'
+    if not stage.exists():
+        stage = ROOT/'build/design2-registered-v1'
+    audit(stage if args.build else ROOT)

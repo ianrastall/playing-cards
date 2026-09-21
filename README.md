@@ -88,7 +88,8 @@ commands are in each design's README. Design 1's six release formats include Tar
 The former root `cards/`, `deck.json`, artwork scripts, and sources now belong to
 `designs/design1/`. Design 2's approved backs have been promoted from build output
 to `designs/design2/cards/backs/`. Old hard-coded paths must be updated; see the
-[migration map](docs/layout-migration.md). All 408 native images retain their
-pre-migration SHA-256 hashes.
+[migration map](docs/layout-migration.md). The migration preserved all 408 native
+images byte for byte. Subsequent approved changes are recorded in
+`docs/asset-revisions.json`; Design 2 now uses the gold-panel release.
 
 Licensed under the [MIT License](LICENSE).

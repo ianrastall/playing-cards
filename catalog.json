@@ -14286,7 +14286,7 @@
         300.0,
         300.0
       ],
-      "sha256": "cc9d169ed7d801ed48088adcb7a57370dc1f90da85c519aa19a04a151ce5f2af",
+      "sha256": "989132aa178e0bc19e8a85d445cd1a53ff14dce29326446eac8236d33ae01abd",
       "design": "design2",
       "local_id": "back.bridge.lamp-black"
     },
@@ -14319,7 +14319,7 @@
         300.0,
         300.0
       ],
-      "sha256": "2c7e9318fa6f0d0e00bf6833f8751f3426c8bdeb1065ff1f1c387ed65b27160f",
+      "sha256": "2a354c1cb29103b6fd9c684374f99aa9d379f522104d412098c5e0753871c902",
       "design": "design2",
       "local_id": "back.bridge.madder-lake"
     },
@@ -14352,7 +14352,7 @@
         300.0,
         300.0
       ],
-      "sha256": "81cb8666171396438640c8de7a9c8e0d016263571e3eca967309f8aabe8ac17e",
+      "sha256": "f2a06e73c76bcd75c4bf1ab3cf42e40059b3b3b473a3ca9b1a742295b8c0b683",
       "design": "design2",
       "local_id": "back.bridge.manganese-violet"
     },
@@ -14385,7 +14385,7 @@
         300.0,
         300.0
       ],
-      "sha256": "b2cbc57a95b24c9f121016f6a98329db55e30c68b7bf259f33a281b8f5ca603d",
+      "sha256": "3311fb6b6a3750a7d2c8baf3f96b3b48f1c41669744ffb2eeca64149faafc3d6",
       "design": "design2",
       "local_id": "back.bridge.prussian-blue"
     },
@@ -14418,7 +14418,7 @@
         300.0,
         300.0
       ],
-      "sha256": "8ca504a54571fdf4e8f573264aef2c416e3256c2ac0b32870be3f129df3616f0",
+      "sha256": "6f56889430fd92be41b02378d9d737a34ca337c0d30c08dce781a4f5bc0a5d9e",
       "design": "design2",
       "local_id": "back.bridge.verdigris"
     },
@@ -14451,7 +14451,7 @@
         300.0,
         300.0
       ],
-      "sha256": "60ac0e40bf7bc91b9706eb3270786618580c921034fbfe3eafbd6ff2dc6c2f5a",
+      "sha256": "901a13edbf85dec4dc35e5f3fb9730d1564274094088cb9bcffb0c8bb806c82e",
       "design": "design2",
       "local_id": "back.european-standard.lamp-black"
     },
@@ -14484,7 +14484,7 @@
         300.0,
         300.0
       ],
-      "sha256": "c8e3d6813441a6f0f815053290949a84c108eb7eb64a7dcaf47dd518e140b62c",
+      "sha256": "2d37b0a538e6a70ba676aaf869f1393a708cbd5c466dd649c3d82c68b0d35c05",
       "design": "design2",
       "local_id": "back.european-standard.madder-lake"
     },
@@ -14517,7 +14517,7 @@
         300.0,
         300.0
       ],
-      "sha256": "bdcc5b64d3e87b4255b593c9bb9e2852f8699d3b418175a26ac6b6102c71c0ad",
+      "sha256": "3be55066c84fd238c66b60aa35dcddb23f035db5d439a0811e494052fe5a4109",
       "design": "design2",
       "local_id": "back.european-standard.manganese-violet"
     },
@@ -14550,7 +14550,7 @@
         300.0,
         300.0
       ],
-      "sha256": "b6a0901b745252cd02109e2872b446be96df0bf77739b23e15305057044dfe35",
+      "sha256": "efe7ec21c194d1095ffaa9e9db4a010f583348e145f9c7dfff5f64b8de177979",
       "design": "design2",
       "local_id": "back.european-standard.prussian-blue"
     },
@@ -14583,7 +14583,7 @@
         300.0,
         300.0
       ],
-      "sha256": "66dac877beabd91baba58a63e956fc68cc357d698740b080f08527eb7722a8a2",
+      "sha256": "cd70f8973f8382c270b9140d251a1f7235c02ea8486cd0db6df70dad813530f3",
       "design": "design2",
       "local_id": "back.european-standard.verdigris"
     },
@@ -14616,7 +14616,7 @@
         300.0,
         300.0
       ],
-      "sha256": "a59c709e68f980d2ebb248e226a61219adff688ec21fa20789eb2e156b40d33f",
+      "sha256": "8bb78c79c9be65ccd3b424aaeb511ac41dda38eca42565206dc0549a9cd6fe94",
       "design": "design2",
       "local_id": "back.jumbo.lamp-black"
     },
@@ -14649,7 +14649,7 @@
         300.0,
         300.0
       ],
-      "sha256": "6e1af3c55c402cd41f971024b0b0e0512168d89f3050b47b18d3827faea0bec9",
+      "sha256": "4fffcd3c53100a749a4eb273a739ec3e4c21c12b3a3c2b56bb3684ad96335268",
       "design": "design2",
       "local_id": "back.jumbo.madder-lake"
     },
@@ -14682,7 +14682,7 @@
         300.0,
         300.0
       ],
-      "sha256": "b98eaeb5d31a47f583af06df23bb752ee3dba8c85b50ef7a2f61cd9e9f5c6c63",
+      "sha256": "e06466464926e36e10bb7bd7cc9bb316e085e38766a0d4f7ccad09ee9c9bf3fd",
       "design": "design2",
       "local_id": "back.jumbo.manganese-violet"
     },
@@ -14715,7 +14715,7 @@
         300.0,
         300.0
       ],
-      "sha256": "8c3b5e63e35faff8ac413867fb3e5768c47e0a459a88eef63dc3cc67f93238a3",
+      "sha256": "6c5d64b088702fa14674ce6d31e73bc8b4895867791d57270a65de6b4346257b",
       "design": "design2",
       "local_id": "back.jumbo.prussian-blue"
     },
@@ -14748,7 +14748,7 @@
         300.0,
         300.0
       ],
-      "sha256": "17b37149c8aefdf8e40a6c8e4cfc0d751118199e0cbe0531eeeaa3ecf694e379",
+      "sha256": "4d3957de1f683c01e95f6090c13e656688bf3297e3d1896db0ffea4f5405607b",
       "design": "design2",
       "local_id": "back.jumbo.verdigris"
     },
@@ -14781,7 +14781,7 @@
         300.0,
         300.0
       ],
-      "sha256": "51b796708e2a8df9b27914598b40e75c9d0efaf176fc0f1fab9f2b76997f5fb9",
+      "sha256": "d9513c1e3c1870c107b3ee052d58fe020db58221b5556c09c96f59d70f338525",
       "design": "design2",
       "local_id": "back.poker.lamp-black"
     },
@@ -14814,7 +14814,7 @@
         300.0,
         300.0
       ],
-      "sha256": "522f2fe4eadee6eee231963ab6a039e7967aa92c2ed1105bb58439f97df99af2",
+      "sha256": "77d8ce4d1f3240685dbe45e66ab205a8786a8652f0b99c59018d329f9377b9e0",
       "design": "design2",
       "local_id": "back.poker.madder-lake"
     },
@@ -14847,7 +14847,7 @@
         300.0,
         300.0
       ],
-      "sha256": "9f630901e6eb01b4d4b68127dc06a73f20d17bec220bb800e960864258d93def",
+      "sha256": "c20db3e3ec7ff117f6ce01205e2772b0ccfc6701eb85e187f211fa50dfac0733",
       "design": "design2",
       "local_id": "back.poker.manganese-violet"
     },
@@ -14880,7 +14880,7 @@
         300.0,
         300.0
       ],
-      "sha256": "5ef04d58577a3d542e1960dee17d20cabcf44b93c49af6933f769afbc06c5746",
+      "sha256": "0f7a0b7e780af6e130b12b5744c1be3d3499cb06db07614b48924395fa8fb0b6",
       "design": "design2",
       "local_id": "back.poker.prussian-blue"
     },
@@ -14913,7 +14913,7 @@
         300.0,
         300.0
       ],
-      "sha256": "5a7fabd505d1e4e3c40ffadc99bb95f79e7c9b68b7ce07ad593aaf1c1c0706ea",
+      "sha256": "dcf50e223a5b77478e46b70a0d8b05cb0dcefb10862475f55c43344de63baa4f",
       "design": "design2",
       "local_id": "back.poker.verdigris"
     },
@@ -14946,7 +14946,7 @@
         300.0,
         300.0
       ],
-      "sha256": "3a98087418c34ed04f5fbec494d29484009b156bbd16b88a0104994b6374ed7d",
+      "sha256": "484b0f12321813fc376db1d8c5ece011f8c648a9cf3a5b963c38543331f5e97e",
       "design": "design2",
       "local_id": "back.tarot.lamp-black"
     },
@@ -14979,7 +14979,7 @@
         300.0,
         300.0
       ],
-      "sha256": "2459fa4e00d4b6ab1d46e8452fecce0dfa760af43921bb70621fea665d0c6e76",
+      "sha256": "4400188d9b26d6d9c7e824655b8a6d3b3ecf45bc176e280b9772791a2439f4fe",
       "design": "design2",
       "local_id": "back.tarot.madder-lake"
     },
@@ -15012,7 +15012,7 @@
         300.0,
         300.0
       ],
-      "sha256": "c34697293b6105bc19910f91a81dfd623133ec6903e1d88c6d7f9bde2d11f252",
+      "sha256": "b61aa073b56eafab45b467f2a43fd50f985294d983d84a331c363c680128f42f",
       "design": "design2",
       "local_id": "back.tarot.manganese-violet"
     },
@@ -15045,7 +15045,7 @@
         300.0,
         300.0
       ],
-      "sha256": "786430fa75acfe9867c726a22ba781c0ad2b717de92ca1619448d01f12852ede",
+      "sha256": "bcb625718dd03ac6cb60165100f85fa1abd9c782d4ac465aea8f3716c1eedcff",
       "design": "design2",
       "local_id": "back.tarot.prussian-blue"
     },
@@ -15078,7 +15078,7 @@
         300.0,
         300.0
       ],
-      "sha256": "a6a78144d9503477eab5678041a897ee7c7137c29d16ae9807349fbdc226e853",
+      "sha256": "62087fa12175ca4328f6cdfa64e7ef87fb47b9e62084cdbe2c0a88b52818f73e",
       "design": "design2",
       "local_id": "back.tarot.verdigris"
     },
@@ -15111,7 +15111,7 @@
         300.0,
         300.0
       ],
-      "sha256": "dcfff2ecddb16f2b0c698640f53ae7a4f43bbd55f1c64d78e9424b8d6d47c1d6",
+      "sha256": "df776968ae1689f137d73a38ca6ff85c804bfb666f8151b6dbc69321809e6195",
       "design": "design2",
       "local_id": "back.travel.lamp-black"
     },
@@ -15144,7 +15144,7 @@
         300.0,
         300.0
       ],
-      "sha256": "3cef36de16f7b2d55f5de301b848fc27a89dc135d7b2e9bc367cf7a4aa3770b7",
+      "sha256": "41d3364fb21c65a912dd745d2d62c85264c4ba5f22fe8e9dcae1f1740b9686ca",
       "design": "design2",
       "local_id": "back.travel.madder-lake"
     },
@@ -15177,7 +15177,7 @@
         300.0,
         300.0
       ],
-      "sha256": "3979541c854b4e33d9584233b64397e590775966e80ccb405e0229884dc4b86b",
+      "sha256": "4ec34a7d3b9f1d059a57a1460c81cc920b727704896d13cc939c53a172a41918",
       "design": "design2",
       "local_id": "back.travel.manganese-violet"
     },
@@ -15210,7 +15210,7 @@
         300.0,
         300.0
       ],
-      "sha256": "438ce898795df4014f4904e567d17084c79a7ff903c71ff914b5f7cb54860af4",
+      "sha256": "fa908c42b2ec6f8cb70d61f9ac5378e1dfc0faf4242eb1530abdec16eceb753c",
       "design": "design2",
       "local_id": "back.travel.prussian-blue"
     },
@@ -15243,7 +15243,7 @@
         300.0,
         300.0
       ],
-      "sha256": "b9768811e8d6aed2d5cff8e2f6475e1ad3490129f99f4b262c84f4d5ea386c10",
+      "sha256": "a8681cda8a7de0de2d029cbd15a90d74d5300ecda1e6b71da286d949ebc4c2e3",
       "design": "design2",
       "local_id": "back.travel.verdigris"
     }

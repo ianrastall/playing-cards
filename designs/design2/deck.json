@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "design2",
   "design": "Design 2",
-  "revision": "floral-registration-v1",
+  "revision": "gold-panel-v1",
   "formats": {
     "bridge": {
       "trim_inches": [
@@ -75,5 +75,5 @@
   "face_systems": {},
   "face_status": "not-started",
   "back_status": "approved",
-  "renderer": "registered-silk-v1"
+  "renderer": "registered-gold-panel-v1"
 }
