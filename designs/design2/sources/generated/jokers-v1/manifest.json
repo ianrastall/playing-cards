@@ -1,0 +1,30 @@
+{
+  "generator": "built-in image_gen",
+  "cards": [
+    {
+      "file": "joker-black.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "12d8e03db4485d51e8bc936e009a918062e1a0f87a7df512654c7a25e1076134",
+      "prompt_file": "joker-black-prompt.json",
+      "artwork_status": "user-approved-finished"
+    },
+    {
+      "file": "joker-red.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "7fd2efcb852f12ffba2504ec5c63c7ce52eea0a87bc87a82d867c693a08cfb93",
+      "prompt_file": "joker-red-prompt.json",
+      "artwork_status": "user-approved-finished"
+    }
+  ],
+  "review": "Visually reviewed; saved masters preserved as generated. No claim of pixel-exact rotational symmetry or shared border pixels.",
+  "next_step": "number cards",
+  "approval": "User: All of this is excellent and should be considered finished."
+}

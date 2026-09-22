@@ -1,0 +1,50 @@
+{
+  "tool": "built-in image_gen",
+  "cards": [
+    {
+      "suit": "spades",
+      "path": "queen-spades.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "10f50e8e2d50e3c3dd319a673661b944b0e6ccf887129c15fd45781e9bb8ccc3",
+      "artwork_status": "user-approved-finished"
+    },
+    {
+      "suit": "hearts",
+      "path": "queen-hearts.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "ff753fc537b43443bb4a249f43b8c76c1d60316572de878424357193d6d75e5b",
+      "artwork_status": "user-approved-finished"
+    },
+    {
+      "suit": "diamonds",
+      "path": "queen-diamonds.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "cf66d191e50544c8b3b41551378b1177721504eaabe99b966b44950688f104fe",
+      "artwork_status": "user-approved-finished"
+    },
+    {
+      "suit": "clubs",
+      "path": "queen-clubs.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "33a8bf31d1e58b115e94545efbe7c66b87a8e9e0ff4ef4b243b62382793d93e3",
+      "artwork_status": "user-approved-finished"
+    }
+  ],
+  "approval": "User: All of this is excellent and should be considered finished."
+}

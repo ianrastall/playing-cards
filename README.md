@@ -1,14 +1,16 @@
 # Playing Cards
 
-Two independent designs, with **408 finished PNGs available directly in the repository**.
+Two independent designs, with **444 finished PNGs available directly in the repository**.
 Open the [collection gallery](index.html) to choose a design.
 
 | Design | Finished artwork | Files | Gallery |
 | --- | --- | --- | --- |
 | [Design 1](designs/design1/README.md) — Morris, Mucha and Safavid-inspired botanical ornament | 348 faces, including the complete 78-card Tarot; 30 backs | [Cards](designs/design1/cards/) | [Browse](designs/design1/index.html) |
-| [Design 2](designs/design2/README.md) — Ming and Tang-inspired silk florals | 30 approved, registered backs; five colors in six sizes | [Backs](designs/design2/cards/backs/) | [Browse](designs/design2/index.html) |
+| [Design 2](designs/design2/README.md) — Ming and Tang-inspired silk florals | 36 Poker number faces; 30 approved backs in six sizes | [Cards](designs/design2/cards/) | [Browse](designs/design2/index.html) |
 
-Design 2 has no finished faces yet. Its Tarot-sized backs are included.
+Design 2's [number-card gallery](designs/design2/number-cards.html) includes a
+180-degree turn control. Its approved court, Joker and ace artworks are retained
+as source masters. Tarot-sized backs are included.
 The colors are Lamp Black, Madder Lake, Manganese Violet, Prussian Blue and Verdigris.
 
 ## Folder layout
@@ -27,7 +29,7 @@ designs/
     scripts/                 Design-specific rendering and packaging
     docs/                    Design notes and historical records
     build/ and work/         Local output and staging; ignored by Git
-  design2/                   Same organization; backs only for now
+  design2/                   Same organization; backs and Poker number faces
 scripts/                     Collection-wide catalog and migration checks
 docs/                        Shared references and migration guidance
 ```

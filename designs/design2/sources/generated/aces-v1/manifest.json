@@ -1,0 +1,52 @@
+{
+  "generator": "built-in image_gen",
+  "cards": [
+    {
+      "file": "ace-spades.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "bd16173cb565b26bc73f2ffa83abbb0c6365e408d73b08e119774882b3414aa3",
+      "prompt_file": "ace-spades-prompt.json",
+      "artwork_status": "user-approved-finished"
+    },
+    {
+      "file": "ace-hearts.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "052553f9e6f4297620b7639ef0a411a77db06be03cb0ee737645de00115fe6ad",
+      "prompt_file": "ace-hearts-prompt.json",
+      "artwork_status": "user-approved-finished"
+    },
+    {
+      "file": "ace-diamonds.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "ae0127ec77dda9be655c27f10af68b14c0843110ac303a0624f2bb631c2664a0",
+      "prompt_file": "ace-diamonds-prompt.json",
+      "artwork_status": "user-approved-finished"
+    },
+    {
+      "file": "ace-clubs.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "0ff9ee1ce776321be98a242ba8444d489e830c9bc8136bed966099b2a7c0e9db",
+      "prompt_file": "ace-clubs-prompt.json",
+      "artwork_status": "user-approved-finished"
+    }
+  ],
+  "review": "Visually reviewed; saved masters preserved as generated. No claim of pixel-exact rotational symmetry or shared border pixels.",
+  "next_step": "number cards",
+  "approval": "User: All of this is excellent and should be considered finished."
+}

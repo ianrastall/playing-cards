@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design 2 · Number cards</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eee5d6;color:#30261e;font:17px/1.5 Georgia,serif}main{max-width:1250px;margin:auto;padding:30px}a{color:#694b29}h1{font-weight:normal;font-size:38px;margin:12px 0}p{max-width:850px}.toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:25px 0;position:sticky;top:0;background:#eee5d6ed;padding:12px 0;z-index:2}button,select{font:16px system-ui;color:inherit;background:#fff9ed;border:1px solid #bca98c;border-radius:6px;padding:10px 14px;min-height:44px}button{cursor:pointer}button[aria-pressed=true]{background:#3d3023;color:white}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px}.card{margin:0}.card img{display:block;width:100%;height:auto;aspect-ratio:5/7;object-fit:contain;transition:transform .25s}.turned .card img{transform:rotate(180deg)}figcaption{display:flex;justify-content:space-between;gap:12px;padding:10px 3px;font:15px system-ui}footer{margin-top:32px;font:14px system-ui}@media(max-width:650px){main{padding:18px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}h1{font-size:30px}figcaption{display:block}figcaption a{display:block;margin-top:6px}}@media(prefers-reduced-motion:reduce){.card img{transition:none}}
+</style>
+<main>
+<p><a href="index.html">← Design 2</a> · <a href="../../index.html">All designs</a></p>
+<h1>Lotus number cards</h1>
+<p>Ranks 2–10 in all four suits, with an open ivory field and gold lotus borders. Lower pips turn with the card. Even ranks are fully reversible; odd ranks retain one upright center pip.</p>
+<div class="toolbar"><label for="suit">Suit</label><select id="suit"><option value="spades">♠ Spades</option><option value="hearts">♥ Hearts</option><option value="diamonds">♦ Diamonds</option><option value="clubs">♣ Clubs</option></select><button id="turn" type="button" aria-pressed="false">Turn cards 180°</button><span id="status" role="status">9 cards · Poker · 750 × 1050</span></div>
+<div class="grid" id="cards"></div>
+<footer><a href="docs/design/number-cards-v1.md">Artwork and layout notes</a> · <a href="docs/design/number-cards-v1-audit.json">Verification record</a></footer>
+</main>
+<script>
+const select=document.getElementById('suit'), grid=document.getElementById('cards'), turn=document.getElementById('turn');
+function show(){const suit=select.value;grid.replaceChildren();for(let rank=2;rank<=10;rank++){const figure=document.createElement('figure');figure.className='card';const link=document.createElement('a'),img=document.createElement('img'),caption=document.createElement('figcaption'),download=document.createElement('a');const name=rank+' of '+suit[0].toUpperCase()+suit.slice(1),path='cards/faces/french-suited/poker/'+suit+'/'+rank+'.png';link.href=path;img.src=path;img.alt=name;img.width=750;img.height=1050;img.loading=rank<5?'eager':'lazy';link.append(img);caption.append(document.createTextNode(name));download.href=path;download.download=suit+'-'+rank+'.png';download.textContent='Save PNG';caption.append(download);figure.append(link,caption);grid.append(figure)}}
+select.addEventListener('change',show);turn.addEventListener('click',()=>{const turned=grid.classList.toggle('turned');turn.setAttribute('aria-pressed',String(turned));turn.textContent=turned?'Return upright':'Turn cards 180°'});show();
+</script>
+</html>

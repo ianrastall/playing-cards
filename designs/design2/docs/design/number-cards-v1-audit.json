@@ -1,0 +1,1675 @@
+{
+  "status": "passed",
+  "target": "active",
+  "cards_checked": 36,
+  "exact_half_turn_cards": 20,
+  "upright_center_only_cards": 16,
+  "preserved_original_images": 170,
+  "checks": [
+    "visible connected pip counts",
+    "nonoverlap and clear field containment",
+    "index containment and exact opposing indices",
+    "frame and silhouette preservation",
+    "750x1050 RGBA and 300 DPI",
+    "full pixel half-turn comparisons",
+    "source and output hashes"
+  ],
+  "cards": [
+    {
+      "suit": "spades",
+      "rank": "2",
+      "visible_pips": 2,
+      "pip_boxes": [
+        [
+          263,
+          139,
+          488,
+          403
+        ],
+        [
+          262,
+          647,
+          487,
+          911
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "17a09a55b3a26130ecb5abb67672e3364c7905ab5c2d2a7c9602e73bab5d5a5a"
+    },
+    {
+      "suit": "spades",
+      "rank": "3",
+      "visible_pips": 3,
+      "pip_boxes": [
+        [
+          285,
+          147,
+          464,
+          357
+        ],
+        [
+          285,
+          417,
+          464,
+          627
+        ],
+        [
+          286,
+          693,
+          465,
+          903
+        ]
+      ],
+      "half_turn_mismatch_pixels": 25362,
+      "symmetry_exception": "single upright center pip",
+      "sha256": "1ff52eee45595c76985f71e4d25cda65e72a90f0fa52a8b27d66b3e5aaab6d70"
+    },
+    {
+      "suit": "spades",
+      "rank": "4",
+      "visible_pips": 4,
+      "pip_boxes": [
+        [
+          137,
+          149,
+          312,
+          354
+        ],
+        [
+          437,
+          149,
+          612,
+          354
+        ],
+        [
+          138,
+          696,
+          313,
+          901
+        ],
+        [
+          438,
+          696,
+          613,
+          901
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "298725a4806e7a4f1190da15792ca1d01c6770fac0c2e0499e99276894830420"
+    },
+    {
+      "suit": "spades",
+      "rank": "5",
+      "visible_pips": 5,
+      "pip_boxes": [
+        [
+          144,
+          156,
+          307,
+          347
+        ],
+        [
+          444,
+          156,
+          607,
+          347
+        ],
+        [
+          294,
+          426,
+          457,
+          617
+        ],
+        [
+          143,
+          703,
+          306,
+          894
+        ],
+        [
+          443,
+          703,
+          606,
+          894
+        ]
+      ],
+      "half_turn_mismatch_pixels": 21062,
+      "symmetry_exception": "single upright center pip",
+      "sha256": "51e3c48a3cfb8bcfc59f6aeb1cd709dfe12a1016a1615bb36c635cc897119a51"
+    },
+    {
+      "suit": "spades",
+      "rank": "6",
+      "visible_pips": 6,
+      "pip_boxes": [
+        [
+          148,
+          162,
+          303,
+          343
+        ],
+        [
+          448,
+          162,
+          603,
+          343
+        ],
+        [
+          148,
+          432,
+          303,
+          613
+        ],
+        [
+          447,
+          437,
+          602,
+          618
+        ],
+        [
+          147,
+          707,
+          302,
+          888
+        ],
+        [
+          447,
+          707,
+          602,
+          888
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "0158d0af3c6c13c29717e50142b1c03e0d894d7e862dc52b04abd6c2d35d3edc"
+    },
+    {
+      "suit": "spades",
+      "rank": "7",
+      "visible_pips": 7,
+      "pip_boxes": [
+        [
+          162,
+          179,
+          288,
+          326
+        ],
+        [
+          462,
+          179,
+          588,
+          326
+        ],
+        [
+          162,
+          449,
+          288,
+          596
+        ],
+        [
+          312,
+          449,
+          438,
+          596
+        ],
+        [
+          462,
+          454,
+          588,
+          601
+        ],
+        [
+          162,
+          724,
+          288,
+          871
+        ],
+        [
+          462,
+          724,
+          588,
+          871
+        ]
+      ],
+      "half_turn_mismatch_pixels": 12698,
+      "symmetry_exception": "single upright center pip",
+      "sha256": "27993e07c67dce0fc352b7cfb21b5260ace2fc145e963f7ec6538f1373e775b7"
+    },
+    {
+      "suit": "spades",
+      "rank": "8",
+      "visible_pips": 8,
+      "pip_boxes": [
+        [
+          154,
+          139,
+          296,
+          306
+        ],
+        [
+          454,
+          139,
+          596,
+          306
+        ],
+        [
+          154,
+          339,
+          296,
+          506
+        ],
+        [
+          454,
+          339,
+          596,
+          506
+        ],
+        [
+          154,
+          544,
+          296,
+          711
+        ],
+        [
+          454,
+          544,
+          596,
+          711
+        ],
+        [
+          154,
+          744,
+          296,
+          911
+        ],
+        [
+          454,
+          744,
+          596,
+          911
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "e1b3c4211e9c0f47ec8ef269d9998b47a1217de534772669b3fc209045c80c25"
+    },
+    {
+      "suit": "spades",
+      "rank": "9",
+      "visible_pips": 9,
+      "pip_boxes": [
+        [
+          164,
+          182,
+          286,
+          324
+        ],
+        [
+          314,
+          182,
+          436,
+          324
+        ],
+        [
+          464,
+          182,
+          586,
+          324
+        ],
+        [
+          164,
+          452,
+          286,
+          594
+        ],
+        [
+          314,
+          452,
+          436,
+          594
+        ],
+        [
+          464,
+          456,
+          586,
+          598
+        ],
+        [
+          164,
+          726,
+          286,
+          868
+        ],
+        [
+          314,
+          726,
+          436,
+          868
+        ],
+        [
+          464,
+          726,
+          586,
+          868
+        ]
+      ],
+      "half_turn_mismatch_pixels": 11834,
+      "symmetry_exception": "single upright center pip",
+      "sha256": "b5bc58214bc339ececaa1508429f8c1db10679caae3ae1fca49e14a5c7e18ad8"
+    },
+    {
+      "suit": "spades",
+      "rank": "10",
+      "visible_pips": 10,
+      "pip_boxes": [
+        [
+          162,
+          149,
+          288,
+          296
+        ],
+        [
+          462,
+          149,
+          588,
+          296
+        ],
+        [
+          312,
+          249,
+          438,
+          396
+        ],
+        [
+          162,
+          349,
+          288,
+          496
+        ],
+        [
+          462,
+          349,
+          588,
+          496
+        ],
+        [
+          162,
+          554,
+          288,
+          701
+        ],
+        [
+          462,
+          554,
+          588,
+          701
+        ],
+        [
+          312,
+          654,
+          438,
+          801
+        ],
+        [
+          162,
+          754,
+          288,
+          901
+        ],
+        [
+          462,
+          754,
+          588,
+          901
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "37b4b14461c3bf76ca2666392ab5d658db6ad38ca1be156a7b146bee8acfe4e4"
+    },
+    {
+      "suit": "hearts",
+      "rank": "2",
+      "visible_pips": 2,
+      "pip_boxes": [
+        [
+          254,
+          159,
+          496,
+          385
+        ],
+        [
+          254,
+          665,
+          496,
+          891
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "6f72fe7850a1e4696344dc7094b468dd88ac09b2c6490d5fad19a4f22dbd872a"
+    },
+    {
+      "suit": "hearts",
+      "rank": "3",
+      "visible_pips": 3,
+      "pip_boxes": [
+        [
+          276,
+          161,
+          473,
+          345
+        ],
+        [
+          276,
+          431,
+          473,
+          615
+        ],
+        [
+          277,
+          705,
+          474,
+          889
+        ]
+      ],
+      "half_turn_mismatch_pixels": 33530,
+      "symmetry_exception": "single upright center pip",
+      "sha256": "05a0a558dddb66c4a86ccae409d3194401a8b01e2d3d0e4da57dff9f061994ce"
+    },
+    {
+      "suit": "hearts",
+      "rank": "4",
+      "visible_pips": 4,
+      "pip_boxes": [
+        [
+          131,
+          166,
+          318,
+          340
+        ],
+        [
+          431,
+          166,
+          618,
+          340
+        ],
+        [
+          132,
+          710,
+          319,
+          884
+        ],
+        [
+          432,
+          710,
+          619,
+          884
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "aa16a074144ef335fe20bfef4576e7287a71097b124b8054190d60a6141d6fa9"
+    },
+    {
+      "suit": "hearts",
+      "rank": "5",
+      "visible_pips": 5,
+      "pip_boxes": [
+        [
+          139,
+          173,
+          311,
+          333
+        ],
+        [
+          439,
+          173,
+          611,
+          333
+        ],
+        [
+          289,
+          443,
+          461,
+          603
+        ],
+        [
+          139,
+          717,
+          311,
+          877
+        ],
+        [
+          439,
+          717,
+          611,
+          877
+        ]
+      ],
+      "half_turn_mismatch_pixels": 25640,
+      "symmetry_exception": "single upright center pip",
+      "sha256": "4ae643f088983ff678973b1c0e41a6e9b02a60eab1cacf83f2e80b55c4baa4cc"
+    },
+    {
+      "suit": "hearts",
+      "rank": "6",
+      "visible_pips": 6,
+      "pip_boxes": [
+        [
+          142,
+          175,
+          309,
+          331
+        ],
+        [
+          442,
+          175,
+          609,
+          331
+        ],
+        [
+          142,
+          445,
+          309,
+          601
+        ],
+        [
+          441,
+          449,
+          608,
+          605
+        ],
+        [
+          141,
+          719,
+          308,
+          875
+        ],
+        [
+          441,
+          719,
+          608,
+          875
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "f09c5dd7e2e5ae0944383f1178f3ec7b6fb5dc6968d12674983cd043e93d4f28"
+    },
+    {
+      "suit": "hearts",
+      "rank": "7",
+      "visible_pips": 7,
+      "pip_boxes": [
+        [
+          161,
+          194,
+          288,
+          312
+        ],
+        [
+          461,
+          194,
+          588,
+          312
+        ],
+        [
+          161,
+          464,
+          288,
+          582
+        ],
+        [
+          311,
+          464,
+          438,
+          582
+        ],
+        [
+          462,
+          468,
+          589,
+          586
+        ],
+        [
+          162,
+          738,
+          289,
+          856
+        ],
+        [
+          462,
+          738,
+          589,
+          856
+        ]
+      ],
+      "half_turn_mismatch_pixels": 14040,
+      "symmetry_exception": "single upright center pip",
+      "sha256": "f9650d3e31f373af5c9aa432e820b376c9f1ba1260c7509d19e9515fc3565a32"
+    },
+    {
+      "suit": "hearts",
+      "rank": "8",
+      "visible_pips": 8,
+      "pip_boxes": [
+        [
+          146,
+          150,
+          303,
+          296
+        ],
+        [
+          446,
+          150,
+          603,
+          296
+        ],
+        [
+          146,
+          350,
+          303,
+          496
+        ],
+        [
+          446,
+          350,
+          603,
+          496
+        ],
+        [
+          147,
+          554,
+          304,
+          700
+        ],
+        [
+          447,
+          554,
+          604,
+          700
+        ],
+        [
+          147,
+          754,
+          304,
+          900
+        ],
+        [
+          447,
+          754,
+          604,
+          900
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "9a745f8f906bde5e2a05cefc726d0bacbc98ce46e2a6b09ea642890a981fa608"
+    },
+    {
+      "suit": "hearts",
+      "rank": "9",
+      "visible_pips": 9,
+      "pip_boxes": [
+        [
+          161,
+          194,
+          288,
+          312
+        ],
+        [
+          311,
+          194,
+          438,
+          312
+        ],
+        [
+          461,
+          194,
+          588,
+          312
+        ],
+        [
+          161,
+          464,
+          288,
+          582
+        ],
+        [
+          311,
+          464,
+          438,
+          582
+        ],
+        [
+          462,
+          468,
+          589,
+          586
+        ],
+        [
+          162,
+          738,
+          289,
+          856
+        ],
+        [
+          312,
+          738,
+          439,
+          856
+        ],
+        [
+          462,
+          738,
+          589,
+          856
+        ]
+      ],
+      "half_turn_mismatch_pixels": 14040,
+      "symmetry_exception": "single upright center pip",
+      "sha256": "4086c707737c14e65ac5046023ca7abca9b2aeb19eab1c9e9d1507432e900fda"
+    },
+    {
+      "suit": "hearts",
+      "rank": "10",
+      "visible_pips": 10,
+      "pip_boxes": [
+        [
+          159,
+          162,
+          291,
+          285
+        ],
+        [
+          459,
+          162,
+          591,
+          285
+        ],
+        [
+          309,
+          262,
+          441,
+          385
+        ],
+        [
+          159,
+          362,
+          291,
+          485
+        ],
+        [
+          459,
+          362,
+          591,
+          485
+        ],
+        [
+          159,
+          565,
+          291,
+          688
+        ],
+        [
+          459,
+          565,
+          591,
+          688
+        ],
+        [
+          309,
+          665,
+          441,
+          788
+        ],
+        [
+          159,
+          765,
+          291,
+          888
+        ],
+        [
+          459,
+          765,
+          591,
+          888
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "cbfbdd4fb61734458e315173181baf020f3333fc619447b93d8d52cf23c625fd"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "2",
+      "visible_pips": 2,
+      "pip_boxes": [
+        [
+          270,
+          139,
+          480,
+          405
+        ],
+        [
+          270,
+          645,
+          480,
+          911
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "bd2561110d20d022f187908a5f91e4ce54dc7f70f0502fd1c7b16de97a8352a8"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "3",
+      "visible_pips": 3,
+      "pip_boxes": [
+        [
+          291,
+          147,
+          459,
+          359
+        ],
+        [
+          291,
+          417,
+          459,
+          629
+        ],
+        [
+          291,
+          691,
+          459,
+          903
+        ]
+      ],
+      "half_turn_mismatch_pixels": 18452,
+      "symmetry_exception": "single upright center pip",
+      "sha256": "f3f7436b2bfedcfbc5f3f1d1e17d6974c22ab7533b3f1e1b2a3d8eb78f116f7a"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "4",
+      "visible_pips": 4,
+      "pip_boxes": [
+        [
+          143,
+          149,
+          307,
+          356
+        ],
+        [
+          443,
+          149,
+          607,
+          356
+        ],
+        [
+          143,
+          694,
+          307,
+          901
+        ],
+        [
+          443,
+          694,
+          607,
+          901
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "c29c9e3c3a5a9dee401c6ce2fe8ae64c4571c9edd7794f9d77b670dfa00c3af5"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "5",
+      "visible_pips": 5,
+      "pip_boxes": [
+        [
+          149,
+          156,
+          301,
+          349
+        ],
+        [
+          449,
+          156,
+          601,
+          349
+        ],
+        [
+          299,
+          426,
+          451,
+          619
+        ],
+        [
+          149,
+          701,
+          301,
+          894
+        ],
+        [
+          449,
+          701,
+          601,
+          894
+        ]
+      ],
+      "half_turn_mismatch_pixels": 15172,
+      "symmetry_exception": "single upright center pip",
+      "sha256": "e03d4db8543458ea15bfc1c383b1eb8f0766a9ea460bfe0a933c37b4918beda6"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "6",
+      "visible_pips": 6,
+      "pip_boxes": [
+        [
+          152,
+          161,
+          297,
+          344
+        ],
+        [
+          452,
+          161,
+          597,
+          344
+        ],
+        [
+          152,
+          431,
+          297,
+          614
+        ],
+        [
+          453,
+          436,
+          598,
+          619
+        ],
+        [
+          153,
+          706,
+          298,
+          889
+        ],
+        [
+          453,
+          706,
+          598,
+          889
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "f14c64b95ec66531e410cfe92e6391e3faddba0e5a29be35d5551b628b472485"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "7",
+      "visible_pips": 7,
+      "pip_boxes": [
+        [
+          166,
+          179,
+          284,
+          328
+        ],
+        [
+          466,
+          179,
+          584,
+          328
+        ],
+        [
+          166,
+          449,
+          284,
+          598
+        ],
+        [
+          316,
+          449,
+          434,
+          598
+        ],
+        [
+          466,
+          452,
+          584,
+          601
+        ],
+        [
+          166,
+          722,
+          284,
+          871
+        ],
+        [
+          466,
+          722,
+          584,
+          871
+        ]
+      ],
+      "half_turn_mismatch_pixels": 9418,
+      "symmetry_exception": "single upright center pip",
+      "sha256": "66b1174ac6e00467bde9674f73ccb2257e8cece92e2c81eb185346806dcfc436"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "8",
+      "visible_pips": 8,
+      "pip_boxes": [
+        [
+          158,
+          139,
+          291,
+          307
+        ],
+        [
+          458,
+          139,
+          591,
+          307
+        ],
+        [
+          158,
+          339,
+          291,
+          507
+        ],
+        [
+          458,
+          339,
+          591,
+          507
+        ],
+        [
+          159,
+          543,
+          292,
+          711
+        ],
+        [
+          459,
+          543,
+          592,
+          711
+        ],
+        [
+          159,
+          743,
+          292,
+          911
+        ],
+        [
+          459,
+          743,
+          592,
+          911
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "8867ca2bb040575d8fe09a52f8403212ba740dcac5c7f7b1be3a3ca6572c8f39"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "9",
+      "visible_pips": 9,
+      "pip_boxes": [
+        [
+          168,
+          181,
+          282,
+          325
+        ],
+        [
+          318,
+          181,
+          432,
+          325
+        ],
+        [
+          468,
+          181,
+          582,
+          325
+        ],
+        [
+          168,
+          451,
+          282,
+          595
+        ],
+        [
+          318,
+          451,
+          432,
+          595
+        ],
+        [
+          468,
+          455,
+          582,
+          599
+        ],
+        [
+          168,
+          725,
+          282,
+          869
+        ],
+        [
+          318,
+          725,
+          432,
+          869
+        ],
+        [
+          468,
+          725,
+          582,
+          869
+        ]
+      ],
+      "half_turn_mismatch_pixels": 8714,
+      "symmetry_exception": "single upright center pip",
+      "sha256": "47f906e739c7923ec8ed5cd9a1b5e5aef2c26d9e77b04f57eb71f60ddd7991a3"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "10",
+      "visible_pips": 10,
+      "pip_boxes": [
+        [
+          166,
+          149,
+          284,
+          298
+        ],
+        [
+          466,
+          149,
+          584,
+          298
+        ],
+        [
+          316,
+          249,
+          434,
+          398
+        ],
+        [
+          166,
+          349,
+          284,
+          498
+        ],
+        [
+          466,
+          349,
+          584,
+          498
+        ],
+        [
+          166,
+          552,
+          284,
+          701
+        ],
+        [
+          466,
+          552,
+          584,
+          701
+        ],
+        [
+          316,
+          652,
+          434,
+          801
+        ],
+        [
+          166,
+          752,
+          284,
+          901
+        ],
+        [
+          466,
+          752,
+          584,
+          901
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "5d9658019d8e156c55add1a9e9ed978c9ae1171ad7f57062eaf2e0161d5bbe03"
+    },
+    {
+      "suit": "clubs",
+      "rank": "2",
+      "visible_pips": 2,
+      "pip_boxes": [
+        [
+          254,
+          139,
+          496,
+          407
+        ],
+        [
+          254,
+          643,
+          496,
+          911
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "0d515c93b7fc2426eb0c79c4a8507873856559f982978e5a75779629cb617624"
+    },
+    {
+      "suit": "clubs",
+      "rank": "3",
+      "visible_pips": 3,
+      "pip_boxes": [
+        [
+          278,
+          147,
+          471,
+          361
+        ],
+        [
+          278,
+          417,
+          471,
+          631
+        ],
+        [
+          279,
+          689,
+          472,
+          903
+        ]
+      ],
+      "half_turn_mismatch_pixels": 30198,
+      "symmetry_exception": "single upright center pip",
+      "sha256": "9d6530d1a7629f4d0531c2a6bc324e0f2d75b2ae8a8323b1ceb0cae7c5539c02"
+    },
+    {
+      "suit": "clubs",
+      "rank": "4",
+      "visible_pips": 4,
+      "pip_boxes": [
+        [
+          132,
+          150,
+          319,
+          357
+        ],
+        [
+          432,
+          150,
+          619,
+          357
+        ],
+        [
+          131,
+          693,
+          318,
+          900
+        ],
+        [
+          431,
+          693,
+          618,
+          900
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "94596333e323067fe1f0e4886c8de12539209958e1ff29cd10bfea7bd1932bf5"
+    },
+    {
+      "suit": "clubs",
+      "rank": "5",
+      "visible_pips": 5,
+      "pip_boxes": [
+        [
+          139,
+          158,
+          311,
+          349
+        ],
+        [
+          439,
+          158,
+          611,
+          349
+        ],
+        [
+          289,
+          428,
+          461,
+          619
+        ],
+        [
+          139,
+          701,
+          311,
+          892
+        ],
+        [
+          439,
+          701,
+          611,
+          892
+        ]
+      ],
+      "half_turn_mismatch_pixels": 24100,
+      "symmetry_exception": "single upright center pip",
+      "sha256": "8a46cce9387aef2a3a3a6be0688f2f13cbf9c2f7b638d6f15afbf98292ee529e"
+    },
+    {
+      "suit": "clubs",
+      "rank": "6",
+      "visible_pips": 6,
+      "pip_boxes": [
+        [
+          142,
+          161,
+          308,
+          346
+        ],
+        [
+          442,
+          161,
+          608,
+          346
+        ],
+        [
+          142,
+          431,
+          308,
+          616
+        ],
+        [
+          442,
+          434,
+          608,
+          619
+        ],
+        [
+          142,
+          704,
+          308,
+          889
+        ],
+        [
+          442,
+          704,
+          608,
+          889
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "eb63af7ceae008f1bf8ed98c91a36c1f74719c0a91b4c6446c911856b995e3d2"
+    },
+    {
+      "suit": "clubs",
+      "rank": "7",
+      "visible_pips": 7,
+      "pip_boxes": [
+        [
+          162,
+          184,
+          289,
+          325
+        ],
+        [
+          462,
+          184,
+          589,
+          325
+        ],
+        [
+          162,
+          454,
+          289,
+          595
+        ],
+        [
+          312,
+          454,
+          439,
+          595
+        ],
+        [
+          461,
+          455,
+          588,
+          596
+        ],
+        [
+          161,
+          725,
+          288,
+          866
+        ],
+        [
+          461,
+          725,
+          588,
+          866
+        ]
+      ],
+      "half_turn_mismatch_pixels": 13216,
+      "symmetry_exception": "single upright center pip",
+      "sha256": "5238a56986397e39a1316be8edef9261df010bd4a9d60229597dd140ccc012da"
+    },
+    {
+      "suit": "clubs",
+      "rank": "8",
+      "visible_pips": 8,
+      "pip_boxes": [
+        [
+          149,
+          139,
+          302,
+          309
+        ],
+        [
+          449,
+          139,
+          602,
+          309
+        ],
+        [
+          149,
+          339,
+          302,
+          509
+        ],
+        [
+          449,
+          339,
+          602,
+          509
+        ],
+        [
+          148,
+          541,
+          301,
+          711
+        ],
+        [
+          448,
+          541,
+          601,
+          711
+        ],
+        [
+          148,
+          741,
+          301,
+          911
+        ],
+        [
+          448,
+          741,
+          601,
+          911
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "baa0dbe8b00c6ecfe5b586c8f0f89f14cd1864a63b55f0beeb48224f4553fa79"
+    },
+    {
+      "suit": "clubs",
+      "rank": "9",
+      "visible_pips": 9,
+      "pip_boxes": [
+        [
+          162,
+          184,
+          289,
+          325
+        ],
+        [
+          312,
+          184,
+          439,
+          325
+        ],
+        [
+          462,
+          184,
+          589,
+          325
+        ],
+        [
+          162,
+          454,
+          289,
+          595
+        ],
+        [
+          312,
+          454,
+          439,
+          595
+        ],
+        [
+          461,
+          455,
+          588,
+          596
+        ],
+        [
+          161,
+          725,
+          288,
+          866
+        ],
+        [
+          311,
+          725,
+          438,
+          866
+        ],
+        [
+          461,
+          725,
+          588,
+          866
+        ]
+      ],
+      "half_turn_mismatch_pixels": 13216,
+      "symmetry_exception": "single upright center pip",
+      "sha256": "acc01152889b4e596ac488ae54c2878ae2993e08056324d495bd63a03b2f6aeb"
+    },
+    {
+      "suit": "clubs",
+      "rank": "10",
+      "visible_pips": 10,
+      "pip_boxes": [
+        [
+          159,
+          151,
+          291,
+          297
+        ],
+        [
+          459,
+          151,
+          591,
+          297
+        ],
+        [
+          309,
+          251,
+          441,
+          397
+        ],
+        [
+          159,
+          351,
+          291,
+          497
+        ],
+        [
+          459,
+          351,
+          591,
+          497
+        ],
+        [
+          159,
+          553,
+          291,
+          699
+        ],
+        [
+          459,
+          553,
+          591,
+          699
+        ],
+        [
+          309,
+          653,
+          441,
+          799
+        ],
+        [
+          159,
+          753,
+          291,
+          899
+        ],
+        [
+          459,
+          753,
+          591,
+          899
+        ]
+      ],
+      "half_turn_mismatch_pixels": 0,
+      "symmetry_exception": null,
+      "sha256": "d1a75071d07a756dc3e360d01e92df081bda38fdfa6f5d8afd9691c4fe30c3a3"
+    }
+  ]
+}

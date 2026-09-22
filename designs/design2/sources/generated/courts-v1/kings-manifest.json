@@ -1,0 +1,52 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "king-spades-floral-jian-v3.png",
+  "spades_approval": "User explicitly considered this design finished and requested the three other kings.",
+  "cards": [
+    {
+      "suit": "spades",
+      "path": "king-spades-floral-jian-v3.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "fd7dca5c3d978be204040f604964e38246cd46c22c9250e40cac08fb1f9b2ec3",
+      "artwork_status": "user-approved-finished"
+    },
+    {
+      "suit": "hearts",
+      "path": "king-hearts.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "401542fe6317a264c19632cc3a79c521ea221cf15f617d8b5ad7d5cf3dedb10e",
+      "artwork_status": "user-approved-finished"
+    },
+    {
+      "suit": "diamonds",
+      "path": "king-diamonds.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "1c9615a735b41b3441ee2c6cbf8312c1e3a00d1df6557748ffece510ae45d5bb",
+      "artwork_status": "user-approved-finished"
+    },
+    {
+      "suit": "clubs",
+      "path": "king-clubs.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "2d13dbb5826d9bb85a010ea5ccadd0b093985ee024e36582f0493049e1b2a3bd",
+      "artwork_status": "user-approved-finished"
+    }
+  ],
+  "approval": "User explicitly accepted all four Kings as finished and requested the four Queens."
+}

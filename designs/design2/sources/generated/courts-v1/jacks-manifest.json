@@ -1,0 +1,64 @@
+{
+  "generator": "built-in image_gen",
+  "cards": [
+    {
+      "suit": "spades",
+      "file": "jack-spades.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "c1af0b784086692c94d567913d46ec8854636678685d5c40572e09fa0089abd6",
+      "prompt_file": "jack-spades-prompt.json",
+      "identity": "Left profile; one eye; pike",
+      "artwork_status": "user-approved-finished"
+    },
+    {
+      "suit": "hearts",
+      "file": "jack-hearts.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "c9323bb19a8ebf28f9feedb143d4aaa916abc85744fc509b5bf2adff03b17b97",
+      "prompt_file": "jack-hearts-prompt.json",
+      "identity": "Right profile; one eye; olive leaf",
+      "artwork_status": "user-approved-finished"
+    },
+    {
+      "suit": "diamonds",
+      "file": "jack-diamonds.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "fbd449734e59eba3019e413cfd0c2912cbe79ef8ed3b0bba5ae0717ea9a51873",
+      "prompt_file": "jack-diamonds-prompt.json",
+      "identity": "Left three-quarter; two eyes; jian",
+      "artwork_status": "user-approved-finished"
+    },
+    {
+      "suit": "clubs",
+      "file": "jack-clubs.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "mode": "RGB",
+      "sha256": "1ae0cdffbcd535c0fbe8dafee14923bc53c1f434950335d0361bb1324c6e5c42",
+      "prompt_file": "jack-clubs-prompt.json",
+      "identity": "Right three-quarter; two eyes; feathered arrow-like shaft",
+      "artwork_status": "user-approved-finished"
+    }
+  ],
+  "review": "Visually reviewed for suit indices, pose, attribute, floral density and framing. Visually double-ended compositions; pixel-exact rotational equality is not claimed.",
+  "next_sequence": [
+    "two Jokers",
+    "four aces",
+    "number cards"
+  ],
+  "approval": "User: All of this is excellent and should be considered finished."
+}

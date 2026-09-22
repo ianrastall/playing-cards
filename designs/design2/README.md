@@ -1,14 +1,15 @@
 # Design 2
 
-[All designs](../../README.md) · [Gallery](index.html) · [Finished backs](cards/backs/)
+[All designs](../../README.md) · [Gallery](index.html) · [Number cards](number-cards.html) · [Finished backs](cards/backs/)
 
 The approved gold-panel release contains **30 finished backs: five colors in six
 formats**. The antique-white ornamental middle has a prominent beaded gold band.
 Each surrounding field is a darker shade of its own border color; floral artwork
 and teal medallions are shared across the five colors within each format.
 
-Finished RGBA PNGs live in `cards/backs/<format>/<color>.png`. There are no
-finished Design 2 faces. Discarded dark-field studies are out of the active
+Finished back PNGs live in `cards/backs/<format>/<color>.png`. The 36 Poker
+number faces are in `cards/faces/french-suited/poker/<suit>/<rank>.png`.
+Discarded dark-field studies are out of the active
 source tree; local recovery copies are in the ignored work folder.
 
 [Blank face frames](docs/design/face-frames-v1.md) are now available in Lamp
@@ -17,6 +18,24 @@ central-field and corner-index structure to Design 2's gold lotus vines.
 The twelve templates and their masks live in
 `sources/components/design2-face-frames-v1/`; browse them in the gallery's
 [face frames section](index.html#face-frames).
+
+The [four King artworks](sources/generated/courts-v1/README.md) now share the
+finished King of Spades design approved by the user: Ming-inspired yellow
+dragon robes, dense lotus fields and the conventional suit-specific poses.
+Selected full-resolution masters and exact prompts are saved together.
+All four Kings have been accepted as finished. The matching
+[four Queens](docs/design/queens-v1.md) are now generated, with phoenix crowns,
+red silk robes and their suit-specific scepter or flowers.
+The [four Jacks](docs/design/jacks-v1.md) are also generated, with blue lotus
+robes, youthful faces, and the same poses and attributes used in Design 1.
+The [two Jokers and four aces](docs/design/jokers-and-aces-v1.md) are now
+generated as well. All preceding court, Joker and ace artworks have been
+accepted as finished. The [number-card layout](docs/design/number-card-layout-v1.md)
+uses the open blank frames, with ornament confined to the outer band to leave
+more space for pip patterns. All [36 number cards](docs/design/number-cards-v1.md)
+are now composed at 750 × 1050. Even ranks are exactly reversible; odd ranks
+have one upright center pip with all surrounding pips paired by rotation.
+[Browse the cards and turn them over](number-cards.html).
 
 ## Formats and construction
 

@@ -1,0 +1,3795 @@
+{
+  "revision": "design2-number-cards-v1",
+  "status": "rendered-review",
+  "format": "poker",
+  "pixels": [
+    750,
+    1050
+  ],
+  "dpi": 300,
+  "coordinate_basis": "zero-based pixel centers",
+  "center": [
+    374.5,
+    524.5
+  ],
+  "safe_pip_box": [
+    120,
+    110,
+    630,
+    940
+  ],
+  "ranks": {
+    "2": {
+      "pips": [
+        {
+          "center": [
+            374.5,
+            274.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            374.5,
+            774.5
+          ],
+          "rotation": 180
+        }
+      ],
+      "component_bounds": [
+        250,
+        280
+      ],
+      "reversibility": "exact-half-turn",
+      "components": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/pips/spades/2.png",
+          "sha256": "6e1f6b97d6ab499f3fd95f2ab09d56ee6c34942cad7a8ff024407eed568405ef",
+          "pixels": [
+            250,
+            280
+          ],
+          "anchor": [
+            124.5,
+            139.5
+          ],
+          "measured_jewel": [
+            124.56271167619788,
+            139.4176336683138
+          ],
+          "alpha_bounds": [
+            13,
+            4,
+            238,
+            268
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/pips/hearts/2.png",
+          "sha256": "1ef056be745b3b8c0f373f2de1d2c36f0de2cbf5bca4cf8c640b154a2a2c0207",
+          "pixels": [
+            250,
+            280
+          ],
+          "anchor": [
+            124.5,
+            139.5
+          ],
+          "measured_jewel": [
+            124.41183765501691,
+            139.44718151071027
+          ],
+          "alpha_bounds": [
+            4,
+            24,
+            246,
+            250
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/pips/diamonds/2.png",
+          "sha256": "6604ab944286ce43efdae24d8ded5d7a9aaee85d2b329d163236480fd4b5acb5",
+          "pixels": [
+            250,
+            280
+          ],
+          "anchor": [
+            124.5,
+            139.5
+          ],
+          "measured_jewel": [
+            124.47735959059403,
+            139.57582431819654
+          ],
+          "alpha_bounds": [
+            20,
+            4,
+            230,
+            270
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/pips/clubs/2.png",
+          "sha256": "47b0c0cb95f9102cae7ecaa2201c7b318f9f5ded8d5ce2b60121eda95ac5f935",
+          "pixels": [
+            250,
+            280
+          ],
+          "anchor": [
+            124.5,
+            139.5
+          ],
+          "measured_jewel": [
+            124.46924870821711,
+            139.57231697837122
+          ],
+          "alpha_bounds": [
+            4,
+            4,
+            246,
+            272
+          ]
+        }
+      },
+      "indices": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/indices/spades/2.png",
+          "sha256": "fbc7f2a76dd2403c662e106d1512800d64ace05bc1a9f02718ca17a065b25a48",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/indices/hearts/2.png",
+          "sha256": "659dda15909be9a11ef3f18efce6ca2c4a822b494d0ce2f9809b66abd3f38fa9",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/indices/diamonds/2.png",
+          "sha256": "a25a5d5eae974d07312b547fba29dbca04be0da86f69db6c407137dd5f921c9a",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/indices/clubs/2.png",
+          "sha256": "998314c0281a8d967a11c678bd58b95df39a327f8f240c1ef03530364128efc9",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        }
+      }
+    },
+    "3": {
+      "pips": [
+        {
+          "center": [
+            374.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            374.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 0
+        }
+      ],
+      "component_bounds": [
+        205,
+        225
+      ],
+      "reversibility": "upright-center-only",
+      "components": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/pips/spades/3.png",
+          "sha256": "569c6e0271df72cfd16ebb5fb9c9e0e27f1833d53605e72f5253ed4f8b112d8b",
+          "pixels": [
+            206,
+            226
+          ],
+          "anchor": [
+            102.5,
+            112.5
+          ],
+          "measured_jewel": [
+            102.48926767676768,
+            112.47429653679653
+          ],
+          "alpha_bounds": [
+            13,
+            5,
+            192,
+            215
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/pips/hearts/3.png",
+          "sha256": "c4bcdc72f127b46aa7751d0f9700330ecdcd9346db92c2fe086debcc99353071",
+          "pixels": [
+            206,
+            226
+          ],
+          "anchor": [
+            102.5,
+            112.5
+          ],
+          "measured_jewel": [
+            102.51282051282051,
+            112.4838738497275
+          ],
+          "alpha_bounds": [
+            4,
+            19,
+            201,
+            203
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/pips/diamonds/3.png",
+          "sha256": "ce1ed784102dd07385ec909733100e7ef76d253205149fbdf1563fd7e9b15281",
+          "pixels": [
+            206,
+            226
+          ],
+          "anchor": [
+            102.5,
+            112.5
+          ],
+          "measured_jewel": [
+            102.49636174636174,
+            112.47099792099792
+          ],
+          "alpha_bounds": [
+            19,
+            5,
+            187,
+            217
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/pips/clubs/3.png",
+          "sha256": "1bec59e934940f9b47f53316cbd84aedefc84ee7840bcaca8b5e3cffac05ccfe",
+          "pixels": [
+            206,
+            226
+          ],
+          "anchor": [
+            102.5,
+            112.5
+          ],
+          "measured_jewel": [
+            102.4808053489595,
+            112.48095560063106
+          ],
+          "alpha_bounds": [
+            6,
+            5,
+            199,
+            219
+          ]
+        }
+      },
+      "indices": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/indices/spades/3.png",
+          "sha256": "495efe990546f7849010a1079e04d86e237732ca01a593a5ebc7abe9536ecf63",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/indices/hearts/3.png",
+          "sha256": "c988e4021283f5cb0ff4f20b3ef13bb0f10d884fbe7053d0a68ad87a883a9ad0",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/indices/diamonds/3.png",
+          "sha256": "3b2b2b09903d71805802c83614597dab6987f7c8275c8734b27e0aa992c2aa33",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/indices/clubs/3.png",
+          "sha256": "ec6226b9e12e53e95384a210591e1508d377ba9ef2d4487bb8b44da0574bc727",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        }
+      }
+    },
+    "4": {
+      "pips": [
+        {
+          "center": [
+            224.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            794.5
+          ],
+          "rotation": 180
+        }
+      ],
+      "component_bounds": [
+        195,
+        220
+      ],
+      "reversibility": "exact-half-turn",
+      "components": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/pips/spades/4.png",
+          "sha256": "ab61c34d3bd9fbab5928ab718c5492ce9e0c7bf4e98cea2a06a92248de530049",
+          "pixels": [
+            196,
+            220
+          ],
+          "anchor": [
+            97.5,
+            109.5
+          ],
+          "measured_jewel": [
+            97.48616227448758,
+            109.53565693775384
+          ],
+          "alpha_bounds": [
+            10,
+            4,
+            185,
+            209
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/pips/hearts/4.png",
+          "sha256": "f05278fda44a84d3a674c00a1ac4e1390efd922690c4b6da59ac6e27791ff882",
+          "pixels": [
+            196,
+            220
+          ],
+          "anchor": [
+            97.5,
+            109.5
+          ],
+          "measured_jewel": [
+            97.42861427714458,
+            109.4116176764647
+          ],
+          "alpha_bounds": [
+            4,
+            21,
+            191,
+            195
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/pips/diamonds/4.png",
+          "sha256": "fbc0cf6caccc87b92ccdc762a6a6af91008f2d274cab5eedfe818254d98b5d97",
+          "pixels": [
+            196,
+            220
+          ],
+          "anchor": [
+            97.5,
+            109.5
+          ],
+          "measured_jewel": [
+            97.48075024679171,
+            109.51935943841175
+          ],
+          "alpha_bounds": [
+            16,
+            4,
+            180,
+            211
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/pips/clubs/4.png",
+          "sha256": "5508af5863b8a3f66386b5e4424e17ea4ee10e815fe7fc0c9caaf20e45a9fd09",
+          "pixels": [
+            196,
+            220
+          ],
+          "anchor": [
+            97.5,
+            109.5
+          ],
+          "measured_jewel": [
+            97.49416527744701,
+            109.51829800746209
+          ],
+          "alpha_bounds": [
+            5,
+            5,
+            192,
+            212
+          ]
+        }
+      },
+      "indices": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/indices/spades/4.png",
+          "sha256": "33ba4d9baab0f5b38a192778015a80f0a98eba9a3be1840552d7533cb39e6343",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/indices/hearts/4.png",
+          "sha256": "98bb79950f7fc5f7347f948964c096064d6f6c9d9b4e165b79e7548dfe0d40f4",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/indices/diamonds/4.png",
+          "sha256": "619898c1fdc9db551a83a9c7e767ad9ba984555553161d79f0ecc683bb08f214",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/indices/clubs/4.png",
+          "sha256": "7a7fb1069c744957c39f51ff16e2ef8a08e20ec64d0d8647ce4a5ced0fb48de8",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        }
+      }
+    },
+    "5": {
+      "pips": [
+        {
+          "center": [
+            224.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 0
+        }
+      ],
+      "component_bounds": [
+        180,
+        205
+      ],
+      "reversibility": "upright-center-only",
+      "components": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/pips/spades/5.png",
+          "sha256": "2527ce62f389f437fe745da8bcf4a9be56acaea6b5e92a1b7e57eb0cc0953b0b",
+          "pixels": [
+            180,
+            206
+          ],
+          "anchor": [
+            89.5,
+            102.5
+          ],
+          "measured_jewel": [
+            89.517003827228,
+            102.50989611809732
+          ],
+          "alpha_bounds": [
+            9,
+            4,
+            172,
+            195
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/pips/hearts/5.png",
+          "sha256": "9756ac7358327dfcfea7ea3a801045264262fe8f674defc9dd974579a8397eac",
+          "pixels": [
+            180,
+            206
+          ],
+          "anchor": [
+            89.5,
+            102.5
+          ],
+          "measured_jewel": [
+            89.48383317713214,
+            102.4471649484536
+          ],
+          "alpha_bounds": [
+            4,
+            21,
+            176,
+            181
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/pips/diamonds/5.png",
+          "sha256": "796c151f965801de9e3d5b81815f136188793f3ad13542196c78fc7692a1b78b",
+          "pixels": [
+            180,
+            206
+          ],
+          "anchor": [
+            89.5,
+            102.5
+          ],
+          "measured_jewel": [
+            89.47509081473794,
+            102.5451478982875
+          ],
+          "alpha_bounds": [
+            14,
+            4,
+            166,
+            197
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/pips/clubs/5.png",
+          "sha256": "862d783fd7fad42c2b5fcbb39b9fb7520ca3799204a84d5cb5dc6bd6b2141a6b",
+          "pixels": [
+            180,
+            206
+          ],
+          "anchor": [
+            89.5,
+            102.5
+          ],
+          "measured_jewel": [
+            89.5346562588169,
+            102.53719552337064
+          ],
+          "alpha_bounds": [
+            4,
+            6,
+            176,
+            197
+          ]
+        }
+      },
+      "indices": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/indices/spades/5.png",
+          "sha256": "be803361965b0406a92dc01d5dd0fc969145d5cb5d736b3e1bc656819d16faa5",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/indices/hearts/5.png",
+          "sha256": "f4016e4b23ade51c73de81e49fec4b4cdabff181addd9e4c561871b75b719d37",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/indices/diamonds/5.png",
+          "sha256": "733fafb2ce08e3446699bb96432fe9c52a9726d0a0378b6a51ee287a3b966285",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/indices/clubs/5.png",
+          "sha256": "2c37da0eebe47c50d44b9c15835aa95fb68ea38bf6b4d79232c2f55b2ba99c28",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        }
+      }
+    },
+    "6": {
+      "pips": [
+        {
+          "center": [
+            224.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            224.5,
+            524.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            524.5
+          ],
+          "rotation": 180
+        }
+      ],
+      "component_bounds": [
+        175,
+        195
+      ],
+      "reversibility": "exact-half-turn",
+      "components": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/pips/spades/6.png",
+          "sha256": "bf9132c6e524bf40c67bba48eff9e884211175256c2315e30c1ba69f42288653",
+          "pixels": [
+            176,
+            196
+          ],
+          "anchor": [
+            87.5,
+            97.5
+          ],
+          "measured_jewel": [
+            87.53869308917596,
+            97.54057443873072
+          ],
+          "alpha_bounds": [
+            11,
+            5,
+            166,
+            186
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/pips/hearts/6.png",
+          "sha256": "e2081aff99494bfa0f0207ea8d66d6c8d4dbd8cb8385a362aeba0422ab165d1e",
+          "pixels": [
+            176,
+            196
+          ],
+          "anchor": [
+            87.5,
+            97.5
+          ],
+          "measured_jewel": [
+            87.50613691003416,
+            97.46121725926864
+          ],
+          "alpha_bounds": [
+            5,
+            18,
+            172,
+            174
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/pips/diamonds/6.png",
+          "sha256": "e8e7d5ae667cc691460f888f35c98a2d5e13e2e3bccbb10a6c7c2ea53bd02f08",
+          "pixels": [
+            176,
+            196
+          ],
+          "anchor": [
+            87.5,
+            97.5
+          ],
+          "measured_jewel": [
+            87.43971839249046,
+            97.3584628923438
+          ],
+          "alpha_bounds": [
+            15,
+            4,
+            160,
+            187
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/pips/clubs/6.png",
+          "sha256": "fb08df103249a02eeac31a9e7ad887cdac66bb417e59c4e8b7ca44ed6afa14db",
+          "pixels": [
+            176,
+            196
+          ],
+          "anchor": [
+            87.5,
+            97.5
+          ],
+          "measured_jewel": [
+            87.4847843611447,
+            97.54373236598146
+          ],
+          "alpha_bounds": [
+            5,
+            4,
+            171,
+            189
+          ]
+        }
+      },
+      "indices": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/indices/spades/6.png",
+          "sha256": "af096442bf3d3c46c0ea65fc448c819ebbf6d2d8d78cde267d55576c04a4438a",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/indices/hearts/6.png",
+          "sha256": "29377f066ac11e606549bcc84f975c9f774c47f7be65ab4ba241f0850b88f43f",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/indices/diamonds/6.png",
+          "sha256": "e74359b77ad06e4672918ff714f7185a922fd108a2af275ff25bf0ef674fcfaa",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/indices/clubs/6.png",
+          "sha256": "a609425f2523f8e6402ece709b0e2125bb1eae0f5145355c8b5abd024a54fbf9",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        }
+      }
+    },
+    "7": {
+      "pips": [
+        {
+          "center": [
+            224.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            224.5,
+            524.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            524.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 0
+        }
+      ],
+      "component_bounds": [
+        135,
+        160
+      ],
+      "reversibility": "upright-center-only",
+      "components": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/pips/spades/7.png",
+          "sha256": "08e28993cccdccdbc9047bb6e9412d559ca919184ab7e8d82d2b19e64f66f7db",
+          "pixels": [
+            136,
+            160
+          ],
+          "anchor": [
+            67.5,
+            79.5
+          ],
+          "measured_jewel": [
+            67.45727611940299,
+            79.56026119402985
+          ],
+          "alpha_bounds": [
+            5,
+            4,
+            131,
+            151
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/pips/hearts/7.png",
+          "sha256": "3ea88db29840f7aa1510c2fa3bc974d9990005a2538b35bfeda9d3d2ec75aa7a",
+          "pixels": [
+            136,
+            160
+          ],
+          "anchor": [
+            67.5,
+            79.5
+          ],
+          "measured_jewel": [
+            67.45923656927427,
+            79.41116870876532
+          ],
+          "alpha_bounds": [
+            4,
+            19,
+            131,
+            137
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/pips/diamonds/7.png",
+          "sha256": "297c17d767a4470e1217c61c2a75c40548a59b9fc9ac7a0bb741f499bf037e45",
+          "pixels": [
+            136,
+            160
+          ],
+          "anchor": [
+            67.5,
+            79.5
+          ],
+          "measured_jewel": [
+            67.47683310841205,
+            79.472334682861
+          ],
+          "alpha_bounds": [
+            9,
+            4,
+            127,
+            153
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/pips/clubs/7.png",
+          "sha256": "a6b60ed625293d17e1826325c9253f75440e12c98764761eaff498560d407afb",
+          "pixels": [
+            136,
+            160
+          ],
+          "anchor": [
+            67.5,
+            79.5
+          ],
+          "measured_jewel": [
+            67.52177055103884,
+            79.50496838301716
+          ],
+          "alpha_bounds": [
+            5,
+            9,
+            132,
+            150
+          ]
+        }
+      },
+      "indices": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/indices/spades/7.png",
+          "sha256": "152d24cf9325e73d64051ceb75295c437fa1d8ee5f94ef3922729e3ad37b8343",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/indices/hearts/7.png",
+          "sha256": "eb4d1cfbbcc15b63172257561502a88796edc47896e37d69735888bf7513e0fe",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/indices/diamonds/7.png",
+          "sha256": "fe5272c6e0b9b7347ef2c2ba94cf6d6d9d6348bd9a5f239f5abe35334961f759",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/indices/clubs/7.png",
+          "sha256": "eaf92e6a53f92e7c0d61d4db18e3fd2328e66205c8251bb9d5a37ef84f64e588",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        }
+      }
+    },
+    "8": {
+      "pips": [
+        {
+          "center": [
+            224.5,
+            224.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            824.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            224.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            824.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            224.5,
+            424.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            624.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            424.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            624.5
+          ],
+          "rotation": 180
+        }
+      ],
+      "component_bounds": [
+        165,
+        180
+      ],
+      "reversibility": "exact-half-turn",
+      "components": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/pips/spades/8.png",
+          "sha256": "3fd628bac0b0b91c0fca48eb01279c76e1d0f5d69418c16f532b2b9991c98a49",
+          "pixels": [
+            166,
+            180
+          ],
+          "anchor": [
+            82.5,
+            89.5
+          ],
+          "measured_jewel": [
+            82.49721162312885,
+            89.43263868506017
+          ],
+          "alpha_bounds": [
+            12,
+            4,
+            154,
+            171
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/pips/hearts/8.png",
+          "sha256": "87981fd694496931939c7ad5ee93511bc3a659c8cbb93c8dff182aaf16d96867",
+          "pixels": [
+            166,
+            180
+          ],
+          "anchor": [
+            82.5,
+            89.5
+          ],
+          "measured_jewel": [
+            82.45898604386215,
+            89.59256622045001
+          ],
+          "alpha_bounds": [
+            4,
+            15,
+            161,
+            161
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/pips/diamonds/8.png",
+          "sha256": "ff27ea6d96d0e3dbad893138b0b3426cacaee40a1e1bf0c14bba6743a8a320bf",
+          "pixels": [
+            166,
+            180
+          ],
+          "anchor": [
+            82.5,
+            89.5
+          ],
+          "measured_jewel": [
+            82.49826869806094,
+            89.5417243767313
+          ],
+          "alpha_bounds": [
+            16,
+            4,
+            149,
+            172
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/pips/clubs/8.png",
+          "sha256": "8998e04d428b2994350a90f159d21b6bccaa1a02c1ea9031f3900e69c9ec0789",
+          "pixels": [
+            166,
+            180
+          ],
+          "anchor": [
+            82.5,
+            89.5
+          ],
+          "measured_jewel": [
+            82.53772324140445,
+            89.43834285020046
+          ],
+          "alpha_bounds": [
+            7,
+            4,
+            160,
+            174
+          ]
+        }
+      },
+      "indices": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/indices/spades/8.png",
+          "sha256": "04b31cc8cbb06dca1e2d596574384228b623aae2887158535ea24a3975cfbafb",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/indices/hearts/8.png",
+          "sha256": "5f72a8eb9279088f539440d5dab72a9e52d535b59d834671ed4054275c0b8657",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/indices/diamonds/8.png",
+          "sha256": "bf82c435f960d0fd8f27420cf3877c00b129c1c3aa22b6d7e942df1cbd0135dd",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/indices/clubs/8.png",
+          "sha256": "6ef4dd9bd848247f28066e7bb704b7604a133dfedf19b5439e6c18878783210e",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        }
+      }
+    },
+    "9": {
+      "pips": [
+        {
+          "center": [
+            224.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            374.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            374.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            224.5,
+            524.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            524.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 0
+        }
+      ],
+      "component_bounds": [
+        135,
+        155
+      ],
+      "reversibility": "upright-center-only",
+      "components": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/pips/spades/9.png",
+          "sha256": "67cec3e457e1ff57e8cfe201293b4513390fb9cbd1346b5ba867cc943748f660",
+          "pixels": [
+            136,
+            156
+          ],
+          "anchor": [
+            67.5,
+            77.5
+          ],
+          "measured_jewel": [
+            67.44386038687973,
+            77.5208158116064
+          ],
+          "alpha_bounds": [
+            7,
+            5,
+            129,
+            147
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/pips/hearts/9.png",
+          "sha256": "bbd27b447b173952a4999f3936b2b27587ebd2e35e0724649b8a44919fe4cdec",
+          "pixels": [
+            136,
+            156
+          ],
+          "anchor": [
+            67.5,
+            77.5
+          ],
+          "measured_jewel": [
+            67.45923656927427,
+            77.41116870876532
+          ],
+          "alpha_bounds": [
+            4,
+            17,
+            131,
+            135
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/pips/diamonds/9.png",
+          "sha256": "b9df822c91fb706c42a7007feabe7b47bcb881896a31a981da13a29e87f014e7",
+          "pixels": [
+            136,
+            156
+          ],
+          "anchor": [
+            67.5,
+            77.5
+          ],
+          "measured_jewel": [
+            67.48214725437084,
+            77.34252647131248
+          ],
+          "alpha_bounds": [
+            11,
+            4,
+            125,
+            148
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/pips/clubs/9.png",
+          "sha256": "4181251aaa7c0b2dff31b5d3831f4fcef2be37459ef05bfed7e8f48ea151e950",
+          "pixels": [
+            136,
+            156
+          ],
+          "anchor": [
+            67.5,
+            77.5
+          ],
+          "measured_jewel": [
+            67.52177055103884,
+            77.50496838301716
+          ],
+          "alpha_bounds": [
+            5,
+            7,
+            132,
+            148
+          ]
+        }
+      },
+      "indices": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/indices/spades/9.png",
+          "sha256": "9dc8665e21835588b745701bfc1a27e0a10909792aaf70f28b4952161ce6847e",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/indices/hearts/9.png",
+          "sha256": "c929a10f40c17be3f955fe352acde141ed4d25f4e23264379a5a0dbd429b22b5",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/indices/diamonds/9.png",
+          "sha256": "7101751a7afdb46d6ba83c2e9560ec7963a09c9c5890b7ab159179a1837bb89e",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/indices/clubs/9.png",
+          "sha256": "9fb7bff52c4a83f87b1b33837e8c04c7d77bfd94f28f7840a825cacaa99a2157",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        }
+      }
+    },
+    "10": {
+      "pips": [
+        {
+          "center": [
+            224.5,
+            224.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            824.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            224.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            824.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            224.5,
+            424.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            624.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            424.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            624.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            374.5,
+            324.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            374.5,
+            724.5
+          ],
+          "rotation": 180
+        }
+      ],
+      "component_bounds": [
+        140,
+        160
+      ],
+      "reversibility": "exact-half-turn",
+      "components": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/pips/spades/10.png",
+          "sha256": "77002277642a213fd5ca59322cb6b3b6e612502dd7657d028f5a510cafc4a4ab",
+          "pixels": [
+            140,
+            160
+          ],
+          "anchor": [
+            69.5,
+            79.5
+          ],
+          "measured_jewel": [
+            69.45727611940299,
+            79.56026119402985
+          ],
+          "alpha_bounds": [
+            7,
+            4,
+            133,
+            151
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/pips/hearts/10.png",
+          "sha256": "d51884dfafd65deb148aa56b2932f24c1121418fab89fbe1f123f17314090a4d",
+          "pixels": [
+            140,
+            160
+          ],
+          "anchor": [
+            69.5,
+            79.5
+          ],
+          "measured_jewel": [
+            69.45784418356457,
+            79.43991462113127
+          ],
+          "alpha_bounds": [
+            4,
+            17,
+            136,
+            140
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/pips/diamonds/10.png",
+          "sha256": "bf3c6d28878342a3e72132660c497943541b8ac1acfa2dc12a08698054d563c9",
+          "pixels": [
+            140,
+            160
+          ],
+          "anchor": [
+            69.5,
+            79.5
+          ],
+          "measured_jewel": [
+            69.47683310841205,
+            79.472334682861
+          ],
+          "alpha_bounds": [
+            11,
+            4,
+            129,
+            153
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/pips/clubs/10.png",
+          "sha256": "7132313cf00900cc9744d70cb820e1de9c9b359aaae0f9fcd869897e6256d97b",
+          "pixels": [
+            140,
+            160
+          ],
+          "anchor": [
+            69.5,
+            79.5
+          ],
+          "measured_jewel": [
+            69.51875103254585,
+            79.58846852800265
+          ],
+          "alpha_bounds": [
+            4,
+            6,
+            136,
+            152
+          ]
+        }
+      },
+      "indices": {
+        "spades": {
+          "path": "sources/components/number-cards-v1/indices/spades/10.png",
+          "sha256": "05396d6a4d3776ba86f4d2efeee49793efcc94cbcfd78b181cfa0a3f81a3d77d",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/number-cards-v1/indices/hearts/10.png",
+          "sha256": "3662fdcd7559bc7deb0d29ad56c694ee5d5276c9729a112e715da7226db6fbb5",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/number-cards-v1/indices/diamonds/10.png",
+          "sha256": "e0146628a7334a76cf4fe144d3a407d276d2d9a260b47cadbb6e702558d1a90c",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/number-cards-v1/indices/clubs/10.png",
+          "sha256": "c813fec1235f95bb17ae1e26b96b214c10ba7a7eab484757edbdf9a587605b4c",
+          "top_left": [
+            48,
+            87
+          ],
+          "pixels": [
+            46,
+            116
+          ]
+        }
+      }
+    }
+  },
+  "sources": {
+    "spades": {
+      "path": "sources/components/pips-v1/spades-master.png",
+      "sha256": "16b73135dd8e8496fa656b9b7b7bf05f94cfc66b3a23d2c89a61c45caa7ca0ad"
+    },
+    "hearts": {
+      "path": "sources/components/pips-v1/hearts-master.png",
+      "sha256": "484274961b7bb749269385f5c756ef84b0e61e5fd1d1c3bf0dbd7198b48d02d4"
+    },
+    "diamonds": {
+      "path": "sources/components/pips-v1/diamonds-master.png",
+      "sha256": "8194562b6d58bdd0e9de9079158420da5fcffd0cc9677eafbf02a8bbc951dc3a"
+    },
+    "clubs": {
+      "path": "sources/components/pips-v1/clubs-master.png",
+      "sha256": "7ee7e1e39a50a8e0f9d9c820ef169539d3205522a3865369aca2b47d284d4005"
+    }
+  },
+  "frames": {
+    "lamp-black": {
+      "path": "sources/components/design2-face-frames-v1/poker/lamp-black.png",
+      "sha256": "5dcdf487f6db1f6885778558856aade97d2dfb8ded8311ddcbf0d6d65a722a25"
+    },
+    "madder-lake": {
+      "path": "sources/components/design2-face-frames-v1/poker/madder-lake.png",
+      "sha256": "19b4c547c0558158e3edd0eb5499a8b9832390ea5366be36e96b663855a11af3"
+    }
+  },
+  "font": {
+    "name": "Times New Roman Bold",
+    "sha256": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5"
+  },
+  "seven_policy": "Centered seventh pip; six surrounding pips form exact rotated pairs.",
+  "odd_rank_policy": "Only the single central upright pip is exempt from half-turn symmetry.",
+  "preparation": "Retain connected pip silhouette above alpha 8, crop, uniform Lanczos scale, subpixel jewel registration. Original masters unchanged.",
+  "cards": [
+    {
+      "suit": "spades",
+      "rank": "2",
+      "path": "cards/faces/french-suited/poker/spades/2.png",
+      "staged_path": "work/number-cards-v1/cards/spades/2.png",
+      "sha256": "17a09a55b3a26130ecb5abb67672e3364c7905ab5c2d2a7c9602e73bab5d5a5a",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            250,
+            135
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            250,
+            635
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "spades",
+      "rank": "3",
+      "path": "cards/faces/french-suited/poker/spades/3.png",
+      "staged_path": "work/number-cards-v1/cards/spades/3.png",
+      "sha256": "1ff52eee45595c76985f71e4d25cda65e72a90f0fa52a8b27d66b3e5aaab6d70",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "upright-center-only",
+      "placements": [
+        {
+          "top_left": [
+            272,
+            142
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            272,
+            682
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            272,
+            412
+          ],
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "suit": "spades",
+      "rank": "4",
+      "path": "cards/faces/french-suited/poker/spades/4.png",
+      "staged_path": "work/number-cards-v1/cards/spades/4.png",
+      "sha256": "298725a4806e7a4f1190da15792ca1d01c6770fac0c2e0499e99276894830420",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            127,
+            145
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            427,
+            685
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            427,
+            145
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            127,
+            685
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "spades",
+      "rank": "5",
+      "path": "cards/faces/french-suited/poker/spades/5.png",
+      "staged_path": "work/number-cards-v1/cards/spades/5.png",
+      "sha256": "51e3c48a3cfb8bcfc59f6aeb1cd709dfe12a1016a1615bb36c635cc897119a51",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "upright-center-only",
+      "placements": [
+        {
+          "top_left": [
+            135,
+            152
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            435,
+            692
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            435,
+            152
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            135,
+            692
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            285,
+            422
+          ],
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "suit": "spades",
+      "rank": "6",
+      "path": "cards/faces/french-suited/poker/spades/6.png",
+      "staged_path": "work/number-cards-v1/cards/spades/6.png",
+      "sha256": "0158d0af3c6c13c29717e50142b1c03e0d894d7e862dc52b04abd6c2d35d3edc",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            137,
+            157
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            437,
+            697
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            437,
+            157
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            137,
+            697
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            137,
+            427
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            437,
+            427
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "spades",
+      "rank": "7",
+      "path": "cards/faces/french-suited/poker/spades/7.png",
+      "staged_path": "work/number-cards-v1/cards/spades/7.png",
+      "sha256": "27993e07c67dce0fc352b7cfb21b5260ace2fc145e963f7ec6538f1373e775b7",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "upright-center-only",
+      "placements": [
+        {
+          "top_left": [
+            157,
+            175
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            457,
+            715
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            457,
+            175
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            157,
+            715
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            157,
+            445
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            457,
+            445
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            307,
+            445
+          ],
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "suit": "spades",
+      "rank": "8",
+      "path": "cards/faces/french-suited/poker/spades/8.png",
+      "staged_path": "work/number-cards-v1/cards/spades/8.png",
+      "sha256": "e1b3c4211e9c0f47ec8ef269d9998b47a1217de534772669b3fc209045c80c25",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            142,
+            135
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            442,
+            735
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            442,
+            135
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            142,
+            735
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            142,
+            335
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            442,
+            535
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            442,
+            335
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            142,
+            535
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "spades",
+      "rank": "9",
+      "path": "cards/faces/french-suited/poker/spades/9.png",
+      "staged_path": "work/number-cards-v1/cards/spades/9.png",
+      "sha256": "b5bc58214bc339ececaa1508429f8c1db10679caae3ae1fca49e14a5c7e18ad8",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "upright-center-only",
+      "placements": [
+        {
+          "top_left": [
+            157,
+            177
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            457,
+            717
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            307,
+            177
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            307,
+            717
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            457,
+            177
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            157,
+            717
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            157,
+            447
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            457,
+            447
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            307,
+            447
+          ],
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "suit": "spades",
+      "rank": "10",
+      "path": "cards/faces/french-suited/poker/spades/10.png",
+      "staged_path": "work/number-cards-v1/cards/spades/10.png",
+      "sha256": "37b4b14461c3bf76ca2666392ab5d658db6ad38ca1be156a7b146bee8acfe4e4",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            155,
+            145
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            455,
+            745
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            455,
+            145
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            155,
+            745
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            155,
+            345
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            455,
+            545
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            455,
+            345
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            155,
+            545
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            305,
+            245
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            305,
+            645
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "hearts",
+      "rank": "2",
+      "path": "cards/faces/french-suited/poker/hearts/2.png",
+      "staged_path": "work/number-cards-v1/cards/hearts/2.png",
+      "sha256": "6f72fe7850a1e4696344dc7094b468dd88ac09b2c6490d5fad19a4f22dbd872a",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            250,
+            135
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            250,
+            635
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "hearts",
+      "rank": "3",
+      "path": "cards/faces/french-suited/poker/hearts/3.png",
+      "staged_path": "work/number-cards-v1/cards/hearts/3.png",
+      "sha256": "05a0a558dddb66c4a86ccae409d3194401a8b01e2d3d0e4da57dff9f061994ce",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "upright-center-only",
+      "placements": [
+        {
+          "top_left": [
+            272,
+            142
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            272,
+            682
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            272,
+            412
+          ],
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "suit": "hearts",
+      "rank": "4",
+      "path": "cards/faces/french-suited/poker/hearts/4.png",
+      "staged_path": "work/number-cards-v1/cards/hearts/4.png",
+      "sha256": "aa16a074144ef335fe20bfef4576e7287a71097b124b8054190d60a6141d6fa9",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            127,
+            145
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            427,
+            685
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            427,
+            145
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            127,
+            685
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "hearts",
+      "rank": "5",
+      "path": "cards/faces/french-suited/poker/hearts/5.png",
+      "staged_path": "work/number-cards-v1/cards/hearts/5.png",
+      "sha256": "4ae643f088983ff678973b1c0e41a6e9b02a60eab1cacf83f2e80b55c4baa4cc",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "upright-center-only",
+      "placements": [
+        {
+          "top_left": [
+            135,
+            152
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            435,
+            692
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            435,
+            152
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            135,
+            692
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            285,
+            422
+          ],
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "suit": "hearts",
+      "rank": "6",
+      "path": "cards/faces/french-suited/poker/hearts/6.png",
+      "staged_path": "work/number-cards-v1/cards/hearts/6.png",
+      "sha256": "f09c5dd7e2e5ae0944383f1178f3ec7b6fb5dc6968d12674983cd043e93d4f28",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            137,
+            157
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            437,
+            697
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            437,
+            157
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            137,
+            697
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            137,
+            427
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            437,
+            427
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "hearts",
+      "rank": "7",
+      "path": "cards/faces/french-suited/poker/hearts/7.png",
+      "staged_path": "work/number-cards-v1/cards/hearts/7.png",
+      "sha256": "f9650d3e31f373af5c9aa432e820b376c9f1ba1260c7509d19e9515fc3565a32",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "upright-center-only",
+      "placements": [
+        {
+          "top_left": [
+            157,
+            175
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            457,
+            715
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            457,
+            175
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            157,
+            715
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            157,
+            445
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            457,
+            445
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            307,
+            445
+          ],
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "suit": "hearts",
+      "rank": "8",
+      "path": "cards/faces/french-suited/poker/hearts/8.png",
+      "staged_path": "work/number-cards-v1/cards/hearts/8.png",
+      "sha256": "9a745f8f906bde5e2a05cefc726d0bacbc98ce46e2a6b09ea642890a981fa608",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            142,
+            135
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            442,
+            735
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            442,
+            135
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            142,
+            735
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            142,
+            335
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            442,
+            535
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            442,
+            335
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            142,
+            535
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "hearts",
+      "rank": "9",
+      "path": "cards/faces/french-suited/poker/hearts/9.png",
+      "staged_path": "work/number-cards-v1/cards/hearts/9.png",
+      "sha256": "4086c707737c14e65ac5046023ca7abca9b2aeb19eab1c9e9d1507432e900fda",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "upright-center-only",
+      "placements": [
+        {
+          "top_left": [
+            157,
+            177
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            457,
+            717
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            307,
+            177
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            307,
+            717
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            457,
+            177
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            157,
+            717
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            157,
+            447
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            457,
+            447
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            307,
+            447
+          ],
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "suit": "hearts",
+      "rank": "10",
+      "path": "cards/faces/french-suited/poker/hearts/10.png",
+      "staged_path": "work/number-cards-v1/cards/hearts/10.png",
+      "sha256": "cbfbdd4fb61734458e315173181baf020f3333fc619447b93d8d52cf23c625fd",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            155,
+            145
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            455,
+            745
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            455,
+            145
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            155,
+            745
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            155,
+            345
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            455,
+            545
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            455,
+            345
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            155,
+            545
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            305,
+            245
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            305,
+            645
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "diamonds",
+      "rank": "2",
+      "path": "cards/faces/french-suited/poker/diamonds/2.png",
+      "staged_path": "work/number-cards-v1/cards/diamonds/2.png",
+      "sha256": "bd2561110d20d022f187908a5f91e4ce54dc7f70f0502fd1c7b16de97a8352a8",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            250,
+            135
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            250,
+            635
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "diamonds",
+      "rank": "3",
+      "path": "cards/faces/french-suited/poker/diamonds/3.png",
+      "staged_path": "work/number-cards-v1/cards/diamonds/3.png",
+      "sha256": "f3f7436b2bfedcfbc5f3f1d1e17d6974c22ab7533b3f1e1b2a3d8eb78f116f7a",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "upright-center-only",
+      "placements": [
+        {
+          "top_left": [
+            272,
+            142
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            272,
+            682
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            272,
+            412
+          ],
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "suit": "diamonds",
+      "rank": "4",
+      "path": "cards/faces/french-suited/poker/diamonds/4.png",
+      "staged_path": "work/number-cards-v1/cards/diamonds/4.png",
+      "sha256": "c29c9e3c3a5a9dee401c6ce2fe8ae64c4571c9edd7794f9d77b670dfa00c3af5",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            127,
+            145
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            427,
+            685
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            427,
+            145
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            127,
+            685
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "diamonds",
+      "rank": "5",
+      "path": "cards/faces/french-suited/poker/diamonds/5.png",
+      "staged_path": "work/number-cards-v1/cards/diamonds/5.png",
+      "sha256": "e03d4db8543458ea15bfc1c383b1eb8f0766a9ea460bfe0a933c37b4918beda6",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "upright-center-only",
+      "placements": [
+        {
+          "top_left": [
+            135,
+            152
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            435,
+            692
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            435,
+            152
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            135,
+            692
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            285,
+            422
+          ],
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "suit": "diamonds",
+      "rank": "6",
+      "path": "cards/faces/french-suited/poker/diamonds/6.png",
+      "staged_path": "work/number-cards-v1/cards/diamonds/6.png",
+      "sha256": "f14c64b95ec66531e410cfe92e6391e3faddba0e5a29be35d5551b628b472485",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            137,
+            157
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            437,
+            697
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            437,
+            157
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            137,
+            697
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            137,
+            427
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            437,
+            427
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "diamonds",
+      "rank": "7",
+      "path": "cards/faces/french-suited/poker/diamonds/7.png",
+      "staged_path": "work/number-cards-v1/cards/diamonds/7.png",
+      "sha256": "66b1174ac6e00467bde9674f73ccb2257e8cece92e2c81eb185346806dcfc436",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "upright-center-only",
+      "placements": [
+        {
+          "top_left": [
+            157,
+            175
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            457,
+            715
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            457,
+            175
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            157,
+            715
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            157,
+            445
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            457,
+            445
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            307,
+            445
+          ],
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "suit": "diamonds",
+      "rank": "8",
+      "path": "cards/faces/french-suited/poker/diamonds/8.png",
+      "staged_path": "work/number-cards-v1/cards/diamonds/8.png",
+      "sha256": "8867ca2bb040575d8fe09a52f8403212ba740dcac5c7f7b1be3a3ca6572c8f39",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            142,
+            135
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            442,
+            735
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            442,
+            135
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            142,
+            735
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            142,
+            335
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            442,
+            535
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            442,
+            335
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            142,
+            535
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "diamonds",
+      "rank": "9",
+      "path": "cards/faces/french-suited/poker/diamonds/9.png",
+      "staged_path": "work/number-cards-v1/cards/diamonds/9.png",
+      "sha256": "47f906e739c7923ec8ed5cd9a1b5e5aef2c26d9e77b04f57eb71f60ddd7991a3",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "upright-center-only",
+      "placements": [
+        {
+          "top_left": [
+            157,
+            177
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            457,
+            717
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            307,
+            177
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            307,
+            717
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            457,
+            177
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            157,
+            717
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            157,
+            447
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            457,
+            447
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            307,
+            447
+          ],
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "suit": "diamonds",
+      "rank": "10",
+      "path": "cards/faces/french-suited/poker/diamonds/10.png",
+      "staged_path": "work/number-cards-v1/cards/diamonds/10.png",
+      "sha256": "5d9658019d8e156c55add1a9e9ed978c9ae1171ad7f57062eaf2e0161d5bbe03",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            155,
+            145
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            455,
+            745
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            455,
+            145
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            155,
+            745
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            155,
+            345
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            455,
+            545
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            455,
+            345
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            155,
+            545
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            305,
+            245
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            305,
+            645
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "clubs",
+      "rank": "2",
+      "path": "cards/faces/french-suited/poker/clubs/2.png",
+      "staged_path": "work/number-cards-v1/cards/clubs/2.png",
+      "sha256": "0d515c93b7fc2426eb0c79c4a8507873856559f982978e5a75779629cb617624",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            250,
+            135
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            250,
+            635
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "clubs",
+      "rank": "3",
+      "path": "cards/faces/french-suited/poker/clubs/3.png",
+      "staged_path": "work/number-cards-v1/cards/clubs/3.png",
+      "sha256": "9d6530d1a7629f4d0531c2a6bc324e0f2d75b2ae8a8323b1ceb0cae7c5539c02",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "upright-center-only",
+      "placements": [
+        {
+          "top_left": [
+            272,
+            142
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            272,
+            682
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            272,
+            412
+          ],
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "suit": "clubs",
+      "rank": "4",
+      "path": "cards/faces/french-suited/poker/clubs/4.png",
+      "staged_path": "work/number-cards-v1/cards/clubs/4.png",
+      "sha256": "94596333e323067fe1f0e4886c8de12539209958e1ff29cd10bfea7bd1932bf5",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            127,
+            145
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            427,
+            685
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            427,
+            145
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            127,
+            685
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "clubs",
+      "rank": "5",
+      "path": "cards/faces/french-suited/poker/clubs/5.png",
+      "staged_path": "work/number-cards-v1/cards/clubs/5.png",
+      "sha256": "8a46cce9387aef2a3a3a6be0688f2f13cbf9c2f7b638d6f15afbf98292ee529e",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "upright-center-only",
+      "placements": [
+        {
+          "top_left": [
+            135,
+            152
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            435,
+            692
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            435,
+            152
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            135,
+            692
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            285,
+            422
+          ],
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "suit": "clubs",
+      "rank": "6",
+      "path": "cards/faces/french-suited/poker/clubs/6.png",
+      "staged_path": "work/number-cards-v1/cards/clubs/6.png",
+      "sha256": "eb63af7ceae008f1bf8ed98c91a36c1f74719c0a91b4c6446c911856b995e3d2",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            137,
+            157
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            437,
+            697
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            437,
+            157
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            137,
+            697
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            137,
+            427
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            437,
+            427
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "clubs",
+      "rank": "7",
+      "path": "cards/faces/french-suited/poker/clubs/7.png",
+      "staged_path": "work/number-cards-v1/cards/clubs/7.png",
+      "sha256": "5238a56986397e39a1316be8edef9261df010bd4a9d60229597dd140ccc012da",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "upright-center-only",
+      "placements": [
+        {
+          "top_left": [
+            157,
+            175
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            457,
+            715
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            457,
+            175
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            157,
+            715
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            157,
+            445
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            457,
+            445
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            307,
+            445
+          ],
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "suit": "clubs",
+      "rank": "8",
+      "path": "cards/faces/french-suited/poker/clubs/8.png",
+      "staged_path": "work/number-cards-v1/cards/clubs/8.png",
+      "sha256": "baa0dbe8b00c6ecfe5b586c8f0f89f14cd1864a63b55f0beeb48224f4553fa79",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            142,
+            135
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            442,
+            735
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            442,
+            135
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            142,
+            735
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            142,
+            335
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            442,
+            535
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            442,
+            335
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            142,
+            535
+          ],
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "suit": "clubs",
+      "rank": "9",
+      "path": "cards/faces/french-suited/poker/clubs/9.png",
+      "staged_path": "work/number-cards-v1/cards/clubs/9.png",
+      "sha256": "acc01152889b4e596ac488ae54c2878ae2993e08056324d495bd63a03b2f6aeb",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "upright-center-only",
+      "placements": [
+        {
+          "top_left": [
+            157,
+            177
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            457,
+            717
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            307,
+            177
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            307,
+            717
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            457,
+            177
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            157,
+            717
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            157,
+            447
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            457,
+            447
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            307,
+            447
+          ],
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "suit": "clubs",
+      "rank": "10",
+      "path": "cards/faces/french-suited/poker/clubs/10.png",
+      "staged_path": "work/number-cards-v1/cards/clubs/10.png",
+      "sha256": "d1a75071d07a756dc3e360d01e92df081bda38fdfa6f5d8afd9691c4fe30c3a3",
+      "pixels": [
+        750,
+        1050
+      ],
+      "reversibility": "exact-half-turn",
+      "placements": [
+        {
+          "top_left": [
+            155,
+            145
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            455,
+            745
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            455,
+            145
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            155,
+            745
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            155,
+            345
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            455,
+            545
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            455,
+            345
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            155,
+            545
+          ],
+          "rotation": 180
+        },
+        {
+          "top_left": [
+            305,
+            245
+          ],
+          "rotation": 0
+        },
+        {
+          "top_left": [
+            305,
+            645
+          ],
+          "rotation": 180
+        }
+      ]
+    }
+  ]
+}
