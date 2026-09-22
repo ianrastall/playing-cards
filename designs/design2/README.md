@@ -77,9 +77,12 @@ European Standard inherits the recolored Bridge plate. See the
 
 ## Browse and reproduce
 
-Open `index.html` directly or through the repository's HTTP server. Select a
-format, then use the color buttons, arrow keys or mouse wheel to compare colors
-in a fixed position. Center guides and all 30 downloads are included.
+Open `index.html` directly or through the repository's HTTP server. The dark
+gallery shows all 96 selected images on one page: 18 court/ace/Joker masters,
+36 number faces, 30 backs, and 12 blank face frames. Every original PNG is linked
+in the initial HTML for bulk download tools. Click any image to open the viewer;
+use the arrow keys to compare neighboring images, turn a card 180 degrees,
+or download it. The root gallery includes both designs together.
 
 Run from `designs/design2/`:
 

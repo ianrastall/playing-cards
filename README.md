@@ -1,7 +1,10 @@
 # Playing Cards
 
 Two independent designs, with **444 finished PNGs available directly in the repository**.
-Open the [collection gallery](index.html) to choose a design.
+Open the [collection gallery](index.html) to browse both designs on one dark
+studio-style page. All 474 selected images have direct original-PNG links in
+the HTML for download managers: the 444 production cards below, 18 Design 2
+court/ace/Joker masters, and 12 blank face frames.
 
 | Design | Finished artwork | Files | Gallery |
 | --- | --- | --- | --- |
@@ -71,7 +74,22 @@ python -m pip install -r requirements.txt
 python -m http.server 8000
 ```
 
-Open `http://localhost:8000/`. Design 2's gallery also works as a local HTML file.
+Open `http://localhost:8000/`. All galleries also work as local HTML files.
+Every image is present without JavaScript, pagination, or filtering. Click an
+artwork to inspect it, turn it 180 degrees, or download it. The design-specific
+galleries use the same shared theme and show the entire selected design.
+
+Gallery pages are generated from the production catalog and the selected
+Design 2 artwork manifests. After inventory changes, rebuild and check them:
+
+```text
+python scripts/build_gallery.py --write
+python scripts/build_gallery.py --check
+```
+
+The shared appearance and viewer are in `assets/gallery.css` and
+`assets/gallery.js`; edit page structure in `scripts/build_gallery.py`.
+The checked-in HTML can be served directly by GitHub Pages with no build step.
 
 ```text
 python scripts/catalog.py --check

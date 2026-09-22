@@ -76,8 +76,11 @@ of a format. Do not add a separate corner-radius clip. The exact poker center
 is (374.5, 524.5) in zero-based pixel-center coordinates, or (375, 525) measured
 from the outside edges of the canvas.
 
-The existing [gallery](index.html) reads the catalog. Serve the repository over
-HTTP to browse it; click a card to inspect it at a larger size.
+The [gallery](index.html) presents all 378 artworks in the collection's shared
+dark studio theme. It works directly from disk or over HTTP, and every original
+PNG is linked in the HTML for bulk download tools. Click a card to inspect it
+at a larger size or turn it 180 degrees. Rebuild the static pages from the
+repository root with `python scripts/build_gallery.py --write`.
 
 ## Printing
 
