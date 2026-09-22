@@ -6,6 +6,9 @@ The approved gold-panel release contains **30 finished backs: five colors in six
 formats**. The antique-white ornamental middle has a prominent beaded gold band.
 Each surrounding field is a darker shade of its own border color; floral artwork
 and teal medallions are shared across the five colors within each format.
+The acanthus foliage is olive green, recolored directly from the original pixels
+with a feathered green-selection mask. The original masters, leaf contours,
+frames and medallions are preserved; no new artwork generation is required.
 
 Finished back PNGs live in `cards/backs/<format>/<color>.png`. The 36 Poker
 number faces are in `cards/faces/french-suited/poker/<suit>/<rank>.png`.
@@ -68,6 +71,9 @@ The five palettes are Prussian Blue, Verdigris, Madder Lake, Manganese Violet an
 Lamp Black. Each field palette is 64% of its border RGB values, rounded to the
 nearest integer. Separate masks control border and surrounding-field color,
 leaving the common flowers, antique-white panel and medallions fixed.
+The exporter applies the olive foliage adjustment before palette compositing;
+European Standard inherits the recolored Bridge plate. See the
+[recoloring notes](docs/design/olive-leaves-v1.md).
 
 ## Browse and reproduce
 

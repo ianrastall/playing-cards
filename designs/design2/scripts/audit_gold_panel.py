@@ -51,6 +51,11 @@ def audit(out):
         plate = components['shared-plate']
         bm, fm = components['border-color-mask'], components['field-color-mask']
         h, w = bm.shape
+        foliage = components.get('foliage-color-mask')
+        if manifest.get('foliage_adjustment'):
+            assert foliage is not None and foliage.shape == (h, w)
+            assert np.count_nonzero(foliage) > 0
+            assert np.array_equal(foliage, foliage[::-1, ::-1])
         assert np.max(bm.astype(int)+fm) <= 255
         outer, inner = geom['outer_bounds'], geom['inner_bounds']
         widths = [inner[0]-outer[0], inner[1]-outer[1], outer[2]-inner[2], outer[3]-inner[3]]
@@ -61,7 +66,10 @@ def audit(out):
         reference_alpha = silhouette(w, h)
         if fmt == 'european-standard':
             bridge = manifest['layout']['bridge']['components']
-            for name, channels in [('artwork-plate', 3), ('artwork-field-mask', 1)]:
+            enlarged_components = [('artwork-plate', 3), ('artwork-field-mask', 1)]
+            if foliage is not None:
+                enlarged_components.append(('foliage-color-mask', 1))
+            for name, channels in enlarged_components:
                 # Independently enlarge the saved Bridge artifact, not the raw source master.
                 raw = subprocess.check_output(['magick', str(ROOT/bridge[name]['path']),
                                                '-filter', 'Lanczos', '-resize', f'{w}x{h}!',
@@ -117,4 +125,3 @@ def audit(out):
     if out == ROOT:
         (ROOT/'docs/design/design2-registration-audit.json').write_text(json.dumps(report,indent=2)+'\n')
     print('PASS 30 gold-panel PNGs: exact centers and half-turns; common 50 px borders and corner curves; palette masks; Bridge-derived European Standard.')
-

@@ -14,6 +14,8 @@ const config=JSON.parse(fs.readFileSync(path.join(root,'deck.json'),'utf8'));
 const palettes={'prussian-blue':[26,83,117],verdigris:[57,141,114],'madder-lake':[167,52,67],'manganese-violet':[116,80,155],'lamp-black':[33,33,31]};
 const fields=Object.fromEntries(Object.entries(palettes).map(([k,v])=>[k,v.map(c=>Math.round(c*.64))]));
 const ground=[250,235,215],gold=[227,181,75],margin=23,band=50,inset=margin+band,innerRadius=40,outerRadius=6,cardRadius=3.5/25.4*300;
+// Pointwise leaf recoloring, after source sampling. Original masters and geometry stay fixed.
+const foliageAdjustment={revision:'olive-leaves-v1',method:'Green-chroma addition with feathered selection; central and satellite medallions excluded.',rgb_chroma_offsets:[1.3,.4,-.2],green_blue_feather:12,green_red_feather:20};
 // Bounds were inspected on each independent master. They exclude generated frame ink.
 const specs={
   poker:{outer:[34,33,1025,1455],body:[114,112,942,1379],radius:80,roundels:[[263,337,105,99],[795,337,105,99]]},
@@ -37,10 +39,15 @@ function coverage(x,y,box,r,ss=4){let n=0;for(let j=0;j<ss;j++)for(let i=0;i<ss;
 function piece(v,edges,values){for(let i=1;i<edges.length;i++)if(v<=edges[i])return values[i-1]+(v-edges[i-1])/(edges[i]-edges[i-1])*(values[i]-values[i-1]);return values.at(-1);}
 function reciprocal(a,w,h,ch){if(h%2){const y=Math.floor(h/2);for(let x=0;x<Math.ceil(w/2);x++)for(let c=0;c<ch;c++){const i=(y*w+x)*ch+c,j=(y*w+w-1-x)*ch+c;a[i]=a[j]=Math.round((a[i]+a[j])/2);}}for(let y=Math.ceil(h/2);y<h;y++)for(let x=0;x<w;x++){const i=(y*w+x)*ch,j=((h-1-y)*w+w-1-x)*ch;a.copy(a,i,j,j+ch);}}
 function blueAmount(rgb){return clamp((rgb[2]-rgb[1]-1)/12)*clamp((rgb[1]-rgb[0])/20);}
+function oliveLeaves(rgb,protectedRegion){
+  const [r,g,b]=rgb;
+  const amount=protectedRegion?0:Math.round(255*clamp((g-b)/foliageAdjustment.green_blue_feather)*clamp((g-r)/foliageAdjustment.green_red_feather));
+  return {rgb:rgb.map((v,c)=>Math.max(0,Math.min(255,v+(g-r)*foliageAdjustment.rgb_chroma_offsets[c]*amount/255))),amount};
+}
 function nativeBody(fmt,w,h){
   const im=read(path.join(sourceDir,fmt+'-master.png')),spec=specs[fmt],anchor=findAnchor(im),b=spec.body;
   const scale=Math.min((w-2*inset)/(2*Math.max(anchor.x-b[0],b[2]-anchor.x)),(h-2*inset)/(2*Math.max(anchor.y-b[1],b[3]-anchor.y)));
-  const plate=Buffer.alloc(w*h*3),mask=Buffer.alloc(w*h);
+  const plate=Buffer.alloc(w*h*3),mask=Buffer.alloc(w*h),foliageMask=Buffer.alloc(w*h);
   for(let y=0;y<h;y++)for(let x=0;x<w;x++){
     const sx=anchor.x+(x-(w-1)/2)/scale,sy=anchor.y+(y-(h-1)/2)/scale,i=y*w+x;
     let rgb=fields['prussian-blue'],m=1;
@@ -49,11 +56,12 @@ function nativeBody(fmt,w,h){
       const central=(sx-anchor.x)**2+(sy-anchor.y)**2 < (im.w*.19)**2;
       const roundel=spec.roundels.some(([cx,cy,rx,ry])=>((sx-cx)/rx)**2+((sy-cy)/ry)**2<1);
       if(central||roundel)m=0;
+      const foliage=oliveLeaves(rgb,central||roundel);rgb=foliage.rgb;foliageMask[i]=foliage.amount;
     }
     for(let c=0;c<3;c++)plate[i*3+c]=Math.round(rgb[c]);mask[i]=Math.round(m*255);
   }
-  reciprocal(plate,w,h,3);reciprocal(mask,w,h,1);
-  return {plate,mask,im,spec,geometry:{source:path.relative(root,path.join(sourceDir,fmt+'-master.png')).replaceAll('\\','/'),source_sha256:hash(path.join(sourceDir,fmt+'-master.png')),source_pixels:[im.w,im.h],source_body_bounds:b,source_anchor_pixel:[anchor.x,anchor.y],anchor_fit_mse:anchor.error,uniform_artwork_scale:scale,method:'Independent ImageGen format composition; uniform sampling and translation of the interior, with border reconstruction. No Poker layout resizing.'}};
+  reciprocal(plate,w,h,3);reciprocal(mask,w,h,1);reciprocal(foliageMask,w,h,1);
+  return {plate,mask,foliageMask,im,spec,geometry:{source:path.relative(root,path.join(sourceDir,fmt+'-master.png')).replaceAll('\\','/'),source_sha256:hash(path.join(sourceDir,fmt+'-master.png')),source_pixels:[im.w,im.h],source_body_bounds:b,source_anchor_pixel:[anchor.x,anchor.y],anchor_fit_mse:anchor.error,uniform_artwork_scale:scale,method:'Independent ImageGen format composition; uniform sampling and translation of the interior, with border reconstruction. No Poker layout resizing.'}};
 }
 function enlarge(buffer,w,h,nw,nh,ch){return execFileSync('magick',['-size',`${w}x${h}`,'-depth','8',ch===3?'rgb:-':'gray:-','-filter','Lanczos','-resize',`${nw}x${nh}!`,'-depth','8',ch===3?'rgb:-':'gray:-'],{input:buffer,maxBuffer:64e6});}
 function compose(body,w,h){
@@ -91,14 +99,15 @@ for(const fmt of formats){
   const [w,h]=config.formats[fmt].back_pixels;let body;
   if(fmt==='european-standard'){
     const bridge=bodies.bridge,[bw,bh]=config.formats.bridge.back_pixels;
-    body={...bridge,plate:enlarge(bridge.plate,bw,bh,w,h,3),mask:enlarge(bridge.mask,bw,bh,w,h,1),geometry:{method:'Lanczos enlargement of the Bridge artwork plate and field mask, then the common physical border and rounded silhouette are reapplied.',derived_from:'bridge',enlargement:[w/bw,h/bh]}};
-    reciprocal(body.plate,w,h,3);reciprocal(body.mask,w,h,1);
+    body={...bridge,plate:enlarge(bridge.plate,bw,bh,w,h,3),mask:enlarge(bridge.mask,bw,bh,w,h,1),foliageMask:enlarge(bridge.foliageMask,bw,bh,w,h,1),geometry:{method:'Lanczos enlargement of the Bridge artwork plate and field mask, then the common physical border and rounded silhouette are reapplied.',derived_from:'bridge',enlargement:[w/bw,h/bh]}};
+    reciprocal(body.plate,w,h,3);reciprocal(body.mask,w,h,1);reciprocal(body.foliageMask,w,h,1);
   }else body=nativeBody(fmt,w,h);
   bodies[fmt]=body;
   save(body.plate,w,h,path.join(comp,fmt,'artwork-plate.png'),3);save(body.mask,w,h,path.join(comp,fmt,'artwork-field-mask.png'),1);
+  save(body.foliageMask,w,h,path.join(comp,fmt,'foliage-color-mask.png'),1);
   const {plate,borderMask,fieldMask,geometry}=compose(body,w,h);
   save(plate,w,h,path.join(comp,fmt,'shared-plate.png'));save(borderMask,w,h,path.join(comp,fmt,'border-color-mask.png'),1);save(fieldMask,w,h,path.join(comp,fmt,'field-color-mask.png'),1);
-  layout[fmt]={...geometry,components:Object.fromEntries(['artwork-plate','artwork-field-mask','shared-plate','border-color-mask','field-color-mask'].map(n=>[n,{path:path.relative(root,path.join(comp,fmt,n+'.png')).replaceAll('\\','/'),sha256:hash(path.join(comp,fmt,n+'.png'))}]))};
+  layout[fmt]={...geometry,components:Object.fromEntries(['artwork-plate','artwork-field-mask','shared-plate','border-color-mask','field-color-mask','foliage-color-mask'].map(n=>[n,{path:path.relative(root,path.join(comp,fmt,n+'.png')).replaceAll('\\','/'),sha256:hash(path.join(comp,fmt,n+'.png'))}]))};
   for(const color of Object.keys(palettes)){
     const a=paint(plate,borderMask,fieldMask,color),rel=`cards/backs/${fmt}/${color}.png`,dest=path.join(out,rel);save(a,w,h,dest);
     const saved=execFileSync('magick',[dest,'-depth','8','rgba:-'],{maxBuffer:64e6});if(!saved.equals(a))throw Error('Lossless export failed: '+rel);
@@ -107,7 +116,7 @@ for(const fmt of formats){
   }
   console.log(`PASS ${fmt}: centered artwork, 50 px frame, five matching dark-field palettes`);
 }
-const manifest={design:'Design 2',status:'approved',revision,source:{path:path.relative(root,sourceDir).replaceAll('\\','/'),tool:'built-in image_gen'},component_root:path.relative(root,comp).replaceAll('\\','/'),ground_rgb:ground,corner_radius_mm:3.5,palettes,field_palettes:fields,formats,layout,cards};
+const manifest={design:'Design 2',status:'approved',revision,foliage_adjustment:foliageAdjustment,source:{path:path.relative(root,sourceDir).replaceAll('\\','/'),tool:'built-in image_gen'},component_root:path.relative(root,comp).replaceAll('\\','/'),ground_rgb:ground,corner_radius_mm:3.5,palettes,field_palettes:fields,formats,layout,cards};
 json(path.join(out,'manifest.json'),manifest);json(path.join(comp,'layout.json'),manifest);
 if(process.argv.includes('--apply')){
   execFileSync('python',[path.join(root,'scripts/audit_design2_registration.py'),'--build'],{stdio:'inherit'});
@@ -122,7 +131,7 @@ if(process.argv.includes('--apply')){
   ledger.assets.push(...cards.map(card=>{
     const p='designs/design2/'+card.path,old=baseline.assets.find(a=>a.path===p);
     if(!old)throw Error('Missing migration baseline: '+p);
-    return {path:p,migration_sha256:old.sha256,sha256:card.sha256,revision,manifest:'designs/design2/manifest.json'};
+    return {path:p,migration_sha256:old.sha256,sha256:card.sha256,revision,foliage_revision:foliageAdjustment.revision,manifest:'designs/design2/manifest.json'};
   }));
   json(ledgerPath,ledger);
   execFileSync('python',[path.join(repo,'scripts/catalog.py'),'--write'],{stdio:'inherit'});

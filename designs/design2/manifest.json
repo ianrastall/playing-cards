@@ -2,6 +2,17 @@
   "design": "Design 2",
   "status": "approved",
   "revision": "gold-panel-v1",
+  "foliage_adjustment": {
+    "revision": "olive-leaves-v1",
+    "method": "Green-chroma addition with feathered selection; central and satellite medallions excluded.",
+    "rgb_chroma_offsets": [
+      1.3,
+      0.4,
+      -0.2
+    ],
+    "green_blue_feather": 12,
+    "green_red_feather": 20
+  },
   "source": {
     "path": "sources/generated/design2-gold-panel-v1",
     "tool": "built-in image_gen"
@@ -125,7 +136,7 @@
       "components": {
         "artwork-plate": {
           "path": "sources/components/design2-gold-panel-v1/poker/artwork-plate.png",
-          "sha256": "85bdafd8398e228ca800586628e44faffde00aa0edbbc56962967dac06deed28"
+          "sha256": "23f3e5897a76d2b4e03f4348a18b74d35abb4bbc9afb2d66288ee07ed1c3f5a6"
         },
         "artwork-field-mask": {
           "path": "sources/components/design2-gold-panel-v1/poker/artwork-field-mask.png",
@@ -133,7 +144,7 @@
         },
         "shared-plate": {
           "path": "sources/components/design2-gold-panel-v1/poker/shared-plate.png",
-          "sha256": "e9e0d821e250cd74b89ae1cffa3e724ef810eddb0406ec20e9dcd7a1153a36c0"
+          "sha256": "9530226c28d9948564819d35655cfe5fcd5a2dd8a938a20a2bf0586a363ab59b"
         },
         "border-color-mask": {
           "path": "sources/components/design2-gold-panel-v1/poker/border-color-mask.png",
@@ -142,6 +153,10 @@
         "field-color-mask": {
           "path": "sources/components/design2-gold-panel-v1/poker/field-color-mask.png",
           "sha256": "6d419fd1f220477a002e63febab295c60deb975af0c37a77acd8d5b4a2875ca3"
+        },
+        "foliage-color-mask": {
+          "path": "sources/components/design2-gold-panel-v1/poker/foliage-color-mask.png",
+          "sha256": "1029c4da36745a272c5c961eb00b930a6b4a89d501e0c461a9334f819404bd46"
         }
       }
     },
@@ -194,7 +209,7 @@
       "components": {
         "artwork-plate": {
           "path": "sources/components/design2-gold-panel-v1/bridge/artwork-plate.png",
-          "sha256": "1cacdabe0a214ffb16a2f28897d0f77aef139cc12cca455012225635e87b0716"
+          "sha256": "6ee4736ecd4707ff08f41251ebf111135896f36791a612fb942e435413862a13"
         },
         "artwork-field-mask": {
           "path": "sources/components/design2-gold-panel-v1/bridge/artwork-field-mask.png",
@@ -202,7 +217,7 @@
         },
         "shared-plate": {
           "path": "sources/components/design2-gold-panel-v1/bridge/shared-plate.png",
-          "sha256": "85c7f65e8890d8d0b12d8dd42016e4b46680385611bba4353f70f6870deb6b93"
+          "sha256": "805e041d63adae212e01f2fd8fd5dd72458f1f2c9a059ff4e30f20144795e39c"
         },
         "border-color-mask": {
           "path": "sources/components/design2-gold-panel-v1/bridge/border-color-mask.png",
@@ -211,6 +226,10 @@
         "field-color-mask": {
           "path": "sources/components/design2-gold-panel-v1/bridge/field-color-mask.png",
           "sha256": "dc4c9eab0525c13a1dd5489937e2fc1005b99fb8ec9ee1195ad1a48f877cdf84"
+        },
+        "foliage-color-mask": {
+          "path": "sources/components/design2-gold-panel-v1/bridge/foliage-color-mask.png",
+          "sha256": "0ecbaf68994ba09bfa6b8614b65cb511a4d361944982518abced4df7bd815170"
         }
       }
     },
@@ -263,7 +282,7 @@
       "components": {
         "artwork-plate": {
           "path": "sources/components/design2-gold-panel-v1/travel/artwork-plate.png",
-          "sha256": "eea0ddd190146ace6f38d8d11dbfc9c1ed16337abfa225735d42951a6238a78e"
+          "sha256": "fe5ac63aedbf010130f8a172f94c41901d8813e0b9cb111ba701e6357f7ae879"
         },
         "artwork-field-mask": {
           "path": "sources/components/design2-gold-panel-v1/travel/artwork-field-mask.png",
@@ -271,7 +290,7 @@
         },
         "shared-plate": {
           "path": "sources/components/design2-gold-panel-v1/travel/shared-plate.png",
-          "sha256": "a362dc2de9b1f23690a0653b5b6ad9d3f4e0343114bd381519822d2c4f0d2e5e"
+          "sha256": "b6a3091a3dcd831a02e58813e46f704c6a037b9f6f19099614cafc58c756e4d3"
         },
         "border-color-mask": {
           "path": "sources/components/design2-gold-panel-v1/travel/border-color-mask.png",
@@ -280,6 +299,10 @@
         "field-color-mask": {
           "path": "sources/components/design2-gold-panel-v1/travel/field-color-mask.png",
           "sha256": "2fcf66a55bbdde60a392896ad0cf0f2b738e3e13e35349edd6d3a7327f967867"
+        },
+        "foliage-color-mask": {
+          "path": "sources/components/design2-gold-panel-v1/travel/foliage-color-mask.png",
+          "sha256": "dd3689ddb87116a9fe6f627b0a377b7d368852ed47b9c52bdc206736e480471f"
         }
       }
     },
@@ -332,7 +355,7 @@
       "components": {
         "artwork-plate": {
           "path": "sources/components/design2-gold-panel-v1/jumbo/artwork-plate.png",
-          "sha256": "eec0f3f5591bf309a0d229e61db3b819c9a8d4476e5614af0b25d1199dfed029"
+          "sha256": "922cc54e669b9a6319c00607fda76ec8c36e1a3baea3e90f0c619272be2e57fc"
         },
         "artwork-field-mask": {
           "path": "sources/components/design2-gold-panel-v1/jumbo/artwork-field-mask.png",
@@ -340,7 +363,7 @@
         },
         "shared-plate": {
           "path": "sources/components/design2-gold-panel-v1/jumbo/shared-plate.png",
-          "sha256": "532e2a0eb5b693c4fe739ca6d2c3cc8e598ec14fd7389cec1647ed34ab4953dd"
+          "sha256": "865fc228c73fe90942b2dfaf1d1803d2e5625e3c0b414540ef9412a61c7abeaf"
         },
         "border-color-mask": {
           "path": "sources/components/design2-gold-panel-v1/jumbo/border-color-mask.png",
@@ -349,6 +372,10 @@
         "field-color-mask": {
           "path": "sources/components/design2-gold-panel-v1/jumbo/field-color-mask.png",
           "sha256": "2f6c57ee191a4c118bdcc417a3cfb3ae8fe71f36223b3f71e64601726dec32e7"
+        },
+        "foliage-color-mask": {
+          "path": "sources/components/design2-gold-panel-v1/jumbo/foliage-color-mask.png",
+          "sha256": "c686ebb80350aed40b65aca25e926cbac0d33b6cef9378382a86a2136d2fe581"
         }
       }
     },
@@ -401,7 +428,7 @@
       "components": {
         "artwork-plate": {
           "path": "sources/components/design2-gold-panel-v1/tarot/artwork-plate.png",
-          "sha256": "d7ac6cf3833af67393dbc276278ad8c027686f28e74e61fef7a13c34686c67c4"
+          "sha256": "7b90adb6f2bf553b2d58e1a973595b9c568d9da09f570d774cfca8b6a3c66a64"
         },
         "artwork-field-mask": {
           "path": "sources/components/design2-gold-panel-v1/tarot/artwork-field-mask.png",
@@ -409,7 +436,7 @@
         },
         "shared-plate": {
           "path": "sources/components/design2-gold-panel-v1/tarot/shared-plate.png",
-          "sha256": "1ea2fc2b3b78c8590711badc0bd4a5c06f8fc304e519ce352c39a041a00e19ed"
+          "sha256": "4e041023781f5cf899f5a0e75483d040705d9c5962f0b8c78ca13c811650b04e"
         },
         "border-color-mask": {
           "path": "sources/components/design2-gold-panel-v1/tarot/border-color-mask.png",
@@ -418,6 +445,10 @@
         "field-color-mask": {
           "path": "sources/components/design2-gold-panel-v1/tarot/field-color-mask.png",
           "sha256": "f53d708546138aa0891aedb4a49e337132665bdb919606e8c24926671cc79b47"
+        },
+        "foliage-color-mask": {
+          "path": "sources/components/design2-gold-panel-v1/tarot/foliage-color-mask.png",
+          "sha256": "4f1c5fb794b09f0a4c01b597dbb632de6cb2cdba06f10e59a7c31b8be311077e"
         }
       }
     },
@@ -457,7 +488,7 @@
       "components": {
         "artwork-plate": {
           "path": "sources/components/design2-gold-panel-v1/european-standard/artwork-plate.png",
-          "sha256": "7349386be9750930bdd9019adeb6e229d3632828498f34851cd7ce96bfc4764f"
+          "sha256": "0b4af57c2cfa948aeb5db53a245d56558726a6e3d80db55c5fdaff0deafe2d0e"
         },
         "artwork-field-mask": {
           "path": "sources/components/design2-gold-panel-v1/european-standard/artwork-field-mask.png",
@@ -465,7 +496,7 @@
         },
         "shared-plate": {
           "path": "sources/components/design2-gold-panel-v1/european-standard/shared-plate.png",
-          "sha256": "670a3698c936b0a188d4899623fff08ca7b0ce313217450e928b0093535b82ec"
+          "sha256": "e071ce80fc7d90854aa3aa3578a06656b45db8801f737e4d88bd68c6302c53d8"
         },
         "border-color-mask": {
           "path": "sources/components/design2-gold-panel-v1/european-standard/border-color-mask.png",
@@ -474,6 +505,10 @@
         "field-color-mask": {
           "path": "sources/components/design2-gold-panel-v1/european-standard/field-color-mask.png",
           "sha256": "59d8f3ec94ef5a1774b33707a6e13628721284e60f8dd21a9869e9ee672f9e8c"
+        },
+        "foliage-color-mask": {
+          "path": "sources/components/design2-gold-panel-v1/european-standard/foliage-color-mask.png",
+          "sha256": "98bd91efc468f0fab3c8346a75ccaeb941db326a52cdb326c860c18e826a7952"
         }
       }
     }
@@ -498,7 +533,7 @@
         374.5,
         524.5
       ],
-      "sha256": "0f7a0b7e780af6e130b12b5744c1be3d3499cb06db07614b48924395fa8fb0b6",
+      "sha256": "c28f260174e9b2c3119e46276de4e8698805c3253ee5fd3aa6c9e9108449c9d3",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -522,7 +557,7 @@
         374.5,
         524.5
       ],
-      "sha256": "dcf50e223a5b77478e46b70a0d8b05cb0dcefb10862475f55c43344de63baa4f",
+      "sha256": "fd7ceb4cd55ada49beac14350885433d916ed23c1a2c105387da80da3b276e02",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -546,7 +581,7 @@
         374.5,
         524.5
       ],
-      "sha256": "77d8ce4d1f3240685dbe45e66ab205a8786a8652f0b99c59018d329f9377b9e0",
+      "sha256": "89d182af6c6581f8b81336bbaa5ffd7c39deb02b7eda36f33978b320e198afe5",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -570,7 +605,7 @@
         374.5,
         524.5
       ],
-      "sha256": "c20db3e3ec7ff117f6ce01205e2772b0ccfc6701eb85e187f211fa50dfac0733",
+      "sha256": "311feafd67f2131864fe0cd664ace5f3f84094d94cc1b238c73b18d9774600cb",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -594,7 +629,7 @@
         374.5,
         524.5
       ],
-      "sha256": "d9513c1e3c1870c107b3ee052d58fe020db58221b5556c09c96f59d70f338525",
+      "sha256": "013a571a0afc2a30daabb5b5e8a2baf1b9440c2f5f8d0ff7d4a3273be4d593bb",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -618,7 +653,7 @@
         337,
         524.5
       ],
-      "sha256": "3311fb6b6a3750a7d2c8baf3f96b3b48f1c41669744ffb2eeca64149faafc3d6",
+      "sha256": "a4f939b4a315ee1c49faf2cdc1b7deb70966bce3a3aa9f8b6a57686760b1d7ce",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -642,7 +677,7 @@
         337,
         524.5
       ],
-      "sha256": "6f56889430fd92be41b02378d9d737a34ca337c0d30c08dce781a4f5bc0a5d9e",
+      "sha256": "f48ff441886c680846fafdaca8cfcd72098a875b6c48ff9b54aea60e6e6227c1",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -666,7 +701,7 @@
         337,
         524.5
       ],
-      "sha256": "2a354c1cb29103b6fd9c684374f99aa9d379f522104d412098c5e0753871c902",
+      "sha256": "5c59e84df75bdb5f265de76bfc75e1491c302b51c50c98bb9e59e882c8dca24c",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -690,7 +725,7 @@
         337,
         524.5
       ],
-      "sha256": "f2a06e73c76bcd75c4bf1ab3cf42e40059b3b3b473a3ca9b1a742295b8c0b683",
+      "sha256": "034901dfc4756c18af65b059729e8a5c037296660df8d5faa0628b2054ef47f6",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -714,7 +749,7 @@
         337,
         524.5
       ],
-      "sha256": "989132aa178e0bc19e8a85d445cd1a53ff14dce29326446eac8236d33ae01abd",
+      "sha256": "b841f37347d4baeb97bba5bc7360e9da107a8023ab6cc223a7fc809011fcd01b",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -738,7 +773,7 @@
         262,
         374.5
       ],
-      "sha256": "fa908c42b2ec6f8cb70d61f9ac5378e1dfc0faf4242eb1530abdec16eceb753c",
+      "sha256": "387b32f631fd29ff5e26f395d008a30bef129532316e3e22f7e6b394718a4c78",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -762,7 +797,7 @@
         262,
         374.5
       ],
-      "sha256": "a8681cda8a7de0de2d029cbd15a90d74d5300ecda1e6b71da286d949ebc4c2e3",
+      "sha256": "81267686bda468656db7402ebf89d06ae3e4af388e4f0d00e30c4f1f88e89456",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -786,7 +821,7 @@
         262,
         374.5
       ],
-      "sha256": "41d3364fb21c65a912dd745d2d62c85264c4ba5f22fe8e9dcae1f1740b9686ca",
+      "sha256": "ab1c5c008bdba90777bf563142a27c0fa4d81afaa81883811c0297dbe69fab08",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -810,7 +845,7 @@
         262,
         374.5
       ],
-      "sha256": "4ec34a7d3b9f1d059a57a1460c81cc920b727704896d13cc939c53a172a41918",
+      "sha256": "ede721990ec41b1343136b24954c7e91b8bf9a865308b1803d90f71bfd011450",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -834,7 +869,7 @@
         262,
         374.5
       ],
-      "sha256": "df776968ae1689f137d73a38ca6ff85c804bfb666f8151b6dbc69321809e6195",
+      "sha256": "dc41ee1ca1ff74bb48f15d44038c206e769a0c667dbb73b774c97dd30aeb9a00",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -858,7 +893,7 @@
         524.5,
         749.5
       ],
-      "sha256": "6c5d64b088702fa14674ce6d31e73bc8b4895867791d57270a65de6b4346257b",
+      "sha256": "21078e4368061d85a0b5a2af7e7db2c4e67ab264d434d229ac76e4561c0907aa",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -882,7 +917,7 @@
         524.5,
         749.5
       ],
-      "sha256": "4d3957de1f683c01e95f6090c13e656688bf3297e3d1896db0ffea4f5405607b",
+      "sha256": "9f500a822c69e10d12eb2c780b5f537f39a4be2474ec4f441b3ea1c52946b562",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -906,7 +941,7 @@
         524.5,
         749.5
       ],
-      "sha256": "4fffcd3c53100a749a4eb273a739ec3e4c21c12b3a3c2b56bb3684ad96335268",
+      "sha256": "64c14c24dac185acb3c385294e6a9b43bff48525396dc443b371eadab49c111d",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -930,7 +965,7 @@
         524.5,
         749.5
       ],
-      "sha256": "e06466464926e36e10bb7bd7cc9bb316e085e38766a0d4f7ccad09ee9c9bf3fd",
+      "sha256": "0a3ac862dd367ff722a99040c937d6896997c3b9af314b5fc1a401c032c871f3",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -954,7 +989,7 @@
         524.5,
         749.5
       ],
-      "sha256": "8bb78c79c9be65ccd3b424aaeb511ac41dda38eca42565206dc0549a9cd6fe94",
+      "sha256": "b137553d901a26240531ffecfacd72c0ecf125789cdb77607487eeba98429fa4",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -978,7 +1013,7 @@
         412,
         712
       ],
-      "sha256": "bcb625718dd03ac6cb60165100f85fa1abd9c782d4ac465aea8f3716c1eedcff",
+      "sha256": "634a799e87f0261ae3ae64e49c01186d642ed7cedf89632513ac13f7d849f330",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1002,7 +1037,7 @@
         412,
         712
       ],
-      "sha256": "62087fa12175ca4328f6cdfa64e7ef87fb47b9e62084cdbe2c0a88b52818f73e",
+      "sha256": "e8b49fdeece971ddf44f2c04ce51abaffc1038c9526675ea077d698febaf4a1c",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1026,7 +1061,7 @@
         412,
         712
       ],
-      "sha256": "4400188d9b26d6d9c7e824655b8a6d3b3ecf45bc176e280b9772791a2439f4fe",
+      "sha256": "0539dfcc128de43692ab9d5b20afde8404703771ec9ab80507b42222a0d97beb",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1050,7 +1085,7 @@
         412,
         712
       ],
-      "sha256": "b61aa073b56eafab45b467f2a43fd50f985294d983d84a331c363c680128f42f",
+      "sha256": "21b7f270270a38bb6807a15911724fed5e0683b39e78eae8857d6355d91a0af7",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1074,7 +1109,7 @@
         412,
         712
       ],
-      "sha256": "484b0f12321813fc376db1d8c5ece011f8c648a9cf3a5b963c38543331f5e97e",
+      "sha256": "2f0c27ba8226c40ed2c11770335a82c0f67f608c6f25f21a59197c7f9e94fa1a",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1098,7 +1133,7 @@
         347.5,
         536.5
       ],
-      "sha256": "efe7ec21c194d1095ffaa9e9db4a010f583348e145f9c7dfff5f64b8de177979",
+      "sha256": "260822c52a586e6e6fe08eaed9935319202a77d78b6ef38a3ab1477ee40a9d09",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1122,7 +1157,7 @@
         347.5,
         536.5
       ],
-      "sha256": "cd70f8973f8382c270b9140d251a1f7235c02ea8486cd0db6df70dad813530f3",
+      "sha256": "edb4347c03bd55263752fa42f7c5baf2b01d55c974c2c2daae17ebd4b093b5b6",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1146,7 +1181,7 @@
         347.5,
         536.5
       ],
-      "sha256": "2d37b0a538e6a70ba676aaf869f1393a708cbd5c466dd649c3d82c68b0d35c05",
+      "sha256": "abf82b2e6fc24f657cbb6d106864949d6078ff4b7a82807da9003b9711601121",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1170,7 +1205,7 @@
         347.5,
         536.5
       ],
-      "sha256": "3be55066c84fd238c66b60aa35dcddb23f035db5d439a0811e494052fe5a4109",
+      "sha256": "ac524cd51c63e9d051d7ceaf2f403aa06f48d68de9629c30bdbc953a43514cdd",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1194,7 +1229,7 @@
         347.5,
         536.5
       ],
-      "sha256": "901a13edbf85dec4dc35e5f3fb9730d1564274094088cb9bcffb0c8bb806c82e",
+      "sha256": "8765741216ffb045fa1c89aae2f0ab09e8a3502d4d0916bd49e8823e8d213f7c",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
