@@ -25,6 +25,9 @@ def silhouette(size):
 
 def audit(out=ROOT):
     manifest = json.loads((out / 'manifest.json').read_text())
+    if manifest.get('revision') == 'toranj-v1':
+        from audit_toranj import audit as audit_toranj
+        return audit_toranj(out)
     if manifest.get('revision') == 'gold-panel-v1':
         from audit_gold_panel import audit as audit_gold_panel
         return audit_gold_panel(out)
@@ -82,7 +85,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--build', action='store_true', help='Check staged output instead of approved cards')
     args = parser.parse_args()
-    stage = ROOT/'build/design2-gold-panel-v1'
+    stage = ROOT/'build/design2-toranj-v1'
+    if not stage.exists():
+        stage = ROOT/'build/design2-gold-panel-v1'
     if not stage.exists():
         stage = ROOT/'build/design2-registered-v1'
     audit(stage if args.build else ROOT)

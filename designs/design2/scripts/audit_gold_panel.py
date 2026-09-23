@@ -94,7 +94,12 @@ def audit(out):
             assert np.array_equal(a[:,:,3], reference_alpha), path
             border = np.array(manifest['palettes'][card['color']])
             field = np.array(manifest['field_palettes'][card['color']])
-            assert np.all(field < border)
+            # Desaturation can raise a low RGB channel while lowering overall brightness.
+            luma_weights = np.array([.2126, .7152, .0722])
+            assert field @ luma_weights < border @ luma_weights
+            if manifest.get('field_adjustment'):
+                assert .86 < (field @ luma_weights)/(border @ luma_weights) < .90
+                assert np.ptp(field)/field.max() <= np.ptp(border)/border.max()
             expected = np.floor(plate[:,:,:3]*(1-mix_b-mix_f)+border*mix_b+field*mix_f+.5).astype(np.uint8)
             assert np.array_equal(a[:,:,:3], expected), path
             assert np.array_equal(a[(bm == 0)&(fm == 0)], plate[(bm == 0)&(fm == 0)])

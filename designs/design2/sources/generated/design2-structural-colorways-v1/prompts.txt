@@ -1,0 +1,39 @@
+PRUSSIAN BLUE
+
+Use case: precise-object-edit
+Asset type: Prussian Blue colorway of a symmetrical poker playing-card back
+Input image: Image 1 is the edit target and exact structural reference.
+Primary request: Change only the colorway from Madder Lake to Prussian Blue while preserving the complete composition, geometry, ornament, double gold frames, and painted finish.
+Create four nested shades of one Prussian Blue hue family: 1) outer floral border band is the darkest muted ink-blue; 2) narrow inner border band is slightly lighter, clearer, and more vibrant Prussian blue; 3) broad islimi-vine field is a middle-lightness muted slate-Prussian blue that stays quiet; 4) scalloped central toranj surround is the richest, deepest, most saturated Prussian blue, pulling attention inward. The sequence must read as dark / brighter / quiet / rich-deep without becoming four unrelated hues.
+Accent tuning: preserve warm antique gold, cream-and-red lotus blossoms, and warm olive foliage. Keep the central and corner medallion interiors a deep green-teal, but make them clearly greener and darker than the blue field, with crisp gold and cream separation so they read as jewels rather than holes.
+Constraints: preserve every motif, edge, line, corner, proportion, ivory margin, and visual symmetry exactly. Change only color relationships. No new or removed motifs, seams, halos, stray lines, text, symbols, watermark, mockup, hands, or table.
+
+VERDIGRIS
+
+Use case: precise-object-edit
+Asset type: Verdigris colorway of a symmetrical poker playing-card back
+Input image: Image 1 is the edit target and exact structural reference.
+Primary request: Change only the colorway from Madder Lake to Verdigris while preserving the complete composition, geometry, ornament, double gold frames, and painted finish.
+Create four nested shades of one Verdigris hue family: 1) outer floral border band is the darkest muted pine-verdigris; 2) narrow inner border band is slightly lighter, clearer, and more vibrant verdigris; 3) broad islimi-vine field is a middle-lightness softly muted mineral verdigris that stays quiet; 4) scalloped central toranj surround is the richest, deepest, most saturated verdigris, pulling attention inward. The sequence must read as dark / brighter / quiet / rich-deep without becoming four unrelated hues.
+Accent tuning: keep antique gold and cream/red blossoms. Shift the continuous foliage toward a warmer yellow-olive with restrained golden highlights so it remains distinct from the green ground. Change the central and corner medallion interiors from teal to deep muted indigo, retaining fine teal-green accents and crisp gold/cream separation, so the medallions read as jewels rather than holes.
+Constraints: preserve every motif, edge, line, corner, proportion, ivory margin, and visual symmetry exactly. Change only color relationships. No new or removed motifs, seams, halos, stray lines, text, symbols, watermark, mockup, hands, or table.
+
+MANGANESE VIOLET
+
+Use case: precise-object-edit
+Asset type: Manganese Violet colorway of a symmetrical poker playing-card back
+Input image: Image 1 is the edit target and exact structural reference.
+Primary request: Change only the colorway from Madder Lake to Manganese Violet while preserving the complete composition, geometry, ornament, double gold frames, and painted finish.
+Create four nested shades of one Manganese Violet hue family: 1) outer floral border band is the darkest muted aubergine-violet; 2) narrow inner border band is slightly lighter and clearer manganese violet; 3) broad islimi-vine field is a middle-lightness dusty, softly muted violet with natural pigment variation rather than digital saturation; 4) scalloped central toranj surround is the richest, deepest, most saturated manganese violet, pulling attention inward. The sequence must read as dark / brighter / quiet / rich-deep without becoming four unrelated hues.
+Accent tuning: retain warm antique gold, cream petals with restrained red-coral accents, warm olive foliage, and deep green-teal central and corner medallion interiors. Keep the teal dark enough to feel jewel-like and clearly separated from violet by gold and cream.
+Constraints: preserve every motif, edge, line, corner, proportion, ivory margin, and visual symmetry exactly. Change only color relationships. No new or removed motifs, seams, halos, stray lines, text, symbols, watermark, mockup, hands, or table.
+
+LAMP BLACK
+
+Use case: precise-object-edit
+Asset type: Lamp Black colorway of a symmetrical poker playing-card back
+Input image: Image 1 is the edit target and exact structural reference.
+Primary request: Change only the colorway from Madder Lake to Lamp Black while preserving the complete composition, geometry, ornament, double gold frames, and painted finish.
+Create four nested values within one warm Lamp Black family: 1) outer floral border band is near-black, deepest and matte; 2) narrow inner border band is a slightly lighter, clearer charcoal; 3) broad islimi-vine field is a middle-lightness softly muted warm graphite that remains unmistakably black, never gray-brown; 4) scalloped central toranj surround is the richest deepest ink-black with a subtle satin pigment depth, pulling attention inward. The sequence must read as dark / brighter / quiet / rich-deep while all four remain black-family values.
+Accent tuning: retain warm antique gold, cream-and-red lotus blossoms, warm olive foliage, and deep green-teal central and corner medallion interiors. Let gold and cream provide the principal contrast without bleaching the black ground.
+Constraints: preserve every motif, edge, line, corner, proportion, ivory margin, and visual symmetry exactly. Change only color relationships. No new or removed motifs, seams, halos, stray lines, text, symbols, watermark, mockup, hands, or table.

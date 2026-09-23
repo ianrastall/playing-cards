@@ -1,9 +1,10 @@
 # Playing Cards
 
 Two independent designs, with **444 finished PNGs available directly in the repository**.
-Open the [collection gallery](index.html) to browse both designs on one dark
-studio-style page. All 474 selected images have direct original-PNG links in
-the HTML for download managers: the 444 production cards below, 18 Design 2
+Open the [collection gallery](index.html), choose a design, then choose a card
+size before browsing the artwork. Each design has its own page. For bulk
+downloads, the [complete gallery](all.html) links all 474 selected images
+directly in its HTML: the 444 production cards below, 18 Design 2
 court/ace/Joker masters, and 12 blank face frames.
 
 | Design | Finished artwork | Files | Gallery |
@@ -21,13 +22,16 @@ The colors are Lamp Black, Madder Lake, Manganese Violet, Prussian Blue and Verd
 ```text
 collection.json              Design registry
 catalog.json                 All finished assets; repository-relative paths
-index.html                   Collection gallery
+index.html                   Design picker
+all.html                     Complete gallery for bulk downloading
 designs/
   design1/
     cards/                   Finished faces and backs
     deck.json                This design's formats and inventory
     catalog.json             This design's assets; design-relative paths
-    index.html               Design gallery
+    index.html               Size picker
+    <format>.html            Cards in one size
+    all.html                 Full design gallery for bulk downloading
     sources/                 Components, generated masters and original inputs
     scripts/                 Design-specific rendering and packaging
     docs/                    Design notes and historical records
@@ -75,12 +79,20 @@ python -m http.server 8000
 ```
 
 Open `http://localhost:8000/`. All galleries also work as local HTML files.
-Every image is present without JavaScript, pagination, or filtering. Click an
-artwork to inspect it, turn it 180 degrees, or download it. The design-specific
-galleries use the same shared theme and show the entire selected design.
+The home page offers two designs; each design page offers six sizes with trim
+dimensions, pixel dimensions, and available artwork. Only the next page loads
+the card grid. Design 2's artwork masters have a separate gallery because they
+are not finished cards in the selected size.
+
+Search a gallery by name, suit, or color, then click an artwork to inspect it,
+turn it 180 degrees, or download it. Navigation and original PNG links work
+without JavaScript. Each design also links to an all-sizes gallery, and
+`all.html` includes both designs for download managers.
 
 Gallery pages are generated from the production catalog and the selected
-Design 2 artwork manifests. After inventory changes, rebuild and check them:
+Design 2 artwork manifests. Image URLs include a content hash so replacing a
+PNG changes its browser cache key. After artwork or inventory changes, rebuild
+and check the pages:
 
 ```text
 python scripts/build_gallery.py --write
@@ -90,6 +102,8 @@ python scripts/build_gallery.py --check
 The shared appearance and viewer are in `assets/gallery.css` and
 `assets/gallery.js`; edit page structure in `scripts/build_gallery.py`.
 The checked-in HTML can be served directly by GitHub Pages with no build step.
+Publish the regenerated pages, shared assets, and updated card PNGs together;
+local artwork changes do not appear on GitHub until they are committed and pushed.
 
 ```text
 python scripts/catalog.py --check
@@ -110,6 +124,6 @@ The former root `cards/`, `deck.json`, artwork scripts, and sources now belong t
 to `designs/design2/cards/backs/`. Old hard-coded paths must be updated; see the
 [migration map](docs/layout-migration.md). The migration preserved all 408 native
 images byte for byte. Subsequent approved changes are recorded in
-`docs/asset-revisions.json`; Design 2 now uses the gold-panel release.
+`docs/asset-revisions.json`; Design 2 now uses the balanced toranj release.
 
 Licensed under the [MIT License](LICENSE).

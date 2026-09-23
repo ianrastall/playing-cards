@@ -1,6 +1,32 @@
 /* Progressive enhancement only: all image and download links work without JS. */
 (() => {
-  const links = [...document.querySelectorAll('[data-artwork]')];
+  const allLinks = [...document.querySelectorAll('[data-artwork]')];
+  let links = allLinks;
+  const search = document.querySelector('#card-search');
+  if (search) {
+    const count = document.querySelector('#search-count');
+    const filter = () => {
+      const words = search.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+      allLinks.forEach(link => {
+        const text = `${link.dataset.title} ${link.dataset.detail} ${link.dataset.artwork}`.toLowerCase();
+        link.closest('figure').hidden = !words.every(word => text.includes(word));
+      });
+      links = allLinks.filter(link => !link.closest('figure').hidden);
+      document.querySelectorAll('.artwork-section').forEach(section => {
+        section.hidden = !section.querySelector('figure:not([hidden])');
+      });
+      document.querySelectorAll('.collection').forEach(section => {
+        section.hidden = !section.querySelector('figure:not([hidden])');
+      });
+      document.querySelectorAll('.section-links a').forEach(link => {
+        link.hidden = document.getElementById(link.hash.slice(1))?.hidden ?? false;
+      });
+      count.textContent = links.length ? `${links.length} of ${allLinks.length} artworks` : 'No matching cards. Try a different name, suit, or color.';
+    };
+    search.closest('.gallery-search').hidden = false;
+    search.addEventListener('input', filter);
+    filter();
+  }
   const viewer = document.querySelector('.viewer');
   if (!viewer || typeof viewer.showModal !== 'function') return;
   const image = document.querySelector('#viewer-image');
@@ -31,11 +57,11 @@
     original.href = link.href;
   }
 
-  links.forEach((link, i) => link.addEventListener('click', event => {
+  allLinks.forEach(link => link.addEventListener('click', event => {
     if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button !== 0) return;
     event.preventDefault();
     opener = link;
-    show(i);
+    show(links.indexOf(link));
     viewer.showModal();
     document.body.classList.add('viewer-open');
     close.focus();

@@ -108,7 +108,7 @@
         300.0,
         300.0
       ],
-      "sha256": "b841f37347d4baeb97bba5bc7360e9da107a8023ab6cc223a7fc809011fcd01b"
+      "sha256": "58054d39d66884a6b1c9e47044a40f963cacd477930bb0d2be82464175aef5e4"
     },
     {
       "id": "back.bridge.madder-lake",
@@ -139,7 +139,7 @@
         300.0,
         300.0
       ],
-      "sha256": "5c59e84df75bdb5f265de76bfc75e1491c302b51c50c98bb9e59e882c8dca24c"
+      "sha256": "f712838f77d9ba2bba7c5063ac1d92732bd6e2de826e736222bde4940e33270f"
     },
     {
       "id": "back.bridge.manganese-violet",
@@ -170,7 +170,7 @@
         300.0,
         300.0
       ],
-      "sha256": "034901dfc4756c18af65b059729e8a5c037296660df8d5faa0628b2054ef47f6"
+      "sha256": "465b04c47f1d1cc6913a8d808f2b8f25f6d104f05617b5ea767191b073242187"
     },
     {
       "id": "back.bridge.prussian-blue",
@@ -201,7 +201,7 @@
         300.0,
         300.0
       ],
-      "sha256": "a4f939b4a315ee1c49faf2cdc1b7deb70966bce3a3aa9f8b6a57686760b1d7ce"
+      "sha256": "d203edbac5392427a6411cb5198fd187a1a223f8c6e313c7f32d5474103c7c4f"
     },
     {
       "id": "back.bridge.verdigris",
@@ -232,7 +232,7 @@
         300.0,
         300.0
       ],
-      "sha256": "f48ff441886c680846fafdaca8cfcd72098a875b6c48ff9b54aea60e6e6227c1"
+      "sha256": "2ec57536e55c9251db74741aa92e4ce8c8ac45ef28c545268df65cd71b95e9c1"
     },
     {
       "id": "back.european-standard.lamp-black",
@@ -263,7 +263,7 @@
         300.0,
         300.0
       ],
-      "sha256": "8765741216ffb045fa1c89aae2f0ab09e8a3502d4d0916bd49e8823e8d213f7c"
+      "sha256": "90ee49f4c51bbb001f489bb5ca4681f88d973d74b8382d27baac35085e5cf3c1"
     },
     {
       "id": "back.european-standard.madder-lake",
@@ -294,7 +294,7 @@
         300.0,
         300.0
       ],
-      "sha256": "abf82b2e6fc24f657cbb6d106864949d6078ff4b7a82807da9003b9711601121"
+      "sha256": "2d2081c50a622fe38ea1faaa1f17cdb0b4c1984d3d40fce9a20d4f12c7ccf8b4"
     },
     {
       "id": "back.european-standard.manganese-violet",
@@ -325,7 +325,7 @@
         300.0,
         300.0
       ],
-      "sha256": "ac524cd51c63e9d051d7ceaf2f403aa06f48d68de9629c30bdbc953a43514cdd"
+      "sha256": "61f7a222288c3c1b950ff7e09785fc4defcf2300d3c5ecb4e84400a9f753dc0a"
     },
     {
       "id": "back.european-standard.prussian-blue",
@@ -356,7 +356,7 @@
         300.0,
         300.0
       ],
-      "sha256": "260822c52a586e6e6fe08eaed9935319202a77d78b6ef38a3ab1477ee40a9d09"
+      "sha256": "574c45b17003f0659fb740d55f16f5ccd8fc839c65922452517f22dbb5013705"
     },
     {
       "id": "back.european-standard.verdigris",
@@ -387,7 +387,7 @@
         300.0,
         300.0
       ],
-      "sha256": "edb4347c03bd55263752fa42f7c5baf2b01d55c974c2c2daae17ebd4b093b5b6"
+      "sha256": "b9012605538fa2cb47f278e36432b71cacb7cc071cffd0e2e474040cded2308b"
     },
     {
       "id": "back.jumbo.lamp-black",
@@ -418,7 +418,7 @@
         300.0,
         300.0
       ],
-      "sha256": "b137553d901a26240531ffecfacd72c0ecf125789cdb77607487eeba98429fa4"
+      "sha256": "770d6c753b6a168e31c49074cd6f9c817524a2523bac3ddba7d1c355ed4e7dae"
     },
     {
       "id": "back.jumbo.madder-lake",
@@ -449,7 +449,7 @@
         300.0,
         300.0
       ],
-      "sha256": "64c14c24dac185acb3c385294e6a9b43bff48525396dc443b371eadab49c111d"
+      "sha256": "784d985aaffb6ddbaf7d9bb6abf7cbec6b408b3b19543f429821608aa31fa221"
     },
     {
       "id": "back.jumbo.manganese-violet",
@@ -480,7 +480,7 @@
         300.0,
         300.0
       ],
-      "sha256": "0a3ac862dd367ff722a99040c937d6896997c3b9af314b5fc1a401c032c871f3"
+      "sha256": "6940f1c12171d5c6f381de5a57a265a2a7abe4a7123058365b152bfed0595da9"
     },
     {
       "id": "back.jumbo.prussian-blue",
@@ -511,7 +511,7 @@
         300.0,
         300.0
       ],
-      "sha256": "21078e4368061d85a0b5a2af7e7db2c4e67ab264d434d229ac76e4561c0907aa"
+      "sha256": "369e4ebcc48e7e8f7adaf5ce11e6f31c13bca0f0471b0e8f437e3822f9f8883b"
     },
     {
       "id": "back.jumbo.verdigris",
@@ -542,7 +542,7 @@
         300.0,
         300.0
       ],
-      "sha256": "9f500a822c69e10d12eb2c780b5f537f39a4be2474ec4f441b3ea1c52946b562"
+      "sha256": "4346d148b92966733549dba3a7f348ce58f9369907c8798e9b0f00e511842054"
     },
     {
       "id": "back.poker.lamp-black",
@@ -573,7 +573,7 @@
         300.0,
         300.0
       ],
-      "sha256": "013a571a0afc2a30daabb5b5e8a2baf1b9440c2f5f8d0ff7d4a3273be4d593bb"
+      "sha256": "fe53fe44e74d616a7186d7ba23019adbe5ea73057ab41388e943ba810f1cdd88"
     },
     {
       "id": "back.poker.madder-lake",
@@ -604,7 +604,7 @@
         300.0,
         300.0
       ],
-      "sha256": "89d182af6c6581f8b81336bbaa5ffd7c39deb02b7eda36f33978b320e198afe5"
+      "sha256": "aee6fc40b20c3786505589a2eaa35d0a23ee8569bc073869982513137a30a645"
     },
     {
       "id": "back.poker.manganese-violet",
@@ -635,7 +635,7 @@
         300.0,
         300.0
       ],
-      "sha256": "311feafd67f2131864fe0cd664ace5f3f84094d94cc1b238c73b18d9774600cb"
+      "sha256": "9affedec058dd9c9c3d97b08d7ed81b19bcec0d7b52ef3709c0a0cd1213c8489"
     },
     {
       "id": "back.poker.prussian-blue",
@@ -666,7 +666,7 @@
         300.0,
         300.0
       ],
-      "sha256": "c28f260174e9b2c3119e46276de4e8698805c3253ee5fd3aa6c9e9108449c9d3"
+      "sha256": "0b4af1ec43cebdf831230e7b2377329554c707dd63b095f85b46cfe1683d69ea"
     },
     {
       "id": "back.poker.verdigris",
@@ -697,7 +697,7 @@
         300.0,
         300.0
       ],
-      "sha256": "fd7ceb4cd55ada49beac14350885433d916ed23c1a2c105387da80da3b276e02"
+      "sha256": "e70736dc1aa1fcb74240e56198990410b80c07492869dd45e7b16e3be1b7eeb9"
     },
     {
       "id": "back.tarot.lamp-black",
@@ -728,7 +728,7 @@
         300.0,
         300.0
       ],
-      "sha256": "2f0c27ba8226c40ed2c11770335a82c0f67f608c6f25f21a59197c7f9e94fa1a"
+      "sha256": "837874284f12b1fee7f5645e73cb2a6ce5fd4b3950ae4ff71eb318ad0f2b6bbf"
     },
     {
       "id": "back.tarot.madder-lake",
@@ -759,7 +759,7 @@
         300.0,
         300.0
       ],
-      "sha256": "0539dfcc128de43692ab9d5b20afde8404703771ec9ab80507b42222a0d97beb"
+      "sha256": "252cab62c14a7d12d2cc4e1e48e9a6b0a886a5855794db0c66cb456ea749d439"
     },
     {
       "id": "back.tarot.manganese-violet",
@@ -790,7 +790,7 @@
         300.0,
         300.0
       ],
-      "sha256": "21b7f270270a38bb6807a15911724fed5e0683b39e78eae8857d6355d91a0af7"
+      "sha256": "8403d228e85087d8eb08e0ce916ff7b01ff8bf4e32eb3196b033d649909304e8"
     },
     {
       "id": "back.tarot.prussian-blue",
@@ -821,7 +821,7 @@
         300.0,
         300.0
       ],
-      "sha256": "634a799e87f0261ae3ae64e49c01186d642ed7cedf89632513ac13f7d849f330"
+      "sha256": "a7473d2506f02fab80123033f0af51c1d54ff752474738ecc0391ede9b79ab62"
     },
     {
       "id": "back.tarot.verdigris",
@@ -852,7 +852,7 @@
         300.0,
         300.0
       ],
-      "sha256": "e8b49fdeece971ddf44f2c04ce51abaffc1038c9526675ea077d698febaf4a1c"
+      "sha256": "427f3cba8ecf40ec47a378a932501f1f2efcef368102576257ed076c5e37689c"
     },
     {
       "id": "back.travel.lamp-black",
@@ -883,7 +883,7 @@
         300.0,
         300.0
       ],
-      "sha256": "dc41ee1ca1ff74bb48f15d44038c206e769a0c667dbb73b774c97dd30aeb9a00"
+      "sha256": "9264cedf1c9d94af4ea9fbb5e87cac5b746a4b88ccc76c4c36bdc4c7fa1f3cc0"
     },
     {
       "id": "back.travel.madder-lake",
@@ -914,7 +914,7 @@
         300.0,
         300.0
       ],
-      "sha256": "ab1c5c008bdba90777bf563142a27c0fa4d81afaa81883811c0297dbe69fab08"
+      "sha256": "2db3c3843e1a92c8379f477333fd484956604f4e7610541d0fade326ad4e3f41"
     },
     {
       "id": "back.travel.manganese-violet",
@@ -945,7 +945,7 @@
         300.0,
         300.0
       ],
-      "sha256": "ede721990ec41b1343136b24954c7e91b8bf9a865308b1803d90f71bfd011450"
+      "sha256": "ec00bb894839218cde72a20b67f93865c3884019b4930d651af3cd1d9c84db93"
     },
     {
       "id": "back.travel.prussian-blue",
@@ -976,7 +976,7 @@
         300.0,
         300.0
       ],
-      "sha256": "387b32f631fd29ff5e26f395d008a30bef129532316e3e22f7e6b394718a4c78"
+      "sha256": "13de6879acb5a918c7e1effcfb0187e454661372ae52880b28294c2d8d8274e0"
     },
     {
       "id": "back.travel.verdigris",
@@ -1007,7 +1007,7 @@
         300.0,
         300.0
       ],
-      "sha256": "81267686bda468656db7402ebf89d06ae3e4af388e4f0d00e30c4f1f88e89456"
+      "sha256": "cf9e5b5f177f6aca4f61bea448f91839b6d433b1f3c1555530566a1539ce3da7"
     },
     {
       "id": "face.french-suited.poker.clubs.10",

@@ -1,112 +1,245 @@
 {
   "design": "Design 2",
   "status": "approved",
-  "revision": "gold-panel-v1",
-  "foliage_adjustment": {
-    "revision": "olive-leaves-v1",
-    "method": "Green-chroma addition with feathered selection; central and satellite medallions excluded.",
-    "rgb_chroma_offsets": [
-      1.3,
-      0.4,
-      -0.2
-    ],
-    "green_blue_feather": 12,
-    "green_red_feather": 20
-  },
+  "revision": "toranj-v1",
+  "renderer": "balanced-toranj-v1",
   "source": {
-    "path": "sources/generated/design2-gold-panel-v1",
+    "path": "sources/generated/design2-toranj-v1/native",
     "tool": "built-in image_gen"
   },
-  "component_root": "sources/components/design2-gold-panel-v1",
-  "ground_rgb": [
-    250,
-    235,
-    215
-  ],
-  "corner_radius_mm": 3.5,
-  "palettes": {
-    "prussian-blue": [
-      26,
-      83,
-      117
-    ],
-    "verdigris": [
-      57,
-      141,
-      114
-    ],
-    "madder-lake": [
-      167,
-      52,
-      67
-    ],
-    "manganese-violet": [
-      116,
-      80,
-      155
-    ],
-    "lamp-black": [
-      33,
-      33,
-      31
-    ]
-  },
-  "field_palettes": {
-    "prussian-blue": [
-      17,
-      53,
-      75
-    ],
-    "verdigris": [
-      36,
-      90,
-      73
-    ],
-    "madder-lake": [
-      107,
-      33,
-      43
-    ],
-    "manganese-violet": [
-      74,
-      51,
-      99
-    ],
-    "lamp-black": [
-      21,
-      21,
-      20
-    ]
+  "source_records": {
+    "poker": {
+      "prussian-blue": {
+        "path": "sources/generated/design2-toranj-v1/native/prussian-blue/poker.png",
+        "sha256": "87638ff39707432bceb769f84f9128210821a561e6ce36dfde5c48ad001b2d5e",
+        "pixels": [
+          1060,
+          1484
+        ]
+      },
+      "verdigris": {
+        "path": "sources/generated/design2-toranj-v1/native/verdigris/poker.png",
+        "sha256": "fcd3fa73c3013b55c271411df11d724a5bb145859b4b04e91cfe5a9bf8ba3747",
+        "pixels": [
+          1060,
+          1484
+        ]
+      },
+      "madder-lake": {
+        "path": "sources/generated/design2-toranj-v1/native/madder-lake/poker.png",
+        "sha256": "3d227882b0df1f4cf47a260f8ceb21188e2158f04e2e6dfb8bfe860742ebdc52",
+        "pixels": [
+          1060,
+          1484
+        ]
+      },
+      "manganese-violet": {
+        "path": "sources/generated/design2-toranj-v1/native/manganese-violet/poker.png",
+        "sha256": "a8e8b40cf0474e7adcf3ad49acc6d7919dcb5892646a9ebd6f9db73d9218eefb",
+        "pixels": [
+          1060,
+          1484
+        ]
+      },
+      "lamp-black": {
+        "path": "sources/generated/design2-toranj-v1/native/lamp-black/poker.png",
+        "sha256": "6ae780d0c3b2acdb26bfe76160f999ff29d2e394abe44614ab66d4698429c955",
+        "pixels": [
+          1060,
+          1484
+        ]
+      }
+    },
+    "bridge": {
+      "prussian-blue": {
+        "path": "sources/generated/design2-toranj-v1/native/prussian-blue/bridge.png",
+        "sha256": "74d50fa18df9894a65f403e33e2316473d3fa867e72807d68da4bb8022885541",
+        "pixels": [
+          1006,
+          1564
+        ]
+      },
+      "verdigris": {
+        "path": "sources/generated/design2-toranj-v1/native/verdigris/bridge.png",
+        "sha256": "1e85f7f2c0739c8902f8bc8024845379d55a64cc2c2bf809c4f773ed2d873ee8",
+        "pixels": [
+          1006,
+          1564
+        ]
+      },
+      "madder-lake": {
+        "path": "sources/generated/design2-toranj-v1/native/madder-lake/bridge.png",
+        "sha256": "448528f2960fe4368611adb36cfee6caf49239edede7a7d8da03dc92590ca1d4",
+        "pixels": [
+          1006,
+          1564
+        ]
+      },
+      "manganese-violet": {
+        "path": "sources/generated/design2-toranj-v1/native/manganese-violet/bridge.png",
+        "sha256": "b9bf177388a27f481b4eacf488f06209817b7a038ffa3eb26cd2297bf91b4f21",
+        "pixels": [
+          1006,
+          1564
+        ]
+      },
+      "lamp-black": {
+        "path": "sources/generated/design2-toranj-v1/native/lamp-black/bridge.png",
+        "sha256": "10585adf88ab8541921aec0423991033e28cfb66cef73479667762766cb3a1b8",
+        "pixels": [
+          1006,
+          1564
+        ]
+      }
+    },
+    "travel": {
+      "prussian-blue": {
+        "path": "sources/generated/design2-toranj-v1/native/prussian-blue/travel.png",
+        "sha256": "c551bca996b782a3245dc27e5b8c74bfe1cb4c6e6e4cf1f2f08fe8ceb639f732",
+        "pixels": [
+          1049,
+          1500
+        ]
+      },
+      "verdigris": {
+        "path": "sources/generated/design2-toranj-v1/native/verdigris/travel.png",
+        "sha256": "f07f267fd0c5b3706bcbf47182eb6a66ceb1a19ccc672f563384a08aa0673d21",
+        "pixels": [
+          1049,
+          1500
+        ]
+      },
+      "madder-lake": {
+        "path": "sources/generated/design2-toranj-v1/native/madder-lake/travel.png",
+        "sha256": "776ec48a88c476c6f77afe259b9aa592514bb9fc78ef72e2efb17b283b3f4cff",
+        "pixels": [
+          1049,
+          1499
+        ]
+      },
+      "manganese-violet": {
+        "path": "sources/generated/design2-toranj-v1/native/manganese-violet/travel.png",
+        "sha256": "bfccb653d1b13ff5e7e1634cd18b1ec67172ec24a6f148ecc82204abcb4ef263",
+        "pixels": [
+          1049,
+          1499
+        ]
+      },
+      "lamp-black": {
+        "path": "sources/generated/design2-toranj-v1/native/lamp-black/travel.png",
+        "sha256": "225333325bb9d3d906e51fcff1631931938e0d166b20499ea833158ddf29afd8",
+        "pixels": [
+          1049,
+          1500
+        ]
+      }
+    },
+    "jumbo": {
+      "prussian-blue": {
+        "path": "sources/generated/design2-toranj-v1/native/prussian-blue/jumbo.png",
+        "sha256": "5a887ac375a71199e684fcd3d49f102bfa3dc3e71cd76d7c3868e99a1546f726",
+        "pixels": [
+          1049,
+          1500
+        ]
+      },
+      "verdigris": {
+        "path": "sources/generated/design2-toranj-v1/native/verdigris/jumbo.png",
+        "sha256": "1ede9e721c5a936898c346305ea5853669db3e5289233541ac4ceea5125d6349",
+        "pixels": [
+          1049,
+          1499
+        ]
+      },
+      "madder-lake": {
+        "path": "sources/generated/design2-toranj-v1/native/madder-lake/jumbo.png",
+        "sha256": "28d6a8a6f13e1d6a58b98b82f51545caff0aed27af9f96e6ead8c3b813e1e5fd",
+        "pixels": [
+          1049,
+          1499
+        ]
+      },
+      "manganese-violet": {
+        "path": "sources/generated/design2-toranj-v1/native/manganese-violet/jumbo.png",
+        "sha256": "3f250876acd677049a5da7074d2622eb9dbd5657f0dde87648a9b444d5598a5a",
+        "pixels": [
+          1049,
+          1499
+        ]
+      },
+      "lamp-black": {
+        "path": "sources/generated/design2-toranj-v1/native/lamp-black/jumbo.png",
+        "sha256": "26b593963e10528f7f5dfbda43f8e0c01f74319da7deb8599973fc41f44e7074",
+        "pixels": [
+          1049,
+          1499
+        ]
+      }
+    },
+    "tarot": {
+      "prussian-blue": {
+        "path": "sources/generated/design2-toranj-v1/native/prussian-blue/tarot.png",
+        "sha256": "9b5ef9200f1e6e0fd26f1a2a986ae90aa6597a4dd7c4b504cae099177e363ef7",
+        "pixels": [
+          954,
+          1649
+        ]
+      },
+      "verdigris": {
+        "path": "sources/generated/design2-toranj-v1/native/verdigris/tarot.png",
+        "sha256": "e38e96b152c28532f3f784e59025d388b7ce4248bc57a01381331d597976775c",
+        "pixels": [
+          954,
+          1649
+        ]
+      },
+      "madder-lake": {
+        "path": "sources/generated/design2-toranj-v1/native/madder-lake/tarot.png",
+        "sha256": "4c5875ba4fc8a735968fbf9a966dbf70efe858cf3596259d5d06883957820cf7",
+        "pixels": [
+          954,
+          1649
+        ]
+      },
+      "manganese-violet": {
+        "path": "sources/generated/design2-toranj-v1/native/manganese-violet/tarot.png",
+        "sha256": "aea1be0ef581e7e2fca25ccf1bd98d5230663664dd54a908aa88b8bd37a81451",
+        "pixels": [
+          954,
+          1649
+        ]
+      },
+      "lamp-black": {
+        "path": "sources/generated/design2-toranj-v1/native/lamp-black/tarot.png",
+        "sha256": "a45c5db115ccdb53180cbcdf595a459257bfa93846fb9c1430852abf04e85d2d",
+        "pixels": [
+          954,
+          1649
+        ]
+      }
+    }
   },
   "formats": [
-    "poker",
     "bridge",
-    "travel",
+    "european-standard",
     "jumbo",
+    "poker",
     "tarot",
-    "european-standard"
+    "travel"
   ],
+  "colors": [
+    "prussian-blue",
+    "verdigris",
+    "madder-lake",
+    "manganese-violet",
+    "lamp-black"
+  ],
+  "corner_radius_mm": 3.5,
+  "outer_margin_px": 23,
+  "border_width_px": 50,
+  "construction": "Native Poker, Bridge, Travel, Jumbo and Tarot masters. European Standard is Bridge resized.",
   "layout": {
     "poker": {
-      "source": "sources/generated/design2-gold-panel-v1/poker-master.png",
-      "source_sha256": "2a5fa37d8320aeda4682502d1aba74451dafdea012359243d0120723d89de620",
-      "source_pixels": [
-        1060,
-        1484
-      ],
-      "source_body_bounds": [
-        114,
-        112,
-        942,
-        1379
-      ],
-      "source_anchor_pixel": [
-        527.2,
-        743.9
-      ],
-      "anchor_fit_mse": 328.0657624365484,
-      "uniform_artwork_scale": 0.7116989450480239,
-      "method": "Independent ImageGen format composition; uniform sampling and translation of the interior, with border reconstruction. No Poker layout resizing.",
       "pixels": [
         750,
         1050
@@ -130,62 +263,33 @@
         677,
         977
       ],
-      "outer_frame_radius_px": 6,
-      "inner_frame_radius_px": 40,
-      "corner_radius_mm": 3.5,
-      "components": {
-        "artwork-plate": {
-          "path": "sources/components/design2-gold-panel-v1/poker/artwork-plate.png",
-          "sha256": "23f3e5897a76d2b4e03f4348a18b74d35abb4bbc9afb2d66288ee07ed1c3f5a6"
-        },
-        "artwork-field-mask": {
-          "path": "sources/components/design2-gold-panel-v1/poker/artwork-field-mask.png",
-          "sha256": "8d3008ffdab0d3223e3e9e4878e07113c2e6826c5cdeee78401ec5722d121748"
-        },
-        "shared-plate": {
-          "path": "sources/components/design2-gold-panel-v1/poker/shared-plate.png",
-          "sha256": "9530226c28d9948564819d35655cfe5fcd5a2dd8a938a20a2bf0586a363ab59b"
-        },
-        "border-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/poker/border-color-mask.png",
-          "sha256": "7e0fcd5d73dc86e9063d58ffe581e61d763039052fd9a3099dcc1cbcf4dd7944"
-        },
-        "field-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/poker/field-color-mask.png",
-          "sha256": "6d419fd1f220477a002e63febab295c60deb975af0c37a77acd8d5b4a2875ca3"
-        },
-        "foliage-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/poker/foliage-color-mask.png",
-          "sha256": "1029c4da36745a272c5c961eb00b930a6b4a89d501e0c461a9334f819404bd46"
-        }
-      }
+      "source_geometry": {
+        "size": [
+          1060,
+          1484
+        ],
+        "outer": [
+          28,
+          24,
+          1030,
+          1451
+        ],
+        "inner": [
+          118,
+          121,
+          941,
+          1362
+        ]
+      },
+      "method": "Piecewise registration to common outer and inner frames; top half rotated to construct an exact reciprocal bottom half."
     },
     "bridge": {
-      "source": "sources/generated/design2-gold-panel-v1/bridge-master.png",
-      "source_sha256": "886fb312fadabbc951407faa9c687d0824e8c3de7f5e991f93abd506b516d97f",
-      "source_pixels": [
-        1007,
-        1562
-      ],
-      "source_body_bounds": [
-        118,
-        114,
-        889,
-        1447
-      ],
-      "source_anchor_pixel": [
-        502.5,
-        779.3
-      ],
-      "anchor_fit_mse": 304.26193739424866,
-      "uniform_artwork_scale": 0.67695072637412,
-      "method": "Independent ImageGen format composition; uniform sampling and translation of the interior, with border reconstruction. No Poker layout resizing.",
       "pixels": [
         675,
         1050
       ],
       "center_pixel": [
-        337,
+        337.0,
         524.5
       ],
       "outer_margin_px": 23,
@@ -203,62 +307,33 @@
         602,
         977
       ],
-      "outer_frame_radius_px": 6,
-      "inner_frame_radius_px": 40,
-      "corner_radius_mm": 3.5,
-      "components": {
-        "artwork-plate": {
-          "path": "sources/components/design2-gold-panel-v1/bridge/artwork-plate.png",
-          "sha256": "6ee4736ecd4707ff08f41251ebf111135896f36791a612fb942e435413862a13"
-        },
-        "artwork-field-mask": {
-          "path": "sources/components/design2-gold-panel-v1/bridge/artwork-field-mask.png",
-          "sha256": "adc8759a4d28ea0ed77141e1152f4661cc6af8256c3ac07dc8c2d5bbfd076098"
-        },
-        "shared-plate": {
-          "path": "sources/components/design2-gold-panel-v1/bridge/shared-plate.png",
-          "sha256": "805e041d63adae212e01f2fd8fd5dd72458f1f2c9a059ff4e30f20144795e39c"
-        },
-        "border-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/bridge/border-color-mask.png",
-          "sha256": "31bc48c43bb1c2495915cb747d71402df6619a6454e3b1ea3b25c1a445428f2a"
-        },
-        "field-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/bridge/field-color-mask.png",
-          "sha256": "dc4c9eab0525c13a1dd5489937e2fc1005b99fb8ec9ee1195ad1a48f877cdf84"
-        },
-        "foliage-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/bridge/foliage-color-mask.png",
-          "sha256": "0ecbaf68994ba09bfa6b8614b65cb511a4d361944982518abced4df7bd815170"
-        }
-      }
+      "source_geometry": {
+        "size": [
+          1006,
+          1564
+        ],
+        "outer": [
+          79,
+          29,
+          925,
+          1501
+        ],
+        "inner": [
+          164,
+          125,
+          841,
+          1438
+        ]
+      },
+      "method": "Piecewise registration to common outer and inner frames; top half rotated to construct an exact reciprocal bottom half."
     },
     "travel": {
-      "source": "sources/generated/design2-gold-panel-v1/travel-master.png",
-      "source_sha256": "cb1856ffc05d30a55dfaff462d952924d9ad235ed7ea444a4619be4a14bc0c27",
-      "source_pixels": [
-        1049,
-        1499
-      ],
-      "source_body_bounds": [
-        127,
-        130,
-        923,
-        1363
-      ],
-      "source_anchor_pixel": [
-        523.7,
-        750.5
-      ],
-      "anchor_fit_mse": 316.5754653130188,
-      "uniform_artwork_scale": 0.47458051590283,
-      "method": "Independent ImageGen format composition; uniform sampling and translation of the interior, with border reconstruction. No Poker layout resizing.",
       "pixels": [
         525,
         750
       ],
       "center_pixel": [
-        262,
+        262.0,
         374.5
       ],
       "outer_margin_px": 23,
@@ -276,56 +351,27 @@
         452,
         677
       ],
-      "outer_frame_radius_px": 6,
-      "inner_frame_radius_px": 40,
-      "corner_radius_mm": 3.5,
-      "components": {
-        "artwork-plate": {
-          "path": "sources/components/design2-gold-panel-v1/travel/artwork-plate.png",
-          "sha256": "fe5ac63aedbf010130f8a172f94c41901d8813e0b9cb111ba701e6357f7ae879"
-        },
-        "artwork-field-mask": {
-          "path": "sources/components/design2-gold-panel-v1/travel/artwork-field-mask.png",
-          "sha256": "0c45e8a7526feab378a4f448f47381c9ad498734fe5c573fdd7713cc4c312bed"
-        },
-        "shared-plate": {
-          "path": "sources/components/design2-gold-panel-v1/travel/shared-plate.png",
-          "sha256": "b6a3091a3dcd831a02e58813e46f704c6a037b9f6f19099614cafc58c756e4d3"
-        },
-        "border-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/travel/border-color-mask.png",
-          "sha256": "637de5d1f654b20fdc5c6a19fcc3d66037aa347aaae5557b1d9a76049d0674a3"
-        },
-        "field-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/travel/field-color-mask.png",
-          "sha256": "2fcf66a55bbdde60a392896ad0cf0f2b738e3e13e35349edd6d3a7327f967867"
-        },
-        "foliage-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/travel/foliage-color-mask.png",
-          "sha256": "dd3689ddb87116a9fe6f627b0a377b7d368852ed47b9c52bdc206736e480471f"
-        }
-      }
+      "source_geometry": {
+        "size": [
+          1049,
+          1499
+        ],
+        "outer": [
+          30,
+          25,
+          1018,
+          1469
+        ],
+        "inner": [
+          119,
+          127,
+          929,
+          1371
+        ]
+      },
+      "method": "Piecewise registration to common outer and inner frames; top half rotated to construct an exact reciprocal bottom half."
     },
     "jumbo": {
-      "source": "sources/generated/design2-gold-panel-v1/jumbo-master.png",
-      "source_sha256": "2b2322ce86b29c8d427aa1536166ff0f35a3cd85f11db2378ec6d72b1b9dbcd8",
-      "source_pixels": [
-        1049,
-        1499
-      ],
-      "source_body_bounds": [
-        108,
-        107,
-        940,
-        1391
-      ],
-      "source_anchor_pixel": [
-        523.7,
-        745.4
-      ],
-      "anchor_fit_mse": 273.7464906937248,
-      "uniform_artwork_scale": 1.0486369268897149,
-      "method": "Independent ImageGen format composition; uniform sampling and translation of the interior, with border reconstruction. No Poker layout resizing.",
       "pixels": [
         1050,
         1500
@@ -349,63 +395,34 @@
         977,
         1427
       ],
-      "outer_frame_radius_px": 6,
-      "inner_frame_radius_px": 40,
-      "corner_radius_mm": 3.5,
-      "components": {
-        "artwork-plate": {
-          "path": "sources/components/design2-gold-panel-v1/jumbo/artwork-plate.png",
-          "sha256": "922cc54e669b9a6319c00607fda76ec8c36e1a3baea3e90f0c619272be2e57fc"
-        },
-        "artwork-field-mask": {
-          "path": "sources/components/design2-gold-panel-v1/jumbo/artwork-field-mask.png",
-          "sha256": "63131142f80fa62f365b0c98817a1b046f5067cbde48303e5f84d1eac86d423e"
-        },
-        "shared-plate": {
-          "path": "sources/components/design2-gold-panel-v1/jumbo/shared-plate.png",
-          "sha256": "865fc228c73fe90942b2dfaf1d1803d2e5625e3c0b414540ef9412a61c7abeaf"
-        },
-        "border-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/jumbo/border-color-mask.png",
-          "sha256": "a252b6f4b194018f10a46eb7ecb44c72b80bf32fd8d55f8f9931c3d9e9802089"
-        },
-        "field-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/jumbo/field-color-mask.png",
-          "sha256": "2f6c57ee191a4c118bdcc417a3cfb3ae8fe71f36223b3f71e64601726dec32e7"
-        },
-        "foliage-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/jumbo/foliage-color-mask.png",
-          "sha256": "c686ebb80350aed40b65aca25e926cbac0d33b6cef9378382a86a2136d2fe581"
-        }
-      }
+      "source_geometry": {
+        "size": [
+          1049,
+          1499
+        ],
+        "outer": [
+          29,
+          25,
+          1019,
+          1466
+        ],
+        "inner": [
+          117,
+          120,
+          931,
+          1378
+        ]
+      },
+      "method": "Piecewise registration to common outer and inner frames; top half rotated to construct an exact reciprocal bottom half."
     },
     "tarot": {
-      "source": "sources/generated/design2-gold-panel-v1/tarot-master.png",
-      "source_sha256": "afbccd1d7ab036e23c6e2232ef8a9d089cd5c484ec30e805c990d8744b95df1e",
-      "source_pixels": [
-        939,
-        1674
-      ],
-      "source_body_bounds": [
-        117,
-        105,
-        824,
-        1546
-      ],
-      "source_anchor_pixel": [
-        469.1,
-        827.7
-      ],
-      "anchor_fit_mse": 441.49885245346,
-      "uniform_artwork_scale": 0.8848761588487616,
-      "method": "Independent ImageGen format composition; uniform sampling and translation of the interior, with border reconstruction. No Poker layout resizing.",
       "pixels": [
         825,
         1425
       ],
       "center_pixel": [
-        412,
-        712
+        412.0,
+        712.0
       ],
       "outer_margin_px": 23,
       "border_width_px": 50,
@@ -422,43 +439,27 @@
         752,
         1352
       ],
-      "outer_frame_radius_px": 6,
-      "inner_frame_radius_px": 40,
-      "corner_radius_mm": 3.5,
-      "components": {
-        "artwork-plate": {
-          "path": "sources/components/design2-gold-panel-v1/tarot/artwork-plate.png",
-          "sha256": "7b90adb6f2bf553b2d58e1a973595b9c568d9da09f570d774cfca8b6a3c66a64"
-        },
-        "artwork-field-mask": {
-          "path": "sources/components/design2-gold-panel-v1/tarot/artwork-field-mask.png",
-          "sha256": "f1bf59327cbb7c958dcd85d1803e9c6a4a4bce43003084b6863519efba2dd7ef"
-        },
-        "shared-plate": {
-          "path": "sources/components/design2-gold-panel-v1/tarot/shared-plate.png",
-          "sha256": "4e041023781f5cf899f5a0e75483d040705d9c5962f0b8c78ca13c811650b04e"
-        },
-        "border-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/tarot/border-color-mask.png",
-          "sha256": "4b715324a4900b9b7806229c4e11fee730e75aae5bd33922329ba25748c99cb8"
-        },
-        "field-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/tarot/field-color-mask.png",
-          "sha256": "f53d708546138aa0891aedb4a49e337132665bdb919606e8c24926671cc79b47"
-        },
-        "foliage-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/tarot/foliage-color-mask.png",
-          "sha256": "4f1c5fb794b09f0a4c01b597dbb632de6cb2cdba06f10e59a7c31b8be311077e"
-        }
-      }
+      "source_geometry": {
+        "size": [
+          954,
+          1649
+        ],
+        "outer": [
+          32,
+          27,
+          922,
+          1580
+        ],
+        "inner": [
+          120,
+          133,
+          833,
+          1515
+        ]
+      },
+      "method": "Piecewise registration to common outer and inner frames; top half rotated to construct an exact reciprocal bottom half."
     },
     "european-standard": {
-      "method": "Lanczos enlargement of the Bridge artwork plate and field mask, then the common physical border and rounded silhouette are reapplied.",
-      "derived_from": "bridge",
-      "enlargement": [
-        1.031111111111111,
-        1.022857142857143
-      ],
       "pixels": [
         696,
         1074
@@ -467,50 +468,8 @@
         347.5,
         536.5
       ],
-      "outer_margin_px": 23,
-      "border_width_px": 50,
-      "inner_inset_px": 73,
-      "outer_bounds": [
-        23,
-        23,
-        673,
-        1051
-      ],
-      "inner_bounds": [
-        73,
-        73,
-        623,
-        1001
-      ],
-      "outer_frame_radius_px": 6,
-      "inner_frame_radius_px": 40,
-      "corner_radius_mm": 3.5,
-      "components": {
-        "artwork-plate": {
-          "path": "sources/components/design2-gold-panel-v1/european-standard/artwork-plate.png",
-          "sha256": "0b4af57c2cfa948aeb5db53a245d56558726a6e3d80db55c5fdaff0deafe2d0e"
-        },
-        "artwork-field-mask": {
-          "path": "sources/components/design2-gold-panel-v1/european-standard/artwork-field-mask.png",
-          "sha256": "5b824f859b2cc066c6278dbe5fbeccc7c56c287996e9ea9600d61b78b91f6d62"
-        },
-        "shared-plate": {
-          "path": "sources/components/design2-gold-panel-v1/european-standard/shared-plate.png",
-          "sha256": "e071ce80fc7d90854aa3aa3578a06656b45db8801f737e4d88bd68c6302c53d8"
-        },
-        "border-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/european-standard/border-color-mask.png",
-          "sha256": "fe7063d29f6f50635eb7f7d7f00db85e6208a46d00b74f44fae2cbedc115ef68"
-        },
-        "field-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/european-standard/field-color-mask.png",
-          "sha256": "59d8f3ec94ef5a1774b33707a6e13628721284e60f8dd21a9869e9ee672f9e8c"
-        },
-        "foliage-color-mask": {
-          "path": "sources/components/design2-gold-panel-v1/european-standard/foliage-color-mask.png",
-          "sha256": "98bd91efc468f0fab3c8346a75ccaeb941db326a52cdb326c860c18e826a7952"
-        }
-      }
+      "derived_from": "bridge",
+      "method": "Direct Lanczos resize of the complete finished Bridge RGBA back, followed only by exact reciprocal rounding."
     }
   },
   "cards": [
@@ -533,10 +492,10 @@
         374.5,
         524.5
       ],
-      "sha256": "c28f260174e9b2c3119e46276de4e8698805c3253ee5fd3aa6c9e9108449c9d3",
+      "sha256": "0b4af1ec43cebdf831230e7b2377329554c707dd63b095f85b46cfe1683d69ea",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.poker.verdigris",
@@ -557,10 +516,10 @@
         374.5,
         524.5
       ],
-      "sha256": "fd7ceb4cd55ada49beac14350885433d916ed23c1a2c105387da80da3b276e02",
+      "sha256": "e70736dc1aa1fcb74240e56198990410b80c07492869dd45e7b16e3be1b7eeb9",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.poker.madder-lake",
@@ -581,10 +540,10 @@
         374.5,
         524.5
       ],
-      "sha256": "89d182af6c6581f8b81336bbaa5ffd7c39deb02b7eda36f33978b320e198afe5",
+      "sha256": "aee6fc40b20c3786505589a2eaa35d0a23ee8569bc073869982513137a30a645",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.poker.manganese-violet",
@@ -605,10 +564,10 @@
         374.5,
         524.5
       ],
-      "sha256": "311feafd67f2131864fe0cd664ace5f3f84094d94cc1b238c73b18d9774600cb",
+      "sha256": "9affedec058dd9c9c3d97b08d7ed81b19bcec0d7b52ef3709c0a0cd1213c8489",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.poker.lamp-black",
@@ -629,10 +588,10 @@
         374.5,
         524.5
       ],
-      "sha256": "013a571a0afc2a30daabb5b5e8a2baf1b9440c2f5f8d0ff7d4a3273be4d593bb",
+      "sha256": "fe53fe44e74d616a7186d7ba23019adbe5ea73057ab41388e943ba810f1cdd88",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.bridge.prussian-blue",
@@ -650,13 +609,13 @@
         3.5
       ],
       "center_pixel": [
-        337,
+        337.0,
         524.5
       ],
-      "sha256": "a4f939b4a315ee1c49faf2cdc1b7deb70966bce3a3aa9f8b6a57686760b1d7ce",
+      "sha256": "d203edbac5392427a6411cb5198fd187a1a223f8c6e313c7f32d5474103c7c4f",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.bridge.verdigris",
@@ -674,13 +633,13 @@
         3.5
       ],
       "center_pixel": [
-        337,
+        337.0,
         524.5
       ],
-      "sha256": "f48ff441886c680846fafdaca8cfcd72098a875b6c48ff9b54aea60e6e6227c1",
+      "sha256": "2ec57536e55c9251db74741aa92e4ce8c8ac45ef28c545268df65cd71b95e9c1",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.bridge.madder-lake",
@@ -698,13 +657,13 @@
         3.5
       ],
       "center_pixel": [
-        337,
+        337.0,
         524.5
       ],
-      "sha256": "5c59e84df75bdb5f265de76bfc75e1491c302b51c50c98bb9e59e882c8dca24c",
+      "sha256": "f712838f77d9ba2bba7c5063ac1d92732bd6e2de826e736222bde4940e33270f",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.bridge.manganese-violet",
@@ -722,13 +681,13 @@
         3.5
       ],
       "center_pixel": [
-        337,
+        337.0,
         524.5
       ],
-      "sha256": "034901dfc4756c18af65b059729e8a5c037296660df8d5faa0628b2054ef47f6",
+      "sha256": "465b04c47f1d1cc6913a8d808f2b8f25f6d104f05617b5ea767191b073242187",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.bridge.lamp-black",
@@ -746,13 +705,13 @@
         3.5
       ],
       "center_pixel": [
-        337,
+        337.0,
         524.5
       ],
-      "sha256": "b841f37347d4baeb97bba5bc7360e9da107a8023ab6cc223a7fc809011fcd01b",
+      "sha256": "58054d39d66884a6b1c9e47044a40f963cacd477930bb0d2be82464175aef5e4",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.travel.prussian-blue",
@@ -770,13 +729,13 @@
         2.5
       ],
       "center_pixel": [
-        262,
+        262.0,
         374.5
       ],
-      "sha256": "387b32f631fd29ff5e26f395d008a30bef129532316e3e22f7e6b394718a4c78",
+      "sha256": "13de6879acb5a918c7e1effcfb0187e454661372ae52880b28294c2d8d8274e0",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.travel.verdigris",
@@ -794,13 +753,13 @@
         2.5
       ],
       "center_pixel": [
-        262,
+        262.0,
         374.5
       ],
-      "sha256": "81267686bda468656db7402ebf89d06ae3e4af388e4f0d00e30c4f1f88e89456",
+      "sha256": "cf9e5b5f177f6aca4f61bea448f91839b6d433b1f3c1555530566a1539ce3da7",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.travel.madder-lake",
@@ -818,13 +777,13 @@
         2.5
       ],
       "center_pixel": [
-        262,
+        262.0,
         374.5
       ],
-      "sha256": "ab1c5c008bdba90777bf563142a27c0fa4d81afaa81883811c0297dbe69fab08",
+      "sha256": "2db3c3843e1a92c8379f477333fd484956604f4e7610541d0fade326ad4e3f41",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.travel.manganese-violet",
@@ -842,13 +801,13 @@
         2.5
       ],
       "center_pixel": [
-        262,
+        262.0,
         374.5
       ],
-      "sha256": "ede721990ec41b1343136b24954c7e91b8bf9a865308b1803d90f71bfd011450",
+      "sha256": "ec00bb894839218cde72a20b67f93865c3884019b4930d651af3cd1d9c84db93",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.travel.lamp-black",
@@ -866,13 +825,13 @@
         2.5
       ],
       "center_pixel": [
-        262,
+        262.0,
         374.5
       ],
-      "sha256": "dc41ee1ca1ff74bb48f15d44038c206e769a0c667dbb73b774c97dd30aeb9a00",
+      "sha256": "9264cedf1c9d94af4ea9fbb5e87cac5b746a4b88ccc76c4c36bdc4c7fa1f3cc0",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.jumbo.prussian-blue",
@@ -893,10 +852,10 @@
         524.5,
         749.5
       ],
-      "sha256": "21078e4368061d85a0b5a2af7e7db2c4e67ab264d434d229ac76e4561c0907aa",
+      "sha256": "369e4ebcc48e7e8f7adaf5ce11e6f31c13bca0f0471b0e8f437e3822f9f8883b",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.jumbo.verdigris",
@@ -917,10 +876,10 @@
         524.5,
         749.5
       ],
-      "sha256": "9f500a822c69e10d12eb2c780b5f537f39a4be2474ec4f441b3ea1c52946b562",
+      "sha256": "4346d148b92966733549dba3a7f348ce58f9369907c8798e9b0f00e511842054",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.jumbo.madder-lake",
@@ -941,10 +900,10 @@
         524.5,
         749.5
       ],
-      "sha256": "64c14c24dac185acb3c385294e6a9b43bff48525396dc443b371eadab49c111d",
+      "sha256": "784d985aaffb6ddbaf7d9bb6abf7cbec6b408b3b19543f429821608aa31fa221",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.jumbo.manganese-violet",
@@ -965,10 +924,10 @@
         524.5,
         749.5
       ],
-      "sha256": "0a3ac862dd367ff722a99040c937d6896997c3b9af314b5fc1a401c032c871f3",
+      "sha256": "6940f1c12171d5c6f381de5a57a265a2a7abe4a7123058365b152bfed0595da9",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.jumbo.lamp-black",
@@ -989,10 +948,10 @@
         524.5,
         749.5
       ],
-      "sha256": "b137553d901a26240531ffecfacd72c0ecf125789cdb77607487eeba98429fa4",
+      "sha256": "770d6c753b6a168e31c49074cd6f9c817524a2523bac3ddba7d1c355ed4e7dae",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.tarot.prussian-blue",
@@ -1010,13 +969,13 @@
         4.75
       ],
       "center_pixel": [
-        412,
-        712
+        412.0,
+        712.0
       ],
-      "sha256": "634a799e87f0261ae3ae64e49c01186d642ed7cedf89632513ac13f7d849f330",
+      "sha256": "a7473d2506f02fab80123033f0af51c1d54ff752474738ecc0391ede9b79ab62",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.tarot.verdigris",
@@ -1034,13 +993,13 @@
         4.75
       ],
       "center_pixel": [
-        412,
-        712
+        412.0,
+        712.0
       ],
-      "sha256": "e8b49fdeece971ddf44f2c04ce51abaffc1038c9526675ea077d698febaf4a1c",
+      "sha256": "427f3cba8ecf40ec47a378a932501f1f2efcef368102576257ed076c5e37689c",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.tarot.madder-lake",
@@ -1058,13 +1017,13 @@
         4.75
       ],
       "center_pixel": [
-        412,
-        712
+        412.0,
+        712.0
       ],
-      "sha256": "0539dfcc128de43692ab9d5b20afde8404703771ec9ab80507b42222a0d97beb",
+      "sha256": "252cab62c14a7d12d2cc4e1e48e9a6b0a886a5855794db0c66cb456ea749d439",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.tarot.manganese-violet",
@@ -1082,13 +1041,13 @@
         4.75
       ],
       "center_pixel": [
-        412,
-        712
+        412.0,
+        712.0
       ],
-      "sha256": "21b7f270270a38bb6807a15911724fed5e0683b39e78eae8857d6355d91a0af7",
+      "sha256": "8403d228e85087d8eb08e0ce916ff7b01ff8bf4e32eb3196b033d649909304e8",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.tarot.lamp-black",
@@ -1106,13 +1065,13 @@
         4.75
       ],
       "center_pixel": [
-        412,
-        712
+        412.0,
+        712.0
       ],
-      "sha256": "2f0c27ba8226c40ed2c11770335a82c0f67f608c6f25f21a59197c7f9e94fa1a",
+      "sha256": "837874284f12b1fee7f5645e73cb2a6ce5fd4b3950ae4ff71eb318ad0f2b6bbf",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "common_margin_and_border": true,
+      "native_format_master": true
     },
     {
       "id": "design2.back.european-standard.prussian-blue",
@@ -1133,10 +1092,10 @@
         347.5,
         536.5
       ],
-      "sha256": "260822c52a586e6e6fe08eaed9935319202a77d78b6ef38a3ab1477ee40a9d09",
+      "sha256": "574c45b17003f0659fb740d55f16f5ccd8fc839c65922452517f22dbb5013705",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "derived_from": "bridge",
+      "native_format_master": false
     },
     {
       "id": "design2.back.european-standard.verdigris",
@@ -1157,10 +1116,10 @@
         347.5,
         536.5
       ],
-      "sha256": "edb4347c03bd55263752fa42f7c5baf2b01d55c974c2c2daae17ebd4b093b5b6",
+      "sha256": "b9012605538fa2cb47f278e36432b71cacb7cc071cffd0e2e474040cded2308b",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "derived_from": "bridge",
+      "native_format_master": false
     },
     {
       "id": "design2.back.european-standard.madder-lake",
@@ -1181,10 +1140,10 @@
         347.5,
         536.5
       ],
-      "sha256": "abf82b2e6fc24f657cbb6d106864949d6078ff4b7a82807da9003b9711601121",
+      "sha256": "2d2081c50a622fe38ea1faaa1f17cdb0b4c1984d3d40fce9a20d4f12c7ccf8b4",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "derived_from": "bridge",
+      "native_format_master": false
     },
     {
       "id": "design2.back.european-standard.manganese-violet",
@@ -1205,10 +1164,10 @@
         347.5,
         536.5
       ],
-      "sha256": "ac524cd51c63e9d051d7ceaf2f403aa06f48d68de9629c30bdbc953a43514cdd",
+      "sha256": "61f7a222288c3c1b950ff7e09785fc4defcf2300d3c5ecb4e84400a9f753dc0a",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "derived_from": "bridge",
+      "native_format_master": false
     },
     {
       "id": "design2.back.european-standard.lamp-black",
@@ -1229,10 +1188,10 @@
         347.5,
         536.5
       ],
-      "sha256": "8765741216ffb045fa1c89aae2f0ab09e8a3502d4d0916bd49e8823e8d213f7c",
+      "sha256": "90ee49f4c51bbb001f489bb5ca4681f88d973d74b8382d27baac35085e5cf3c1",
       "half_turn_exact": true,
-      "shared_geometry_exact": true,
-      "unchanged_outside_palette_masks": true
+      "derived_from": "bridge",
+      "native_format_master": false
     }
   ]
 }

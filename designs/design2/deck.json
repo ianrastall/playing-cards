@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "design2",
   "design": "Design 2",
-  "revision": "gold-panel-v1",
+  "revision": "toranj-v1",
   "formats": {
     "bridge": {
       "trim_inches": [
@@ -99,6 +99,6 @@
   },
   "face_status": "review",
   "back_status": "approved",
-  "renderer": "registered-gold-panel-v1",
+  "renderer": "balanced-toranj-v1",
   "face_renderer": "number-cards-v1"
 }

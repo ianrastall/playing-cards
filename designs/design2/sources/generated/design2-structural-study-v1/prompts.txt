@@ -1,0 +1,19 @@
+INITIAL REDRAW
+
+Use case: stylized-concept
+Asset type: production concept for a symmetrical poker playing-card back
+Input image: Image 1 is a style, motif, and palette reference; redraw the card as a new coherent composition rather than retaining its assembly.
+Primary request: Recompose the card into a calm Persian/Mughal bookbinding layout. Use one unmistakable central toranj medallion with a smaller sar-toranj pendant finial above and below. Replace the four floating circular roundels with four corner quarter-medallions anchored into and cropped by the inner frame. Replace scattered isolated flowers with one continuous, connected islimi scrolling vine in a subdued tone, with only a few larger red and cream blossoms at major junctions.
+Hierarchy: central medallion is largest and brightest; pendant finials are secondary; corner quarter-medallions are smaller and darker; ground vine recedes. Leave generous breathing room around the medallion.
+Color palette: retain Madder Lake red, warm antique cream, olive foliage, deep teal accents, and warm aged gold. Use a deep muted Madder Lake field throughout both border and interior so they read as one ground. Use much less cream than Image 1: reserve cream for fine inner petals and highlights, not a large central cartouche. Give the center a deeper red interior with gold outline and a cream/red innermost lotus rosette. Let deep teal appear as a controlled accent in the center and corner pieces, never as large floating discs.
+Border: one continuous gold-and-cream vine that turns all four corners through a lotus rosette corner motif. Use clean concentric rounded frames with aligned radii and unbroken continuous rules.
+Style/medium: refined hand-painted silk-and-gouache ornament with Ming floral motifs interpreted through Persian bookbinding geometry; subtle pigment variation and aged gold, crisp enough to print at 63 x 88 mm.
+Composition: exact centered bilateral and 180-degree rotational symmetry, full card visible, portrait 5:7 aspect ratio, no crop, uniform ivory paper margin.
+Constraints: no horizontal midpoint seam; no vertical stray lines; no black or near-black halos around any motif; every edge must be cleanly matted into the red ground; no pasted-together appearance; no floating roundels; no large cream cartouche; fewer larger motifs; no text, letters, numbers, suit symbols, watermark, mockup, hands, or table.
+
+REFINEMENT
+
+Use case: precise-object-edit
+Asset type: production concept for a symmetrical poker playing-card back
+Primary request: Refine this exact newly generated Madder Lake card-back concept for better readability at 63 x 88 mm. Reduce the density of the interior ground ornament by about 25 percent: remove roughly half of the small cream filler blossoms and simplify some minor leaf offshoots. Make the remaining connected islimi vines slightly broader, smoother, and more tone-on-tone against the red field. Keep the few larger red blossoms at major vine junctions. Slightly darken and mute the teal-and-olive corner quarter-medallions so they remain subordinate to the center.
+Constraints: change only ornament density and corner-piece emphasis. Preserve the exact overall structure, single central toranj medallion, top and bottom pendant finials, four anchored quarter-medallions, outer border, lotus corner turns, concentric frames, Madder Lake palette, antique-gold treatment, portrait framing, and uniform ivory margin. Preserve bilateral and 180-degree visual symmetry. No seams, stray lines, halos, floating circles, large cream cartouche, text, symbols, watermark, mockup, hands, or table.

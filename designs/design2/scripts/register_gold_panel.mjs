@@ -12,7 +12,11 @@ const revision='gold-panel-v1',sourceDir=path.join(root,'sources/generated/desig
 const comp=path.join(root,'sources/components/design2-'+revision),out=path.join(root,'build/design2-'+revision);
 const config=JSON.parse(fs.readFileSync(path.join(root,'deck.json'),'utf8'));
 const palettes={'prussian-blue':[26,83,117],verdigris:[57,141,114],'madder-lake':[167,52,67],'manganese-violet':[116,80,155],'lamp-black':[33,33,31]};
-const fields=Object.fromEntries(Object.entries(palettes).map(([k,v])=>[k,v.map(c=>Math.round(c*.64))]));
+const fieldAdjustment={revision:'muted-fields-v2',brightness_scale:.88,chroma_retained:.65,luma_weights:[.2126,.7152,.0722],method:'Blend each border color toward its weighted sRGB gray, then darken slightly.'};
+const fields=Object.fromEntries(Object.entries(palettes).map(([k,v])=>{
+  const gray=v.reduce((sum,c,i)=>sum+c*fieldAdjustment.luma_weights[i],0);
+  return [k,v.map(c=>Math.round(fieldAdjustment.brightness_scale*(gray+(c-gray)*fieldAdjustment.chroma_retained)))];
+}));
 const ground=[250,235,215],gold=[227,181,75],margin=23,band=50,inset=margin+band,innerRadius=40,outerRadius=6,cardRadius=3.5/25.4*300;
 // Pointwise leaf recoloring, after source sampling. Original masters and geometry stay fixed.
 const foliageAdjustment={revision:'olive-leaves-v1',method:'Green-chroma addition with feathered selection; central and satellite medallions excluded.',rgb_chroma_offsets:[1.3,.4,-.2],green_blue_feather:12,green_red_feather:20};
@@ -50,7 +54,8 @@ function nativeBody(fmt,w,h){
   const plate=Buffer.alloc(w*h*3),mask=Buffer.alloc(w*h),foliageMask=Buffer.alloc(w*h);
   for(let y=0;y<h;y++)for(let x=0;x<w;x++){
     const sx=anchor.x+(x-(w-1)/2)/scale,sy=anchor.y+(y-(h-1)/2)/scale,i=y*w+x;
-    let rgb=fields['prussian-blue'],m=1;
+    // Keep the original plate padding fixed; only palette compositing changes the field.
+    let rgb=[17,53,75],m=1;
     if(inside(sx,sy,b,spec.radius)){
       rgb=sample(im,sx,sy);m=blueAmount(rgb);
       const central=(sx-anchor.x)**2+(sy-anchor.y)**2 < (im.w*.19)**2;
@@ -114,9 +119,9 @@ for(const fmt of formats){
     for(let i=0;i<w*h;i++)for(let c=0;c<4;c++)if(a[i*4+c]!==a[(w*h-1-i)*4+c])throw Error('Half-turn mismatch: '+rel);
     cards.push({id:`design2.back.${fmt}.${color}`,path:rel,format:fmt,color,pixels:[w,h],mode:'RGBA',ppi:300,trim_inches:config.formats[fmt].trim_inches,center_pixel:geometry.center_pixel,sha256:hash(dest),half_turn_exact:true,shared_geometry_exact:true,unchanged_outside_palette_masks:true});
   }
-  console.log(`PASS ${fmt}: centered artwork, 50 px frame, five matching dark-field palettes`);
+  console.log(`PASS ${fmt}: centered artwork, 50 px frame, five muted field palettes`);
 }
-const manifest={design:'Design 2',status:'approved',revision,foliage_adjustment:foliageAdjustment,source:{path:path.relative(root,sourceDir).replaceAll('\\','/'),tool:'built-in image_gen'},component_root:path.relative(root,comp).replaceAll('\\','/'),ground_rgb:ground,corner_radius_mm:3.5,palettes,field_palettes:fields,formats,layout,cards};
+const manifest={design:'Design 2',status:'approved',revision,foliage_adjustment:foliageAdjustment,field_adjustment:fieldAdjustment,source:{path:path.relative(root,sourceDir).replaceAll('\\','/'),tool:'built-in image_gen'},component_root:path.relative(root,comp).replaceAll('\\','/'),ground_rgb:ground,corner_radius_mm:3.5,palettes,field_palettes:fields,formats,layout,cards};
 json(path.join(out,'manifest.json'),manifest);json(path.join(comp,'layout.json'),manifest);
 if(process.argv.includes('--apply')){
   execFileSync('python',[path.join(root,'scripts/audit_design2_registration.py'),'--build'],{stdio:'inherit'});
@@ -131,7 +136,7 @@ if(process.argv.includes('--apply')){
   ledger.assets.push(...cards.map(card=>{
     const p='designs/design2/'+card.path,old=baseline.assets.find(a=>a.path===p);
     if(!old)throw Error('Missing migration baseline: '+p);
-    return {path:p,migration_sha256:old.sha256,sha256:card.sha256,revision,foliage_revision:foliageAdjustment.revision,manifest:'designs/design2/manifest.json'};
+    return {path:p,migration_sha256:old.sha256,sha256:card.sha256,revision,foliage_revision:foliageAdjustment.revision,field_revision:fieldAdjustment.revision,manifest:'designs/design2/manifest.json'};
   }));
   json(ledgerPath,ledger);
   execFileSync('python',[path.join(repo,'scripts/catalog.py'),'--write'],{stdio:'inherit'});

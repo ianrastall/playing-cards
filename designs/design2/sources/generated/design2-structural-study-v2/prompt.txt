@@ -1,0 +1,12 @@
+Use case: precise-object-edit
+Asset type: refined symmetrical poker playing-card back concept
+Input image: Image 1 is the edit target.
+Primary request: Keep the exact composition and ornament, but refine the frame and organize all red areas into four visibly distinct shades of the same Madder Lake hue.
+Frame edit: The inner edge of the outer floral border currently has a substantial double gold frame. Duplicate that same double gold frame treatment along the OUTER edge of the floral border, immediately inside the ivory paper margin. Match its line weight, spacing, rounded corners, aged-gold finish, and corner radius so the floral border is enclosed by corresponding double rules on both its outer and inner edges.
+Four nested Madder Lake regions, all sharing the same red hue with no orange, purple, or brown hue shift:
+1. Outer floral border band: the darkest and most muted oxblood Madder red, creating a firm outer frame.
+2. Narrow inner border band immediately inside the floral border and before the broad field: a slightly lighter, clearer, more vibrant Madder red, making a gentle transition inward.
+3. Broad main islimi-vine field: a middle-lightness, softly muted Madder red, quiet enough for the olive vines to recede and broad enough to read as the main ground.
+4. Scalloped central toranj area surrounding the deep teal-green center: the richest, deepest, most saturated Madder red, giving the center a jewel-like focal pull.
+The differences should be restrained but unmistakable at card size: a nested dark / brighter / quiet / rich-deep rhythm, not four unrelated colors and not abrupt digital bands. Preserve subtle painted pigment texture in every red region.
+Constraints: change only the outer frame treatment and the red ground hierarchy. Preserve the exact central lotus, teal center, olive vines, red flowers, pendant finials, four corner quarter-medallions, outer floral vine, gold ornament, ivory margin, geometry, full-card framing, and visual symmetry. Do not add or remove motifs. No seams, halos, stray lines, text, symbols, watermark, mockup, hands, or table.

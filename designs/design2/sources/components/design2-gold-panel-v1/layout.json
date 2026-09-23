@@ -13,6 +13,17 @@
     "green_blue_feather": 12,
     "green_red_feather": 20
   },
+  "field_adjustment": {
+    "revision": "muted-fields-v2",
+    "brightness_scale": 0.88,
+    "chroma_retained": 0.65,
+    "luma_weights": [
+      0.2126,
+      0.7152,
+      0.0722
+    ],
+    "method": "Blend each border color toward its weighted sRGB gray, then darken slightly."
+  },
   "source": {
     "path": "sources/generated/design2-gold-panel-v1",
     "tool": "built-in image_gen"
@@ -53,29 +64,29 @@
   },
   "field_palettes": {
     "prussian-blue": [
-      17,
-      53,
-      75
+      37,
+      70,
+      90
     ],
     "verdigris": [
-      36,
-      90,
-      73
+      70,
+      118,
+      103
     ],
     "madder-lake": [
-      107,
-      33,
-      43
+      119,
+      54,
+      62
     ],
     "manganese-violet": [
+      95,
       74,
-      51,
-      99
+      117
     ],
     "lamp-black": [
-      21,
-      21,
-      20
+      29,
+      29,
+      28
     ]
   },
   "formats": [
@@ -533,7 +544,7 @@
         374.5,
         524.5
       ],
-      "sha256": "c28f260174e9b2c3119e46276de4e8698805c3253ee5fd3aa6c9e9108449c9d3",
+      "sha256": "090e679e72a5d8060ea84d70214291894e812e200c951570e8b673e706a28a49",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -557,7 +568,7 @@
         374.5,
         524.5
       ],
-      "sha256": "fd7ceb4cd55ada49beac14350885433d916ed23c1a2c105387da80da3b276e02",
+      "sha256": "821f697d4534ba5d5d0c49bfb3c0a6ab0e9dedf70259c93dc9616ff9ead23817",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -581,7 +592,7 @@
         374.5,
         524.5
       ],
-      "sha256": "89d182af6c6581f8b81336bbaa5ffd7c39deb02b7eda36f33978b320e198afe5",
+      "sha256": "019174fa99ed9be358135834f76ddfda61fb3906a331e016fb4333ac9a34caea",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -605,7 +616,7 @@
         374.5,
         524.5
       ],
-      "sha256": "311feafd67f2131864fe0cd664ace5f3f84094d94cc1b238c73b18d9774600cb",
+      "sha256": "390c460f79ee7d762ad1b11a1ebc719cf739ef8b1d8ee7c9b02046e30a16b440",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -629,7 +640,7 @@
         374.5,
         524.5
       ],
-      "sha256": "013a571a0afc2a30daabb5b5e8a2baf1b9440c2f5f8d0ff7d4a3273be4d593bb",
+      "sha256": "870ab3059d378564a713c5fa5b14d1f0d4c0609de193fe9082f3da4652fdbffd",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -653,7 +664,7 @@
         337,
         524.5
       ],
-      "sha256": "a4f939b4a315ee1c49faf2cdc1b7deb70966bce3a3aa9f8b6a57686760b1d7ce",
+      "sha256": "9a816b360fc5ddb3ea15676ae55b7fd233d43a4326c16cce2c7e56bc180da3ce",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -677,7 +688,7 @@
         337,
         524.5
       ],
-      "sha256": "f48ff441886c680846fafdaca8cfcd72098a875b6c48ff9b54aea60e6e6227c1",
+      "sha256": "e94c42716ee7d6a2972c073224f842d6efe6aa7ef96989d58ba994941ab7447a",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -701,7 +712,7 @@
         337,
         524.5
       ],
-      "sha256": "5c59e84df75bdb5f265de76bfc75e1491c302b51c50c98bb9e59e882c8dca24c",
+      "sha256": "ef3338a321eb61d580a4a453f31889b8302c2f3fd473e02f96a1882384361bfc",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -725,7 +736,7 @@
         337,
         524.5
       ],
-      "sha256": "034901dfc4756c18af65b059729e8a5c037296660df8d5faa0628b2054ef47f6",
+      "sha256": "926a5e9aefb37804234e9fd9d915c77e03bcf422bfd36841273cf7af635246cf",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -749,7 +760,7 @@
         337,
         524.5
       ],
-      "sha256": "b841f37347d4baeb97bba5bc7360e9da107a8023ab6cc223a7fc809011fcd01b",
+      "sha256": "6cde7f485d00baf42d34963d971766556c7b428d1fe43ee21f9d750ad4de9b90",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -773,7 +784,7 @@
         262,
         374.5
       ],
-      "sha256": "387b32f631fd29ff5e26f395d008a30bef129532316e3e22f7e6b394718a4c78",
+      "sha256": "8f4a44bb8a18b3274fbc61e26f8f9bda123034c76a5ace69c3840e7f859725e6",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -797,7 +808,7 @@
         262,
         374.5
       ],
-      "sha256": "81267686bda468656db7402ebf89d06ae3e4af388e4f0d00e30c4f1f88e89456",
+      "sha256": "cea6c2f0ba611db7dd6a439deeaa09afbff9eac1b32d70acb57f89056467b3f1",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -821,7 +832,7 @@
         262,
         374.5
       ],
-      "sha256": "ab1c5c008bdba90777bf563142a27c0fa4d81afaa81883811c0297dbe69fab08",
+      "sha256": "5eab830373fcfcce0df18202454a033c496c3ef6f5c87aac55b3caac32ed5a18",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -845,7 +856,7 @@
         262,
         374.5
       ],
-      "sha256": "ede721990ec41b1343136b24954c7e91b8bf9a865308b1803d90f71bfd011450",
+      "sha256": "54af67a758dac7e13965ebf3c29360f781e224a7ec4667c6f90ff8ed078d18e3",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -869,7 +880,7 @@
         262,
         374.5
       ],
-      "sha256": "dc41ee1ca1ff74bb48f15d44038c206e769a0c667dbb73b774c97dd30aeb9a00",
+      "sha256": "5aaf82c88ebc14fe8f338cc3541fd02e4afa2d72e16501f8b31b4ae8a9dddb33",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -893,7 +904,7 @@
         524.5,
         749.5
       ],
-      "sha256": "21078e4368061d85a0b5a2af7e7db2c4e67ab264d434d229ac76e4561c0907aa",
+      "sha256": "972d240e1a1bc123ac56ebe674f92b6b5a2edc64dc326a9d959aa6056b892193",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -917,7 +928,7 @@
         524.5,
         749.5
       ],
-      "sha256": "9f500a822c69e10d12eb2c780b5f537f39a4be2474ec4f441b3ea1c52946b562",
+      "sha256": "1af76ae40558c992644fc7dec015e50969b6bb434aa6c40d63b81a3bba4aecd5",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -941,7 +952,7 @@
         524.5,
         749.5
       ],
-      "sha256": "64c14c24dac185acb3c385294e6a9b43bff48525396dc443b371eadab49c111d",
+      "sha256": "d3e607daa9e35aa18c664ae2c723e4d66e057ad2cd6442cf673bc0ce08541559",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -965,7 +976,7 @@
         524.5,
         749.5
       ],
-      "sha256": "0a3ac862dd367ff722a99040c937d6896997c3b9af314b5fc1a401c032c871f3",
+      "sha256": "792660ba76c0d4b6f10d4f4b64a1a3951ac147227473b156ef311d4dbeb18eb0",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -989,7 +1000,7 @@
         524.5,
         749.5
       ],
-      "sha256": "b137553d901a26240531ffecfacd72c0ecf125789cdb77607487eeba98429fa4",
+      "sha256": "99df0357fbcdf112eac24c6238b34aac921aecfc7389ada57333e4d5f374a4bc",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1013,7 +1024,7 @@
         412,
         712
       ],
-      "sha256": "634a799e87f0261ae3ae64e49c01186d642ed7cedf89632513ac13f7d849f330",
+      "sha256": "52af9de32ef364316104c5385fe3d7c4e6c51cd27ca56b7fd6dacbf1817bfd6d",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1037,7 +1048,7 @@
         412,
         712
       ],
-      "sha256": "e8b49fdeece971ddf44f2c04ce51abaffc1038c9526675ea077d698febaf4a1c",
+      "sha256": "47b6153ffa828361358e042b3ed74c3634cf4f251e9cf3fbcd2a7f74224b5112",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1061,7 +1072,7 @@
         412,
         712
       ],
-      "sha256": "0539dfcc128de43692ab9d5b20afde8404703771ec9ab80507b42222a0d97beb",
+      "sha256": "5a6ce55f69c4c2ab73c293bbf75784ca0ee5a4fd9004a7a03ecd833ed33364f9",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1085,7 +1096,7 @@
         412,
         712
       ],
-      "sha256": "21b7f270270a38bb6807a15911724fed5e0683b39e78eae8857d6355d91a0af7",
+      "sha256": "d93951788367430722ad729cc917898c8425c2ca053071d94a9e6b3232341d04",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1109,7 +1120,7 @@
         412,
         712
       ],
-      "sha256": "2f0c27ba8226c40ed2c11770335a82c0f67f608c6f25f21a59197c7f9e94fa1a",
+      "sha256": "116200d54addc0dfa051d92fe9688fd406d609841d90b0eb95f9aba23a5fbebd",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1133,7 +1144,7 @@
         347.5,
         536.5
       ],
-      "sha256": "260822c52a586e6e6fe08eaed9935319202a77d78b6ef38a3ab1477ee40a9d09",
+      "sha256": "fc81d555f6cddbbc0f24ebe0e2f8c45f0182f345f97db91afbffa4b2ba0d9ae4",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1157,7 +1168,7 @@
         347.5,
         536.5
       ],
-      "sha256": "edb4347c03bd55263752fa42f7c5baf2b01d55c974c2c2daae17ebd4b093b5b6",
+      "sha256": "107313cae3aaa7c52fb4e9453d5a9c02107f83fbfdf3d6b9ba9bdaf6bea521b5",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1181,7 +1192,7 @@
         347.5,
         536.5
       ],
-      "sha256": "abf82b2e6fc24f657cbb6d106864949d6078ff4b7a82807da9003b9711601121",
+      "sha256": "64ce919deb5c378638e9041ee9b81ee5bc2c75ebb7d1788d92cf5d95ef7d88da",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1205,7 +1216,7 @@
         347.5,
         536.5
       ],
-      "sha256": "ac524cd51c63e9d051d7ceaf2f403aa06f48d68de9629c30bdbc953a43514cdd",
+      "sha256": "94378ea5438505de87b8753345d698ee1d14243232335810a344fd6d366bca11",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
@@ -1229,7 +1240,7 @@
         347.5,
         536.5
       ],
-      "sha256": "8765741216ffb045fa1c89aae2f0ab09e8a3502d4d0916bd49e8823e8d213f7c",
+      "sha256": "9adb62aaf1450fdc8c2aba6fdf5fc08e81e760e461a302d4b105c9fde252cab4",
       "half_turn_exact": true,
       "shared_geometry_exact": true,
       "unchanged_outside_palette_masks": true
