@@ -111,44 +111,44 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
 </figure>'''
 
     groups = OrderedDict()
-    groups['design1-backs'] = ('Card backs', 'Five botanical colorways.')
+    groups['design1-backs'] = ('Card backs', 'Five back colors.')
     for size in FORMATS:
         groups[f'design1-{size}'] = ('Tarot' if size == 'tarot' else f'{label(size)} faces',
                                     'The complete 78-card deck, including the major arcana.' if size == 'tarot' else 'Every suit, from ace to king, plus both Jokers.')
-    groups.update({'design2-courts': ('Courts, aces & Jokers', 'All eighteen selected artworks, presented as full-resolution masters.'),
+    groups.update({'design2-courts': ('Courts, aces & Jokers', '18 artwork masters at their original dimensions.'),
                    'design2-numbers': ('Number cards', 'Ranks 2–10 in all four suits. Poker format, with gold lotus borders.'),
-                   'design2-backs': ('Card backs', 'The approved toranj backs: central medallions, connected floral vines, and double gold frames. Five colorways.'),
-                   'face-frames': ('Blank face frames', 'Open ivory fields with gold lotus ornament.')})
+                   'design2-backs': ('Card backs', 'Current toranj backs in five colors.'),
+                   'face-frames': ('Blank face frames', 'Blank card templates in Lamp Black and Madder Lake.')})
     chosen = [a for a in assets if (design is None or a['design'] == design)
               and (not numbers_only or a['group'] == 'design2-numbers')
               and (not fmt or (a['format'] == fmt and '.master.' not in a['id']))
               and (not masters_only or '.master.' in a['id'])]
     designs = [d for d in ['design1', 'design2'] if any(a['design'] == d for a in chosen)]
-    title = 'Playing Cards' if design is None else 'Design 1 · Botanical ornament' if design == 'design1' else 'Design 2 · Lotus & silk'
+    title = 'Playing Cards' if design is None else f'Design {design[-1]}'
     if numbers_only:
         title = 'Design 2 · Number cards'
-    heading = 'The art of<br>the playing card.' if design is None else 'Botanical<br>ornament.' if design == 'design1' else 'Lotus &amp; silk.'
+    heading = 'Playing cards' if design is None else f'Design {design[-1]}'
     if numbers_only:
-        heading = 'Lotus<br>number cards.'
-    intro = ('Two illustrated collections. Rich botanical fields, painted courts, and ornament made to be held in the hand.' if design is None else
-             'Morris, Mucha, and Safavid-inspired ornament. A complete French-suited collection and a full Tarot deck.' if design == 'design1' else
-             'Toranj medallions and silk florals. Five back colorways, Poker number cards, and painted court, ace, and Joker masters.')
+        heading = 'Number cards'
+    intro = ('Two card designs available as PNG files.' if design is None else
+             'French-suited cards in five sizes, a 78-card Tarot deck, and five back colors in each size.' if design == 'design1' else
+             'Backs in six sizes, Poker number cards, blank face frames, and court, ace, and Joker artwork masters.')
     if numbers_only:
-        intro = 'All four suits together, with open ivory fields and gold lotus borders. Open any card to inspect it or turn it over.'
+        intro = '36 Poker cards: ranks 2–10 in all four suits. Open a card to view, rotate, or download it.'
     if fmt:
         title = f'Design {design[-1]} · {label(fmt)}'
-        heading = f'{label(fmt)}<br>cards.'
+        heading = f'{label(fmt)} cards'
         intro = ('The complete Tarot deck and five matching backs.' if fmt == 'tarot' else 'Every suit, both Jokers, and five matching backs.') if design == 'design1' else (
             '36 number faces, five toranj backs, and two blank face frames. Court, ace, and Joker masters are available separately.' if fmt == 'poker' else
             'Five toranj backs and two blank face frames. Finished faces are not yet available in this size.')
     if masters_only:
         title = 'Design 2 · Artwork masters'
-        heading = 'Painted<br>characters.'
+        heading = 'Artwork masters'
         intro = 'Eighteen selected courts, aces, and Jokers at their original dimensions. These are artwork masters, not finished size-specific cards.'
     if all_artwork:
-        title = f'Design {design[-1]} · All artwork' if design else 'The complete collection'
-        heading = 'Every size.<br>One design.' if design else 'The complete<br>collection.'
-        intro = 'Every selected artwork at its original resolution, with direct PNG links for bulk downloading. Search by name, suit, or color to find individual cards.'
+        title = f'Design {design[-1]} · All files' if design else 'All files'
+        heading = f'Design {design[-1]}: all files' if design else 'All files'
+        intro = 'All sizes on one page, with direct PNG links for bulk downloading. Search by name, suit, or color to find individual cards.'
     if chooser:
         intro += ' Choose a size to browse individual cards, or open the full gallery for bulk downloading.' if design else ' Choose a design, then a card size.'
     hero_design = design or 'design2'
@@ -163,10 +163,9 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
     content = []
     for d in ([] if chooser else designs):
         design_assets = [a for a in chosen if a['design'] == d]
-        name = 'Botanical ornament' if d == 'design1' else 'Lotus & silk'
-        description = 'Morris · Mucha · Safavid' if d == 'design1' else 'Ming · Tang · Silk florals'
+        name = f'Design {d[-1]}'
         jumps = ''.join(f'<a href="#{key}">{escape(info[0])}</a>' for key, info in groups.items() if any(a['group'] == key for a in design_assets))
-        content.append(f'<section class="collection" id="{d}" aria-labelledby="{d}-title"><header class="collection-header"><div><p class="eyebrow">Design 0{d[-1]} / {description}</p><h2 id="{d}-title">{escape(name)}</h2></div><p class="collection-count">{len(design_assets)} artworks</p></header><nav class="section-links" aria-label="{d} sections">{jumps}</nav>')
+        content.append(f'<section class="collection" id="{d}" aria-labelledby="{d}-title"><header class="collection-header"><div><h2 id="{d}-title">{escape(name)}</h2></div><p class="collection-count">{len(design_assets)} artworks</p></header><nav class="section-links" aria-label="{d} sections">{jumps}</nav>')
         for key, (name, description) in groups.items():
             entries = sorted([a for a in design_assets if a['group'] == key], key=order)
             if not entries:
@@ -177,10 +176,10 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
         content.append('</section>')
     if chooser and not design:
         content.append('<div class="design-options">')
-        for d, name, description in [('design1', 'Botanical ornament', 'Complete French-suited decks in five sizes, plus a full 78-card Tarot. Five botanical backs in every size.'),
-                                     ('design2', 'Lotus & silk', 'Toranj backs in six sizes, Poker number faces, blank frames, and painted artwork masters.')]:
+        for d, name, description in [('design1', 'Design 1', 'French-suited decks in five sizes and a 78-card Tarot deck. Five back colors in each size.'),
+                                     ('design2', 'Design 2', 'Backs in six sizes, Poker number cards, blank face frames, and artwork masters.')]:
             back = next(a for a in assets if a['id'] == f'{d}.back.poker.prussian-blue')
-            content.append(f'<a class="design-option" id="{d}" href="{url(f"designs/{d}/index.html")}"><img src="{url(back["path"])}" width="750" height="1050" alt="Design {d[-1]} Prussian Blue back" loading="lazy"><div><p class="eyebrow">Design 0{d[-1]}</p><h2>{escape(name)}</h2><p>{description}</p><span class="choice-action">Choose a size →</span></div></a>')
+            content.append(f'<a class="design-option" id="{d}" href="{url(f"designs/{d}/index.html")}"><img src="{url(back["path"])}" width="750" height="1050" alt="Design {d[-1]} Prussian Blue back" loading="lazy"><div><h2>{escape(name)}</h2><p>{description}</p><span class="choice-action">Choose a size →</span></div></a>')
         content.append('</div>')
     elif chooser:
         formats = json.loads((ROOT / f'designs/{design}/deck.json').read_text(encoding='utf-8'))['formats']
@@ -205,7 +204,7 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
     bulk_label = 'Open every size in this design' if design else f'Open all {len(assets)} artworks'
     if not all_artwork:
         collection_link += f'<a href="{url(bulk_target)}">Bulk download gallery →</a>'
-    bulk = f'<aside class="download-options" aria-label="More ways to browse"><div><h2>Collecting a whole set?</h2><p>Use a full gallery with every original PNG linked in the page, ready for a download manager.</p><a href="{url(bulk_target)}">{bulk_label} →</a></div>'
+    bulk = f'<aside class="download-options" aria-label="More ways to browse"><div><h2>Bulk downloads</h2><p>Open all sizes on one page to download the PNGs with a download manager.</p><a href="{url(bulk_target)}">{bulk_label} →</a></div>'
     if design == 'design2':
         bulk += f'<div><h2>Courts, aces &amp; Jokers</h2><p>Browse 18 selected artwork masters at their original dimensions.</p><a href="{url("designs/design2/masters.html")}">Browse artwork masters →</a></div>'
     bulk += '</aside>'
@@ -215,15 +214,15 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
     return f'''<!doctype html>
 <!-- Generated by scripts/build_gallery.py; edit the builder or shared gallery assets. -->
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="dark"><meta name="description" content="Choose a playing-card design and size. Browse individual artworks or collect the full set of original PNGs.">
-<title>{escape(title)} — The Card Studio</title><link rel="icon" href="data:,">
+<meta name="color-scheme" content="dark"><meta name="description" content="Playing-card PNG files in two designs and six sizes. Browse individual cards or download files in bulk.">
+<title>{escape(title)}</title><link rel="icon" href="data:,">
 <link rel="stylesheet" href="{url('assets/gallery.css')}"><script src="{url('assets/gallery.js')}" defer></script></head>
 <body><a class="skip-link" href="#collection">Skip to {section_title.lower()}</a>
-<header class="site-header"><a class="wordmark" href="{url('index.html')}"><span class="brand-mark" aria-hidden="true">✦</span> THE CARD STUDIO</a><nav aria-label="Collection navigation"><a href="{url('designs/design1/index.html')}">Design 01</a><a href="{url('designs/design2/index.html')}">Design 02</a><a href="https://github.com/ianrastall/playing-cards">GitHub <span aria-hidden="true">↗</span></a></nav></header>
-<main><section class="hero" aria-labelledby="page-title"><div class="hero-copy"><p class="eyebrow">An illustrated collection</p><h1 id="page-title">{heading}</h1><p class="intro">{intro}</p><div class="hero-links">{collection_link}</div><p class="hero-meta">{len(chosen)} artworks <span>·</span> Original PNGs <span>·</span> MIT licensed</p></div><div class="viewing-table"><div class="hero-art">{hero_images}</div><p>On the viewing table <span>Design 0{hero_design[-1]}</span></p></div></section>
+<header class="site-header"><a class="wordmark" href="{url('index.html')}">PLAYING CARDS</a><nav aria-label="Collection navigation"><a href="{url('designs/design1/index.html')}">Design 1</a><a href="{url('designs/design2/index.html')}">Design 2</a><a href="https://github.com/ianrastall/playing-cards">GitHub <span aria-hidden="true">↗</span></a></nav></header>
+<main><section class="hero" aria-labelledby="page-title"><div class="hero-copy"><h1 id="page-title">{heading}</h1><p class="intro">{intro}</p><div class="hero-links">{collection_link}</div><p class="hero-meta">{len(chosen)} PNG files <span>·</span> MIT licensed</p></div><div class="viewing-table"><div class="hero-art">{hero_images}</div><p>Examples <span>Design {hero_design[-1]}</span></p></div></section>
 <section class="collection-intro" id="collection" aria-label="{section_title}"><div><h2 class="eyebrow">{section_title}</h2><p>{collection_note}</p></div><nav aria-label="Gallery navigation">{jump_links}</nav></section>
 {search}{''.join(content)}{bulk}
-</main><footer class="site-footer"><div><a class="wordmark" href="{url('index.html')}">THE CARD STUDIO</a><p>Made to be looked at. Made to be played.</p></div><nav aria-label="Resources"><a href="{url('README.md')}">Collection guide</a><a href="{url('catalog.json')}">Production catalog</a><a href="{url('LICENSE')}">MIT License</a><a href="#page-title">Back to top ↑</a></nav></footer>
+</main><footer class="site-footer"><div><a class="wordmark" href="{url('index.html')}">PLAYING CARDS</a></div><nav aria-label="Resources"><a href="{url('README.md')}">Collection guide</a><a href="{url('catalog.json')}">Production catalog</a><a href="{url('LICENSE')}">MIT License</a><a href="#page-title">Back to top ↑</a></nav></footer>
 <dialog class="viewer" aria-labelledby="viewer-title"><div class="viewer-shell"><header class="viewer-header"><div><h2 id="viewer-title"></h2><p id="viewer-detail"></p></div><button type="button" id="viewer-close" aria-label="Close artwork viewer">Close <span aria-hidden="true">×</span></button></header><div class="viewer-stage"><img id="viewer-image" alt=""></div><div class="viewer-controls"><button type="button" id="viewer-prev" aria-label="Previous artwork">← Previous</button><span id="viewer-position" role="status"></span><button type="button" id="viewer-next" aria-label="Next artwork">Next →</button><button type="button" id="viewer-turn" aria-pressed="false">Turn 180°</button><a id="viewer-download" download>Download PNG ↓</a><a id="viewer-original">Open original ↗</a></div></div></dialog>
 </body></html>
 '''
