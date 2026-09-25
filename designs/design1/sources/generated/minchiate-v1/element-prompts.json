@@ -1,0 +1,24 @@
+{
+  "tool": "built-in image_gen",
+  "reference": [
+    "D:/dev/proj/playing-cards/designs/design1/sources/generated/tarot-review-v1/empress.png"
+  ],
+  "jobs": [
+    {
+      "id": "fire",
+      "prompt": "Use case: stylized-concept. Create ONE original reusable Minchiate illustration asset, not a finished card. Input image is STYLE REFERENCE ONLY. Match its fine dark Mucha contours, matte antique-gold engraving, Morris botanical detail and Safavid-inspired textiles. Palette: madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, small turquoise #2E9C9C accents, intended to sit on ivory #FAEBD7. Complete coherent tall portrait composition, all extremities and identifying attributes visible, generous empty margins. TRUE transparent RGBA background and transparent interior gaps. No glow, shadow, mist, paper rectangle, border, panels, lettering, numbers, title, watermark or all-over background. Subject: FIRE, Minchiate classical element: a small salamander poised safely among curling red-and-gold flames on a compact rocky hearth. Detailed creature silhouette, stylized flames rising around it, no person. Ornamental botanical engraving and warm gold with madder accents."
+    },
+    {
+      "id": "water",
+      "prompt": "Use case: stylized-concept. Create ONE original reusable Minchiate illustration asset, not a finished card. Input image is STYLE REFERENCE ONLY. Match its fine dark Mucha contours, matte antique-gold engraving, Morris botanical detail and Safavid-inspired textiles. Palette: madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, small turquoise #2E9C9C accents, intended to sit on ivory #FAEBD7. Complete coherent tall portrait composition, all extremities and identifying attributes visible, generous empty margins. TRUE transparent RGBA background and transparent interior gaps. No glow, shadow, mist, paper rectangle, border, panels, lettering, numbers, title, watermark or all-over background. Subject: WATER, Minchiate classical element: one tall Renaissance sailing ship with carved golden hull, three masts, billowing ivory sails and small madder pennants riding compact turquoise sea waves. Complete rigging and hull visible, no lettering or flags with text. The waves form a contained vignette with transparent surroundings."
+    },
+    {
+      "id": "earth",
+      "prompt": "Use case: stylized-concept. Create ONE original reusable Minchiate illustration asset, not a finished card. Input image is STYLE REFERENCE ONLY. Match its fine dark Mucha contours, matte antique-gold engraving, Morris botanical detail and Safavid-inspired textiles. Palette: madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, small turquoise #2E9C9C accents, intended to sit on ivory #FAEBD7. Complete coherent tall portrait composition, all extremities and identifying attributes visible, generous empty margins. TRUE transparent RGBA background and transparent interior gaps. No glow, shadow, mist, paper rectangle, border, panels, lettering, numbers, title, watermark or all-over background. Subject: EARTH, Minchiate classical element: a finely engraved spherical terrestrial globe showing simplified land and water, resting in an antique-gold armillary-style cradle above a compact rocky landscape with grasses and small flowering plants. Clear round earth sphere, no words, modern map labels or human figure."
+    },
+    {
+      "id": "air",
+      "prompt": "Use case: stylized-concept. Create ONE original reusable Minchiate illustration asset, not a finished card. Input image is STYLE REFERENCE ONLY. Match its fine dark Mucha contours, matte antique-gold engraving, Morris botanical detail and Safavid-inspired textiles. Palette: madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, small turquoise #2E9C9C accents, intended to sit on ivory #FAEBD7. Complete coherent tall portrait composition, all extremities and identifying attributes visible, generous empty margins. TRUE transparent RGBA background and transparent interior gaps. No glow, shadow, mist, paper rectangle, border, panels, lettering, numbers, title, watermark or all-over background. Subject: AIR, Minchiate classical element: a flock of five distinct graceful birds with open wings rising through a compact arrangement of curling wind ribbons and small soft-edged clouds. One prominent eagle above, smaller songbirds below, precise anatomy and feather engraving, restrained ivory, olive, gold and madder coloring. Transparent spaces between all birds; no enclosing sky rectangle."
+    }
+  ]
+}

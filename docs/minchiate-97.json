@@ -1,0 +1,802 @@
+{
+  "schema_version": 1,
+  "id": "florentine-minchiate-97",
+  "status": "historical-direction-selected; artwork-in-progress",
+  "selected_on": "2026-09-25",
+  "card_count": 97,
+  "counts": {
+    "pip": 40,
+    "court": 16,
+    "trump": 40,
+    "fool": 1
+  },
+  "notes": "Original art following historical Florentine subjects and sequence, not a facsimile. Papi identities vary by pattern; see minchiate-plan.md. Roman indices use conventional subtractive typography; historical packs may use additive forms.",
+  "sources": [
+    "https://www.pagat.com/tarot/minchiate.html",
+    "https://en.wikipedia.org/wiki/Minchiate#Trumps",
+    "https://www.wopc.co.uk/italy/minchiate/etruria-minchiate"
+  ],
+  "cards": [
+    {
+      "id": "ace-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "ace",
+      "title": "Ace of Swords",
+      "printed_index": "A"
+    },
+    {
+      "id": "2-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "2",
+      "title": "2 of Swords",
+      "printed_index": "2"
+    },
+    {
+      "id": "3-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "3",
+      "title": "3 of Swords",
+      "printed_index": "3"
+    },
+    {
+      "id": "4-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "4",
+      "title": "4 of Swords",
+      "printed_index": "4"
+    },
+    {
+      "id": "5-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "5",
+      "title": "5 of Swords",
+      "printed_index": "5"
+    },
+    {
+      "id": "6-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "6",
+      "title": "6 of Swords",
+      "printed_index": "6"
+    },
+    {
+      "id": "7-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "7",
+      "title": "7 of Swords",
+      "printed_index": "7"
+    },
+    {
+      "id": "8-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "8",
+      "title": "8 of Swords",
+      "printed_index": "8"
+    },
+    {
+      "id": "9-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "9",
+      "title": "9 of Swords",
+      "printed_index": "9"
+    },
+    {
+      "id": "10-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "10",
+      "title": "10 of Swords",
+      "printed_index": "10"
+    },
+    {
+      "id": "page-of-swords",
+      "kind": "court",
+      "suit": "swords",
+      "rank": "page",
+      "title": "Jack of Swords",
+      "printed_index": "J"
+    },
+    {
+      "id": "knight-of-swords",
+      "kind": "court",
+      "suit": "swords",
+      "rank": "knight",
+      "title": "Cavalier of Swords",
+      "printed_index": "C"
+    },
+    {
+      "id": "queen-of-swords",
+      "kind": "court",
+      "suit": "swords",
+      "rank": "queen",
+      "title": "Queen of Swords",
+      "printed_index": "Q"
+    },
+    {
+      "id": "king-of-swords",
+      "kind": "court",
+      "suit": "swords",
+      "rank": "king",
+      "title": "King of Swords",
+      "printed_index": "K"
+    },
+    {
+      "id": "ace-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "ace",
+      "title": "Ace of Batons",
+      "printed_index": "A"
+    },
+    {
+      "id": "2-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "2",
+      "title": "2 of Batons",
+      "printed_index": "2"
+    },
+    {
+      "id": "3-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "3",
+      "title": "3 of Batons",
+      "printed_index": "3"
+    },
+    {
+      "id": "4-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "4",
+      "title": "4 of Batons",
+      "printed_index": "4"
+    },
+    {
+      "id": "5-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "5",
+      "title": "5 of Batons",
+      "printed_index": "5"
+    },
+    {
+      "id": "6-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "6",
+      "title": "6 of Batons",
+      "printed_index": "6"
+    },
+    {
+      "id": "7-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "7",
+      "title": "7 of Batons",
+      "printed_index": "7"
+    },
+    {
+      "id": "8-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "8",
+      "title": "8 of Batons",
+      "printed_index": "8"
+    },
+    {
+      "id": "9-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "9",
+      "title": "9 of Batons",
+      "printed_index": "9"
+    },
+    {
+      "id": "10-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "10",
+      "title": "10 of Batons",
+      "printed_index": "10"
+    },
+    {
+      "id": "page-of-batons",
+      "kind": "court",
+      "suit": "batons",
+      "rank": "page",
+      "title": "Jack of Batons",
+      "printed_index": "J"
+    },
+    {
+      "id": "knight-of-batons",
+      "kind": "court",
+      "suit": "batons",
+      "rank": "knight",
+      "title": "Cavalier of Batons",
+      "printed_index": "C"
+    },
+    {
+      "id": "queen-of-batons",
+      "kind": "court",
+      "suit": "batons",
+      "rank": "queen",
+      "title": "Queen of Batons",
+      "printed_index": "Q"
+    },
+    {
+      "id": "king-of-batons",
+      "kind": "court",
+      "suit": "batons",
+      "rank": "king",
+      "title": "King of Batons",
+      "printed_index": "K"
+    },
+    {
+      "id": "ace-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "ace",
+      "title": "Ace of Cups",
+      "printed_index": "A"
+    },
+    {
+      "id": "2-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "2",
+      "title": "2 of Cups",
+      "printed_index": "2"
+    },
+    {
+      "id": "3-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "3",
+      "title": "3 of Cups",
+      "printed_index": "3"
+    },
+    {
+      "id": "4-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "4",
+      "title": "4 of Cups",
+      "printed_index": "4"
+    },
+    {
+      "id": "5-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "5",
+      "title": "5 of Cups",
+      "printed_index": "5"
+    },
+    {
+      "id": "6-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "6",
+      "title": "6 of Cups",
+      "printed_index": "6"
+    },
+    {
+      "id": "7-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "7",
+      "title": "7 of Cups",
+      "printed_index": "7"
+    },
+    {
+      "id": "8-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "8",
+      "title": "8 of Cups",
+      "printed_index": "8"
+    },
+    {
+      "id": "9-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "9",
+      "title": "9 of Cups",
+      "printed_index": "9"
+    },
+    {
+      "id": "10-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "10",
+      "title": "10 of Cups",
+      "printed_index": "10"
+    },
+    {
+      "id": "page-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "page",
+      "title": "Maid of Cups",
+      "printed_index": "M"
+    },
+    {
+      "id": "knight-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "knight",
+      "title": "Cavalier of Cups",
+      "printed_index": "C"
+    },
+    {
+      "id": "queen-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "queen",
+      "title": "Queen of Cups",
+      "printed_index": "Q"
+    },
+    {
+      "id": "king-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "king",
+      "title": "King of Cups",
+      "printed_index": "K"
+    },
+    {
+      "id": "ace-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "ace",
+      "title": "Ace of Coins",
+      "printed_index": "A"
+    },
+    {
+      "id": "2-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "2",
+      "title": "2 of Coins",
+      "printed_index": "2"
+    },
+    {
+      "id": "3-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "3",
+      "title": "3 of Coins",
+      "printed_index": "3"
+    },
+    {
+      "id": "4-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "4",
+      "title": "4 of Coins",
+      "printed_index": "4"
+    },
+    {
+      "id": "5-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "5",
+      "title": "5 of Coins",
+      "printed_index": "5"
+    },
+    {
+      "id": "6-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "6",
+      "title": "6 of Coins",
+      "printed_index": "6"
+    },
+    {
+      "id": "7-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "7",
+      "title": "7 of Coins",
+      "printed_index": "7"
+    },
+    {
+      "id": "8-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "8",
+      "title": "8 of Coins",
+      "printed_index": "8"
+    },
+    {
+      "id": "9-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "9",
+      "title": "9 of Coins",
+      "printed_index": "9"
+    },
+    {
+      "id": "10-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "10",
+      "title": "10 of Coins",
+      "printed_index": "10"
+    },
+    {
+      "id": "page-of-coins",
+      "kind": "court",
+      "suit": "coins",
+      "rank": "page",
+      "title": "Maid of Coins",
+      "printed_index": "M"
+    },
+    {
+      "id": "knight-of-coins",
+      "kind": "court",
+      "suit": "coins",
+      "rank": "knight",
+      "title": "Cavalier of Coins",
+      "printed_index": "C"
+    },
+    {
+      "id": "queen-of-coins",
+      "kind": "court",
+      "suit": "coins",
+      "rank": "queen",
+      "title": "Queen of Coins",
+      "printed_index": "Q"
+    },
+    {
+      "id": "king-of-coins",
+      "kind": "court",
+      "suit": "coins",
+      "rank": "king",
+      "title": "King of Coins",
+      "printed_index": "K"
+    },
+    {
+      "id": "the-fool",
+      "kind": "fool",
+      "title": "The Fool",
+      "rank_order": null,
+      "printed_index": "",
+      "italian": "Il Matto"
+    },
+    {
+      "id": "bagatella",
+      "kind": "trump",
+      "title": "Bagatella",
+      "rank_order": 1,
+      "printed_index": "I",
+      "group": "traditional-trump",
+      "historical_alias": "Papa 1"
+    },
+    {
+      "id": "the-empress",
+      "kind": "trump",
+      "title": "The Empress",
+      "rank_order": 2,
+      "printed_index": "II",
+      "group": "traditional-trump",
+      "historical_alias": "Papa 2"
+    },
+    {
+      "id": "the-emperor",
+      "kind": "trump",
+      "title": "The Emperor",
+      "rank_order": 3,
+      "printed_index": "III",
+      "group": "traditional-trump",
+      "historical_alias": "Papa 3"
+    },
+    {
+      "id": "the-eastern-emperor",
+      "kind": "trump",
+      "title": "The Eastern Emperor",
+      "rank_order": 4,
+      "printed_index": "IV",
+      "group": "traditional-trump",
+      "historical_alias": "Papa 4"
+    },
+    {
+      "id": "love",
+      "kind": "trump",
+      "title": "Love",
+      "rank_order": 5,
+      "printed_index": "V",
+      "group": "traditional-trump",
+      "historical_alias": "Papa 5"
+    },
+    {
+      "id": "temperance",
+      "kind": "trump",
+      "title": "Temperance",
+      "rank_order": 6,
+      "printed_index": "VI",
+      "group": "traditional-trump"
+    },
+    {
+      "id": "fortitude",
+      "kind": "trump",
+      "title": "Fortitude",
+      "rank_order": 7,
+      "printed_index": "VII",
+      "group": "traditional-trump"
+    },
+    {
+      "id": "justice",
+      "kind": "trump",
+      "title": "Justice",
+      "rank_order": 8,
+      "printed_index": "VIII",
+      "group": "traditional-trump"
+    },
+    {
+      "id": "wheel-of-fortune",
+      "kind": "trump",
+      "title": "Wheel of Fortune",
+      "rank_order": 9,
+      "printed_index": "IX",
+      "group": "traditional-trump"
+    },
+    {
+      "id": "the-chariot",
+      "kind": "trump",
+      "title": "The Chariot",
+      "rank_order": 10,
+      "printed_index": "X",
+      "group": "traditional-trump"
+    },
+    {
+      "id": "time",
+      "kind": "trump",
+      "title": "Time",
+      "rank_order": 11,
+      "printed_index": "XI",
+      "group": "traditional-trump"
+    },
+    {
+      "id": "the-hanged-man",
+      "kind": "trump",
+      "title": "The Hanged Man",
+      "rank_order": 12,
+      "printed_index": "XII",
+      "group": "traditional-trump"
+    },
+    {
+      "id": "death",
+      "kind": "trump",
+      "title": "Death",
+      "rank_order": 13,
+      "printed_index": "XIII",
+      "group": "traditional-trump"
+    },
+    {
+      "id": "the-devil",
+      "kind": "trump",
+      "title": "The Devil",
+      "rank_order": 14,
+      "printed_index": "XIV",
+      "group": "traditional-trump"
+    },
+    {
+      "id": "the-house-of-the-devil",
+      "kind": "trump",
+      "title": "The House of the Devil",
+      "rank_order": 15,
+      "printed_index": "XV",
+      "group": "traditional-trump"
+    },
+    {
+      "id": "hope",
+      "kind": "trump",
+      "title": "Hope",
+      "rank_order": 16,
+      "printed_index": "XVI",
+      "group": "additional-virtue"
+    },
+    {
+      "id": "prudence",
+      "kind": "trump",
+      "title": "Prudence",
+      "rank_order": 17,
+      "printed_index": "XVII",
+      "group": "additional-virtue"
+    },
+    {
+      "id": "faith",
+      "kind": "trump",
+      "title": "Faith",
+      "rank_order": 18,
+      "printed_index": "XVIII",
+      "group": "additional-virtue"
+    },
+    {
+      "id": "charity",
+      "kind": "trump",
+      "title": "Charity",
+      "rank_order": 19,
+      "printed_index": "XIX",
+      "group": "additional-virtue"
+    },
+    {
+      "id": "fire",
+      "kind": "trump",
+      "title": "Fire",
+      "rank_order": 20,
+      "printed_index": "XX",
+      "group": "element"
+    },
+    {
+      "id": "water",
+      "kind": "trump",
+      "title": "Water",
+      "rank_order": 21,
+      "printed_index": "XXI",
+      "group": "element"
+    },
+    {
+      "id": "earth",
+      "kind": "trump",
+      "title": "Earth",
+      "rank_order": 22,
+      "printed_index": "XXII",
+      "group": "element"
+    },
+    {
+      "id": "air",
+      "kind": "trump",
+      "title": "Air",
+      "rank_order": 23,
+      "printed_index": "XXIII",
+      "group": "element"
+    },
+    {
+      "id": "libra",
+      "kind": "trump",
+      "title": "Libra",
+      "rank_order": 24,
+      "printed_index": "XXIV",
+      "group": "zodiac"
+    },
+    {
+      "id": "virgo",
+      "kind": "trump",
+      "title": "Virgo",
+      "rank_order": 25,
+      "printed_index": "XXV",
+      "group": "zodiac"
+    },
+    {
+      "id": "scorpio",
+      "kind": "trump",
+      "title": "Scorpio",
+      "rank_order": 26,
+      "printed_index": "XXVI",
+      "group": "zodiac"
+    },
+    {
+      "id": "aries",
+      "kind": "trump",
+      "title": "Aries",
+      "rank_order": 27,
+      "printed_index": "XXVII",
+      "group": "zodiac"
+    },
+    {
+      "id": "capricorn",
+      "kind": "trump",
+      "title": "Capricorn",
+      "rank_order": 28,
+      "printed_index": "XXVIII",
+      "group": "zodiac"
+    },
+    {
+      "id": "sagittarius",
+      "kind": "trump",
+      "title": "Sagittarius",
+      "rank_order": 29,
+      "printed_index": "XXIX",
+      "group": "zodiac"
+    },
+    {
+      "id": "cancer",
+      "kind": "trump",
+      "title": "Cancer",
+      "rank_order": 30,
+      "printed_index": "XXX",
+      "group": "zodiac"
+    },
+    {
+      "id": "pisces",
+      "kind": "trump",
+      "title": "Pisces",
+      "rank_order": 31,
+      "printed_index": "XXXI",
+      "group": "zodiac"
+    },
+    {
+      "id": "aquarius",
+      "kind": "trump",
+      "title": "Aquarius",
+      "rank_order": 32,
+      "printed_index": "XXXII",
+      "group": "zodiac"
+    },
+    {
+      "id": "leo",
+      "kind": "trump",
+      "title": "Leo",
+      "rank_order": 33,
+      "printed_index": "XXXIII",
+      "group": "zodiac"
+    },
+    {
+      "id": "taurus",
+      "kind": "trump",
+      "title": "Taurus",
+      "rank_order": 34,
+      "printed_index": "XXXIV",
+      "group": "zodiac"
+    },
+    {
+      "id": "gemini",
+      "kind": "trump",
+      "title": "Gemini",
+      "rank_order": 35,
+      "printed_index": "XXXV",
+      "group": "zodiac"
+    },
+    {
+      "id": "the-star",
+      "kind": "trump",
+      "title": "The Star",
+      "rank_order": 36,
+      "printed_index": "",
+      "group": "arie"
+    },
+    {
+      "id": "the-moon",
+      "kind": "trump",
+      "title": "The Moon",
+      "rank_order": 37,
+      "printed_index": "",
+      "group": "arie"
+    },
+    {
+      "id": "the-sun",
+      "kind": "trump",
+      "title": "The Sun",
+      "rank_order": 38,
+      "printed_index": "",
+      "group": "arie"
+    },
+    {
+      "id": "the-world",
+      "kind": "trump",
+      "title": "The World",
+      "rank_order": 39,
+      "printed_index": "",
+      "group": "arie"
+    },
+    {
+      "id": "the-trumpets",
+      "kind": "trump",
+      "title": "The Trumpets",
+      "rank_order": 40,
+      "printed_index": "",
+      "group": "arie"
+    }
+  ]
+}

@@ -1,0 +1,5944 @@
+{
+  "version": 1,
+  "status": "incomplete",
+  "planned_count": 97,
+  "available_count": 81,
+  "missing": [
+    "knight-of-swords",
+    "knight-of-batons",
+    "page-of-cups",
+    "knight-of-cups",
+    "page-of-coins",
+    "knight-of-coins",
+    "time",
+    "the-hanged-man",
+    "death",
+    "the-devil",
+    "the-house-of-the-devil",
+    "the-star",
+    "the-moon",
+    "the-sun",
+    "the-world",
+    "the-trumpets"
+  ],
+  "generated": [
+    "the-fool",
+    "bagatella",
+    "the-eastern-emperor",
+    "love",
+    "temperance",
+    "fortitude",
+    "wheel-of-fortune",
+    "the-chariot",
+    "hope",
+    "prudence",
+    "faith",
+    "charity",
+    "fire",
+    "water",
+    "earth",
+    "air",
+    "libra",
+    "virgo",
+    "scorpio",
+    "aries",
+    "capricorn",
+    "sagittarius",
+    "cancer",
+    "pisces",
+    "aquarius",
+    "leo",
+    "taurus",
+    "gemini"
+  ],
+  "inventory_path": "../../docs/minchiate-97.json",
+  "inventory_sha256": "9c1ea854421334b7c44194be305e796ebfb1b3dc3ebd8cd25e5e09ae2669fdb5",
+  "canvas": [
+    825,
+    1425
+  ],
+  "dpi": 300,
+  "corner_radius_mm": 3.5,
+  "components": {
+    "batons-master": {
+      "kind": "suit-master",
+      "source": "sources/generated/tarot-full-assets-v1/batons-master.png",
+      "source_sha256": "6e279ffda443b3f2019beac9a52b2f3f3f1b3d2f3162fa61cdb121948ddf497b",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/batons-master.png",
+      "sha256": "26bc8bdd4229095a9a0ca1d6ee3ae712fce3c3cad07b48e3b2be4bc2b7b618f8",
+      "crop": [
+        420,
+        6,
+        642,
+        1529
+      ],
+      "size": [
+        222,
+        1523
+      ],
+      "anchor": [
+        110.5,
+        761.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        432,
+        18,
+        630,
+        1517
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "batons-master",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/sword-straight.png",
+          "sha256": "b26eabd66de9465060067bf08f79fc2a3fd83689216d127b880d60315356669a"
+        }
+      ]
+    },
+    "cups-master": {
+      "kind": "suit-master",
+      "source": "sources/generated/tarot-full-assets-v1/cups-master.png",
+      "source_sha256": "f9141dcdf06242b53dd603bb2250f15c1e13e7ee812843c3936a1b5199eebc41",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/cups-master.png",
+      "sha256": "e7ef7f303f5d6ad0898a66bebe761e745e534622c0ee2e692c86b9584a201c7d",
+      "crop": [
+        151,
+        18,
+        873,
+        1513
+      ],
+      "size": [
+        722,
+        1495
+      ],
+      "anchor": [
+        360.5,
+        747.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        163,
+        30,
+        861,
+        1501
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "cups-master",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/queen-cups.png",
+          "sha256": "1453bd8b341957ee95421c5fbc9d7b582e2334d4476757c9caadd9593dc2d2e3"
+        }
+      ]
+    },
+    "coins-master": {
+      "kind": "suit-master",
+      "source": "sources/generated/tarot-full-assets-v1/coins-master.png",
+      "source_sha256": "a32eb0e3b92cba7f447d9e9ac3f31ef9a571b51c98d97c745538eb64f1757127",
+      "source_size": [
+        1230,
+        1278
+      ],
+      "path": "sources/components/tarot/full-assets-v1/coins-master.png",
+      "sha256": "a2b20f0767111958cba9d4e4e2b531156cd3ad1558376f6aa03fdaf4698fc0e3",
+      "crop": [
+        35,
+        54,
+        1194,
+        1217
+      ],
+      "size": [
+        1159,
+        1163
+      ],
+      "anchor": [
+        579.0,
+        581.0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_source_bounds": [
+        47,
+        66,
+        1182,
+        1205
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "coins-master",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/sword-straight.png",
+          "sha256": "b26eabd66de9465060067bf08f79fc2a3fd83689216d127b880d60315356669a"
+        }
+      ]
+    },
+    "page-of-swords": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/page-of-swords.png",
+      "source_sha256": "13c381b8b72ecfd6d7c85296683d3e81cc8e2c1b98379a1ca235e6fc6bc23bc5",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/page-of-swords.png",
+      "sha256": "2571ed0ab4de8121883d1c8fb53301b660290797ca5be40bfefb93a334392f1e",
+      "crop": [
+        44,
+        4,
+        884,
+        1528
+      ],
+      "size": [
+        840,
+        1524
+      ],
+      "anchor": [
+        419.5,
+        761.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        56,
+        16,
+        872,
+        1516
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "page-of-swords",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/sword-straight.png",
+          "sha256": "b26eabd66de9465060067bf08f79fc2a3fd83689216d127b880d60315356669a"
+        }
+      ]
+    },
+    "queen-of-swords": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/queen-of-swords.png",
+      "source_sha256": "226162ba1f959aa579a24296bbb811f1137e241da258ed744ee908cb653c95bb",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/queen-of-swords.png",
+      "sha256": "226931d46c818a5e6a550dd0e185b02b3c17b9eaaaa2d7d7b91c14e5efc0eb9f",
+      "crop": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "size": [
+        1024,
+        1536
+      ],
+      "anchor": [
+        511.5,
+        767.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        6,
+        8,
+        1019,
+        1526
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "queen-of-swords",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/queen-cups.png",
+          "sha256": "1453bd8b341957ee95421c5fbc9d7b582e2334d4476757c9caadd9593dc2d2e3"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/sword-straight.png",
+          "sha256": "b26eabd66de9465060067bf08f79fc2a3fd83689216d127b880d60315356669a"
+        }
+      ]
+    },
+    "king-of-swords": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/king-of-swords.png",
+      "source_sha256": "ea317710b1fb7a14590509ba1579c567437d0d77b765533a0c2d5a0468908b7c",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/king-of-swords.png",
+      "sha256": "c732cf189240a3c365b583e9bb5e8b9613e75ba64029c2d4c03f26cbd5d05296",
+      "crop": [
+        27,
+        0,
+        1016,
+        1536
+      ],
+      "size": [
+        989,
+        1536
+      ],
+      "anchor": [
+        494.0,
+        767.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        39,
+        4,
+        1004,
+        1526
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "king-of-swords",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/sword-straight.png",
+          "sha256": "b26eabd66de9465060067bf08f79fc2a3fd83689216d127b880d60315356669a"
+        }
+      ]
+    },
+    "page-of-batons": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/page-of-batons.png",
+      "source_sha256": "3fd5d10a87310138a49b08946aa0fda1553c93fb8784612efed5b239d33e40bc",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/page-of-batons.png",
+      "sha256": "a600d9f27807e1b87bea462512ede99a71a1e2728836063c2f7b50ff9e2af55a",
+      "crop": [
+        135,
+        7,
+        847,
+        1527
+      ],
+      "size": [
+        712,
+        1520
+      ],
+      "anchor": [
+        355.5,
+        759.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        147,
+        19,
+        835,
+        1515
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "page-of-batons",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/batons-master.png",
+          "sha256": "6e279ffda443b3f2019beac9a52b2f3f3f1b3d2f3162fa61cdb121948ddf497b"
+        }
+      ]
+    },
+    "queen-of-batons": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/queen-of-batons.png",
+      "source_sha256": "905e8a529fa1cde815b5224a1675baddf465d4c2104b8866b53c2495ad85ec96",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/queen-of-batons.png",
+      "sha256": "3d2111b4b847df6786cbd985b815a55a10769a960108b30a1ae656678380273b",
+      "crop": [
+        0,
+        5,
+        1023,
+        1536
+      ],
+      "size": [
+        1023,
+        1531
+      ],
+      "anchor": [
+        511.0,
+        765.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        12,
+        17,
+        1011,
+        1524
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "queen-of-batons",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/queen-cups.png",
+          "sha256": "1453bd8b341957ee95421c5fbc9d7b582e2334d4476757c9caadd9593dc2d2e3"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/batons-master.png",
+          "sha256": "6e279ffda443b3f2019beac9a52b2f3f3f1b3d2f3162fa61cdb121948ddf497b"
+        }
+      ]
+    },
+    "king-of-batons": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/king-of-batons.png",
+      "source_sha256": "48ac4672b2cd661295bdb26ff7efc139b08b479da7b49c141beaab0e5ddcc16a",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/king-of-batons.png",
+      "sha256": "8e8a98c328be3510d093efe512cf5e2ba8a4b603df604c56e903cfc4945e67fe",
+      "crop": [
+        1,
+        0,
+        1023,
+        1515
+      ],
+      "size": [
+        1022,
+        1515
+      ],
+      "anchor": [
+        510.5,
+        757.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        13,
+        11,
+        1011,
+        1503
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "king-of-batons",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/batons-master.png",
+          "sha256": "6e279ffda443b3f2019beac9a52b2f3f3f1b3d2f3162fa61cdb121948ddf497b"
+        }
+      ]
+    },
+    "king-of-cups": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/king-of-cups.png",
+      "source_sha256": "c4cca3aea7e0576c8ca3504068fcad0af798a9cda4d9a610fc9d86946a0b5911",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/king-of-cups.png",
+      "sha256": "557bdd8fb8ee204f800c25f17c0d95fe649faba395ab3bf2715517c50cc8da94",
+      "crop": [
+        35,
+        5,
+        1001,
+        1531
+      ],
+      "size": [
+        966,
+        1526
+      ],
+      "anchor": [
+        482.5,
+        762.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        47,
+        17,
+        989,
+        1519
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "king-of-cups",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/cups-master.png",
+          "sha256": "f9141dcdf06242b53dd603bb2250f15c1e13e7ee812843c3936a1b5199eebc41"
+        }
+      ]
+    },
+    "queen-of-coins": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/queen-of-coins.png",
+      "source_sha256": "471ad5f63680ef1b92a4a62a24ad6e3e8ed0dd505f03f3e483c3b2dd9495b1d4",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/queen-of-coins.png",
+      "sha256": "f35291c3fa9f9d3a8fda45ec896710f4902d2b1e106c1e76dca216cd7d74bd4b",
+      "crop": [
+        11,
+        0,
+        1021,
+        1536
+      ],
+      "size": [
+        1010,
+        1536
+      ],
+      "anchor": [
+        504.5,
+        767.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        23,
+        5,
+        1009,
+        1526
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "queen-of-coins",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/queen-cups.png",
+          "sha256": "1453bd8b341957ee95421c5fbc9d7b582e2334d4476757c9caadd9593dc2d2e3"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/coins-master.png",
+          "sha256": "a32eb0e3b92cba7f447d9e9ac3f31ef9a571b51c98d97c745538eb64f1757127"
+        }
+      ]
+    },
+    "king-of-coins": {
+      "kind": "court",
+      "source": "sources/generated/tarot-full-assets-v1/king-of-coins.png",
+      "source_sha256": "6daf23ebeb96eb45768c8a6e83d3e03473122b9b85eb632d3d3f549b6b28e427",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/king-of-coins.png",
+      "sha256": "33b4946674703865b3528ae7782d2f1c1ee4266ade5af95da2cb48c9bbcf8d31",
+      "crop": [
+        1,
+        0,
+        1024,
+        1536
+      ],
+      "size": [
+        1023,
+        1536
+      ],
+      "anchor": [
+        511.0,
+        767.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        13,
+        6,
+        1014,
+        1528
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "king-of-coins",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        },
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-full-assets-v1/coins-master.png",
+          "sha256": "a32eb0e3b92cba7f447d9e9ac3f31ef9a571b51c98d97c745538eb64f1757127"
+        }
+      ]
+    },
+    "the-emperor": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-emperor.png",
+      "source_sha256": "02d59dc7fa6c5544ead343e020063de076b978f6959e7f6c2921f58bd2d25c3e",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-emperor.png",
+      "sha256": "f030db53e6390871b7bc08054d8e655307fe84aac454b596cac730eb2a7a175d",
+      "crop": [
+        4,
+        0,
+        1021,
+        1533
+      ],
+      "size": [
+        1017,
+        1533
+      ],
+      "anchor": [
+        508.0,
+        766.0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        16,
+        10,
+        1009,
+        1521
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-emperor",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "justice": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/justice.png",
+      "source_sha256": "8fa53702d877bf220bcc8adb45f82c867f891ace6ef59e044bfdd6b18f67ad00",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/justice.png",
+      "sha256": "0b25282c3b854c39de784a7337590accff008a40a51361a8dbfa10d748942197",
+      "crop": [
+        36,
+        0,
+        1019,
+        1532
+      ],
+      "size": [
+        983,
+        1532
+      ],
+      "anchor": [
+        491.0,
+        765.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        48,
+        10,
+        1007,
+        1520
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "justice",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
+    "batons-index": {
+      "kind": "code-native-index",
+      "path": "sources/components/tarot/full-assets-v1/batons-index-mask.png",
+      "sha256": "130fe05aa9520b4460fbcb84863787980459fa8f5ff392b0acf29821eea2a61a",
+      "size": [
+        160,
+        160
+      ],
+      "anchor": [
+        79.5,
+        79.5
+      ],
+      "source": "scripts/prepare_tarot_assets.py"
+    },
+    "coins-index": {
+      "kind": "code-native-index",
+      "path": "sources/components/tarot/full-assets-v1/coins-index-mask.png",
+      "sha256": "abc0c5cbb33e30ed70f23bcd1220833cae175e396d6c2dcd42afc99699e020be",
+      "size": [
+        160,
+        160
+      ],
+      "anchor": [
+        79.5,
+        79.5
+      ],
+      "source": "scripts/prepare_tarot_assets.py"
+    },
+    "sword-straight": {
+      "path": "sources/components/tarot/review-v1/sword-straight.png",
+      "sha256": "85eecf90fbbb79b482ab293bbcbb5c0fa2b57102e1fd76cc7b4673ef04463235",
+      "source": "sources/generated/tarot-review-v1/sword-straight.png",
+      "source_sha256": "b26eabd66de9465060067bf08f79fc2a3fd83689216d127b880d60315356669a",
+      "crop": [
+        297,
+        12,
+        727,
+        1524
+      ],
+      "size": [
+        430,
+        1512
+      ],
+      "anchor": [
+        214.5,
+        755.5
+      ],
+      "reused": true
+    },
+    "ace-crown": {
+      "path": "sources/components/tarot/review-v1/ace-crown.png",
+      "sha256": "704290237a1a181c255d8279924c2ce737d328e0b069b08dd66d1e7a604590f2",
+      "source": "sources/generated/tarot-review-v1/ace-crown.png",
+      "source_sha256": "50098902358ddc9498a841f3711b923dd8adb262ed85e73bee952d368c4071b7",
+      "crop": [
+        33,
+        124,
+        1503,
+        883
+      ],
+      "size": [
+        1470,
+        759
+      ],
+      "anchor": [
+        734.5,
+        379.0
+      ],
+      "reused": true
+    },
+    "foliage": {
+      "path": "sources/components/tarot/review-v1/foliage.png",
+      "sha256": "400f181dfcf84b7f075bf4b89151c3d336d3e90cbc8da32b31a7fe318f47d92a",
+      "source": "sources/generated/tarot-review-v1/foliage.png",
+      "source_sha256": "de37a7793fc159fb0afa3df0720e30b228fa8a892d06f9581a3259cfbd9152ee",
+      "crop": [
+        288,
+        19,
+        733,
+        1524
+      ],
+      "size": [
+        445,
+        1505
+      ],
+      "anchor": [
+        222.0,
+        752.0
+      ],
+      "reused": true
+    },
+    "empress": {
+      "path": "sources/components/tarot/review-v1/empress.png",
+      "sha256": "33686dbce743ee48c81b0d312d2244d1f6593f22079c31539226333c0c336d13",
+      "source": "sources/generated/tarot-review-v1/empress.png",
+      "source_sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86",
+      "crop": [
+        8,
+        8,
+        1016,
+        1527
+      ],
+      "size": [
+        1008,
+        1519
+      ],
+      "anchor": [
+        503.5,
+        759.0
+      ],
+      "reused": true
+    },
+    "queen-cups": {
+      "path": "sources/components/tarot/review-v1/queen-cups.png",
+      "sha256": "290aafc3e85baa97973dba00de2a3d11e4a96b8234adfac6ef954b5f305809cc",
+      "source": "sources/generated/tarot-review-v1/queen-cups.png",
+      "source_sha256": "1453bd8b341957ee95421c5fbc9d7b582e2334d4476757c9caadd9593dc2d2e3",
+      "crop": [
+        13,
+        0,
+        1009,
+        1534
+      ],
+      "size": [
+        996,
+        1534
+      ],
+      "anchor": [
+        497.5,
+        766.5
+      ],
+      "reused": true
+    },
+    "swords-index": {
+      "path": "sources/components/tarot/review-v1/swords-index-mask.png",
+      "sha256": "12defc657ea01e24d11f73c59f1cdd156d71eefa25974b0323d25c0418b16485",
+      "size": [
+        160,
+        160
+      ],
+      "anchor": [
+        79.5,
+        79.5
+      ],
+      "source": "code-native glyph in scripts/tarot_review.py",
+      "reused": true
+    },
+    "cups-index": {
+      "path": "sources/components/tarot/review-v1/cups-index-mask.png",
+      "sha256": "5e95138b1343758f46785a862331604b85e62c35310e6f2a3e5010a4f25998af",
+      "size": [
+        160,
+        160
+      ],
+      "anchor": [
+        79.5,
+        79.5
+      ],
+      "source": "code-native glyph in scripts/tarot_review.py",
+      "reused": true
+    },
+    "trumps-index": {
+      "path": "sources/components/tarot/review-v1/trumps-index-mask.png",
+      "sha256": "457b9cea1e63ca27341012b53fddc47cd83dfcecd2f576f3294f22f94312eb65",
+      "size": [
+        160,
+        160
+      ],
+      "anchor": [
+        79.5,
+        79.5
+      ],
+      "source": "code-native glyph in scripts/tarot_review.py",
+      "reused": true
+    },
+    "minchiate-the-fool": {
+      "path": "sources/components/tarot/minchiate-v1/the-fool.png",
+      "sha256": "08d16c42f9ad4688bfb940777fdca91a160c6249e9d9a48dba9f863abdfceaaf",
+      "size": [
+        1023,
+        1489
+      ],
+      "source": "sources/generated/minchiate-v1/the-fool.png",
+      "source_sha256": "59701216a3486998f13fdc2f0b7e4b9550de78b8842636f7a6731a9e5e63d14b",
+      "crop": [
+        1,
+        16,
+        1024,
+        1505
+      ]
+    },
+    "minchiate-bagatella": {
+      "path": "sources/components/tarot/minchiate-v1/bagatella.png",
+      "sha256": "3a09b8e9fa5ac422adb4f7970ab116f925396364aabcab964a820ae42e61c688",
+      "size": [
+        1000,
+        1531
+      ],
+      "source": "sources/generated/minchiate-v1/bagatella.png",
+      "source_sha256": "830b68fef770101afddc7f7a8ba09a914bedcfb4c6d30cf7e7709d0db7046ac8",
+      "crop": [
+        0,
+        0,
+        1000,
+        1531
+      ]
+    },
+    "minchiate-the-eastern-emperor": {
+      "path": "sources/components/tarot/minchiate-v1/the-eastern-emperor.png",
+      "sha256": "ebf8894f99656de61c03969db3396072526595bd8aa4b229bbe404fe7cab8f88",
+      "size": [
+        954,
+        1520
+      ],
+      "source": "sources/generated/minchiate-v1/the-eastern-emperor.png",
+      "source_sha256": "2ee4854a6d0a53fa9659f15f98cd6c1d702ed861f42717047fb18a79dc6db54e",
+      "crop": [
+        36,
+        0,
+        990,
+        1520
+      ]
+    },
+    "minchiate-love": {
+      "path": "sources/components/tarot/minchiate-v1/love.png",
+      "sha256": "9f15e9fd76600d3b70e8c9b615c7819755f81c919deffbd3f662f6cfe52dd02a",
+      "size": [
+        1021,
+        1536
+      ],
+      "source": "sources/generated/minchiate-v1/love.png",
+      "source_sha256": "5254a88d57ce5efe12a483ee77d630bae364167c11625c9b852e52dd49a400a4",
+      "crop": [
+        1,
+        0,
+        1022,
+        1536
+      ]
+    },
+    "minchiate-temperance": {
+      "path": "sources/components/tarot/minchiate-v1/temperance.png",
+      "sha256": "c6c09fd5969f3d5800d622efcf74c321a214a3a0b3ed0235527c32695075161d",
+      "size": [
+        831,
+        1533
+      ],
+      "source": "sources/generated/minchiate-v1/temperance.png",
+      "source_sha256": "9f86b99bb8adc408c57fd44044c2f0e60dfd65dd060c520c8dad17480aa08b5c",
+      "crop": [
+        129,
+        2,
+        960,
+        1535
+      ]
+    },
+    "minchiate-fortitude": {
+      "path": "sources/components/tarot/minchiate-v1/fortitude.png",
+      "sha256": "9781046d462c56140882802fc8e182e2e3cf74a5641058b5f94655089928555f",
+      "size": [
+        935,
+        1531
+      ],
+      "source": "sources/generated/minchiate-v1/fortitude.png",
+      "source_sha256": "dabd27014d10335f15e0b1f474f60b83cf3ef2ea42395f8b0604c795614c18e6",
+      "crop": [
+        43,
+        0,
+        978,
+        1531
+      ]
+    },
+    "minchiate-wheel-of-fortune": {
+      "path": "sources/components/tarot/minchiate-v1/wheel-of-fortune.png",
+      "sha256": "bee8ea8f246d92a445dcca5fe6eea7b7f6a804134d6d79ffab17f4695a5bba05",
+      "size": [
+        1011,
+        1532
+      ],
+      "source": "sources/generated/minchiate-v1/wheel-of-fortune.png",
+      "source_sha256": "dc0acc3b7d93ba1cb8cb899c62f6e24784ce5a590406dbf861f1b68a62c1a746",
+      "crop": [
+        10,
+        3,
+        1021,
+        1535
+      ]
+    },
+    "minchiate-the-chariot": {
+      "path": "sources/components/tarot/minchiate-v1/the-chariot.png",
+      "sha256": "0c7767dba66429f0476546a8d3c06afe1fb9f7fbfdbfc589c749c5dae84c42c4",
+      "size": [
+        1016,
+        1524
+      ],
+      "source": "sources/generated/minchiate-v1/the-chariot.png",
+      "source_sha256": "74b67485c759196a63b8ee8011ee1becc2ff0060fce0dd3f0c47b291062ee50b",
+      "crop": [
+        5,
+        0,
+        1021,
+        1524
+      ]
+    },
+    "minchiate-hope": {
+      "path": "sources/components/tarot/minchiate-v1/hope.png",
+      "sha256": "ae846291211ede31fd90093ef16f0c9e9d7c5b170fc45a6bcd83e90d7fb43540",
+      "size": [
+        1015,
+        1528
+      ],
+      "source": "sources/generated/minchiate-v1/hope.png",
+      "source_sha256": "0e3172f14a928b039642cd4c8b58966a2c1d78a01fbfbcb7df363b54924ad7e4",
+      "crop": [
+        6,
+        5,
+        1021,
+        1533
+      ]
+    },
+    "minchiate-prudence": {
+      "path": "sources/components/tarot/minchiate-v1/prudence.png",
+      "sha256": "d53bf47b9124e29ff3186fc16cc17d67cfd543786e11fbb1a8e9ecb3437553e7",
+      "size": [
+        1012,
+        1530
+      ],
+      "source": "sources/generated/minchiate-v1/prudence.png",
+      "source_sha256": "d85859fc12489cdddc571984f676f90158da2faa7b8118c647d8db00c1b48469",
+      "crop": [
+        7,
+        1,
+        1019,
+        1531
+      ]
+    },
+    "minchiate-faith": {
+      "path": "sources/components/tarot/minchiate-v1/faith.png",
+      "sha256": "c3cbacb04336b439b1e5736dc09cb2d909f0cfe627dccc1b91ffe3d1aef0e474",
+      "size": [
+        966,
+        1536
+      ],
+      "source": "sources/generated/minchiate-v1/faith.png",
+      "source_sha256": "6c61b3157defd06532f0ae50b82e7929f6b4ab0ae95cbd3156c9d4246dedb139",
+      "crop": [
+        32,
+        0,
+        998,
+        1536
+      ]
+    },
+    "minchiate-charity": {
+      "path": "sources/components/tarot/minchiate-v1/charity.png",
+      "sha256": "04f0d49e175ea4df1f9294b4a51f5cbb5a32a7f018cc9520880e681883455e49",
+      "size": [
+        1019,
+        1532
+      ],
+      "source": "sources/generated/minchiate-v1/charity.png",
+      "source_sha256": "1e5553897236a5358ed4770e0277ddfde595fafc86b77c13a4415f54aea0c935",
+      "crop": [
+        3,
+        0,
+        1022,
+        1532
+      ]
+    },
+    "minchiate-fire": {
+      "path": "sources/components/tarot/minchiate-v1/fire.png",
+      "sha256": "9f114f2e17aff6ae50a4833eb732ddb458e625f171b54ee44f8ec5ef0806e582",
+      "size": [
+        1020,
+        1536
+      ],
+      "source": "sources/generated/minchiate-v1/fire.png",
+      "source_sha256": "1d8e6ee8f6dcc3eff09114e33c5880a1d4da9b1099ab50d4bbee6877ec7c24bf",
+      "crop": [
+        2,
+        0,
+        1022,
+        1536
+      ]
+    },
+    "minchiate-water": {
+      "path": "sources/components/tarot/minchiate-v1/water.png",
+      "sha256": "200ed1f25b4cde833abf12c5a1ce92383d7423c5f02b324710bb3aebf2085cf3",
+      "size": [
+        1010,
+        1528
+      ],
+      "source": "sources/generated/minchiate-v1/water.png",
+      "source_sha256": "f2fe5db45b3a8d348160425c5d05393637e5f27e0032da573bd5c1432bdc96a2",
+      "crop": [
+        14,
+        2,
+        1024,
+        1530
+      ]
+    },
+    "minchiate-earth": {
+      "path": "sources/components/tarot/minchiate-v1/earth.png",
+      "sha256": "247e81d66c6c9402f2371938ea3bf9ade020f36da374b525b887ea75deb4f56a",
+      "size": [
+        982,
+        1535
+      ],
+      "source": "sources/generated/minchiate-v1/earth.png",
+      "source_sha256": "93c75e755e3aa67e5aaf0856d3bbedd2fa8fc1bd55bd55bb7d71417764562b21",
+      "crop": [
+        23,
+        0,
+        1005,
+        1535
+      ]
+    },
+    "minchiate-air": {
+      "path": "sources/components/tarot/minchiate-v1/air.png",
+      "sha256": "5562d59bb75f88ddf74a08be9385f1a8d43d974fe1be7b7eb954c4a327d73498",
+      "size": [
+        970,
+        1533
+      ],
+      "source": "sources/generated/minchiate-v1/air.png",
+      "source_sha256": "fcec914c444d4a58d106932a601a790005ae52476c992136e8562b44009a5ddd",
+      "crop": [
+        37,
+        0,
+        1007,
+        1533
+      ]
+    },
+    "minchiate-libra": {
+      "path": "sources/components/tarot/minchiate-v1/libra.png",
+      "sha256": "c37d768429cd8d01a960334517b75178bbb4c1b9e95a809a32008fbefa51e3ef",
+      "size": [
+        1021,
+        1526
+      ],
+      "source": "sources/generated/minchiate-v1/libra.png",
+      "source_sha256": "fb6e3e70c1e03c167a444226cfc69ae6a9df22fbfe67a66349bc594d02711cfe",
+      "crop": [
+        3,
+        4,
+        1024,
+        1530
+      ]
+    },
+    "minchiate-virgo": {
+      "path": "sources/components/tarot/minchiate-v1/virgo.png",
+      "sha256": "047e4c80e5705447001ee3465d02b499e95c8989f8fb6853845fcbc51bc760a0",
+      "size": [
+        971,
+        1534
+      ],
+      "source": "sources/generated/minchiate-v1/virgo.png",
+      "source_sha256": "e0d0d3f92b5264fc43bd7dbc4dc892bf3027eee259e4604b07a1b7b9f3ca1eb1",
+      "crop": [
+        23,
+        0,
+        994,
+        1534
+      ]
+    },
+    "minchiate-scorpio": {
+      "path": "sources/components/tarot/minchiate-v1/scorpio.png",
+      "sha256": "6de28505ae9965f7e58cf434eed5744f0b181291d0e49f62ae2c73531b8e78a0",
+      "size": [
+        1020,
+        1508
+      ],
+      "source": "sources/generated/minchiate-v1/scorpio.png",
+      "source_sha256": "4ec5e2c0fec5b14d40356a852db32564b10e36fef2f0d3c46be855d1fad2f22f",
+      "crop": [
+        4,
+        0,
+        1024,
+        1508
+      ]
+    },
+    "minchiate-aries": {
+      "path": "sources/components/tarot/minchiate-v1/aries.png",
+      "sha256": "76cdfe8dffb5883a62604a7a2acf4f790cb42587fdb41895ddafd1320d2381b5",
+      "size": [
+        986,
+        1536
+      ],
+      "source": "sources/generated/minchiate-v1/aries.png",
+      "source_sha256": "ebbaef70ce19765ec5c06c3873614ab342d034d524e5f3088c5062d9c7e23e0f",
+      "crop": [
+        18,
+        0,
+        1004,
+        1536
+      ]
+    },
+    "minchiate-capricorn": {
+      "path": "sources/components/tarot/minchiate-v1/capricorn.png",
+      "sha256": "4f715fdd66269dae6390673b1406ad43d8903610ccb5bbc82736e4ff4a9e8068",
+      "size": [
+        985,
+        1535
+      ],
+      "source": "sources/generated/minchiate-v1/capricorn.png",
+      "source_sha256": "54aeef7fcd4c3d1687a133be1b292e02152e2c269115cfbb886df79ec2b5dc51",
+      "crop": [
+        22,
+        0,
+        1007,
+        1535
+      ]
+    },
+    "minchiate-sagittarius": {
+      "path": "sources/components/tarot/minchiate-v1/sagittarius.png",
+      "sha256": "805cdea0eb14e6140ec05948c96931a61f261bf185634ae9b3ea0fa9e7f2ff68",
+      "size": [
+        991,
+        1523
+      ],
+      "source": "sources/generated/minchiate-v1/sagittarius.png",
+      "source_sha256": "7e20fed6eef2f915065faeb7ed8a43a93d9e5e5b3d7866f6a3a8603e1c34fe71",
+      "crop": [
+        14,
+        3,
+        1005,
+        1526
+      ]
+    },
+    "minchiate-cancer": {
+      "path": "sources/components/tarot/minchiate-v1/cancer.png",
+      "sha256": "a60a636401ae489cdf38026046495f44f7bbcd9b232117912d5b3a81f93f34cb",
+      "size": [
+        1023,
+        1424
+      ],
+      "source": "sources/generated/minchiate-v1/cancer.png",
+      "source_sha256": "f9091c74779f33309f396b6f4da29d3bc633b56c8d36880c1255308ac482e9ce",
+      "crop": [
+        1,
+        54,
+        1024,
+        1478
+      ]
+    },
+    "minchiate-pisces": {
+      "path": "sources/components/tarot/minchiate-v1/pisces.png",
+      "sha256": "9179c15aeb41f22f30b7139e35dffcb1c2c34ee7494f3cc90277945bdfc02070",
+      "size": [
+        816,
+        1532
+      ],
+      "source": "sources/generated/minchiate-v1/pisces.png",
+      "source_sha256": "d41cd9a15463d688c505bdc8cf99755613c149d04c2c7ed1f8da39f629d75595",
+      "crop": [
+        112,
+        0,
+        928,
+        1532
+      ]
+    },
+    "minchiate-aquarius": {
+      "path": "sources/components/tarot/minchiate-v1/aquarius.png",
+      "sha256": "5b1492cdfd1340a89269599d4bb673563d3d94f8e6b89a631fe076a03c2437da",
+      "size": [
+        990,
+        1534
+      ],
+      "source": "sources/generated/minchiate-v1/aquarius.png",
+      "source_sha256": "6cdeeaf73562c2799b16c8dd0c112e3fdfceff597aec7155a24332b4b80af410",
+      "crop": [
+        21,
+        0,
+        1011,
+        1534
+      ]
+    },
+    "minchiate-leo": {
+      "path": "sources/components/tarot/minchiate-v1/leo.png",
+      "sha256": "523b9cbb34b7493de26922cbf0307fb7166b5a10f400a334244772db41e6fa0e",
+      "size": [
+        993,
+        1521
+      ],
+      "source": "sources/generated/minchiate-v1/leo.png",
+      "source_sha256": "c589cc4512ec84f4cf23951748e167dcc5a77d59e2e05696682ca7c7d465546c",
+      "crop": [
+        13,
+        8,
+        1006,
+        1529
+      ]
+    },
+    "minchiate-taurus": {
+      "path": "sources/components/tarot/minchiate-v1/taurus.png",
+      "sha256": "2af5f1eb2ff07d5ad53c78db680720f5e09998344d292f0263bbda8f92ee2d72",
+      "size": [
+        1002,
+        1479
+      ],
+      "source": "sources/generated/minchiate-v1/taurus.png",
+      "source_sha256": "8db0d68365f34e5eb76127cb9795eaa0d14ff0f782417498a5a50c2c2e9d7ec1",
+      "crop": [
+        10,
+        40,
+        1012,
+        1519
+      ]
+    },
+    "minchiate-gemini": {
+      "path": "sources/components/tarot/minchiate-v1/gemini.png",
+      "sha256": "57c88d01125938a55b3f1061cab2a11635aff9f9ebe9519e2a3b60517fc3f412",
+      "size": [
+        991,
+        1484
+      ],
+      "source": "sources/generated/minchiate-v1/gemini.png",
+      "source_sha256": "d3f66b27d16e9e13595c2bb7a6f00e464f76d91caa3d206ead3747460725fd80",
+      "crop": [
+        30,
+        14,
+        1021,
+        1498
+      ]
+    }
+  },
+  "cards": [
+    {
+      "id": "ace-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "ace",
+      "title": null,
+      "printed_index": "A",
+      "index": "A",
+      "glyph": "swords",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 1,
+      "primary_asset": "sword-straight",
+      "instances": [
+        {
+          "id": "swords-1",
+          "component": "sword-straight",
+          "center": [
+            412,
+            765
+          ],
+          "height": 970,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "sprig-left",
+          "component": "foliage",
+          "center": [
+            290,
+            458
+          ],
+          "height": 430,
+          "rotation": 12,
+          "mirror": false,
+          "role": "furniture"
+        },
+        {
+          "id": "sprig-right",
+          "component": "foliage",
+          "center": [
+            534,
+            458
+          ],
+          "height": 430,
+          "rotation": -12,
+          "mirror": true,
+          "role": "furniture"
+        },
+        {
+          "id": "crown",
+          "component": "ace-crown",
+          "center": [
+            412,
+            340
+          ],
+          "height": 145,
+          "rotation": 0,
+          "mirror": false,
+          "role": "furniture"
+        }
+      ]
+    },
+    {
+      "id": "2-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "2",
+      "title": null,
+      "printed_index": "2",
+      "index": "2",
+      "glyph": "swords",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 2,
+      "primary_asset": "sword-straight",
+      "instances": [
+        {
+          "id": "swords-1",
+          "component": "sword-straight",
+          "center": [
+            412,
+            420
+          ],
+          "height": 420,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-2",
+          "component": "sword-straight",
+          "center": [
+            412,
+            980
+          ],
+          "height": 420,
+          "rotation": 0,
+          "mirror": true,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "3-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "3",
+      "title": null,
+      "printed_index": "3",
+      "index": "3",
+      "glyph": "swords",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 3,
+      "primary_asset": "sword-straight",
+      "instances": [
+        {
+          "id": "swords-1",
+          "component": "sword-straight",
+          "center": [
+            412,
+            360
+          ],
+          "height": 420,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-2",
+          "component": "sword-straight",
+          "center": [
+            412,
+            700
+          ],
+          "height": 420,
+          "rotation": 0,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-3",
+          "component": "sword-straight",
+          "center": [
+            412,
+            1040
+          ],
+          "height": 420,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "4-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "4",
+      "title": null,
+      "printed_index": "4",
+      "index": "4",
+      "glyph": "swords",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 4,
+      "primary_asset": "sword-straight",
+      "instances": [
+        {
+          "id": "swords-1",
+          "component": "sword-straight",
+          "center": [
+            300,
+            420
+          ],
+          "height": 420,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-2",
+          "component": "sword-straight",
+          "center": [
+            524,
+            420
+          ],
+          "height": 420,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-3",
+          "component": "sword-straight",
+          "center": [
+            300,
+            980
+          ],
+          "height": 420,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-4",
+          "component": "sword-straight",
+          "center": [
+            524,
+            980
+          ],
+          "height": 420,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "5-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "5",
+      "title": null,
+      "printed_index": "5",
+      "index": "5",
+      "glyph": "swords",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 5,
+      "primary_asset": "sword-straight",
+      "instances": [
+        {
+          "id": "swords-1",
+          "component": "sword-straight",
+          "center": [
+            300,
+            390
+          ],
+          "height": 420,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-2",
+          "component": "sword-straight",
+          "center": [
+            524,
+            390
+          ],
+          "height": 420,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-3",
+          "component": "sword-straight",
+          "center": [
+            412,
+            700
+          ],
+          "height": 420,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-4",
+          "component": "sword-straight",
+          "center": [
+            300,
+            1010
+          ],
+          "height": 420,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-5",
+          "component": "sword-straight",
+          "center": [
+            524,
+            1010
+          ],
+          "height": 420,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "6-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "6",
+      "title": null,
+      "printed_index": "6",
+      "index": "6",
+      "glyph": "swords",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 6,
+      "primary_asset": "sword-straight",
+      "instances": [
+        {
+          "id": "swords-1",
+          "component": "sword-straight",
+          "center": [
+            300,
+            350
+          ],
+          "height": 300,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-2",
+          "component": "sword-straight",
+          "center": [
+            524,
+            350
+          ],
+          "height": 300,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-3",
+          "component": "sword-straight",
+          "center": [
+            300,
+            700
+          ],
+          "height": 300,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-4",
+          "component": "sword-straight",
+          "center": [
+            524,
+            700
+          ],
+          "height": 300,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-5",
+          "component": "sword-straight",
+          "center": [
+            300,
+            1050
+          ],
+          "height": 300,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-6",
+          "component": "sword-straight",
+          "center": [
+            524,
+            1050
+          ],
+          "height": 300,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "7-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "7",
+      "title": null,
+      "printed_index": "7",
+      "index": "7",
+      "glyph": "swords",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 7,
+      "primary_asset": "sword-straight",
+      "instances": [
+        {
+          "id": "swords-1",
+          "component": "sword-straight",
+          "center": [
+            300,
+            330
+          ],
+          "height": 300,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-2",
+          "component": "sword-straight",
+          "center": [
+            524,
+            330
+          ],
+          "height": 300,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-3",
+          "component": "sword-straight",
+          "center": [
+            412,
+            515
+          ],
+          "height": 300,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-4",
+          "component": "sword-straight",
+          "center": [
+            300,
+            700
+          ],
+          "height": 300,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-5",
+          "component": "sword-straight",
+          "center": [
+            524,
+            700
+          ],
+          "height": 300,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-6",
+          "component": "sword-straight",
+          "center": [
+            300,
+            1060
+          ],
+          "height": 300,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-7",
+          "component": "sword-straight",
+          "center": [
+            524,
+            1060
+          ],
+          "height": 300,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "8-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "8",
+      "title": null,
+      "printed_index": "8",
+      "index": "8",
+      "glyph": "swords",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 8,
+      "primary_asset": "sword-straight",
+      "instances": [
+        {
+          "id": "swords-1",
+          "component": "sword-straight",
+          "center": [
+            300,
+            300
+          ],
+          "height": 300,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-2",
+          "component": "sword-straight",
+          "center": [
+            524,
+            300
+          ],
+          "height": 300,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-3",
+          "component": "sword-straight",
+          "center": [
+            300,
+            565
+          ],
+          "height": 300,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-4",
+          "component": "sword-straight",
+          "center": [
+            524,
+            565
+          ],
+          "height": 300,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-5",
+          "component": "sword-straight",
+          "center": [
+            300,
+            835
+          ],
+          "height": 300,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-6",
+          "component": "sword-straight",
+          "center": [
+            524,
+            835
+          ],
+          "height": 300,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-7",
+          "component": "sword-straight",
+          "center": [
+            300,
+            1100
+          ],
+          "height": 300,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-8",
+          "component": "sword-straight",
+          "center": [
+            524,
+            1100
+          ],
+          "height": 300,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "9-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "9",
+      "title": null,
+      "printed_index": "9",
+      "index": "9",
+      "glyph": "swords",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 9,
+      "primary_asset": "sword-straight",
+      "instances": [
+        {
+          "id": "swords-1",
+          "component": "sword-straight",
+          "center": [
+            270,
+            370
+          ],
+          "height": 245,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-2",
+          "component": "sword-straight",
+          "center": [
+            412,
+            370
+          ],
+          "height": 245,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-3",
+          "component": "sword-straight",
+          "center": [
+            554,
+            370
+          ],
+          "height": 245,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-4",
+          "component": "sword-straight",
+          "center": [
+            270,
+            700
+          ],
+          "height": 245,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-5",
+          "component": "sword-straight",
+          "center": [
+            412,
+            700
+          ],
+          "height": 245,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-6",
+          "component": "sword-straight",
+          "center": [
+            554,
+            700
+          ],
+          "height": 245,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-7",
+          "component": "sword-straight",
+          "center": [
+            270,
+            1030
+          ],
+          "height": 245,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-8",
+          "component": "sword-straight",
+          "center": [
+            412,
+            1030
+          ],
+          "height": 245,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-9",
+          "component": "sword-straight",
+          "center": [
+            554,
+            1030
+          ],
+          "height": 245,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "10-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "10",
+      "title": null,
+      "printed_index": "10",
+      "index": "10",
+      "glyph": "swords",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 10,
+      "primary_asset": "sword-straight",
+      "instances": [
+        {
+          "id": "swords-1",
+          "component": "sword-straight",
+          "center": [
+            310,
+            275
+          ],
+          "height": 245,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-2",
+          "component": "sword-straight",
+          "center": [
+            514,
+            275
+          ],
+          "height": 245,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-3",
+          "component": "sword-straight",
+          "center": [
+            310,
+            490
+          ],
+          "height": 245,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-4",
+          "component": "sword-straight",
+          "center": [
+            514,
+            490
+          ],
+          "height": 245,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-5",
+          "component": "sword-straight",
+          "center": [
+            310,
+            705
+          ],
+          "height": 245,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-6",
+          "component": "sword-straight",
+          "center": [
+            514,
+            705
+          ],
+          "height": 245,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-7",
+          "component": "sword-straight",
+          "center": [
+            310,
+            920
+          ],
+          "height": 245,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-8",
+          "component": "sword-straight",
+          "center": [
+            514,
+            920
+          ],
+          "height": 245,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-9",
+          "component": "sword-straight",
+          "center": [
+            310,
+            1135
+          ],
+          "height": 245,
+          "rotation": -24,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "swords-10",
+          "component": "sword-straight",
+          "center": [
+            514,
+            1135
+          ],
+          "height": 245,
+          "rotation": 24,
+          "mirror": true,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "page-of-swords",
+      "kind": "court",
+      "suit": "swords",
+      "rank": "page",
+      "title": "JACK OF SWORDS",
+      "printed_index": "J",
+      "index": "J",
+      "glyph": "swords",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "page-of-swords",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "page-of-swords",
+          "center": [
+            412,
+            685
+          ],
+          "height": 920,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "queen-of-swords",
+      "kind": "court",
+      "suit": "swords",
+      "rank": "queen",
+      "title": "QUEEN OF SWORDS",
+      "printed_index": "Q",
+      "index": "Q",
+      "glyph": "swords",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "queen-of-swords",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "queen-of-swords",
+          "center": [
+            412,
+            685
+          ],
+          "height": 780,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "king-of-swords",
+      "kind": "court",
+      "suit": "swords",
+      "rank": "king",
+      "title": "KING OF SWORDS",
+      "printed_index": "K",
+      "index": "K",
+      "glyph": "swords",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "king-of-swords",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "king-of-swords",
+          "center": [
+            412,
+            685
+          ],
+          "height": 808,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "ace-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "ace",
+      "title": null,
+      "printed_index": "A",
+      "index": "A",
+      "glyph": "batons",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 1,
+      "primary_asset": "batons-master",
+      "instances": [
+        {
+          "id": "batons-1",
+          "component": "batons-master",
+          "center": [
+            412,
+            765
+          ],
+          "height": 970,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "sprig-left",
+          "component": "foliage",
+          "center": [
+            290,
+            458
+          ],
+          "height": 430,
+          "rotation": 12,
+          "mirror": false,
+          "role": "furniture"
+        },
+        {
+          "id": "sprig-right",
+          "component": "foliage",
+          "center": [
+            534,
+            458
+          ],
+          "height": 430,
+          "rotation": -12,
+          "mirror": true,
+          "role": "furniture"
+        },
+        {
+          "id": "crown",
+          "component": "ace-crown",
+          "center": [
+            412,
+            340
+          ],
+          "height": 145,
+          "rotation": 0,
+          "mirror": false,
+          "role": "furniture"
+        }
+      ]
+    },
+    {
+      "id": "2-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "2",
+      "title": null,
+      "printed_index": "2",
+      "index": "2",
+      "glyph": "batons",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 2,
+      "primary_asset": "batons-master",
+      "instances": [
+        {
+          "id": "batons-1",
+          "component": "batons-master",
+          "center": [
+            412,
+            420
+          ],
+          "height": 420,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-2",
+          "component": "batons-master",
+          "center": [
+            412,
+            980
+          ],
+          "height": 420,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "3-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "3",
+      "title": null,
+      "printed_index": "3",
+      "index": "3",
+      "glyph": "batons",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 3,
+      "primary_asset": "batons-master",
+      "instances": [
+        {
+          "id": "batons-1",
+          "component": "batons-master",
+          "center": [
+            412,
+            360
+          ],
+          "height": 420,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-2",
+          "component": "batons-master",
+          "center": [
+            412,
+            700
+          ],
+          "height": 420,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-3",
+          "component": "batons-master",
+          "center": [
+            412,
+            1040
+          ],
+          "height": 420,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "4-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "4",
+      "title": null,
+      "printed_index": "4",
+      "index": "4",
+      "glyph": "batons",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 4,
+      "primary_asset": "batons-master",
+      "instances": [
+        {
+          "id": "batons-1",
+          "component": "batons-master",
+          "center": [
+            300,
+            420
+          ],
+          "height": 420,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-2",
+          "component": "batons-master",
+          "center": [
+            524,
+            420
+          ],
+          "height": 420,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-3",
+          "component": "batons-master",
+          "center": [
+            300,
+            980
+          ],
+          "height": 420,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-4",
+          "component": "batons-master",
+          "center": [
+            524,
+            980
+          ],
+          "height": 420,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "5-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "5",
+      "title": null,
+      "printed_index": "5",
+      "index": "5",
+      "glyph": "batons",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 5,
+      "primary_asset": "batons-master",
+      "instances": [
+        {
+          "id": "batons-1",
+          "component": "batons-master",
+          "center": [
+            300,
+            390
+          ],
+          "height": 420,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-2",
+          "component": "batons-master",
+          "center": [
+            524,
+            390
+          ],
+          "height": 420,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-3",
+          "component": "batons-master",
+          "center": [
+            412,
+            700
+          ],
+          "height": 420,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-4",
+          "component": "batons-master",
+          "center": [
+            300,
+            1010
+          ],
+          "height": 420,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-5",
+          "component": "batons-master",
+          "center": [
+            524,
+            1010
+          ],
+          "height": 420,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "6-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "6",
+      "title": null,
+      "printed_index": "6",
+      "index": "6",
+      "glyph": "batons",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 6,
+      "primary_asset": "batons-master",
+      "instances": [
+        {
+          "id": "batons-1",
+          "component": "batons-master",
+          "center": [
+            300,
+            350
+          ],
+          "height": 300,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-2",
+          "component": "batons-master",
+          "center": [
+            524,
+            350
+          ],
+          "height": 300,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-3",
+          "component": "batons-master",
+          "center": [
+            300,
+            700
+          ],
+          "height": 300,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-4",
+          "component": "batons-master",
+          "center": [
+            524,
+            700
+          ],
+          "height": 300,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-5",
+          "component": "batons-master",
+          "center": [
+            300,
+            1050
+          ],
+          "height": 300,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-6",
+          "component": "batons-master",
+          "center": [
+            524,
+            1050
+          ],
+          "height": 300,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "7-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "7",
+      "title": null,
+      "printed_index": "7",
+      "index": "7",
+      "glyph": "batons",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 7,
+      "primary_asset": "batons-master",
+      "instances": [
+        {
+          "id": "batons-1",
+          "component": "batons-master",
+          "center": [
+            300,
+            330
+          ],
+          "height": 300,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-2",
+          "component": "batons-master",
+          "center": [
+            524,
+            330
+          ],
+          "height": 300,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-3",
+          "component": "batons-master",
+          "center": [
+            412,
+            515
+          ],
+          "height": 300,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-4",
+          "component": "batons-master",
+          "center": [
+            300,
+            700
+          ],
+          "height": 300,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-5",
+          "component": "batons-master",
+          "center": [
+            524,
+            700
+          ],
+          "height": 300,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-6",
+          "component": "batons-master",
+          "center": [
+            300,
+            1060
+          ],
+          "height": 300,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-7",
+          "component": "batons-master",
+          "center": [
+            524,
+            1060
+          ],
+          "height": 300,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "8-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "8",
+      "title": null,
+      "printed_index": "8",
+      "index": "8",
+      "glyph": "batons",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 8,
+      "primary_asset": "batons-master",
+      "instances": [
+        {
+          "id": "batons-1",
+          "component": "batons-master",
+          "center": [
+            300,
+            300
+          ],
+          "height": 300,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-2",
+          "component": "batons-master",
+          "center": [
+            524,
+            300
+          ],
+          "height": 300,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-3",
+          "component": "batons-master",
+          "center": [
+            300,
+            565
+          ],
+          "height": 300,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-4",
+          "component": "batons-master",
+          "center": [
+            524,
+            565
+          ],
+          "height": 300,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-5",
+          "component": "batons-master",
+          "center": [
+            300,
+            835
+          ],
+          "height": 300,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-6",
+          "component": "batons-master",
+          "center": [
+            524,
+            835
+          ],
+          "height": 300,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-7",
+          "component": "batons-master",
+          "center": [
+            300,
+            1100
+          ],
+          "height": 300,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-8",
+          "component": "batons-master",
+          "center": [
+            524,
+            1100
+          ],
+          "height": 300,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "9-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "9",
+      "title": null,
+      "printed_index": "9",
+      "index": "9",
+      "glyph": "batons",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 9,
+      "primary_asset": "batons-master",
+      "instances": [
+        {
+          "id": "batons-1",
+          "component": "batons-master",
+          "center": [
+            270,
+            370
+          ],
+          "height": 245,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-2",
+          "component": "batons-master",
+          "center": [
+            412,
+            370
+          ],
+          "height": 245,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-3",
+          "component": "batons-master",
+          "center": [
+            554,
+            370
+          ],
+          "height": 245,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-4",
+          "component": "batons-master",
+          "center": [
+            270,
+            700
+          ],
+          "height": 245,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-5",
+          "component": "batons-master",
+          "center": [
+            412,
+            700
+          ],
+          "height": 245,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-6",
+          "component": "batons-master",
+          "center": [
+            554,
+            700
+          ],
+          "height": 245,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-7",
+          "component": "batons-master",
+          "center": [
+            270,
+            1030
+          ],
+          "height": 245,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-8",
+          "component": "batons-master",
+          "center": [
+            412,
+            1030
+          ],
+          "height": 245,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-9",
+          "component": "batons-master",
+          "center": [
+            554,
+            1030
+          ],
+          "height": 245,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "10-of-batons",
+      "kind": "pip",
+      "suit": "batons",
+      "rank": "10",
+      "title": null,
+      "printed_index": "10",
+      "index": "10",
+      "glyph": "batons",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 10,
+      "primary_asset": "batons-master",
+      "instances": [
+        {
+          "id": "batons-1",
+          "component": "batons-master",
+          "center": [
+            310,
+            275
+          ],
+          "height": 245,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-2",
+          "component": "batons-master",
+          "center": [
+            514,
+            275
+          ],
+          "height": 245,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-3",
+          "component": "batons-master",
+          "center": [
+            310,
+            490
+          ],
+          "height": 245,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-4",
+          "component": "batons-master",
+          "center": [
+            514,
+            490
+          ],
+          "height": 245,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-5",
+          "component": "batons-master",
+          "center": [
+            310,
+            705
+          ],
+          "height": 245,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-6",
+          "component": "batons-master",
+          "center": [
+            514,
+            705
+          ],
+          "height": 245,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-7",
+          "component": "batons-master",
+          "center": [
+            310,
+            920
+          ],
+          "height": 245,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-8",
+          "component": "batons-master",
+          "center": [
+            514,
+            920
+          ],
+          "height": 245,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-9",
+          "component": "batons-master",
+          "center": [
+            310,
+            1135
+          ],
+          "height": 245,
+          "rotation": -20,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "batons-10",
+          "component": "batons-master",
+          "center": [
+            514,
+            1135
+          ],
+          "height": 245,
+          "rotation": 20,
+          "mirror": true,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "page-of-batons",
+      "kind": "court",
+      "suit": "batons",
+      "rank": "page",
+      "title": "JACK OF BATONS",
+      "printed_index": "J",
+      "index": "J",
+      "glyph": "batons",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "page-of-batons",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "page-of-batons",
+          "center": [
+            412,
+            685
+          ],
+          "height": 920,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "queen-of-batons",
+      "kind": "court",
+      "suit": "batons",
+      "rank": "queen",
+      "title": "QUEEN OF BATONS",
+      "printed_index": "Q",
+      "index": "Q",
+      "glyph": "batons",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "queen-of-batons",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "queen-of-batons",
+          "center": [
+            412,
+            685
+          ],
+          "height": 778,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "king-of-batons",
+      "kind": "court",
+      "suit": "batons",
+      "rank": "king",
+      "title": "KING OF BATONS",
+      "printed_index": "K",
+      "index": "K",
+      "glyph": "batons",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "king-of-batons",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "king-of-batons",
+          "center": [
+            412,
+            685
+          ],
+          "height": 771,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "ace-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "ace",
+      "title": null,
+      "printed_index": "A",
+      "index": "A",
+      "glyph": "cups",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 1,
+      "primary_asset": "cups-master",
+      "instances": [
+        {
+          "id": "cups-1",
+          "component": "cups-master",
+          "center": [
+            412,
+            755
+          ],
+          "height": 650,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "sprig-left",
+          "component": "foliage",
+          "center": [
+            290,
+            458
+          ],
+          "height": 430,
+          "rotation": 12,
+          "mirror": false,
+          "role": "furniture"
+        },
+        {
+          "id": "sprig-right",
+          "component": "foliage",
+          "center": [
+            534,
+            458
+          ],
+          "height": 430,
+          "rotation": -12,
+          "mirror": true,
+          "role": "furniture"
+        },
+        {
+          "id": "crown",
+          "component": "ace-crown",
+          "center": [
+            412,
+            340
+          ],
+          "height": 145,
+          "rotation": 0,
+          "mirror": false,
+          "role": "furniture"
+        }
+      ]
+    },
+    {
+      "id": "2-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "2",
+      "title": null,
+      "printed_index": "2",
+      "index": "2",
+      "glyph": "cups",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 2,
+      "primary_asset": "cups-master",
+      "instances": [
+        {
+          "id": "cups-1",
+          "component": "cups-master",
+          "center": [
+            412,
+            420
+          ],
+          "height": 265,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-2",
+          "component": "cups-master",
+          "center": [
+            412,
+            980
+          ],
+          "height": 265,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "3-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "3",
+      "title": null,
+      "printed_index": "3",
+      "index": "3",
+      "glyph": "cups",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 3,
+      "primary_asset": "cups-master",
+      "instances": [
+        {
+          "id": "cups-1",
+          "component": "cups-master",
+          "center": [
+            412,
+            360
+          ],
+          "height": 265,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-2",
+          "component": "cups-master",
+          "center": [
+            412,
+            700
+          ],
+          "height": 265,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-3",
+          "component": "cups-master",
+          "center": [
+            412,
+            1040
+          ],
+          "height": 265,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "4-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "4",
+      "title": null,
+      "printed_index": "4",
+      "index": "4",
+      "glyph": "cups",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 4,
+      "primary_asset": "cups-master",
+      "instances": [
+        {
+          "id": "cups-1",
+          "component": "cups-master",
+          "center": [
+            300,
+            420
+          ],
+          "height": 265,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-2",
+          "component": "cups-master",
+          "center": [
+            524,
+            420
+          ],
+          "height": 265,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-3",
+          "component": "cups-master",
+          "center": [
+            300,
+            980
+          ],
+          "height": 265,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-4",
+          "component": "cups-master",
+          "center": [
+            524,
+            980
+          ],
+          "height": 265,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "5-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "5",
+      "title": null,
+      "printed_index": "5",
+      "index": "5",
+      "glyph": "cups",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 5,
+      "primary_asset": "cups-master",
+      "instances": [
+        {
+          "id": "cups-1",
+          "component": "cups-master",
+          "center": [
+            300,
+            390
+          ],
+          "height": 265,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-2",
+          "component": "cups-master",
+          "center": [
+            524,
+            390
+          ],
+          "height": 265,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-3",
+          "component": "cups-master",
+          "center": [
+            412,
+            700
+          ],
+          "height": 265,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-4",
+          "component": "cups-master",
+          "center": [
+            300,
+            1010
+          ],
+          "height": 265,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-5",
+          "component": "cups-master",
+          "center": [
+            524,
+            1010
+          ],
+          "height": 265,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "6-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "6",
+      "title": null,
+      "printed_index": "6",
+      "index": "6",
+      "glyph": "cups",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 6,
+      "primary_asset": "cups-master",
+      "instances": [
+        {
+          "id": "cups-1",
+          "component": "cups-master",
+          "center": [
+            300,
+            350
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-2",
+          "component": "cups-master",
+          "center": [
+            524,
+            350
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-3",
+          "component": "cups-master",
+          "center": [
+            300,
+            700
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-4",
+          "component": "cups-master",
+          "center": [
+            524,
+            700
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-5",
+          "component": "cups-master",
+          "center": [
+            300,
+            1050
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-6",
+          "component": "cups-master",
+          "center": [
+            524,
+            1050
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "7-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "7",
+      "title": null,
+      "printed_index": "7",
+      "index": "7",
+      "glyph": "cups",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 7,
+      "primary_asset": "cups-master",
+      "instances": [
+        {
+          "id": "cups-1",
+          "component": "cups-master",
+          "center": [
+            300,
+            330
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-2",
+          "component": "cups-master",
+          "center": [
+            524,
+            330
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-3",
+          "component": "cups-master",
+          "center": [
+            412,
+            515
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-4",
+          "component": "cups-master",
+          "center": [
+            300,
+            700
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-5",
+          "component": "cups-master",
+          "center": [
+            524,
+            700
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-6",
+          "component": "cups-master",
+          "center": [
+            300,
+            1060
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-7",
+          "component": "cups-master",
+          "center": [
+            524,
+            1060
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "8-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "8",
+      "title": null,
+      "printed_index": "8",
+      "index": "8",
+      "glyph": "cups",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 8,
+      "primary_asset": "cups-master",
+      "instances": [
+        {
+          "id": "cups-1",
+          "component": "cups-master",
+          "center": [
+            300,
+            300
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-2",
+          "component": "cups-master",
+          "center": [
+            524,
+            300
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-3",
+          "component": "cups-master",
+          "center": [
+            300,
+            565
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-4",
+          "component": "cups-master",
+          "center": [
+            524,
+            565
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-5",
+          "component": "cups-master",
+          "center": [
+            300,
+            835
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-6",
+          "component": "cups-master",
+          "center": [
+            524,
+            835
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-7",
+          "component": "cups-master",
+          "center": [
+            300,
+            1100
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-8",
+          "component": "cups-master",
+          "center": [
+            524,
+            1100
+          ],
+          "height": 205,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "9-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "9",
+      "title": null,
+      "printed_index": "9",
+      "index": "9",
+      "glyph": "cups",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 9,
+      "primary_asset": "cups-master",
+      "instances": [
+        {
+          "id": "cups-1",
+          "component": "cups-master",
+          "center": [
+            270,
+            370
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-2",
+          "component": "cups-master",
+          "center": [
+            412,
+            370
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-3",
+          "component": "cups-master",
+          "center": [
+            554,
+            370
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-4",
+          "component": "cups-master",
+          "center": [
+            270,
+            700
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-5",
+          "component": "cups-master",
+          "center": [
+            412,
+            700
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-6",
+          "component": "cups-master",
+          "center": [
+            554,
+            700
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-7",
+          "component": "cups-master",
+          "center": [
+            270,
+            1030
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-8",
+          "component": "cups-master",
+          "center": [
+            412,
+            1030
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-9",
+          "component": "cups-master",
+          "center": [
+            554,
+            1030
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "10-of-cups",
+      "kind": "pip",
+      "suit": "cups",
+      "rank": "10",
+      "title": null,
+      "printed_index": "10",
+      "index": "10",
+      "glyph": "cups",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 10,
+      "primary_asset": "cups-master",
+      "instances": [
+        {
+          "id": "cups-1",
+          "component": "cups-master",
+          "center": [
+            310,
+            275
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-2",
+          "component": "cups-master",
+          "center": [
+            514,
+            275
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-3",
+          "component": "cups-master",
+          "center": [
+            310,
+            490
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-4",
+          "component": "cups-master",
+          "center": [
+            514,
+            490
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-5",
+          "component": "cups-master",
+          "center": [
+            310,
+            705
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-6",
+          "component": "cups-master",
+          "center": [
+            514,
+            705
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-7",
+          "component": "cups-master",
+          "center": [
+            310,
+            920
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-8",
+          "component": "cups-master",
+          "center": [
+            514,
+            920
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-9",
+          "component": "cups-master",
+          "center": [
+            310,
+            1135
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "cups-10",
+          "component": "cups-master",
+          "center": [
+            514,
+            1135
+          ],
+          "height": 165,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "queen-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "queen",
+      "title": "QUEEN OF CUPS",
+      "printed_index": "Q",
+      "index": "Q",
+      "glyph": "cups",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "queen-cups",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "queen-cups",
+          "center": [
+            412,
+            685
+          ],
+          "height": 801,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "king-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "king",
+      "title": "KING OF CUPS",
+      "printed_index": "K",
+      "index": "K",
+      "glyph": "cups",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "king-of-cups",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "king-of-cups",
+          "center": [
+            412,
+            685
+          ],
+          "height": 821,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "ace-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "ace",
+      "title": null,
+      "printed_index": "A",
+      "index": "A",
+      "glyph": "coins",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 1,
+      "primary_asset": "coins-master",
+      "instances": [
+        {
+          "id": "coins-1",
+          "component": "coins-master",
+          "center": [
+            412,
+            750
+          ],
+          "height": 455,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "sprig-left",
+          "component": "foliage",
+          "center": [
+            290,
+            458
+          ],
+          "height": 430,
+          "rotation": 12,
+          "mirror": false,
+          "role": "furniture"
+        },
+        {
+          "id": "sprig-right",
+          "component": "foliage",
+          "center": [
+            534,
+            458
+          ],
+          "height": 430,
+          "rotation": -12,
+          "mirror": true,
+          "role": "furniture"
+        },
+        {
+          "id": "crown",
+          "component": "ace-crown",
+          "center": [
+            412,
+            340
+          ],
+          "height": 145,
+          "rotation": 0,
+          "mirror": false,
+          "role": "furniture"
+        }
+      ]
+    },
+    {
+      "id": "2-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "2",
+      "title": null,
+      "printed_index": "2",
+      "index": "2",
+      "glyph": "coins",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 2,
+      "primary_asset": "coins-master",
+      "instances": [
+        {
+          "id": "coins-1",
+          "component": "coins-master",
+          "center": [
+            412,
+            420
+          ],
+          "height": 190,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-2",
+          "component": "coins-master",
+          "center": [
+            412,
+            980
+          ],
+          "height": 190,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "3-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "3",
+      "title": null,
+      "printed_index": "3",
+      "index": "3",
+      "glyph": "coins",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 3,
+      "primary_asset": "coins-master",
+      "instances": [
+        {
+          "id": "coins-1",
+          "component": "coins-master",
+          "center": [
+            412,
+            360
+          ],
+          "height": 190,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-2",
+          "component": "coins-master",
+          "center": [
+            412,
+            700
+          ],
+          "height": 190,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-3",
+          "component": "coins-master",
+          "center": [
+            412,
+            1040
+          ],
+          "height": 190,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "4-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "4",
+      "title": null,
+      "printed_index": "4",
+      "index": "4",
+      "glyph": "coins",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 4,
+      "primary_asset": "coins-master",
+      "instances": [
+        {
+          "id": "coins-1",
+          "component": "coins-master",
+          "center": [
+            300,
+            420
+          ],
+          "height": 190,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-2",
+          "component": "coins-master",
+          "center": [
+            524,
+            420
+          ],
+          "height": 190,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-3",
+          "component": "coins-master",
+          "center": [
+            300,
+            980
+          ],
+          "height": 190,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-4",
+          "component": "coins-master",
+          "center": [
+            524,
+            980
+          ],
+          "height": 190,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "5-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "5",
+      "title": null,
+      "printed_index": "5",
+      "index": "5",
+      "glyph": "coins",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 5,
+      "primary_asset": "coins-master",
+      "instances": [
+        {
+          "id": "coins-1",
+          "component": "coins-master",
+          "center": [
+            300,
+            390
+          ],
+          "height": 190,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-2",
+          "component": "coins-master",
+          "center": [
+            524,
+            390
+          ],
+          "height": 190,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-3",
+          "component": "coins-master",
+          "center": [
+            412,
+            700
+          ],
+          "height": 190,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-4",
+          "component": "coins-master",
+          "center": [
+            300,
+            1010
+          ],
+          "height": 190,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-5",
+          "component": "coins-master",
+          "center": [
+            524,
+            1010
+          ],
+          "height": 190,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "6-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "6",
+      "title": null,
+      "printed_index": "6",
+      "index": "6",
+      "glyph": "coins",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 6,
+      "primary_asset": "coins-master",
+      "instances": [
+        {
+          "id": "coins-1",
+          "component": "coins-master",
+          "center": [
+            300,
+            350
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-2",
+          "component": "coins-master",
+          "center": [
+            524,
+            350
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-3",
+          "component": "coins-master",
+          "center": [
+            300,
+            700
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-4",
+          "component": "coins-master",
+          "center": [
+            524,
+            700
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-5",
+          "component": "coins-master",
+          "center": [
+            300,
+            1050
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-6",
+          "component": "coins-master",
+          "center": [
+            524,
+            1050
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "7-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "7",
+      "title": null,
+      "printed_index": "7",
+      "index": "7",
+      "glyph": "coins",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 7,
+      "primary_asset": "coins-master",
+      "instances": [
+        {
+          "id": "coins-1",
+          "component": "coins-master",
+          "center": [
+            300,
+            330
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-2",
+          "component": "coins-master",
+          "center": [
+            524,
+            330
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-3",
+          "component": "coins-master",
+          "center": [
+            412,
+            515
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-4",
+          "component": "coins-master",
+          "center": [
+            300,
+            700
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-5",
+          "component": "coins-master",
+          "center": [
+            524,
+            700
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-6",
+          "component": "coins-master",
+          "center": [
+            300,
+            1060
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-7",
+          "component": "coins-master",
+          "center": [
+            524,
+            1060
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "8-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "8",
+      "title": null,
+      "printed_index": "8",
+      "index": "8",
+      "glyph": "coins",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 8,
+      "primary_asset": "coins-master",
+      "instances": [
+        {
+          "id": "coins-1",
+          "component": "coins-master",
+          "center": [
+            300,
+            300
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-2",
+          "component": "coins-master",
+          "center": [
+            524,
+            300
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-3",
+          "component": "coins-master",
+          "center": [
+            300,
+            565
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-4",
+          "component": "coins-master",
+          "center": [
+            524,
+            565
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-5",
+          "component": "coins-master",
+          "center": [
+            300,
+            835
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-6",
+          "component": "coins-master",
+          "center": [
+            524,
+            835
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-7",
+          "component": "coins-master",
+          "center": [
+            300,
+            1100
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-8",
+          "component": "coins-master",
+          "center": [
+            524,
+            1100
+          ],
+          "height": 150,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "9-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "9",
+      "title": null,
+      "printed_index": "9",
+      "index": "9",
+      "glyph": "coins",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 9,
+      "primary_asset": "coins-master",
+      "instances": [
+        {
+          "id": "coins-1",
+          "component": "coins-master",
+          "center": [
+            270,
+            370
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-2",
+          "component": "coins-master",
+          "center": [
+            412,
+            370
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-3",
+          "component": "coins-master",
+          "center": [
+            554,
+            370
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-4",
+          "component": "coins-master",
+          "center": [
+            270,
+            700
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-5",
+          "component": "coins-master",
+          "center": [
+            412,
+            700
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-6",
+          "component": "coins-master",
+          "center": [
+            554,
+            700
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-7",
+          "component": "coins-master",
+          "center": [
+            270,
+            1030
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-8",
+          "component": "coins-master",
+          "center": [
+            412,
+            1030
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-9",
+          "component": "coins-master",
+          "center": [
+            554,
+            1030
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "10-of-coins",
+      "kind": "pip",
+      "suit": "coins",
+      "rank": "10",
+      "title": null,
+      "printed_index": "10",
+      "index": "10",
+      "glyph": "coins",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 10,
+      "primary_asset": "coins-master",
+      "instances": [
+        {
+          "id": "coins-1",
+          "component": "coins-master",
+          "center": [
+            310,
+            275
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-2",
+          "component": "coins-master",
+          "center": [
+            514,
+            275
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-3",
+          "component": "coins-master",
+          "center": [
+            310,
+            490
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-4",
+          "component": "coins-master",
+          "center": [
+            514,
+            490
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-5",
+          "component": "coins-master",
+          "center": [
+            310,
+            705
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-6",
+          "component": "coins-master",
+          "center": [
+            514,
+            705
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-7",
+          "component": "coins-master",
+          "center": [
+            310,
+            920
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-8",
+          "component": "coins-master",
+          "center": [
+            514,
+            920
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-9",
+          "component": "coins-master",
+          "center": [
+            310,
+            1135
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        },
+        {
+          "id": "coins-10",
+          "component": "coins-master",
+          "center": [
+            514,
+            1135
+          ],
+          "height": 125,
+          "rotation": 0,
+          "mirror": false,
+          "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "queen-of-coins",
+      "kind": "court",
+      "suit": "coins",
+      "rank": "queen",
+      "title": "QUEEN OF COINS",
+      "printed_index": "Q",
+      "index": "Q",
+      "glyph": "coins",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "queen-of-coins",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "queen-of-coins",
+          "center": [
+            412,
+            685
+          ],
+          "height": 791,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "king-of-coins",
+      "kind": "court",
+      "suit": "coins",
+      "rank": "king",
+      "title": "KING OF COINS",
+      "printed_index": "K",
+      "index": "K",
+      "glyph": "coins",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "king-of-coins",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "king-of-coins",
+          "center": [
+            412,
+            685
+          ],
+          "height": 781,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "the-fool",
+      "kind": "fool",
+      "title": "THE FOOL",
+      "rank_order": null,
+      "printed_index": "",
+      "italian": "Il Matto",
+      "index": "",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-the-fool",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-the-fool",
+          "center": [
+            412,
+            685
+          ],
+          "height": 757,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "bagatella",
+      "kind": "trump",
+      "title": "BAGATELLA",
+      "rank_order": 1,
+      "printed_index": "I",
+      "group": "traditional-trump",
+      "historical_alias": "Papa 1",
+      "index": "I",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-bagatella",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-bagatella",
+          "center": [
+            412,
+            685
+          ],
+          "height": 796,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "the-empress",
+      "kind": "trump",
+      "title": "THE EMPRESS",
+      "rank_order": 2,
+      "printed_index": "II",
+      "group": "traditional-trump",
+      "historical_alias": "Papa 2",
+      "index": "II",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "empress",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "empress",
+          "center": [
+            412,
+            685
+          ],
+          "height": 784,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "the-emperor",
+      "kind": "trump",
+      "title": "THE EMPEROR",
+      "rank_order": 3,
+      "printed_index": "III",
+      "group": "traditional-trump",
+      "historical_alias": "Papa 3",
+      "index": "III",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "the-emperor",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "the-emperor",
+          "center": [
+            412,
+            685
+          ],
+          "height": 784,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "the-eastern-emperor",
+      "kind": "trump",
+      "title": "THE EASTERN EMPEROR",
+      "rank_order": 4,
+      "printed_index": "IV",
+      "group": "traditional-trump",
+      "historical_alias": "Papa 4",
+      "index": "IV",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-the-eastern-emperor",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-the-eastern-emperor",
+          "center": [
+            412,
+            685
+          ],
+          "height": 829,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "kind": "trump",
+      "title": "LOVE",
+      "rank_order": 5,
+      "printed_index": "V",
+      "group": "traditional-trump",
+      "historical_alias": "Papa 5",
+      "index": "V",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-love",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-love",
+          "center": [
+            412,
+            685
+          ],
+          "height": 782,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "temperance",
+      "kind": "trump",
+      "title": "TEMPERANCE",
+      "rank_order": 6,
+      "printed_index": "VI",
+      "group": "traditional-trump",
+      "index": "VI",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-temperance",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-temperance",
+          "center": [
+            412,
+            685
+          ],
+          "height": 920,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "fortitude",
+      "kind": "trump",
+      "title": "FORTITUDE",
+      "rank_order": 7,
+      "printed_index": "VII",
+      "group": "traditional-trump",
+      "index": "VII",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-fortitude",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-fortitude",
+          "center": [
+            412,
+            685
+          ],
+          "height": 851,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "justice",
+      "kind": "trump",
+      "title": "JUSTICE",
+      "rank_order": 8,
+      "printed_index": "VIII",
+      "group": "traditional-trump",
+      "index": "VIII",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "justice",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "justice",
+          "center": [
+            412,
+            685
+          ],
+          "height": 810,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "wheel-of-fortune",
+      "kind": "trump",
+      "title": "WHEEL OF FORTUNE",
+      "rank_order": 9,
+      "printed_index": "IX",
+      "group": "traditional-trump",
+      "index": "IX",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-wheel-of-fortune",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-wheel-of-fortune",
+          "center": [
+            412,
+            685
+          ],
+          "height": 788,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "the-chariot",
+      "kind": "trump",
+      "title": "THE CHARIOT",
+      "rank_order": 10,
+      "printed_index": "X",
+      "group": "traditional-trump",
+      "index": "X",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-the-chariot",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-the-chariot",
+          "center": [
+            412,
+            685
+          ],
+          "height": 780,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "hope",
+      "kind": "trump",
+      "title": "HOPE",
+      "rank_order": 16,
+      "printed_index": "XVI",
+      "group": "additional-virtue",
+      "index": "XVI",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-hope",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-hope",
+          "center": [
+            412,
+            685
+          ],
+          "height": 783,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "prudence",
+      "kind": "trump",
+      "title": "PRUDENCE",
+      "rank_order": 17,
+      "printed_index": "XVII",
+      "group": "additional-virtue",
+      "index": "XVII",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-prudence",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-prudence",
+          "center": [
+            412,
+            685
+          ],
+          "height": 786,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "kind": "trump",
+      "title": "FAITH",
+      "rank_order": 18,
+      "printed_index": "XVIII",
+      "group": "additional-virtue",
+      "index": "XVIII",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-faith",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-faith",
+          "center": [
+            412,
+            685
+          ],
+          "height": 827,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "charity",
+      "kind": "trump",
+      "title": "CHARITY",
+      "rank_order": 19,
+      "printed_index": "XIX",
+      "group": "additional-virtue",
+      "index": "XIX",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-charity",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-charity",
+          "center": [
+            412,
+            685
+          ],
+          "height": 782,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "fire",
+      "kind": "trump",
+      "title": "FIRE",
+      "rank_order": 20,
+      "printed_index": "XX",
+      "group": "element",
+      "index": "XX",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-fire",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-fire",
+          "center": [
+            412,
+            685
+          ],
+          "height": 783,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "kind": "trump",
+      "title": "WATER",
+      "rank_order": 21,
+      "printed_index": "XXI",
+      "group": "element",
+      "index": "XXI",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-water",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-water",
+          "center": [
+            412,
+            685
+          ],
+          "height": 787,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "earth",
+      "kind": "trump",
+      "title": "EARTH",
+      "rank_order": 22,
+      "printed_index": "XXII",
+      "group": "element",
+      "index": "XXII",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-earth",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-earth",
+          "center": [
+            412,
+            685
+          ],
+          "height": 813,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "air",
+      "kind": "trump",
+      "title": "AIR",
+      "rank_order": 23,
+      "printed_index": "XXIII",
+      "group": "element",
+      "index": "XXIII",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-air",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-air",
+          "center": [
+            412,
+            685
+          ],
+          "height": 822,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "libra",
+      "kind": "trump",
+      "title": "LIBRA",
+      "rank_order": 24,
+      "printed_index": "XXIV",
+      "group": "zodiac",
+      "index": "XXIV",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-libra",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-libra",
+          "center": [
+            412,
+            685
+          ],
+          "height": 777,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "virgo",
+      "kind": "trump",
+      "title": "VIRGO",
+      "rank_order": 25,
+      "printed_index": "XXV",
+      "group": "zodiac",
+      "index": "XXV",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-virgo",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-virgo",
+          "center": [
+            412,
+            685
+          ],
+          "height": 822,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "scorpio",
+      "kind": "trump",
+      "title": "SCORPIO",
+      "rank_order": 26,
+      "printed_index": "XXVI",
+      "group": "zodiac",
+      "index": "XXVI",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-scorpio",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-scorpio",
+          "center": [
+            412,
+            685
+          ],
+          "height": 769,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "aries",
+      "kind": "trump",
+      "title": "ARIES",
+      "rank_order": 27,
+      "printed_index": "XXVII",
+      "group": "zodiac",
+      "index": "XXVII",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-aries",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-aries",
+          "center": [
+            412,
+            685
+          ],
+          "height": 810,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "capricorn",
+      "kind": "trump",
+      "title": "CAPRICORN",
+      "rank_order": 28,
+      "printed_index": "XXVIII",
+      "group": "zodiac",
+      "index": "XXVIII",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-capricorn",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-capricorn",
+          "center": [
+            412,
+            685
+          ],
+          "height": 810,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "sagittarius",
+      "kind": "trump",
+      "title": "SAGITTARIUS",
+      "rank_order": 29,
+      "printed_index": "XXIX",
+      "group": "zodiac",
+      "index": "XXIX",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-sagittarius",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-sagittarius",
+          "center": [
+            412,
+            685
+          ],
+          "height": 799,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "cancer",
+      "kind": "trump",
+      "title": "CANCER",
+      "rank_order": 30,
+      "printed_index": "XXX",
+      "group": "zodiac",
+      "index": "XXX",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-cancer",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-cancer",
+          "center": [
+            412,
+            685
+          ],
+          "height": 724,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "pisces",
+      "kind": "trump",
+      "title": "PISCES",
+      "rank_order": 31,
+      "printed_index": "XXXI",
+      "group": "zodiac",
+      "index": "XXXI",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-pisces",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-pisces",
+          "center": [
+            412,
+            685
+          ],
+          "height": 920,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "aquarius",
+      "kind": "trump",
+      "title": "AQUARIUS",
+      "rank_order": 32,
+      "printed_index": "XXXII",
+      "group": "zodiac",
+      "index": "XXXII",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-aquarius",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-aquarius",
+          "center": [
+            412,
+            685
+          ],
+          "height": 806,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "leo",
+      "kind": "trump",
+      "title": "LEO",
+      "rank_order": 33,
+      "printed_index": "XXXIII",
+      "group": "zodiac",
+      "index": "XXXIII",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-leo",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-leo",
+          "center": [
+            412,
+            685
+          ],
+          "height": 796,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "taurus",
+      "kind": "trump",
+      "title": "TAURUS",
+      "rank_order": 34,
+      "printed_index": "XXXIV",
+      "group": "zodiac",
+      "index": "XXXIV",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-taurus",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-taurus",
+          "center": [
+            412,
+            685
+          ],
+          "height": 768,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "kind": "trump",
+      "title": "GEMINI",
+      "rank_order": 35,
+      "printed_index": "XXXV",
+      "group": "zodiac",
+      "index": "XXXV",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-gemini",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-gemini",
+          "center": [
+            412,
+            685
+          ],
+          "height": 779,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    }
+  ],
+  "font": {
+    "path": "C:\\Windows\\Fonts\\timesbd.ttf",
+    "sha256": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5"
+  },
+  "indices": {
+    "center_x": 78,
+    "rank_center_y": 166,
+    "rank_size": 76,
+    "wide_rank_size": 60,
+    "glyph_center": [
+      78,
+      252
+    ],
+    "glyph_size": [
+      43,
+      49
+    ],
+    "paired_rotation": 180,
+    "max_rank_width": 48
+  },
+  "title": {
+    "center": [
+      412,
+      1254
+    ],
+    "font_size": 35,
+    "rule_y": 1215,
+    "rule_x": [
+      225,
+      599
+    ],
+    "max_width": 455
+  },
+  "shared_inputs": {
+    "sources/components/poker/v1/frame.png": "a8639367d9cdb3112cac251de13c99e4176047081f115b4c2fd6123aa9940efe",
+    "sources/components/poker/v1/field-mask.png": "1acbbb429eb81548bca479c7d0f2243543b5a07100a43511f48855af6d8846fd",
+    "sources/components/poker/v1/panel-mask.png": "5254e1c44e89218c29cdc1e69c5625c408e04f23156814f7f23a33327e2885cf",
+    "sources/components/front-tracery-v3/ornament-master.png": "804e34c7208339443608a91e40f1b05b2a11ae04fd0cea9927d1e27c06b07794",
+    "sources/components/front-tracery-v3/template.json": "1684ffdd7db6f8471e590bf1ee5bad4098872c44ff3e85a99e46562f68a3a736"
+  }
+}

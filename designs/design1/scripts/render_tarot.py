@@ -181,6 +181,12 @@ def index_layer(spec, card):
     draw = ImageDraw.Draw(layer)
     font_size = settings['wide_rank_size'] if len(card['index']) > 1 else settings['rank_size']
     font = ImageFont.truetype(spec['font']['path'], font_size)
+    # Minchiate's Roman indices share the same narrow panels as Tarot ranks.
+    while settings.get('max_rank_width') and draw.textlength(card['index'], font=font) > settings['max_rank_width']:
+        font_size -= 1
+        if font_size < 12:
+            raise ValueError(f"Index cannot fit: {card['index']}")
+        font = ImageFont.truetype(spec['font']['path'], font_size)
     draw.text((settings['center_x'], settings['rank_center_y']), card['index'],
               fill=ink, font=font, anchor='mm')
     mask_info = spec['components'][card['glyph'] + '-index']
@@ -203,6 +209,12 @@ def title_layer(spec, card):
     draw.line((settings['rule_x'][0], settings['rule_y'], settings['rule_x'][1], settings['rule_y']),
               fill=(198, 161, 91), width=2)
     font = ImageFont.truetype(spec['font']['path'], settings['font_size'])
+    font_size = settings['font_size']
+    while settings.get('max_width') and draw.textlength(card['title'], font=font) > settings['max_width']:
+        font_size -= 1
+        if font_size < 12:
+            raise ValueError(f"Title cannot fit: {card['title']}")
+        font = ImageFont.truetype(spec['font']['path'], font_size)
     draw.text(tuple(settings['center']), card['title'], fill=INKS[card['ink']], font=font, anchor='mm')
     return layer
 

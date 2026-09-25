@@ -1,0 +1,8 @@
+{
+  "the-hanged-man": {
+    "status": "blocked-by-image-generator",
+    "reason": "Output safety filter: self-harm, violence",
+    "request_id": "cd360553-27e5-4c97-9b8e-d476a77a9d74",
+    "next_step": "User asked to choose nonviolent Traitor allegory or retain existing upside-down Tarot artwork."
+  }
+}

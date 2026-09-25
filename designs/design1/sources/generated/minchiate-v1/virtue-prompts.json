@@ -1,0 +1,20 @@
+{
+  "tool": "built-in image_gen",
+  "reference": [
+    "D:/dev/proj/playing-cards/designs/design1/sources/generated/tarot-review-v1/empress.png"
+  ],
+  "jobs": [
+    {
+      "id": "prudence",
+      "prompt": "Use case: stylized-concept. Create ONE original reusable Minchiate illustration asset, not a finished card. Input image is STYLE REFERENCE ONLY. Match its fine dark Mucha contours, matte antique-gold engraving, Morris botanical detail and Safavid-inspired textiles. Palette: madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, small turquoise #2E9C9C accents, intended to sit on ivory #FAEBD7. Complete coherent tall portrait composition, all extremities and identifying attributes visible, generous empty margins. TRUE transparent RGBA background and transparent interior gaps. No glow, shadow, mist, paper rectangle, border, panels, lettering, numbers, title, watermark or all-over background. Subject: PRUDENCE, the historical Minchiate virtue: a seated adult woman in embroidered olive and madder robes holds a small ornate hand mirror upright in one hand, gazing thoughtfully into its visible silver glass. A single snake coils beside her other forearm and rests upon her lap. Mirror and serpent are both obvious and distinct. Entire chair and feet visible, sparse botanical base."
+    },
+    {
+      "id": "faith",
+      "prompt": "Use case: stylized-concept. Create ONE original reusable Minchiate illustration asset, not a finished card. Input image is STYLE REFERENCE ONLY. Match its fine dark Mucha contours, matte antique-gold engraving, Morris botanical detail and Safavid-inspired textiles. Palette: madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, small turquoise #2E9C9C accents, intended to sit on ivory #FAEBD7. Complete coherent tall portrait composition, all extremities and identifying attributes visible, generous empty margins. TRUE transparent RGBA background and transparent interior gaps. No glow, shadow, mist, paper rectangle, border, panels, lettering, numbers, title, watermark or all-over background. Subject: FAITH, the historical Minchiate virtue: a standing adult woman in olive and madder embroidered robes holds a long plain Christian cross upright in one hand, and a golden chalice with a small white circular host floating immediately above it in the other. Calm upward gaze, full figure, separate readable cross, chalice and host. Sparse botanical base."
+    },
+    {
+      "id": "charity",
+      "prompt": "Use case: stylized-concept. Create ONE original reusable Minchiate illustration asset, not a finished card. Input image is STYLE REFERENCE ONLY. Match its fine dark Mucha contours, matte antique-gold engraving, Morris botanical detail and Safavid-inspired textiles. Palette: madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, small turquoise #2E9C9C accents, intended to sit on ivory #FAEBD7. Complete coherent tall portrait composition, all extremities and identifying attributes visible, generous empty margins. TRUE transparent RGBA background and transparent interior gaps. No glow, shadow, mist, paper rectangle, border, panels, lettering, numbers, title, watermark or all-over background. Subject: CHARITY, the historical Minchiate virtue: an adult mother in flowing madder red and olive embroidered robes seated on a low stone bench gently cradles a fully clothed infant; two clothed young children stand close at her knees receiving her care. A small red heart-shaped flame floats above the mother's head. Tender family allegory, dignified and nonsexual, coherent distinct hands and faces, entire composition visible with a sparse botanical base."
+    }
+  ]
+}
