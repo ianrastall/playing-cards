@@ -43,6 +43,29 @@ def inventory():
     return spec
 
 
+def long_suit_instances(card):
+    """Cross straight long-suit pips, retaining an individually countable hilt.
+
+    Paired diagonals share row anchors. Odd cards add one upright center pip;
+    all row anchors are centered on (412, 712), the native card center.
+    """
+    rank = int(card['rank'])
+    pairs = rank//2
+    rows = {1: [712], 2: [472, 952], 3: [362, 712, 1062],
+            4: [337, 587, 837, 1087], 5: [252, 482, 712, 942, 1172]}[pairs]
+    height = {1: 760, 2: 490, 3: 350, 4: 260, 5: 240}[pairs]
+    component = 'sword-straight' if card['suit'] == 'swords' else card['primary_asset']
+    result = []
+    for y in rows:
+        for angle in (-30, 30):
+            result.append(tarot.instance(f"{card['suit']}-{len(result)+1}", component,
+                                         (412, y), height, angle))
+    if rank % 2:
+        result.append(tarot.instance(f"{card['suit']}-{rank}", component,
+                                     (412, 712), min(height, 340) if pairs%2 == 0 else height))
+    return result
+
+
 def prepare():
     source = inventory()
     old = read(tarot.MANIFEST)
@@ -82,10 +105,8 @@ def prepare():
                         expected_emblems=previous['expected_emblems'])
             # Florentine long suits use straight blades. Preserve explicit
             # anchors/counts while removing the Marseille curved-sword variant.
-            if card.get('suit') == 'swords' and card['kind'] == 'pip':
-                for item in card['instances']:
-                    if item['role'] == 'emblem':
-                        item['component'] = 'sword-straight'
+            if card.get('suit') in ('swords', 'batons') and card['kind'] == 'pip' and card['rank'] != 'ace':
+                card['instances'] = long_suit_instances(card)
         elif card['id'] in REUSE_TRUMPS:
             card['primary_asset'] = REUSE_TRUMPS[card['id']]
             card['instances'] = [tarot.figure_instance(card, components)]
@@ -141,7 +162,7 @@ def stage(spec, partial=False):
         for n, (card, im) in enumerate(group):
             x, y = n%4*240+17, n//4*410+55
             sheet.paste(im, (x,y), im)
-            draw.text((x+103,y+368), card['id'].replace('-', ' ').title(), font=font, fill=(45,38,29), anchor='mt')
+            draw.text((x+103,y+368), (card['title'] or card['id'].replace('-', ' ')).title(), font=font, fill=(45,38,29), anchor='mt')
         path = WORK/f'proofs-{offset//8+1:02d}.jpg'
         sheet.save(path, quality=95)
         sheet_paths.append(tarot.rel(path))
@@ -168,13 +189,14 @@ def check(spec, active=False):
     assert tarot.digest(SHARED) == spec['inventory_sha256']
     for component in spec['components'].values():
         assert tarot.digest(ROOT/component['path']) == component['sha256']
-        if 'source' in component:
+        if 'source_sha256' in component:
             assert tarot.digest(ROOT/component['source']) == component['source_sha256']
     for path, checksum in spec['shared_inputs'].items():
         assert tarot.digest(ROOT/path) == checksum
     assert tarot.digest(spec['font']['path']) == spec['font']['sha256']
-    report = read(WORK/'report.json')
-    assert report['status'] == 'staged' and not report['errors']
+    report = read(ROOT/'docs/design/minchiate-v1-report.json' if active else WORK/'report.json')
+    assert report['status'] == ('promoted-and-validated' if active else 'staged')
+    assert not report.get('errors')
     assert report['layout_sha256'] == tarot.digest(MANIFEST)
     records = {c['id']: c for c in report['cards']}
     assert set(records) == expected_ids

@@ -1687,10 +1687,10 @@
           "component": "sword-straight",
           "center": [
             412,
-            420
+            712
           ],
-          "height": 420,
-          "rotation": 0,
+          "height": 760,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -1699,11 +1699,11 @@
           "component": "sword-straight",
           "center": [
             412,
-            980
+            712
           ],
-          "height": 420,
-          "rotation": 0,
-          "mirror": true,
+          "height": 760,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         }
       ]
@@ -1727,10 +1727,10 @@
           "component": "sword-straight",
           "center": [
             412,
-            360
+            712
           ],
-          "height": 420,
-          "rotation": 0,
+          "height": 760,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -1739,11 +1739,11 @@
           "component": "sword-straight",
           "center": [
             412,
-            700
+            712
           ],
-          "height": 420,
-          "rotation": 0,
-          "mirror": true,
+          "height": 760,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
@@ -1751,9 +1751,9 @@
           "component": "sword-straight",
           "center": [
             412,
-            1040
+            712
           ],
-          "height": 420,
+          "height": 760,
           "rotation": 0,
           "mirror": false,
           "role": "emblem"
@@ -1778,11 +1778,11 @@
           "id": "swords-1",
           "component": "sword-straight",
           "center": [
-            300,
-            420
+            412,
+            472
           ],
-          "height": 420,
-          "rotation": -24,
+          "height": 490,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -1790,23 +1790,23 @@
           "id": "swords-2",
           "component": "sword-straight",
           "center": [
-            524,
-            420
+            412,
+            472
           ],
-          "height": 420,
-          "rotation": 24,
-          "mirror": true,
+          "height": 490,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "swords-3",
           "component": "sword-straight",
           "center": [
-            300,
-            980
+            412,
+            952
           ],
-          "height": 420,
-          "rotation": -24,
+          "height": 490,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -1814,12 +1814,12 @@
           "id": "swords-4",
           "component": "sword-straight",
           "center": [
-            524,
-            980
+            412,
+            952
           ],
-          "height": 420,
-          "rotation": 24,
-          "mirror": true,
+          "height": 490,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         }
       ]
@@ -1842,11 +1842,11 @@
           "id": "swords-1",
           "component": "sword-straight",
           "center": [
-            300,
-            390
+            412,
+            472
           ],
-          "height": 420,
-          "rotation": -24,
+          "height": 490,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -1854,12 +1854,12 @@
           "id": "swords-2",
           "component": "sword-straight",
           "center": [
-            524,
-            390
+            412,
+            472
           ],
-          "height": 420,
-          "rotation": 24,
-          "mirror": true,
+          "height": 490,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
@@ -1867,10 +1867,10 @@
           "component": "sword-straight",
           "center": [
             412,
-            700
+            952
           ],
-          "height": 420,
-          "rotation": -24,
+          "height": 490,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -1878,23 +1878,23 @@
           "id": "swords-4",
           "component": "sword-straight",
           "center": [
-            300,
-            1010
+            412,
+            952
           ],
-          "height": 420,
-          "rotation": 24,
-          "mirror": true,
+          "height": 490,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "swords-5",
           "component": "sword-straight",
           "center": [
-            524,
-            1010
+            412,
+            712
           ],
-          "height": 420,
-          "rotation": -24,
+          "height": 340,
+          "rotation": 0,
           "mirror": false,
           "role": "emblem"
         }
@@ -1918,11 +1918,11 @@
           "id": "swords-1",
           "component": "sword-straight",
           "center": [
-            300,
-            350
+            412,
+            362
           ],
-          "height": 300,
-          "rotation": -24,
+          "height": 350,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -1930,23 +1930,23 @@
           "id": "swords-2",
           "component": "sword-straight",
           "center": [
-            524,
-            350
+            412,
+            362
           ],
-          "height": 300,
-          "rotation": 24,
-          "mirror": true,
+          "height": 350,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "swords-3",
           "component": "sword-straight",
           "center": [
-            300,
-            700
+            412,
+            712
           ],
-          "height": 300,
-          "rotation": -24,
+          "height": 350,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -1954,23 +1954,23 @@
           "id": "swords-4",
           "component": "sword-straight",
           "center": [
-            524,
-            700
+            412,
+            712
           ],
-          "height": 300,
-          "rotation": 24,
-          "mirror": true,
+          "height": 350,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "swords-5",
           "component": "sword-straight",
           "center": [
-            300,
-            1050
+            412,
+            1062
           ],
-          "height": 300,
-          "rotation": -24,
+          "height": 350,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -1978,12 +1978,12 @@
           "id": "swords-6",
           "component": "sword-straight",
           "center": [
-            524,
-            1050
+            412,
+            1062
           ],
-          "height": 300,
-          "rotation": 24,
-          "mirror": true,
+          "height": 350,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         }
       ]
@@ -2006,11 +2006,11 @@
           "id": "swords-1",
           "component": "sword-straight",
           "center": [
-            300,
-            330
+            412,
+            362
           ],
-          "height": 300,
-          "rotation": -24,
+          "height": 350,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2018,12 +2018,12 @@
           "id": "swords-2",
           "component": "sword-straight",
           "center": [
-            524,
-            330
+            412,
+            362
           ],
-          "height": 300,
-          "rotation": 24,
-          "mirror": true,
+          "height": 350,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
@@ -2031,10 +2031,10 @@
           "component": "sword-straight",
           "center": [
             412,
-            515
+            712
           ],
-          "height": 300,
-          "rotation": -24,
+          "height": 350,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2042,23 +2042,23 @@
           "id": "swords-4",
           "component": "sword-straight",
           "center": [
-            300,
-            700
+            412,
+            712
           ],
-          "height": 300,
-          "rotation": 24,
-          "mirror": true,
+          "height": 350,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "swords-5",
           "component": "sword-straight",
           "center": [
-            524,
-            700
+            412,
+            1062
           ],
-          "height": 300,
-          "rotation": -24,
+          "height": 350,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2066,23 +2066,23 @@
           "id": "swords-6",
           "component": "sword-straight",
           "center": [
-            300,
-            1060
+            412,
+            1062
           ],
-          "height": 300,
-          "rotation": 24,
-          "mirror": true,
+          "height": 350,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "swords-7",
           "component": "sword-straight",
           "center": [
-            524,
-            1060
+            412,
+            712
           ],
-          "height": 300,
-          "rotation": -24,
+          "height": 350,
+          "rotation": 0,
           "mirror": false,
           "role": "emblem"
         }
@@ -2106,11 +2106,11 @@
           "id": "swords-1",
           "component": "sword-straight",
           "center": [
-            300,
-            300
+            412,
+            337
           ],
-          "height": 300,
-          "rotation": -24,
+          "height": 260,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2118,23 +2118,23 @@
           "id": "swords-2",
           "component": "sword-straight",
           "center": [
-            524,
-            300
+            412,
+            337
           ],
-          "height": 300,
-          "rotation": 24,
-          "mirror": true,
+          "height": 260,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "swords-3",
           "component": "sword-straight",
           "center": [
-            300,
-            565
+            412,
+            587
           ],
-          "height": 300,
-          "rotation": -24,
+          "height": 260,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2142,23 +2142,23 @@
           "id": "swords-4",
           "component": "sword-straight",
           "center": [
-            524,
-            565
+            412,
+            587
           ],
-          "height": 300,
-          "rotation": 24,
-          "mirror": true,
+          "height": 260,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "swords-5",
           "component": "sword-straight",
           "center": [
-            300,
-            835
+            412,
+            837
           ],
-          "height": 300,
-          "rotation": -24,
+          "height": 260,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2166,23 +2166,23 @@
           "id": "swords-6",
           "component": "sword-straight",
           "center": [
-            524,
-            835
+            412,
+            837
           ],
-          "height": 300,
-          "rotation": 24,
-          "mirror": true,
+          "height": 260,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "swords-7",
           "component": "sword-straight",
           "center": [
-            300,
-            1100
+            412,
+            1087
           ],
-          "height": 300,
-          "rotation": -24,
+          "height": 260,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2190,12 +2190,12 @@
           "id": "swords-8",
           "component": "sword-straight",
           "center": [
-            524,
-            1100
+            412,
+            1087
           ],
-          "height": 300,
-          "rotation": 24,
-          "mirror": true,
+          "height": 260,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         }
       ]
@@ -2218,11 +2218,11 @@
           "id": "swords-1",
           "component": "sword-straight",
           "center": [
-            270,
-            370
+            412,
+            337
           ],
-          "height": 245,
-          "rotation": -24,
+          "height": 260,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2231,22 +2231,22 @@
           "component": "sword-straight",
           "center": [
             412,
-            370
+            337
           ],
-          "height": 245,
-          "rotation": 24,
-          "mirror": true,
+          "height": 260,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "swords-3",
           "component": "sword-straight",
           "center": [
-            554,
-            370
+            412,
+            587
           ],
-          "height": 245,
-          "rotation": -24,
+          "height": 260,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2254,12 +2254,12 @@
           "id": "swords-4",
           "component": "sword-straight",
           "center": [
-            270,
-            700
+            412,
+            587
           ],
-          "height": 245,
-          "rotation": 24,
-          "mirror": true,
+          "height": 260,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
@@ -2267,10 +2267,10 @@
           "component": "sword-straight",
           "center": [
             412,
-            700
+            837
           ],
-          "height": 245,
-          "rotation": -24,
+          "height": 260,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2278,23 +2278,23 @@
           "id": "swords-6",
           "component": "sword-straight",
           "center": [
-            554,
-            700
+            412,
+            837
           ],
-          "height": 245,
-          "rotation": 24,
-          "mirror": true,
+          "height": 260,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "swords-7",
           "component": "sword-straight",
           "center": [
-            270,
-            1030
+            412,
+            1087
           ],
-          "height": 245,
-          "rotation": -24,
+          "height": 260,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2303,22 +2303,22 @@
           "component": "sword-straight",
           "center": [
             412,
-            1030
+            1087
           ],
-          "height": 245,
-          "rotation": 24,
-          "mirror": true,
+          "height": 260,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "swords-9",
           "component": "sword-straight",
           "center": [
-            554,
-            1030
+            412,
+            712
           ],
-          "height": 245,
-          "rotation": -24,
+          "height": 260,
+          "rotation": 0,
           "mirror": false,
           "role": "emblem"
         }
@@ -2342,11 +2342,11 @@
           "id": "swords-1",
           "component": "sword-straight",
           "center": [
-            310,
-            275
+            412,
+            252
           ],
-          "height": 245,
-          "rotation": -24,
+          "height": 240,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2354,23 +2354,23 @@
           "id": "swords-2",
           "component": "sword-straight",
           "center": [
-            514,
-            275
+            412,
+            252
           ],
-          "height": 245,
-          "rotation": 24,
-          "mirror": true,
+          "height": 240,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "swords-3",
           "component": "sword-straight",
           "center": [
-            310,
-            490
+            412,
+            482
           ],
-          "height": 245,
-          "rotation": -24,
+          "height": 240,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2378,23 +2378,23 @@
           "id": "swords-4",
           "component": "sword-straight",
           "center": [
-            514,
-            490
+            412,
+            482
           ],
-          "height": 245,
-          "rotation": 24,
-          "mirror": true,
+          "height": 240,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "swords-5",
           "component": "sword-straight",
           "center": [
-            310,
-            705
+            412,
+            712
           ],
-          "height": 245,
-          "rotation": -24,
+          "height": 240,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2402,23 +2402,23 @@
           "id": "swords-6",
           "component": "sword-straight",
           "center": [
-            514,
-            705
+            412,
+            712
           ],
-          "height": 245,
-          "rotation": 24,
-          "mirror": true,
+          "height": 240,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "swords-7",
           "component": "sword-straight",
           "center": [
-            310,
-            920
+            412,
+            942
           ],
-          "height": 245,
-          "rotation": -24,
+          "height": 240,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2426,23 +2426,23 @@
           "id": "swords-8",
           "component": "sword-straight",
           "center": [
-            514,
-            920
+            412,
+            942
           ],
-          "height": 245,
-          "rotation": 24,
-          "mirror": true,
+          "height": 240,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "swords-9",
           "component": "sword-straight",
           "center": [
-            310,
-            1135
+            412,
+            1172
           ],
-          "height": 245,
-          "rotation": -24,
+          "height": 240,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2450,12 +2450,12 @@
           "id": "swords-10",
           "component": "sword-straight",
           "center": [
-            514,
-            1135
+            412,
+            1172
           ],
-          "height": 245,
-          "rotation": 24,
-          "mirror": true,
+          "height": 240,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         }
       ]
@@ -2655,10 +2655,10 @@
           "component": "batons-master",
           "center": [
             412,
-            420
+            712
           ],
-          "height": 420,
-          "rotation": 0,
+          "height": 760,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2667,10 +2667,10 @@
           "component": "batons-master",
           "center": [
             412,
-            980
+            712
           ],
-          "height": 420,
-          "rotation": 0,
+          "height": 760,
+          "rotation": 30,
           "mirror": false,
           "role": "emblem"
         }
@@ -2695,10 +2695,10 @@
           "component": "batons-master",
           "center": [
             412,
-            360
+            712
           ],
-          "height": 420,
-          "rotation": 0,
+          "height": 760,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2707,10 +2707,10 @@
           "component": "batons-master",
           "center": [
             412,
-            700
+            712
           ],
-          "height": 420,
-          "rotation": 0,
+          "height": 760,
+          "rotation": 30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2719,9 +2719,9 @@
           "component": "batons-master",
           "center": [
             412,
-            1040
+            712
           ],
-          "height": 420,
+          "height": 760,
           "rotation": 0,
           "mirror": false,
           "role": "emblem"
@@ -2746,11 +2746,11 @@
           "id": "batons-1",
           "component": "batons-master",
           "center": [
-            300,
-            420
+            412,
+            472
           ],
-          "height": 420,
-          "rotation": -20,
+          "height": 490,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2758,23 +2758,23 @@
           "id": "batons-2",
           "component": "batons-master",
           "center": [
-            524,
-            420
+            412,
+            472
           ],
-          "height": 420,
-          "rotation": 20,
-          "mirror": true,
+          "height": 490,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "batons-3",
           "component": "batons-master",
           "center": [
-            300,
-            980
+            412,
+            952
           ],
-          "height": 420,
-          "rotation": -20,
+          "height": 490,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2782,12 +2782,12 @@
           "id": "batons-4",
           "component": "batons-master",
           "center": [
-            524,
-            980
+            412,
+            952
           ],
-          "height": 420,
-          "rotation": 20,
-          "mirror": true,
+          "height": 490,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         }
       ]
@@ -2810,11 +2810,11 @@
           "id": "batons-1",
           "component": "batons-master",
           "center": [
-            300,
-            390
+            412,
+            472
           ],
-          "height": 420,
-          "rotation": -20,
+          "height": 490,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2822,12 +2822,12 @@
           "id": "batons-2",
           "component": "batons-master",
           "center": [
-            524,
-            390
+            412,
+            472
           ],
-          "height": 420,
-          "rotation": 20,
-          "mirror": true,
+          "height": 490,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
@@ -2835,10 +2835,10 @@
           "component": "batons-master",
           "center": [
             412,
-            700
+            952
           ],
-          "height": 420,
-          "rotation": -20,
+          "height": 490,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2846,23 +2846,23 @@
           "id": "batons-4",
           "component": "batons-master",
           "center": [
-            300,
-            1010
+            412,
+            952
           ],
-          "height": 420,
-          "rotation": 20,
-          "mirror": true,
+          "height": 490,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "batons-5",
           "component": "batons-master",
           "center": [
-            524,
-            1010
+            412,
+            712
           ],
-          "height": 420,
-          "rotation": -20,
+          "height": 340,
+          "rotation": 0,
           "mirror": false,
           "role": "emblem"
         }
@@ -2886,11 +2886,11 @@
           "id": "batons-1",
           "component": "batons-master",
           "center": [
-            300,
-            350
+            412,
+            362
           ],
-          "height": 300,
-          "rotation": -20,
+          "height": 350,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2898,23 +2898,23 @@
           "id": "batons-2",
           "component": "batons-master",
           "center": [
-            524,
-            350
+            412,
+            362
           ],
-          "height": 300,
-          "rotation": 20,
-          "mirror": true,
+          "height": 350,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "batons-3",
           "component": "batons-master",
           "center": [
-            300,
-            700
+            412,
+            712
           ],
-          "height": 300,
-          "rotation": -20,
+          "height": 350,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2922,23 +2922,23 @@
           "id": "batons-4",
           "component": "batons-master",
           "center": [
-            524,
-            700
+            412,
+            712
           ],
-          "height": 300,
-          "rotation": 20,
-          "mirror": true,
+          "height": 350,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "batons-5",
           "component": "batons-master",
           "center": [
-            300,
-            1050
+            412,
+            1062
           ],
-          "height": 300,
-          "rotation": -20,
+          "height": 350,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2946,12 +2946,12 @@
           "id": "batons-6",
           "component": "batons-master",
           "center": [
-            524,
-            1050
+            412,
+            1062
           ],
-          "height": 300,
-          "rotation": 20,
-          "mirror": true,
+          "height": 350,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         }
       ]
@@ -2974,11 +2974,11 @@
           "id": "batons-1",
           "component": "batons-master",
           "center": [
-            300,
-            330
+            412,
+            362
           ],
-          "height": 300,
-          "rotation": -20,
+          "height": 350,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -2986,12 +2986,12 @@
           "id": "batons-2",
           "component": "batons-master",
           "center": [
-            524,
-            330
+            412,
+            362
           ],
-          "height": 300,
-          "rotation": 20,
-          "mirror": true,
+          "height": 350,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
@@ -2999,10 +2999,10 @@
           "component": "batons-master",
           "center": [
             412,
-            515
+            712
           ],
-          "height": 300,
-          "rotation": -20,
+          "height": 350,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -3010,23 +3010,23 @@
           "id": "batons-4",
           "component": "batons-master",
           "center": [
-            300,
-            700
+            412,
+            712
           ],
-          "height": 300,
-          "rotation": 20,
-          "mirror": true,
+          "height": 350,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "batons-5",
           "component": "batons-master",
           "center": [
-            524,
-            700
+            412,
+            1062
           ],
-          "height": 300,
-          "rotation": -20,
+          "height": 350,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -3034,23 +3034,23 @@
           "id": "batons-6",
           "component": "batons-master",
           "center": [
-            300,
-            1060
+            412,
+            1062
           ],
-          "height": 300,
-          "rotation": 20,
-          "mirror": true,
+          "height": 350,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "batons-7",
           "component": "batons-master",
           "center": [
-            524,
-            1060
+            412,
+            712
           ],
-          "height": 300,
-          "rotation": -20,
+          "height": 350,
+          "rotation": 0,
           "mirror": false,
           "role": "emblem"
         }
@@ -3074,11 +3074,11 @@
           "id": "batons-1",
           "component": "batons-master",
           "center": [
-            300,
-            300
+            412,
+            337
           ],
-          "height": 300,
-          "rotation": -20,
+          "height": 260,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -3086,23 +3086,23 @@
           "id": "batons-2",
           "component": "batons-master",
           "center": [
-            524,
-            300
+            412,
+            337
           ],
-          "height": 300,
-          "rotation": 20,
-          "mirror": true,
+          "height": 260,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "batons-3",
           "component": "batons-master",
           "center": [
-            300,
-            565
+            412,
+            587
           ],
-          "height": 300,
-          "rotation": -20,
+          "height": 260,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -3110,23 +3110,23 @@
           "id": "batons-4",
           "component": "batons-master",
           "center": [
-            524,
-            565
+            412,
+            587
           ],
-          "height": 300,
-          "rotation": 20,
-          "mirror": true,
+          "height": 260,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "batons-5",
           "component": "batons-master",
           "center": [
-            300,
-            835
+            412,
+            837
           ],
-          "height": 300,
-          "rotation": -20,
+          "height": 260,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -3134,23 +3134,23 @@
           "id": "batons-6",
           "component": "batons-master",
           "center": [
-            524,
-            835
+            412,
+            837
           ],
-          "height": 300,
-          "rotation": 20,
-          "mirror": true,
+          "height": 260,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "batons-7",
           "component": "batons-master",
           "center": [
-            300,
-            1100
+            412,
+            1087
           ],
-          "height": 300,
-          "rotation": -20,
+          "height": 260,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -3158,12 +3158,12 @@
           "id": "batons-8",
           "component": "batons-master",
           "center": [
-            524,
-            1100
+            412,
+            1087
           ],
-          "height": 300,
-          "rotation": 20,
-          "mirror": true,
+          "height": 260,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         }
       ]
@@ -3186,11 +3186,11 @@
           "id": "batons-1",
           "component": "batons-master",
           "center": [
-            270,
-            370
+            412,
+            337
           ],
-          "height": 245,
-          "rotation": -20,
+          "height": 260,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -3199,22 +3199,22 @@
           "component": "batons-master",
           "center": [
             412,
-            370
+            337
           ],
-          "height": 245,
-          "rotation": 20,
-          "mirror": true,
+          "height": 260,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "batons-3",
           "component": "batons-master",
           "center": [
-            554,
-            370
+            412,
+            587
           ],
-          "height": 245,
-          "rotation": -20,
+          "height": 260,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -3222,12 +3222,12 @@
           "id": "batons-4",
           "component": "batons-master",
           "center": [
-            270,
-            700
+            412,
+            587
           ],
-          "height": 245,
-          "rotation": 20,
-          "mirror": true,
+          "height": 260,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
@@ -3235,10 +3235,10 @@
           "component": "batons-master",
           "center": [
             412,
-            700
+            837
           ],
-          "height": 245,
-          "rotation": -20,
+          "height": 260,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -3246,23 +3246,23 @@
           "id": "batons-6",
           "component": "batons-master",
           "center": [
-            554,
-            700
+            412,
+            837
           ],
-          "height": 245,
-          "rotation": 20,
-          "mirror": true,
+          "height": 260,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "batons-7",
           "component": "batons-master",
           "center": [
-            270,
-            1030
+            412,
+            1087
           ],
-          "height": 245,
-          "rotation": -20,
+          "height": 260,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -3271,22 +3271,22 @@
           "component": "batons-master",
           "center": [
             412,
-            1030
+            1087
           ],
-          "height": 245,
-          "rotation": 20,
-          "mirror": true,
+          "height": 260,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "batons-9",
           "component": "batons-master",
           "center": [
-            554,
-            1030
+            412,
+            712
           ],
-          "height": 245,
-          "rotation": -20,
+          "height": 260,
+          "rotation": 0,
           "mirror": false,
           "role": "emblem"
         }
@@ -3310,11 +3310,11 @@
           "id": "batons-1",
           "component": "batons-master",
           "center": [
-            310,
-            275
+            412,
+            252
           ],
-          "height": 245,
-          "rotation": -20,
+          "height": 240,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -3322,23 +3322,23 @@
           "id": "batons-2",
           "component": "batons-master",
           "center": [
-            514,
-            275
+            412,
+            252
           ],
-          "height": 245,
-          "rotation": 20,
-          "mirror": true,
+          "height": 240,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "batons-3",
           "component": "batons-master",
           "center": [
-            310,
-            490
+            412,
+            482
           ],
-          "height": 245,
-          "rotation": -20,
+          "height": 240,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -3346,23 +3346,23 @@
           "id": "batons-4",
           "component": "batons-master",
           "center": [
-            514,
-            490
+            412,
+            482
           ],
-          "height": 245,
-          "rotation": 20,
-          "mirror": true,
+          "height": 240,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "batons-5",
           "component": "batons-master",
           "center": [
-            310,
-            705
+            412,
+            712
           ],
-          "height": 245,
-          "rotation": -20,
+          "height": 240,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -3370,23 +3370,23 @@
           "id": "batons-6",
           "component": "batons-master",
           "center": [
-            514,
-            705
+            412,
+            712
           ],
-          "height": 245,
-          "rotation": 20,
-          "mirror": true,
+          "height": 240,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "batons-7",
           "component": "batons-master",
           "center": [
-            310,
-            920
+            412,
+            942
           ],
-          "height": 245,
-          "rotation": -20,
+          "height": 240,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -3394,23 +3394,23 @@
           "id": "batons-8",
           "component": "batons-master",
           "center": [
-            514,
-            920
+            412,
+            942
           ],
-          "height": 245,
-          "rotation": 20,
-          "mirror": true,
+          "height": 240,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         },
         {
           "id": "batons-9",
           "component": "batons-master",
           "center": [
-            310,
-            1135
+            412,
+            1172
           ],
-          "height": 245,
-          "rotation": -20,
+          "height": 240,
+          "rotation": -30,
           "mirror": false,
           "role": "emblem"
         },
@@ -3418,12 +3418,12 @@
           "id": "batons-10",
           "component": "batons-master",
           "center": [
-            514,
-            1135
+            412,
+            1172
           ],
-          "height": 245,
-          "rotation": 20,
-          "mirror": true,
+          "height": 240,
+          "rotation": 30,
+          "mirror": false,
           "role": "emblem"
         }
       ]

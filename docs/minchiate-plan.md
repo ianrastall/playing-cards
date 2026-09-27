@@ -4,8 +4,8 @@ On 2026-09-25 the user selected historical Minchiate subjects and order for
 both designs, retaining each design's art style. Complete Design 1 first,
 then create Design 2 Tarot using the same inventory.
 
-The existing Design 1 release is a complete **standard 78-card Tarot**.
-The requested replacement is **97-card Florentine Minchiate**: 40 pip cards,
+The previous Design 1 release was a complete **standard 78-card Tarot**.
+Its replacement is **97-card Florentine Minchiate**: 40 pip cards,
 16 courts, 40 trumps, and the separate, unnumbered Fool. No Jokers.
 Neither tradition is an incomplete version of the other.
 
@@ -59,8 +59,14 @@ indices to the panel without widening the panel or distorting the glyphs.
 
 ## Work status
 
-Historical direction selected; source research and conversion audit underway.
-The active Design 1 catalog still contains 78 Tarot faces. Design 2 Tarot
-production follows the Design 1 conversion. This document records the new
-direction and supersedes the 78-card scope in earlier production briefs;
-older reports remain records of the earlier release.
+Design 1 is complete: 97 faces rendered and inspected, with original artwork
+and the previous 78-card release preserved. The user selected the existing
+upside-down Tarot illustration for the Hanged Man on 2026-09-27; this is an
+explicit iconographic exception. All other replacement subjects, the female
+Maids, hybrid Cavaliers, and crossed straight long suits are implemented.
+The catalog, galleries, and v1.2 Tarot-size packaging use the 97-card inventory.
+See `designs/design1/docs/design/minchiate-v1-report.json` for validation.
+
+The current follow-up for Design 2 covers balancing its existing Poker artwork:
+54 faces, 30 backs, and 12 blank frames. Design 2 Minchiate artwork is a separate
+future production phase. Older reports remain records of the earlier releases.

@@ -38,8 +38,8 @@ class GalleryTests(unittest.TestCase):
         catalog = json.loads((ROOT / 'catalog.json').read_text(encoding='utf-8'))
         production = {a['path'] for a in catalog['assets']}
         self.assertTrue(production <= set(paths))
-        self.assertEqual(len(page.assets), 474)
-        self.assertEqual(len(set(page.assets)), 474)
+        self.assertEqual(len(page.assets), 511)
+        self.assertEqual(len(set(page.assets)), 511)
         self.assertEqual(set(page.assets), set(page.downloads))
         self.assertTrue(set(page.assets) <= set(page.images))
         self.assertIn('designs/design2/sources/generated/courts-v1/king-spades-floral-jian-v3.png', paths)
@@ -99,10 +99,22 @@ class GalleryTests(unittest.TestCase):
                 self.assertEqual(set(paths), expected)
                 self.assertEqual(len(paths), len(expected))
                 found.extend(paths)
-            self.assertEqual(len(found), 378 if design == 'design1' else 78)
+            self.assertEqual(len(found), 397 if design == 'design1' else 96)
             self.assertEqual(len(found), len(set(found)))
         masters = Page((ROOT / 'designs/design2/masters.html').read_text(encoding='utf-8'))
         self.assertEqual(len(masters.assets), 18)
+
+    def test_minchiate_is_complete_and_sorted_by_rank_order(self):
+        assets = build_gallery.inventory()
+        faces = [a for a in assets if a['design'] == 'design1' and a['format'] == 'tarot' and a['side'] == 'face']
+        self.assertEqual(len(faces), 97)
+        trumps = sorted([a for a in faces if a['arcana'] == 'major'], key=build_gallery.order)
+        self.assertEqual([a['number'] for a in trumps], list(range(41)))
+        self.assertEqual(sum(a['printed_index'] == '' for a in trumps), 6)
+        self.assertEqual(trumps[-1]['slug'], 'the-trumpets')
+        for suit in ('swords', 'batons', 'cups', 'coins'):
+            suited = sorted([a for a in faces if a['suit'] == suit], key=build_gallery.order)
+            self.assertEqual([a['rank'] for a in suited], ['ace', *map(str, range(2, 11)), 'page', 'knight', 'queen', 'king'])
 
     def test_back_urls_track_actual_png_bytes_in_previews_and_downloads(self):
         for relative, _ in build_gallery.page_specs():

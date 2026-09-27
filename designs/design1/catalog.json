@@ -10497,7 +10497,7 @@
       "arcana": "minor",
       "suit": "batons",
       "rank": "10",
-      "title": null,
+      "title": "10 of Batons",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -10524,7 +10524,7 @@
         300.0,
         300.0
       ],
-      "sha256": "0e55adb847c4f3a6d1785dbb0afeb01a49e8e7b7ac9324b14d4f2aca5c6c5e64"
+      "sha256": "174558568de0c1c01df30e6df867daf26ffb9017427ca73f89d2998f84f96f97"
     },
     {
       "id": "face.tarot.tarot.batons.2",
@@ -10534,7 +10534,7 @@
       "arcana": "minor",
       "suit": "batons",
       "rank": "2",
-      "title": null,
+      "title": "2 of Batons",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -10561,7 +10561,7 @@
         300.0,
         300.0
       ],
-      "sha256": "810a4ec9cf5f9ac99da73381638abc1fcffbcb4c24b13fc67791be0691c50d85"
+      "sha256": "6953a60d8c83e7f8758e6160adf722d31af9083ec9c3240c37c60f9a27e9b43a"
     },
     {
       "id": "face.tarot.tarot.batons.3",
@@ -10571,7 +10571,7 @@
       "arcana": "minor",
       "suit": "batons",
       "rank": "3",
-      "title": null,
+      "title": "3 of Batons",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -10598,7 +10598,7 @@
         300.0,
         300.0
       ],
-      "sha256": "bee483e79337f417856b558ac1ff8131091f836e7347996ba16c7b3359fb10c1"
+      "sha256": "be3b9d71ab5548f16d0818a8f6816ad3d99600e7e93c557314bd27ce4cd24dc6"
     },
     {
       "id": "face.tarot.tarot.batons.4",
@@ -10608,7 +10608,7 @@
       "arcana": "minor",
       "suit": "batons",
       "rank": "4",
-      "title": null,
+      "title": "4 of Batons",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -10635,7 +10635,7 @@
         300.0,
         300.0
       ],
-      "sha256": "d6b9cc34b8f1e4cc1f25df2f71339ec6e519c44bb4289df33bfc0f43d842f7d5"
+      "sha256": "0e811ef8963bdc1935f49026cd4a2eea7ccc08b0bdb6bed70d2bcfcce4d59e07"
     },
     {
       "id": "face.tarot.tarot.batons.5",
@@ -10645,7 +10645,7 @@
       "arcana": "minor",
       "suit": "batons",
       "rank": "5",
-      "title": null,
+      "title": "5 of Batons",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -10672,7 +10672,7 @@
         300.0,
         300.0
       ],
-      "sha256": "313bb419287a485619f56c7469bd428b6189183ecb1c65cf58db74400ee5c1ea"
+      "sha256": "fab39f0ee437866c9659de258e0417c688a5e06e4e738e804057671495039772"
     },
     {
       "id": "face.tarot.tarot.batons.6",
@@ -10682,7 +10682,7 @@
       "arcana": "minor",
       "suit": "batons",
       "rank": "6",
-      "title": null,
+      "title": "6 of Batons",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -10709,7 +10709,7 @@
         300.0,
         300.0
       ],
-      "sha256": "45d1e47c46b23b86856de62360801d0997aaa13adee06185c03666171c450904"
+      "sha256": "ee5787d1312b6e6db50c4c0463ddb36df2bc2504c4757d88e875846f93a8150d"
     },
     {
       "id": "face.tarot.tarot.batons.7",
@@ -10719,7 +10719,7 @@
       "arcana": "minor",
       "suit": "batons",
       "rank": "7",
-      "title": null,
+      "title": "7 of Batons",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -10746,7 +10746,7 @@
         300.0,
         300.0
       ],
-      "sha256": "cb597fc23f8db6f764a50d471cecf82cc908615d2c9f776f9185a997b6de2a3b"
+      "sha256": "2a72ff420e30f304ae5cb28cd83e8091a8b3a0bec7a10ea2e128cc3dac3f5507"
     },
     {
       "id": "face.tarot.tarot.batons.8",
@@ -10756,7 +10756,7 @@
       "arcana": "minor",
       "suit": "batons",
       "rank": "8",
-      "title": null,
+      "title": "8 of Batons",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -10783,7 +10783,7 @@
         300.0,
         300.0
       ],
-      "sha256": "38cdf53c419940521ec42e91240cbc976e28d5fb8180fd08ba655ded260e5879"
+      "sha256": "79c340f73d5c32854ef2582fca8ab239292ffae2727db03eeb180360228f92ac"
     },
     {
       "id": "face.tarot.tarot.batons.9",
@@ -10793,7 +10793,7 @@
       "arcana": "minor",
       "suit": "batons",
       "rank": "9",
-      "title": null,
+      "title": "9 of Batons",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -10820,7 +10820,7 @@
         300.0,
         300.0
       ],
-      "sha256": "e6fc935349819c7578d2f613213f68784686c5068402dee84ba2098d7b6d2b20"
+      "sha256": "64e2b159276caefdd5eb82037040e3045332dec468ed502304912a88a25ebcab"
     },
     {
       "id": "face.tarot.tarot.batons.ace",
@@ -10830,7 +10830,7 @@
       "arcana": "minor",
       "suit": "batons",
       "rank": "ace",
-      "title": null,
+      "title": "Ace of Batons",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -10857,7 +10857,7 @@
         300.0,
         300.0
       ],
-      "sha256": "d2ae1bb4307977bf917bc90f8238999dab77252142adf678cca82b016485b2b0"
+      "sha256": "de0163785d7818b85ab7e57b6bda88b7da89396bb3d4aa891c3b17d4762203f3"
     },
     {
       "id": "face.tarot.tarot.batons.king",
@@ -10867,7 +10867,7 @@
       "arcana": "minor",
       "suit": "batons",
       "rank": "king",
-      "title": null,
+      "title": "King of Batons",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -10894,7 +10894,7 @@
         300.0,
         300.0
       ],
-      "sha256": "dd0cee3503f0e023a433534a675b6babd5438f8335cab9e12ed19e491d82a294"
+      "sha256": "9fb1a0bd746ec769f94c2029996ab35d0451925ee80ce114b3ea02e17d8addce"
     },
     {
       "id": "face.tarot.tarot.batons.knight",
@@ -10904,7 +10904,7 @@
       "arcana": "minor",
       "suit": "batons",
       "rank": "knight",
-      "title": null,
+      "title": "Cavalier of Batons",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -10931,7 +10931,7 @@
         300.0,
         300.0
       ],
-      "sha256": "1e6c9a4f429e504a7e1275005e40d57a0bd4a1d96bdfa3e55dc7ef4fabfb367b"
+      "sha256": "80008b3d628428ea2fd5aaa4d60417ab9c0d437d5c181622c6fc9de7d5630f1a"
     },
     {
       "id": "face.tarot.tarot.batons.page",
@@ -10941,7 +10941,7 @@
       "arcana": "minor",
       "suit": "batons",
       "rank": "page",
-      "title": null,
+      "title": "Jack of Batons",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -10968,7 +10968,7 @@
         300.0,
         300.0
       ],
-      "sha256": "6252a6a2804003c49c56bde664182931273a48d4c03344ec3a87eb52b741f3cd"
+      "sha256": "85f66bda32bf558b90343c4ce43ff27a47d75a807a5b2658494e5f065b83c960"
     },
     {
       "id": "face.tarot.tarot.batons.queen",
@@ -10978,7 +10978,7 @@
       "arcana": "minor",
       "suit": "batons",
       "rank": "queen",
-      "title": null,
+      "title": "Queen of Batons",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -11005,7 +11005,7 @@
         300.0,
         300.0
       ],
-      "sha256": "b494627e02dcf4ce4469aba04bd4d9956cf7ec9393a3a4042aac3bceac83e378"
+      "sha256": "cf85f70d28bf4c9b93d6e3b076c455d28e7fc21efc074dea2c08249aecfca965"
     },
     {
       "id": "face.tarot.tarot.coins.10",
@@ -11015,7 +11015,7 @@
       "arcana": "minor",
       "suit": "coins",
       "rank": "10",
-      "title": null,
+      "title": "10 of Coins",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11042,7 +11042,7 @@
         300.0,
         300.0
       ],
-      "sha256": "8af5f9017e9e20c6e0f25fb3f5f60b80f15bd7baac354af49aa0895be0fda507"
+      "sha256": "e460350b679ff86ce09ffb78f2e0da7871347b3c85efe143040a796b68a6a02d"
     },
     {
       "id": "face.tarot.tarot.coins.2",
@@ -11052,7 +11052,7 @@
       "arcana": "minor",
       "suit": "coins",
       "rank": "2",
-      "title": null,
+      "title": "2 of Coins",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11089,7 +11089,7 @@
       "arcana": "minor",
       "suit": "coins",
       "rank": "3",
-      "title": null,
+      "title": "3 of Coins",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11126,7 +11126,7 @@
       "arcana": "minor",
       "suit": "coins",
       "rank": "4",
-      "title": null,
+      "title": "4 of Coins",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11163,7 +11163,7 @@
       "arcana": "minor",
       "suit": "coins",
       "rank": "5",
-      "title": null,
+      "title": "5 of Coins",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11200,7 +11200,7 @@
       "arcana": "minor",
       "suit": "coins",
       "rank": "6",
-      "title": null,
+      "title": "6 of Coins",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11237,7 +11237,7 @@
       "arcana": "minor",
       "suit": "coins",
       "rank": "7",
-      "title": null,
+      "title": "7 of Coins",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11274,7 +11274,7 @@
       "arcana": "minor",
       "suit": "coins",
       "rank": "8",
-      "title": null,
+      "title": "8 of Coins",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11311,7 +11311,7 @@
       "arcana": "minor",
       "suit": "coins",
       "rank": "9",
-      "title": null,
+      "title": "9 of Coins",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11348,7 +11348,7 @@
       "arcana": "minor",
       "suit": "coins",
       "rank": "ace",
-      "title": null,
+      "title": "Ace of Coins",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11375,7 +11375,7 @@
         300.0,
         300.0
       ],
-      "sha256": "fc5ee55feed9e5bebbd443ef2c9ab75dfdd657c5e4656ec6009e583671c66e86"
+      "sha256": "ac7f53717f033c34ecdd492a48a0d4c0b7752c13313d7f3c875696f9403fb845"
     },
     {
       "id": "face.tarot.tarot.coins.king",
@@ -11385,7 +11385,7 @@
       "arcana": "minor",
       "suit": "coins",
       "rank": "king",
-      "title": null,
+      "title": "King of Coins",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11412,7 +11412,7 @@
         300.0,
         300.0
       ],
-      "sha256": "f2c6a01ad817f2d6746799dd15c64ddc63f79f2c059b3d0dd6995130f434e9eb"
+      "sha256": "335dfba7b0d500290cdd6b22a863f085c671c91c86e61fd9e47436be75e23832"
     },
     {
       "id": "face.tarot.tarot.coins.knight",
@@ -11422,7 +11422,7 @@
       "arcana": "minor",
       "suit": "coins",
       "rank": "knight",
-      "title": null,
+      "title": "Cavalier of Coins",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11449,7 +11449,7 @@
         300.0,
         300.0
       ],
-      "sha256": "a8f71694c19d725c3cd2e5ab78c742a9b0040e266bf068e38194b87cef6ecc77"
+      "sha256": "13c7c4ad474055616318cb4988fd55d90674f30cd75fec883328160b5f888e53"
     },
     {
       "id": "face.tarot.tarot.coins.page",
@@ -11459,7 +11459,7 @@
       "arcana": "minor",
       "suit": "coins",
       "rank": "page",
-      "title": null,
+      "title": "Maid of Coins",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11486,7 +11486,7 @@
         300.0,
         300.0
       ],
-      "sha256": "d4340e313026f68fa74096b2930917e5e015cfed83197f2b54faca12d8b7c762"
+      "sha256": "d4e7e663ec9ca390f1a9e9578f497781838493a410c925a67d6753841e827924"
     },
     {
       "id": "face.tarot.tarot.coins.queen",
@@ -11496,7 +11496,7 @@
       "arcana": "minor",
       "suit": "coins",
       "rank": "queen",
-      "title": null,
+      "title": "Queen of Coins",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11523,7 +11523,7 @@
         300.0,
         300.0
       ],
-      "sha256": "605b0ca32293496793c180757423adca3ee50c016fc5a26de7d76466fa731180"
+      "sha256": "14ff98a7351b43d4f590b0e702bdd1a3249ea0795c5b67a6fb2ed55f37b80ad0"
     },
     {
       "id": "face.tarot.tarot.cups.10",
@@ -11533,7 +11533,7 @@
       "arcana": "minor",
       "suit": "cups",
       "rank": "10",
-      "title": null,
+      "title": "10 of Cups",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11560,7 +11560,7 @@
         300.0,
         300.0
       ],
-      "sha256": "450355c7e926b3e1c37e448862a0c7015f531669cfc1270d5903213ce9f0b61b"
+      "sha256": "8553154b68891e178162fcedda77d7b42244482648a2f786ca280e0107e06a1b"
     },
     {
       "id": "face.tarot.tarot.cups.2",
@@ -11570,7 +11570,7 @@
       "arcana": "minor",
       "suit": "cups",
       "rank": "2",
-      "title": null,
+      "title": "2 of Cups",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11607,7 +11607,7 @@
       "arcana": "minor",
       "suit": "cups",
       "rank": "3",
-      "title": null,
+      "title": "3 of Cups",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11644,7 +11644,7 @@
       "arcana": "minor",
       "suit": "cups",
       "rank": "4",
-      "title": null,
+      "title": "4 of Cups",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11681,7 +11681,7 @@
       "arcana": "minor",
       "suit": "cups",
       "rank": "5",
-      "title": null,
+      "title": "5 of Cups",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11718,7 +11718,7 @@
       "arcana": "minor",
       "suit": "cups",
       "rank": "6",
-      "title": null,
+      "title": "6 of Cups",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11755,7 +11755,7 @@
       "arcana": "minor",
       "suit": "cups",
       "rank": "7",
-      "title": null,
+      "title": "7 of Cups",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11792,7 +11792,7 @@
       "arcana": "minor",
       "suit": "cups",
       "rank": "8",
-      "title": null,
+      "title": "8 of Cups",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11829,7 +11829,7 @@
       "arcana": "minor",
       "suit": "cups",
       "rank": "9",
-      "title": null,
+      "title": "9 of Cups",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11866,7 +11866,7 @@
       "arcana": "minor",
       "suit": "cups",
       "rank": "ace",
-      "title": null,
+      "title": "Ace of Cups",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11893,7 +11893,7 @@
         300.0,
         300.0
       ],
-      "sha256": "a55226af74e421edc4c4f459656677fa9d30a6463fe5f9ebe43a434c5fc1ff24"
+      "sha256": "dc4e0b8127724bfcf1e93cc9b6d56758cfe679f0df83571e85b7a3a9242580c8"
     },
     {
       "id": "face.tarot.tarot.cups.king",
@@ -11903,7 +11903,7 @@
       "arcana": "minor",
       "suit": "cups",
       "rank": "king",
-      "title": null,
+      "title": "King of Cups",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11930,7 +11930,7 @@
         300.0,
         300.0
       ],
-      "sha256": "b6b002cb8c3a8c29bafa39e85999edea5f4b01dd4f5440277751aaf22d1cd76f"
+      "sha256": "358d5e95979fe6e915c8ab93f490ec63188095ec220aab1f04067a5f099412b5"
     },
     {
       "id": "face.tarot.tarot.cups.knight",
@@ -11940,7 +11940,7 @@
       "arcana": "minor",
       "suit": "cups",
       "rank": "knight",
-      "title": null,
+      "title": "Cavalier of Cups",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -11967,7 +11967,7 @@
         300.0,
         300.0
       ],
-      "sha256": "22671d415966d38b26a71e39989de46394b47bc52d6e3751f2ab45b6c6d645c3"
+      "sha256": "5e181ccb8c309ccf7927a61b2ce480084d3b21fc53167e9e0569b8d390d15832"
     },
     {
       "id": "face.tarot.tarot.cups.page",
@@ -11977,7 +11977,7 @@
       "arcana": "minor",
       "suit": "cups",
       "rank": "page",
-      "title": null,
+      "title": "Maid of Cups",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -12004,7 +12004,7 @@
         300.0,
         300.0
       ],
-      "sha256": "09289409570374fb6f45b1646cca26c6aa60646ab5cc23365fafc722b4b0fe62"
+      "sha256": "573adfd1016903d1f040da4568a23bd92fd76ba9954104b3ee071ab9f61ed5b3"
     },
     {
       "id": "face.tarot.tarot.cups.queen",
@@ -12014,7 +12014,7 @@
       "arcana": "minor",
       "suit": "cups",
       "rank": "queen",
-      "title": null,
+      "title": "Queen of Cups",
       "color_variant": null,
       "status": "review",
       "frame_color": "madder-lake",
@@ -12041,7 +12041,7 @@
         300.0,
         300.0
       ],
-      "sha256": "c3e92ea9c6857ebc385eedcf8c057c3e3f7a81737c67eef6a03a0edfd78781c9"
+      "sha256": "3a947c361ae4f8d1a712a3567eeed06efcc849d612925d84c04cb52984d615d8"
     },
     {
       "id": "face.tarot.tarot.swords.10",
@@ -12051,7 +12051,7 @@
       "arcana": "minor",
       "suit": "swords",
       "rank": "10",
-      "title": null,
+      "title": "10 of Swords",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -12078,7 +12078,7 @@
         300.0,
         300.0
       ],
-      "sha256": "e777fe745ef3fc779dbd05eac414d3c0afa6d6f11134e9da444ef97485589de1"
+      "sha256": "ea2917817626e19a9be0ab7e332ae66ec23ac57e115a67a08f846a3f33cf5d27"
     },
     {
       "id": "face.tarot.tarot.swords.2",
@@ -12088,7 +12088,7 @@
       "arcana": "minor",
       "suit": "swords",
       "rank": "2",
-      "title": null,
+      "title": "2 of Swords",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -12115,7 +12115,7 @@
         300.0,
         300.0
       ],
-      "sha256": "ca5d360e8524d8a5ab07eb2ce818c87165abdb2338a60e3bf51bf32222a062bc"
+      "sha256": "50dcbebbc6f831fb6bedc9a7f67311918e24fa9896dea35354416f31576b5a49"
     },
     {
       "id": "face.tarot.tarot.swords.3",
@@ -12125,7 +12125,7 @@
       "arcana": "minor",
       "suit": "swords",
       "rank": "3",
-      "title": null,
+      "title": "3 of Swords",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -12152,7 +12152,7 @@
         300.0,
         300.0
       ],
-      "sha256": "95e7ccf88b5488450decb305b24e30837f8a30520a489f530eadbb67ee2ac232"
+      "sha256": "6b531c5a4fc1e74d981cf319a70e96f29627e2c58303e4c9ee49816ab6dfaef0"
     },
     {
       "id": "face.tarot.tarot.swords.4",
@@ -12162,7 +12162,7 @@
       "arcana": "minor",
       "suit": "swords",
       "rank": "4",
-      "title": null,
+      "title": "4 of Swords",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -12189,7 +12189,7 @@
         300.0,
         300.0
       ],
-      "sha256": "c0d70b0d00a1533810cf1ce50e9543598737d75530768082e05de20c92838747"
+      "sha256": "ae5b4e9b90b2025a39063bb6bf4fe8ae1ade7bea9da0cacfb33de6034bf1a905"
     },
     {
       "id": "face.tarot.tarot.swords.5",
@@ -12199,7 +12199,7 @@
       "arcana": "minor",
       "suit": "swords",
       "rank": "5",
-      "title": null,
+      "title": "5 of Swords",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -12226,7 +12226,7 @@
         300.0,
         300.0
       ],
-      "sha256": "b48856246d2689d95be98d2343f62ecb6c7c56f9aba8183f5f2b7ff7f53cc5a6"
+      "sha256": "145c7a62dbd5db1bb82a657f8dcc711e0552202e05b2683c9327634fdfd52023"
     },
     {
       "id": "face.tarot.tarot.swords.6",
@@ -12236,7 +12236,7 @@
       "arcana": "minor",
       "suit": "swords",
       "rank": "6",
-      "title": null,
+      "title": "6 of Swords",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -12263,7 +12263,7 @@
         300.0,
         300.0
       ],
-      "sha256": "16ba6e46e52d2b0607093af387668b3cbc1b867e567f00d90dac3fb3a43c824b"
+      "sha256": "6893f3e851949e61b6e0ceb340b0f6bb76a1f134dd2f4986c21d4eedec915e0d"
     },
     {
       "id": "face.tarot.tarot.swords.7",
@@ -12273,7 +12273,7 @@
       "arcana": "minor",
       "suit": "swords",
       "rank": "7",
-      "title": null,
+      "title": "7 of Swords",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -12300,7 +12300,7 @@
         300.0,
         300.0
       ],
-      "sha256": "5dd0a14d8c00c965e42095d77a0b88316215372a1411c4862d7db53188195518"
+      "sha256": "44f715053f74d140659e3a3aa4a43cc00f91210b03ddfd9b1562f2d2f5a308a3"
     },
     {
       "id": "face.tarot.tarot.swords.8",
@@ -12310,7 +12310,7 @@
       "arcana": "minor",
       "suit": "swords",
       "rank": "8",
-      "title": null,
+      "title": "8 of Swords",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -12337,7 +12337,7 @@
         300.0,
         300.0
       ],
-      "sha256": "6dbafd9e6a31d8bd93ef08a316f3a3e5d98b3a6c1a3517d5ff24e4bf0450843e"
+      "sha256": "054409ce576bcdc68ed35aec17b37deeed7467154adb1c7c547d5992287926db"
     },
     {
       "id": "face.tarot.tarot.swords.9",
@@ -12347,7 +12347,7 @@
       "arcana": "minor",
       "suit": "swords",
       "rank": "9",
-      "title": null,
+      "title": "9 of Swords",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -12374,7 +12374,7 @@
         300.0,
         300.0
       ],
-      "sha256": "d2fdf829308151e5815401756ca0b0fe95199826198705e0c4e857cb68ecae45"
+      "sha256": "89a5eec0d824319ba5c5aa92df7fa596e49c6f6e5deeae6b25fcf9c6d396257d"
     },
     {
       "id": "face.tarot.tarot.swords.ace",
@@ -12384,7 +12384,7 @@
       "arcana": "minor",
       "suit": "swords",
       "rank": "ace",
-      "title": null,
+      "title": "Ace of Swords",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -12411,7 +12411,7 @@
         300.0,
         300.0
       ],
-      "sha256": "27fe3e7dd6b4c0ad3f364255f9b0b3519cb6db7d4138408d72f35f48c3786600"
+      "sha256": "2c3fb28ef6f5e17beb1bd70e0f50ed3035b5a8ef2b7abd65c5f03727be000a79"
     },
     {
       "id": "face.tarot.tarot.swords.king",
@@ -12421,7 +12421,7 @@
       "arcana": "minor",
       "suit": "swords",
       "rank": "king",
-      "title": null,
+      "title": "King of Swords",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -12448,7 +12448,7 @@
         300.0,
         300.0
       ],
-      "sha256": "f4b2ed17dc1d6d27ddf089016f6e51f89ab5a6ca16c651082fc75ee09178c6ce"
+      "sha256": "fd8330183df0ec6f5f186e6da67df50d0cee3b20bf096c96a4b552ff341bdd56"
     },
     {
       "id": "face.tarot.tarot.swords.knight",
@@ -12458,7 +12458,7 @@
       "arcana": "minor",
       "suit": "swords",
       "rank": "knight",
-      "title": null,
+      "title": "Cavalier of Swords",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -12485,7 +12485,7 @@
         300.0,
         300.0
       ],
-      "sha256": "eeca573ced5a7f6d1aaca53742daac80004cdcef15535365d86b619e376da72f"
+      "sha256": "e8ff1ff2ed3fe6c6fc6d5bba0c225a90849ad0cdf932a06533e5b7c93d702124"
     },
     {
       "id": "face.tarot.tarot.swords.page",
@@ -12495,7 +12495,7 @@
       "arcana": "minor",
       "suit": "swords",
       "rank": "page",
-      "title": null,
+      "title": "Jack of Swords",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -12522,7 +12522,7 @@
         300.0,
         300.0
       ],
-      "sha256": "cfa702d313e02547bb0b379c47a8a801d41460e04e42a1c15b8f7eb5f3846f53"
+      "sha256": "0353a951bb09a9d402c2ef49264b99baf27787b62850e371e6d86c90d593edae"
     },
     {
       "id": "face.tarot.tarot.swords.queen",
@@ -12532,7 +12532,7 @@
       "arcana": "minor",
       "suit": "swords",
       "rank": "queen",
-      "title": null,
+      "title": "Queen of Swords",
       "color_variant": null,
       "status": "review",
       "frame_color": "lamp-black",
@@ -12559,7 +12559,7 @@
         300.0,
         300.0
       ],
-      "sha256": "43be7dc4f39ca620d81a74314251250871d486bbc0664c95f896527db38c3e60"
+      "sha256": "859f556882f65e1504f9c4744bb00b4cef8ce9441bf858eea06e60e8a72beb5c"
     },
     {
       "id": "face.tarot.tarot.trump.0.the-fool",
@@ -12571,9 +12571,13 @@
       "rank": "0",
       "number": 0,
       "slug": "the-fool",
-      "title": "THE FOOL",
+      "title": "The Fool",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "",
+      "kind": "fool",
+      "group": null,
       "frame_color": "lamp-black",
       "path": "cards/faces/tarot/tarot/trumps/00-the-fool.png",
       "media_type": "image/png",
@@ -12598,10 +12602,10 @@
         300.0,
         300.0
       ],
-      "sha256": "aea061bc3d669ae083a8c5d4138b8df569ab4f7d4b204bb63cee74bb8e081d56"
+      "sha256": "05797bec98ee17123b08f0641a9116e41282112946112635a7a8e9f2fa81d73b"
     },
     {
-      "id": "face.tarot.tarot.trump.1.the-magician",
+      "id": "face.tarot.tarot.trump.1.bagatella",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -12609,12 +12613,16 @@
       "suit": null,
       "rank": "1",
       "number": 1,
-      "slug": "the-magician",
-      "title": "THE MAGICIAN",
+      "slug": "bagatella",
+      "title": "Bagatella",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "I",
+      "kind": "trump",
+      "group": "traditional-trump",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/01-the-magician.png",
+      "path": "cards/faces/tarot/tarot/trumps/01-bagatella.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -12637,10 +12645,10 @@
         300.0,
         300.0
       ],
-      "sha256": "ad31fee189914dc0789dbfc726830fa2974395d3914d618322c9e1e51303fbd5"
+      "sha256": "13ec89bef01c1d725d99724cdd06605f6d19a413c19fef3547314756d5ba52a0"
     },
     {
-      "id": "face.tarot.tarot.trump.2.the-high-priestess",
+      "id": "face.tarot.tarot.trump.2.the-empress",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -12648,12 +12656,16 @@
       "suit": null,
       "rank": "2",
       "number": 2,
-      "slug": "the-high-priestess",
-      "title": "THE HIGH PRIESTESS",
+      "slug": "the-empress",
+      "title": "The Empress",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "II",
+      "kind": "trump",
+      "group": "traditional-trump",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/02-the-high-priestess.png",
+      "path": "cards/faces/tarot/tarot/trumps/02-the-empress.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -12676,10 +12688,10 @@
         300.0,
         300.0
       ],
-      "sha256": "e403433821f402be9e7c3b72f64d0a0e0e3db3306c7be5be303d804b2fd618aa"
+      "sha256": "82b34c9eec001de4f02019948f251d09789b427a531da7c72546c692b837f7b4"
     },
     {
-      "id": "face.tarot.tarot.trump.3.the-empress",
+      "id": "face.tarot.tarot.trump.3.the-emperor",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -12687,12 +12699,16 @@
       "suit": null,
       "rank": "3",
       "number": 3,
-      "slug": "the-empress",
-      "title": "THE EMPRESS",
+      "slug": "the-emperor",
+      "title": "The Emperor",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "III",
+      "kind": "trump",
+      "group": "traditional-trump",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/03-the-empress.png",
+      "path": "cards/faces/tarot/tarot/trumps/03-the-emperor.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -12715,10 +12731,10 @@
         300.0,
         300.0
       ],
-      "sha256": "466e0879a0dccde74a07473a544ef612c1a952cd2168c84bd5950cb581ced76c"
+      "sha256": "1d77fd88ca4e9b1c914660e521195a2dd77a111d08f4ad3d28ac7d2a8ff80c70"
     },
     {
-      "id": "face.tarot.tarot.trump.4.the-emperor",
+      "id": "face.tarot.tarot.trump.4.the-eastern-emperor",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -12726,12 +12742,16 @@
       "suit": null,
       "rank": "4",
       "number": 4,
-      "slug": "the-emperor",
-      "title": "THE EMPEROR",
+      "slug": "the-eastern-emperor",
+      "title": "The Eastern Emperor",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "IV",
+      "kind": "trump",
+      "group": "traditional-trump",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/04-the-emperor.png",
+      "path": "cards/faces/tarot/tarot/trumps/04-the-eastern-emperor.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -12754,10 +12774,10 @@
         300.0,
         300.0
       ],
-      "sha256": "8b837e63a98a92ebc6e59a84a441ef315d7726b7f670f71cf7a5b441040d984c"
+      "sha256": "e5fc8dbc0904d2d0e95aa97725bcd11181cde8fa68ecfdeb2ac7452281dbb3dc"
     },
     {
-      "id": "face.tarot.tarot.trump.5.the-hierophant",
+      "id": "face.tarot.tarot.trump.5.love",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -12765,12 +12785,16 @@
       "suit": null,
       "rank": "5",
       "number": 5,
-      "slug": "the-hierophant",
-      "title": "THE HIEROPHANT",
+      "slug": "love",
+      "title": "Love",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "V",
+      "kind": "trump",
+      "group": "traditional-trump",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/05-the-hierophant.png",
+      "path": "cards/faces/tarot/tarot/trumps/05-love.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -12793,10 +12817,10 @@
         300.0,
         300.0
       ],
-      "sha256": "d22092b2d8a06ba8e4491c487f8d4796f38af6722df194c85260dd35573001c4"
+      "sha256": "e9188f6ecc161bd29717d826c681ac099c6020ea14db1c065d2c4834fd644db8"
     },
     {
-      "id": "face.tarot.tarot.trump.6.the-lovers",
+      "id": "face.tarot.tarot.trump.6.temperance",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -12804,12 +12828,16 @@
       "suit": null,
       "rank": "6",
       "number": 6,
-      "slug": "the-lovers",
-      "title": "THE LOVERS",
+      "slug": "temperance",
+      "title": "Temperance",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "VI",
+      "kind": "trump",
+      "group": "traditional-trump",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/06-the-lovers.png",
+      "path": "cards/faces/tarot/tarot/trumps/06-temperance.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -12832,10 +12860,10 @@
         300.0,
         300.0
       ],
-      "sha256": "ca585402342dbbedaeba0a9d4b4f4d20a1b8819e0f32a3cf2b2913e09d56c8df"
+      "sha256": "417843450242dc49315897cee84222facdb371a91cd1325620139a765b9f3dc3"
     },
     {
-      "id": "face.tarot.tarot.trump.7.the-chariot",
+      "id": "face.tarot.tarot.trump.7.fortitude",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -12843,12 +12871,16 @@
       "suit": null,
       "rank": "7",
       "number": 7,
-      "slug": "the-chariot",
-      "title": "THE CHARIOT",
+      "slug": "fortitude",
+      "title": "Fortitude",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "VII",
+      "kind": "trump",
+      "group": "traditional-trump",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/07-the-chariot.png",
+      "path": "cards/faces/tarot/tarot/trumps/07-fortitude.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -12871,10 +12903,10 @@
         300.0,
         300.0
       ],
-      "sha256": "dc19cc8bdec18458ab18188ed606e8c5bef3e0e5eb5e675ac70e2cdad53cb46e"
+      "sha256": "923c313de5f328e3e94a540ef4cf8e834bd31b8a2354776508a3a641d3fd99fd"
     },
     {
-      "id": "face.tarot.tarot.trump.8.strength",
+      "id": "face.tarot.tarot.trump.8.justice",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -12882,12 +12914,16 @@
       "suit": null,
       "rank": "8",
       "number": 8,
-      "slug": "strength",
-      "title": "STRENGTH",
+      "slug": "justice",
+      "title": "Justice",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "VIII",
+      "kind": "trump",
+      "group": "traditional-trump",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/08-strength.png",
+      "path": "cards/faces/tarot/tarot/trumps/08-justice.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -12910,10 +12946,10 @@
         300.0,
         300.0
       ],
-      "sha256": "dd49a6493287c0c287a71d3c3ad0858649ccdefdd29c69948159dd87c8a9464c"
+      "sha256": "0de0efc9ed0dbbcdf6fe05e6e1e4cdc986ca4cdca7053c7d16fa2190855cf6e8"
     },
     {
-      "id": "face.tarot.tarot.trump.9.the-hermit",
+      "id": "face.tarot.tarot.trump.9.wheel-of-fortune",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -12921,12 +12957,16 @@
       "suit": null,
       "rank": "9",
       "number": 9,
-      "slug": "the-hermit",
-      "title": "THE HERMIT",
+      "slug": "wheel-of-fortune",
+      "title": "Wheel of Fortune",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "IX",
+      "kind": "trump",
+      "group": "traditional-trump",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/09-the-hermit.png",
+      "path": "cards/faces/tarot/tarot/trumps/09-wheel-of-fortune.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -12949,10 +12989,10 @@
         300.0,
         300.0
       ],
-      "sha256": "d6bd7d2991ff06e7ea59bec885b170d4ccc6512db04ae5c2553a9565c4cddd02"
+      "sha256": "a0e65aaf61edc58435fc69f5a141cfe0eb7beba134ee446013c75274c4b9e9d8"
     },
     {
-      "id": "face.tarot.tarot.trump.10.wheel-of-fortune",
+      "id": "face.tarot.tarot.trump.10.the-chariot",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -12960,12 +13000,16 @@
       "suit": null,
       "rank": "10",
       "number": 10,
-      "slug": "wheel-of-fortune",
-      "title": "WHEEL OF FORTUNE",
+      "slug": "the-chariot",
+      "title": "The Chariot",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "X",
+      "kind": "trump",
+      "group": "traditional-trump",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/10-wheel-of-fortune.png",
+      "path": "cards/faces/tarot/tarot/trumps/10-the-chariot.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -12988,10 +13032,10 @@
         300.0,
         300.0
       ],
-      "sha256": "a7f87e3b1f5304091302d56c70ff3eae4c0f22fe683e43e87d0258dd18677d45"
+      "sha256": "c393b8e5767331cc15454a2ab6c75ec7cbc1e2642d36f8c32a54b1c586e87c19"
     },
     {
-      "id": "face.tarot.tarot.trump.11.justice",
+      "id": "face.tarot.tarot.trump.11.time",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -12999,12 +13043,16 @@
       "suit": null,
       "rank": "11",
       "number": 11,
-      "slug": "justice",
-      "title": "JUSTICE",
+      "slug": "time",
+      "title": "Time",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XI",
+      "kind": "trump",
+      "group": "traditional-trump",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/11-justice.png",
+      "path": "cards/faces/tarot/tarot/trumps/11-time.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -13027,7 +13075,7 @@
         300.0,
         300.0
       ],
-      "sha256": "085206e930744b39b3ca2ecbe072e3638bff27a0f1259288b022a88d55c97617"
+      "sha256": "0e3f4d090cc0dd39c8bed80c1108dd9ad6ce49db34840901ce53b9a5e180bad3"
     },
     {
       "id": "face.tarot.tarot.trump.12.the-hanged-man",
@@ -13039,9 +13087,13 @@
       "rank": "12",
       "number": 12,
       "slug": "the-hanged-man",
-      "title": "THE HANGED MAN",
+      "title": "The Hanged Man",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XII",
+      "kind": "trump",
+      "group": "traditional-trump",
       "frame_color": "lamp-black",
       "path": "cards/faces/tarot/tarot/trumps/12-the-hanged-man.png",
       "media_type": "image/png",
@@ -13066,7 +13118,7 @@
         300.0,
         300.0
       ],
-      "sha256": "41cd48a7a80a4a3c9e53782a0eca2b14227e4811b0b88fcbdc4e679246f935a6"
+      "sha256": "80f497bfd32e9c6f862ce3c175dc7cb7e458def65eaf305930c0548fbf596735"
     },
     {
       "id": "face.tarot.tarot.trump.13.death",
@@ -13078,9 +13130,13 @@
       "rank": "13",
       "number": 13,
       "slug": "death",
-      "title": "DEATH",
+      "title": "Death",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XIII",
+      "kind": "trump",
+      "group": "traditional-trump",
       "frame_color": "lamp-black",
       "path": "cards/faces/tarot/tarot/trumps/13-death.png",
       "media_type": "image/png",
@@ -13105,10 +13161,10 @@
         300.0,
         300.0
       ],
-      "sha256": "a4d933d0f14d70b98b6697f4028fb0c4453440969484c0634a938fdc0daa6583"
+      "sha256": "ecdfd0fdf380fd8c270959d4d28761d6c7319da8eff1e9d51503347a8b24b3b9"
     },
     {
-      "id": "face.tarot.tarot.trump.14.temperance",
+      "id": "face.tarot.tarot.trump.14.the-devil",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -13116,12 +13172,16 @@
       "suit": null,
       "rank": "14",
       "number": 14,
-      "slug": "temperance",
-      "title": "TEMPERANCE",
+      "slug": "the-devil",
+      "title": "The Devil",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XIV",
+      "kind": "trump",
+      "group": "traditional-trump",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/14-temperance.png",
+      "path": "cards/faces/tarot/tarot/trumps/14-the-devil.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -13144,10 +13204,10 @@
         300.0,
         300.0
       ],
-      "sha256": "88cba9234a35094e40e45962966ccdbf823c0b4b3d4a0c3fe506fa37472b3515"
+      "sha256": "9f037f3c193bd84dadebebd0719b9ea5d4cfb95d965854c3d14de658729ea3ff"
     },
     {
-      "id": "face.tarot.tarot.trump.15.the-devil",
+      "id": "face.tarot.tarot.trump.15.the-house-of-the-devil",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -13155,12 +13215,16 @@
       "suit": null,
       "rank": "15",
       "number": 15,
-      "slug": "the-devil",
-      "title": "THE DEVIL",
+      "slug": "the-house-of-the-devil",
+      "title": "The House of the Devil",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XV",
+      "kind": "trump",
+      "group": "traditional-trump",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/15-the-devil.png",
+      "path": "cards/faces/tarot/tarot/trumps/15-the-house-of-the-devil.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -13183,10 +13247,10 @@
         300.0,
         300.0
       ],
-      "sha256": "4dad4f0f4751f55b99762f5aef023b90a1db143023de75004794eb7407643b18"
+      "sha256": "2e38a678936aa929cab293cdb025aa76d748105ac551bbd4539158f31a1b339a"
     },
     {
-      "id": "face.tarot.tarot.trump.16.the-tower",
+      "id": "face.tarot.tarot.trump.16.hope",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -13194,12 +13258,16 @@
       "suit": null,
       "rank": "16",
       "number": 16,
-      "slug": "the-tower",
-      "title": "THE TOWER",
+      "slug": "hope",
+      "title": "Hope",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XVI",
+      "kind": "trump",
+      "group": "additional-virtue",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/16-the-tower.png",
+      "path": "cards/faces/tarot/tarot/trumps/16-hope.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -13222,10 +13290,10 @@
         300.0,
         300.0
       ],
-      "sha256": "636ffc5b81f6d02901937efca049dd9321b5c543d508d98e56396d22504fffe7"
+      "sha256": "78bb4a4b53e105c38d1d3564587f6499c8a9e3ff74e042c4b9111501b523eec5"
     },
     {
-      "id": "face.tarot.tarot.trump.17.the-star",
+      "id": "face.tarot.tarot.trump.17.prudence",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -13233,12 +13301,16 @@
       "suit": null,
       "rank": "17",
       "number": 17,
-      "slug": "the-star",
-      "title": "THE STAR",
+      "slug": "prudence",
+      "title": "Prudence",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XVII",
+      "kind": "trump",
+      "group": "additional-virtue",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/17-the-star.png",
+      "path": "cards/faces/tarot/tarot/trumps/17-prudence.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -13261,10 +13333,10 @@
         300.0,
         300.0
       ],
-      "sha256": "7f91868cf11b4ccda289724f4041ce45423c9125e7c1172d730a8f03405f9759"
+      "sha256": "50016ec29f5819715d67ec3b50fafabbeb0e85bf1a9b4cb1a25f9578d7be9a50"
     },
     {
-      "id": "face.tarot.tarot.trump.18.the-moon",
+      "id": "face.tarot.tarot.trump.18.faith",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -13272,12 +13344,16 @@
       "suit": null,
       "rank": "18",
       "number": 18,
-      "slug": "the-moon",
-      "title": "THE MOON",
+      "slug": "faith",
+      "title": "Faith",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XVIII",
+      "kind": "trump",
+      "group": "additional-virtue",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/18-the-moon.png",
+      "path": "cards/faces/tarot/tarot/trumps/18-faith.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -13300,10 +13376,10 @@
         300.0,
         300.0
       ],
-      "sha256": "5a2dcda6d7942d54423e7b1565a22cc182aeb85bad9a3930884ff91e6857115c"
+      "sha256": "83ad6879a8db7883147e81485fed840f9bee21d7858be5646d86eee75917c73d"
     },
     {
-      "id": "face.tarot.tarot.trump.19.the-sun",
+      "id": "face.tarot.tarot.trump.19.charity",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -13311,12 +13387,16 @@
       "suit": null,
       "rank": "19",
       "number": 19,
-      "slug": "the-sun",
-      "title": "THE SUN",
+      "slug": "charity",
+      "title": "Charity",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XIX",
+      "kind": "trump",
+      "group": "additional-virtue",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/19-the-sun.png",
+      "path": "cards/faces/tarot/tarot/trumps/19-charity.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -13339,10 +13419,10 @@
         300.0,
         300.0
       ],
-      "sha256": "b93112accfeb59289972cd55b0d2a8f809e725ffa3bfe7e6963141dc5133f80e"
+      "sha256": "f0791856aaa5dd2316b9a461c65ca80594aa60f10600ebec92b981e39f7c2de5"
     },
     {
-      "id": "face.tarot.tarot.trump.20.judgement",
+      "id": "face.tarot.tarot.trump.20.fire",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -13350,12 +13430,16 @@
       "suit": null,
       "rank": "20",
       "number": 20,
-      "slug": "judgement",
-      "title": "JUDGEMENT",
+      "slug": "fire",
+      "title": "Fire",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XX",
+      "kind": "trump",
+      "group": "element",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/20-judgement.png",
+      "path": "cards/faces/tarot/tarot/trumps/20-fire.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -13378,10 +13462,10 @@
         300.0,
         300.0
       ],
-      "sha256": "c29e84fc20ce95e577a9243f7eae1873b25bdc24169f9d7d5091efbeb50c0dc4"
+      "sha256": "1a1f090bac247f42006789aa5c54c58c6bc9d139b2c606ea04bdf5ff6eb05ff7"
     },
     {
-      "id": "face.tarot.tarot.trump.21.the-world",
+      "id": "face.tarot.tarot.trump.21.water",
       "side": "face",
       "system": "tarot",
       "format": "tarot",
@@ -13389,12 +13473,16 @@
       "suit": null,
       "rank": "21",
       "number": 21,
-      "slug": "the-world",
-      "title": "THE WORLD",
+      "slug": "water",
+      "title": "Water",
       "color_variant": null,
       "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXI",
+      "kind": "trump",
+      "group": "element",
       "frame_color": "lamp-black",
-      "path": "cards/faces/tarot/tarot/trumps/21-the-world.png",
+      "path": "cards/faces/tarot/tarot/trumps/21-water.png",
       "media_type": "image/png",
       "pixels": [
         825,
@@ -13417,7 +13505,824 @@
         300.0,
         300.0
       ],
-      "sha256": "32745b8fa0546c1a638e71215bd0ee67e498cd59afded9721d122df981daa900"
+      "sha256": "51730943b0c7ba6a978c7a0b6d252a210ef75c115958b054629e6d2e5bf3f348"
+    },
+    {
+      "id": "face.tarot.tarot.trump.22.earth",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "22",
+      "number": 22,
+      "slug": "earth",
+      "title": "Earth",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXII",
+      "kind": "trump",
+      "group": "element",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/22-earth.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "b463f6e51b5e577f4993cd05aa3f96c7036f0928e880cc29b5c67a4253852ba4"
+    },
+    {
+      "id": "face.tarot.tarot.trump.23.air",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "23",
+      "number": 23,
+      "slug": "air",
+      "title": "Air",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXIII",
+      "kind": "trump",
+      "group": "element",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/23-air.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "835a5f3f200c7a8ef7d141262f25f31ae162e788744710ecdb2b8621306a7452"
+    },
+    {
+      "id": "face.tarot.tarot.trump.24.libra",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "24",
+      "number": 24,
+      "slug": "libra",
+      "title": "Libra",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXIV",
+      "kind": "trump",
+      "group": "zodiac",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/24-libra.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "9b47fa47ba66edaed0bca3fb7b41042e3f5876f1ca6239d1dccc66641af4257b"
+    },
+    {
+      "id": "face.tarot.tarot.trump.25.virgo",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "25",
+      "number": 25,
+      "slug": "virgo",
+      "title": "Virgo",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXV",
+      "kind": "trump",
+      "group": "zodiac",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/25-virgo.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "abd1fd843854fff00f8635a2e4e4c7e198d3c0dc08ff84ffe0c2ed6d92a9145f"
+    },
+    {
+      "id": "face.tarot.tarot.trump.26.scorpio",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "26",
+      "number": 26,
+      "slug": "scorpio",
+      "title": "Scorpio",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXVI",
+      "kind": "trump",
+      "group": "zodiac",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/26-scorpio.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "0d84bdb54a4b05f5aacf446c37b7d1add295693870b098bce2d13afaceaa3d30"
+    },
+    {
+      "id": "face.tarot.tarot.trump.27.aries",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "27",
+      "number": 27,
+      "slug": "aries",
+      "title": "Aries",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXVII",
+      "kind": "trump",
+      "group": "zodiac",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/27-aries.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "614d88e1b08d0a3302a0ca3df26b0857461736d8d152aaf7451e7521872319e9"
+    },
+    {
+      "id": "face.tarot.tarot.trump.28.capricorn",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "28",
+      "number": 28,
+      "slug": "capricorn",
+      "title": "Capricorn",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXVIII",
+      "kind": "trump",
+      "group": "zodiac",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/28-capricorn.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "0df21b96d7ab4f693122bd99e079a10560adc781c53622ec3b6df94de4745a91"
+    },
+    {
+      "id": "face.tarot.tarot.trump.29.sagittarius",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "29",
+      "number": 29,
+      "slug": "sagittarius",
+      "title": "Sagittarius",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXIX",
+      "kind": "trump",
+      "group": "zodiac",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/29-sagittarius.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "85ef24c62eea38713d1db133886656fd026c156b3308402c427e5356f626b3c7"
+    },
+    {
+      "id": "face.tarot.tarot.trump.30.cancer",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "30",
+      "number": 30,
+      "slug": "cancer",
+      "title": "Cancer",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXX",
+      "kind": "trump",
+      "group": "zodiac",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/30-cancer.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "c91effd19db533c29ac1998f5c9c0ae519f4119db8a9b63288dc5545db583f60"
+    },
+    {
+      "id": "face.tarot.tarot.trump.31.pisces",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "31",
+      "number": 31,
+      "slug": "pisces",
+      "title": "Pisces",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXXI",
+      "kind": "trump",
+      "group": "zodiac",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/31-pisces.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "83afb0eaa48703521ca466c8eb3c24d033a0b1f620d21f0bad7c92deea28c773"
+    },
+    {
+      "id": "face.tarot.tarot.trump.32.aquarius",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "32",
+      "number": 32,
+      "slug": "aquarius",
+      "title": "Aquarius",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXXII",
+      "kind": "trump",
+      "group": "zodiac",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/32-aquarius.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "ac931e4368cc0bceacaea3cf544eb4ba1249a8e55143d5aaa72c2b6d8ebfe3c7"
+    },
+    {
+      "id": "face.tarot.tarot.trump.33.leo",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "33",
+      "number": 33,
+      "slug": "leo",
+      "title": "Leo",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXXIII",
+      "kind": "trump",
+      "group": "zodiac",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/33-leo.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "23c134c2eaa41da641a645e308d2dfa3d4da2600ab5ad61b01f2181c27eccd37"
+    },
+    {
+      "id": "face.tarot.tarot.trump.34.taurus",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "34",
+      "number": 34,
+      "slug": "taurus",
+      "title": "Taurus",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXXIV",
+      "kind": "trump",
+      "group": "zodiac",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/34-taurus.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "ceadb4df4f7c7dcacc09a53546266c97e5893bef004aae83b45b3d9196353336"
+    },
+    {
+      "id": "face.tarot.tarot.trump.35.gemini",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "35",
+      "number": 35,
+      "slug": "gemini",
+      "title": "Gemini",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXXV",
+      "kind": "trump",
+      "group": "zodiac",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/35-gemini.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "b76d94cbe06e86be36d7e2bf2b02601ac0c54ec24991e46e6f6bde035f019dcc"
+    },
+    {
+      "id": "face.tarot.tarot.trump.36.the-star",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "36",
+      "number": 36,
+      "slug": "the-star",
+      "title": "The Star",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "",
+      "kind": "trump",
+      "group": "arie",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/36-the-star.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "56a5d92a9a019da99798f6ec922ecdf7fb11fe03bdcd72494e58ce45950af453"
+    },
+    {
+      "id": "face.tarot.tarot.trump.37.the-moon",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "37",
+      "number": 37,
+      "slug": "the-moon",
+      "title": "The Moon",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "",
+      "kind": "trump",
+      "group": "arie",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/37-the-moon.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "9f429c0013da8a73eef7b2bce0a41cf22268a9b6496754f94392207412bd2003"
+    },
+    {
+      "id": "face.tarot.tarot.trump.38.the-sun",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "38",
+      "number": 38,
+      "slug": "the-sun",
+      "title": "The Sun",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "",
+      "kind": "trump",
+      "group": "arie",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/38-the-sun.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "c5a43f55ce2730b6176f140ccaf97303ce00a06fc1cb9595c0d6ffcd410d0509"
+    },
+    {
+      "id": "face.tarot.tarot.trump.39.the-world",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "39",
+      "number": 39,
+      "slug": "the-world",
+      "title": "The World",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "",
+      "kind": "trump",
+      "group": "arie",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/39-the-world.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "df3138f0b79c0929232f6523f38642636e715e28f29d4ae7f298277834d4c412"
+    },
+    {
+      "id": "face.tarot.tarot.trump.40.the-trumpets",
+      "side": "face",
+      "system": "tarot",
+      "format": "tarot",
+      "arcana": "major",
+      "suit": null,
+      "rank": "40",
+      "number": 40,
+      "slug": "the-trumpets",
+      "title": "The Trumpets",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "",
+      "kind": "trump",
+      "group": "arie",
+      "frame_color": "lamp-black",
+      "path": "cards/faces/tarot/tarot/trumps/40-the-trumpets.png",
+      "media_type": "image/png",
+      "pixels": [
+        825,
+        1425
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.75,
+        4.75
+      ],
+      "trim_mm": [
+        69.85,
+        120.65
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "746ee6d44189c42ea04d78696eef3107570d6c5ba60c45fd0ac796b08f41ee6a"
     }
   ]
 }

@@ -84,6 +84,7 @@
         "clubs"
       ],
       "ranks": [
+        "ace",
         "2",
         "3",
         "4",
@@ -92,13 +93,19 @@
         "7",
         "8",
         "9",
-        "10"
+        "10",
+        "jack",
+        "queen",
+        "king"
       ],
-      "jokers": []
+      "jokers": [
+        "black",
+        "red"
+      ]
     }
   },
   "face_status": "review",
   "back_status": "approved",
   "renderer": "balanced-toranj-v1",
-  "face_renderer": "number-cards-v1"
+  "face_renderer": "number-cards-v1 + registered-faces-v1"
 }

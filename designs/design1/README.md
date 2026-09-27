@@ -4,8 +4,8 @@
 
 Paths and commands in this guide are relative to `designs/design1/`.
 
-An illustrated collection for software and printing: **348 faces and 30 backs**.
-The complete Tarot adds 78 faces. Poker, Jumbo, Travel, Bridge, and European Standard each have 52 suited cards
+An illustrated collection for software and printing: **367 faces and 30 backs**.
+The complete Minchiate adds 97 faces in Tarot size. Poker, Jumbo, Travel, Bridge, and European Standard each have 52 suited cards
 and two Jokers. The 270 French-suited faces and 30 backs use the
 [format-aware component renderer](docs/design/face-formats-v1.md).
 
@@ -51,8 +51,13 @@ their portraits are not pixel-exact half-turn duplicates.
 
 The five back colors are Lamp Black, Madder Lake, Manganese Violet,
 Prussian Blue, and Verdigris. They are pigment-inspired digital labels.
-The complete poker deck has 52 suited cards and two Jokers. Tarot has 78
-completed faces: 56 suit cards and 22 trumps. All are active catalog assets.
+The complete poker deck has 52 suited cards and two Jokers. Minchiate has 97
+completed faces: 56 suited cards, 40 trumps, and the unnumbered Fool.
+Trumps I–XXXV use Roman indices; the five Arie are unnumbered. Swords and
+Batons use crossed straight pips, Cups and Coins have female Maids, and all
+four Cavaliers use hybrid human/horse figures. The Hanged Man retains the
+existing upside-down Tarot illustration at the user's request. All 97 are
+active catalog assets; they replace the previous 78-card Tarot release.
 [Design 2](../design2/README.md) is a separate design with its own approved backs.
 
 ## Software use
@@ -78,7 +83,7 @@ from the outside edges of the canvas.
 
 The [gallery](index.html) starts with a size picker in the collection's shared
 dark studio theme. Pick a format to browse its cards, or open the
-[full gallery](all.html) for all 378 artworks. It works directly from disk or
+[full gallery](all.html) for all 397 artworks. It works directly from disk or
 over HTTP, and every original PNG is linked in the HTML for bulk download tools.
 Search by card name, suit, or color; click a card to inspect it at a larger size
 or turn it 180 degrees. Rebuild the static pages from the
@@ -92,10 +97,10 @@ size from PNG density metadata. Composite transparency onto the intended paper
 background for workflows requiring opaque RGB.
 
 From this design folder, build all six releases with `python scripts/package_decks.py --build --all`.
-`build/releases/design1-v1.1-<format>.zip` contains five matching backs and 54 French-suited faces (78 for Tarot),
+`build/releases/design1-v1.2-<format>.zip` contains five matching backs and 54 French-suited faces (97 Minchiate faces for Tarot),
 plus clean bleed and separate blue-cut-guide variants and a size-specific README.
 Select one with `--format jumbo` instead of `--all`. Each archive contains
-59 native images and 118 print variants; Tarot contains 83 native images and 166 print variants. The original `package_poker.py`
+59 native images and 118 print variants; Tarot contains 102 native images and 204 print variants. The original `package_poker.py`
 command remains a Poker-only shortcut. These commands publish nothing.
 
 The [King registration correction](docs/design/king-registration-v2.md) aligns
@@ -124,7 +129,7 @@ Run these commands from `designs/design1/`:
 
 ```text
 python scripts/rebuild_deck.py --check --active
-python scripts/render_tarot.py --check --active
+python scripts/render_minchiate.py --check --active
 python scripts/catalog.py --check
 python -m unittest discover -s scripts -p "test_*.py"
 ```
@@ -137,8 +142,10 @@ python scripts/rebuild_deck.py --check
 python scripts/rebuild_deck.py --apply
 ```
 
-Tarot uses its own renderer: `python scripts/render_tarot.py --stage --check`.
-After review, `python scripts/render_tarot.py --apply` promotes its checked stage.
+Minchiate uses `python scripts/render_minchiate.py --prepare --stage --check`.
+After review, `python scripts/render_minchiate.py --apply` promotes its checked stage.
+The original 78 Tarot faces and their hashes are preserved in
+`sources/before-minchiate-v1/`; `render_tarot.py` remains the historical renderer.
 
 After promotion, run `python ../../scripts/catalog.py --write` to refresh the
 collection catalog as well as the design-local catalog.

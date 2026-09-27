@@ -1,0 +1,591 @@
+{
+  "status": "promoted-and-validated",
+  "card_count": 97,
+  "layout_manifest": "docs/design/minchiate-layout-v1.json",
+  "layout_sha256": "fdda4897b5efb0573eff6ffe3fe164351df71b8bb93e67b48b87362b82361654",
+  "hanged_man": "Existing upside-down Tarot illustration retained at user request, 2026-09-27.",
+  "cards": [
+    {
+      "id": "ace-of-swords",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/swords/ace.png",
+      "sha256": "2c3fb28ef6f5e17beb1bd70e0f50ed3035b5a8ef2b7abd65c5f03727be000a79"
+    },
+    {
+      "id": "2-of-swords",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/swords/2.png",
+      "sha256": "50dcbebbc6f831fb6bedc9a7f67311918e24fa9896dea35354416f31576b5a49"
+    },
+    {
+      "id": "3-of-swords",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/swords/3.png",
+      "sha256": "6b531c5a4fc1e74d981cf319a70e96f29627e2c58303e4c9ee49816ab6dfaef0"
+    },
+    {
+      "id": "4-of-swords",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/swords/4.png",
+      "sha256": "ae5b4e9b90b2025a39063bb6bf4fe8ae1ade7bea9da0cacfb33de6034bf1a905"
+    },
+    {
+      "id": "5-of-swords",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/swords/5.png",
+      "sha256": "145c7a62dbd5db1bb82a657f8dcc711e0552202e05b2683c9327634fdfd52023"
+    },
+    {
+      "id": "6-of-swords",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/swords/6.png",
+      "sha256": "6893f3e851949e61b6e0ceb340b0f6bb76a1f134dd2f4986c21d4eedec915e0d"
+    },
+    {
+      "id": "7-of-swords",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/swords/7.png",
+      "sha256": "44f715053f74d140659e3a3aa4a43cc00f91210b03ddfd9b1562f2d2f5a308a3"
+    },
+    {
+      "id": "8-of-swords",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/swords/8.png",
+      "sha256": "054409ce576bcdc68ed35aec17b37deeed7467154adb1c7c547d5992287926db"
+    },
+    {
+      "id": "9-of-swords",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/swords/9.png",
+      "sha256": "89a5eec0d824319ba5c5aa92df7fa596e49c6f6e5deeae6b25fcf9c6d396257d"
+    },
+    {
+      "id": "10-of-swords",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/swords/10.png",
+      "sha256": "ea2917817626e19a9be0ab7e332ae66ec23ac57e115a67a08f846a3f33cf5d27"
+    },
+    {
+      "id": "page-of-swords",
+      "kind": "court",
+      "path": "cards/faces/tarot/tarot/swords/page.png",
+      "sha256": "0353a951bb09a9d402c2ef49264b99baf27787b62850e371e6d86c90d593edae"
+    },
+    {
+      "id": "knight-of-swords",
+      "kind": "court",
+      "path": "cards/faces/tarot/tarot/swords/knight.png",
+      "sha256": "e8ff1ff2ed3fe6c6fc6d5bba0c225a90849ad0cdf932a06533e5b7c93d702124"
+    },
+    {
+      "id": "queen-of-swords",
+      "kind": "court",
+      "path": "cards/faces/tarot/tarot/swords/queen.png",
+      "sha256": "859f556882f65e1504f9c4744bb00b4cef8ce9441bf858eea06e60e8a72beb5c"
+    },
+    {
+      "id": "king-of-swords",
+      "kind": "court",
+      "path": "cards/faces/tarot/tarot/swords/king.png",
+      "sha256": "fd8330183df0ec6f5f186e6da67df50d0cee3b20bf096c96a4b552ff341bdd56"
+    },
+    {
+      "id": "ace-of-batons",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/batons/ace.png",
+      "sha256": "de0163785d7818b85ab7e57b6bda88b7da89396bb3d4aa891c3b17d4762203f3"
+    },
+    {
+      "id": "2-of-batons",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/batons/2.png",
+      "sha256": "6953a60d8c83e7f8758e6160adf722d31af9083ec9c3240c37c60f9a27e9b43a"
+    },
+    {
+      "id": "3-of-batons",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/batons/3.png",
+      "sha256": "be3b9d71ab5548f16d0818a8f6816ad3d99600e7e93c557314bd27ce4cd24dc6"
+    },
+    {
+      "id": "4-of-batons",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/batons/4.png",
+      "sha256": "0e811ef8963bdc1935f49026cd4a2eea7ccc08b0bdb6bed70d2bcfcce4d59e07"
+    },
+    {
+      "id": "5-of-batons",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/batons/5.png",
+      "sha256": "fab39f0ee437866c9659de258e0417c688a5e06e4e738e804057671495039772"
+    },
+    {
+      "id": "6-of-batons",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/batons/6.png",
+      "sha256": "ee5787d1312b6e6db50c4c0463ddb36df2bc2504c4757d88e875846f93a8150d"
+    },
+    {
+      "id": "7-of-batons",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/batons/7.png",
+      "sha256": "2a72ff420e30f304ae5cb28cd83e8091a8b3a0bec7a10ea2e128cc3dac3f5507"
+    },
+    {
+      "id": "8-of-batons",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/batons/8.png",
+      "sha256": "79c340f73d5c32854ef2582fca8ab239292ffae2727db03eeb180360228f92ac"
+    },
+    {
+      "id": "9-of-batons",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/batons/9.png",
+      "sha256": "64e2b159276caefdd5eb82037040e3045332dec468ed502304912a88a25ebcab"
+    },
+    {
+      "id": "10-of-batons",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/batons/10.png",
+      "sha256": "174558568de0c1c01df30e6df867daf26ffb9017427ca73f89d2998f84f96f97"
+    },
+    {
+      "id": "page-of-batons",
+      "kind": "court",
+      "path": "cards/faces/tarot/tarot/batons/page.png",
+      "sha256": "85f66bda32bf558b90343c4ce43ff27a47d75a807a5b2658494e5f065b83c960"
+    },
+    {
+      "id": "knight-of-batons",
+      "kind": "court",
+      "path": "cards/faces/tarot/tarot/batons/knight.png",
+      "sha256": "80008b3d628428ea2fd5aaa4d60417ab9c0d437d5c181622c6fc9de7d5630f1a"
+    },
+    {
+      "id": "queen-of-batons",
+      "kind": "court",
+      "path": "cards/faces/tarot/tarot/batons/queen.png",
+      "sha256": "cf85f70d28bf4c9b93d6e3b076c455d28e7fc21efc074dea2c08249aecfca965"
+    },
+    {
+      "id": "king-of-batons",
+      "kind": "court",
+      "path": "cards/faces/tarot/tarot/batons/king.png",
+      "sha256": "9fb1a0bd746ec769f94c2029996ab35d0451925ee80ce114b3ea02e17d8addce"
+    },
+    {
+      "id": "ace-of-cups",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/cups/ace.png",
+      "sha256": "dc4e0b8127724bfcf1e93cc9b6d56758cfe679f0df83571e85b7a3a9242580c8"
+    },
+    {
+      "id": "2-of-cups",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/cups/2.png",
+      "sha256": "a72c8dd71d7ba90483a4fc03df69773c45ed087de3bf057217e1b5a3db49a46e"
+    },
+    {
+      "id": "3-of-cups",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/cups/3.png",
+      "sha256": "a1711065b5199b8bd35bfcbd54c514476c792360e6aeee7bc0c19ab234a62755"
+    },
+    {
+      "id": "4-of-cups",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/cups/4.png",
+      "sha256": "6e776bfdad0c901ec3aaccf94eb9ee0791427e11a8e35a71e31a4cc2427b4597"
+    },
+    {
+      "id": "5-of-cups",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/cups/5.png",
+      "sha256": "09f0e1d67bef4cb5826f49837a92e34018271bfbf92626ac52ee0388ca2790d0"
+    },
+    {
+      "id": "6-of-cups",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/cups/6.png",
+      "sha256": "9a110be88dfc2b6569de55c2429ca4091656a2c4915c0be7dbc079c32a5f05aa"
+    },
+    {
+      "id": "7-of-cups",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/cups/7.png",
+      "sha256": "fbb5b207eb025183c90db16629669f781c3cc342db06336ed9329336f6bac554"
+    },
+    {
+      "id": "8-of-cups",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/cups/8.png",
+      "sha256": "ce12047b2e7a4f76546b03d11d12b89d45a8248c5fbdc22d6173f9cc0df1bd4d"
+    },
+    {
+      "id": "9-of-cups",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/cups/9.png",
+      "sha256": "b23575b9033f9db879a82fe1c27e12637905a651d6bb6c0681e3ffe6652bcc23"
+    },
+    {
+      "id": "10-of-cups",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/cups/10.png",
+      "sha256": "8553154b68891e178162fcedda77d7b42244482648a2f786ca280e0107e06a1b"
+    },
+    {
+      "id": "page-of-cups",
+      "kind": "court",
+      "path": "cards/faces/tarot/tarot/cups/page.png",
+      "sha256": "573adfd1016903d1f040da4568a23bd92fd76ba9954104b3ee071ab9f61ed5b3"
+    },
+    {
+      "id": "knight-of-cups",
+      "kind": "court",
+      "path": "cards/faces/tarot/tarot/cups/knight.png",
+      "sha256": "5e181ccb8c309ccf7927a61b2ce480084d3b21fc53167e9e0569b8d390d15832"
+    },
+    {
+      "id": "queen-of-cups",
+      "kind": "court",
+      "path": "cards/faces/tarot/tarot/cups/queen.png",
+      "sha256": "3a947c361ae4f8d1a712a3567eeed06efcc849d612925d84c04cb52984d615d8"
+    },
+    {
+      "id": "king-of-cups",
+      "kind": "court",
+      "path": "cards/faces/tarot/tarot/cups/king.png",
+      "sha256": "358d5e95979fe6e915c8ab93f490ec63188095ec220aab1f04067a5f099412b5"
+    },
+    {
+      "id": "ace-of-coins",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/coins/ace.png",
+      "sha256": "ac7f53717f033c34ecdd492a48a0d4c0b7752c13313d7f3c875696f9403fb845"
+    },
+    {
+      "id": "2-of-coins",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/coins/2.png",
+      "sha256": "281d8dc955a5d544451a32c8cf7794e232ec9db6715300f95ceb40b1c3888747"
+    },
+    {
+      "id": "3-of-coins",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/coins/3.png",
+      "sha256": "7bc44bdef4401658eebdf7fc5f95cd78af96c3b3a7dbfcd81102aa458d9f51de"
+    },
+    {
+      "id": "4-of-coins",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/coins/4.png",
+      "sha256": "dbd8a460aef62972960e0d50b1b4f14f1ea9ec1513f69a991c58d8a56a5b73b0"
+    },
+    {
+      "id": "5-of-coins",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/coins/5.png",
+      "sha256": "478e6ae7837e62516e994277cb84f0ee1cf847bfa17dfc0f26b1d7912f0b4d4e"
+    },
+    {
+      "id": "6-of-coins",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/coins/6.png",
+      "sha256": "f63e4a3a75bd0e1bc8a6661321e2cea5b71bf42cf9b9085148c0aa773699a583"
+    },
+    {
+      "id": "7-of-coins",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/coins/7.png",
+      "sha256": "073ef3fdf8e64208913f825c015fefbb4bddb27e33f62ad1c43bcaa38ae1feca"
+    },
+    {
+      "id": "8-of-coins",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/coins/8.png",
+      "sha256": "0038df93c6e3c671ce5e63468ed2aa07049967822363d7d22bb1296c66d610a6"
+    },
+    {
+      "id": "9-of-coins",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/coins/9.png",
+      "sha256": "b8961136573628af0b8c668a30637f4ae4f83f183f4b7c6516ff6c7aa8fa809f"
+    },
+    {
+      "id": "10-of-coins",
+      "kind": "pip",
+      "path": "cards/faces/tarot/tarot/coins/10.png",
+      "sha256": "e460350b679ff86ce09ffb78f2e0da7871347b3c85efe143040a796b68a6a02d"
+    },
+    {
+      "id": "page-of-coins",
+      "kind": "court",
+      "path": "cards/faces/tarot/tarot/coins/page.png",
+      "sha256": "d4e7e663ec9ca390f1a9e9578f497781838493a410c925a67d6753841e827924"
+    },
+    {
+      "id": "knight-of-coins",
+      "kind": "court",
+      "path": "cards/faces/tarot/tarot/coins/knight.png",
+      "sha256": "13c7c4ad474055616318cb4988fd55d90674f30cd75fec883328160b5f888e53"
+    },
+    {
+      "id": "queen-of-coins",
+      "kind": "court",
+      "path": "cards/faces/tarot/tarot/coins/queen.png",
+      "sha256": "14ff98a7351b43d4f590b0e702bdd1a3249ea0795c5b67a6fb2ed55f37b80ad0"
+    },
+    {
+      "id": "king-of-coins",
+      "kind": "court",
+      "path": "cards/faces/tarot/tarot/coins/king.png",
+      "sha256": "335dfba7b0d500290cdd6b22a863f085c671c91c86e61fd9e47436be75e23832"
+    },
+    {
+      "id": "the-fool",
+      "kind": "fool",
+      "path": "cards/faces/tarot/tarot/trumps/00-the-fool.png",
+      "sha256": "05797bec98ee17123b08f0641a9116e41282112946112635a7a8e9f2fa81d73b"
+    },
+    {
+      "id": "bagatella",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/01-bagatella.png",
+      "sha256": "13ec89bef01c1d725d99724cdd06605f6d19a413c19fef3547314756d5ba52a0"
+    },
+    {
+      "id": "the-empress",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/02-the-empress.png",
+      "sha256": "82b34c9eec001de4f02019948f251d09789b427a531da7c72546c692b837f7b4"
+    },
+    {
+      "id": "the-emperor",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/03-the-emperor.png",
+      "sha256": "1d77fd88ca4e9b1c914660e521195a2dd77a111d08f4ad3d28ac7d2a8ff80c70"
+    },
+    {
+      "id": "the-eastern-emperor",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/04-the-eastern-emperor.png",
+      "sha256": "e5fc8dbc0904d2d0e95aa97725bcd11181cde8fa68ecfdeb2ac7452281dbb3dc"
+    },
+    {
+      "id": "love",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/05-love.png",
+      "sha256": "e9188f6ecc161bd29717d826c681ac099c6020ea14db1c065d2c4834fd644db8"
+    },
+    {
+      "id": "temperance",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/06-temperance.png",
+      "sha256": "417843450242dc49315897cee84222facdb371a91cd1325620139a765b9f3dc3"
+    },
+    {
+      "id": "fortitude",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/07-fortitude.png",
+      "sha256": "923c313de5f328e3e94a540ef4cf8e834bd31b8a2354776508a3a641d3fd99fd"
+    },
+    {
+      "id": "justice",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/08-justice.png",
+      "sha256": "0de0efc9ed0dbbcdf6fe05e6e1e4cdc986ca4cdca7053c7d16fa2190855cf6e8"
+    },
+    {
+      "id": "wheel-of-fortune",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/09-wheel-of-fortune.png",
+      "sha256": "a0e65aaf61edc58435fc69f5a141cfe0eb7beba134ee446013c75274c4b9e9d8"
+    },
+    {
+      "id": "the-chariot",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/10-the-chariot.png",
+      "sha256": "c393b8e5767331cc15454a2ab6c75ec7cbc1e2642d36f8c32a54b1c586e87c19"
+    },
+    {
+      "id": "time",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/11-time.png",
+      "sha256": "0e3f4d090cc0dd39c8bed80c1108dd9ad6ce49db34840901ce53b9a5e180bad3"
+    },
+    {
+      "id": "the-hanged-man",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/12-the-hanged-man.png",
+      "sha256": "80f497bfd32e9c6f862ce3c175dc7cb7e458def65eaf305930c0548fbf596735"
+    },
+    {
+      "id": "death",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/13-death.png",
+      "sha256": "ecdfd0fdf380fd8c270959d4d28761d6c7319da8eff1e9d51503347a8b24b3b9"
+    },
+    {
+      "id": "the-devil",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/14-the-devil.png",
+      "sha256": "9f037f3c193bd84dadebebd0719b9ea5d4cfb95d965854c3d14de658729ea3ff"
+    },
+    {
+      "id": "the-house-of-the-devil",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/15-the-house-of-the-devil.png",
+      "sha256": "2e38a678936aa929cab293cdb025aa76d748105ac551bbd4539158f31a1b339a"
+    },
+    {
+      "id": "hope",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/16-hope.png",
+      "sha256": "78bb4a4b53e105c38d1d3564587f6499c8a9e3ff74e042c4b9111501b523eec5"
+    },
+    {
+      "id": "prudence",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/17-prudence.png",
+      "sha256": "50016ec29f5819715d67ec3b50fafabbeb0e85bf1a9b4cb1a25f9578d7be9a50"
+    },
+    {
+      "id": "faith",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/18-faith.png",
+      "sha256": "83ad6879a8db7883147e81485fed840f9bee21d7858be5646d86eee75917c73d"
+    },
+    {
+      "id": "charity",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/19-charity.png",
+      "sha256": "f0791856aaa5dd2316b9a461c65ca80594aa60f10600ebec92b981e39f7c2de5"
+    },
+    {
+      "id": "fire",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/20-fire.png",
+      "sha256": "1a1f090bac247f42006789aa5c54c58c6bc9d139b2c606ea04bdf5ff6eb05ff7"
+    },
+    {
+      "id": "water",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/21-water.png",
+      "sha256": "51730943b0c7ba6a978c7a0b6d252a210ef75c115958b054629e6d2e5bf3f348"
+    },
+    {
+      "id": "earth",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/22-earth.png",
+      "sha256": "b463f6e51b5e577f4993cd05aa3f96c7036f0928e880cc29b5c67a4253852ba4"
+    },
+    {
+      "id": "air",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/23-air.png",
+      "sha256": "835a5f3f200c7a8ef7d141262f25f31ae162e788744710ecdb2b8621306a7452"
+    },
+    {
+      "id": "libra",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/24-libra.png",
+      "sha256": "9b47fa47ba66edaed0bca3fb7b41042e3f5876f1ca6239d1dccc66641af4257b"
+    },
+    {
+      "id": "virgo",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/25-virgo.png",
+      "sha256": "abd1fd843854fff00f8635a2e4e4c7e198d3c0dc08ff84ffe0c2ed6d92a9145f"
+    },
+    {
+      "id": "scorpio",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/26-scorpio.png",
+      "sha256": "0d84bdb54a4b05f5aacf446c37b7d1add295693870b098bce2d13afaceaa3d30"
+    },
+    {
+      "id": "aries",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/27-aries.png",
+      "sha256": "614d88e1b08d0a3302a0ca3df26b0857461736d8d152aaf7451e7521872319e9"
+    },
+    {
+      "id": "capricorn",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/28-capricorn.png",
+      "sha256": "0df21b96d7ab4f693122bd99e079a10560adc781c53622ec3b6df94de4745a91"
+    },
+    {
+      "id": "sagittarius",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/29-sagittarius.png",
+      "sha256": "85ef24c62eea38713d1db133886656fd026c156b3308402c427e5356f626b3c7"
+    },
+    {
+      "id": "cancer",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/30-cancer.png",
+      "sha256": "c91effd19db533c29ac1998f5c9c0ae519f4119db8a9b63288dc5545db583f60"
+    },
+    {
+      "id": "pisces",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/31-pisces.png",
+      "sha256": "83afb0eaa48703521ca466c8eb3c24d033a0b1f620d21f0bad7c92deea28c773"
+    },
+    {
+      "id": "aquarius",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/32-aquarius.png",
+      "sha256": "ac931e4368cc0bceacaea3cf544eb4ba1249a8e55143d5aaa72c2b6d8ebfe3c7"
+    },
+    {
+      "id": "leo",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/33-leo.png",
+      "sha256": "23c134c2eaa41da641a645e308d2dfa3d4da2600ab5ad61b01f2181c27eccd37"
+    },
+    {
+      "id": "taurus",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/34-taurus.png",
+      "sha256": "ceadb4df4f7c7dcacc09a53546266c97e5893bef004aae83b45b3d9196353336"
+    },
+    {
+      "id": "gemini",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/35-gemini.png",
+      "sha256": "b76d94cbe06e86be36d7e2bf2b02601ac0c54ec24991e46e6f6bde035f019dcc"
+    },
+    {
+      "id": "the-star",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/36-the-star.png",
+      "sha256": "56a5d92a9a019da99798f6ec922ecdf7fb11fe03bdcd72494e58ce45950af453"
+    },
+    {
+      "id": "the-moon",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/37-the-moon.png",
+      "sha256": "9f429c0013da8a73eef7b2bce0a41cf22268a9b6496754f94392207412bd2003"
+    },
+    {
+      "id": "the-sun",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/38-the-sun.png",
+      "sha256": "c5a43f55ce2730b6176f140ccaf97303ce00a06fc1cb9595c0d6ffcd410d0509"
+    },
+    {
+      "id": "the-world",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/39-the-world.png",
+      "sha256": "df3138f0b79c0929232f6523f38642636e715e28f29d4ae7f298277834d4c412"
+    },
+    {
+      "id": "the-trumpets",
+      "kind": "trump",
+      "path": "cards/faces/tarot/tarot/trumps/40-the-trumpets.png",
+      "sha256": "746ee6d44189c42ea04d78696eef3107570d6c5ba60c45fd0ac796b08f41ee6a"
+    }
+  ]
+}

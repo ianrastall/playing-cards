@@ -4,7 +4,7 @@
   "cards_checked": 36,
   "exact_half_turn_cards": 20,
   "upright_center_only_cards": 16,
-  "preserved_original_images": 170,
+  "preserved_original_images": null,
   "checks": [
     "visible connected pip counts",
     "nonoverlap and clear field containment",

@@ -19,7 +19,7 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parents[1]
 FORMATS = ['poker', 'bridge', 'european-standard', 'travel', 'jumbo', 'tarot']
 SUITS = ['spades', 'hearts', 'diamonds', 'clubs', 'batons', 'cups', 'swords', 'coins']
-RANKS = ['ace', *map(str, range(2, 11)), 'jack', 'knight', 'queen', 'king', 'joker']
+RANKS = ['ace', *map(str, range(2, 11)), 'jack', 'page', 'knight', 'queen', 'king', 'joker']
 COLORS = ['prussian-blue', 'verdigris', 'madder-lake', 'manganese-violet', 'lamp-black']
 
 
@@ -36,7 +36,8 @@ def inventory():
             a.update(group=f"{a['design']}-backs", title=label(a['color']), detail=f"{label(a['format'])} · Card back")
         else:
             title = a.get('title') or (f"{label(a['color_variant'])} Joker" if a['rank'] == 'joker' else f"{label(a['rank'])} of {label(a['suit'])}")
-            group = f"design1-{a['format']}" if a['design'] == 'design1' else 'design2-numbers'
+            group = f"design1-{a['format']}" if a['design'] == 'design1' else (
+                'design2-numbers' if a['rank'] in list(map(str, range(2, 11))) else 'design2-faces')
             a.update(group=group, title=title, detail=f"{label(a['format'])} · {a['pixels'][0]} × {a['pixels'][1]}")
         assets.append(a)
 
@@ -70,7 +71,7 @@ def inventory():
 
 def order(a):
     return (FORMATS.index(a['format']), SUITS.index(a['suit']) if a.get('suit') in SUITS else 99,
-            RANKS.index(a['rank']) if a.get('rank') in RANKS else int(a.get('number', 99)),
+            int(a['number']) if a.get('arcana') == 'major' else RANKS.index(a['rank']) if a.get('rank') in RANKS else 99,
             COLORS.index(a['color']) if a.get('color') in COLORS else 99, a['path'])
 
 
@@ -113,9 +114,10 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
     groups = OrderedDict()
     groups['design1-backs'] = ('Card backs', 'Five back colors.')
     for size in FORMATS:
-        groups[f'design1-{size}'] = ('Tarot' if size == 'tarot' else f'{label(size)} faces',
-                                    'The complete 78-card deck, including the major arcana.' if size == 'tarot' else 'Every suit, from ace to king, plus both Jokers.')
-    groups.update({'design2-courts': ('Courts, aces & Jokers', '18 artwork masters at their original dimensions.'),
+        groups[f'design1-{size}'] = ('Minchiate' if size == 'tarot' else f'{label(size)} faces',
+                                    'The complete 97-card Minchiate deck: 56 suited cards, 40 trumps, and the Fool.' if size == 'tarot' else 'Every suit, from ace to king, plus both Jokers.')
+    groups.update({'design2-faces': ('Courts, aces & Jokers', '18 finished Poker faces with centered artwork and the shared number-card borders.'),
+                   'design2-courts': ('Original artwork masters', '18 preserved source masters; use the finished Poker cards for consistent centers and borders.'),
                    'design2-numbers': ('Number cards', 'Ranks 2–10 in all four suits. Poker format, with gold lotus borders.'),
                    'design2-backs': ('Card backs', 'Current toranj backs in five colors.'),
                    'face-frames': ('Blank face frames', 'Blank card templates in Lamp Black and Madder Lake.')})
@@ -131,15 +133,15 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
     if numbers_only:
         heading = 'Number cards'
     intro = ('Two card designs available as PNG files.' if design is None else
-             'French-suited cards in five sizes, a 78-card Tarot deck, and five back colors in each size.' if design == 'design1' else
-             'Backs in six sizes, Poker number cards, blank face frames, and court, ace, and Joker artwork masters.')
+             'French-suited cards in five sizes, a 97-card Minchiate deck in Tarot size, and five back colors in each size.' if design == 'design1' else
+             'A complete Poker deck with shared borders and centered artwork, backs in six sizes, and blank face frames.')
     if numbers_only:
         intro = '36 Poker cards: ranks 2–10 in all four suits. Open a card to view, rotate, or download it.'
     if fmt:
         title = f'Design {design[-1]} · {label(fmt)}'
         heading = f'{label(fmt)} cards'
-        intro = ('The complete Tarot deck and five matching backs.' if fmt == 'tarot' else 'Every suit, both Jokers, and five matching backs.') if design == 'design1' else (
-            '36 number faces, five toranj backs, and two blank face frames. Court, ace, and Joker masters are available separately.' if fmt == 'poker' else
+        intro = ('The complete 97-card Minchiate deck and five matching backs.' if fmt == 'tarot' else 'Every suit, both Jokers, and five matching backs.') if design == 'design1' else (
+            '54 finished faces, five toranj backs, and two blank face frames. All faces share the same borders and center point.' if fmt == 'poker' else
             'Five toranj backs and two blank face frames. Finished faces are not yet available in this size.')
     if masters_only:
         title = 'Design 2 · Artwork masters'
@@ -153,7 +155,7 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
         intro += ' Choose a size to browse individual cards, or open the full gallery for bulk downloading.' if design else ' Choose a design, then a card size.'
     hero_design = design or 'design2'
     hero_back = next(a for a in assets if a['id'] == f'{hero_design}.back.{fmt or "poker"}.prussian-blue')
-    hero_face = next(a for a in assets if a['id'] == ('design2.master.king.spades' if hero_design == 'design2' else 'design1.face.french-suited.poker.spades.king'))
+    hero_face = next(a for a in assets if a['id'] == f'{hero_design}.face.french-suited.poker.spades.king')
     if numbers_only:
         hero_face = next(a for a in chosen if a['rank'] == '10' and a['suit'] == 'spades')
         hero_back = next(a for a in chosen if a['rank'] == '3' and a['suit'] == 'hearts')
@@ -176,8 +178,8 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
         content.append('</section>')
     if chooser and not design:
         content.append('<div class="design-options">')
-        for d, name, description in [('design1', 'Design 1', 'French-suited decks in five sizes and a 78-card Tarot deck. Five back colors in each size.'),
-                                     ('design2', 'Design 2', 'Backs in six sizes, Poker number cards, blank face frames, and artwork masters.')]:
+        for d, name, description in [('design1', 'Design 1', 'French-suited decks in five sizes and a 97-card Minchiate deck in Tarot size. Five back colors in each size.'),
+                                     ('design2', 'Design 2', 'A complete Poker deck with shared borders and centered artwork. Backs and blank face frames in six sizes.')]:
             back = next(a for a in assets if a['id'] == f'{d}.back.poker.prussian-blue')
             content.append(f'<a class="design-option" id="{d}" href="{url(f"designs/{d}/index.html")}"><img src="{url(back["path"])}" width="750" height="1050" alt="Design {d[-1]} Prussian Blue back" loading="lazy"><div><h2>{escape(name)}</h2><p>{description}</p><span class="choice-action">Choose a size →</span></div></a>')
         content.append('</div>')
@@ -189,7 +191,7 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
             width, height = spec['trim_inches']
             pixels = spec['back_pixels']
             count = sum(a['format'] == size and '.master.' not in a['id'] for a in chosen)
-            availability = ('78 faces · 5 backs' if size == 'tarot' else '54 faces · 5 backs') if design == 'design1' else ('36 number faces · 5 backs · 2 blank frames' if size == 'poker' else '5 backs · 2 blank frames · No finished faces')
+            availability = ('97 Minchiate faces · 5 backs' if size == 'tarot' else '54 faces · 5 backs') if design == 'design1' else ('54 faces · 5 backs · 2 blank frames' if size == 'poker' else '5 backs · 2 blank frames · No finished faces')
             content.append(f'<a class="size-option" href="{url(f"designs/{design}/{size}.html")}"><h2>{label(size)}</h2><p class="size-dimensions">{width:g} × {height:g} in <span>·</span> {pixels[0]} × {pixels[1]} px</p><p>{availability}</p><span class="choice-action">Browse {count} artworks →</span></a>')
         content.append('</div>')
     jump_links = f'<a href="{url(f"designs/{design}/index.html")}">Change size</a>' if design and not chooser else ''

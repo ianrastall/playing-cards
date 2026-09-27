@@ -1,4 +1,4 @@
-"""Build/verify all six Design 1 v1.1 release ZIPs, without publishing.
+"""Build/verify all six Design 1 v1.2 release ZIPs, without publishing.
 
 python scripts/package_decks.py --build --all
 python scripts/package_decks.py --check --format jumbo
@@ -20,7 +20,7 @@ from catalog import build_catalog
 ROOT=poker.ROOT
 OUT=poker.OUT
 FORMATS=('poker','jumbo','travel','bridge','european-standard','tarot')
-RELEASE_VERSION='1.1'
+RELEASE_VERSION='1.2'
 
 
 def geometry(fmt):
@@ -38,12 +38,15 @@ def geometry(fmt):
 def readme(fmt,g):
     w,h=g['inches'];nw,nh=g['native'];pw,ph=g['trim'];bw,bh=g['bleed'];gw,gh=g['guides']
     if fmt == 'tarot':
-        face_summary = '''78 faces: 40 numbered suit cards, 16 courts, and 22 trumps; plus five
-alternative backs. Choose one back color for a physical deck. There are 83
+        face_summary = '''97 Minchiate faces: 40 suit pips, 16 courts, 40 trumps, and the Fool; plus five
+alternative backs. Choose one back color for a physical deck. There are 102
 unique images, each supplied in native, clean-bleed, and cut-guide versions:
-249 PNGs total.'''
-        face_notes = '''The four suits are Swords, Batons, Cups, and Coins. Courts use Page,
-Knight, Queen, and King. Trumps run from 0 The Fool through 21 The World.
+306 PNGs total.'''
+        face_notes = '''The four suits are Swords, Batons, Cups, and Coins. Courts use Jack
+or Maid, Cavalier, Queen, and King. Trumps I-XXXV are followed by five
+unnumbered Arie (Star, Moon, Sun, World, Trumpets); the Fool is also unnumbered.
+The Hanged Man retains the original upside-down Tarot illustration by request.
+Numeric filenames record ordering, not the printed Roman index.
 Faces use paired side indices; court and trump art is upright. Swords, Batons,
 and trumps use Lamp Black frames; Cups and Coins use Madder Lake.'''
     else:
@@ -158,11 +161,11 @@ def build(fmt):
     assert catalog==json.loads((ROOT/'catalog.json').read_text(encoding='utf-8')),'Catalog stale'
     # Tie packages to the last complete artwork validation, not just its catalog.
     reports=[json.loads((ROOT/'docs/design/face-formats-v1-report.json').read_text(encoding='utf-8')),
-             json.loads((ROOT/'docs/design/tarot-full-v1-report.json').read_text(encoding='utf-8'))]
+             json.loads((ROOT/'docs/design/minchiate-v1-report.json').read_text(encoding='utf-8'))]
     validated={(a['path'] if a['path'].startswith('cards/') else 'cards/'+a['path']):a['sha256']
                for report in reports for a in report['cards']}
     assets=[a for a in catalog['assets'] if a['format']==fmt]
-    face_count=78 if fmt=='tarot' else 54
+    face_count=97 if fmt=='tarot' else 54
     unique_count=face_count+5
     png_count=unique_count*3
     assert len(assets)==unique_count and sum(a['side']=='face' for a in assets)==face_count
@@ -212,7 +215,7 @@ def check(fmt):
     g=geometry(fmt)
     folder,archive_path,checksum_path=release_paths(fmt)
     manifest=json.loads((folder/'manifest.json').read_text(encoding='utf-8'))
-    face_count=78 if fmt=='tarot' else 54
+    face_count=97 if fmt=='tarot' else 54
     unique_count=face_count+5
     png_count=unique_count*3
     assert manifest['format']==fmt and manifest['geometry']==g
@@ -259,10 +262,10 @@ def write_release_index():
         archives.append(dict(format=fmt,path=archive_path.name,
             sha256=poker.sha(archive_path),bytes=archive_path.stat().st_size,
             checksum_file=checksum_path.name,
-            faces=78 if fmt=='tarot' else 54,backs=5))
+            faces=97 if fmt=='tarot' else 54,backs=5))
     release=dict(version=1,design='Design 1',release_version=RELEASE_VERSION,
                  formats=list(FORMATS),archives=archives,
-                 total_active_faces=348,total_active_backs=30,total_active_pngs=378)
+                 total_active_faces=367,total_active_backs=30,total_active_pngs=397)
     path=OUT/f'design1-v{RELEASE_VERSION}.json'
     path.write_text(json.dumps(release,indent=2)+'\n',encoding='utf-8')
     sums=''.join(f"{a['sha256']}  {a['path']}\n" for a in archives)

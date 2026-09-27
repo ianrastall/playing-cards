@@ -212,5 +212,13 @@
       "revision": "toranj-v1",
       "manifest": "designs/design2/manifest.json"
     }
+  ],
+  "archived_releases": [
+    {
+      "original_root": "designs/design1/cards/faces/tarot/tarot",
+      "archive_root": "designs/design1/sources/before-minchiate-v1",
+      "replacement_report": "designs/design1/docs/design/minchiate-v1-report.json",
+      "reason": "Replace standard Tarot with the complete 97-card Minchiate release; preserve all 78 original face bytes."
+    }
   ]
 }

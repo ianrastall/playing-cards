@@ -1,20 +1,21 @@
 # Playing Cards
 
-Two independent designs, with **444 finished PNGs available directly in the repository**.
+Two independent designs, with **481 finished PNGs available directly in the repository**.
 Open the [collection gallery](index.html), choose a design, then choose a card
 size before browsing the artwork. Each design has its own page. For bulk
-downloads, the [complete gallery](all.html) links all 474 selected images
-directly in its HTML: the 444 production cards below, 18 Design 2
+downloads, the [complete gallery](all.html) links all 511 selected images
+directly in its HTML: the 481 production cards below, 18 Design 2
 court/ace/Joker masters, and 12 blank face frames.
 
 | Design | Finished artwork | Files | Gallery |
 | --- | --- | --- | --- |
-| [Design 1](designs/design1/README.md) — Morris, Mucha and Safavid-inspired botanical ornament | 348 faces, including the complete 78-card Tarot; 30 backs | [Cards](designs/design1/cards/) | [Browse](designs/design1/index.html) |
-| [Design 2](designs/design2/README.md) — Ming and Tang-inspired silk florals | 36 Poker number faces; 30 approved backs in six sizes | [Cards](designs/design2/cards/) | [Browse](designs/design2/index.html) |
+| [Design 1](designs/design1/README.md) — Morris, Mucha and Safavid-inspired botanical ornament | 367 faces, including the complete 97-card Minchiate; 30 backs | [Cards](designs/design1/cards/) | [Browse](designs/design1/index.html) |
+| [Design 2](designs/design2/README.md) — Ming and Tang-inspired silk florals | 54 Poker faces; 30 approved backs in six sizes | [Cards](designs/design2/cards/) | [Browse](designs/design2/index.html) |
 
 Design 2's [number-card gallery](designs/design2/number-cards.html) includes a
-180-degree turn control. Its approved court, Joker and ace artworks are retained
-as source masters. Tarot-sized backs are included.
+180-degree turn control. Its courts, Jokers and aces now share the numeral
+borders and center point in the [complete Poker gallery](designs/design2/poker.html).
+Original source masters are preserved separately. Tarot-sized backs are included.
 The colors are Lamp Black, Madder Lake, Manganese Violet, Prussian Blue and Verdigris.
 
 ## Folder layout
@@ -82,7 +83,7 @@ Open `http://localhost:8000/`. All galleries also work as local HTML files.
 The home page offers two designs; each design page offers six sizes with trim
 dimensions, pixel dimensions, and available artwork. Only the next page loads
 the card grid. Design 2's artwork masters have a separate gallery because they
-are not finished cards in the selected size.
+are preserved originals; the balanced Poker exports appear in the size gallery.
 
 Search a gallery by name, suit, or color, then click an artwork to inspect it,
 turn it 180 degrees, or download it. Navigation and original PNG links work
@@ -111,6 +112,9 @@ python scripts/check_layout.py
 python -m unittest discover -s scripts -p "test_*.py"
 python -m unittest discover -s designs/design1/scripts -p "test_*.py"
 python designs/design2/scripts/audit_design2_registration.py
+python designs/design2/scripts/register_face_masters.py --check --active
+python designs/design2/scripts/audit_number_cards.py --active
+python designs/design1/scripts/render_minchiate.py --check --active
 ```
 
 After changing approved artwork or inventory, run `python scripts/catalog.py --write`

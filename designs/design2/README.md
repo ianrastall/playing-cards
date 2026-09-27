@@ -11,8 +11,10 @@ to a rich central surround. Palette-specific foliage and medallion treatments
 preserve contrast in Prussian Blue, Verdigris, Madder Lake, Manganese Violet and
 Lamp Black.
 
-Finished back PNGs live in `cards/backs/<format>/<color>.png`. The 36 Poker
-number faces are in `cards/faces/french-suited/poker/<suit>/<rank>.png`.
+Finished back PNGs live in `cards/backs/<format>/<color>.png`. The complete
+54-face Poker set is in `cards/faces/french-suited/poker/`: 36 number cards,
+four aces, twelve courts, and two Jokers. All faces use the same frame pixels,
+index panels, silhouette, and canvas center, `(374.5, 524.5)`.
 Discarded dark-field studies are out of the active
 source tree; local recovery copies are in the ignored work folder.
 
@@ -40,6 +42,12 @@ more space for pip patterns. All [36 number cards](docs/design/number-cards-v1.m
 are now composed at 750 × 1050. Even ranks are exactly reversible; odd ranks
 have one upright center pip with all surrounding pips paired by rotation.
 [Browse the cards and turn them over](number-cards.html).
+
+The [registered court, ace and Joker exports](docs/design/registered-faces-v1.md)
+place the original artwork inside the numeral frames. Fourteen courts/Jokers
+have exact half-turn symmetry; the four aces retain their upright suit shapes.
+Their central turquoise stones use the same canvas anchor, with measured
+sampling error below 0.011 pixels. Original generated masters are preserved.
 
 ## Formats and construction
 
@@ -74,10 +82,10 @@ separates its nested regions through graphite-to-ink values.
 ## Browse and reproduce
 
 Open `index.html` directly or through the repository's HTTP server. Choose a
-size before browsing its cards. Poker includes 36 number faces, five backs,
+size before browsing its cards. Poker includes 54 faces, five backs,
 and two blank frames; the other sizes include five backs and two blank frames.
-The [18 court/ace/Joker masters](masters.html) are shown separately at their
-original dimensions. The [full gallery](all.html) includes all 96 selected
+The [18 original court/ace/Joker masters](masters.html) are shown separately at their
+original dimensions. The [full gallery](all.html) includes all 114 selected
 images, with every original PNG linked in the initial HTML for bulk download
 tools. Search by name, suit, or color; click an image to open the viewer, use
 the arrow keys to compare images, turn a card 180 degrees, or download it.
@@ -99,6 +107,9 @@ Python dependencies are in the root `requirements.txt`. To verify the permanent 
 
 ```text
 python scripts/audit_design2_registration.py
+python scripts/audit_face_frames.py
+python scripts/audit_number_cards.py --active
+python scripts/register_face_masters.py --check --active
 python ../../scripts/catalog.py --check
 ```
 
