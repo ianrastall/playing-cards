@@ -1,27 +1,16 @@
 {
   "version": 1,
-  "status": "incomplete",
+  "status": "ready-to-stage",
   "planned_count": 97,
-  "available_count": 81,
-  "missing": [
+  "available_count": 97,
+  "missing": [],
+  "generated": [
     "knight-of-swords",
     "knight-of-batons",
     "page-of-cups",
     "knight-of-cups",
     "page-of-coins",
     "knight-of-coins",
-    "time",
-    "the-hanged-man",
-    "death",
-    "the-devil",
-    "the-house-of-the-devil",
-    "the-star",
-    "the-moon",
-    "the-sun",
-    "the-world",
-    "the-trumpets"
-  ],
-  "generated": [
     "the-fool",
     "bagatella",
     "the-eastern-emperor",
@@ -30,6 +19,10 @@
     "fortitude",
     "wheel-of-fortune",
     "the-chariot",
+    "time",
+    "death",
+    "the-devil",
+    "the-house-of-the-devil",
     "hope",
     "prudence",
     "faith",
@@ -49,7 +42,12 @@
     "aquarius",
     "leo",
     "taurus",
-    "gemini"
+    "gemini",
+    "the-star",
+    "the-moon",
+    "the-sun",
+    "the-world",
+    "the-trumpets"
   ],
   "inventory_path": "../../docs/minchiate-97.json",
   "inventory_sha256": "9c1ea854421334b7c44194be305e796ebfb1b3dc3ebd8cd25e5e09ae2669fdb5",
@@ -698,6 +696,49 @@
         }
       ]
     },
+    "the-hanged-man": {
+      "kind": "trump",
+      "source": "sources/generated/tarot-full-assets-v1/the-hanged-man.png",
+      "source_sha256": "81e5331a5f53fe83a03f57c91255e3041da038f24aea1c8412898290e8f37a3e",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "path": "sources/components/tarot/full-assets-v1/the-hanged-man.png",
+      "sha256": "2c87446f281d93636ffae42da3a33026873a199ab4e4eb8db0ff4b4708623904",
+      "crop": [
+        124,
+        0,
+        883,
+        1534
+      ],
+      "size": [
+        759,
+        1534
+      ],
+      "anchor": [
+        379.0,
+        766.5
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_source_bounds": [
+        136,
+        9,
+        871,
+        1522
+      ],
+      "source_edge_pixels": 0,
+      "prompt_id": "the-hanged-man",
+      "references": [
+        {
+          "path": "D:/dev/proj/playing-cards/sources/generated/tarot-review-v1/empress.png",
+          "sha256": "3c5bbaa11b4bb0a0f855cdbe87893b7f96f1e7a32c1475ae75495a79cd7dcb86"
+        }
+      ]
+    },
     "batons-index": {
       "kind": "code-native-index",
       "path": "sources/components/tarot/full-assets-v1/batons-index-mask.png",
@@ -873,6 +914,102 @@
       "source": "code-native glyph in scripts/tarot_review.py",
       "reused": true
     },
+    "minchiate-knight-of-swords": {
+      "path": "sources/components/tarot/minchiate-v1/knight-of-swords.png",
+      "sha256": "e388545aed4a0f84f3a9d292ff35b05f7c1ec396a0889149345f1315cc714074",
+      "size": [
+        981,
+        1495
+      ],
+      "source": "sources/generated/minchiate-v1/knight-of-swords.png",
+      "source_sha256": "607c40f9894deddee98c37438c2fb85ab82dec98f97560a814cd72363dea41d7",
+      "crop": [
+        4,
+        0,
+        985,
+        1495
+      ]
+    },
+    "minchiate-knight-of-batons": {
+      "path": "sources/components/tarot/minchiate-v1/knight-of-batons.png",
+      "sha256": "aebba91ee1bb71a539408fd037418940fca4e90cc80948b76afcd04c7cf785ab",
+      "size": [
+        918,
+        1532
+      ],
+      "source": "sources/generated/minchiate-v1/knight-of-batons.png",
+      "source_sha256": "934a95da508d258e1849d126cb181c63bef691777394dff06e547e57444d94bd",
+      "crop": [
+        12,
+        0,
+        930,
+        1532
+      ]
+    },
+    "minchiate-page-of-cups": {
+      "path": "sources/components/tarot/minchiate-v1/page-of-cups.png",
+      "sha256": "3be3a1ed79bfb0be46f29650820d6b07a4e93bf198de14ff7f2228199c40ef91",
+      "size": [
+        923,
+        1529
+      ],
+      "source": "sources/generated/minchiate-v1/page-of-cups.png",
+      "source_sha256": "672b3f3b2f3a7459b15e8b45cc2fa6bdbeddb3bddeca782fc830ddacb3ca06b5",
+      "crop": [
+        58,
+        5,
+        981,
+        1534
+      ]
+    },
+    "minchiate-knight-of-cups": {
+      "path": "sources/components/tarot/minchiate-v1/knight-of-cups.png",
+      "sha256": "7c57e2701d9936ec2c2a7fbe5cd37da8d07428540df7699a7f45cc161678814e",
+      "size": [
+        1013,
+        1535
+      ],
+      "source": "sources/generated/minchiate-v1/knight-of-cups.png",
+      "source_sha256": "f931e9123091be2887a584ec2f9ac04056d6215b8917788a0b6abd8c995e45d3",
+      "crop": [
+        11,
+        1,
+        1024,
+        1536
+      ]
+    },
+    "minchiate-page-of-coins": {
+      "path": "sources/components/tarot/minchiate-v1/page-of-coins.png",
+      "sha256": "9f9588a7e46837b17c74d4773dfa82e30d48ae350ed57893f21008c91b1a5545",
+      "size": [
+        871,
+        1531
+      ],
+      "source": "sources/generated/minchiate-v1/page-of-coins.png",
+      "source_sha256": "6ad0a4102af9b773da705f92b3ffa92c94d0e76143c5982eb9c90e59f0885858",
+      "crop": [
+        76,
+        5,
+        947,
+        1536
+      ]
+    },
+    "minchiate-knight-of-coins": {
+      "path": "sources/components/tarot/minchiate-v1/knight-of-coins.png",
+      "sha256": "17ab0e7ba189bffffbadd4bd731dbbb494292b1811754e1c0d81a595da148255",
+      "size": [
+        956,
+        1521
+      ],
+      "source": "sources/generated/minchiate-v1/knight-of-coins.png",
+      "source_sha256": "94c3d80015cd835ade3d8f76b1bc1c0faefbecd514f9b7a68cd85cf3136d2cb2",
+      "crop": [
+        21,
+        7,
+        977,
+        1528
+      ]
+    },
     "minchiate-the-fool": {
       "path": "sources/components/tarot/minchiate-v1/the-fool.png",
       "sha256": "08d16c42f9ad4688bfb940777fdca91a160c6249e9d9a48dba9f863abdfceaaf",
@@ -999,6 +1136,70 @@
         0,
         1021,
         1524
+      ]
+    },
+    "minchiate-time": {
+      "path": "sources/components/tarot/minchiate-v1/time.png",
+      "sha256": "ced8b2c1f3c05ce33195449a84a1d1e729767086cd5131a67c818f733f6a8870",
+      "size": [
+        1011,
+        1516
+      ],
+      "source": "sources/generated/minchiate-v1/time.png",
+      "source_sha256": "a86cd67d81b856b2778dd57f7d68a924545c37a52333d3b3105967713b6064f7",
+      "crop": [
+        6,
+        16,
+        1017,
+        1532
+      ]
+    },
+    "minchiate-death": {
+      "path": "sources/components/tarot/minchiate-v1/death.png",
+      "sha256": "aab7b440610dd83c6caba86d44c05e6a7d17cf9d33c53c35311adf24f05a13f0",
+      "size": [
+        1021,
+        1522
+      ],
+      "source": "sources/generated/minchiate-v1/death.png",
+      "source_sha256": "9e90665add6f3cda4e3418d3bd1cf3726db94659364987ba7d4fdd04eed4b71d",
+      "crop": [
+        2,
+        9,
+        1023,
+        1531
+      ]
+    },
+    "minchiate-the-devil": {
+      "path": "sources/components/tarot/minchiate-v1/the-devil.png",
+      "sha256": "51d8cb6855424ac841d3d10f52a9f1a76736df7950b4d58078083b2de4f91acc",
+      "size": [
+        940,
+        1536
+      ],
+      "source": "sources/generated/minchiate-v1/the-devil.png",
+      "source_sha256": "442a95523cbfd0c09ac99164656d8cdda903df495d5fe9ee6821d12e0f593a5b",
+      "crop": [
+        65,
+        0,
+        1005,
+        1536
+      ]
+    },
+    "minchiate-the-house-of-the-devil": {
+      "path": "sources/components/tarot/minchiate-v1/the-house-of-the-devil.png",
+      "sha256": "2d502b7a3b8dca3bcaf2e8f65d9dc4f4dff75fcda071dc027c164bdfe0de49fb",
+      "size": [
+        1022,
+        1475
+      ],
+      "source": "sources/generated/minchiate-v1/the-house-of-the-devil.png",
+      "source_sha256": "ae336512c835d22c1494bf9150c144ce1c8556b20345649554ca1a90988f16d9",
+      "crop": [
+        0,
+        2,
+        1022,
+        1477
       ]
     },
     "minchiate-hope": {
@@ -1319,6 +1520,86 @@
         14,
         1021,
         1498
+      ]
+    },
+    "minchiate-the-star": {
+      "path": "sources/components/tarot/minchiate-v1/the-star.png",
+      "sha256": "683c39da0c023511f8afe64724f04056726eed9160f8077da1c4261ad634a43b",
+      "size": [
+        936,
+        1536
+      ],
+      "source": "sources/generated/minchiate-v1/the-star.png",
+      "source_sha256": "690685f04fb10a0aadead9c19340dcd71c2fd8d980d957e786a1a065bd42e976",
+      "crop": [
+        49,
+        0,
+        985,
+        1536
+      ]
+    },
+    "minchiate-the-moon": {
+      "path": "sources/components/tarot/minchiate-v1/the-moon.png",
+      "sha256": "6cd9c64e2631f02ed667cf49374c8d3ccfdd1bd7dd2841ab39c50d26e8160af3",
+      "size": [
+        1019,
+        1536
+      ],
+      "source": "sources/generated/minchiate-v1/the-moon.png",
+      "source_sha256": "b7274b4463d4a54ef8496994a5a837710728254d3d1efca66d3dfd39f1e263f0",
+      "crop": [
+        5,
+        0,
+        1024,
+        1536
+      ]
+    },
+    "minchiate-the-sun": {
+      "path": "sources/components/tarot/minchiate-v1/the-sun.png",
+      "sha256": "e346a9687a0ea8e9e72aa28f709ae17b6326049be3d9c51333b09b14feb56c9d",
+      "size": [
+        1018,
+        1521
+      ],
+      "source": "sources/generated/minchiate-v1/the-sun.png",
+      "source_sha256": "7a15bb28da0220e86fe85882c93f5856d2b52bc1ada3e300cfc41d74bf5621e6",
+      "crop": [
+        3,
+        0,
+        1021,
+        1521
+      ]
+    },
+    "minchiate-the-world": {
+      "path": "sources/components/tarot/minchiate-v1/the-world.png",
+      "sha256": "6422098a4ca72d37958ca46fc3a48168b49a0942f76ebe0a85b9ed7055bfa256",
+      "size": [
+        1018,
+        1533
+      ],
+      "source": "sources/generated/minchiate-v1/the-world.png",
+      "source_sha256": "c196cc8ba31e2be037aa6185896d861bd45d39a0d9995e03f981c0acbdef090d",
+      "crop": [
+        3,
+        0,
+        1021,
+        1533
+      ]
+    },
+    "minchiate-the-trumpets": {
+      "path": "sources/components/tarot/minchiate-v1/the-trumpets.png",
+      "sha256": "4033e8348e341d838a5328a306b22c08b3dea4c0039962ff08bf1b4999d6c7e5",
+      "size": [
+        985,
+        1536
+      ],
+      "source": "sources/generated/minchiate-v1/the-trumpets.png",
+      "source_sha256": "4fa6cfd855f0e09ee8ee24cbfcd40236b03a1da107591553c01b2fff41caf5ef",
+      "crop": [
+        39,
+        0,
+        1024,
+        1536
       ]
     }
   },
@@ -2201,6 +2482,34 @@
             685
           ],
           "height": 920,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "knight-of-swords",
+      "kind": "court",
+      "suit": "swords",
+      "rank": "knight",
+      "title": "CAVALIER OF SWORDS",
+      "printed_index": "C",
+      "index": "C",
+      "glyph": "swords",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-knight-of-swords",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-knight-of-swords",
+          "center": [
+            412,
+            685
+          ],
+          "height": 792,
           "rotation": 0,
           "mirror": false,
           "role": "figure"
@@ -3148,6 +3457,34 @@
       ]
     },
     {
+      "id": "knight-of-batons",
+      "kind": "court",
+      "suit": "batons",
+      "rank": "knight",
+      "title": "CAVALIER OF BATONS",
+      "printed_index": "C",
+      "index": "C",
+      "glyph": "batons",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-knight-of-batons",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-knight-of-batons",
+          "center": [
+            412,
+            685
+          ],
+          "height": 868,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
       "id": "queen-of-batons",
       "kind": "court",
       "suit": "batons",
@@ -4056,6 +4393,62 @@
           "rotation": 0,
           "mirror": false,
           "role": "emblem"
+        }
+      ]
+    },
+    {
+      "id": "page-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "page",
+      "title": "MAID OF CUPS",
+      "printed_index": "M",
+      "index": "M",
+      "glyph": "cups",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-page-of-cups",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-page-of-cups",
+          "center": [
+            412,
+            685
+          ],
+          "height": 861,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "knight-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "knight",
+      "title": "CAVALIER OF CUPS",
+      "printed_index": "C",
+      "index": "C",
+      "glyph": "cups",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-knight-of-cups",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-knight-of-cups",
+          "center": [
+            412,
+            685
+          ],
+          "height": 788,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
         }
       ]
     },
@@ -4972,6 +5365,62 @@
       ]
     },
     {
+      "id": "page-of-coins",
+      "kind": "court",
+      "suit": "coins",
+      "rank": "page",
+      "title": "MAID OF COINS",
+      "printed_index": "M",
+      "index": "M",
+      "glyph": "coins",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-page-of-coins",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-page-of-coins",
+          "center": [
+            412,
+            685
+          ],
+          "height": 914,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "knight-of-coins",
+      "kind": "court",
+      "suit": "coins",
+      "rank": "knight",
+      "title": "CAVALIER OF COINS",
+      "printed_index": "C",
+      "index": "C",
+      "glyph": "coins",
+      "ink": "madder-lake",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-knight-of-coins",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-knight-of-coins",
+          "center": [
+            412,
+            685
+          ],
+          "height": 827,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
       "id": "queen-of-coins",
       "kind": "court",
       "suit": "coins",
@@ -5334,6 +5783,146 @@
             685
           ],
           "height": 780,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "kind": "trump",
+      "title": "TIME",
+      "rank_order": 11,
+      "printed_index": "XI",
+      "group": "traditional-trump",
+      "index": "XI",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-time",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-time",
+          "center": [
+            412,
+            685
+          ],
+          "height": 780,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "the-hanged-man",
+      "kind": "trump",
+      "title": "THE HANGED MAN",
+      "rank_order": 12,
+      "printed_index": "XII",
+      "group": "traditional-trump",
+      "index": "XII",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "the-hanged-man",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "the-hanged-man",
+          "center": [
+            412,
+            685
+          ],
+          "height": 920,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "death",
+      "kind": "trump",
+      "title": "DEATH",
+      "rank_order": 13,
+      "printed_index": "XIII",
+      "group": "traditional-trump",
+      "index": "XIII",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-death",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-death",
+          "center": [
+            412,
+            685
+          ],
+          "height": 775,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "the-devil",
+      "kind": "trump",
+      "title": "THE DEVIL",
+      "rank_order": 14,
+      "printed_index": "XIV",
+      "group": "traditional-trump",
+      "index": "XIV",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-the-devil",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-the-devil",
+          "center": [
+            412,
+            685
+          ],
+          "height": 850,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "the-house-of-the-devil",
+      "kind": "trump",
+      "title": "THE HOUSE OF THE DEVIL",
+      "rank_order": 15,
+      "printed_index": "XV",
+      "group": "traditional-trump",
+      "index": "XV",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-the-house-of-the-devil",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-the-house-of-the-devil",
+          "center": [
+            412,
+            685
+          ],
+          "height": 750,
           "rotation": 0,
           "mirror": false,
           "role": "figure"
@@ -5894,6 +6483,146 @@
             685
           ],
           "height": 779,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "the-star",
+      "kind": "trump",
+      "title": "THE STAR",
+      "rank_order": 36,
+      "printed_index": "",
+      "group": "arie",
+      "index": "",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-the-star",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-the-star",
+          "center": [
+            412,
+            685
+          ],
+          "height": 853,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "the-moon",
+      "kind": "trump",
+      "title": "THE MOON",
+      "rank_order": 37,
+      "printed_index": "",
+      "group": "arie",
+      "index": "",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-the-moon",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-the-moon",
+          "center": [
+            412,
+            685
+          ],
+          "height": 784,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "the-sun",
+      "kind": "trump",
+      "title": "THE SUN",
+      "rank_order": 38,
+      "printed_index": "",
+      "group": "arie",
+      "index": "",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-the-sun",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-the-sun",
+          "center": [
+            412,
+            685
+          ],
+          "height": 777,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "the-world",
+      "kind": "trump",
+      "title": "THE WORLD",
+      "rank_order": 39,
+      "printed_index": "",
+      "group": "arie",
+      "index": "",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-the-world",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-the-world",
+          "center": [
+            412,
+            685
+          ],
+          "height": 783,
+          "rotation": 0,
+          "mirror": false,
+          "role": "figure"
+        }
+      ]
+    },
+    {
+      "id": "the-trumpets",
+      "kind": "trump",
+      "title": "THE TRUMPETS",
+      "rank_order": 40,
+      "printed_index": "",
+      "group": "arie",
+      "index": "",
+      "glyph": "trumps",
+      "ink": "lamp-black",
+      "reversible": false,
+      "expected_emblems": 0,
+      "primary_asset": "minchiate-the-trumpets",
+      "instances": [
+        {
+          "id": "figure",
+          "component": "minchiate-the-trumpets",
+          "center": [
+            412,
+            685
+          ],
+          "height": 811,
           "rotation": 0,
           "mirror": false,
           "role": "figure"

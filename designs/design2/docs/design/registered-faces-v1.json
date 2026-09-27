@@ -1,0 +1,505 @@
+{
+  "revision": "registered-faces-v1",
+  "center": [
+    374.5,
+    524.5
+  ],
+  "border_policy": "Pixel-identical to the existing Poker numeral frames outside field and panels.",
+  "directional_cards": "Aces retain their upright suit shape; courts and Jokers are exact half-turns.",
+  "frames": {
+    "field-mask.png": {
+      "path": "sources/components/design2-face-frames-v1/poker/field-mask.png",
+      "sha256": "62942da62428617627017ce0407c0c5ae379134f9be696b6de386f03c27b1719"
+    },
+    "frame-color-mask.png": {
+      "path": "sources/components/design2-face-frames-v1/poker/frame-color-mask.png",
+      "sha256": "2db25ebb78fea258ac019ccf53540d5df4e84a8706a63de4eac88948b3a3db9f"
+    },
+    "lamp-black.png": {
+      "path": "sources/components/design2-face-frames-v1/poker/lamp-black.png",
+      "sha256": "5dcdf487f6db1f6885778558856aade97d2dfb8ded8311ddcbf0d6d65a722a25"
+    },
+    "madder-lake.png": {
+      "path": "sources/components/design2-face-frames-v1/poker/madder-lake.png",
+      "sha256": "19b4c547c0558158e3edd0eb5499a8b9832390ea5366be36e96b663855a11af3"
+    },
+    "outline-mask.png": {
+      "path": "sources/components/design2-face-frames-v1/poker/outline-mask.png",
+      "sha256": "30010a291b9afb91995dc80ca967f1dc4d97f79d0b324e6056eed06a5acf3587"
+    },
+    "panel-mask.png": {
+      "path": "sources/components/design2-face-frames-v1/poker/panel-mask.png",
+      "sha256": "86276fcf5e8ec51f268b4c242450395d13bbafb6705dc0d015974cda1d5e9549"
+    }
+  },
+  "cards": [
+    {
+      "rank": "king",
+      "suit": "spades",
+      "source": "sources/generated/courts-v1/king-spades-floral-jian-v3.png",
+      "source_sha256": "fd7dca5c3d978be204040f604964e38246cd46c22c9250e40cac08fb1f9b2ec3",
+      "frame_color": "lamp-black",
+      "source_center": [
+        532.2801990739176,
+        731.2930256531585
+      ],
+      "sampling_anchor": [
+        532.3757196074857,
+        731.3523681727102
+      ],
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/spades/king.png",
+      "staged_path": "work/registered-faces-v1/spades/king.png",
+      "sha256": "ff64e38c1381beb538966fdb7373e033d7193b940bf6b2a9ba2dc58fd94a7c12"
+    },
+    {
+      "rank": "king",
+      "suit": "hearts",
+      "source": "sources/generated/courts-v1/king-hearts.png",
+      "source_sha256": "401542fe6317a264c19632cc3a79c521ea221cf15f617d8b5ad7d5cf3dedb10e",
+      "frame_color": "madder-lake",
+      "source_center": [
+        533.4884340207369,
+        731.4036346941118
+      ],
+      "sampling_anchor": [
+        533.6430049328359,
+        731.4733151377528
+      ],
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/hearts/king.png",
+      "staged_path": "work/registered-faces-v1/hearts/king.png",
+      "sha256": "a6b84495960538c1cb692378b92861345cf2e91de054900c0d1655115f01ab33"
+    },
+    {
+      "rank": "king",
+      "suit": "diamonds",
+      "source": "sources/generated/courts-v1/king-diamonds.png",
+      "source_sha256": "1c9615a735b41b3441ee2c6cbf8312c1e3a00d1df6557748ffece510ae45d5bb",
+      "frame_color": "madder-lake",
+      "source_center": [
+        532.9683015130853,
+        731.1744025586077
+      ],
+      "sampling_anchor": [
+        533.0818144353565,
+        731.2104824506102
+      ],
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/diamonds/king.png",
+      "staged_path": "work/registered-faces-v1/diamonds/king.png",
+      "sha256": "27c3dab64e7d05335243aeb72762b6d97300a1fb17ec535a32580594b254c862"
+    },
+    {
+      "rank": "king",
+      "suit": "clubs",
+      "source": "sources/generated/courts-v1/king-clubs.png",
+      "source_sha256": "2d13dbb5826d9bb85a010ea5ccadd0b093985ee024e36582f0493049e1b2a3bd",
+      "frame_color": "lamp-black",
+      "source_center": [
+        532.5989174734603,
+        731.0190167050598
+      ],
+      "sampling_anchor": [
+        532.7704439161544,
+        731.1136252888888
+      ],
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/clubs/king.png",
+      "staged_path": "work/registered-faces-v1/clubs/king.png",
+      "sha256": "ff2545f57b9e1ad943245329f2157017cf2ef243bc533a0765fb247d93ff345d"
+    },
+    {
+      "rank": "queen",
+      "suit": "spades",
+      "source": "sources/generated/courts-v1/queen-spades.png",
+      "source_sha256": "10f50e8e2d50e3c3dd319a673661b944b0e6ccf887129c15fd45781e9bb8ccc3",
+      "frame_color": "lamp-black",
+      "source_center": [
+        532.2016896305737,
+        730.8599001290468
+      ],
+      "sampling_anchor": [
+        532.2972678007181,
+        730.847922600957
+      ],
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/spades/queen.png",
+      "staged_path": "work/registered-faces-v1/spades/queen.png",
+      "sha256": "5597561efc45889c72fdfe4ec51228961b9f148b2494f11c6fb5b56a867bbf9f"
+    },
+    {
+      "rank": "queen",
+      "suit": "hearts",
+      "source": "sources/generated/courts-v1/queen-hearts.png",
+      "source_sha256": "ff753fc537b43443bb4a249f43b8c76c1d60316572de878424357193d6d75e5b",
+      "frame_color": "madder-lake",
+      "source_center": [
+        533.1678681771369,
+        731.3139047648997
+      ],
+      "sampling_anchor": [
+        533.3001593239737,
+        731.185582854663
+      ],
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/hearts/queen.png",
+      "staged_path": "work/registered-faces-v1/hearts/queen.png",
+      "sha256": "6239d603444d87e23472846d72e1241c9b26df0abb6ac9e245dbe5a90d8c30c2"
+    },
+    {
+      "rank": "queen",
+      "suit": "diamonds",
+      "source": "sources/generated/courts-v1/queen-diamonds.png",
+      "source_sha256": "cf66d191e50544c8b3b41551378b1177721504eaabe99b966b44950688f104fe",
+      "frame_color": "madder-lake",
+      "source_center": [
+        532.3768292871382,
+        730.9320517377262
+      ],
+      "sampling_anchor": [
+        532.4852322989815,
+        730.8912496102639
+      ],
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/diamonds/queen.png",
+      "staged_path": "work/registered-faces-v1/diamonds/queen.png",
+      "sha256": "e91f9ed29e000b3561602cabaa697095ca9f8d06b194884d0b1c8e5df36b311b"
+    },
+    {
+      "rank": "queen",
+      "suit": "clubs",
+      "source": "sources/generated/courts-v1/queen-clubs.png",
+      "source_sha256": "33a8bf31d1e58b115e94545efbe7c66b87a8e9e0ff4ef4b243b62382793d93e3",
+      "frame_color": "lamp-black",
+      "source_center": [
+        530.4991237401373,
+        730.749336108794
+      ],
+      "sampling_anchor": [
+        530.4991237401373,
+        730.749336108794
+      ],
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/clubs/queen.png",
+      "staged_path": "work/registered-faces-v1/clubs/queen.png",
+      "sha256": "04e8b8912155b90dcfecd709a2576ebd82d865ad4cec0012ef62f17737222546"
+    },
+    {
+      "rank": "jack",
+      "suit": "spades",
+      "source": "sources/generated/courts-v1/jack-spades.png",
+      "source_sha256": "c1af0b784086692c94d567913d46ec8854636678685d5c40572e09fa0089abd6",
+      "frame_color": "lamp-black",
+      "source_center": [
+        529.2893703460607,
+        727.0466157798248
+      ],
+      "sampling_anchor": [
+        535.143540524946,
+        699.3349674278446
+      ],
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/spades/jack.png",
+      "staged_path": "work/registered-faces-v1/spades/jack.png",
+      "sha256": "79699beb35063348841ef36da138e6e58aea75a19a8e72659babd431010490fa"
+    },
+    {
+      "rank": "jack",
+      "suit": "hearts",
+      "source": "sources/generated/courts-v1/jack-hearts.png",
+      "source_sha256": "c9323bb19a8ebf28f9feedb143d4aaa916abc85744fc509b5bf2adff03b17b97",
+      "frame_color": "madder-lake",
+      "source_center": [
+        529.4270999782232,
+        727.0095959410272
+      ],
+      "sampling_anchor": [
+        535.1574179394146,
+        700.8102908459254
+      ],
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/hearts/jack.png",
+      "staged_path": "work/registered-faces-v1/hearts/jack.png",
+      "sha256": "0dbbea77d8fb40d6e91fd52e7dec2f403888f69a54da2a33acb33c5712e44e71"
+    },
+    {
+      "rank": "jack",
+      "suit": "diamonds",
+      "source": "sources/generated/courts-v1/jack-diamonds.png",
+      "source_sha256": "fbd449734e59eba3019e413cfd0c2912cbe79ef8ed3b0bba5ae0717ea9a51873",
+      "frame_color": "madder-lake",
+      "source_center": [
+        529.0240148698884,
+        729.6997472118959
+      ],
+      "sampling_anchor": [
+        536.4768736588557,
+        703.1822125462531
+      ],
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/diamonds/jack.png",
+      "staged_path": "work/registered-faces-v1/diamonds/jack.png",
+      "sha256": "82d3cfe45cfffd1dfce75eb30f5ed003dfd219b5c156073ce92e4d03183032bc"
+    },
+    {
+      "rank": "jack",
+      "suit": "clubs",
+      "source": "sources/generated/courts-v1/jack-clubs.png",
+      "source_sha256": "1ae0cdffbcd535c0fbe8dafee14923bc53c1f434950335d0361bb1324c6e5c42",
+      "frame_color": "lamp-black",
+      "source_center": [
+        529.2517884734135,
+        728.4148530256413
+      ],
+      "sampling_anchor": [
+        535.2503100338789,
+        702.4117396687254
+      ],
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/clubs/jack.png",
+      "staged_path": "work/registered-faces-v1/clubs/jack.png",
+      "sha256": "c1ed8695d382dc6cfc8b6b29c1debd7c46327a23fb4ac2c1365e7c25fa349f2e"
+    },
+    {
+      "rank": "ace",
+      "suit": "spades",
+      "source": "sources/generated/aces-v1/ace-spades.png",
+      "source_sha256": "bd16173cb565b26bc73f2ffa83abbb0c6365e408d73b08e119774882b3414aa3",
+      "frame_color": "lamp-black",
+      "source_center": [
+        528.6168369040156,
+        742.2671804515899
+      ],
+      "sampling_anchor": [
+        528.5895354172416,
+        742.5756756002058
+      ],
+      "measured_center": [
+        374.49848091612444,
+        524.4975214947293
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/spades/ace.png",
+      "staged_path": "work/registered-faces-v1/spades/ace.png",
+      "sha256": "4632d717b95af2afceb393d7dfe117b06c35cca173474e9d4dfd0200a87dc6cf"
+    },
+    {
+      "rank": "ace",
+      "suit": "hearts",
+      "source": "sources/generated/aces-v1/ace-hearts.png",
+      "source_sha256": "052553f9e6f4297620b7639ef0a411a77db06be03cb0ee737645de00115fe6ad",
+      "frame_color": "madder-lake",
+      "source_center": [
+        529.0775101889589,
+        768.4547003940853
+      ],
+      "sampling_anchor": [
+        529.0209943182973,
+        769.4300867105277
+      ],
+      "measured_center": [
+        374.50592773041006,
+        524.5070104208959
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/hearts/ace.png",
+      "staged_path": "work/registered-faces-v1/hearts/ace.png",
+      "sha256": "dfd8229c15076734a4b643fc08b696fb94c066f96033c49f44c339a5d3c5da9b"
+    },
+    {
+      "rank": "ace",
+      "suit": "diamonds",
+      "source": "sources/generated/aces-v1/ace-diamonds.png",
+      "source_sha256": "ae0127ec77dda9be655c27f10af68b14c0843110ac303a0624f2bb631c2664a0",
+      "frame_color": "madder-lake",
+      "source_center": [
+        528.2352523142713,
+        753.7034210428743
+      ],
+      "sampling_anchor": [
+        528.1740014942542,
+        754.3254247314039
+      ],
+      "measured_center": [
+        374.4894812394812,
+        524.5082788832789
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/diamonds/ace.png",
+      "staged_path": "work/registered-faces-v1/diamonds/ace.png",
+      "sha256": "4ca271d8fd34c4ac58fa4660649a531dd04354b742de1aa58a966ade10244583"
+    },
+    {
+      "rank": "ace",
+      "suit": "clubs",
+      "source": "sources/generated/aces-v1/ace-clubs.png",
+      "source_sha256": "0ff9ee1ce776321be98a242ba8444d489e830c9bc8136bed966099b2a7c0e9db",
+      "frame_color": "lamp-black",
+      "source_center": [
+        528.4640962230216,
+        756.5166366906475
+      ],
+      "sampling_anchor": [
+        528.4049230475205,
+        757.3014378941166
+      ],
+      "measured_center": [
+        374.5002643389838,
+        524.5037288669419
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/clubs/ace.png",
+      "staged_path": "work/registered-faces-v1/clubs/ace.png",
+      "sha256": "8212517adc7fd32a21f99d3e1ed40f9de45f433a208b38ac5d86457a52c025fe"
+    },
+    {
+      "rank": "joker",
+      "suit": "black",
+      "source": "sources/generated/jokers-v1/joker-black.png",
+      "source_sha256": "12d8e03db4485d51e8bc936e009a918062e1a0f87a7df512654c7a25e1076134",
+      "frame_color": "lamp-black",
+      "source_center": [
+        530.5913383904026,
+        732.3136328189617
+      ],
+      "sampling_anchor": [
+        530.6053893966483,
+        732.3833192740749
+      ],
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/jokers/black.png",
+      "staged_path": "work/registered-faces-v1/jokers/black.png",
+      "sha256": "11ee60a73b4dc604c562458aa000937c9921acb817b68cab0f68879af94dfbb9"
+    },
+    {
+      "rank": "joker",
+      "suit": "red",
+      "source": "sources/generated/jokers-v1/joker-red.png",
+      "source_sha256": "7fd2efcb852f12ffba2504ec5c63c7ce52eea0a87bc87a82d867c693a08cfb93",
+      "frame_color": "madder-lake",
+      "source_center": [
+        529.000777077257,
+        746.0663209536292
+      ],
+      "sampling_anchor": [
+        530.4946189569397,
+        763.2325516041403
+      ],
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "path": "cards/faces/french-suited/poker/jokers/red.png",
+      "staged_path": "work/registered-faces-v1/jokers/red.png",
+      "sha256": "8ab3e7911da78bd50650efacebd1bf19ce85ae8927c4fe296065d6bd893440c1"
+    }
+  ]
+}

@@ -44,12 +44,16 @@ def build_design_catalog(root: Path) -> dict:
                                   rank=str(number), number=number, slug=slug,
                                   title=trump['title'], color_variant=None,
                                   status=config['face_status'])
+                    if 'tradition' in definition:
+                        record.update(tradition=definition['tradition'],
+                                      printed_index=trump['printed_index'],
+                                      kind=trump['kind'], group=trump.get('group'))
                 else:
                     if suit not in definition['suits'] or rank not in definition['ranks']:
                         raise ValueError(f"Invalid Tarot suit/rank: {path}")
                     record = dict(id=f"face.tarot.{size}.{suit}.{rank}", side='face',
                                   system=system, format=size, arcana='minor', suit=suit,
-                                  rank=rank, title=None, color_variant=None,
+                                  rank=rank, title=definition.get('card_titles', {}).get(f'{suit}.{rank}'), color_variant=None,
                                   status=config['face_status'])
             elif suit == "jokers":
                 if rank not in definition.get("jokers", []):

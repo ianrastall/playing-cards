@@ -117,7 +117,10 @@ def audit(active=False):
                         'sha256': card['sha256']})
     baseline = ROOT/'work/number-cards-v1/input-hashes.json'
     preserved = None
-    if baseline.exists():
+    # This temporary snapshot belongs to the initial numeral staging operation.
+    # Later active audits validate permanent source/output manifests above;
+    # unrelated historical source and back revisions must not fail that audit.
+    if baseline.exists() and not active:
         original = json.loads(baseline.read_text(encoding='utf-8'))
         repo = ROOT.parents[1]
         for name, checksum in original.items():

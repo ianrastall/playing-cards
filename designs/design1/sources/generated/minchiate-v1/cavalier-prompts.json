@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "../tarot-review-v1/empress.png",
+  "jobs": [
+    {
+      "id": "knight-of-cups",
+      "subject": "CAVALIER OF CUPS: a single female centaur, human woman's upper torso seamlessly joined at waist to a dappled pale horse body with four legs. Fully clothed upper torso in madder and olive embroidered Renaissance court dress, gold accents. Holds one large gold chalice. Entire coherent hybrid figure, all hooves and tail visible. No separate rider, no saddle. Compact tall silhouette, restrained botanical base.",
+      "prompt": "Use case: stylized-concept. Create ONE original reusable Minchiate illustration asset, not a finished card. Input image is STYLE REFERENCE ONLY. Match fine dark Mucha contours, matte antique-gold engraving, Morris botanical detail and Safavid-inspired textiles. Palette: madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, small turquoise #2E9C9C accents, intended to sit on ivory #FAEBD7. Complete coherent tall portrait composition, all extremities visible, generous empty margins. TRUE transparent RGBA background and transparent interior gaps. No glow, shadow, mist, paper rectangle, border, panels, lettering, numbers, title, watermark or all-over background. Subject: CAVALIER OF CUPS: a single female centaur, human woman's upper torso seamlessly joined at waist to a dappled pale horse body with four legs. Fully clothed upper torso in madder and olive embroidered Renaissance court dress, gold accents. Holds one large gold chalice. Entire coherent hybrid figure, all hooves and tail visible. No separate rider, no saddle. Compact tall silhouette, restrained botanical base."
+    },
+    {
+      "id": "knight-of-coins",
+      "subject": "CAVALIER OF COINS: a single female centaur, human woman's upper torso seamlessly joined at waist to a dark bay horse body with four legs. Fully clothed upper torso in olive and madder embroidered Renaissance court dress, gold accents. Both hands present one large golden coin bearing a floral rosette. Entire coherent hybrid figure, all hooves and tail visible. No separate rider, no saddle. Compact tall silhouette, restrained botanical base.",
+      "prompt": "Use case: stylized-concept. Create ONE original reusable Minchiate illustration asset, not a finished card. Input image is STYLE REFERENCE ONLY. Match fine dark Mucha contours, matte antique-gold engraving, Morris botanical detail and Safavid-inspired textiles. Palette: madder red #9E2B3B, olive #6E7A3A, gold #C6A15B, small turquoise #2E9C9C accents, intended to sit on ivory #FAEBD7. Complete coherent tall portrait composition, all extremities visible, generous empty margins. TRUE transparent RGBA background and transparent interior gaps. No glow, shadow, mist, paper rectangle, border, panels, lettering, numbers, title, watermark or all-over background. Subject: CAVALIER OF COINS: a single female centaur, human woman's upper torso seamlessly joined at waist to a dark bay horse body with four legs. Fully clothed upper torso in olive and madder embroidered Renaissance court dress, gold accents. Both hands present one large golden coin bearing a floral rosette. Entire coherent hybrid figure, all hooves and tail visible. No separate rider, no saddle. Compact tall silhouette, restrained botanical base."
+    }
+  ]
+}

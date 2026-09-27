@@ -1,0 +1,187 @@
+{
+  "status": "passed",
+  "target": "staged",
+  "cards": [
+    {
+      "path": "cards/faces/french-suited/poker/spades/king.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0.0,
+      "shared_border_exact": true,
+      "half_turn_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/king.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0.0,
+      "shared_border_exact": true,
+      "half_turn_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/king.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0.0,
+      "shared_border_exact": true,
+      "half_turn_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/king.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0.0,
+      "shared_border_exact": true,
+      "half_turn_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/queen.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0.0,
+      "shared_border_exact": true,
+      "half_turn_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/queen.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0.0,
+      "shared_border_exact": true,
+      "half_turn_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/queen.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0.0,
+      "shared_border_exact": true,
+      "half_turn_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/queen.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0.0,
+      "shared_border_exact": true,
+      "half_turn_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/jack.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0.0,
+      "shared_border_exact": true,
+      "half_turn_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/jack.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0.0,
+      "shared_border_exact": true,
+      "half_turn_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/jack.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0.0,
+      "shared_border_exact": true,
+      "half_turn_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/jack.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0.0,
+      "shared_border_exact": true,
+      "half_turn_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/ace.png",
+      "measured_center": [
+        374.49848091612444,
+        524.4975214947293
+      ],
+      "center_error_px": 0.002478505270687492,
+      "shared_border_exact": true,
+      "half_turn_exact": false
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/ace.png",
+      "measured_center": [
+        374.50592773041006,
+        524.5070104208959
+      ],
+      "center_error_px": 0.007010420895880998,
+      "shared_border_exact": true,
+      "half_turn_exact": false
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/ace.png",
+      "measured_center": [
+        374.4894812394812,
+        524.5082788832789
+      ],
+      "center_error_px": 0.010518760518777981,
+      "shared_border_exact": true,
+      "half_turn_exact": false
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/ace.png",
+      "measured_center": [
+        374.5002643389838,
+        524.5037288669419
+      ],
+      "center_error_px": 0.003728866941855813,
+      "shared_border_exact": true,
+      "half_turn_exact": false
+    },
+    {
+      "path": "cards/faces/french-suited/poker/jokers/black.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0.0,
+      "shared_border_exact": true,
+      "half_turn_exact": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/jokers/red.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0.0,
+      "shared_border_exact": true,
+      "half_turn_exact": true
+    }
+  ],
+  "maximum_center_error_px": 0.010518760518777981
+}
