@@ -102,6 +102,8 @@ plus clean bleed and separate blue-cut-guide variants and a size-specific README
 Select one with `--format jumbo` instead of `--all`. Each archive contains
 59 native images and 118 print variants; Tarot contains 102 native images and 204 print variants. The original `package_poker.py`
 command remains a Poker-only shortcut. These commands publish nothing.
+See the [v1.2 release notes](../../docs/design1-v1.2-release.md) for the complete
+archive list and checksum files.
 
 The [King registration correction](docs/design/king-registration-v2.md) aligns
 the entire painted King layer before adding its center jewel. An independent

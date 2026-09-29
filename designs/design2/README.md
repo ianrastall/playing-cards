@@ -23,7 +23,7 @@ Black and Madder Lake for all six formats. They adapt Design 1's reusable
 central-field and corner-index structure to Design 2's gold lotus vines.
 The twelve templates and their masks live in
 `sources/components/design2-face-frames-v1/`; browse them in the gallery's
-[face frames section](all.html#face-frames).
+[frame viewer](index.html#design=design2&size=poker&set=frames).
 
 The [four King artworks](sources/generated/courts-v1/README.md) now share the
 finished King of Spades design approved by the user: Ming-inspired yellow
@@ -82,14 +82,14 @@ separates its nested regions through graphite-to-ink values.
 ## Browse and reproduce
 
 Open `index.html` directly or through the repository's HTTP server. Choose a
-size before browsing its cards. Poker includes 54 faces, five backs,
+size and set, then browse one card at a time. Poker includes 54 faces, five backs,
 and two blank frames; the other sizes include five backs and two blank frames.
-The [18 original court/ace/Joker masters](masters.html) are shown separately at their
-original dimensions. The [full gallery](all.html) includes all 114 selected
-images, with every original PNG linked in the initial HTML for bulk download
-tools. Search by name, suit, or color; click an image to open the viewer, use
-the arrow keys to compare images, turn a card 180 degrees, or download it.
-The root [bulk gallery](../../all.html) includes both designs together.
+The [18 original court/ace/Joker masters](masters.html) are available separately
+at their original dimensions. Use previous/next, arrow keys, or the position
+slider to compare cards, turn them 180 degrees, and download the selected PNG.
+The [file directory](all.html) links all 114 selected images without loading a grid.
+
+The [roadmap](../../docs/design2-roadmap.md) records the next artwork and alignment work.
 
 Run from `designs/design2/`:
 

@@ -1,93 +1,103 @@
-/* Progressive enhancement only: all image and download links work without JS. */
+/* One shared stage preserves each card's complete canvas and aspect ratio. */
 (() => {
-  const allLinks = [...document.querySelectorAll('[data-artwork]')];
-  let links = allLinks;
-  const search = document.querySelector('#card-search');
-  if (search) {
-    const count = document.querySelector('#search-count');
-    const filter = () => {
-      const words = search.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
-      allLinks.forEach(link => {
-        const text = `${link.dataset.title} ${link.dataset.detail} ${link.dataset.artwork}`.toLowerCase();
-        link.closest('figure').hidden = !words.every(word => text.includes(word));
-      });
-      links = allLinks.filter(link => !link.closest('figure').hidden);
-      document.querySelectorAll('.artwork-section').forEach(section => {
-        section.hidden = !section.querySelector('figure:not([hidden])');
-      });
-      document.querySelectorAll('.collection').forEach(section => {
-        section.hidden = !section.querySelector('figure:not([hidden])');
-      });
-      document.querySelectorAll('.section-links a').forEach(link => {
-        link.hidden = document.getElementById(link.hash.slice(1))?.hidden ?? false;
-      });
-      count.textContent = links.length ? `${links.length} of ${allLinks.length} artworks` : 'No matching cards. Try a different name, suit, or color.';
-    };
-    search.closest('.gallery-search').hidden = false;
-    search.addEventListener('input', filter);
-    filter();
+  const data = JSON.parse(document.querySelector('#card-data').textContent);
+  const $ = id => document.getElementById(id);
+  const design = $('design-select'), format = $('format-select'), set = $('set-select');
+  const search = $('card-search'), card = $('card-select'), range = $('card-range');
+  const image = $('viewer-image'), turn = $('viewer-turn'), download = $('viewer-download');
+  let available = [], cards = [], index = 0;
+  let turned = false;
+  const sets = [
+    ['faces', 'All faces', a => a.kind === 'face'],
+    ...['spades', 'hearts', 'diamonds', 'clubs', 'batons', 'cups', 'swords', 'coins'].map(suit =>
+      [suit, suit[0].toUpperCase() + suit.slice(1), a => a.kind === 'face' && a.suit === suit]),
+    ['trumps', 'Trumps & Fool', a => a.kind === 'face' && a.arcana === 'major'],
+    ['jokers', 'Jokers', a => a.kind === 'face' && a.rank === 'joker'],
+    ['numbers', 'Number cards', a => a.kind === 'face' && a.arcana !== 'major' && /^(?:[2-9]|10)$/.test(a.rank)],
+    ['backs', 'Card backs', a => a.kind === 'back'],
+    ['frames', 'Blank face frames', a => a.kind === 'frame'],
+    ['masters', 'Original artwork masters', a => a.kind === 'masters']
+  ];
+  const option = (value, name) => new Option(name, value);
+  function remember(a) {
+    const params = new URLSearchParams({design: design.value, size: format.value, set: set.value});
+    if (a) params.set('card', a.id);
+    if (search.value) params.set('q', search.value);
+    if (turned) params.set('turn', '1');
+    history.replaceState(null, '', '#' + params);
   }
-  const viewer = document.querySelector('.viewer');
-  if (!viewer || typeof viewer.showModal !== 'function') return;
-  const image = document.querySelector('#viewer-image');
-  const title = document.querySelector('#viewer-title');
-  const detail = document.querySelector('#viewer-detail');
-  const position = document.querySelector('#viewer-position');
-  const download = document.querySelector('#viewer-download');
-  const original = document.querySelector('#viewer-original');
-  const turn = document.querySelector('#viewer-turn');
-  const close = document.querySelector('#viewer-close');
-  let index = 0;
-  let opener = null;
-
-  function show(next) {
-    index = (next + links.length) % links.length;
-    const link = links[index];
-    const save = link.closest('figure').querySelector('[download]');
-    image.src = link.href;
-    image.alt = link.dataset.title;
-    image.classList.remove('turned');
-    turn.setAttribute('aria-pressed', 'false');
-    turn.textContent = 'Turn 180°';
-    title.textContent = link.dataset.title;
-    detail.textContent = `${link.closest('figure').dataset.design === 'design1' ? 'Design 01' : 'Design 02'} · ${link.dataset.detail}`;
-    position.textContent = `${index + 1} / ${links.length}`;
-    download.href = link.href;
-    download.download = save.download;
-    original.href = link.href;
-  }
-
-  allLinks.forEach(link => link.addEventListener('click', event => {
-    if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button !== 0) return;
-    event.preventDefault();
-    opener = link;
-    show(links.indexOf(link));
-    viewer.showModal();
-    document.body.classList.add('viewer-open');
-    close.focus();
-  }));
-  close.addEventListener('click', () => viewer.close());
-  viewer.addEventListener('close', () => {
-    document.body.classList.remove('viewer-open');
-    image.removeAttribute('src');
-    opener?.focus({preventScroll: true});
-  });
-  viewer.addEventListener('click', event => {
-    if (event.target !== viewer) return;
-    const rect = viewer.getBoundingClientRect();
-    if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) viewer.close();
-  });
-  document.querySelector('#viewer-prev').addEventListener('click', () => show(index - 1));
-  document.querySelector('#viewer-next').addEventListener('click', () => show(index + 1));
-  turn.addEventListener('click', () => {
-    const turned = image.classList.toggle('turned');
+  function show(next, save = true) {
+    index = cards.length ? (next + cards.length) % cards.length : 0;
+    const a = cards[index];
+    card.disabled = range.disabled = !a;
+    $('viewer-prev').disabled = $('viewer-next').disabled = cards.length < 2;
+    turn.disabled = !a;
+    image.hidden = download.hidden = !a;
+    $('empty-state').hidden = !!a;
+    $('image-status').textContent = '';
+    $('viewer-position').textContent = a ? `${index + 1} / ${cards.length}` : '0 cards';
+    $('viewer-context').textContent = `${design.selectedOptions[0].text} / ${format.selectedOptions[0].text} / ${set.selectedOptions[0].text}`;
+    $('viewer-title').textContent = a ? a.title : 'No matching cards';
+    $('viewer-detail').textContent = a ? `${a.pixels.join(' × ')} px${a.trim_inches ? ` · ${a.trim_inches.join(' × ')} in` : ' · Original dimensions'}${a.kind === 'masters' ? ' · Source master' : ''}` : '';
+    range.max = Math.max(1, cards.length);
+    range.value = index + 1;
+    range.setAttribute('aria-valuetext', a ? `${a.title}, ${index + 1} of ${cards.length}` : 'No matching cards');
+    if (a) {
+      card.value = a.id;
+      image.src = a.src;
+      image.alt = a.title;
+      image.width = a.pixels[0]; image.height = a.pixels[1];
+      download.href = a.src; download.download = a.id.replaceAll('.', '-') + '.png';
+    }
+    image.classList.toggle('turned', turned);
     turn.setAttribute('aria-pressed', String(turned));
     turn.textContent = turned ? 'Return upright' : 'Turn 180°';
+    if (save) remember(a);
+  }
+  function filter(id) {
+    const predicate = sets.find(s => s[0] === set.value)[2];
+    const words = search.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+    cards = available.filter(a => predicate(a) && words.every(word => `${a.title} ${a.detail} ${a.id}`.toLowerCase().includes(word)));
+    card.replaceChildren(...cards.map(a => option(a.id, a.title)));
+    show(Math.max(0, cards.findIndex(a => a.id === id)));
+  }
+  function loadSet(preferred = set.value, id) {
+    available = data.assets.filter(a => a.design === design.value && a.format === format.value);
+    const choices = sets.filter(s => available.some(s[2]));
+    set.replaceChildren(...choices.map(s => option(s[0], `${s[1]} (${available.filter(s[2]).length})`)));
+    set.value = choices.some(s => s[0] === preferred) ? preferred : choices[0][0];
+    const faces = available.filter(a => a.kind === 'face').length;
+    $('availability').textContent = faces ? `${faces} finished faces · ${available.filter(a => a.kind === 'back').length} backs in this size.` : 'Faces are not yet available in this size. Browse backs and blank frames.';
+    filter(id);
+  }
+  function restore() {
+    const params = new URLSearchParams(location.hash.slice(1));
+    design.value = ['design1', 'design2'].includes(params.get('design')) ? params.get('design') : data.design;
+    format.value = [...format.options].some(o => o.value === params.get('size')) ? params.get('size') : data.format;
+    search.value = params.get('q') || '';
+    turned = params.get('turn') === '1';
+    loadSet(params.get('set') || data.set, params.get('card'));
+  }
+  [design, format].forEach(control => control.addEventListener('change', () => { search.value = ''; loadSet(); }));
+  set.addEventListener('change', () => { search.value = ''; filter(); });
+  search.addEventListener('input', () => filter(card.value));
+  card.addEventListener('change', () => show(cards.findIndex(a => a.id === card.value)));
+  range.addEventListener('input', () => show(Number(range.value) - 1));
+  $('viewer-prev').addEventListener('click', () => show(index - 1));
+  $('viewer-next').addEventListener('click', () => show(index + 1));
+  function stepSet(step) { set.selectedIndex = (set.selectedIndex + step + set.length) % set.length; search.value = ''; filter(); }
+  $('set-prev').addEventListener('click', () => stepSet(-1));
+  $('set-next').addEventListener('click', () => stepSet(1));
+  turn.addEventListener('click', () => { turned = !turned; show(index); });
+  document.addEventListener('keydown', event => {
+    if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || /INPUT|SELECT|TEXTAREA/.test(event.target.tagName) || event.target.isContentEditable) return;
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') { event.preventDefault(); show(index + (event.key === 'ArrowRight' ? 1 : -1)); }
   });
-  viewer.addEventListener('keydown', event => {
-    if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') {
-      event.preventDefault();
-      show(index + (event.key === 'ArrowRight' ? 1 : -1));
-    }
+  image.addEventListener('error', () => { $('image-status').textContent = 'The PNG could not load. Try another card or reload the page.'; });
+  image.addEventListener('load', () => { $('image-status').textContent = ''; });
+  window.addEventListener('hashchange', () => {
+    if (new URLSearchParams(location.hash.slice(1)).has('design')) restore();
   });
+  $('browser-controls').hidden = $('card-navigation').hidden = turn.hidden = false;
+  restore();
 })();

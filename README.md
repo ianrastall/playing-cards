@@ -1,11 +1,11 @@
 # Playing Cards
 
 Two independent designs, with **481 finished PNGs available directly in the repository**.
-Open the [collection gallery](index.html), choose a design, then choose a card
-size before browsing the artwork. Each design has its own page. For bulk
-downloads, the [complete gallery](all.html) links all 511 selected images
-directly in its HTML: the 481 production cards below, 18 Design 2
-court/ace/Joker masters, and 12 blank face frames.
+Open the [card viewer](index.html) to choose a design, size, set, and card.
+One shared display area shows each complete PNG without cropping. Step through
+cards with the buttons, arrow keys, or position slider; rotate the view or
+download the selected PNG. Direct file links are available below the viewer,
+including the 18 Design 2 source masters and 12 blank face frames.
 
 | Design | Finished artwork | Files | Gallery |
 | --- | --- | --- | --- |
@@ -23,16 +23,16 @@ The colors are Lamp Black, Madder Lake, Manganese Violet, Prussian Blue and Verd
 ```text
 collection.json              Design registry
 catalog.json                 All finished assets; repository-relative paths
-index.html                   Design picker
-all.html                     Complete gallery for bulk downloading
+index.html                   Single-card viewer
+all.html                     Viewer with expanded file directory
 designs/
   design1/
     cards/                   Finished faces and backs
     deck.json                This design's formats and inventory
     catalog.json             This design's assets; design-relative paths
-    index.html               Size picker
-    <format>.html            Cards in one size
-    all.html                 Full design gallery for bulk downloading
+    index.html               Design card viewer
+    <format>.html            Viewer opened to one size
+    all.html                 Viewer with design file directory
     sources/                 Components, generated masters and original inputs
     scripts/                 Design-specific rendering and packaging
     docs/                    Design notes and historical records
@@ -79,16 +79,17 @@ python -m pip install -r requirements.txt
 python -m http.server 8000
 ```
 
-Open `http://localhost:8000/`. All galleries also work as local HTML files.
-The home page offers two designs; each design page offers six sizes with trim
-dimensions, pixel dimensions, and available artwork. Only the next page loads
-the card grid. Design 2's artwork masters have a separate gallery because they
-are preserved originals; the balanced Poker exports appear in the size gallery.
+Open `http://localhost:8000/`. The viewer also works as local HTML files.
+Design, size and set selectors share one centered card stage. Search applies to
+the selected set. Rotation stays in place while comparing cards, and the URL
+fragment records the selected card, filter and rotation for sharing or reloading.
+Design 2 sizes without finished faces show backs and blank frames. Source masters
+are labeled separately and retain their original dimensions.
 
-Search a gallery by name, suit, or color, then click an artwork to inspect it,
-turn it 180 degrees, or download it. Navigation and original PNG links work
-without JavaScript. Each design also links to an all-sizes gallery, and
-`all.html` includes both designs for download managers.
+The size pages open the same viewer with a size selected. Without JavaScript,
+the first card, its download link, size-page links and the direct file directory
+remain usable. `all.html` expands the file directory for download tools without
+loading every image.
 
 Gallery pages are generated from the production catalog and the selected
 Design 2 artwork manifests. Image URLs include a content hash so replacing a
@@ -131,3 +132,8 @@ images byte for byte. Subsequent approved changes are recorded in
 `docs/asset-revisions.json`; Design 2 now uses the balanced toranj release.
 
 Licensed under the [MIT License](LICENSE).
+
+## Next work
+
+The ordered [Design 2 roadmap](docs/design2-roadmap.md) covers Poker tarot cards,
+whole-design alignment, and the remaining formats.

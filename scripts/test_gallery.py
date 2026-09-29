@@ -1,4 +1,4 @@
-"""Check that download tools can discover the complete gallery without JavaScript."""
+"""Check single-card pages, portable links, and the complete static file inventory."""
 from html.parser import HTMLParser
 import hashlib
 import json
@@ -40,8 +40,8 @@ class GalleryTests(unittest.TestCase):
         self.assertTrue(production <= set(paths))
         self.assertEqual(len(page.assets), 511)
         self.assertEqual(len(set(page.assets)), 511)
-        self.assertEqual(set(page.assets), set(page.downloads))
-        self.assertTrue(set(page.assets) <= set(page.images))
+        self.assertTrue(set(page.assets) <= set(page.downloads))
+        self.assertEqual(len(page.images), 1)
         self.assertIn('designs/design2/sources/generated/courts-v1/king-spades-floral-jian-v3.png', paths)
         self.assertFalse(any('initial' in path or 'study' in path for path in page.assets))
         self.assertEqual(sum('/courts-v1/' in path for path in page.assets), 12)
@@ -54,7 +54,7 @@ class GalleryTests(unittest.TestCase):
                 file = ROOT / relative
                 page = Page(file.read_text(encoding='utf-8'))
                 self.assertEqual(len(page.ids), len(set(page.ids)))
-                self.assertEqual(set(page.assets), set(page.downloads))
+                self.assertTrue(set(page.assets) <= set(page.downloads))
                 for link in page.links + page.images:
                     parsed = urlsplit(link)
                     if parsed.scheme:
@@ -73,16 +73,17 @@ class GalleryTests(unittest.TestCase):
             file = ROOT / relative
             self.assertEqual(file.read_text(encoding='utf-8'), build_gallery.render(file, assets, **options))
 
-    def test_design_and_size_choices_precede_grids(self):
+    def test_every_page_has_one_stage_and_navigation(self):
+        for relative, _ in build_gallery.page_specs():
+            page = Page((ROOT / relative).read_text(encoding='utf-8'))
+            self.assertEqual(len(page.images), 1, relative)
+            for control in ('viewer-image', 'design-select', 'format-select', 'set-select',
+                            'card-select', 'card-range', 'viewer-download', 'viewer-turn'):
+                self.assertIn(control, page.ids)
         root = Page((ROOT / 'index.html').read_text(encoding='utf-8'))
-        self.assertEqual(root.assets, [])
-        self.assertLessEqual(len(root.images), 4)
-        self.assertIn('all.html', root.links)
-        for design in ['design1', 'design2']:
+        for design in ('design1', 'design2'):
             self.assertIn(f'designs/{design}/index.html', root.links)
             page = Page((ROOT / f'designs/{design}/index.html').read_text(encoding='utf-8'))
-            self.assertEqual(page.assets, [])
-            self.assertLessEqual(len(page.images), 2)
             for fmt in build_gallery.FORMATS:
                 self.assertIn(f'{fmt}.html', page.links)
             self.assertIn('all.html', page.links)
