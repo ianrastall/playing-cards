@@ -49,6 +49,16 @@ have exact half-turn symmetry; the four aces retain their upright suit shapes.
 Their central turquoise stones use the same canvas anchor, with measured
 sampling error below 0.011 pixels. Original generated masters are preserved.
 
+## Poker Minchiate
+
+The [97-card Poker Minchiate set](poker.html#design=design2&size=poker&set=minchiate)
+contains 40 pip cards, 16 courts, 40 trumps and the unnumbered Fool. Its PNGs
+are in `cards/faces/tarot/poker/`. Each composition shares the canvas center
+and existing Poker borders. The first four proofs have been rebalanced, with
+their earlier exports preserved. [Construction notes and prompts](docs/design/minchiate-poker-v1.md)
+record all source artwork, placements and measurements. The
+[proof viewer](minchiate-review.html) also contains the complete set.
+
 ## Formats and construction
 
 | Format | Pixels | Trim inches | Construction |
@@ -82,12 +92,12 @@ separates its nested regions through graphite-to-ink values.
 ## Browse and reproduce
 
 Open `index.html` directly or through the repository's HTTP server. Choose a
-size and set, then browse one card at a time. Poker includes 54 faces, five backs,
+size and set, then browse one card at a time. Poker includes 151 faces, five backs,
 and two blank frames; the other sizes include five backs and two blank frames.
-The [18 original court/ace/Joker masters](masters.html) are available separately
+The [18 original French-suited court/ace/Joker masters](masters.html) are available separately
 at their original dimensions. Use previous/next, arrow keys, or the position
 slider to compare cards, turn them 180 degrees, and download the selected PNG.
-The [file directory](all.html) links all 114 selected images without loading a grid.
+The [file directory](all.html) links all 211 selected images without loading a grid.
 
 The [roadmap](../../docs/design2-roadmap.md) records the next artwork and alignment work.
 
@@ -110,6 +120,7 @@ python scripts/audit_design2_registration.py
 python scripts/audit_face_frames.py
 python scripts/audit_number_cards.py --active
 python scripts/register_face_masters.py --check --active
+python scripts/build_minchiate_review.py --check --active
 python ../../scripts/catalog.py --check
 ```
 

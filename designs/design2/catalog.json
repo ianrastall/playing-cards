@@ -2844,6 +2844,3800 @@
         300.0
       ],
       "sha256": "5597561efc45889c72fdfe4ec51228961b9f148b2494f11c6fb5b56a867bbf9f"
+    },
+    {
+      "id": "face.tarot.poker.batons.10",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "batons",
+      "rank": "10",
+      "title": "10 of Batons",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/batons/10.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "f1f40d9d14d16098444cb631a3a2ea7800e34fe1c2d86ad44e0480fef3ad0443"
+    },
+    {
+      "id": "face.tarot.poker.batons.2",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "batons",
+      "rank": "2",
+      "title": "2 of Batons",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/batons/2.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "38e1172a909299130e1e3a3a885bbb1fa9d43641045f8a3763d18e5d285f510f"
+    },
+    {
+      "id": "face.tarot.poker.batons.3",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "batons",
+      "rank": "3",
+      "title": "3 of Batons",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/batons/3.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "24142f6f6896e1c58f59dd6e9904e6693c694048179098563f07b8d9ac66fc83"
+    },
+    {
+      "id": "face.tarot.poker.batons.4",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "batons",
+      "rank": "4",
+      "title": "4 of Batons",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/batons/4.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "f675d799e4ab7c63042ce84daab81caed083a5de0e9ad43816fb7700d55ac6c0"
+    },
+    {
+      "id": "face.tarot.poker.batons.5",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "batons",
+      "rank": "5",
+      "title": "5 of Batons",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/batons/5.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "116bafa323416ad515e87ec92714e9d0dcf5db9358542e9e77c88aecd73b064d"
+    },
+    {
+      "id": "face.tarot.poker.batons.6",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "batons",
+      "rank": "6",
+      "title": "6 of Batons",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/batons/6.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "60c5afed98402b49e7bfb7876e677dd1b0807791a7be2071408b7adf513fd64a"
+    },
+    {
+      "id": "face.tarot.poker.batons.7",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "batons",
+      "rank": "7",
+      "title": "7 of Batons",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/batons/7.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "9fbc43561b568e5b476c988a97172bf2e396e036e8592efc0ced816e143fbfdf"
+    },
+    {
+      "id": "face.tarot.poker.batons.8",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "batons",
+      "rank": "8",
+      "title": "8 of Batons",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/batons/8.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "80824b04cce2162308dd09bbf80e59a9d6298d4e530eb833043bbc9d98e87550"
+    },
+    {
+      "id": "face.tarot.poker.batons.9",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "batons",
+      "rank": "9",
+      "title": "9 of Batons",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/batons/9.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "984dee62a738aecb9b58b4c6264aec501b5a3e6d11ba2e6633fb07423b6df47a"
+    },
+    {
+      "id": "face.tarot.poker.batons.ace",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "batons",
+      "rank": "ace",
+      "title": "Ace of Batons",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/batons/ace.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "2be156d24a860ea19ce2913034b47864c195f6d910ba37717b33a7b43dfa37a5"
+    },
+    {
+      "id": "face.tarot.poker.batons.king",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "batons",
+      "rank": "king",
+      "title": "King of Batons",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/batons/king.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "3266e39010d594e7a3ca04a0840effa44f6e57d2403fd1332daa8719c83f9f2d"
+    },
+    {
+      "id": "face.tarot.poker.batons.knight",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "batons",
+      "rank": "knight",
+      "title": "Cavalier of Batons",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/batons/knight.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "4078e516415ae25ef20378508411badfd138a5fb7a8c9305eca964bcda663020"
+    },
+    {
+      "id": "face.tarot.poker.batons.page",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "batons",
+      "rank": "page",
+      "title": "Jack of Batons",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/batons/page.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "c7ea80719f2d77f4d8b71af318a92dcc09013d7364cb509c628928105c99bf62"
+    },
+    {
+      "id": "face.tarot.poker.batons.queen",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "batons",
+      "rank": "queen",
+      "title": "Queen of Batons",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/batons/queen.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "967d917505f66cd0a27381943b60d8ea788e996cc76bbd87b915c3607b738bfb"
+    },
+    {
+      "id": "face.tarot.poker.coins.10",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "coins",
+      "rank": "10",
+      "title": "10 of Coins",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/coins/10.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "9b508a060ce50b64f6534b97f88ef276c9835d4398ac65c2ca1d5f42dd4cb393"
+    },
+    {
+      "id": "face.tarot.poker.coins.2",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "coins",
+      "rank": "2",
+      "title": "2 of Coins",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/coins/2.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "32cd6bfbcf11391c0ee9d6f9084cc7758d34e871c41295e4d6fd713437d10d55"
+    },
+    {
+      "id": "face.tarot.poker.coins.3",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "coins",
+      "rank": "3",
+      "title": "3 of Coins",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/coins/3.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "098f7660be2749e5e93744696861d1ff501e07f0ed156a5437edbb26242543eb"
+    },
+    {
+      "id": "face.tarot.poker.coins.4",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "coins",
+      "rank": "4",
+      "title": "4 of Coins",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/coins/4.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "eb7b2ba32b01018d153bb967d601b202ca3cef3d0cad91ba6c17782c7803e75b"
+    },
+    {
+      "id": "face.tarot.poker.coins.5",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "coins",
+      "rank": "5",
+      "title": "5 of Coins",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/coins/5.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "b5b8a60bbbfb566780824113a8230b5c8134b22a77caf1490e8829d80813a013"
+    },
+    {
+      "id": "face.tarot.poker.coins.6",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "coins",
+      "rank": "6",
+      "title": "6 of Coins",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/coins/6.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "f44e6a102b825c89e79a9475f4e46631dccbc529d6913a8bd424854b8a0ffca5"
+    },
+    {
+      "id": "face.tarot.poker.coins.7",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "coins",
+      "rank": "7",
+      "title": "7 of Coins",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/coins/7.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "5441c62e16a44a9591b065591da7d3f0ec22ab624511c4f048cdf88201a1889e"
+    },
+    {
+      "id": "face.tarot.poker.coins.8",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "coins",
+      "rank": "8",
+      "title": "8 of Coins",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/coins/8.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "37dc9812c5f4b213fe78c8a6e20467bbd001e08804cc65f10ec53db9604c4ca7"
+    },
+    {
+      "id": "face.tarot.poker.coins.9",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "coins",
+      "rank": "9",
+      "title": "9 of Coins",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/coins/9.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "d98d9f7eb3ea912f23782f340818e61cb2291fd3f8567aad5d80197b5840b761"
+    },
+    {
+      "id": "face.tarot.poker.coins.ace",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "coins",
+      "rank": "ace",
+      "title": "Ace of Coins",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/coins/ace.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "529799a355812a4d06ba3c03241672ace95364d59d632286080045314c4fca1e"
+    },
+    {
+      "id": "face.tarot.poker.coins.king",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "coins",
+      "rank": "king",
+      "title": "King of Coins",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/coins/king.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "0cae786e5c0cfae6c1f84f80d45e6db3c355510f3ff91f479025c412d4cac167"
+    },
+    {
+      "id": "face.tarot.poker.coins.knight",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "coins",
+      "rank": "knight",
+      "title": "Cavalier of Coins",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/coins/knight.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "93b23b059615598246c8dea47f80be760d53f68ab7aab2e41fa95715925b183f"
+    },
+    {
+      "id": "face.tarot.poker.coins.page",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "coins",
+      "rank": "page",
+      "title": "Maid of Coins",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/coins/page.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "8a5c12335c6c582d83373b4194ca82e64f97f7a28f8361eeb3534914c7f0ffd5"
+    },
+    {
+      "id": "face.tarot.poker.coins.queen",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "coins",
+      "rank": "queen",
+      "title": "Queen of Coins",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/coins/queen.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "eb70d5e8dfbb24227674fe4be75b96175a6c18bda3d898760e3ecc642ad37953"
+    },
+    {
+      "id": "face.tarot.poker.cups.10",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "cups",
+      "rank": "10",
+      "title": "10 of Cups",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/cups/10.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "e963913010c180731909f66b1af7803d3f020442080ba462cabeead6f7122644"
+    },
+    {
+      "id": "face.tarot.poker.cups.2",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "cups",
+      "rank": "2",
+      "title": "2 of Cups",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/cups/2.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "fd06df690e60728ce945f3b21a1270c02b6010eddbae0bc4f0b601cfbe941f9b"
+    },
+    {
+      "id": "face.tarot.poker.cups.3",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "cups",
+      "rank": "3",
+      "title": "3 of Cups",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/cups/3.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "693d29afcbc3a8fcfe796e4e83b0135aae8c4249d704b2f406f6412b81fcf95a"
+    },
+    {
+      "id": "face.tarot.poker.cups.4",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "cups",
+      "rank": "4",
+      "title": "4 of Cups",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/cups/4.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "8b4c43cc3305b973c335b1bd984a6abaaa637c8fd6a704cfdf29d00da15d9e92"
+    },
+    {
+      "id": "face.tarot.poker.cups.5",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "cups",
+      "rank": "5",
+      "title": "5 of Cups",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/cups/5.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "1e45df833d28e646a2dfbb30264c0c64701501d30c4e3e2a58650776fa1f3894"
+    },
+    {
+      "id": "face.tarot.poker.cups.6",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "cups",
+      "rank": "6",
+      "title": "6 of Cups",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/cups/6.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "a0589fd02a4b7219b71c16cddd7ed673c58b57ed4f643682ec9891b8e297de78"
+    },
+    {
+      "id": "face.tarot.poker.cups.7",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "cups",
+      "rank": "7",
+      "title": "7 of Cups",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/cups/7.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "c404f8bc0b48291d9f6805fd758d9f0f9ba4d0e12cd24c24e3810320a0d74d64"
+    },
+    {
+      "id": "face.tarot.poker.cups.8",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "cups",
+      "rank": "8",
+      "title": "8 of Cups",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/cups/8.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "5f7be95a7cbdb22b18cd969d5a9ae61f778b4e37b05a214c0329b10c375dedc2"
+    },
+    {
+      "id": "face.tarot.poker.cups.9",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "cups",
+      "rank": "9",
+      "title": "9 of Cups",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/cups/9.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "bb00fb77d0b501af5299152b42a27ff83ea16f8de780cfa108b1111b99a66569"
+    },
+    {
+      "id": "face.tarot.poker.cups.ace",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "cups",
+      "rank": "ace",
+      "title": "Ace of Cups",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/cups/ace.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "01436802a992e8dfc8efda496e2c2b5558024b93ef406d62fda9c429e23a6566"
+    },
+    {
+      "id": "face.tarot.poker.cups.king",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "cups",
+      "rank": "king",
+      "title": "King of Cups",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/cups/king.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "5c4099395ab41000857fdc2310474506018ae649fd8e1703b9c09d74864ef953"
+    },
+    {
+      "id": "face.tarot.poker.cups.knight",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "cups",
+      "rank": "knight",
+      "title": "Cavalier of Cups",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/cups/knight.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "237a536caf2d74cd6ccfdc9c4e43a3a434b3bc0b6b0f20e3d100e87ce198b681"
+    },
+    {
+      "id": "face.tarot.poker.cups.page",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "cups",
+      "rank": "page",
+      "title": "Maid of Cups",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/cups/page.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "a4b50e46b99221a0127ef838ef95cdc4575a62e25080b5cfc55e7763332d54bb"
+    },
+    {
+      "id": "face.tarot.poker.cups.queen",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "cups",
+      "rank": "queen",
+      "title": "Queen of Cups",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/cups/queen.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "c9dcd4b7847813172072b6d16abd14d2bd0d0257dd1bc49b6dd3f83031ec2c61"
+    },
+    {
+      "id": "face.tarot.poker.swords.10",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "swords",
+      "rank": "10",
+      "title": "10 of Swords",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/swords/10.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "e6196d506b6af2799c4d2728963a6a7c7cc20cb0b94ea26b01cb70ff3e4e39df"
+    },
+    {
+      "id": "face.tarot.poker.swords.2",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "swords",
+      "rank": "2",
+      "title": "2 of Swords",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/swords/2.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "d09bafbdb56e922a12b9274e350b32e4096e55746da3bc0e0cdcb6e5fe5b282b"
+    },
+    {
+      "id": "face.tarot.poker.swords.3",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "swords",
+      "rank": "3",
+      "title": "3 of Swords",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/swords/3.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "9f2c8e21b8c96eec668538179f5ad37b92c8a09b18b74b723231b72cd93289c4"
+    },
+    {
+      "id": "face.tarot.poker.swords.4",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "swords",
+      "rank": "4",
+      "title": "4 of Swords",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/swords/4.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "468af6236dbd313c60d74d6e9d00ccaa3a1b2ceaf0419498673aac5df22825bb"
+    },
+    {
+      "id": "face.tarot.poker.swords.5",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "swords",
+      "rank": "5",
+      "title": "5 of Swords",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/swords/5.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "d3e43e4abd25af25ade946aef3bb1b2a226f590f71b0bb17d86d3fcdf50ebf3a"
+    },
+    {
+      "id": "face.tarot.poker.swords.6",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "swords",
+      "rank": "6",
+      "title": "6 of Swords",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/swords/6.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "16a38c50d0c16b28818f2f37272bd4720093ca20139453d067e99fe629f68f91"
+    },
+    {
+      "id": "face.tarot.poker.swords.7",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "swords",
+      "rank": "7",
+      "title": "7 of Swords",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/swords/7.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "a5dadb1813ef8fc8caa72b27d5c6549c5cadb1528e95d570eb9964dbd5b021f0"
+    },
+    {
+      "id": "face.tarot.poker.swords.8",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "swords",
+      "rank": "8",
+      "title": "8 of Swords",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/swords/8.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "4848f6657c0d387c64adf01221e424cb60461afae4a1032d9f0c54e95938ef7c"
+    },
+    {
+      "id": "face.tarot.poker.swords.9",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "swords",
+      "rank": "9",
+      "title": "9 of Swords",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/swords/9.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "37f267ccf3fa3bb1515c8c4f09d9913af95a099272e65caadd3e78b849dc6659"
+    },
+    {
+      "id": "face.tarot.poker.swords.ace",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "swords",
+      "rank": "ace",
+      "title": "Ace of Swords",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/swords/ace.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "7d6aafcf6eca1cae2e149fb0abc4a0095a2e611ac15d19e6fdec30225120b975"
+    },
+    {
+      "id": "face.tarot.poker.swords.king",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "swords",
+      "rank": "king",
+      "title": "King of Swords",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/swords/king.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "921d56e7bf8a07081459ba205c637414827382597eab323a6c44fc12b74fac1b"
+    },
+    {
+      "id": "face.tarot.poker.swords.knight",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "swords",
+      "rank": "knight",
+      "title": "Cavalier of Swords",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/swords/knight.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "664db7596544e6dbce1c71756bc47198702e7fb3276e2daa3a4e738e75e0f343"
+    },
+    {
+      "id": "face.tarot.poker.swords.page",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "swords",
+      "rank": "page",
+      "title": "Jack of Swords",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/swords/page.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "52c876a379fdd0c429c76b79ebb9e8ef083085e11012afaab70272004c651c20"
+    },
+    {
+      "id": "face.tarot.poker.swords.queen",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "minor",
+      "suit": "swords",
+      "rank": "queen",
+      "title": "Queen of Swords",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "path": "cards/faces/tarot/poker/swords/queen.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "4eee6ca50930916b2d46a3655e6deba39406219e93a3c90676580ea57142a85d"
+    },
+    {
+      "id": "face.tarot.poker.trump.0.the-fool",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "0",
+      "number": 0,
+      "slug": "the-fool",
+      "title": "The Fool",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "",
+      "kind": "fool",
+      "group": null,
+      "path": "cards/faces/tarot/poker/trumps/00-the-fool.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "7e9f5aff4188fb37044ed7c0d82fbe8a1c9c18e47864f9708f1aa98336417334"
+    },
+    {
+      "id": "face.tarot.poker.trump.1.bagatella",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "1",
+      "number": 1,
+      "slug": "bagatella",
+      "title": "Bagatella",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "I",
+      "kind": "trump",
+      "group": "traditional-trump",
+      "path": "cards/faces/tarot/poker/trumps/01-bagatella.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "a77293298928a98fccadcd05e033dc20721d219d35710c96a571183e13113992"
+    },
+    {
+      "id": "face.tarot.poker.trump.2.the-empress",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "2",
+      "number": 2,
+      "slug": "the-empress",
+      "title": "The Empress",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "II",
+      "kind": "trump",
+      "group": "traditional-trump",
+      "path": "cards/faces/tarot/poker/trumps/02-the-empress.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "9abc37f60057befd2b68567b3c8039deece2b93c79e5b26558329f357af3d65a"
+    },
+    {
+      "id": "face.tarot.poker.trump.3.the-emperor",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "3",
+      "number": 3,
+      "slug": "the-emperor",
+      "title": "The Emperor",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "III",
+      "kind": "trump",
+      "group": "traditional-trump",
+      "path": "cards/faces/tarot/poker/trumps/03-the-emperor.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "a60bbc0478aa57bc6022891326cbb703a232263c0b3852dadbef19e42ece3954"
+    },
+    {
+      "id": "face.tarot.poker.trump.4.the-eastern-emperor",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "4",
+      "number": 4,
+      "slug": "the-eastern-emperor",
+      "title": "The Eastern Emperor",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "IV",
+      "kind": "trump",
+      "group": "traditional-trump",
+      "path": "cards/faces/tarot/poker/trumps/04-the-eastern-emperor.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "73b3afbc93d884e4ac99e6f1eccec9ad2ea0de3945f12075c7ce6b428d3bf85f"
+    },
+    {
+      "id": "face.tarot.poker.trump.5.love",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "5",
+      "number": 5,
+      "slug": "love",
+      "title": "Love",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "V",
+      "kind": "trump",
+      "group": "traditional-trump",
+      "path": "cards/faces/tarot/poker/trumps/05-love.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "501b5cc03b57ee68555c51d1210fbe599c7b1b5a9b738d80b02e24022b58280e"
+    },
+    {
+      "id": "face.tarot.poker.trump.6.temperance",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "6",
+      "number": 6,
+      "slug": "temperance",
+      "title": "Temperance",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "VI",
+      "kind": "trump",
+      "group": "traditional-trump",
+      "path": "cards/faces/tarot/poker/trumps/06-temperance.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "6550d71779a81652f059b96925e32c1c4c16f3e6a88cda5860dfeda43bef2113"
+    },
+    {
+      "id": "face.tarot.poker.trump.7.fortitude",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "7",
+      "number": 7,
+      "slug": "fortitude",
+      "title": "Fortitude",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "VII",
+      "kind": "trump",
+      "group": "traditional-trump",
+      "path": "cards/faces/tarot/poker/trumps/07-fortitude.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "3079f3b8fe1c42bd116d7afe2d093dcae36da184d1a55db01e7c46960bce9afa"
+    },
+    {
+      "id": "face.tarot.poker.trump.8.justice",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "8",
+      "number": 8,
+      "slug": "justice",
+      "title": "Justice",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "VIII",
+      "kind": "trump",
+      "group": "traditional-trump",
+      "path": "cards/faces/tarot/poker/trumps/08-justice.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "94204d5e95ead05e00eecc32cd59a52e9f62624d3d2a8252b04cfb8bed15c3ad"
+    },
+    {
+      "id": "face.tarot.poker.trump.9.wheel-of-fortune",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "9",
+      "number": 9,
+      "slug": "wheel-of-fortune",
+      "title": "Wheel of Fortune",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "IX",
+      "kind": "trump",
+      "group": "traditional-trump",
+      "path": "cards/faces/tarot/poker/trumps/09-wheel-of-fortune.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "6a139c93c2a87adb10ccb59f737968d8a9ed3dcd70296c84ebf8a07b577358b9"
+    },
+    {
+      "id": "face.tarot.poker.trump.10.the-chariot",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "10",
+      "number": 10,
+      "slug": "the-chariot",
+      "title": "The Chariot",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "X",
+      "kind": "trump",
+      "group": "traditional-trump",
+      "path": "cards/faces/tarot/poker/trumps/10-the-chariot.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "8df74386b36188ae4018abb55de32a522ae667540dfe651eaa20080e2187b845"
+    },
+    {
+      "id": "face.tarot.poker.trump.11.time",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "11",
+      "number": 11,
+      "slug": "time",
+      "title": "Time",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XI",
+      "kind": "trump",
+      "group": "traditional-trump",
+      "path": "cards/faces/tarot/poker/trumps/11-time.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "62a418600f5db8be4e70ef5c813d16eb77e3ecbc3edb247a77316b8814649118"
+    },
+    {
+      "id": "face.tarot.poker.trump.12.the-hanged-man",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "12",
+      "number": 12,
+      "slug": "the-hanged-man",
+      "title": "The Hanged Man",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XII",
+      "kind": "trump",
+      "group": "traditional-trump",
+      "path": "cards/faces/tarot/poker/trumps/12-the-hanged-man.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "458951b7937a05f2b1bf294f5f602f823cda8c36cb24364c5228348bc32224df"
+    },
+    {
+      "id": "face.tarot.poker.trump.13.death",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "13",
+      "number": 13,
+      "slug": "death",
+      "title": "Death",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XIII",
+      "kind": "trump",
+      "group": "traditional-trump",
+      "path": "cards/faces/tarot/poker/trumps/13-death.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "d255ec821464d44e9cb93322db9ae70b46a1f6ea3e46789e8df7235cfe5c0279"
+    },
+    {
+      "id": "face.tarot.poker.trump.14.the-devil",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "14",
+      "number": 14,
+      "slug": "the-devil",
+      "title": "The Devil",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XIV",
+      "kind": "trump",
+      "group": "traditional-trump",
+      "path": "cards/faces/tarot/poker/trumps/14-the-devil.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "e3f4c8032a23a0d726595365ddd4c16d283bc84e7ae4573dc8e90787b9a32259"
+    },
+    {
+      "id": "face.tarot.poker.trump.15.the-house-of-the-devil",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "15",
+      "number": 15,
+      "slug": "the-house-of-the-devil",
+      "title": "The House of the Devil",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XV",
+      "kind": "trump",
+      "group": "traditional-trump",
+      "path": "cards/faces/tarot/poker/trumps/15-the-house-of-the-devil.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "cac17f489e6c190b06ae6e811a5e3ff1df125ebabd63fa3a4213bd34c861b738"
+    },
+    {
+      "id": "face.tarot.poker.trump.16.hope",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "16",
+      "number": 16,
+      "slug": "hope",
+      "title": "Hope",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XVI",
+      "kind": "trump",
+      "group": "additional-virtue",
+      "path": "cards/faces/tarot/poker/trumps/16-hope.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "c212e131581e865ada05c742cff3f942a789af6cc0eb1eee77eb1f8be6de06b0"
+    },
+    {
+      "id": "face.tarot.poker.trump.17.prudence",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "17",
+      "number": 17,
+      "slug": "prudence",
+      "title": "Prudence",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XVII",
+      "kind": "trump",
+      "group": "additional-virtue",
+      "path": "cards/faces/tarot/poker/trumps/17-prudence.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "b0bf98b7f5c0dd177f3519febd25cf412e9df6dfab3a18346410795494f25f27"
+    },
+    {
+      "id": "face.tarot.poker.trump.18.faith",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "18",
+      "number": 18,
+      "slug": "faith",
+      "title": "Faith",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XVIII",
+      "kind": "trump",
+      "group": "additional-virtue",
+      "path": "cards/faces/tarot/poker/trumps/18-faith.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "c30a21d644cdb1a12ce412b16fd09717fc09fce08e0d9f2ac286a1688e014177"
+    },
+    {
+      "id": "face.tarot.poker.trump.19.charity",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "19",
+      "number": 19,
+      "slug": "charity",
+      "title": "Charity",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XIX",
+      "kind": "trump",
+      "group": "additional-virtue",
+      "path": "cards/faces/tarot/poker/trumps/19-charity.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "024717e66b630b69fcfb58514e265f9177962582b0d94727061e451343a87772"
+    },
+    {
+      "id": "face.tarot.poker.trump.20.fire",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "20",
+      "number": 20,
+      "slug": "fire",
+      "title": "Fire",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XX",
+      "kind": "trump",
+      "group": "element",
+      "path": "cards/faces/tarot/poker/trumps/20-fire.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "e66a5812ab58c7d8c1f2d0146611ade94d1fb7af240ff4444776178d55c9621d"
+    },
+    {
+      "id": "face.tarot.poker.trump.21.water",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "21",
+      "number": 21,
+      "slug": "water",
+      "title": "Water",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXI",
+      "kind": "trump",
+      "group": "element",
+      "path": "cards/faces/tarot/poker/trumps/21-water.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "a6556e525cde88d05f28ccd9648e3a98e19fd96d9ef8c52ebc6fcfd80762948c"
+    },
+    {
+      "id": "face.tarot.poker.trump.22.earth",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "22",
+      "number": 22,
+      "slug": "earth",
+      "title": "Earth",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXII",
+      "kind": "trump",
+      "group": "element",
+      "path": "cards/faces/tarot/poker/trumps/22-earth.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "c3df2ed48ca0a4d531f05a977236bce8e1f98a8273429ea0027a55eeb7b51e35"
+    },
+    {
+      "id": "face.tarot.poker.trump.23.air",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "23",
+      "number": 23,
+      "slug": "air",
+      "title": "Air",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXIII",
+      "kind": "trump",
+      "group": "element",
+      "path": "cards/faces/tarot/poker/trumps/23-air.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "c223d7a1340a74b68641f8cbac0edc9a0b9fc905d80d0c256a367885fedf864e"
+    },
+    {
+      "id": "face.tarot.poker.trump.24.libra",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "24",
+      "number": 24,
+      "slug": "libra",
+      "title": "Libra",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXIV",
+      "kind": "trump",
+      "group": "zodiac",
+      "path": "cards/faces/tarot/poker/trumps/24-libra.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "7fd616764cba3d562d4eae8d65af809390444d6640281fefc9e1eecf09948fcf"
+    },
+    {
+      "id": "face.tarot.poker.trump.25.virgo",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "25",
+      "number": 25,
+      "slug": "virgo",
+      "title": "Virgo",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXV",
+      "kind": "trump",
+      "group": "zodiac",
+      "path": "cards/faces/tarot/poker/trumps/25-virgo.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "302af36859a1699a6db71f655be205600be78e11abf4b6dee2c79a1be5e1bd56"
+    },
+    {
+      "id": "face.tarot.poker.trump.26.scorpio",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "26",
+      "number": 26,
+      "slug": "scorpio",
+      "title": "Scorpio",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXVI",
+      "kind": "trump",
+      "group": "zodiac",
+      "path": "cards/faces/tarot/poker/trumps/26-scorpio.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "b19c7b5de4bc6974f1e5ec43a914d668e9416b7c7ab12d6fcc1e30bbc4b646e6"
+    },
+    {
+      "id": "face.tarot.poker.trump.27.aries",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "27",
+      "number": 27,
+      "slug": "aries",
+      "title": "Aries",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXVII",
+      "kind": "trump",
+      "group": "zodiac",
+      "path": "cards/faces/tarot/poker/trumps/27-aries.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "a3168eec3628f0fa76efb1b97bb1a17dd05836e6a2720c29eb3f4d5f78bab2d2"
+    },
+    {
+      "id": "face.tarot.poker.trump.28.capricorn",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "28",
+      "number": 28,
+      "slug": "capricorn",
+      "title": "Capricorn",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXVIII",
+      "kind": "trump",
+      "group": "zodiac",
+      "path": "cards/faces/tarot/poker/trumps/28-capricorn.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "b26197da53f2a7fbed02b85ac5df3a516963ea1ed97ee982b62ba1b4843709be"
+    },
+    {
+      "id": "face.tarot.poker.trump.29.sagittarius",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "29",
+      "number": 29,
+      "slug": "sagittarius",
+      "title": "Sagittarius",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXIX",
+      "kind": "trump",
+      "group": "zodiac",
+      "path": "cards/faces/tarot/poker/trumps/29-sagittarius.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "59f8e4e4f18d75cd2a92ad8f682ab0f73afe410de06c12dcbe5a00be46846082"
+    },
+    {
+      "id": "face.tarot.poker.trump.30.cancer",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "30",
+      "number": 30,
+      "slug": "cancer",
+      "title": "Cancer",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXX",
+      "kind": "trump",
+      "group": "zodiac",
+      "path": "cards/faces/tarot/poker/trumps/30-cancer.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "c24fb8401245a8e46b26c068bf9a58075dfee1ee5ff214d57e4b231ec2ab1a6e"
+    },
+    {
+      "id": "face.tarot.poker.trump.31.pisces",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "31",
+      "number": 31,
+      "slug": "pisces",
+      "title": "Pisces",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXXI",
+      "kind": "trump",
+      "group": "zodiac",
+      "path": "cards/faces/tarot/poker/trumps/31-pisces.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "4c2ae0bc2675c32690b9401b876040d8789cb58a5443368f7eeba5388ba547c8"
+    },
+    {
+      "id": "face.tarot.poker.trump.32.aquarius",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "32",
+      "number": 32,
+      "slug": "aquarius",
+      "title": "Aquarius",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXXII",
+      "kind": "trump",
+      "group": "zodiac",
+      "path": "cards/faces/tarot/poker/trumps/32-aquarius.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "1dcfd766e9f8842137dc005573da9f9e7fc33e3cf384eb6d87866ef71b7f2abf"
+    },
+    {
+      "id": "face.tarot.poker.trump.33.leo",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "33",
+      "number": 33,
+      "slug": "leo",
+      "title": "Leo",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXXIII",
+      "kind": "trump",
+      "group": "zodiac",
+      "path": "cards/faces/tarot/poker/trumps/33-leo.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "2c3b3402d3d2fa887874cddac10cc03e9ad999219af460671a84c3d3a893df95"
+    },
+    {
+      "id": "face.tarot.poker.trump.34.taurus",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "34",
+      "number": 34,
+      "slug": "taurus",
+      "title": "Taurus",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXXIV",
+      "kind": "trump",
+      "group": "zodiac",
+      "path": "cards/faces/tarot/poker/trumps/34-taurus.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "5ddf6820d2f444e97dbb0e9680b01bee4848543a5204b9e736cc697f4062f270"
+    },
+    {
+      "id": "face.tarot.poker.trump.35.gemini",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "35",
+      "number": 35,
+      "slug": "gemini",
+      "title": "Gemini",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "XXXV",
+      "kind": "trump",
+      "group": "zodiac",
+      "path": "cards/faces/tarot/poker/trumps/35-gemini.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "f3f8ad32b2bd65fe241cd883de97e7d9d2d4a8137758da20da24e1c2f77a8a5b"
+    },
+    {
+      "id": "face.tarot.poker.trump.36.the-star",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "36",
+      "number": 36,
+      "slug": "the-star",
+      "title": "The Star",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "",
+      "kind": "trump",
+      "group": "arie",
+      "path": "cards/faces/tarot/poker/trumps/36-the-star.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "50ba274e48b6da8151bbc5745dc11a1e9b3384fc79e6e3a213b3c60e9d923b94"
+    },
+    {
+      "id": "face.tarot.poker.trump.37.the-moon",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "37",
+      "number": 37,
+      "slug": "the-moon",
+      "title": "The Moon",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "",
+      "kind": "trump",
+      "group": "arie",
+      "path": "cards/faces/tarot/poker/trumps/37-the-moon.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "0e328941d119e7db931ba315e0eadfe87d0d063227ae950862015fe791c846f1"
+    },
+    {
+      "id": "face.tarot.poker.trump.38.the-sun",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "38",
+      "number": 38,
+      "slug": "the-sun",
+      "title": "The Sun",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "",
+      "kind": "trump",
+      "group": "arie",
+      "path": "cards/faces/tarot/poker/trumps/38-the-sun.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "8cdaa75d602d67a3d0e7b75baaad43a8ea5ed6837a2ac1a51d199b1f573ff71f"
+    },
+    {
+      "id": "face.tarot.poker.trump.39.the-world",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "39",
+      "number": 39,
+      "slug": "the-world",
+      "title": "The World",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "",
+      "kind": "trump",
+      "group": "arie",
+      "path": "cards/faces/tarot/poker/trumps/39-the-world.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "816d4564b8c49ec43211345872dc672c9b9eb311bb6284eda4b4d3b2733385bf"
+    },
+    {
+      "id": "face.tarot.poker.trump.40.the-trumpets",
+      "side": "face",
+      "system": "tarot",
+      "format": "poker",
+      "arcana": "major",
+      "suit": null,
+      "rank": "40",
+      "number": 40,
+      "slug": "the-trumpets",
+      "title": "The Trumpets",
+      "color_variant": null,
+      "status": "review",
+      "tradition": "florentine-minchiate-97",
+      "printed_index": "",
+      "kind": "trump",
+      "group": "arie",
+      "path": "cards/faces/tarot/poker/trumps/40-the-trumpets.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "c82940ee1f6fa85d55b63beaa43519b1afdf710dd2ef20d32357224463a55103"
     }
   ]
 }

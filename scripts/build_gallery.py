@@ -36,7 +36,7 @@ def inventory():
         else:
             title = a.get('title') or (f"{label(a['color_variant'])} Joker" if a['rank'] == 'joker' else f"{label(a['rank'])} of {label(a['suit'])}")
             group = f"design1-{a['format']}" if a['design'] == 'design1' else (
-                'design2-numbers' if a['rank'] in list(map(str, range(2, 11))) else 'design2-faces')
+                'design2-numbers' if a.get('system') == 'french-suited' and a['rank'] in list(map(str, range(2, 11))) else 'design2-faces')
             a.update(group=group, title=title, detail=f"{label(a['format'])} · {a['pixels'][0]} × {a['pixels'][1]}")
         assets.append(a)
 
@@ -104,7 +104,7 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
     data = []
     for a in sorted(assets, key=lambda a: (a['design'], order(a))):
         entry = {key: a[key] for key in ('id', 'design', 'format', 'pixels', 'title',
-                 'detail', 'trim_inches', 'rank', 'suit', 'arcana', 'group') if key in a}
+                 'detail', 'trim_inches', 'rank', 'suit', 'arcana', 'group', 'system', 'tradition') if key in a}
         entry['src'] = url(a['path'])
         entry['kind'] = 'masters' if '.master.' in a['id'] else a['side']
         data.append(entry)

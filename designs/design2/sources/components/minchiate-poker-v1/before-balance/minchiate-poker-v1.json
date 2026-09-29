@@ -1,0 +1,525 @@
+{
+  "version": 1,
+  "status": "four-card-review",
+  "format": "poker",
+  "pixels": [
+    750,
+    1050
+  ],
+  "planned_count": 97,
+  "proof_count": 4,
+  "remaining_count": 93,
+  "production_promotion": false,
+  "font": {
+    "path": "C:\\Windows\\Fonts\\timesbd.ttf",
+    "sha256": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5"
+  },
+  "inputs": [
+    {
+      "path": "docs/minchiate-97.json",
+      "sha256": "9c1ea854421334b7c44194be305e796ebfb1b3dc3ebd8cd25e5e09ae2669fdb5"
+    },
+    {
+      "path": "designs/design2/sources/generated/minchiate-poker-v1/prompts.json",
+      "sha256": "b316eaa60a8b0bce42745442d499afacd6ae57891c9314c2b5b355cd84c87758"
+    },
+    {
+      "path": "designs/design2/sources/components/design2-face-frames-v1/poker/field-mask.png",
+      "sha256": "62942da62428617627017ce0407c0c5ae379134f9be696b6de386f03c27b1719"
+    },
+    {
+      "path": "designs/design2/sources/components/design2-face-frames-v1/poker/frame-color-mask.png",
+      "sha256": "2db25ebb78fea258ac019ccf53540d5df4e84a8706a63de4eac88948b3a3db9f"
+    },
+    {
+      "path": "designs/design2/sources/components/design2-face-frames-v1/poker/lamp-black.png",
+      "sha256": "5dcdf487f6db1f6885778558856aade97d2dfb8ded8311ddcbf0d6d65a722a25"
+    },
+    {
+      "path": "designs/design2/sources/components/design2-face-frames-v1/poker/madder-lake.png",
+      "sha256": "19b4c547c0558158e3edd0eb5499a8b9832390ea5366be36e96b663855a11af3"
+    },
+    {
+      "path": "designs/design2/sources/components/design2-face-frames-v1/poker/outline-mask.png",
+      "sha256": "30010a291b9afb91995dc80ca967f1dc4d97f79d0b324e6056eed06a5acf3587"
+    },
+    {
+      "path": "designs/design2/sources/components/design2-face-frames-v1/poker/panel-mask.png",
+      "sha256": "86276fcf5e8ec51f268b4c242450395d13bbafb6705dc0d015974cda1d5e9549"
+    },
+    {
+      "path": "designs/design1/sources/components/tarot/review-v1/trumps-index-mask.png",
+      "sha256": "457b9cea1e63ca27341012b53fddc47cd83dfcecd2f576f3294f22f94312eb65"
+    },
+    {
+      "path": "designs/design1/sources/components/tarot/review-v1/cups-index-mask.png",
+      "sha256": "5e95138b1343758f46785a862331604b85e62c35310e6f2a3e5010a4f25998af"
+    },
+    {
+      "path": "designs/design1/sources/components/tarot/review-v1/swords-index-mask.png",
+      "sha256": "12defc657ea01e24d11f73c59f1cdd156d71eefa25974b0323d25c0418b16485"
+    }
+  ],
+  "sources": [
+    {
+      "path": "designs/design2/sources/generated/minchiate-poker-v1/the-empress.png",
+      "sha256": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+    },
+    {
+      "path": "designs/design2/sources/generated/minchiate-poker-v1/queen-of-cups.png",
+      "sha256": "04d333fea48f9f56852cc01840552f425df761e956447a167dcb4a1a2d1fdb44"
+    },
+    {
+      "path": "designs/design2/sources/generated/minchiate-poker-v1/sword-straight.png",
+      "sha256": "cdd2b0cae4e1a659d6eac60539ea112a2079662306a11dfbadd19a2200435eb0"
+    }
+  ],
+  "cards": [
+    {
+      "id": "the-empress",
+      "kind": "trump",
+      "title": "The Empress",
+      "rank_order": 2,
+      "printed_index": "II",
+      "group": "traditional-trump",
+      "historical_alias": "Papa 2",
+      "status": "draft-proof",
+      "path": "designs/design2/sources/components/minchiate-poker-v1/proofs/the-empress.png",
+      "sha256": "ec9e37f13bbfff99fbbcbfc4ae02a1c1ee4d8fa5b5678fdd0599dd3f556aee98",
+      "source": "the-empress",
+      "crop": [
+        12,
+        27,
+        1018,
+        1508
+      ],
+      "frame": "lamp-black",
+      "instance_count": 1,
+      "instances": [
+        {
+          "box": [
+            494,
+            734
+          ],
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 0,
+          "pasted_bounds": [
+            128,
+            162,
+            622,
+            889
+          ],
+          "instance_id": "the-empress-1"
+        }
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "artwork_outside_field": 0,
+      "index_outside_panels": 0,
+      "artwork_in_title_band": 0
+    },
+    {
+      "id": "queen-of-cups",
+      "kind": "court",
+      "suit": "cups",
+      "rank": "queen",
+      "title": "Queen of Cups",
+      "printed_index": "Q",
+      "status": "draft-proof",
+      "path": "designs/design2/sources/components/minchiate-poker-v1/proofs/queen-of-cups.png",
+      "sha256": "cf6fee641d7a4818bde3f6ee28e713563ebecbe426e712cc51ac79ff9a24b7db",
+      "source": "queen-of-cups",
+      "crop": [
+        23,
+        42,
+        1001,
+        1496
+      ],
+      "frame": "madder-lake",
+      "instance_count": 1,
+      "instances": [
+        {
+          "box": [
+            494,
+            734
+          ],
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 0,
+          "pasted_bounds": [
+            128,
+            158,
+            622,
+            892
+          ],
+          "instance_id": "queen-of-cups-1"
+        }
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "artwork_outside_field": 0,
+      "index_outside_panels": 0,
+      "artwork_in_title_band": 0
+    },
+    {
+      "id": "ace-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "ace",
+      "title": "Ace of Swords",
+      "printed_index": "A",
+      "status": "draft-proof",
+      "path": "designs/design2/sources/components/minchiate-poker-v1/proofs/ace-of-swords.png",
+      "sha256": "03dbbff4adff653a232ffdeb776aa5c22826d3c218ecde6ee94fabb167b937a4",
+      "source": "sword-straight",
+      "crop": [
+        382,
+        31,
+        678,
+        1442
+      ],
+      "frame": "lamp-black",
+      "instance_count": 1,
+      "instances": [
+        {
+          "box": [
+            260,
+            740
+          ],
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 0,
+          "pasted_bounds": [
+            298,
+            155,
+            453,
+            895
+          ],
+          "instance_id": "sword-straight-1"
+        }
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "artwork_outside_field": 0,
+      "index_outside_panels": 0,
+      "artwork_in_title_band": 0
+    },
+    {
+      "id": "10-of-swords",
+      "kind": "pip",
+      "suit": "swords",
+      "rank": "10",
+      "title": "10 of Swords",
+      "printed_index": "10",
+      "status": "draft-proof",
+      "path": "designs/design2/sources/components/minchiate-poker-v1/proofs/10-of-swords.png",
+      "sha256": "ac63cc171eea01eef37fb4600628ea0e0ae436408293afbf8462e26bc5e5a9bc",
+      "source": "sword-straight",
+      "crop": [
+        382,
+        31,
+        678,
+        1442
+      ],
+      "frame": "lamp-black",
+      "instance_count": 10,
+      "instances": [
+        {
+          "box": [
+            100,
+            200
+          ],
+          "center": [
+            374.5,
+            224.5
+          ],
+          "rotation": -45,
+          "pasted_bounds": [
+            289,
+            139,
+            461,
+            311
+          ],
+          "instance_id": "sword-straight-1"
+        },
+        {
+          "box": [
+            100,
+            200
+          ],
+          "center": [
+            374.5,
+            224.5
+          ],
+          "rotation": 45,
+          "pasted_bounds": [
+            289,
+            139,
+            461,
+            311
+          ],
+          "instance_id": "sword-straight-2"
+        },
+        {
+          "box": [
+            100,
+            200
+          ],
+          "center": [
+            374.5,
+            374.5
+          ],
+          "rotation": -45,
+          "pasted_bounds": [
+            289,
+            289,
+            461,
+            461
+          ],
+          "instance_id": "sword-straight-3"
+        },
+        {
+          "box": [
+            100,
+            200
+          ],
+          "center": [
+            374.5,
+            374.5
+          ],
+          "rotation": 45,
+          "pasted_bounds": [
+            289,
+            289,
+            461,
+            461
+          ],
+          "instance_id": "sword-straight-4"
+        },
+        {
+          "box": [
+            100,
+            200
+          ],
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": -45,
+          "pasted_bounds": [
+            289,
+            439,
+            461,
+            611
+          ],
+          "instance_id": "sword-straight-5"
+        },
+        {
+          "box": [
+            100,
+            200
+          ],
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 45,
+          "pasted_bounds": [
+            289,
+            439,
+            461,
+            611
+          ],
+          "instance_id": "sword-straight-6"
+        },
+        {
+          "box": [
+            100,
+            200
+          ],
+          "center": [
+            374.5,
+            674.5
+          ],
+          "rotation": -45,
+          "pasted_bounds": [
+            289,
+            589,
+            461,
+            761
+          ],
+          "instance_id": "sword-straight-7"
+        },
+        {
+          "box": [
+            100,
+            200
+          ],
+          "center": [
+            374.5,
+            674.5
+          ],
+          "rotation": 45,
+          "pasted_bounds": [
+            289,
+            589,
+            461,
+            761
+          ],
+          "instance_id": "sword-straight-8"
+        },
+        {
+          "box": [
+            100,
+            200
+          ],
+          "center": [
+            374.5,
+            824.5
+          ],
+          "rotation": -45,
+          "pasted_bounds": [
+            289,
+            739,
+            461,
+            911
+          ],
+          "instance_id": "sword-straight-9"
+        },
+        {
+          "box": [
+            100,
+            200
+          ],
+          "center": [
+            374.5,
+            824.5
+          ],
+          "rotation": 45,
+          "pasted_bounds": [
+            289,
+            739,
+            461,
+            911
+          ],
+          "instance_id": "sword-straight-10"
+        }
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "artwork_outside_field": 0,
+      "index_outside_panels": 0,
+      "artwork_in_title_band": 0
+    }
+  ],
+  "pending": [
+    "2-of-swords",
+    "3-of-swords",
+    "4-of-swords",
+    "5-of-swords",
+    "6-of-swords",
+    "7-of-swords",
+    "8-of-swords",
+    "9-of-swords",
+    "page-of-swords",
+    "knight-of-swords",
+    "queen-of-swords",
+    "king-of-swords",
+    "ace-of-batons",
+    "2-of-batons",
+    "3-of-batons",
+    "4-of-batons",
+    "5-of-batons",
+    "6-of-batons",
+    "7-of-batons",
+    "8-of-batons",
+    "9-of-batons",
+    "10-of-batons",
+    "page-of-batons",
+    "knight-of-batons",
+    "queen-of-batons",
+    "king-of-batons",
+    "ace-of-cups",
+    "2-of-cups",
+    "3-of-cups",
+    "4-of-cups",
+    "5-of-cups",
+    "6-of-cups",
+    "7-of-cups",
+    "8-of-cups",
+    "9-of-cups",
+    "10-of-cups",
+    "page-of-cups",
+    "knight-of-cups",
+    "king-of-cups",
+    "ace-of-coins",
+    "2-of-coins",
+    "3-of-coins",
+    "4-of-coins",
+    "5-of-coins",
+    "6-of-coins",
+    "7-of-coins",
+    "8-of-coins",
+    "9-of-coins",
+    "10-of-coins",
+    "page-of-coins",
+    "knight-of-coins",
+    "queen-of-coins",
+    "king-of-coins",
+    "the-fool",
+    "bagatella",
+    "the-emperor",
+    "the-eastern-emperor",
+    "love",
+    "temperance",
+    "fortitude",
+    "justice",
+    "wheel-of-fortune",
+    "the-chariot",
+    "time",
+    "the-hanged-man",
+    "death",
+    "the-devil",
+    "the-house-of-the-devil",
+    "hope",
+    "prudence",
+    "faith",
+    "charity",
+    "fire",
+    "water",
+    "earth",
+    "air",
+    "libra",
+    "virgo",
+    "scorpio",
+    "aries",
+    "capricorn",
+    "sagittarius",
+    "cancer",
+    "pisces",
+    "aquarius",
+    "leo",
+    "taurus",
+    "gemini",
+    "the-star",
+    "the-moon",
+    "the-sun",
+    "the-world",
+    "the-trumpets"
+  ]
+}

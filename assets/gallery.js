@@ -9,6 +9,8 @@
   let turned = false;
   const sets = [
     ['faces', 'All faces', a => a.kind === 'face'],
+    ['french', 'French-suited deck', a => a.kind === 'face' && a.system === 'french-suited'],
+    ['minchiate', 'Minchiate', a => a.kind === 'face' && a.tradition === 'florentine-minchiate-97'],
     ...['spades', 'hearts', 'diamonds', 'clubs', 'batons', 'cups', 'swords', 'coins'].map(suit =>
       [suit, suit[0].toUpperCase() + suit.slice(1), a => a.kind === 'face' && a.suit === suit]),
     ['trumps', 'Trumps & Fool', a => a.kind === 'face' && a.arcana === 'major'],

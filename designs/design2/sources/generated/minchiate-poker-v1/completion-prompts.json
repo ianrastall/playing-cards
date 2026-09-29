@@ -1,0 +1,1339 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "id": "baton-straight",
+      "kind": "suit-component",
+      "subject": "ONE isolated straight upright ornamental BATON, a slim cylindrical madder-red lacquer staff with evenly spaced gold lotus/cloud collars, small teal-and-gold end caps. Not a sword, wand, scepter or branch: straight shaft, blunt ends, no blade, no fork, no foliage or tassel. Bilaterally balanced, about 1:6 width to height, legible at 170 px. No person or additional object.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: ONE isolated straight upright ornamental BATON, a slim cylindrical madder-red lacquer staff with evenly spaced gold lotus/cloud collars, small teal-and-gold end caps. Not a sword, wand, scepter or branch: straight shaft, blunt ends, no blade, no fork, no foliage or tassel. Bilaterally balanced, about 1:6 width to height, legible at 170 px. No person or additional object.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "baton-straight.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "cb645b78fa843e517e12fd9a6aa03f5a7f6cf246487c3bbc82d2f79730442b01"
+      },
+      "generation_file": "exec-f5a5b820-f692-4903-940d-851001a1d160.png"
+    },
+    {
+      "id": "cup",
+      "kind": "suit-component",
+      "subject": "ONE isolated upright open golden CHALICE with wide open bowl, slender stem and broad round foot. Dark-teal and madder-red lotus inlay, a small turquoise jewel on the bowl. Bilaterally balanced simple silhouette, clearly a drinking cup, no lid, no handle, no teapot spout, no vase, no person, no plants. Legible repeated as small counted suit pips.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: ONE isolated upright open golden CHALICE with wide open bowl, slender stem and broad round foot. Dark-teal and madder-red lotus inlay, a small turquoise jewel on the bowl. Bilaterally balanced simple silhouette, clearly a drinking cup, no lid, no handle, no teapot spout, no vase, no person, no plants. Legible repeated as small counted suit pips.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "cup.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "826c20819d7b40d325e9012f06cd4eb28fc170acc2099637f07ba675ac7995c8"
+      },
+      "generation_file": "exec-a4fe9fe3-a0d7-43db-a358-85d507dc5b9d.png"
+    },
+    {
+      "id": "coin",
+      "kind": "suit-component",
+      "subject": "ONE isolated perfectly round golden COIN face, frontal flat circular view. A centered symmetrical eight-petal lotus rosette with one tiny turquoise center stone, dark-teal and madder-red enamel petals, two fine concentric gold rim lines. Rich engraved gold but uncluttered. No lettering, numerals, square hole, perspective, extra coin, person or surrounding decoration. Legible repeated as counted suit pips.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: ONE isolated perfectly round golden COIN face, frontal flat circular view. A centered symmetrical eight-petal lotus rosette with one tiny turquoise center stone, dark-teal and madder-red enamel petals, two fine concentric gold rim lines. Rich engraved gold but uncluttered. No lettering, numerals, square hole, perspective, extra coin, person or surrounding decoration. Legible repeated as counted suit pips.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "coin.png",
+        "pixels": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "8cba805c119d0209e542bda3ab7e7b04bf844d9ff6721abf2d93ce222a3ab6b1"
+      },
+      "generation_file": "exec-54fa1277-d054-4c79-8ba1-dc19a94a831b.png"
+    },
+    {
+      "id": "page-of-swords",
+      "kind": "court",
+      "subject": "JACK OF SWORDS: ONE uncrowned East Asian young adult male attendant standing full length in blue silk robes with red and dark-teal lotus embroidered trim, holding one straight double-edged ornamental jian sword, tip up clearly at chest height. Youthful face, modest court attire, both hands coherent, small lotus base. No crown or throne; distinctly a court attendant.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: JACK OF SWORDS: ONE uncrowned East Asian young adult male attendant standing full length in blue silk robes with red and dark-teal lotus embroidered trim, holding one straight double-edged ornamental jian sword, tip up clearly at chest height. Youthful face, modest court attire, both hands coherent, small lotus base. No crown or throne; distinctly a court attendant.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "page-of-swords.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "e87204cff61f5c422f4af8a6d667deffbdd397bf4a9632c324f31c0139245b96"
+      },
+      "generation_file": "exec-2b2a8a52-f602-4a3a-958b-e7143bf54111.png"
+    },
+    {
+      "id": "knight-of-swords",
+      "kind": "court",
+      "subject": "CAVALIER OF SWORDS: ONE centaur, adult East Asian man's fully clothed human upper torso seamlessly joined at the waist to a horse body with exactly four horse legs, hooves and tail. Blue, red, teal and gold Chinese silk court tunic. Holds one straight double-edged ornamental jian sword, tip up. Entire coherent hybrid creature visible. NO separate rider, no saddle, no human legs. Compact three-quarter pose and small lotus base.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: CAVALIER OF SWORDS: ONE centaur, adult East Asian man's fully clothed human upper torso seamlessly joined at the waist to a horse body with exactly four horse legs, hooves and tail. Blue, red, teal and gold Chinese silk court tunic. Holds one straight double-edged ornamental jian sword, tip up. Entire coherent hybrid creature visible. NO separate rider, no saddle, no human legs. Compact three-quarter pose and small lotus base.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "knight-of-swords.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "8e7e01a173db0bd5cfb6e0dcbb1f9bb7fc477a2313894f571dd7fd1f14bf8980"
+      },
+      "generation_file": "exec-5324cad5-92d5-4a53-a597-b2d27219e418.png"
+    },
+    {
+      "id": "queen-of-swords",
+      "kind": "court",
+      "subject": "QUEEN OF SWORDS: ONE adult East Asian queen seated full length on a compact gold-and-dark-teal phoenix throne, red phoenix silk robes, dark-teal lotus bands, gold/teal phoenix crown with pearls. Holds one straight double-edged ornamental jian sword, tip up prominently with natural hands. Refined calm face, entire crown, throne, feet and attribute visible, small lotus base. No cup unless this is Cups.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: QUEEN OF SWORDS: ONE adult East Asian queen seated full length on a compact gold-and-dark-teal phoenix throne, red phoenix silk robes, dark-teal lotus bands, gold/teal phoenix crown with pearls. Holds one straight double-edged ornamental jian sword, tip up prominently with natural hands. Refined calm face, entire crown, throne, feet and attribute visible, small lotus base. No cup unless this is Cups.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "queen-of-swords.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "fadb25f8ee018e2dc64cfdc305e95641755d8e02a0165388cb8b077ced647399"
+      },
+      "generation_file": "exec-2b258004-2a44-46d2-ab2d-9643168e4568.png"
+    },
+    {
+      "id": "king-of-swords",
+      "kind": "court",
+      "subject": "KING OF SWORDS: ONE mature East Asian king with a neatly groomed black beard, seated full length on a compact gold dragon throne. Yellow silk dragon robes, dark teal embroidered bands, black-and-gold Ming-inspired royal headwear. Holds one straight double-edged ornamental jian sword, tip up upright, the other hand on the throne arm or supporting the object. Clear authoritative face, complete throne and feet, small lotus base.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: KING OF SWORDS: ONE mature East Asian king with a neatly groomed black beard, seated full length on a compact gold dragon throne. Yellow silk dragon robes, dark teal embroidered bands, black-and-gold Ming-inspired royal headwear. Holds one straight double-edged ornamental jian sword, tip up upright, the other hand on the throne arm or supporting the object. Clear authoritative face, complete throne and feet, small lotus base.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "king-of-swords.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "99da95c97365867b5c5f4aed13e7c994849e45c3e481ec0ecbf95de9579d5ec9"
+      },
+      "generation_file": "exec-3efd6bfc-2f83-4141-991a-279ba50763c4.png"
+    },
+    {
+      "id": "page-of-batons",
+      "kind": "court",
+      "subject": "JACK OF BATONS: ONE uncrowned East Asian young adult male attendant standing full length in blue silk robes with red and dark-teal lotus embroidered trim, holding one straight red-lacquer baton with gold collars clearly at chest height. Youthful face, modest court attire, both hands coherent, small lotus base. No crown or throne; distinctly a court attendant.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: JACK OF BATONS: ONE uncrowned East Asian young adult male attendant standing full length in blue silk robes with red and dark-teal lotus embroidered trim, holding one straight red-lacquer baton with gold collars clearly at chest height. Youthful face, modest court attire, both hands coherent, small lotus base. No crown or throne; distinctly a court attendant.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "page-of-batons.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "d2e64f61a956c27f39a1cfa5ef90a9eee1b969d0d4fbb2bb375fed038fa87eac"
+      },
+      "generation_file": "exec-68aed9be-49f9-41c1-84f4-9da7920c7611.png"
+    },
+    {
+      "id": "knight-of-batons",
+      "kind": "court",
+      "subject": "CAVALIER OF BATONS: ONE centaur, adult East Asian man's fully clothed human upper torso seamlessly joined at the waist to a horse body with exactly four horse legs, hooves and tail. Blue, red, teal and gold Chinese silk court tunic. Holds one straight red-lacquer baton with gold collars. Entire coherent hybrid creature visible. NO separate rider, no saddle, no human legs. Compact three-quarter pose and small lotus base.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: CAVALIER OF BATONS: ONE centaur, adult East Asian man's fully clothed human upper torso seamlessly joined at the waist to a horse body with exactly four horse legs, hooves and tail. Blue, red, teal and gold Chinese silk court tunic. Holds one straight red-lacquer baton with gold collars. Entire coherent hybrid creature visible. NO separate rider, no saddle, no human legs. Compact three-quarter pose and small lotus base.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "knight-of-batons.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "db095c1a060d38809835d215553390a524f5caec6fef99eb22cc7d31f7938bd4"
+      },
+      "generation_file": "exec-68d7f43d-b2df-47c8-a027-188c5669e407.png"
+    },
+    {
+      "id": "queen-of-batons",
+      "kind": "court",
+      "subject": "QUEEN OF BATONS: ONE adult East Asian queen seated full length on a compact gold-and-dark-teal phoenix throne, red phoenix silk robes, dark-teal lotus bands, gold/teal phoenix crown with pearls. Holds one straight red-lacquer baton with gold collars prominently with natural hands. Refined calm face, entire crown, throne, feet and attribute visible, small lotus base. No cup unless this is Cups.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: QUEEN OF BATONS: ONE adult East Asian queen seated full length on a compact gold-and-dark-teal phoenix throne, red phoenix silk robes, dark-teal lotus bands, gold/teal phoenix crown with pearls. Holds one straight red-lacquer baton with gold collars prominently with natural hands. Refined calm face, entire crown, throne, feet and attribute visible, small lotus base. No cup unless this is Cups.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "queen-of-batons.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "f80f5f94017b3798044fd45bf3d2d4f2196917965e3d0ccff22d5048bb184b05"
+      },
+      "generation_file": "exec-45fbdd98-2a80-42c2-bc9e-3cb1a2343339.png"
+    },
+    {
+      "id": "king-of-batons",
+      "kind": "court",
+      "subject": "KING OF BATONS: ONE mature East Asian king with a neatly groomed black beard, seated full length on a compact gold dragon throne. Yellow silk dragon robes, dark teal embroidered bands, black-and-gold Ming-inspired royal headwear. Holds one straight red-lacquer baton with gold collars upright, the other hand on the throne arm or supporting the object. Clear authoritative face, complete throne and feet, small lotus base.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: KING OF BATONS: ONE mature East Asian king with a neatly groomed black beard, seated full length on a compact gold dragon throne. Yellow silk dragon robes, dark teal embroidered bands, black-and-gold Ming-inspired royal headwear. Holds one straight red-lacquer baton with gold collars upright, the other hand on the throne arm or supporting the object. Clear authoritative face, complete throne and feet, small lotus base.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "king-of-batons.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "691404451539e841a4880feead9702b620ef8f3b190464ab92b7ee50cb7412d6"
+      },
+      "generation_file": "exec-30ebf6ed-58f0-4b5b-a9d7-2c561c7a77a9.png"
+    },
+    {
+      "id": "page-of-cups",
+      "kind": "court",
+      "subject": "MAID OF CUPS: ONE uncrowned East Asian young adult female attendant standing full length in blue silk robes with red and dark-teal lotus embroidered trim, holding one open golden stemmed chalice clearly at chest height. Youthful face, modest court attire, both hands coherent, small lotus base. No crown or throne; distinctly a court attendant.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: MAID OF CUPS: ONE uncrowned East Asian young adult female attendant standing full length in blue silk robes with red and dark-teal lotus embroidered trim, holding one open golden stemmed chalice clearly at chest height. Youthful face, modest court attire, both hands coherent, small lotus base. No crown or throne; distinctly a court attendant.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "page-of-cups.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "37717ac4ad5896581e06eeb53b2302c5479ca92e78d2905974022b646080571f"
+      },
+      "generation_file": "exec-0c5da820-592a-4c9b-9ba0-a98ec9f32529.png"
+    },
+    {
+      "id": "knight-of-cups",
+      "kind": "court",
+      "subject": "CAVALIER OF CUPS: ONE centaur, adult East Asian woman's fully clothed human upper torso seamlessly joined at the waist to a horse body with exactly four horse legs, hooves and tail. Blue, red, teal and gold Chinese silk court tunic. Holds one open golden stemmed chalice. Entire coherent hybrid creature visible. NO separate rider, no saddle, no human legs. Compact three-quarter pose and small lotus base.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: CAVALIER OF CUPS: ONE centaur, adult East Asian woman's fully clothed human upper torso seamlessly joined at the waist to a horse body with exactly four horse legs, hooves and tail. Blue, red, teal and gold Chinese silk court tunic. Holds one open golden stemmed chalice. Entire coherent hybrid creature visible. NO separate rider, no saddle, no human legs. Compact three-quarter pose and small lotus base.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "knight-of-cups.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "9fbb62eb55a9d5e688ab645f326f32d8502beeedf9d93c514ee186c46e54ae96"
+      },
+      "generation_file": "exec-7b8e9046-1dce-4441-a3ae-2827d47f2626.png"
+    },
+    {
+      "id": "king-of-cups",
+      "kind": "court",
+      "subject": "KING OF CUPS: ONE mature East Asian king with a neatly groomed black beard, seated full length on a compact gold dragon throne. Yellow silk dragon robes, dark teal embroidered bands, black-and-gold Ming-inspired royal headwear. Holds one open golden stemmed chalice upright, the other hand on the throne arm or supporting the object. Clear authoritative face, complete throne and feet, small lotus base.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: KING OF CUPS: ONE mature East Asian king with a neatly groomed black beard, seated full length on a compact gold dragon throne. Yellow silk dragon robes, dark teal embroidered bands, black-and-gold Ming-inspired royal headwear. Holds one open golden stemmed chalice upright, the other hand on the throne arm or supporting the object. Clear authoritative face, complete throne and feet, small lotus base.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "king-of-cups.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "6980339e3f3da233e80e90852fe966d4fccb5209b98701acc09a1a761a8e276a"
+      },
+      "generation_file": "exec-3890be3a-c8f4-45d8-b6d4-3da9d394e95e.png"
+    },
+    {
+      "id": "page-of-coins",
+      "kind": "court",
+      "subject": "MAID OF COINS: ONE uncrowned East Asian young adult female attendant standing full length in blue silk robes with red and dark-teal lotus embroidered trim, holding one large round gold coin with a lotus rosette clearly at chest height. Youthful face, modest court attire, both hands coherent, small lotus base. No crown or throne; distinctly a court attendant.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: MAID OF COINS: ONE uncrowned East Asian young adult female attendant standing full length in blue silk robes with red and dark-teal lotus embroidered trim, holding one large round gold coin with a lotus rosette clearly at chest height. Youthful face, modest court attire, both hands coherent, small lotus base. No crown or throne; distinctly a court attendant.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "page-of-coins.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "ad024bc32b9f832b104cd9f67d8ed3d78917fb1ea3bd48e96cd5fd3868aec2d9"
+      },
+      "generation_file": "exec-e7f5a139-2e2b-4c65-9dbc-835cf56fe2de.png"
+    },
+    {
+      "id": "knight-of-coins",
+      "kind": "court",
+      "subject": "CAVALIER OF COINS: ONE centaur, adult East Asian woman's fully clothed human upper torso seamlessly joined at the waist to a horse body with exactly four horse legs, hooves and tail. Blue, red, teal and gold Chinese silk court tunic. Holds one large round gold coin with a lotus rosette. Entire coherent hybrid creature visible. NO separate rider, no saddle, no human legs. Compact three-quarter pose and small lotus base.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: CAVALIER OF COINS: ONE centaur, adult East Asian woman's fully clothed human upper torso seamlessly joined at the waist to a horse body with exactly four horse legs, hooves and tail. Blue, red, teal and gold Chinese silk court tunic. Holds one large round gold coin with a lotus rosette. Entire coherent hybrid creature visible. NO separate rider, no saddle, no human legs. Compact three-quarter pose and small lotus base.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "knight-of-coins.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "211b926648b4979c27acb605fef92c60a4ae0bfee33c5d21619f95fd84b9df78"
+      },
+      "generation_file": "exec-7afa1a5d-1afb-4761-9eb2-5c88d60a3be0.png"
+    },
+    {
+      "id": "queen-of-coins",
+      "kind": "court",
+      "subject": "QUEEN OF COINS: ONE adult East Asian queen seated full length on a compact gold-and-dark-teal phoenix throne, red phoenix silk robes, dark-teal lotus bands, gold/teal phoenix crown with pearls. Holds one large round gold coin with a lotus rosette prominently with natural hands. Refined calm face, entire crown, throne, feet and attribute visible, small lotus base. No cup unless this is Cups.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: QUEEN OF COINS: ONE adult East Asian queen seated full length on a compact gold-and-dark-teal phoenix throne, red phoenix silk robes, dark-teal lotus bands, gold/teal phoenix crown with pearls. Holds one large round gold coin with a lotus rosette prominently with natural hands. Refined calm face, entire crown, throne, feet and attribute visible, small lotus base. No cup unless this is Cups.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "queen-of-coins.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "8c6ab286dad02f691746b43cd76e11136763f0a20f925e617c345a39c09cf586"
+      },
+      "generation_file": "exec-ec22eb6a-8dd1-478d-8170-383041ac4984.png"
+    },
+    {
+      "id": "king-of-coins",
+      "kind": "court",
+      "subject": "KING OF COINS: ONE mature East Asian king with a neatly groomed black beard, seated full length on a compact gold dragon throne. Yellow silk dragon robes, dark teal embroidered bands, black-and-gold Ming-inspired royal headwear. Holds one large round gold coin with a lotus rosette upright, the other hand on the throne arm or supporting the object. Clear authoritative face, complete throne and feet, small lotus base.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: KING OF COINS: ONE mature East Asian king with a neatly groomed black beard, seated full length on a compact gold dragon throne. Yellow silk dragon robes, dark teal embroidered bands, black-and-gold Ming-inspired royal headwear. Holds one large round gold coin with a lotus rosette upright, the other hand on the throne arm or supporting the object. Clear authoritative face, complete throne and feet, small lotus base.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "king-of-coins.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "f1eed79ff717386053a8e92777f86b991d07f35ac46d04e2952fa39302ef32d7"
+      },
+      "generation_file": "exec-305b9910-051b-4f8c-8735-294ea6f2a337.png"
+    },
+    {
+      "id": "the-fool",
+      "kind": "fool",
+      "subject": "THE FOOL (Il Matto): an eccentric adult man wearing a feathered soft cap, patched embroidered madder-and-dark teal clothes and loose trousers, walking and holding aloft a short stick with two round bells. Two clothed children follow, playfully tugging the hem of his coat. Full figures, coherent anatomy, small botanical ground. No dog, cliff or traveler bundle.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: THE FOOL (Il Matto): an eccentric adult man wearing a feathered soft cap, patched embroidered madder-and-dark teal clothes and loose trousers, walking and holding aloft a short stick with two round bells. Two clothed children follow, playfully tugging the hem of his coat. Full figures, coherent anatomy, small botanical ground. No dog, cliff or traveler bundle.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "the-fool.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "ec375a0eff68e381615fe1b1cb5a897549688b829e2cf27bcf64d06703c3a6c7"
+      },
+      "generation_file": "exec-97eb9fe5-4395-4363-a37c-050807fed81f.png"
+    },
+    {
+      "id": "bagatella",
+      "kind": "trump",
+      "subject": "BAGATELLA (Papa Uno): a male Chinese-inspired street conjurer in a jaunty cap stands behind a small gold-inlaid table demonstrating a cups-and-balls trick. Exactly three small cups and two balls on the tabletop. One clothed young spectator watches from the side. Full figures and table, no occult infinity symbol or floating wand.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: BAGATELLA (Papa Uno): a male Chinese-inspired street conjurer in a jaunty cap stands behind a small gold-inlaid table demonstrating a cups-and-balls trick. Exactly three small cups and two balls on the tabletop. One clothed young spectator watches from the side. Full figures and table, no occult infinity symbol or floating wand.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "bagatella.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "0c2c2aa1092b143b89346b10e78c341c8652a263c4996084254ce712b41ad9f7"
+      },
+      "generation_file": "exec-c65961e3-bf38-428e-aa91-ab0a74d33ff8.png"
+    },
+    {
+      "id": "the-emperor",
+      "kind": "trump",
+      "subject": "THE EMPEROR: a mature East Asian male ruler seated full length on a compact dragon-carved golden throne, yellow dragon-embroidered robes and a black-and-gold imperial crown, holds an upright gold ceremonial scepter and a round orb. Regal distinct face, full throne and feet visible.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: THE EMPEROR: a mature East Asian male ruler seated full length on a compact dragon-carved golden throne, yellow dragon-embroidered robes and a black-and-gold imperial crown, holds an upright gold ceremonial scepter and a round orb. Regal distinct face, full throne and feet visible.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "the-emperor.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "617c788899b55c971a61e9b922970dfddb6d2837f3a6b40deb0eb475bc37fbd9"
+      },
+      "generation_file": "exec-735c4d78-1272-42e8-b25b-fc87187f82b1.png"
+    },
+    {
+      "id": "the-eastern-emperor",
+      "kind": "trump",
+      "subject": "THE EASTERN EMPEROR (Papa Quattro): a mature bearded secular emperor seated in a richly engraved throne, wearing a domed domed ceremonial gold crown, madder-red and dark-teal brocade robes, holding an eagle-topped scepter upright and a large orb. Regal full figure, distinct from a pope, no papal tiara, no religious staff or kneeling clergy.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: THE EASTERN EMPEROR (Papa Quattro): a mature bearded secular emperor seated in a richly engraved throne, wearing a domed domed ceremonial gold crown, madder-red and dark-teal brocade robes, holding an eagle-topped scepter upright and a large orb. Regal full figure, distinct from a pope, no papal tiara, no religious staff or kneeling clergy.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "the-eastern-emperor.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "70c749b7d5b7ba6f738cefb0931caf960b9b4de6cdcd0a78e0c23121ae62e25f"
+      },
+      "generation_file": "exec-eb952482-f7e6-4a52-82ae-f962329ceb56.png"
+    },
+    {
+      "id": "love",
+      "kind": "trump",
+      "subject": "LOVE (Papa Cinque): a kneeling adult man offers devotion to a standing adult woman who holds a small golden crown above him. A small winged Cupid in a modest classical tunic hovers overhead drawing a bow toward the pair. Delicate madder-red and dark-teal embroidered robes, clear distinct faces and hands, full group visible, small floral base.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: LOVE (Papa Cinque): a kneeling adult man offers devotion to a standing adult woman who holds a small golden crown above him. A small winged Cupid in a modest classical tunic hovers overhead drawing a bow toward the pair. Delicate madder-red and dark-teal embroidered robes, clear distinct faces and hands, full group visible, small floral base.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "love.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "52587b553d0f96cee2a3aad074b03293e3e64b53f64ec0c4cbf993b635bd8bf9"
+      },
+      "generation_file": "exec-463742ff-5c15-49a8-95b1-bd43fd26024d.png"
+    },
+    {
+      "id": "temperance",
+      "kind": "trump",
+      "subject": "TEMPERANCE: a standing adult woman in madder-red and dark-teal embroidered robes carefully pours a thin stream of water between two gold pitchers, one held high and one low. A human allegorical virtue with no wings, no halo, no occult symbols. Complete full figure, calm concentration, clear two vessels and two coherent hands.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: TEMPERANCE: a standing adult woman in madder-red and dark-teal embroidered robes carefully pours a thin stream of water between two gold pitchers, one held high and one low. A human allegorical virtue with no wings, no halo, no occult symbols. Complete full figure, calm concentration, clear two vessels and two coherent hands.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "temperance.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "6a634154abf751d129a347a7e76ce45d2530b4fb0d9aee08abba3c2d2b94611f"
+      },
+      "generation_file": "exec-4608b31f-2103-4668-9ce4-ecd7bcc71c7b.png"
+    },
+    {
+      "id": "fortitude",
+      "kind": "trump",
+      "subject": "FORTITUDE: a standing adult woman wearing a lion-skin mantle over embroidered madder-red and dark-teal robes firmly braces a short broken classical stone column with both hands. The pillar is the prominent attribute of strength. Full figure and both broken column sections visible, no living lion, no infinity symbol.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: FORTITUDE: a standing adult woman wearing a lion-skin mantle over embroidered madder-red and dark-teal robes firmly braces a short broken classical stone column with both hands. The pillar is the prominent attribute of strength. Full figure and both broken column sections visible, no living lion, no infinity symbol.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "fortitude.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "c898bf150dc51df7a63b236ccaf43feab8c036f18108ee7f8edc9dfddd1ed213"
+      },
+      "generation_file": "exec-0b1f6a06-730f-4113-b462-0e9b23c789b9.png"
+    },
+    {
+      "id": "justice",
+      "kind": "trump",
+      "subject": "JUSTICE: a seated adult East Asian woman in formal red-and-teal silk robes, holding one straight sword upright and a gold balance with exactly two hanging level pans. Clear separate attributes and coherent hands, complete throne and feet.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: JUSTICE: a seated adult East Asian woman in formal red-and-teal silk robes, holding one straight sword upright and a gold balance with exactly two hanging level pans. Clear separate attributes and coherent hands, complete throne and feet.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "justice.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "9a0ddd5a13f0dd2bea0d5eea95e302977642032466bd15d5b1ef2467cc6daf12"
+      },
+      "generation_file": "exec-334f0bb7-6fcb-42ad-8a5d-fbba6c378489.png"
+    },
+    {
+      "id": "wheel-of-fortune",
+      "kind": "trump",
+      "subject": "WHEEL OF FORTUNE: one upright antique-gold wheel with three allegorical animal-human figures attached around its rim: a crowned donkey-headed ruler sits at the top with scepter and orb, a foxlike creature rises on the left, and a monkeylike creature tumbles downward on the right. Beneath it an aged clothed man lies resting against the base. Complete wheel, no lettering or zodiac signs, compact self-contained composition.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: WHEEL OF FORTUNE: one upright antique-gold wheel with three allegorical animal-human figures attached around its rim: a crowned donkey-headed ruler sits at the top with scepter and orb, a foxlike creature rises on the left, and a monkeylike creature tumbles downward on the right. Beneath it an aged clothed man lies resting against the base. Complete wheel, no lettering or zodiac signs, compact self-contained composition.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "wheel-of-fortune.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "95ad456c722d2a5c169d27df11ca93f5f68371aa865436b4abc467d40f399e31"
+      },
+      "generation_file": "exec-c391ff41-351e-454a-9bbc-3a4e2ff0b047.png"
+    },
+    {
+      "id": "the-chariot",
+      "kind": "trump",
+      "subject": "THE CHARIOT: a crowned adult woman in embroidered madder-red and dark-teal robes stands in a small ornate two-wheeled triumphal chariot drawn by two white horses. She holds a slender scepter, reins visible, horse anatomy clear, full horses and wheels in a compact tall composition. No sphinxes, no star canopy.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: THE CHARIOT: a crowned adult woman in embroidered madder-red and dark-teal robes stands in a small ornate two-wheeled triumphal chariot drawn by two white horses. She holds a slender scepter, reins visible, horse anatomy clear, full horses and wheels in a compact tall composition. No sphinxes, no star canopy.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "the-chariot.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "2ee97da3cf9af7dbdbee2ce8e3c2c31a5f8deba11c43f4c14bf70ce7524c110a"
+      },
+      "generation_file": "exec-115406e2-a3ef-4870-bffa-c299efe6310b.png"
+    },
+    {
+      "id": "time",
+      "kind": "trump",
+      "subject": "TIME: an elderly bearded man with a stooped back advances slowly with two wooden crutches, wearing a worn dark teal cloak over madder robes. A conspicuous large antique-gold hourglass stands on a rock beside him. Full figure and feet, clear crutches and hourglass, no lantern, no scythe.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: TIME: an elderly bearded man with a stooped back advances slowly with two wooden crutches, wearing a worn dark teal cloak over madder robes. A conspicuous large antique-gold hourglass stands on a rock beside him. Full figure and feet, clear crutches and hourglass, no lantern, no scythe.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "time.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "757b4609a3d80342e9db3b8891b6bb24fc66b2f8321e410f723c6f144f066936"
+      },
+      "generation_file": "exec-68f5b80a-3871-4014-bc5a-b51eaf9766b5.png"
+    },
+    {
+      "id": "the-hanged-man",
+      "kind": "trump",
+      "subject": "THE HANGED MAN: one adult East Asian man suspended upside down by one ankle from a short horizontal wooden beam between two small tree trunks; his free leg bends across the hanging leg. Covered blue-and-red silk clothes, hands calmly behind his back, serene expression, no injury or distress. Entire inverted body visible, elegant sparse lotus plants below. Preserve this deliberately upside-down Tarot subject exception; do not turn it into the upright historical traitor.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: THE HANGED MAN: one adult East Asian man suspended upside down by one ankle from a short horizontal wooden beam between two small tree trunks; his free leg bends across the hanging leg. Covered blue-and-red silk clothes, hands calmly behind his back, serene expression, no injury or distress. Entire inverted body visible, elegant sparse lotus plants below. Preserve this deliberately upside-down Tarot subject exception; do not turn it into the upright historical traitor.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "the-hanged-man.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "55f14101a24ca980776a02a413c32279935f1da9d0a20978ec2526fec898e4b2"
+      },
+      "generation_file": "exec-a9c2b374-6153-472a-8e25-ddfda34cd879.png"
+    },
+    {
+      "id": "death",
+      "kind": "trump",
+      "subject": "DEATH: a clearly skeletal allegorical rider carrying one large curved scythe rides a pale horse across sparse rocky ground. Skull and bony hands legible, a small tattered dark teal cloth at shoulders and madder sash. Entire horse and scythe visible, elegant historical engraving, non-graphic, no blood, no victims, no banner.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: DEATH: a clearly skeletal allegorical rider carrying one large curved scythe rides a pale horse across sparse rocky ground. Skull and bony hands legible, a small tattered dark teal cloth at shoulders and madder sash. Entire horse and scythe visible, elegant historical engraving, non-graphic, no blood, no victims, no banner.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "death.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "ffa0ce853ca22a06a705e3f78296d3ecdd39ce26f0255aa95064b60e627f72c9"
+      },
+      "generation_file": "exec-7f1c7749-4187-4208-9844-29775e24d881.png"
+    },
+    {
+      "id": "the-devil",
+      "kind": "trump",
+      "subject": "THE DEVIL: a single grotesque folkloric horned demon with bat wings, shaggy goatlike legs and cloven hooves, carrying a long forked staff. Small snarling face motif on its belly, antique-gold and dark teal shading with madder drapery, full figure. Historical allegory, not photorealistic, no chained human couple, no gore.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: THE DEVIL: a single grotesque folkloric horned demon with bat wings, shaggy goatlike legs and cloven hooves, carrying a long forked staff. Small snarling face motif on its belly, antique-gold and dark teal shading with madder drapery, full figure. Historical allegory, not photorealistic, no chained human couple, no gore.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "the-devil.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "8a99bb7d08273fcd7f39273763d414bd32cbcb7d5b14ccb6b87691cdcd372af8"
+      },
+      "generation_file": "exec-96a70fc9-2308-4533-abf8-5cab73b1aa40.png"
+    },
+    {
+      "id": "the-house-of-the-devil",
+      "kind": "trump",
+      "subject": "THE HOUSE OF THE DEVIL: an adult woman in flowing madder-red and dark-teal drapery runs away from the doorway of a small burning stone house. Red and gold flames emerge from the roof and windows. A dark winged imp crouches on the roof edge. Entire woman and compact house visible, non-graphic, no lightning-struck tower or falling people.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: THE HOUSE OF THE DEVIL: an adult woman in flowing madder-red and dark-teal drapery runs away from the doorway of a small burning stone house. Red and gold flames emerge from the roof and windows. A dark winged imp crouches on the roof edge. Entire woman and compact house visible, non-graphic, no lightning-struck tower or falling people.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "the-house-of-the-devil.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "b63a5ab67b30ada84c7f7455d1c703368bba463d4a7de7c5852b457b0260a7b5"
+      },
+      "generation_file": "exec-6ae35811-313e-4553-881c-d71ed147d0ec.png"
+    },
+    {
+      "id": "hope",
+      "kind": "trump",
+      "subject": "HOPE: a kneeling adult woman looks upward with clasped hands beside one large gold anchor resting on the ground, a small eight-pointed gold star above. Full figure, quiet botanical base.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: HOPE: a kneeling adult woman looks upward with clasped hands beside one large gold anchor resting on the ground, a small eight-pointed gold star above. Full figure, quiet botanical base.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "hope.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "053885fb77b35af00bf3364d3bfe7813bc4945e9549474cf6442e29bf8a0d742"
+      },
+      "generation_file": "exec-2eccb876-d914-439f-8593-5bfa0b622172.png"
+    },
+    {
+      "id": "prudence",
+      "kind": "trump",
+      "subject": "PRUDENCE, the historical Minchiate virtue: a seated adult woman in embroidered dark-teal and madder-red robes holds a small ornate hand mirror upright in one hand, gazing thoughtfully into its visible silver glass. A single snake coils beside her other forearm and rests upon her lap. Mirror and serpent are both obvious and distinct. Entire chair and feet visible, sparse botanical base.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: PRUDENCE, the historical Minchiate virtue: a seated adult woman in embroidered dark-teal and madder-red robes holds a small ornate hand mirror upright in one hand, gazing thoughtfully into its visible silver glass. A single snake coils beside her other forearm and rests upon her lap. Mirror and serpent are both obvious and distinct. Entire chair and feet visible, sparse botanical base.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "prudence.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "e28ef5fbc559aba90748746af8f88b6fa1955043d54f4015149d96be69af90a7"
+      },
+      "generation_file": "exec-cd1362c4-61e3-4e4f-9fa7-a717f58d1e06.png"
+    },
+    {
+      "id": "faith",
+      "kind": "trump",
+      "subject": "FAITH, the historical Minchiate virtue: a standing adult woman in dark-teal and madder-red embroidered robes holds a long plain Christian cross upright in one hand, and a golden chalice with a small white circular host floating immediately above it in the other. Calm upward gaze, full figure, separate readable cross, chalice and host. Sparse botanical base.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: FAITH, the historical Minchiate virtue: a standing adult woman in dark-teal and madder-red embroidered robes holds a long plain Christian cross upright in one hand, and a golden chalice with a small white circular host floating immediately above it in the other. Calm upward gaze, full figure, separate readable cross, chalice and host. Sparse botanical base.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "faith.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "fb3581518035b545de68f90f6b08ca59be5291a5aa4635ddd11f904fddc9b8fb"
+      },
+      "generation_file": "exec-36b652d0-0f8d-4df5-a325-2279dea3e5fc.png"
+    },
+    {
+      "id": "charity",
+      "kind": "trump",
+      "subject": "CHARITY, the historical Minchiate virtue: an adult mother in flowing madder red and dark teal embroidered robes seated on a low stone bench gently cradles a fully clothed infant; two clothed young children stand close at her knees receiving her care. A small red heart-shaped flame floats above the mother's head. Tender family allegory, dignified and nonsexual, coherent distinct hands and faces, entire composition visible with a sparse botanical base.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: CHARITY, the historical Minchiate virtue: an adult mother in flowing madder red and dark teal embroidered robes seated on a low stone bench gently cradles a fully clothed infant; two clothed young children stand close at her knees receiving her care. A small red heart-shaped flame floats above the mother's head. Tender family allegory, dignified and nonsexual, coherent distinct hands and faces, entire composition visible with a sparse botanical base.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "charity.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "beb063e790c125284f31b2cbf98858f5f418156c936c1f5447942b23273aa695"
+      },
+      "generation_file": "exec-ba3a8c22-570c-419c-9c50-6effc505dfdd.png"
+    },
+    {
+      "id": "fire",
+      "kind": "trump",
+      "subject": "FIRE, Minchiate classical element: a small salamander poised safely among curling red-and-gold flames on a compact rocky hearth. Detailed creature silhouette, stylized flames rising around it, no person. Ornamental botanical engraving and warm gold with madder accents.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: FIRE, Minchiate classical element: a small salamander poised safely among curling red-and-gold flames on a compact rocky hearth. Detailed creature silhouette, stylized flames rising around it, no person. Ornamental botanical engraving and warm gold with madder accents.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "fire.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "2cbcc02d43bf572fd775ffe6fd6f1dae9ae26fa0b83738ecf7ed6e9bc876e65c"
+      },
+      "generation_file": "exec-6faea557-9044-42f6-86c8-7b3649fc1c14.png"
+    },
+    {
+      "id": "water",
+      "kind": "trump",
+      "subject": "WATER, Minchiate classical element: one tall Chinese-inspired sailing junk with carved golden hull, three masts, billowing ivory sails and small madder pennants riding compact turquoise sea waves. Complete rigging and hull visible, no lettering or flags with text. The waves form a contained vignette with transparent surroundings.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: WATER, Minchiate classical element: one tall Chinese-inspired sailing junk with carved golden hull, three masts, billowing ivory sails and small madder pennants riding compact turquoise sea waves. Complete rigging and hull visible, no lettering or flags with text. The waves form a contained vignette with transparent surroundings.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "water.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "1f6a9e2d1b7133a66a58e35eb6fab11d52e0044574b458db83d51b4d44d36076"
+      },
+      "generation_file": "exec-6bacc5bd-444a-4534-80c9-88a590baff4c.png"
+    },
+    {
+      "id": "earth",
+      "kind": "trump",
+      "subject": "EARTH, Minchiate classical element: a finely engraved spherical terrestrial globe showing simplified land and water, resting in an antique-gold armillary-style cradle above a compact rocky landscape with grasses and small flowering plants. Clear round earth sphere, no words, modern map labels or human figure.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: EARTH, Minchiate classical element: a finely engraved spherical terrestrial globe showing simplified land and water, resting in an antique-gold armillary-style cradle above a compact rocky landscape with grasses and small flowering plants. Clear round earth sphere, no words, modern map labels or human figure.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "earth.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "05118c934ca0e7b8475f9a68e144e418ac67ff65bdd003dc00c91a4d823ce785"
+      },
+      "generation_file": "exec-c669a1de-7f6e-479f-a2e9-97c7566b2a3e.png"
+    },
+    {
+      "id": "air",
+      "kind": "trump",
+      "subject": "AIR, Minchiate classical element: a flock of five distinct graceful birds with open wings rising through a compact arrangement of curling wind ribbons and small soft-edged clouds. One prominent eagle above, smaller songbirds below, precise anatomy and feather engraving, restrained ivory, dark teal, gold and madder coloring. Transparent spaces between all birds; no enclosing sky rectangle.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: AIR, Minchiate classical element: a flock of five distinct graceful birds with open wings rising through a compact arrangement of curling wind ribbons and small soft-edged clouds. One prominent eagle above, smaller songbirds below, precise anatomy and feather engraving, restrained ivory, dark teal, gold and madder coloring. Transparent spaces between all birds; no enclosing sky rectangle.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "air.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "9049669483cc2357c8710c98f792ec8600b271cd3994bb2f0e35324b6e82e355"
+      },
+      "generation_file": "exec-ca919583-0241-41dd-8b94-5b411bfa016d.png"
+    },
+    {
+      "id": "libra",
+      "kind": "trump",
+      "subject": "LIBRA: an ornate free-standing antique-gold balance scale with exactly two level suspended pans, a central upright support, a small fox walking across its crossbeam and a hedgehog curled beneath the stand, following Florentine Minchiate's distinctive animal-and-scales motif. Delicate dark teal sprigs and red lotus blossoms, full subject visible.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: LIBRA: an ornate free-standing antique-gold balance scale with exactly two level suspended pans, a central upright support, a small fox walking across its crossbeam and a hedgehog curled beneath the stand, following Florentine Minchiate's distinctive animal-and-scales motif. Delicate dark teal sprigs and red lotus blossoms, full subject visible.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "libra.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "d38c76d8c70389177f744ca19ccadd682a55b31710f5a3641d61184e33a2e4fa"
+      },
+      "generation_file": "exec-c6679392-2a5b-45d3-ae9b-1cb8dbd0d997.png"
+    },
+    {
+      "id": "virgo",
+      "kind": "trump",
+      "subject": "VIRGO: one standing young adult maiden in flowing dark-teal and madder-red embroidered robes, holding a tall stalk of ripe golden wheat and a small flowering branch. Graceful full figure, uncrowned head, no throne or other characters, simple flowering ground.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: VIRGO: one standing young adult maiden in flowing dark-teal and madder-red embroidered robes, holding a tall stalk of ripe golden wheat and a small flowering branch. Graceful full figure, uncrowned head, no throne or other characters, simple flowering ground.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "virgo.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "3caacfdba50abd7eb141f0d6cc3ed77badef49a2003e32ea09379a6d3ea7a5ed"
+      },
+      "generation_file": "exec-b1366eec-c5dc-4719-912f-1b8b9ef28b63.png"
+    },
+    {
+      "id": "scorpio",
+      "kind": "trump",
+      "subject": "SCORPIO: one large anatomically coherent scorpion with eight walking legs, two pincers and a segmented tail curling above its body ending in one stinger. Engraved matte gold and madder exoskeleton, tiny turquoise detailing, sparse dark teal sprigs and rocks. Full body including claws and tail visible, no human.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: SCORPIO: one large anatomically coherent scorpion with eight walking legs, two pincers and a segmented tail curling above its body ending in one stinger. Engraved matte gold and madder exoskeleton, tiny turquoise detailing, sparse dark teal sprigs and rocks. Full body including claws and tail visible, no human.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "scorpio.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "dafb83410592160487241ed4338f861a0207c831ec60e7cd4ea7551a135e0cbd"
+      },
+      "generation_file": "exec-7530c5cc-9884-409c-b257-0e155f768868.png"
+    },
+    {
+      "id": "aries",
+      "kind": "trump",
+      "subject": "ARIES: one proud ram standing in profile on a compact rocky floral mound, thick curling horns, creamy wool articulated in precise gold and dark contours, dark-teal and madder-red botanical details. All four legs and entire horns visible.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: ARIES: one proud ram standing in profile on a compact rocky floral mound, thick curling horns, creamy wool articulated in precise gold and dark contours, dark-teal and madder-red botanical details. All four legs and entire horns visible.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "aries.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "acedd121c5398d05d961e0b9b2fc4a808a30542018f0536f2a8b819383a981b0"
+      },
+      "generation_file": "exec-7d668e95-ebc2-4c2a-b1fb-4d838f8961c8.png"
+    },
+    {
+      "id": "capricorn",
+      "kind": "trump",
+      "subject": "CAPRICORN: one mythological sea-goat, goat head with curved horns and two front hooved legs, the rear body continuing into one long curling fish tail with scales and a fin. Anatomically coherent seamless hybrid, no back goat legs. Antique-gold and dark teal with restrained turquoise waves and madder flowers, entire creature visible.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: CAPRICORN: one mythological sea-goat, goat head with curved horns and two front hooved legs, the rear body continuing into one long curling fish tail with scales and a fin. Anatomically coherent seamless hybrid, no back goat legs. Antique-gold and dark teal with restrained turquoise waves and madder flowers, entire creature visible.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "capricorn.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "30bd59694e2fec138053e1f2d989c02a613a98b2d8a7529b8656539fda6ba7a7"
+      },
+      "generation_file": "exec-2be94d7b-9880-478c-b856-6b1f47a317f3.png"
+    },
+    {
+      "id": "sagittarius",
+      "kind": "trump",
+      "subject": "SAGITTARIUS: one adult male centaur archer, human torso joined at the waist to a horse body with four legs; draws a bow with one arrow aimed diagonally upward. Human upper body in embroidered madder-red and dark-teal tunic, full horse torso and hooves, anatomically coherent hands, string and bow, no separate rider.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: SAGITTARIUS: one adult male centaur archer, human torso joined at the waist to a horse body with four legs; draws a bow with one arrow aimed diagonally upward. Human upper body in embroidered madder-red and dark-teal tunic, full horse torso and hooves, anatomically coherent hands, string and bow, no separate rider.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "sagittarius.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "ea26c48bff7a33ab1fae0b48a931fbd740b41d750842b8cc41e36683363897dd"
+      },
+      "generation_file": "exec-bf2d37c3-c282-4873-8194-0e0dd41f1f89.png"
+    },
+    {
+      "id": "cancer",
+      "kind": "trump",
+      "subject": "CANCER: one large crab shown from above, clearly recognizable broad shell, two prominent pincers and eight walking legs, symmetrical natural anatomy rendered in engraved matte gold with madder and turquoise accents. A compact shallow turquoise pool with small stones and dark teal water plants.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: CANCER: one large crab shown from above, clearly recognizable broad shell, two prominent pincers and eight walking legs, symmetrical natural anatomy rendered in engraved matte gold with madder and turquoise accents. A compact shallow turquoise pool with small stones and dark teal water plants.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "cancer.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "2ff76b1713036fcdcef00ca036724dc15e69708c7f9ccfaaf72567f217ee292c"
+      },
+      "generation_file": "exec-54c00679-3124-4bfb-9a4e-2e4659bc6d19.png"
+    },
+    {
+      "id": "pisces",
+      "kind": "trump",
+      "subject": "PISCES: exactly two elegant fish swimming in opposite directions, curved into a vertical S-shaped paired composition, connected by a thin flowing ribbon. Detailed gold and dark teal scales, subtle madder fins, contained turquoise water curls. Two distinct complete fish, no additional creatures.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: PISCES: exactly two elegant fish swimming in opposite directions, curved into a vertical S-shaped paired composition, connected by a thin flowing ribbon. Detailed gold and dark teal scales, subtle madder fins, contained turquoise water curls. Two distinct complete fish, no additional creatures.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "pisces.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "1f98964ab2ea387767bfc49454ab85facb77bde547ca159b121c65b0033e2757"
+      },
+      "generation_file": "exec-10537111-101f-40af-b72c-94277bfd2351.png"
+    },
+    {
+      "id": "aquarius",
+      "kind": "trump",
+      "subject": "AQUARIUS: a standing adult water-bearer in embroidered madder-red and dark-teal drapery pours a continuous stream of turquoise water from one large antique-gold urn into a small contained pool at his feet. Entire figure and vessel visible, clear coherent hands and weight-bearing pose, sparse plants.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: AQUARIUS: a standing adult water-bearer in embroidered madder-red and dark-teal drapery pours a continuous stream of turquoise water from one large antique-gold urn into a small contained pool at his feet. Entire figure and vessel visible, clear coherent hands and weight-bearing pose, sparse plants.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "aquarius.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "9f198cba7bbded7678c4cc0c7ee4f8fbae594b1e28a8213882ec0dc705bc37c5"
+      },
+      "generation_file": "exec-f54b9b2c-50da-47a3-a535-6202bf2b51f3.png"
+    },
+    {
+      "id": "leo",
+      "kind": "trump",
+      "subject": "LEO: one regal adult male lion standing in three-quarter profile, fully visible mane, four legs and curled tail. Fine engraved golden fur and dark teal shadows, confident calm expression, compact flowering rocky mound, no crown or human.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: LEO: one regal adult male lion standing in three-quarter profile, fully visible mane, four legs and curled tail. Fine engraved golden fur and dark teal shadows, confident calm expression, compact flowering rocky mound, no crown or human.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "leo.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "b913df95a1ecf825ba1d257f157f391dbc45fa42f40a940f563778405ede0d1b"
+      },
+      "generation_file": "exec-d8a3fc82-09db-4ebd-b6a3-700f0d3c9f96.png"
+    },
+    {
+      "id": "taurus",
+      "kind": "trump",
+      "subject": "TAURUS: one strong bull standing in profile, two curved horns, four legs and full tail, engraved warm gold-brown coat with subtle dark teal shadows, restrained madder botanical ground. Calm alert posture, no human or crown.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: TAURUS: one strong bull standing in profile, two curved horns, four legs and full tail, engraved warm gold-brown coat with subtle dark teal shadows, restrained madder botanical ground. Calm alert posture, no human or crown.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "taurus.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "d159c07dea4043e5121cc97d0fc33ffe1e1c6fe368f8be55744bccdcf8d1c2ef"
+      },
+      "generation_file": "exec-593ac26e-1f71-46f1-95f7-99cf95d49779.png"
+    },
+    {
+      "id": "gemini",
+      "kind": "trump",
+      "subject": "GEMINI: two young adult twins standing side by side in complementary madder-red and dark-teal embroidered classical tunics, one arm resting upon the other's shoulder. Similar faces but two clearly distinct bodies, coherent hands, complete feet, sparse botanical base. No children, weapons or zodiac text.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: GEMINI: two young adult twins standing side by side in complementary madder-red and dark-teal embroidered classical tunics, one arm resting upon the other's shoulder. Similar faces but two clearly distinct bodies, coherent hands, complete feet, sparse botanical base. No children, weapons or zodiac text.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "gemini.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "93c0af67812b57fdceed0c748d04fcda54efe19399798744437f0551e9d617fe"
+      },
+      "generation_file": "exec-8351ee08-e9d5-4af7-885c-c484d768f420.png"
+    },
+    {
+      "id": "the-star",
+      "kind": "trump",
+      "subject": "THE STAR: a crowned adult king in madder-red and dark-teal embroidered robes stands gazing upward at one brilliant eight-pointed gold star. He holds a small celestial globe in one hand and points upward with the other. Full figure, quiet rocky botanical ground, no water-pouring woman or other stars.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: THE STAR: a crowned adult king in madder-red and dark-teal embroidered robes stands gazing upward at one brilliant eight-pointed gold star. He holds a small celestial globe in one hand and points upward with the other. Full figure, quiet rocky botanical ground, no water-pouring woman or other stars.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "the-star.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "e4758ee788c07791ebd702e97329ad149834e0a032d874a4cb77117a64930f29"
+      },
+      "generation_file": "exec-bde34f2d-654f-47c4-83e5-aed018da27a8.png"
+    },
+    {
+      "id": "the-moon",
+      "kind": "trump",
+      "subject": "THE MOON: a bearded adult astrologer in embroidered dark-teal and madder-red scholarly robes sits beside an open astronomical book and measures with a brass divider while looking up at a large silver-gold crescent moon with a subtle human face. Small armillary sphere nearby. Complete contained scene, no dogs, lobster, towers or lettering.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: THE MOON: a bearded adult astrologer in embroidered dark-teal and madder-red scholarly robes sits beside an open astronomical book and measures with a brass divider while looking up at a large silver-gold crescent moon with a subtle human face. Small armillary sphere nearby. Complete contained scene, no dogs, lobster, towers or lettering.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "the-moon.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "65f57602dd26f0b78ab96e51e5aecf632011cd9bfd228340c25fc3e7cde34245"
+      },
+      "generation_file": "exec-f2eaf731-d959-48bf-8a7f-01b6aec528c5.png"
+    },
+    {
+      "id": "the-sun",
+      "kind": "trump",
+      "subject": "THE SUN: a large radiant anthropomorphic golden sun shines above two clothed adults, a man and woman seated together on a low floral bank. They converse warmly, wearing complementary embroidered madder-red and dark-teal clothes. Full figures and sun, restrained landscape vignette, no child on horseback, no banner.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: THE SUN: a large radiant anthropomorphic golden sun shines above two clothed adults, a man and woman seated together on a low floral bank. They converse warmly, wearing complementary embroidered madder-red and dark-teal clothes. Full figures and sun, restrained landscape vignette, no child on horseback, no banner.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "the-sun.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "c7e38f0003ed50e5ad57f3a8d8dbddd90fb2a5af77de137bf2319251d14e385c"
+      },
+      "generation_file": "exec-6f9d9faf-2d80-4bc1-a83d-098f2344b8a9.png"
+    },
+    {
+      "id": "the-world",
+      "kind": "trump",
+      "subject": "THE WORLD: a large terrestrial globe with a small city and mountains represented on its curved upper surface, supported by two small winged cherubs in modest drapery. Above the globe a winged feminine allegory in flowing madder-red and dark-teal robes holds a gold wreath aloft. Compact full composition, no dancing figure enclosed in an oval wreath, no four corner beasts.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: THE WORLD: a large terrestrial globe with a small city and mountains represented on its curved upper surface, supported by two small winged cherubs in modest drapery. Above the globe a winged feminine allegory in flowing madder-red and dark-teal robes holds a gold wreath aloft. Compact full composition, no dancing figure enclosed in an oval wreath, no four corner beasts.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "the-world.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "e1040880a17ecac23d69b537e3656ecc1010a90b9bcaee5f56cb4edda266ed3c"
+      },
+      "generation_file": "exec-62965a81-ebfd-42c9-8fde-d06cf132fd47.png"
+    },
+    {
+      "id": "the-trumpets",
+      "kind": "trump",
+      "subject": "THE TRUMPETS (Fame): one winged adult female allegory of Fame in flowing madder-red and dark-teal embroidered robes flies above a small distant walled city, blowing a long golden trumpet and carrying a second trumpet in her other hand. A small plain gold shield hangs at her side. Entire wings and instruments visible, no graves, resurrected figures or cross banner.",
+      "prompt": "Use case: stylized-concept. ONE original reusable painted component for the Design 2 Minchiate deck. Input image is STYLE REFERENCE ONLY. Match fine warm outlines, subtle naturalistic shading, luminous printed silk, rich madder red, dark teal foliage and bands, warm antique gold, ivory and small turquoise jewels. Use Chinese-inspired silk court dress, lotus/cloud/phoenix ornament and East Asian human figures where applicable. Preserve the specified Minchiate subject and every identifying attribute. Contemporary ornamental illustration, not a historical reconstruction. Coherent anatomically sound full figures and objects, full extremities visible, compact centered portrait composition with at least 8 percent transparent padding. TRUE transparent RGBA background and gaps, NO paper rectangle, sky/background field, shadow, glow, border, panels, title, text, numerals or watermark. One upright scene unless explicitly specified otherwise; no opposing duplicate figure. Limit flowers to a small contained lotus base. No European Renaissance clothing, no Morris foliage, no anime or 3D. This will be composed inside a 750x1050 Poker card; use bold legible attributes and avoid tiny extraneous detail. Subject: THE TRUMPETS (Fame): one winged adult female allegory of Fame in flowing madder-red and dark-teal embroidered robes flies above a small distant walled city, blowing a long golden trumpet and carrying a second trumpet in her other hand. A small plain gold shield hangs at her side. Entire wings and instruments visible, no graves, resurrected figures or cross banner.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "status": "generated",
+      "output": {
+        "path": "the-trumpets.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "ceafdeeff5db1318e470bf1ff37cae823bbe903b332e651422fcfc19d7b796ca"
+      },
+      "generation_file": "exec-20f1e81f-3e4a-44a3-a87d-741e3ac67cf2.png"
+    }
+  ]
+}

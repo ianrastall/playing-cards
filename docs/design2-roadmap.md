@@ -21,5 +21,22 @@ immediate work; the stages below are subsequent artwork work.
 5. Refresh inventories, catalogs, generated viewer pages and audit records after
    each approved promotion; package the expanded design once its sets are ready.
 
-Current inventory: 54 finished Poker faces, 30 backs across six sizes, and 12
-blank face frames. No new Design 2 tarot artwork has been generated in this task.
+Current inventory: 151 Poker faces (54 French-suited and 97 Minchiate), 30 backs
+across six sizes, and 12 blank face frames. The
+[complete Poker Minchiate set](../designs/design2/docs/design/minchiate-poker-v1.md)
+uses 61 selected illustration masters. All 97 compositions are registered to
+the shared center and preserve the existing Poker borders; the earlier four
+proofs are balanced and their previous exports are retained.
+
+Before format expansion, address the
+[Chinese visual-direction review](../designs/design2/docs/design/chinese-visual-direction.md)
+requested on 2026-09-29. Prioritize Leo, Air and architectural settings, then
+check ships, costume and objects against specific references. The target
+audience is Chinese viewers; the completed layout is not cultural validation.
+
+The next stage is reviewing the complete Design 2 Poker collection together,
+including the French-suited faces and backs, before expanding the faces into
+the other formats. Minchiate center measurements use painted visual mass;
+the French courts and backs use their central decorative landmarks. Their
+reports document those different measurements, without establishing that all
+interiors have received a final visual approval.

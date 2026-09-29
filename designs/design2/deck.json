@@ -102,10 +102,427 @@
         "black",
         "red"
       ]
+    },
+    "tarot": {
+      "formats": [
+        "poker"
+      ],
+      "suits": [
+        "swords",
+        "batons",
+        "cups",
+        "coins"
+      ],
+      "ranks": [
+        "ace",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "page",
+        "knight",
+        "queen",
+        "king"
+      ],
+      "trumps": [
+        {
+          "number": 0,
+          "slug": "the-fool",
+          "title": "The Fool",
+          "printed_index": "",
+          "kind": "fool",
+          "group": null
+        },
+        {
+          "number": 1,
+          "slug": "bagatella",
+          "title": "Bagatella",
+          "printed_index": "I",
+          "kind": "trump",
+          "group": "traditional-trump"
+        },
+        {
+          "number": 2,
+          "slug": "the-empress",
+          "title": "The Empress",
+          "printed_index": "II",
+          "kind": "trump",
+          "group": "traditional-trump"
+        },
+        {
+          "number": 3,
+          "slug": "the-emperor",
+          "title": "The Emperor",
+          "printed_index": "III",
+          "kind": "trump",
+          "group": "traditional-trump"
+        },
+        {
+          "number": 4,
+          "slug": "the-eastern-emperor",
+          "title": "The Eastern Emperor",
+          "printed_index": "IV",
+          "kind": "trump",
+          "group": "traditional-trump"
+        },
+        {
+          "number": 5,
+          "slug": "love",
+          "title": "Love",
+          "printed_index": "V",
+          "kind": "trump",
+          "group": "traditional-trump"
+        },
+        {
+          "number": 6,
+          "slug": "temperance",
+          "title": "Temperance",
+          "printed_index": "VI",
+          "kind": "trump",
+          "group": "traditional-trump"
+        },
+        {
+          "number": 7,
+          "slug": "fortitude",
+          "title": "Fortitude",
+          "printed_index": "VII",
+          "kind": "trump",
+          "group": "traditional-trump"
+        },
+        {
+          "number": 8,
+          "slug": "justice",
+          "title": "Justice",
+          "printed_index": "VIII",
+          "kind": "trump",
+          "group": "traditional-trump"
+        },
+        {
+          "number": 9,
+          "slug": "wheel-of-fortune",
+          "title": "Wheel of Fortune",
+          "printed_index": "IX",
+          "kind": "trump",
+          "group": "traditional-trump"
+        },
+        {
+          "number": 10,
+          "slug": "the-chariot",
+          "title": "The Chariot",
+          "printed_index": "X",
+          "kind": "trump",
+          "group": "traditional-trump"
+        },
+        {
+          "number": 11,
+          "slug": "time",
+          "title": "Time",
+          "printed_index": "XI",
+          "kind": "trump",
+          "group": "traditional-trump"
+        },
+        {
+          "number": 12,
+          "slug": "the-hanged-man",
+          "title": "The Hanged Man",
+          "printed_index": "XII",
+          "kind": "trump",
+          "group": "traditional-trump"
+        },
+        {
+          "number": 13,
+          "slug": "death",
+          "title": "Death",
+          "printed_index": "XIII",
+          "kind": "trump",
+          "group": "traditional-trump"
+        },
+        {
+          "number": 14,
+          "slug": "the-devil",
+          "title": "The Devil",
+          "printed_index": "XIV",
+          "kind": "trump",
+          "group": "traditional-trump"
+        },
+        {
+          "number": 15,
+          "slug": "the-house-of-the-devil",
+          "title": "The House of the Devil",
+          "printed_index": "XV",
+          "kind": "trump",
+          "group": "traditional-trump"
+        },
+        {
+          "number": 16,
+          "slug": "hope",
+          "title": "Hope",
+          "printed_index": "XVI",
+          "kind": "trump",
+          "group": "additional-virtue"
+        },
+        {
+          "number": 17,
+          "slug": "prudence",
+          "title": "Prudence",
+          "printed_index": "XVII",
+          "kind": "trump",
+          "group": "additional-virtue"
+        },
+        {
+          "number": 18,
+          "slug": "faith",
+          "title": "Faith",
+          "printed_index": "XVIII",
+          "kind": "trump",
+          "group": "additional-virtue"
+        },
+        {
+          "number": 19,
+          "slug": "charity",
+          "title": "Charity",
+          "printed_index": "XIX",
+          "kind": "trump",
+          "group": "additional-virtue"
+        },
+        {
+          "number": 20,
+          "slug": "fire",
+          "title": "Fire",
+          "printed_index": "XX",
+          "kind": "trump",
+          "group": "element"
+        },
+        {
+          "number": 21,
+          "slug": "water",
+          "title": "Water",
+          "printed_index": "XXI",
+          "kind": "trump",
+          "group": "element"
+        },
+        {
+          "number": 22,
+          "slug": "earth",
+          "title": "Earth",
+          "printed_index": "XXII",
+          "kind": "trump",
+          "group": "element"
+        },
+        {
+          "number": 23,
+          "slug": "air",
+          "title": "Air",
+          "printed_index": "XXIII",
+          "kind": "trump",
+          "group": "element"
+        },
+        {
+          "number": 24,
+          "slug": "libra",
+          "title": "Libra",
+          "printed_index": "XXIV",
+          "kind": "trump",
+          "group": "zodiac"
+        },
+        {
+          "number": 25,
+          "slug": "virgo",
+          "title": "Virgo",
+          "printed_index": "XXV",
+          "kind": "trump",
+          "group": "zodiac"
+        },
+        {
+          "number": 26,
+          "slug": "scorpio",
+          "title": "Scorpio",
+          "printed_index": "XXVI",
+          "kind": "trump",
+          "group": "zodiac"
+        },
+        {
+          "number": 27,
+          "slug": "aries",
+          "title": "Aries",
+          "printed_index": "XXVII",
+          "kind": "trump",
+          "group": "zodiac"
+        },
+        {
+          "number": 28,
+          "slug": "capricorn",
+          "title": "Capricorn",
+          "printed_index": "XXVIII",
+          "kind": "trump",
+          "group": "zodiac"
+        },
+        {
+          "number": 29,
+          "slug": "sagittarius",
+          "title": "Sagittarius",
+          "printed_index": "XXIX",
+          "kind": "trump",
+          "group": "zodiac"
+        },
+        {
+          "number": 30,
+          "slug": "cancer",
+          "title": "Cancer",
+          "printed_index": "XXX",
+          "kind": "trump",
+          "group": "zodiac"
+        },
+        {
+          "number": 31,
+          "slug": "pisces",
+          "title": "Pisces",
+          "printed_index": "XXXI",
+          "kind": "trump",
+          "group": "zodiac"
+        },
+        {
+          "number": 32,
+          "slug": "aquarius",
+          "title": "Aquarius",
+          "printed_index": "XXXII",
+          "kind": "trump",
+          "group": "zodiac"
+        },
+        {
+          "number": 33,
+          "slug": "leo",
+          "title": "Leo",
+          "printed_index": "XXXIII",
+          "kind": "trump",
+          "group": "zodiac"
+        },
+        {
+          "number": 34,
+          "slug": "taurus",
+          "title": "Taurus",
+          "printed_index": "XXXIV",
+          "kind": "trump",
+          "group": "zodiac"
+        },
+        {
+          "number": 35,
+          "slug": "gemini",
+          "title": "Gemini",
+          "printed_index": "XXXV",
+          "kind": "trump",
+          "group": "zodiac"
+        },
+        {
+          "number": 36,
+          "slug": "the-star",
+          "title": "The Star",
+          "printed_index": "",
+          "kind": "trump",
+          "group": "arie"
+        },
+        {
+          "number": 37,
+          "slug": "the-moon",
+          "title": "The Moon",
+          "printed_index": "",
+          "kind": "trump",
+          "group": "arie"
+        },
+        {
+          "number": 38,
+          "slug": "the-sun",
+          "title": "The Sun",
+          "printed_index": "",
+          "kind": "trump",
+          "group": "arie"
+        },
+        {
+          "number": 39,
+          "slug": "the-world",
+          "title": "The World",
+          "printed_index": "",
+          "kind": "trump",
+          "group": "arie"
+        },
+        {
+          "number": 40,
+          "slug": "the-trumpets",
+          "title": "The Trumpets",
+          "printed_index": "",
+          "kind": "trump",
+          "group": "arie"
+        }
+      ],
+      "tradition": "florentine-minchiate-97",
+      "card_count": 97,
+      "card_titles": {
+        "swords.ace": "Ace of Swords",
+        "swords.2": "2 of Swords",
+        "swords.3": "3 of Swords",
+        "swords.4": "4 of Swords",
+        "swords.5": "5 of Swords",
+        "swords.6": "6 of Swords",
+        "swords.7": "7 of Swords",
+        "swords.8": "8 of Swords",
+        "swords.9": "9 of Swords",
+        "swords.10": "10 of Swords",
+        "swords.page": "Jack of Swords",
+        "swords.knight": "Cavalier of Swords",
+        "swords.queen": "Queen of Swords",
+        "swords.king": "King of Swords",
+        "batons.ace": "Ace of Batons",
+        "batons.2": "2 of Batons",
+        "batons.3": "3 of Batons",
+        "batons.4": "4 of Batons",
+        "batons.5": "5 of Batons",
+        "batons.6": "6 of Batons",
+        "batons.7": "7 of Batons",
+        "batons.8": "8 of Batons",
+        "batons.9": "9 of Batons",
+        "batons.10": "10 of Batons",
+        "batons.page": "Jack of Batons",
+        "batons.knight": "Cavalier of Batons",
+        "batons.queen": "Queen of Batons",
+        "batons.king": "King of Batons",
+        "cups.ace": "Ace of Cups",
+        "cups.2": "2 of Cups",
+        "cups.3": "3 of Cups",
+        "cups.4": "4 of Cups",
+        "cups.5": "5 of Cups",
+        "cups.6": "6 of Cups",
+        "cups.7": "7 of Cups",
+        "cups.8": "8 of Cups",
+        "cups.9": "9 of Cups",
+        "cups.10": "10 of Cups",
+        "cups.page": "Maid of Cups",
+        "cups.knight": "Cavalier of Cups",
+        "cups.queen": "Queen of Cups",
+        "cups.king": "King of Cups",
+        "coins.ace": "Ace of Coins",
+        "coins.2": "2 of Coins",
+        "coins.3": "3 of Coins",
+        "coins.4": "4 of Coins",
+        "coins.5": "5 of Coins",
+        "coins.6": "6 of Coins",
+        "coins.7": "7 of Coins",
+        "coins.8": "8 of Coins",
+        "coins.9": "9 of Coins",
+        "coins.10": "10 of Coins",
+        "coins.page": "Maid of Coins",
+        "coins.knight": "Cavalier of Coins",
+        "coins.queen": "Queen of Coins",
+        "coins.king": "King of Coins"
+      }
     }
   },
   "face_status": "review",
   "back_status": "approved",
   "renderer": "balanced-toranj-v1",
-  "face_renderer": "number-cards-v1 + registered-faces-v1"
+  "face_renderer": "number-cards-v1 + registered-faces-v1 + minchiate-poker-v1"
 }

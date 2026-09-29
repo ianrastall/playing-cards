@@ -55,6 +55,8 @@ def build_design_catalog(root: Path) -> dict:
                                   system=system, format=size, arcana='minor', suit=suit,
                                   rank=rank, title=definition.get('card_titles', {}).get(f'{suit}.{rank}'), color_variant=None,
                                   status=config['face_status'])
+                    if 'tradition' in definition:
+                        record['tradition'] = definition['tradition']
             elif suit == "jokers":
                 if rank not in definition.get("jokers", []):
                     raise ValueError(f"Invalid Joker variant: {path}")

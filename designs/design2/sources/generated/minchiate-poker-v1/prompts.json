@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "status": "generated-for-first-review",
+  "jobs": [
+    {
+      "id": "the-empress",
+      "references": [
+        "cards/faces/french-suited/poker/hearts/queen.png",
+        "../design1/cards/faces/tarot/tarot/trumps/02-the-empress.png"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE original reusable illustration component for Design 2 Minchiate playing cards, designed to remain legible inside a 750 by 1050 Poker card. Image 1 is a STYLE REFERENCE ONLY: match the Design 2 fine warm outlines, softly shaded faces, luminous printed-silk surface, red phoenix robes, dark teal lotus embroidery, antique gold and small turquoise accents. Do not copy its two-way layout or its frame. This is contemporary card illustration inspired by Chinese silk and court dress, not a claim of historical reconstruction. One upright composition, restrained botanical base, balanced silhouette centered horizontally. Complete objects and extremities visible, 8 percent clear padding on every edge. TRUE transparent RGBA background with transparent interior gaps. No rectangle of paper, border, card panels, printed title, lettering, numeral, shadow, watermark, checkerboard or mockup. The figure will be typeset and framed separately. Image 2 supplies ONLY the Empress subject and attributes; replace its European costume and botanical style completely with the Design 2 visual language. Subject: THE EMPRESS, one adult East Asian woman seated full length on a compact gold-and-dark-teal throne, wearing madder-red phoenix-embroidered robes, a teal-and-gold shoulder stole and a compact gold/teal phoenix crown with pearls. One hand holds an upright slender lotus-tipped ceremonial scepter; the other rests naturally on the throne arm. Include one small round teal-and-gold shield bearing a clear Venus symbol at her feet, a few ripened grain stalks and a few lotus blossoms at the base. Warm composed expression. Flowing robes, coherent hands and anatomy. Composition compact enough for Poker width: entire throne and garments together form a centered roughly 2:3 portrait silhouette. No inverted duplicate figure. No European star crown, Renaissance dress or large surrounding floral field.",
+      "output": {
+        "path": "the-empress.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      },
+      "reference_hashes": {
+        "cards/faces/french-suited/poker/hearts/queen.png": "6239d603444d87e23472846d72e1241c9b26df0abb6ac9e245dbe5a90d8c30c2",
+        "../design1/cards/faces/tarot/tarot/trumps/02-the-empress.png": "82b34c9eec001de4f02019948f251d09789b427a531da7c72546c692b837f7b4"
+      }
+    },
+    {
+      "id": "queen-of-cups",
+      "references": [
+        "cards/faces/french-suited/poker/hearts/queen.png"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE original reusable illustration component for Design 2 Minchiate playing cards, designed to remain legible inside a 750 by 1050 Poker card. Image 1 is a STYLE REFERENCE ONLY: match the Design 2 fine warm outlines, softly shaded faces, luminous printed-silk surface, red phoenix robes, dark teal lotus embroidery, antique gold and small turquoise accents. Do not copy its two-way layout or its frame. This is contemporary card illustration inspired by Chinese silk and court dress, not a claim of historical reconstruction. One upright composition, restrained botanical base, balanced silhouette centered horizontally. Complete objects and extremities visible, 8 percent clear padding on every edge. TRUE transparent RGBA background with transparent interior gaps. No rectangle of paper, border, card panels, printed title, lettering, numeral, shadow, watermark, checkerboard or mockup. The figure will be typeset and framed separately. Subject: QUEEN OF CUPS. One adult East Asian queen seated full length on a compact gold and dark-teal throne, with a compact phoenix crown, pearls, madder-red phoenix robes and dark-teal lotus-embroidered bands. She gently supports ONE large open gold ceremonial chalice with both hands at chest height, clearly a stemmed drinking cup with a broad visible open bowl, not a vase, teapot or lidded jar. She looks slightly toward the cup. Refined warm face, natural five-fingered hands. Small lotus leaves and blossoms restricted to the base of the throne. Clear compact roughly 2:3 portrait silhouette suitable for a Poker card; keep crown, cup, sleeves and throne entirely visible. One upright figure, not a mirrored two-way queen. No heart symbols, scepter, sword, Venus shield or extra cup.",
+      "output": {
+        "path": "queen-of-cups.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "sha256": "04d333fea48f9f56852cc01840552f425df761e956447a167dcb4a1a2d1fdb44"
+      },
+      "reference_hashes": {
+        "cards/faces/french-suited/poker/hearts/queen.png": "6239d603444d87e23472846d72e1241c9b26df0abb6ac9e245dbe5a90d8c30c2"
+      }
+    },
+    {
+      "id": "sword-straight",
+      "references": [
+        "cards/faces/french-suited/poker/hearts/queen.png"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE original reusable illustration component for Design 2 Minchiate playing cards, designed to remain legible inside a 750 by 1050 Poker card. Image 1 is a STYLE REFERENCE ONLY: match the Design 2 fine warm outlines, softly shaded faces, luminous printed-silk surface, red phoenix robes, dark teal lotus embroidery, antique gold and small turquoise accents. Do not copy its two-way layout or its frame. This is contemporary card illustration inspired by Chinese silk and court dress, not a claim of historical reconstruction. One upright composition, restrained botanical base, balanced silhouette centered horizontally. Complete objects and extremities visible, 8 percent clear padding on every edge. TRUE transparent RGBA background with transparent interior gaps. No rectangle of paper, border, card panels, printed title, lettering, numeral, shadow, watermark, checkerboard or mockup. The figure will be typeset and framed separately. Subject: a SINGLE upright symmetrical straight double-edged ceremonial JIAN SWORD, tip up, pommel down. This is a reusable isolated suit pip, no person. Long slim ivory-silver blade with fine gold center engraving; compact gold cloud-shaped guard, dark-teal wrapped grip, small turquoise jewel in a gold lotus pommel. Fine botanical gold engraving echoes the reference lotus embroidery. Strictly straight vertical centerline and bilaterally balanced blade, no curved blade, no scabbard, no tassel, no foliage, no crown, no other object. Overall visible silhouette about 1:6 width to height, broad enough guard and small decorative details to read when the sword is only 170 pixels tall. True transparent background. This one exact sword component will be repeated with code to create counted crossed sword layouts. Do not generate multiple swords.",
+      "output": {
+        "path": "sword-straight.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "cdd2b0cae4e1a659d6eac60539ea112a2079662306a11dfbadd19a2200435eb0"
+      },
+      "reference_hashes": {
+        "cards/faces/french-suited/poker/hearts/queen.png": "6239d603444d87e23472846d72e1241c9b26df0abb6ac9e245dbe5a90d8c30c2"
+      }
+    }
+  ],
+  "date": "2026-09-29"
+}

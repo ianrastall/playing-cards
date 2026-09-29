@@ -1,16 +1,16 @@
 # Playing Cards
 
-Two independent designs, with **481 finished PNGs available directly in the repository**.
+Two independent designs, with **578 finished PNGs available directly in the repository**.
 Open the [card viewer](index.html) to choose a design, size, set, and card.
 One shared display area shows each complete PNG without cropping. Step through
 cards with the buttons, arrow keys, or position slider; rotate the view or
 download the selected PNG. Direct file links are available below the viewer,
-including the 18 Design 2 source masters and 12 blank face frames.
+including the 18 Design 2 French-suited source masters and 12 blank face frames.
 
 | Design | Finished artwork | Files | Gallery |
 | --- | --- | --- | --- |
 | [Design 1](designs/design1/README.md) — Morris, Mucha and Safavid-inspired botanical ornament | 367 faces, including the complete 97-card Minchiate; 30 backs | [Cards](designs/design1/cards/) | [Browse](designs/design1/index.html) |
-| [Design 2](designs/design2/README.md) — Ming and Tang-inspired silk florals | 54 Poker faces; 30 approved backs in six sizes | [Cards](designs/design2/cards/) | [Browse](designs/design2/index.html) |
+| [Design 2](designs/design2/README.md) — Ming and Tang-inspired silk florals | 151 Poker faces, including 97-card Minchiate; 30 approved backs in six sizes | [Cards](designs/design2/cards/) | [Browse](designs/design2/index.html) |
 
 Design 2's [number-card gallery](designs/design2/number-cards.html) includes a
 180-degree turn control. Its courts, Jokers and aces now share the numeral
@@ -37,7 +37,7 @@ designs/
     scripts/                 Design-specific rendering and packaging
     docs/                    Design notes and historical records
     build/ and work/         Local output and staging; ignored by Git
-  design2/                   Same organization; backs and Poker number faces
+  design2/                   Same organization; backs and Poker faces
 scripts/                     Collection-wide catalog and migration checks
 docs/                        Shared references and migration guidance
 ```
@@ -115,6 +115,7 @@ python -m unittest discover -s designs/design1/scripts -p "test_*.py"
 python designs/design2/scripts/audit_design2_registration.py
 python designs/design2/scripts/register_face_masters.py --check --active
 python designs/design2/scripts/audit_number_cards.py --active
+python designs/design2/scripts/build_minchiate_review.py --check --active
 python designs/design1/scripts/render_minchiate.py --check --active
 ```
 

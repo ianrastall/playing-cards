@@ -67,6 +67,10 @@ Maids, hybrid Cavaliers, and crossed straight long suits are implemented.
 The catalog, galleries, and v1.2 Tarot-size packaging use the 97-card inventory.
 See `designs/design1/docs/design/minchiate-v1-report.json` for validation.
 
-The current follow-up for Design 2 covers balancing its existing Poker artwork:
-54 faces, 30 backs, and 12 blank frames. Design 2 Minchiate artwork is a separate
-future production phase. Older reports remain records of the earlier releases.
+Design 2 now has all 97 Minchiate faces in Poker size, with original illustration
+masters, exact prompts and balanced exports preserved. Its first four proofs
+were rebalanced before completing the rest. See
+`designs/design2/docs/design/minchiate-poker-v1.json` for source hashes,
+placements, shared-border checks and center measurements. Review of the complete
+Design 2 collection and artwork for the other formats remain later stages.
+Older reports remain records of the earlier releases.
