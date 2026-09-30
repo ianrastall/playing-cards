@@ -52,7 +52,7 @@
     },
     {
       "path": "designs/design2/sources/generated/minchiate-poker-v1/corrections.json",
-      "sha256": "dad48a7a9d7b1d4adf3c4984fb565d466676803d285e960230886badafcfbc1d"
+      "sha256": "8d4970104b6b48157c1a8def6f7cd684fbb815c492154bb1959b2c80f22d3311"
     },
     {
       "path": "designs/design1/sources/components/tarot/review-v1/trumps-index-mask.png",
@@ -77,8 +77,8 @@
   ],
   "sources": [
     {
-      "path": "designs/design2/sources/generated/minchiate-poker-v1/air.png",
-      "sha256": "9049669483cc2357c8710c98f792ec8600b271cd3994bb2f0e35324b6e82e355"
+      "path": "designs/design2/sources/generated/minchiate-poker-v1/air-chinese-v2.png",
+      "sha256": "6caf5c11b26eadcd73f60ca6164643edea760f6767d6635f6c51c3c40011d4bc"
     },
     {
       "path": "designs/design2/sources/generated/minchiate-poker-v1/aquarius.png",
@@ -125,8 +125,8 @@
       "sha256": "05118c934ca0e7b8475f9a68e144e418ac67ff65bdd003dc00c91a4d823ce785"
     },
     {
-      "path": "designs/design2/sources/generated/minchiate-poker-v1/faith.png",
-      "sha256": "fb3581518035b545de68f90f6b08ca59be5291a5aa4635ddd11f904fddc9b8fb"
+      "path": "designs/design2/sources/generated/minchiate-poker-v1/faith-chinese-v2.png",
+      "sha256": "f4ab1fba15270b2704ced81f76f3b9695a7b851d745bc2b21b95ee1e3b2d449c"
     },
     {
       "path": "designs/design2/sources/generated/minchiate-poker-v1/fire.png",
@@ -181,8 +181,8 @@
       "sha256": "8e7e01a173db0bd5cfb6e0dcbb1f9bb7fc477a2313894f571dd7fd1f14bf8980"
     },
     {
-      "path": "designs/design2/sources/generated/minchiate-poker-v1/leo.png",
-      "sha256": "b913df95a1ecf825ba1d257f157f391dbc45fa42f40a940f563778405ede0d1b"
+      "path": "designs/design2/sources/generated/minchiate-poker-v1/leo-chinese-v2.png",
+      "sha256": "48a73c8325cde257974a96096d7d9bf6e4cbd9a9e7c1008548d8e36988696248"
     },
     {
       "path": "designs/design2/sources/generated/minchiate-poker-v1/libra.png",
@@ -281,8 +281,8 @@
       "sha256": "55f14101a24ca980776a02a413c32279935f1da9d0a20978ec2526fec898e4b2"
     },
     {
-      "path": "designs/design2/sources/generated/minchiate-poker-v1/the-house-of-the-devil.png",
-      "sha256": "b63a5ab67b30ada84c7f7455d1c703368bba463d4a7de7c5852b457b0260a7b5"
+      "path": "designs/design2/sources/generated/minchiate-poker-v1/the-house-of-the-devil-chinese-v2.png",
+      "sha256": "590a1adb2437f485856c21adba2333b4be00adca6e31abe41ece37c860ec291f"
     },
     {
       "path": "designs/design2/sources/generated/minchiate-poker-v1/the-moon.png",
@@ -297,12 +297,12 @@
       "sha256": "c7e38f0003ed50e5ad57f3a8d8dbddd90fb2a5af77de137bf2319251d14e385c"
     },
     {
-      "path": "designs/design2/sources/generated/minchiate-poker-v1/the-trumpets.png",
-      "sha256": "ceafdeeff5db1318e470bf1ff37cae823bbe903b332e651422fcfc19d7b796ca"
+      "path": "designs/design2/sources/generated/minchiate-poker-v1/the-trumpets-chinese-v3.png",
+      "sha256": "7d4016ed56ec21dff1e2877469aee9d7c6e3a6bd0e8b78dd509cc290e4416d8f"
     },
     {
-      "path": "designs/design2/sources/generated/minchiate-poker-v1/the-world.png",
-      "sha256": "e1040880a17ecac23d69b537e3656ecc1010a90b9bcaee5f56cb4edda266ed3c"
+      "path": "designs/design2/sources/generated/minchiate-poker-v1/the-world-chinese-v2.png",
+      "sha256": "311e67fc5ca485b605cf05c6c68d714679e19e20d723854b43ad2c0c93693ef1"
     },
     {
       "path": "designs/design2/sources/generated/minchiate-poker-v1/time.png",
@@ -313,8 +313,8 @@
       "sha256": "3caacfdba50abd7eb141f0d6cc3ed77badef49a2003e32ea09379a6d3ea7a5ed"
     },
     {
-      "path": "designs/design2/sources/generated/minchiate-poker-v1/water.png",
-      "sha256": "1f6a9e2d1b7133a66a58e35eb6fab11d52e0044574b458db83d51b4d44d36076"
+      "path": "designs/design2/sources/generated/minchiate-poker-v1/water-chinese-v2.png",
+      "sha256": "ef2242732a2e0a4eda7161844c799e66d05fc7e599c394c3eacffb09af8ec51a"
     },
     {
       "path": "designs/design2/sources/generated/minchiate-poker-v1/wheel-of-fortune.png",
@@ -8409,14 +8409,14 @@
       "group": "traditional-trump",
       "status": "balanced-proof",
       "path": "designs/design2/sources/components/minchiate-poker-v1/proofs/the-house-of-the-devil.png",
-      "sha256": "cac17f489e6c190b06ae6e811a5e3ff1df125ebabd63fa3a4213bd34c861b738",
+      "sha256": "947ccc4ee8dec229ccd4ad9945faac8519ed563fd7b36297165d9353f939f0e5",
       "source": "the-house-of-the-devil",
-      "source_path": "designs/design2/sources/generated/minchiate-poker-v1/the-house-of-the-devil.png",
+      "source_path": "designs/design2/sources/generated/minchiate-poker-v1/the-house-of-the-devil-chinese-v2.png",
       "crop": [
-        10,
-        19,
-        1015,
-        1514
+        24,
+        25,
+        1060,
+        1456
       ],
       "frame": "lamp-black",
       "instance_count": 1,
@@ -8432,12 +8432,12 @@
           ],
           "rotation": 0,
           "source_anchor": [
-            278.45718206865985,
-            359.3090402528196
+            285.85521722405815,
+            347.14595532812757
           ],
           "translation": [
-            96.04281793134015,
-            165.1909597471804
+            88.64478277594185,
+            177.35404467187243
           ],
           "instance_id": "the-house-of-the-devil-1"
         }
@@ -8448,16 +8448,16 @@
       ],
       "registration": {
         "method": "alpha times RMS contrast against #FAEBD7; 0.08 floor",
-        "scale": 0.8987034824845151,
+        "scale": 0.8735870785650909,
         "sampling_offset": [
-          -42.20197145744453,
-          -58.99941883235283
+          -54.23290258248909,
+          -75.85705844373194
         ],
         "measured_center": [
-          374.4463421805831,
-          524.4598528336206
+          374.46764071691933,
+          524.4355601110835
         ],
-        "max_error_pixels": 0.05365781941691239
+        "max_error_pixels": 0.06443988891646768
       },
       "artwork_outside_field": 0,
       "index_outside_panels": 0,
@@ -8598,14 +8598,14 @@
       "group": "additional-virtue",
       "status": "balanced-proof",
       "path": "designs/design2/sources/components/minchiate-poker-v1/proofs/faith.png",
-      "sha256": "c30a21d644cdb1a12ce412b16fd09717fc09fce08e0d9f2ac286a1688e014177",
+      "sha256": "5769d54a9266729d222a33027f6676c9f7feb29488c6d345e9a6b07bb3fd80fb",
       "source": "faith",
-      "source_path": "designs/design2/sources/generated/minchiate-poker-v1/faith.png",
+      "source_path": "designs/design2/sources/generated/minchiate-poker-v1/faith-chinese-v2.png",
       "crop": [
-        121,
-        16,
-        958,
-        1437
+        72,
+        42,
+        988,
+        1449
       ],
       "frame": "lamp-black",
       "instance_count": 1,
@@ -8621,12 +8621,12 @@
           ],
           "rotation": 0,
           "source_anchor": [
-            219.1360658088117,
-            429.8327398678649
+            241.19621767542293,
+            470.667310227381
           ],
           "translation": [
-            155.3639341911883,
-            94.66726013213508
+            133.30378232457707,
+            53.832689772619005
           ],
           "instance_id": "faith-1"
         }
@@ -8637,16 +8637,16 @@
       ],
       "registration": {
         "method": "alpha times RMS contrast against #FAEBD7; 0.08 floor",
-        "scale": 0.9534358039258478,
+        "scale": 0.8702184047577333,
         "sampling_offset": [
-          -18.24606267686994,
-          -25.66524429055505
+          -55.80482574174391,
+          -78.29986974050973
         ],
         "measured_center": [
-          374.46408517017403,
-          524.534255909397
+          374.4201208038053,
+          524.3905560454787
         ],
-        "max_error_pixels": 0.03591482982596972
+        "max_error_pixels": 0.10944395452133904
       },
       "artwork_outside_field": 0,
       "index_outside_panels": 0,
@@ -8787,14 +8787,14 @@
       "group": "element",
       "status": "balanced-proof",
       "path": "designs/design2/sources/components/minchiate-poker-v1/proofs/water.png",
-      "sha256": "a6556e525cde88d05f28ccd9648e3a98e19fd96d9ef8c52ebc6fcfd80762948c",
+      "sha256": "3971ad5379c53cef4f03c79fa85940845c1708f4effcab74be2cbfeba3aabf5f",
       "source": "water",
-      "source_path": "designs/design2/sources/generated/minchiate-poker-v1/water.png",
+      "source_path": "designs/design2/sources/generated/minchiate-poker-v1/water-chinese-v2.png",
       "crop": [
-        23,
-        15,
-        1016,
-        1499
+        28,
+        17,
+        1050,
+        1456
       ],
       "frame": "lamp-black",
       "instance_count": 1,
@@ -8810,12 +8810,12 @@
           ],
           "rotation": 0,
           "source_anchor": [
-            242.28187509765135,
-            445.3535934132362
+            252.17470749822752,
+            433.3598575380429
           ],
           "translation": [
-            132.21812490234865,
-            79.14640658676382
+            122.32529250177248,
+            91.14014246195711
           ],
           "instance_id": "water-1"
         }
@@ -8826,16 +8826,16 @@
       ],
       "registration": {
         "method": "alpha times RMS contrast against #FAEBD7; 0.08 floor",
-        "scale": 0.921384465063745,
+        "scale": 0.9468236331068135,
         "sampling_offset": [
-          -31.88534301083007,
-          -44.897499250733176
+          -21.000577941575102,
+          -29.514897119085504
         ],
         "measured_center": [
-          374.4705281407168,
-          524.3515461791528
+          374.4350034836133,
+          524.4187397245944
         ],
-        "max_error_pixels": 0.1484538208471804
+        "max_error_pixels": 0.08126027540561154
       },
       "artwork_outside_field": 0,
       "index_outside_panels": 0,
@@ -8913,14 +8913,14 @@
       "group": "element",
       "status": "balanced-proof",
       "path": "designs/design2/sources/components/minchiate-poker-v1/proofs/air.png",
-      "sha256": "c223d7a1340a74b68641f8cbac0edc9a0b9fc905d80d0c256a367885fedf864e",
+      "sha256": "a8393bc4913fdbecd1a4d03fc079c5f2600f7de5e5c0323f7250abd07762f511",
       "source": "air",
-      "source_path": "designs/design2/sources/generated/minchiate-poker-v1/air.png",
+      "source_path": "designs/design2/sources/generated/minchiate-poker-v1/air-chinese-v2.png",
       "crop": [
-        55,
-        14,
-        981,
-        1521
+        46,
+        4,
+        1025,
+        1468
       ],
       "frame": "lamp-black",
       "instance_count": 1,
@@ -8936,12 +8936,12 @@
           ],
           "rotation": 0,
           "source_anchor": [
-            222.65143333436004,
-            348.1595289499056
+            241.30006189583142,
+            342.17931019158414
           ],
           "translation": [
-            151.84856666563996,
-            176.34047105009438
+            133.19993810416858,
+            182.32068980841586
           ],
           "instance_id": "air-1"
         }
@@ -8952,16 +8952,16 @@
       ],
       "registration": {
         "method": "alpha times RMS contrast against #FAEBD7; 0.08 floor",
-        "scale": 0.9744109208830476,
+        "scale": 0.9592459563887085,
         "sampling_offset": [
-          -9.869938678267772,
-          -13.582446126731497
+          -15.848149734571734,
+          -22.151978561074884
         ],
         "measured_center": [
-          374.50837819014384,
-          524.6199972923401
+          374.4527004818004,
+          524.5217524917092
         ],
-        "max_error_pixels": 0.11999729234014467
+        "max_error_pixels": 0.047299518199622526
       },
       "artwork_outside_field": 0,
       "index_outside_panels": 0,
@@ -9543,14 +9543,14 @@
       "group": "zodiac",
       "status": "balanced-proof",
       "path": "designs/design2/sources/components/minchiate-poker-v1/proofs/leo.png",
-      "sha256": "2c3b3402d3d2fa887874cddac10cc03e9ad999219af460671a84c3d3a893df95",
+      "sha256": "901f36397d9ea503b9311eee072c1e4649cb100cdecfc259e5675e832ee834f1",
       "source": "leo",
-      "source_path": "designs/design2/sources/generated/minchiate-poker-v1/leo.png",
+      "source_path": "designs/design2/sources/generated/minchiate-poker-v1/leo-chinese-v2.png",
       "crop": [
-        37,
-        60,
-        1003,
-        1489
+        35,
+        19,
+        1047,
+        1471
       ],
       "frame": "lamp-black",
       "instance_count": 1,
@@ -9566,12 +9566,12 @@
           ],
           "rotation": 0,
           "source_anchor": [
-            235.43954345726152,
-            402.00115202540036
+            239.06116617755913,
+            401.9721807037377
           ],
           "translation": [
-            139.06045654273848,
-            122.49884797459964
+            135.43883382244087,
+            122.5278192962623
           ],
           "instance_id": "leo-1"
         }
@@ -9582,16 +9582,16 @@
       ],
       "registration": {
         "method": "alpha times RMS contrast against #FAEBD7; 0.08 floor",
-        "scale": 0.972614054742044,
+        "scale": 0.9841202427601863,
         "sampling_offset": [
-          -10.541843871700621,
-          -14.83684603703216
+          -6.052723570299236,
+          -8.655365509001285
         ],
         "measured_center": [
-          374.4461779138832,
-          524.4173207815178
+          374.48475149462627,
+          524.3363581907918
         ],
-        "max_error_pixels": 0.08267921848221249
+        "max_error_pixels": 0.16364180920822946
       },
       "artwork_outside_field": 0,
       "index_outside_panels": 0,
@@ -9921,14 +9921,14 @@
       "group": "arie",
       "status": "balanced-proof",
       "path": "designs/design2/sources/components/minchiate-poker-v1/proofs/the-world.png",
-      "sha256": "816d4564b8c49ec43211345872dc672c9b9eb311bb6284eda4b4d3b2733385bf",
+      "sha256": "30bb7d9e3abf25f322f455993bf29cd890e7f277ed9abc93987f9a1bb041b323",
       "source": "the-world",
-      "source_path": "designs/design2/sources/generated/minchiate-poker-v1/the-world.png",
+      "source_path": "designs/design2/sources/generated/minchiate-poker-v1/the-world-chinese-v2.png",
       "crop": [
-        48,
-        21,
-        1008,
-        1512
+        32,
+        17,
+        1048,
+        1478
       ],
       "frame": "lamp-black",
       "instance_count": 1,
@@ -9944,12 +9944,12 @@
           ],
           "rotation": 0,
           "source_anchor": [
-            234.75807123207264,
-            388.4808272961189
+            251.28817686073282,
+            381.1253001404311
           ],
           "translation": [
-            139.74192876792736,
-            136.0191727038811
+            123.21182313926718,
+            143.37469985956892
           ],
           "instance_id": "the-world-1"
         }
@@ -9960,16 +9960,16 @@
       ],
       "registration": {
         "method": "alpha times RMS contrast against #FAEBD7; 0.08 floor",
-        "scale": 1.0,
+        "scale": 0.9959295649540827,
         "sampling_offset": [
-          -0.049958249999065174,
-          0.002309925149575065
+          -1.5149709716763482,
+          -2.1054118623935665
         ],
         "measured_center": [
-          374.54297955135854,
-          524.5244619846513
+          374.4495945423012,
+          524.5041026715735
         ],
-        "max_error_pixels": 0.04297955135854181
+        "max_error_pixels": 0.050405457698786904
       },
       "artwork_outside_field": 0,
       "index_outside_panels": 0,
@@ -9984,14 +9984,14 @@
       "group": "arie",
       "status": "balanced-proof",
       "path": "designs/design2/sources/components/minchiate-poker-v1/proofs/the-trumpets.png",
-      "sha256": "c82940ee1f6fa85d55b63beaa43519b1afdf710dd2ef20d32357224463a55103",
+      "sha256": "f917b31352b15f8ca5eba502768e2e5cca87f6e895b3f903d1f023175c4f202b",
       "source": "the-trumpets",
-      "source_path": "designs/design2/sources/generated/minchiate-poker-v1/the-trumpets.png",
+      "source_path": "designs/design2/sources/generated/minchiate-poker-v1/the-trumpets-chinese-v3.png",
       "crop": [
-        17,
-        5,
-        1047,
-        1469
+        18,
+        59,
+        1055,
+        1468
       ],
       "frame": "lamp-black",
       "instance_count": 1,
@@ -10007,12 +10007,12 @@
           ],
           "rotation": 0,
           "source_anchor": [
-            259.80103948094353,
-            370.81871945026074
+            266.0403815963249,
+            345.5282984034115
           ],
           "translation": [
-            114.69896051905647,
-            153.68128054973926
+            108.45961840367511,
+            178.9717015965885
           ],
           "instance_id": "the-trumpets-1"
         }
@@ -10023,16 +10023,16 @@
       ],
       "registration": {
         "method": "alpha times RMS contrast against #FAEBD7; 0.08 floor",
-        "scale": 0.9615252187488588,
+        "scale": 0.9395549652212184,
         "sampling_offset": [
-          -15.04180477341174,
-          -21.05224447815192
+          -24.10604452538155,
+          -33.6208594743938
         ],
         "measured_center": [
-          374.49546445995117,
-          524.4869878737071
+          374.4514246349338,
+          524.5967154464004
         ],
-        "max_error_pixels": 0.01301212629289239
+        "max_error_pixels": 0.096715446400367
       },
       "artwork_outside_field": 0,
       "index_outside_panels": 0,

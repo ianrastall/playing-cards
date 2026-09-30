@@ -33,6 +33,11 @@ Before format expansion, address the
 requested on 2026-09-29. Prioritize Leo, Air and architectural settings, then
 check ships, costume and objects against specific references. The target
 audience is Chinese viewers; the completed layout is not cultural validation.
+The user subsequently confirmed that Chinese visual traditions take priority
+over European pictorial attributes while names, ranks and usability remain.
+The first revision group covers Faith, Leo, Air, Water, House of the Devil,
+World and Trumpets. Further costume, object and allegory review remains part
+of this stage before format expansion.
 
 The next stage is reviewing the complete Design 2 Poker collection together,
 including the French-suited faces and backs, before expanding the faces into

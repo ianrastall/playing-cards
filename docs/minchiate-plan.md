@@ -74,3 +74,13 @@ were rebalanced before completing the rest. See
 placements, shared-border checks and center measurements. Review of the complete
 Design 2 collection and artwork for the other formats remain later stages.
 Older reports remain records of the earlier releases.
+
+On 2026-09-29 the user refined Design 2's direction: preserve card names,
+inventory, ranks and usefulness, but give Chinese visual traditions priority
+over European iconography. Western zodiac identities stay. Christian Faith
+may become Buddhist devotion; other allegories may be reinterpreted where
+recognition remains clear. This supersedes the earlier requirement to retain
+every historical pictorial attribute for Design 2. Design 1 remains as selected.
+See `designs/design2/docs/design/chinese-visual-direction.md` for the brief and
+`designs/design2/sources/generated/minchiate-poker-v1/chinese-v2-prompts.json`
+for the first seven revisions and their references.

@@ -59,6 +59,12 @@ their earlier exports preserved. [Construction notes and prompts](docs/design/mi
 record all source artwork, placements and measurements. The
 [proof viewer](minchiate-review.html) also contains the complete set.
 
+The [Chinese visual-direction brief](docs/design/chinese-visual-direction.md)
+governs subsequent artwork revisions. The first seven replace Christian Faith
+with Buddhist devotion, revise Leo and Air, and rework the ship and architectural
+settings. Names, ranks and the 97-card inventory stay fixed; earlier artwork
+and exact revision prompts are preserved.
+
 ## Formats and construction
 
 | Format | Pixels | Trim inches | Construction |

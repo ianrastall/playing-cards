@@ -1,0 +1,256 @@
+{
+  "tool": "built-in image_gen",
+  "direction": "Chinese visual traditions take priority; retain card names, inventory and playability. User clarified 2026-09-29.",
+  "jobs": [
+    {
+      "id": "faith",
+      "reason": "Replace Christian cross, chalice and Eucharistic host with a Chinese Buddhist devotional scene.",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/61661",
+        "https://south.npm.gov.tw/SelectionsDetailC004100.aspx?Cond=7b405ac7-8012-4574-8da5-718da3051a0d"
+      ],
+      "brief": "FAITH: depict a Chinese adult female lay Buddhist devotee, standing full length, palms gently joined vertically at her chest in hezhang (anjali), eyes lowered in composed reverence. She is an ordinary practitioner, NOT a named bodhisattva or goddess. Give her a simple neatly coiled hair bun with one small gold hairpin, no crown, no veil, no halo. Ming-informed modest dress: a madder-red crossed-collar long-sleeved upper garment, the wearer's left front overlapping right, with restrained gold lotus embroidery at edges, and a dark-teal pleated long skirt covering the feet except plain cloth shoe tips. A small dark wooden low altar beside her holds a small clearly recognizable seated gilded Buddha image on a lotus pedestal, with two natural hands resting together in the lap in meditation, simple monastic robes, no elaborate crown. Devotee is much larger than the altar statue. Sparse lotus below, no extra symbolic objects. Remove the cross, chalice, host, royal jewels and stole entirely. Hands clearly empty and joined, not holding incense or an object. An original allegory of faith expressed through Chinese Buddhist devotion, not a purported traditional Chinese deity named Faith.",
+      "status": "selected",
+      "prompt": "Use case: precise-object-edit. Create a revised reusable painted illustration component for Design 2 Minchiate, not a whole card. Image 1 is the prior component: preserve its fine warm outlines, subtle modeled shading, printlike silk detail and restrained madder red, dark teal, antique gold and ivory palette, but implement the subject changes below. Favor specific Chinese visual forms over generic fantasy ornament. Keep a compact centered portrait composition for a 750x1050 card, complete extremities, 8 percent transparent padding, TRUE transparent RGBA background and transparent gaps. No frame, title, lettering, numerals, watermark, backdrop rectangle, halo-like background glow or cast shadow. Small contained base only. FAITH: depict a Chinese adult female lay Buddhist devotee, standing full length, palms gently joined vertically at her chest in hezhang (anjali), eyes lowered in composed reverence. She is an ordinary practitioner, NOT a named bodhisattva or goddess. Give her a simple neatly coiled hair bun with one small gold hairpin, no crown, no veil, no halo. Ming-informed modest dress: a madder-red crossed-collar long-sleeved upper garment, the wearer's left front overlapping right, with restrained gold lotus embroidery at edges, and a dark-teal pleated long skirt covering the feet except plain cloth shoe tips. A small dark wooden low altar beside her holds a small clearly recognizable seated gilded Buddha image on a lotus pedestal, with two natural hands resting together in the lap in meditation, simple monastic robes, no elaborate crown. Devotee is much larger than the altar statue. Sparse lotus below, no extra symbolic objects. Remove the cross, chalice, host, royal jewels and stole entirely. Hands clearly empty and joined, not holding incense or an object. An original allegory of faith expressed through Chinese Buddhist devotion, not a purported traditional Chinese deity named Faith.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/faith.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/faith.png": "fb3581518035b545de68f90f6b08ca59be5291a5aa4635ddd11f904fddc9b8fb"
+      },
+      "previous_export": {
+        "path": "designs/design2/sources/components/minchiate-poker-v1/before-chinese-v2/faith.png",
+        "sha256": "c30a21d644cdb1a12ce412b16fd09717fc09fce08e0d9f2ac286a1688e014177"
+      },
+      "output": {
+        "path": "faith-chinese-v2.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "f4ab1fba15270b2704ced81f76f3b9695a7b851d745bc2b21b95ee1e3b2d449c"
+      },
+      "generation_file": "exec-4032a1cd-1954-4786-b0af-3c8098edd034.png"
+    },
+    {
+      "id": "leo",
+      "reason": "Reinterpret Leo as a Chinese guardian lion while retaining the Western zodiac lion identity.",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/61824",
+        "https://south.npm.gov.tw/SelectionsDetailC004100.aspx?Cond=d57c0d65-bed6-40c5-ba13-06becc967fe6"
+      ],
+      "brief": "LEO: replace the naturalistic male lion with ONE dignified Chinese guardian lion informed by Ming stone lion sculpture. A broad rounded head, broad short muzzle, rounded alert eyes, open smiling snarling mouth with a few restrained teeth, spiraling tight curls of mane and eyebrows, powerful compact chest, muscular forelegs, rounded paws and curling tufted tail. Seated upright three-quarter view with all four legs anatomically clear: front paws straight before the body, hindquarters seated. One front paw rests lightly on a small embroidered brocade ball with a geometric interlace, not a globe. Render as a warm golden living sculptural allegory, with modeled fur and carved-like curls, NOT gray stone, a dog, qilin, dragon or lion-dance puppet. Simple dark-teal collar with red knot and one small gold bell; remove horse-like embroidered caparison, no costume robe, crown, wings, scales or extra horns. Keep compact lotus/rock base. Prioritize Chinese lion anatomy and mane conventions over a realistic savannah lion.",
+      "status": "selected",
+      "prompt": "Use case: precise-object-edit. Create a revised reusable painted illustration component for Design 2 Minchiate, not a whole card. Image 1 is the prior component: preserve its fine warm outlines, subtle modeled shading, printlike silk detail and restrained madder red, dark teal, antique gold and ivory palette, but implement the subject changes below. Favor specific Chinese visual forms over generic fantasy ornament. Keep a compact centered portrait composition for a 750x1050 card, complete extremities, 8 percent transparent padding, TRUE transparent RGBA background and transparent gaps. No frame, title, lettering, numerals, watermark, backdrop rectangle, halo-like background glow or cast shadow. Small contained base only. LEO: replace the naturalistic male lion with ONE dignified Chinese guardian lion informed by Ming stone lion sculpture. A broad rounded head, broad short muzzle, rounded alert eyes, open smiling snarling mouth with a few restrained teeth, spiraling tight curls of mane and eyebrows, powerful compact chest, muscular forelegs, rounded paws and curling tufted tail. Seated upright three-quarter view with all four legs anatomically clear: front paws straight before the body, hindquarters seated. One front paw rests lightly on a small embroidered brocade ball with a geometric interlace, not a globe. Render as a warm golden living sculptural allegory, with modeled fur and carved-like curls, NOT gray stone, a dog, qilin, dragon or lion-dance puppet. Simple dark-teal collar with red knot and one small gold bell; remove horse-like embroidered caparison, no costume robe, crown, wings, scales or extra horns. Keep compact lotus/rock base. Prioritize Chinese lion anatomy and mane conventions over a realistic savannah lion.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/leo.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/leo.png": "b913df95a1ecf825ba1d257f157f391dbc45fa42f40a940f563778405ede0d1b"
+      },
+      "previous_export": {
+        "path": "designs/design2/sources/components/minchiate-poker-v1/before-chinese-v2/leo.png",
+        "sha256": "2c3b3402d3d2fa887874cddac10cc03e9ad999219af460671a84c3d3a893df95"
+      },
+      "output": {
+        "path": "leo-chinese-v2.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "48a73c8325cde257974a96096d7d9bf6e4cbd9a9e7c1008548d8e36988696248"
+      },
+      "generation_file": "exec-f0fda050-b242-47f2-81be-1260d54ec6cb.png"
+    },
+    {
+      "id": "air",
+      "reason": "Replace generic heraldic bird and invented plumage with a Chinese painting-informed eagle and recognizable Chinese birds.",
+      "sources": [
+        "https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/CI00020486",
+        "https://www.metmuseum.org/art/collection/search/39540"
+      ],
+      "brief": "AIR: retain a compact ascending arrangement of FIVE birds with transparent gaps and restrained Chinese ruyi-shaped cloud wisps. One prominent eagle above, informed by Chinese Ming court eagle paintings of Lin Liang: dark brown head and back, warm ochre nape, hooked slate beak with yellow cere, mottled brown/ivory underparts, broad dark flight feathers, natural powerful yellow talons. Asymmetric three-quarter flight with body turning and wings at different heights, not a frontal heraldic badge; no white bald-eagle head or white tail and no red/teal recoloring of plumage. Below show two barn swallows with dark blue-black backs, small rusty throats, ivory undersides and long forked tails; two Eurasian tree sparrows with chestnut caps, pale cheeks with black cheek spots, brown streaked backs and short tails. Exactly one eagle, two swallows, two sparrows, distinct silhouettes without overlaps. Color restraint comes from the red/teal/gold cloud ornament and tiny lotus base, not unnatural feathers. Preserve delicate illustration style and legibility, no phoenix or invented songbird.",
+      "status": "selected",
+      "prompt": "Use case: precise-object-edit. Create a revised reusable painted illustration component for Design 2 Minchiate, not a whole card. Image 1 is the prior component: preserve its fine warm outlines, subtle modeled shading, printlike silk detail and restrained madder red, dark teal, antique gold and ivory palette, but implement the subject changes below. Favor specific Chinese visual forms over generic fantasy ornament. Keep a compact centered portrait composition for a 750x1050 card, complete extremities, 8 percent transparent padding, TRUE transparent RGBA background and transparent gaps. No frame, title, lettering, numerals, watermark, backdrop rectangle, halo-like background glow or cast shadow. Small contained base only. AIR: retain a compact ascending arrangement of FIVE birds with transparent gaps and restrained Chinese ruyi-shaped cloud wisps. One prominent eagle above, informed by Chinese Ming court eagle paintings of Lin Liang: dark brown head and back, warm ochre nape, hooked slate beak with yellow cere, mottled brown/ivory underparts, broad dark flight feathers, natural powerful yellow talons. Asymmetric three-quarter flight with body turning and wings at different heights, not a frontal heraldic badge; no white bald-eagle head or white tail and no red/teal recoloring of plumage. Below show two barn swallows with dark blue-black backs, small rusty throats, ivory undersides and long forked tails; two Eurasian tree sparrows with chestnut caps, pale cheeks with black cheek spots, brown streaked backs and short tails. Exactly one eagle, two swallows, two sparrows, distinct silhouettes without overlaps. Color restraint comes from the red/teal/gold cloud ornament and tiny lotus base, not unnatural feathers. Preserve delicate illustration style and legibility, no phoenix or invented songbird.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/air.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/air.png": "9049669483cc2357c8710c98f792ec8600b271cd3994bb2f0e35324b6e82e355"
+      },
+      "previous_export": {
+        "path": "designs/design2/sources/components/minchiate-poker-v1/before-chinese-v2/air.png",
+        "sha256": "c223d7a1340a74b68641f8cbac0edc9a0b9fc905d80d0c256a367885fedf864e"
+      },
+      "output": {
+        "path": "air-chinese-v2.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "6caf5c11b26eadcd73f60ca6164643edea760f6767d6635f6c51c3c40011d4bc"
+      },
+      "generation_file": "exec-36d13f54-e04c-4717-a597-b69f0dfde28b.png"
+    },
+    {
+      "id": "water",
+      "reason": "Replace fantasy jeweled ship with a coherent Chinese coastal trading-junk interpretation.",
+      "sources": [
+        "https://www.burkemuseum.org/news/model-chinese-junks-sail",
+        "https://collection.sciencemuseumgroup.org.uk/objects/co41902/"
+      ],
+      "brief": "WATER: replace the fantasy gilded ship with a coherent wooden Chinese coastal trading junk in three-quarter view: broad dark honey-brown timber hull, flat transom and high stern, three wooden masts of differing heights carrying clearly battened muted tan sails, believable slender rope rigging with sheets led to the deck, one modest low working deckhouse with plain roof, a visible broad stern rudder. Simplify to legible structural details, not a technical diagram. Restrained red pennants, dark-teal painted gunwale and fine small gold accents can preserve the deck palette. Remove the huge phoenix/dragon figurehead, gemstones on the hull, palace pavilion, embroidered phoenix on sails, and ornamental fantasy railwork. Compact stylized turquoise Chinese wave curls below. No European galleon shape, bowsprit or square-rig yards. This is a Chinese vessel-type interpretation informed by regional models, not a claimed reconstruction of a specific Ming ship.",
+      "status": "selected",
+      "prompt": "Use case: precise-object-edit. Create a revised reusable painted illustration component for Design 2 Minchiate, not a whole card. Image 1 is the prior component: preserve its fine warm outlines, subtle modeled shading, printlike silk detail and restrained madder red, dark teal, antique gold and ivory palette, but implement the subject changes below. Favor specific Chinese visual forms over generic fantasy ornament. Keep a compact centered portrait composition for a 750x1050 card, complete extremities, 8 percent transparent padding, TRUE transparent RGBA background and transparent gaps. No frame, title, lettering, numerals, watermark, backdrop rectangle, halo-like background glow or cast shadow. Small contained base only. WATER: replace the fantasy gilded ship with a coherent wooden Chinese coastal trading junk in three-quarter view: broad dark honey-brown timber hull, flat transom and high stern, three wooden masts of differing heights carrying clearly battened muted tan sails, believable slender rope rigging with sheets led to the deck, one modest low working deckhouse with plain roof, a visible broad stern rudder. Simplify to legible structural details, not a technical diagram. Restrained red pennants, dark-teal painted gunwale and fine small gold accents can preserve the deck palette. Remove the huge phoenix/dragon figurehead, gemstones on the hull, palace pavilion, embroidered phoenix on sails, and ornamental fantasy railwork. Compact stylized turquoise Chinese wave curls below. No European galleon shape, bowsprit or square-rig yards. This is a Chinese vessel-type interpretation informed by regional models, not a claimed reconstruction of a specific Ming ship.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/water.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/water.png": "1f6a9e2d1b7133a66a58e35eb6fab11d52e0044574b458db83d51b4d44d36076"
+      },
+      "previous_export": {
+        "path": "designs/design2/sources/components/minchiate-poker-v1/before-chinese-v2/water.png",
+        "sha256": "a6556e525cde88d05f28ccd9648e3a98e19fd96d9ef8c52ebc6fcfd80762948c"
+      },
+      "output": {
+        "path": "water-chinese-v2.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "ef2242732a2e0a4eda7161844c799e66d05fc7e599c394c3eacffb09af8ec51a"
+      },
+      "generation_file": "exec-3a384d11-5231-42f9-a8ae-07cb18502fde.png"
+    },
+    {
+      "id": "the-house-of-the-devil",
+      "reason": "Replace European masonry tower and bat-winged gargoyle with a Chinese house and fictional disruptive spirit.",
+      "sources": [
+        "https://www.dpm.org.cn/explore/building/236465.html"
+      ],
+      "brief": "THE HOUSE OF THE DEVIL: keep a frightened adult Chinese woman fleeing a burning house, full figure and flames contained. Replace stone castle tower with a small Chinese domestic timber-and-brick house: exposed dark timber posts and horizontal beams, white plaster infill over gray brick base, lattice window, simple wooden doorway, gray clay-tile gabled roof with restrained projecting eaves. Fire visible in doorway and roof timbers; coherent timber building, NOT stone European turret, temple, pagoda or imperial hall. Woman wears modest crossed-collar madder-red upper robe, dark-teal pleated skirt, simple bun and hairpin, no imperial crown or stole. Replace the bat-winged gargoyle with a small clearly malevolent fictional Chinese tale-like spirit crouching on a broken roof beam: hunched thin humanoid, disheveled black hair, gray-green skin, clawed hands and sly grimace. No wings, goat head, trident, dragon, guardian armor, Buddhist crown or identifiable sacred protector; this is an invented destructive spirit, NOT a deity. Preserve the narrative of escaping destructive misfortune, with sparse lotus base.",
+      "status": "selected",
+      "prompt": "Use case: precise-object-edit. Create a revised reusable painted illustration component for Design 2 Minchiate, not a whole card. Image 1 is the prior component: preserve its fine warm outlines, subtle modeled shading, printlike silk detail and restrained madder red, dark teal, antique gold and ivory palette, but implement the subject changes below. Favor specific Chinese visual forms over generic fantasy ornament. Keep a compact centered portrait composition for a 750x1050 card, complete extremities, 8 percent transparent padding, TRUE transparent RGBA background and transparent gaps. No frame, title, lettering, numerals, watermark, backdrop rectangle, halo-like background glow or cast shadow. Small contained base only. THE HOUSE OF THE DEVIL: keep a frightened adult Chinese woman fleeing a burning house, full figure and flames contained. Replace stone castle tower with a small Chinese domestic timber-and-brick house: exposed dark timber posts and horizontal beams, white plaster infill over gray brick base, lattice window, simple wooden doorway, gray clay-tile gabled roof with restrained projecting eaves. Fire visible in doorway and roof timbers; coherent timber building, NOT stone European turret, temple, pagoda or imperial hall. Woman wears modest crossed-collar madder-red upper robe, dark-teal pleated skirt, simple bun and hairpin, no imperial crown or stole. Replace the bat-winged gargoyle with a small clearly malevolent fictional Chinese tale-like spirit crouching on a broken roof beam: hunched thin humanoid, disheveled black hair, gray-green skin, clawed hands and sly grimace. No wings, goat head, trident, dragon, guardian armor, Buddhist crown or identifiable sacred protector; this is an invented destructive spirit, NOT a deity. Preserve the narrative of escaping destructive misfortune, with sparse lotus base.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-house-of-the-devil.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-house-of-the-devil.png": "b63a5ab67b30ada84c7f7455d1c703368bba463d4a7de7c5852b457b0260a7b5"
+      },
+      "previous_export": {
+        "path": "designs/design2/sources/components/minchiate-poker-v1/before-chinese-v2/the-house-of-the-devil.png",
+        "sha256": "cac17f489e6c190b06ae6e811a5e3ff1df125ebabd63fa3a4213bd34c861b738"
+      },
+      "output": {
+        "path": "the-house-of-the-devil-chinese-v2.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "590a1adb2437f485856c21adba2333b4be00adca6e31abe41ece37c860ec291f"
+      },
+      "generation_file": "exec-db28876a-2587-4d80-9b2c-31d47cfa0320.png"
+    },
+    {
+      "id": "the-world",
+      "reason": "Replace European winged allegory, putti and miniature city with Chinese flying-figure and landscape conventions.",
+      "sources": [
+        "https://ip.e-dunhuang.com/special.html?value=%E9%A3%9E%E5%A4%A9",
+        "https://www.dpm.org.cn/explore/building/236465.html"
+      ],
+      "brief": "THE WORLD: keep the large globe/world as the unmistakable central attribute, with a rich miniature Chinese landscape of layered green mountains, winding water, gray-tiled courtyard houses and one red timber gatehouse on its upper curve. No European castle, domed church or bell tower, no labels or invented script. Above it, one graceful Chinese adult feminine allegory floats in a curved pose informed by Dunhuang flying-figure movement, carried visually by long flowing silk ribbons and cloud wisps rather than feathered wings. Modest madder-red and dark-teal silk garments with restrained gold lotus trim, simple high bun and small gold hair ornament, no generic European crown. Hold a small open circular gold floral garland aloft as a clear emblem of completion; do not make it a halo. Remove the two winged European putti entirely; the globe rests on a small balanced lotus-and-cloud base instead. No feathered wings on any person, no Christian angels or foreign town. This is an original Chinese visual reinterpretation of Minchiate's World, not a named Buddhist deity.",
+      "status": "selected",
+      "prompt": "Use case: precise-object-edit. Create a revised reusable painted illustration component for Design 2 Minchiate, not a whole card. Image 1 is the prior component: preserve its fine warm outlines, subtle modeled shading, printlike silk detail and restrained madder red, dark teal, antique gold and ivory palette, but implement the subject changes below. Favor specific Chinese visual forms over generic fantasy ornament. Keep a compact centered portrait composition for a 750x1050 card, complete extremities, 8 percent transparent padding, TRUE transparent RGBA background and transparent gaps. No frame, title, lettering, numerals, watermark, backdrop rectangle, halo-like background glow or cast shadow. Small contained base only. THE WORLD: keep the large globe/world as the unmistakable central attribute, with a rich miniature Chinese landscape of layered green mountains, winding water, gray-tiled courtyard houses and one red timber gatehouse on its upper curve. No European castle, domed church or bell tower, no labels or invented script. Above it, one graceful Chinese adult feminine allegory floats in a curved pose informed by Dunhuang flying-figure movement, carried visually by long flowing silk ribbons and cloud wisps rather than feathered wings. Modest madder-red and dark-teal silk garments with restrained gold lotus trim, simple high bun and small gold hair ornament, no generic European crown. Hold a small open circular gold floral garland aloft as a clear emblem of completion; do not make it a halo. Remove the two winged European putti entirely; the globe rests on a small balanced lotus-and-cloud base instead. No feathered wings on any person, no Christian angels or foreign town. This is an original Chinese visual reinterpretation of Minchiate's World, not a named Buddhist deity.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-world.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-world.png": "e1040880a17ecac23d69b537e3656ecc1010a90b9bcaee5f56cb4edda266ed3c"
+      },
+      "previous_export": {
+        "path": "designs/design2/sources/components/minchiate-poker-v1/before-chinese-v2/the-world.png",
+        "sha256": "816d4564b8c49ec43211345872dc672c9b9eb311bb6284eda4b4d3b2733385bf"
+      },
+      "output": {
+        "path": "the-world-chinese-v2.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "311e67fc5ca485b605cf05c6c68d714679e19e20d723854b43ad2c0c93693ef1"
+      },
+      "generation_file": "exec-9fe7da05-faec-4a2a-981c-c73088f93188.png"
+    },
+    {
+      "id": "the-trumpets",
+      "reason": "Reinterpret Fame through Chinese flying-figure movement and replace the European town.",
+      "sources": [
+        "https://ip.e-dunhuang.com/special.html?value=%E9%A3%9E%E5%A4%A9",
+        "https://www.dpm.org.cn/explore/building/236465.html"
+      ],
+      "brief": "THE TRUMPETS: one Chinese adult feminine allegory in flight, using graceful curved body and long flowing silk ribbons derived from Dunhuang flying-figure movement, no feathered wings. Modest madder-red and dark-teal garments with restrained gold lotus trim, simple high hair bun and small ornament, no imperial phoenix crown. She blows ONE long slender straight bronze ceremonial trumpet with flared bell, no valves or keys, while carrying a SECOND similar trumpet clearly in the other hand; the two trumpets MUST remain distinct because they identify this card. Remove the shield entirely. Below is a small Chinese walled town: gray brick enclosing wall and a timber gatehouse with gray tiled roof, rows of low courtyard rooftops, no cathedral, European bell tower or domes. Small contained cloud-and-lotus base, all body parts and both instrument bells visible, flying pose clear. This is a deliberate original adaptation of Fame, not a claim that this exact trumpeting figure is a traditional Buddhist being.",
+      "status": "selected",
+      "prompt": "Use case: precise-object-edit. Create a revised reusable painted illustration component for Design 2 Minchiate, not a whole card. Image 1 is the prior component: preserve its fine warm outlines, subtle modeled shading, printlike silk detail and restrained madder red, dark teal, antique gold and ivory palette, but implement the subject changes below. Favor specific Chinese visual forms over generic fantasy ornament. Keep a compact centered portrait composition for a 750x1050 card, complete extremities, 8 percent transparent padding, TRUE transparent RGBA background and transparent gaps. No frame, title, lettering, numerals, watermark, backdrop rectangle, halo-like background glow or cast shadow. Small contained base only. THE TRUMPETS: one Chinese adult feminine allegory in flight, using graceful curved body and long flowing silk ribbons derived from Dunhuang flying-figure movement, no feathered wings. Modest madder-red and dark-teal garments with restrained gold lotus trim, simple high hair bun and small ornament, no imperial phoenix crown. She blows ONE long slender straight bronze ceremonial trumpet with flared bell, no valves or keys, while carrying a SECOND similar trumpet clearly in the other hand; the two trumpets MUST remain distinct because they identify this card. Remove the shield entirely. Below is a small Chinese walled town: gray brick enclosing wall and a timber gatehouse with gray tiled roof, rows of low courtyard rooftops, no cathedral, European bell tower or domes. Small contained cloud-and-lotus base, all body parts and both instrument bells visible, flying pose clear. This is a deliberate original adaptation of Fame, not a claim that this exact trumpeting figure is a traditional Buddhist being.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/the-trumpets.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/the-trumpets.png": "ceafdeeff5db1318e470bf1ff37cae823bbe903b332e651422fcfc19d7b796ca"
+      },
+      "previous_export": {
+        "path": "designs/design2/sources/components/minchiate-poker-v1/before-chinese-v2/the-trumpets.png",
+        "sha256": "c82940ee1f6fa85d55b63beaa43519b1afdf710dd2ef20d32357224463a55103"
+      },
+      "output": {
+        "path": "the-trumpets-chinese-v3.png",
+        "pixels": [
+          1060,
+          1484
+        ],
+        "mode": "RGBA",
+        "sha256": "7d4016ed56ec21dff1e2877469aee9d7c6e3a6bd0e8b78dd509cc290e4416d8f"
+      },
+      "generation_file": "exec-a55f20ab-7507-40dd-8de1-873af4f75c16.png",
+      "earlier_outputs": [
+        {
+          "path": "the-trumpets-chinese-v2.png",
+          "pixels": [
+            1060,
+            1484
+          ],
+          "mode": "RGBA",
+          "sha256": "2f4e23c7442bcece5676286535593f400a4f9e5d6a9f4c0b1c012f6fd130e0bd"
+        }
+      ],
+      "followup_edits": [
+        {
+          "tool": "built-in image_gen",
+          "prompt": "Use case: precise-object-edit. Edit this exact illustration and change ONLY the SECOND trumpet, the one carried upright in the woman's lower hand on the right side of the image. At present its upper end has a second flared bell. Replace that upper flared funnel with a narrow straight cylindrical leadpipe terminating in a TINY cup mouthpiece, no wider than two times the slender tube diameter. Keep the ONE large flared bell at the lower end, pointing down. It must be a physically understandable straight natural trumpet with one small mouthpiece and one large bell. Preserve the entire rest of the image: the other trumpet being played, woman's face, hands, pose and clothing, all ribbons, the Chinese town, base, palette, linework, proportions and exact transparent RGBA background. No extra instrument, no lettering, no frame.",
+          "references": [
+            "sources/generated/minchiate-poker-v1/the-trumpets-chinese-v2.png"
+          ],
+          "status": "selected",
+          "output": {
+            "path": "the-trumpets-chinese-v3.png",
+            "pixels": [
+              1060,
+              1484
+            ],
+            "mode": "RGBA",
+            "sha256": "7d4016ed56ec21dff1e2877469aee9d7c6e3a6bd0e8b78dd509cc290e4416d8f"
+          },
+          "generation_file": "exec-a55f20ab-7507-40dd-8de1-873af4f75c16.png",
+          "reference_hashes": {
+            "sources/generated/minchiate-poker-v1/the-trumpets-chinese-v2.png": "2f4e23c7442bcece5676286535593f400a4f9e5d6a9f4c0b1c012f6fd130e0bd"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -211,7 +211,7 @@ def review_page(cards):
 <header class="site-header"><a class="wordmark" href="index.html">Design 2</a><span>Minchiate · Poker</span></header>
 <main><aside class="browser-panel"><h1>Minchiate</h1><p class="intro">Balanced cards from the 97-card Minchiate inventory.</p>
 <div class="selectors"><label for="proof">Card</label><select id="proof">''' + options + '''</select></div>
-<p class="muted">750 × 1050 px · 2.5 × 3.5 in<br>Existing Poker frames; paired side indices.<br>Figures follow the Minchiate subjects.</p>
+<p class="muted">750 × 1050 px · 2.5 × 3.5 in<br>Existing Poker frames; paired side indices.<br>Chinese interpretations of Minchiate subjects.</p>
 <a href="sources/generated/minchiate-poker-v1/prompts.json">Generation prompts</a><a href="docs/design/minchiate-poker-v1.md">Construction notes</a></aside>
 <section class="card-view"><header class="card-heading"><h2 id="title">The Empress</h2><span id="position" role="status"></span></header>
 <div class="viewer-stage"><img id="image" src="sources/components/minchiate-poker-v1/proofs/the-empress.png" width="750" height="1050" alt="The Empress"></div>
@@ -235,6 +235,17 @@ def active_path(card):
     relative=(f'trumps/{card.get("rank_order") or 0:02d}-{card["id"]}.png' if card['kind'] in ('fool','trump')
               else f'{card["suit"]}/{card["rank"]}.png')
     return ROOT/'cards/faces/tarot/poker'/relative
+
+
+def check_replacement(card, dest, proof):
+    if not dest.exists() or sha(dest) == sha(proof):
+        return
+    repair = REPAIRS.get(card['id'])
+    assert repair and 'previous_export' in repair, card['id']+': unrecorded replacement'
+    previous = repair['previous_export']
+    archive = (REPO/previous['path']).resolve()
+    assert archive.is_relative_to(OUT.resolve()) and archive != dest.resolve()
+    assert sha(archive) == previous['sha256'] == sha(dest), card['id']+': prior export does not match archive'
 
 
 def main():
@@ -315,11 +326,14 @@ def main():
         sheet.save(OUT/'review.jpg',quality=95)
     if args.apply:
         assert not pending
+        # Check every replacement before mutating any active export.
+        for c in cards:
+            check_replacement(c, active_path(c), OUT/'proofs'/(c['id']+'.png'))
         for c in cards:
             dest=active_path(c)
-            assert not dest.exists() or sha(dest)==sha(OUT/'proofs'/(c['id']+'.png'))
             dest.parent.mkdir(parents=True,exist_ok=True)
             shutil.copy2(OUT/'proofs'/(c['id']+'.png'),dest)
+            assert sha(dest)==sha(OUT/'proofs'/(c['id']+'.png'))
         deck=json.loads((ROOT/'deck.json').read_text(encoding='utf-8'))
         tarot=json.loads((REPO/'designs/design1/deck.json').read_text(encoding='utf-8'))['face_systems']['tarot']
         tarot['formats']=['poker'];deck['face_systems']['tarot']=tarot

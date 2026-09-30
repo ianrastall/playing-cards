@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [],
+  "reviews": [
+    {
+      "id": "cancer",
+      "status": "original-retained",
+      "result": "Full-resolution review confirms four separate walking legs on each side, in addition to the two claw-bearing arms. No edit was run.",
+      "proposed_edit_not_run": "Edit this exact Cancer illustration. Correct the crab anatomy: keep the TWO large raised claw-bearing arms, and show exactly EIGHT additional walking legs, FOUR clearly separate jointed walking legs on the left side and FOUR on the right side, all attached naturally to the sides of the broad shell. The present image has only three walking legs per side; add one matching walking leg on EACH side and adjust spacing so every one of the eight walking legs is fully visible and countable, with transparent gaps. Ten appendages total: two claw arms plus eight walking legs. Preserve the red-and-gold phoenix shell, turquoise details, two eye stalks, pool and small lotus base, overall centered composition, linework, lighting and palette. Keep a transparent RGBA background, no text, frame, title or extra creature. Do not count the two pincer arms among the eight walking legs.",
+      "references": [
+        "sources/generated/minchiate-poker-v1/cancer.png"
+      ],
+      "reference_hashes": {
+        "sources/generated/minchiate-poker-v1/cancer.png": "2ff76b1713036fcdcef00ca036724dc15e69708c7f9ccfaaf72567f217ee292c"
+      }
+    }
+  ]
+}

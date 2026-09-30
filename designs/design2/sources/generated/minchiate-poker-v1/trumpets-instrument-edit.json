@@ -1,0 +1,21 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Edit this exact illustration and change ONLY the SECOND trumpet, the one carried upright in the woman's lower hand on the right side of the image. At present its upper end has a second flared bell. Replace that upper flared funnel with a narrow straight cylindrical leadpipe terminating in a TINY cup mouthpiece, no wider than two times the slender tube diameter. Keep the ONE large flared bell at the lower end, pointing down. It must be a physically understandable straight natural trumpet with one small mouthpiece and one large bell. Preserve the entire rest of the image: the other trumpet being played, woman's face, hands, pose and clothing, all ribbons, the Chinese town, base, palette, linework, proportions and exact transparent RGBA background. No extra instrument, no lettering, no frame.",
+  "references": [
+    "sources/generated/minchiate-poker-v1/the-trumpets-chinese-v2.png"
+  ],
+  "status": "selected",
+  "output": {
+    "path": "the-trumpets-chinese-v3.png",
+    "pixels": [
+      1060,
+      1484
+    ],
+    "mode": "RGBA",
+    "sha256": "7d4016ed56ec21dff1e2877469aee9d7c6e3a6bd0e8b78dd509cc290e4416d8f"
+  },
+  "generation_file": "exec-a55f20ab-7507-40dd-8de1-873af4f75c16.png",
+  "reference_hashes": {
+    "sources/generated/minchiate-poker-v1/the-trumpets-chinese-v2.png": "2f4e23c7442bcece5676286535593f400a4f9e5d6a9f4c0b1c012f6fd130e0bd"
+  }
+}

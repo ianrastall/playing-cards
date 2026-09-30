@@ -5587,7 +5587,7 @@
         300.0,
         300.0
       ],
-      "sha256": "cac17f489e6c190b06ae6e811a5e3ff1df125ebabd63fa3a4213bd34c861b738"
+      "sha256": "947ccc4ee8dec229ccd4ad9945faac8519ed563fd7b36297165d9353f939f0e5"
     },
     {
       "id": "face.tarot.poker.trump.16.hope",
@@ -5713,7 +5713,7 @@
         300.0,
         300.0
       ],
-      "sha256": "c30a21d644cdb1a12ce412b16fd09717fc09fce08e0d9f2ac286a1688e014177"
+      "sha256": "5769d54a9266729d222a33027f6676c9f7feb29488c6d345e9a6b07bb3fd80fb"
     },
     {
       "id": "face.tarot.poker.trump.19.charity",
@@ -5839,7 +5839,7 @@
         300.0,
         300.0
       ],
-      "sha256": "a6556e525cde88d05f28ccd9648e3a98e19fd96d9ef8c52ebc6fcfd80762948c"
+      "sha256": "3971ad5379c53cef4f03c79fa85940845c1708f4effcab74be2cbfeba3aabf5f"
     },
     {
       "id": "face.tarot.poker.trump.22.earth",
@@ -5923,7 +5923,7 @@
         300.0,
         300.0
       ],
-      "sha256": "c223d7a1340a74b68641f8cbac0edc9a0b9fc905d80d0c256a367885fedf864e"
+      "sha256": "a8393bc4913fdbecd1a4d03fc079c5f2600f7de5e5c0323f7250abd07762f511"
     },
     {
       "id": "face.tarot.poker.trump.24.libra",
@@ -6343,7 +6343,7 @@
         300.0,
         300.0
       ],
-      "sha256": "2c3b3402d3d2fa887874cddac10cc03e9ad999219af460671a84c3d3a893df95"
+      "sha256": "901f36397d9ea503b9311eee072c1e4649cb100cdecfc259e5675e832ee834f1"
     },
     {
       "id": "face.tarot.poker.trump.34.taurus",
@@ -6595,7 +6595,7 @@
         300.0,
         300.0
       ],
-      "sha256": "816d4564b8c49ec43211345872dc672c9b9eb311bb6284eda4b4d3b2733385bf"
+      "sha256": "30bb7d9e3abf25f322f455993bf29cd890e7f277ed9abc93987f9a1bb041b323"
     },
     {
       "id": "face.tarot.poker.trump.40.the-trumpets",
@@ -6637,7 +6637,7 @@
         300.0,
         300.0
       ],
-      "sha256": "c82940ee1f6fa85d55b63beaa43519b1afdf710dd2ef20d32357224463a55103"
+      "sha256": "f917b31352b15f8ca5eba502768e2e5cca87f6e895b3f903d1f023175c4f202b"
     }
   ]
 }

@@ -11,6 +11,28 @@ The subsequent [Chinese visual-direction review](chinese-visual-direction.md)
 records the intended Chinese audience and the initial cultural-reference issues.
 Layout completion does not mark that artwork review as complete.
 
+## Chinese visual revisions
+
+The user clarified that Chinese visual traditions take priority while card names,
+inventory and practical recognition stay intact. The first revision group covers
+Faith, Leo, Air, Water, House of the Devil, World and Trumpets. Faith uses a lay
+Buddhist devotee and a small devotional image, replacing the cross and host.
+Leo uses Chinese guardian-lion forms; Air uses an eagle, swallows and sparrows;
+Water uses a wooden trading-junk interpretation. The three settings lose European
+buildings. World and Trumpets use flying-figure movement and ribbons in place
+of feathered wings; the globe and two trumpets remain identifying attributes.
+
+These are original interpretations, not reproductions of a historical Chinese
+Minchiate tradition. Museum sources inform specific choices without certifying
+the generated images as historically exact. Costume and other material-culture
+issues elsewhere in the set remain under review.
+
+The [revision prompts](../../sources/generated/minchiate-poker-v1/chinese-v2-prompts.json)
+record the exact built-in ImageGen requests, research sources, input hashes and
+selected outputs. Original masters remain untouched. Previous card exports and
+their construction record are in
+`sources/components/minchiate-poker-v1/before-chinese-v2/`.
+
 ## Balance and construction
 
 The original four proofs—The Empress, Queen of Cups, Ace of Swords and Ten
@@ -35,7 +57,7 @@ Four individually generated suit components supply all 40 pip cards. Their
 counts are explicit in the manifest. Swords and Batons form crossed pairs,
 with an extra upright component for odd ranks. Cups and Coins use paired
 layouts; their separate pips are checked for overlap and a minimum gap.
-The 16 courts and 41 trump/Fool subjects each have their own new illustration.
+The 16 courts and 41 trump/Fool subjects each have their own illustration.
 Cups and Coins retain female Maids; the Cavaliers are centaurs. The Hanged
 Man retains the deliberately inverted subject selected for Design 1.
 The Fool and the five Arie are unnumbered; the other trumps use I–XXXV.

@@ -2,8 +2,10 @@
 
 Audience requirement recorded 2026-09-29: design for Chinese viewers who know
 the visual traditions being referenced. Attractive approximation is not enough.
-This is a research and revision brief, not a certification of historical accuracy
-or a record of completed artwork revisions.
+This is a research and revision brief, not a certification of historical accuracy.
+The initial findings below describe the original illustrations; implementation
+of the first seven revisions is recorded in the
+[Minchiate construction notes](minchiate-poker-v1.md#chinese-visual-revisions).
 
 ## Working direction
 
@@ -14,16 +16,26 @@ borrowing from another period or region rather than treating Tang, Ming, Qing,
 and contemporary fantasy costume as interchangeable. The palette and illustration
 technique may remain contemporary; structural details need evidence.
 
-The existing 97-card inventory is Minchiate. Whether its European allegories
-should also be reinterpreted through Chinese mythology is an open user choice.
-Until resolved, do not silently replace the Western zodiac, Christian Faith,
-centaur Cavaliers, or winged Fame with supposedly equivalent Chinese subjects.
-They are distinct traditions. A locally occurring species and a culturally
-recognizable depiction are also different questions.
+The user resolved the direction on 2026-09-29: Chinese visual traditions take
+priority unless a change harms the usefulness of the card set. Preserve all
+97 card identities, names, ranks, order and suits. Keep the Western zodiac
+identities: Leo remains a lion, rather than becoming a Chinese zodiac animal.
+European religious attributes and personifications may be reinterpreted.
+Faith should express faith through Chinese Buddhist imagery instead of the
+cross and Eucharistic host. This is the user's design choice, not a claim that
+Chinese viewers share one religion or response to Christian imagery.
+
+Use a lay devotee to express faith without relabeling a particular Buddhist
+deity as the Western virtue. Chinese flying-figure movement can replace
+feathered wings in World and Trumpets while retaining their globe and trumpets.
+Do not depict a Buddhist protector as the Devil just because it looks fierce.
+These are original adaptations, not assertions of historical equivalence.
+A locally occurring species and a culturally recognizable depiction remain
+different questions.
 
 ## Initial findings
 
-These are observations of the current PNGs and prompts, followed by proposed
+These are observations of the original PNGs and prompts, followed by proposed
 changes. They are not claims that every Chinese viewer will respond alike.
 
 | Priority | Cards/detail | Observation and revision direction |
@@ -35,7 +47,7 @@ changes. They are not claims that every Chinese viewer will respond alike.
 | Review | Courts, rulers, allegorical women | Repeated generic crowns, shoulder stoles, pearl strands and turquoise jewels do not establish an authentic costume. Reference garment construction, collars, fastening, sleeve and skirt shapes, headdresses and footwear separately. Match rank and occasion; a documented empress's ceremonial crown is not a universal woman's accessory. |
 | Review | Eastern Emperor | The prompt explicitly requested an eagle scepter, orb and domed gold crown. These are inherited/adapted European imperial attributes, not evidence of Chinese regalia. Retaining them as Minchiate symbols needs to be intentional and distinguished from the Chinese costume. |
 | Review | Coins and Cups | The coin prompt explicitly forbids a square hole; the cup prompt requires a European-style chalice. Revisit those prompt constraints before claiming Chinese material authenticity. Determine whether they are retained Latin-suit emblems or whether documented Chinese coin/vessel forms should be used. |
-| Meaning decision | Faith, Fortitude, Devil, Love, World, Trumpets, Cavaliers and zodiac hybrids | Cross/host, classical column and lion pelt, winged putti/Fame, centaurs and sea-goat belong to the selected Minchiate program. Clothing alone does not turn them into historical Chinese subjects. Resolve the degree of reinterpretation before redrawing their defining attributes. |
+| Reinterpret as needed | Faith, Fortitude, Devil, Love, World, Trumpets, Cavaliers and zodiac hybrids | The user permits Chinese reinterpretation while retaining names and usefulness. Faith loses cross/host; World and Trumpets can lose wings/putti. Review the other subjects under the same rule, preserving suit and rank recognition. Zodiac hybrids must still clearly identify their Western signs. |
 
 ## Reference notes
 
@@ -72,6 +84,23 @@ changes. They are not claims that every Chinese viewer will respond alike.
   not justify putting the same crown on every female figure.
 
 ## Revision workflow
+
+The first revision group is Faith, Leo, Air, Water, House of the Devil, World and
+Trumpets. For Faith, [the Met's Ming Guanyin record](https://www.metmuseum.org/art/collection/search/61661)
+documents domestic Buddhist devotion; the
+[National Palace Museum's Guanyin painting record](https://south.npm.gov.tw/SelectionsDetailC004100.aspx?Cond=7b405ac7-8012-4574-8da5-718da3051a0d)
+documents a figure with hands joined in reverence. Our figure is an original
+lay devotee, not a copy of either sacred figure. These references support the
+devotional context, not every detail of the newly drawn costume.
+
+[Digital Dunhuang's flying-figure collection](https://ip.e-dunhuang.com/special.html?value=%E9%A3%9E%E5%A4%A9)
+informs movement and ribbons in World and Trumpets. This is a declared borrowing
+from Buddhist visual art, outside the main Ming material-culture reference.
+The two figures remain original card allegories. The Palace Museum's
+[Hall of Supreme Harmony record](https://www.dpm.org.cn/explore/building/236465.html)
+informs terminology and distinctions between timber structure and roof forms;
+the depicted houses and towns are not copies of that imperial hall. Its present
+building dates to a Qing reconstruction, which must not be mislabeled Ming.
 
 For each revised component, record the specific reference, what it supports,
 what remains an intentional adaptation, and the exact generation/edit prompt.
