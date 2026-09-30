@@ -1,0 +1,17 @@
+{
+  "family": "LXGW WenKai TC",
+  "version": "1.522",
+  "license": "SIL OFL 1.1",
+  "files": [
+    {
+      "file": "LXGWWenKaiTC-Regular.ttf",
+      "url": "https://github.com/lxgw/LxgwWenkaiTC/releases/download/v1.522/LXGWWenKaiTC-Regular.ttf",
+      "sha256": "b1a0795862c1415bf3f393ea50b2a4ea6275012cf5bad3f94feeb1222f555731"
+    },
+    {
+      "file": "OFL.txt",
+      "url": "https://raw.githubusercontent.com/lxgw/LxgwWenkaiTC/main/OFL.txt",
+      "sha256": "1a13783bf4337242834b60309cdcdbeb566ae3f923576fdbba8b78db9d174def"
+    }
+  ]
+}

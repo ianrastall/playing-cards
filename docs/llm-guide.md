@@ -10,7 +10,7 @@ local paths from the directory containing that catalog. Formats and back colors
 are per-design metadata in the root catalog's `designs` entries.
 
 - Design 1: 270 French-suited faces, 97 completed Minchiate faces in Tarot size, and 30 backs. The original 78-card Tarot release is archived under `sources/before-minchiate-v1/`.
-- Design 2: 54 finished Poker faces (52 suited cards and two Jokers), plus 30 approved floral backs across six formats. Courts, aces, and Jokers share the numeral frames and center; original generated masters remain in sources.
+- Design 2: 54 Poker faces (52 suited cards and two Jokers), 97 native Tarot faces in layout review using the Minchiate tradition, and 30 approved floral backs across six formats. Tarot faces are 825 × 1425 with traditional Chinese name panels; they are not Poker cards. Translations and remaining costume revisions need review. Original generated masters and superseded Poker-sized Tarot exports remain in sources.
 
 Each asset includes its hash, dimensions, physical trim size, side, format, and
 color or card identity. A Tarot-sized back does not imply that the same design
@@ -26,7 +26,10 @@ Preserve RGBA, aspect ratio, and a shared display rectangle for one format.
 Do not independently clip rounded corners or trim transparent pixels. Native
 files contain no bleed or imposed print layout. Use catalog `trim_inches` for
 physical placement. Design 1's packager provides separate print variants;
-Design 2 supplies native backs and a complete 750 × 1050 Poker face set.
+Design 2 supplies native backs, the separate 750 × 1050 Poker face set, and the
+825 × 1425 Tarot face review set. Chinese names are in `chinese_title`, with
+language and translation status recorded separately; English `title` values
+and all Minchiate identities remain intact.
 
 From the repository root, `python scripts/catalog.py --check` validates all
 catalogs and asset inventories. `--write` refreshes both design-local catalogs

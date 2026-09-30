@@ -9,6 +9,14 @@ of the first seven revisions is recorded in the
 
 ## Working direction
 
+The user requested specific clothing patterns on 2026-09-29. The
+[costume and textile guide](costume-and-textile-direction.md) now sets concrete
+working garment families, motif placement, suit accents and reference limits
+for the next proofs. The [Chinese name-panel brief](chinese-name-panels.md)
+records taller opposite-diagonal panels and traditional calligraphic lettering
+as the first choice. These guides are directions for revision, not completed
+artwork or approval of every proposed costume detail.
+
 Use identifiable Chinese references for depicted material culture and living
 things. Start with Ming court art and material culture as a proposed primary
 reference, consistent with the existing court direction. Identify any deliberate

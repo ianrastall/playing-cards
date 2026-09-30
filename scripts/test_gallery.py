@@ -110,6 +110,9 @@ class GalleryTests(unittest.TestCase):
         for design in ('design1', 'design2'):
             faces = [a for a in assets if a['design'] == design and a.get('system') == 'tarot' and a['side'] == 'face']
             self.assertEqual(len(faces), 97)
+            self.assertTrue(all(a['format'] == 'tarot' and a['pixels'] == [825, 1425] for a in faces))
+            if design == 'design2':
+                self.assertTrue(all(a['chinese_title'] and a['chinese_language'] == 'zh-Hant' for a in faces))
             self.assertTrue(all(a['tradition']=='florentine-minchiate-97' for a in faces))
             trumps = sorted([a for a in faces if a['arcana'] == 'major'], key=build_gallery.order)
             self.assertEqual([a['number'] for a in trumps], list(range(41)))

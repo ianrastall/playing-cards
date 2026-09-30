@@ -234,7 +234,9 @@ document.addEventListener('keydown',e=>{if(e.target.tagName==='SELECT')return;if
 def active_path(card):
     relative=(f'trumps/{card.get("rank_order") or 0:02d}-{card["id"]}.png' if card['kind'] in ('fool','trump')
               else f'{card["suit"]}/{card["rank"]}.png')
-    return ROOT/'cards/faces/tarot/poker'/relative
+    active = ROOT/'cards/faces/tarot/poker'/relative
+    archived = ROOT/'sources/components/tarot-faces-v1/previous-poker-exports'/relative
+    return active if active.exists() else archived
 
 
 def check_replacement(card, dest, proof):
@@ -255,6 +257,8 @@ def main():
     parser.add_argument('--partial', action='store_true', help='Render currently available sources only')
     parser.add_argument('--apply', action='store_true', help='Promote a checked complete set')
     args = parser.parse_args()
+    if args.apply:
+        parser.error('Poker-sized Tarot is superseded; use render_tarot_faces.py --apply for the separate Tarot deck.')
     spec = json.loads(INVENTORY.read_text(encoding='utf-8'))
     assert len(spec['cards']) == len({c['id'] for c in spec['cards']}) == 97
     source_for=lambda c: PIPS[c['suit']] if c['kind']=='pip' else c['id']
@@ -299,7 +303,9 @@ def main():
     html = review_page(cards)
     if args.check or args.apply:
         assert json.loads(target.read_text(encoding='utf-8')) == manifest
-        assert (ROOT/'minchiate-review.html').read_text(encoding='utf-8') == html
+        archive_page = ROOT/'sources/components/tarot-faces-v1/previous-poker-exports/review.html'
+        page = archive_page if archive_page.exists() else ROOT/'minchiate-review.html'
+        assert page.read_text(encoding='utf-8') == html
     else:
         write_json(target, manifest)
         (ROOT/'minchiate-review.html').write_text(html, encoding='utf-8', newline='\n')

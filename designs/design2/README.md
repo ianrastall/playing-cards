@@ -49,15 +49,20 @@ have exact half-turn symmetry; the four aces retain their upright suit shapes.
 Their central turquoise stones use the same canvas anchor, with measured
 sampling error below 0.011 pixels. Original generated masters are preserved.
 
-## Poker Minchiate
+## Tarot deck (Minchiate tradition)
 
-The [97-card Poker Minchiate set](poker.html#design=design2&size=poker&set=minchiate)
+The [97-card Tarot deck](tarot.html#design=design2&size=tarot&set=tarot)
 contains 40 pip cards, 16 courts, 40 trumps and the unnumbered Fool. Its PNGs
-are in `cards/faces/tarot/poker/`. Each composition shares the canvas center
-and existing Poker borders. The first four proofs have been rebalanced, with
-their earlier exports preserved. [Construction notes and prompts](docs/design/minchiate-poker-v1.md)
-record all source artwork, placements and measurements. The
-[proof viewer](minchiate-review.html) also contains the complete set.
+are in `cards/faces/tarot/tarot/`, at 825 × 1425 (2.75 × 4.75 in), matching
+the Tarot back and physical silhouette. Minchiate describes its inventory and
+tradition; Tarot is a separate deck from Poker. All faces use a four-panel
+frame with taller traditional Chinese name panels opposite the original
+indices. [Construction notes and prompts](docs/design/tarot-faces-v1.md)
+record the source artwork, placements and checks. The
+[first six proofs](tarot.html#design=design2&size=tarot&set=first-proofs)
+include five new costume revisions and the previously revised World.
+The complete layout is ready for review; translations and remaining costumes
+are not yet finally approved. Earlier Poker-sized exports are archived.
 
 The [Chinese visual-direction brief](docs/design/chinese-visual-direction.md)
 governs subsequent artwork revisions. The first seven replace Christian Faith
@@ -98,8 +103,9 @@ separates its nested regions through graphite-to-ink values.
 ## Browse and reproduce
 
 Open `index.html` directly or through the repository's HTTP server. Choose a
-size and set, then browse one card at a time. Poker includes 151 faces, five backs,
-and two blank frames; the other sizes include five backs and two blank frames.
+size and set, then browse one card at a time. Poker includes 54 faces, five backs
+and two blank frames. Tarot includes 97 faces, five backs and two four-panel
+blank frames. The other sizes include five backs and two blank frames.
 The [18 original French-suited court/ace/Joker masters](masters.html) are available separately
 at their original dimensions. Use previous/next, arrow keys, or the position
 slider to compare cards, turn them 180 degrees, and download the selected PNG.
@@ -126,7 +132,7 @@ python scripts/audit_design2_registration.py
 python scripts/audit_face_frames.py
 python scripts/audit_number_cards.py --active
 python scripts/register_face_masters.py --check --active
-python scripts/build_minchiate_review.py --check --active
+python scripts/render_tarot_faces.py --check --active
 python ../../scripts/catalog.py --check
 ```
 

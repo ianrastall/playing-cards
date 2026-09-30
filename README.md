@@ -1,6 +1,6 @@
 # Playing Cards
 
-Two independent designs, with **578 finished PNGs available directly in the repository**.
+Two independent designs, with **578 card PNGs available directly in the repository**.
 Open the [card viewer](index.html) to choose a design, size, set, and card.
 One shared display area shows each complete PNG without cropping. Step through
 cards with the buttons, arrow keys, or position slider; rotate the view or
@@ -10,12 +10,17 @@ including the 18 Design 2 French-suited source masters and 12 blank face frames.
 | Design | Finished artwork | Files | Gallery |
 | --- | --- | --- | --- |
 | [Design 1](designs/design1/README.md) — Morris, Mucha and Safavid-inspired botanical ornament | 367 faces, including the complete 97-card Minchiate; 30 backs | [Cards](designs/design1/cards/) | [Browse](designs/design1/index.html) |
-| [Design 2](designs/design2/README.md) — Ming and Tang-inspired silk florals | 151 Poker faces, including 97-card Minchiate; 30 approved backs in six sizes | [Cards](designs/design2/cards/) | [Browse](designs/design2/index.html) |
+| [Design 2](designs/design2/README.md) — Ming and Tang-inspired silk florals | 54 Poker faces; 97 Tarot faces in layout review (Minchiate tradition); 30 approved backs in six sizes | [Cards](designs/design2/cards/) | [Browse](designs/design2/index.html) |
 
 Design 2's [number-card gallery](designs/design2/number-cards.html) includes a
 180-degree turn control. Its courts, Jokers and aces now share the numeral
 borders and center point in the [complete Poker gallery](designs/design2/poker.html).
 Original source masters are preserved separately. Tarot-sized backs are included.
+Design 2's separate [Tarot deck](designs/design2/tarot.html) now uses its native
+825 × 1425 canvas, with taller traditional Chinese name panels. The
+[first costume proofs](designs/design2/tarot.html#design=design2&size=tarot&set=first-proofs)
+begin the Ming-based clothing revisions; translations and remaining costumes
+are under review. Minchiate describes this Tarot deck's 97-card tradition.
 The colors are Lamp Black, Madder Lake, Manganese Violet, Prussian Blue and Verdigris.
 
 ## Folder layout
@@ -115,7 +120,7 @@ python -m unittest discover -s designs/design1/scripts -p "test_*.py"
 python designs/design2/scripts/audit_design2_registration.py
 python designs/design2/scripts/register_face_masters.py --check --active
 python designs/design2/scripts/audit_number_cards.py --active
-python designs/design2/scripts/build_minchiate_review.py --check --active
+python designs/design2/scripts/render_tarot_faces.py --check --active
 python designs/design1/scripts/render_minchiate.py --check --active
 ```
 
@@ -132,7 +137,8 @@ to `designs/design2/cards/backs/`. Old hard-coded paths must be updated; see the
 images byte for byte. Subsequent approved changes are recorded in
 `docs/asset-revisions.json`; Design 2 now uses the balanced toranj release.
 
-Licensed under the [MIT License](LICENSE).
+Licensed under the [MIT License](LICENSE). The bundled LXGW WenKai TC font
+uses its separate [SIL OFL license](designs/design2/sources/fonts/lxgw-wenkai-tc-v1.522/OFL.txt).
 
 ## Next work
 

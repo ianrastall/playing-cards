@@ -1,0 +1,394 @@
+{
+  "original_root": "cards/faces/tarot/poker",
+  "status": "superseded-wrong-size",
+  "cards": [
+    {
+      "path": "batons/10.png",
+      "sha256": "f1f40d9d14d16098444cb631a3a2ea7800e34fe1c2d86ad44e0480fef3ad0443"
+    },
+    {
+      "path": "batons/2.png",
+      "sha256": "38e1172a909299130e1e3a3a885bbb1fa9d43641045f8a3763d18e5d285f510f"
+    },
+    {
+      "path": "batons/3.png",
+      "sha256": "24142f6f6896e1c58f59dd6e9904e6693c694048179098563f07b8d9ac66fc83"
+    },
+    {
+      "path": "batons/4.png",
+      "sha256": "f675d799e4ab7c63042ce84daab81caed083a5de0e9ad43816fb7700d55ac6c0"
+    },
+    {
+      "path": "batons/5.png",
+      "sha256": "116bafa323416ad515e87ec92714e9d0dcf5db9358542e9e77c88aecd73b064d"
+    },
+    {
+      "path": "batons/6.png",
+      "sha256": "60c5afed98402b49e7bfb7876e677dd1b0807791a7be2071408b7adf513fd64a"
+    },
+    {
+      "path": "batons/7.png",
+      "sha256": "9fbc43561b568e5b476c988a97172bf2e396e036e8592efc0ced816e143fbfdf"
+    },
+    {
+      "path": "batons/8.png",
+      "sha256": "80824b04cce2162308dd09bbf80e59a9d6298d4e530eb833043bbc9d98e87550"
+    },
+    {
+      "path": "batons/9.png",
+      "sha256": "984dee62a738aecb9b58b4c6264aec501b5a3e6d11ba2e6633fb07423b6df47a"
+    },
+    {
+      "path": "batons/ace.png",
+      "sha256": "2be156d24a860ea19ce2913034b47864c195f6d910ba37717b33a7b43dfa37a5"
+    },
+    {
+      "path": "batons/king.png",
+      "sha256": "3266e39010d594e7a3ca04a0840effa44f6e57d2403fd1332daa8719c83f9f2d"
+    },
+    {
+      "path": "batons/knight.png",
+      "sha256": "4078e516415ae25ef20378508411badfd138a5fb7a8c9305eca964bcda663020"
+    },
+    {
+      "path": "batons/page.png",
+      "sha256": "c7ea80719f2d77f4d8b71af318a92dcc09013d7364cb509c628928105c99bf62"
+    },
+    {
+      "path": "batons/queen.png",
+      "sha256": "967d917505f66cd0a27381943b60d8ea788e996cc76bbd87b915c3607b738bfb"
+    },
+    {
+      "path": "coins/10.png",
+      "sha256": "9b508a060ce50b64f6534b97f88ef276c9835d4398ac65c2ca1d5f42dd4cb393"
+    },
+    {
+      "path": "coins/2.png",
+      "sha256": "32cd6bfbcf11391c0ee9d6f9084cc7758d34e871c41295e4d6fd713437d10d55"
+    },
+    {
+      "path": "coins/3.png",
+      "sha256": "098f7660be2749e5e93744696861d1ff501e07f0ed156a5437edbb26242543eb"
+    },
+    {
+      "path": "coins/4.png",
+      "sha256": "eb7b2ba32b01018d153bb967d601b202ca3cef3d0cad91ba6c17782c7803e75b"
+    },
+    {
+      "path": "coins/5.png",
+      "sha256": "b5b8a60bbbfb566780824113a8230b5c8134b22a77caf1490e8829d80813a013"
+    },
+    {
+      "path": "coins/6.png",
+      "sha256": "f44e6a102b825c89e79a9475f4e46631dccbc529d6913a8bd424854b8a0ffca5"
+    },
+    {
+      "path": "coins/7.png",
+      "sha256": "5441c62e16a44a9591b065591da7d3f0ec22ab624511c4f048cdf88201a1889e"
+    },
+    {
+      "path": "coins/8.png",
+      "sha256": "37dc9812c5f4b213fe78c8a6e20467bbd001e08804cc65f10ec53db9604c4ca7"
+    },
+    {
+      "path": "coins/9.png",
+      "sha256": "d98d9f7eb3ea912f23782f340818e61cb2291fd3f8567aad5d80197b5840b761"
+    },
+    {
+      "path": "coins/ace.png",
+      "sha256": "529799a355812a4d06ba3c03241672ace95364d59d632286080045314c4fca1e"
+    },
+    {
+      "path": "coins/king.png",
+      "sha256": "0cae786e5c0cfae6c1f84f80d45e6db3c355510f3ff91f479025c412d4cac167"
+    },
+    {
+      "path": "coins/knight.png",
+      "sha256": "93b23b059615598246c8dea47f80be760d53f68ab7aab2e41fa95715925b183f"
+    },
+    {
+      "path": "coins/page.png",
+      "sha256": "8a5c12335c6c582d83373b4194ca82e64f97f7a28f8361eeb3534914c7f0ffd5"
+    },
+    {
+      "path": "coins/queen.png",
+      "sha256": "eb70d5e8dfbb24227674fe4be75b96175a6c18bda3d898760e3ecc642ad37953"
+    },
+    {
+      "path": "cups/10.png",
+      "sha256": "e963913010c180731909f66b1af7803d3f020442080ba462cabeead6f7122644"
+    },
+    {
+      "path": "cups/2.png",
+      "sha256": "fd06df690e60728ce945f3b21a1270c02b6010eddbae0bc4f0b601cfbe941f9b"
+    },
+    {
+      "path": "cups/3.png",
+      "sha256": "693d29afcbc3a8fcfe796e4e83b0135aae8c4249d704b2f406f6412b81fcf95a"
+    },
+    {
+      "path": "cups/4.png",
+      "sha256": "8b4c43cc3305b973c335b1bd984a6abaaa637c8fd6a704cfdf29d00da15d9e92"
+    },
+    {
+      "path": "cups/5.png",
+      "sha256": "1e45df833d28e646a2dfbb30264c0c64701501d30c4e3e2a58650776fa1f3894"
+    },
+    {
+      "path": "cups/6.png",
+      "sha256": "a0589fd02a4b7219b71c16cddd7ed673c58b57ed4f643682ec9891b8e297de78"
+    },
+    {
+      "path": "cups/7.png",
+      "sha256": "c404f8bc0b48291d9f6805fd758d9f0f9ba4d0e12cd24c24e3810320a0d74d64"
+    },
+    {
+      "path": "cups/8.png",
+      "sha256": "5f7be95a7cbdb22b18cd969d5a9ae61f778b4e37b05a214c0329b10c375dedc2"
+    },
+    {
+      "path": "cups/9.png",
+      "sha256": "bb00fb77d0b501af5299152b42a27ff83ea16f8de780cfa108b1111b99a66569"
+    },
+    {
+      "path": "cups/ace.png",
+      "sha256": "01436802a992e8dfc8efda496e2c2b5558024b93ef406d62fda9c429e23a6566"
+    },
+    {
+      "path": "cups/king.png",
+      "sha256": "5c4099395ab41000857fdc2310474506018ae649fd8e1703b9c09d74864ef953"
+    },
+    {
+      "path": "cups/knight.png",
+      "sha256": "237a536caf2d74cd6ccfdc9c4e43a3a434b3bc0b6b0f20e3d100e87ce198b681"
+    },
+    {
+      "path": "cups/page.png",
+      "sha256": "a4b50e46b99221a0127ef838ef95cdc4575a62e25080b5cfc55e7763332d54bb"
+    },
+    {
+      "path": "cups/queen.png",
+      "sha256": "c9dcd4b7847813172072b6d16abd14d2bd0d0257dd1bc49b6dd3f83031ec2c61"
+    },
+    {
+      "path": "swords/10.png",
+      "sha256": "e6196d506b6af2799c4d2728963a6a7c7cc20cb0b94ea26b01cb70ff3e4e39df"
+    },
+    {
+      "path": "swords/2.png",
+      "sha256": "d09bafbdb56e922a12b9274e350b32e4096e55746da3bc0e0cdcb6e5fe5b282b"
+    },
+    {
+      "path": "swords/3.png",
+      "sha256": "9f2c8e21b8c96eec668538179f5ad37b92c8a09b18b74b723231b72cd93289c4"
+    },
+    {
+      "path": "swords/4.png",
+      "sha256": "468af6236dbd313c60d74d6e9d00ccaa3a1b2ceaf0419498673aac5df22825bb"
+    },
+    {
+      "path": "swords/5.png",
+      "sha256": "d3e43e4abd25af25ade946aef3bb1b2a226f590f71b0bb17d86d3fcdf50ebf3a"
+    },
+    {
+      "path": "swords/6.png",
+      "sha256": "16a38c50d0c16b28818f2f37272bd4720093ca20139453d067e99fe629f68f91"
+    },
+    {
+      "path": "swords/7.png",
+      "sha256": "a5dadb1813ef8fc8caa72b27d5c6549c5cadb1528e95d570eb9964dbd5b021f0"
+    },
+    {
+      "path": "swords/8.png",
+      "sha256": "4848f6657c0d387c64adf01221e424cb60461afae4a1032d9f0c54e95938ef7c"
+    },
+    {
+      "path": "swords/9.png",
+      "sha256": "37f267ccf3fa3bb1515c8c4f09d9913af95a099272e65caadd3e78b849dc6659"
+    },
+    {
+      "path": "swords/ace.png",
+      "sha256": "7d6aafcf6eca1cae2e149fb0abc4a0095a2e611ac15d19e6fdec30225120b975"
+    },
+    {
+      "path": "swords/king.png",
+      "sha256": "921d56e7bf8a07081459ba205c637414827382597eab323a6c44fc12b74fac1b"
+    },
+    {
+      "path": "swords/knight.png",
+      "sha256": "664db7596544e6dbce1c71756bc47198702e7fb3276e2daa3a4e738e75e0f343"
+    },
+    {
+      "path": "swords/page.png",
+      "sha256": "52c876a379fdd0c429c76b79ebb9e8ef083085e11012afaab70272004c651c20"
+    },
+    {
+      "path": "swords/queen.png",
+      "sha256": "4eee6ca50930916b2d46a3655e6deba39406219e93a3c90676580ea57142a85d"
+    },
+    {
+      "path": "trumps/00-the-fool.png",
+      "sha256": "7e9f5aff4188fb37044ed7c0d82fbe8a1c9c18e47864f9708f1aa98336417334"
+    },
+    {
+      "path": "trumps/01-bagatella.png",
+      "sha256": "a77293298928a98fccadcd05e033dc20721d219d35710c96a571183e13113992"
+    },
+    {
+      "path": "trumps/02-the-empress.png",
+      "sha256": "9abc37f60057befd2b68567b3c8039deece2b93c79e5b26558329f357af3d65a"
+    },
+    {
+      "path": "trumps/03-the-emperor.png",
+      "sha256": "a60bbc0478aa57bc6022891326cbb703a232263c0b3852dadbef19e42ece3954"
+    },
+    {
+      "path": "trumps/04-the-eastern-emperor.png",
+      "sha256": "73b3afbc93d884e4ac99e6f1eccec9ad2ea0de3945f12075c7ce6b428d3bf85f"
+    },
+    {
+      "path": "trumps/05-love.png",
+      "sha256": "501b5cc03b57ee68555c51d1210fbe599c7b1b5a9b738d80b02e24022b58280e"
+    },
+    {
+      "path": "trumps/06-temperance.png",
+      "sha256": "6550d71779a81652f059b96925e32c1c4c16f3e6a88cda5860dfeda43bef2113"
+    },
+    {
+      "path": "trumps/07-fortitude.png",
+      "sha256": "3079f3b8fe1c42bd116d7afe2d093dcae36da184d1a55db01e7c46960bce9afa"
+    },
+    {
+      "path": "trumps/08-justice.png",
+      "sha256": "94204d5e95ead05e00eecc32cd59a52e9f62624d3d2a8252b04cfb8bed15c3ad"
+    },
+    {
+      "path": "trumps/09-wheel-of-fortune.png",
+      "sha256": "6a139c93c2a87adb10ccb59f737968d8a9ed3dcd70296c84ebf8a07b577358b9"
+    },
+    {
+      "path": "trumps/10-the-chariot.png",
+      "sha256": "8df74386b36188ae4018abb55de32a522ae667540dfe651eaa20080e2187b845"
+    },
+    {
+      "path": "trumps/11-time.png",
+      "sha256": "62a418600f5db8be4e70ef5c813d16eb77e3ecbc3edb247a77316b8814649118"
+    },
+    {
+      "path": "trumps/12-the-hanged-man.png",
+      "sha256": "458951b7937a05f2b1bf294f5f602f823cda8c36cb24364c5228348bc32224df"
+    },
+    {
+      "path": "trumps/13-death.png",
+      "sha256": "d255ec821464d44e9cb93322db9ae70b46a1f6ea3e46789e8df7235cfe5c0279"
+    },
+    {
+      "path": "trumps/14-the-devil.png",
+      "sha256": "e3f4c8032a23a0d726595365ddd4c16d283bc84e7ae4573dc8e90787b9a32259"
+    },
+    {
+      "path": "trumps/15-the-house-of-the-devil.png",
+      "sha256": "947ccc4ee8dec229ccd4ad9945faac8519ed563fd7b36297165d9353f939f0e5"
+    },
+    {
+      "path": "trumps/16-hope.png",
+      "sha256": "c212e131581e865ada05c742cff3f942a789af6cc0eb1eee77eb1f8be6de06b0"
+    },
+    {
+      "path": "trumps/17-prudence.png",
+      "sha256": "b0bf98b7f5c0dd177f3519febd25cf412e9df6dfab3a18346410795494f25f27"
+    },
+    {
+      "path": "trumps/18-faith.png",
+      "sha256": "5769d54a9266729d222a33027f6676c9f7feb29488c6d345e9a6b07bb3fd80fb"
+    },
+    {
+      "path": "trumps/19-charity.png",
+      "sha256": "024717e66b630b69fcfb58514e265f9177962582b0d94727061e451343a87772"
+    },
+    {
+      "path": "trumps/20-fire.png",
+      "sha256": "e66a5812ab58c7d8c1f2d0146611ade94d1fb7af240ff4444776178d55c9621d"
+    },
+    {
+      "path": "trumps/21-water.png",
+      "sha256": "3971ad5379c53cef4f03c79fa85940845c1708f4effcab74be2cbfeba3aabf5f"
+    },
+    {
+      "path": "trumps/22-earth.png",
+      "sha256": "c3df2ed48ca0a4d531f05a977236bce8e1f98a8273429ea0027a55eeb7b51e35"
+    },
+    {
+      "path": "trumps/23-air.png",
+      "sha256": "a8393bc4913fdbecd1a4d03fc079c5f2600f7de5e5c0323f7250abd07762f511"
+    },
+    {
+      "path": "trumps/24-libra.png",
+      "sha256": "7fd616764cba3d562d4eae8d65af809390444d6640281fefc9e1eecf09948fcf"
+    },
+    {
+      "path": "trumps/25-virgo.png",
+      "sha256": "302af36859a1699a6db71f655be205600be78e11abf4b6dee2c79a1be5e1bd56"
+    },
+    {
+      "path": "trumps/26-scorpio.png",
+      "sha256": "b19c7b5de4bc6974f1e5ec43a914d668e9416b7c7ab12d6fcc1e30bbc4b646e6"
+    },
+    {
+      "path": "trumps/27-aries.png",
+      "sha256": "a3168eec3628f0fa76efb1b97bb1a17dd05836e6a2720c29eb3f4d5f78bab2d2"
+    },
+    {
+      "path": "trumps/28-capricorn.png",
+      "sha256": "b26197da53f2a7fbed02b85ac5df3a516963ea1ed97ee982b62ba1b4843709be"
+    },
+    {
+      "path": "trumps/29-sagittarius.png",
+      "sha256": "59f8e4e4f18d75cd2a92ad8f682ab0f73afe410de06c12dcbe5a00be46846082"
+    },
+    {
+      "path": "trumps/30-cancer.png",
+      "sha256": "c24fb8401245a8e46b26c068bf9a58075dfee1ee5ff214d57e4b231ec2ab1a6e"
+    },
+    {
+      "path": "trumps/31-pisces.png",
+      "sha256": "4c2ae0bc2675c32690b9401b876040d8789cb58a5443368f7eeba5388ba547c8"
+    },
+    {
+      "path": "trumps/32-aquarius.png",
+      "sha256": "1dcfd766e9f8842137dc005573da9f9e7fc33e3cf384eb6d87866ef71b7f2abf"
+    },
+    {
+      "path": "trumps/33-leo.png",
+      "sha256": "901f36397d9ea503b9311eee072c1e4649cb100cdecfc259e5675e832ee834f1"
+    },
+    {
+      "path": "trumps/34-taurus.png",
+      "sha256": "5ddf6820d2f444e97dbb0e9680b01bee4848543a5204b9e736cc697f4062f270"
+    },
+    {
+      "path": "trumps/35-gemini.png",
+      "sha256": "f3f8ad32b2bd65fe241cd883de97e7d9d2d4a8137758da20da24e1c2f77a8a5b"
+    },
+    {
+      "path": "trumps/36-the-star.png",
+      "sha256": "50ba274e48b6da8151bbc5745dc11a1e9b3384fc79e6e3a213b3c60e9d923b94"
+    },
+    {
+      "path": "trumps/37-the-moon.png",
+      "sha256": "0e328941d119e7db931ba315e0eadfe87d0d063227ae950862015fe791c846f1"
+    },
+    {
+      "path": "trumps/38-the-sun.png",
+      "sha256": "8cdaa75d602d67a3d0e7b75baaad43a8ea5ed6837a2ac1a51d199b1f573ff71f"
+    },
+    {
+      "path": "trumps/39-the-world.png",
+      "sha256": "30bb7d9e3abf25f322f455993bf29cd890e7f277ed9abc93987f9a1bb041b323"
+    },
+    {
+      "path": "trumps/40-the-trumpets.png",
+      "sha256": "f917b31352b15f8ca5eba502768e2e5cca87f6e895b3f903d1f023175c4f202b"
+    }
+  ]
+}

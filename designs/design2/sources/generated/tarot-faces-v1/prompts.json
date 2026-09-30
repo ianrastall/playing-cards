@@ -1,0 +1,133 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-29",
+  "status": "generated-for-review",
+  "jobs": [
+    {
+      "id": "frame-master",
+      "prompt": "Use case: precise-object-edit. Asset: reusable blank TAROT-size face frame for Design 2. Image 1 is the edit target, an existing blank tall Tarot frame. Preserve its 825:1425 portrait aspect ratio, complete outside border, cream paper margins, fine double gold rules, black gold-lotus floral band, clean cream central aperture, and existing UPPER LEFT and LOWER RIGHT index cartouches. Add exactly TWO new tall blank cream name cartouches with the same gold outline and lotus finials: one at UPPER RIGHT and its 180-degree rotational counterpart at LOWER LEFT. These new name cartouches should have the same narrow width as the existing index cartouches but about 1.8 times their height: occupy roughly y=6%-34% at upper right, and y=66%-94% at lower left. Their cream interiors must be entirely blank, large enough for four or five vertically stacked Chinese characters to be typeset later. Keep existing short index panels unchanged at upper left and lower right; no additional panels. Integrate the two tall panels into the inner rule and side band, leaving the broad center open and the middle side lotus vines connected. New upper-right and lower-left panels must match each other by a half-turn; preserve all four finials and quiet curved corners. No lettering, no numerals, no rank, no suit emblem, no art, no mockup. Flat production plate, no perspective, shadows, glow, textures or gradients in cream interiors. No crop; complete tall frame visible.",
+      "references": [
+        "designs/design2/sources/components/design2-face-frames-v1/tarot/lamp-black.png"
+      ],
+      "generation_file": "C:\\Users\\Ian\\.codex\\generated_images\\01a0f01e-f18a-73a0-9adb-4bb74972cfb2\\exec-d3f44738-3c89-4d06-b1d5-ed31c3609d5f.png",
+      "status": "generated-for-review",
+      "output": {
+        "path": "frame-master.png",
+        "pixels": [
+          954,
+          1648
+        ],
+        "mode": "RGB",
+        "sha256": "f07e980383cb7100776c7baf64af05c221a60de64b2ec201e2b0f491eb268f31"
+      },
+      "reference_hashes": {
+        "designs/design2/sources/components/design2-face-frames-v1/tarot/lamp-black.png": "13491e139ba4bde6562bcb2c238e52b4011806365c85290f978a1ff505a97edc"
+      }
+    },
+    {
+      "id": "the-empress",
+      "prompt": "Use case: precise-object-edit. Asset: ONE reusable transparent illustration component for Design 2 TAROT, to be typeset and framed separately at 825 × 1425. Image 1 is the edit target and style reference. Preserve the subject identity, face, pose, card attributes, fine warm outlines, lightly modeled faces, luminous silk illustration technique and restrained lotus base. Revise the clothing/headwear as specified. One upright full-length centered portrait; complete extremities and objects visible with 8% transparent padding. TRUE transparent RGBA backdrop and interior gaps: no colored rectangle, halo, glow, gradient, shadow, frame, lettering, numeral or title. Maintain a coherent tall silhouette rather than broad Poker proportions. This is contemporary card illustration using a documented Ming costume vocabulary, not a portrait of a historical sovereign. THE EMPRESS: retain adult East Asian seated woman, throne, lotus-tipped scepter, small Venus shield, wheat and lotus base. Replace the generic robe and ornate shoulder stole with a visibly constructed madder-red long silk JACKET over a separate full pleated skirt. Jacket has a modest STANDING COLLAR and CENTER-FRONT FASTENING with a few small gold clasps; clear front seam, broad sleeves and separate lower skirt. Use recognizable gold phoenix/floral scrolls on jacket, quieter narrow scrolling-lotus bands near skirt hem. Remove oversized diagonal stole bands; keep only restrained teal/gold edge piping. Retain compact phoenix headwear in gold, blue and pearls for her royal identity. Show garment construction naturally across seated lap, sleeves and folds. No dragon motifs on her jacket; no European dress or Manchu horseshoe cuffs. Preserve throne and scepter, botanical accessories and face.",
+      "references": [
+        "designs/design2/sources/generated/minchiate-poker-v1/the-empress.png"
+      ],
+      "generation_file": "C:\\Users\\Ian\\.codex\\generated_images\\01a0f01e-f18a-73a0-9adb-4bb74972cfb2\\exec-556785dd-4dc0-455b-948e-eca467eb3eea.png",
+      "status": "generated-for-review",
+      "output": {
+        "path": "the-empress.png",
+        "pixels": [
+          954,
+          1648
+        ],
+        "mode": "RGBA",
+        "sha256": "2acac43cac7f198eb688cbf034b471e8e12bf367d68864fb9e2be76a576d11ba"
+      },
+      "reference_hashes": {
+        "designs/design2/sources/generated/minchiate-poker-v1/the-empress.png": "9173101a63d863053b916cc8eae272d27ae45fcd3c23dd25e1bdb08023b61d62"
+      }
+    },
+    {
+      "id": "king-of-swords",
+      "prompt": "Use case: precise-object-edit. Asset: ONE reusable transparent illustration component for Design 2 TAROT, to be typeset and framed separately at 825 × 1425. Image 1 is the edit target and style reference. Preserve the subject identity, face, pose, card attributes, fine warm outlines, lightly modeled faces, luminous silk illustration technique and restrained lotus base. Revise the clothing/headwear as specified. One upright full-length centered portrait; complete extremities and objects visible with 8% transparent padding. TRUE transparent RGBA backdrop and interior gaps: no colored rectangle, halo, glow, gradient, shadow, frame, lettering, numeral or title. Maintain a coherent tall silhouette rather than broad Poker proportions. This is contemporary card illustration using a documented Ming costume vocabulary, not a portrait of a historical sovereign. KING OF SWORDS: retain mature East Asian bearded seated man, upright single straight sword in right hand, throne and small lotus base. Replace the fantasy crown with a structured plain BLACK MING court cap with compact gold fittings, no hanging bead curtain and no European crown. Replace generic open stole/robe with one ROUND-COLLARED FULL-LENGTH broad-sleeved silk robe, fastened on the WEARER'S RIGHT, clearly continuous collar, belt at natural waist. Principal cloth deep MINERAL BLUE; one gold dragon ROUND MEDALLION centered on chest and smaller coherent shoulder roundels, sparse tonal clouds elsewhere, plain blue lower robe with narrow gold cloud hem. Remove phoenix strips and wide embroidered stole. Keep restrained belt in dark teal and gold, jade detail small. Black cloth shoes. Do not invent an official rank badge. Maintain recognizable upright sword and natural hands.",
+      "references": [
+        "designs/design2/sources/generated/minchiate-poker-v1/king-of-swords.png"
+      ],
+      "generation_file": "C:\\Users\\Ian\\.codex\\generated_images\\01a0f01e-f18a-73a0-9adb-4bb74972cfb2\\exec-e3ee842a-9e0d-4660-900a-ad98cb630206.png",
+      "status": "generated-for-review",
+      "output": {
+        "path": "king-of-swords.png",
+        "pixels": [
+          954,
+          1649
+        ],
+        "mode": "RGBA",
+        "sha256": "a5a45e8b0bc75d585ec7ee7494c59dda13dc7012d59367bd10f904303de18e0d"
+      },
+      "reference_hashes": {
+        "designs/design2/sources/generated/minchiate-poker-v1/king-of-swords.png": "99da95c97365867b5c5f4aed13e7c994849e45c3e481ec0ecbf95de9579d5ec9"
+      }
+    },
+    {
+      "id": "page-of-cups",
+      "prompt": "Use case: precise-object-edit. Asset: ONE reusable transparent illustration component for Design 2 TAROT, to be typeset and framed separately at 825 × 1425. Image 1 is the edit target and style reference. Preserve the subject identity, face, pose, card attributes, fine warm outlines, lightly modeled faces, luminous silk illustration technique and restrained lotus base. Revise the clothing/headwear as specified. One upright full-length centered portrait; complete extremities and objects visible with 8% transparent padding. TRUE transparent RGBA backdrop and interior gaps: no colored rectangle, halo, glow, gradient, shadow, frame, lettering, numeral or title. Maintain a coherent tall silhouette rather than broad Poker proportions. This is contemporary card illustration using a documented Ming costume vocabulary, not a portrait of a historical sovereign. MAID OF CUPS (the female page rank in Minchiate): retain youthful adult East Asian standing woman, one open gold stemmed cup held naturally at chest height with two hands, calm slight turn, small lotus base. Replace the ornate royal-looking robes with a pale-teal long silk JACKET over a simple full skirt. Jacket has visible CENTER-FRONT seam and modest STANDING COLLAR with small clasps, practical narrower sleeves, madder-red edge piping. Pattern: small widely spaced lotus blossoms, one narrow simple floral cuff and hem band; the majority of cloth quiet. Remove all phoenix and dragon motifs and broad ornate stole. Hair in a simple pinned bun with ONE small gold pin, no crown, pearl chains or dangling bead strands. Ordinary pale cloth shoes. Preserve one cup and its open bowl, no additional vessel.",
+      "references": [
+        "designs/design2/sources/generated/minchiate-poker-v1/page-of-cups.png"
+      ],
+      "generation_file": "C:\\Users\\Ian\\.codex\\generated_images\\01a0f01e-f18a-73a0-9adb-4bb74972cfb2\\exec-acffefd7-feb7-4c9d-bf22-eb1735f7663d.png",
+      "status": "generated-for-review",
+      "output": {
+        "path": "page-of-cups.png",
+        "pixels": [
+          954,
+          1649
+        ],
+        "mode": "RGBA",
+        "sha256": "63dddae7e5b1909b18126588995e63d981278d80e3c14762e412cf17eeb29878"
+      },
+      "reference_hashes": {
+        "designs/design2/sources/generated/minchiate-poker-v1/page-of-cups.png": "37717ac4ad5896581e06eeb53b2302c5479ca92e78d2905974022b646080571f"
+      }
+    },
+    {
+      "id": "knight-of-swords",
+      "prompt": "Use case: precise-object-edit. Asset: ONE reusable transparent illustration component for Design 2 TAROT, to be typeset and framed separately at 825 × 1425. Image 1 is the edit target and style reference. Preserve the subject identity, face, pose, card attributes, fine warm outlines, lightly modeled faces, luminous silk illustration technique and restrained lotus base. Revise the clothing/headwear as specified. One upright full-length centered portrait; complete extremities and objects visible with 8% transparent padding. TRUE transparent RGBA backdrop and interior gaps: no colored rectangle, halo, glow, gradient, shadow, frame, lettering, numeral or title. Maintain a coherent tall silhouette rather than broad Poker proportions. This is contemporary card illustration using a documented Ming costume vocabulary, not a portrait of a historical sovereign. CAVALIER OF SWORDS: retain adult East Asian man on a fully visible white horse, one upright straight sword in right hand, other hand controlling reins, coherent horse anatomy and small lotus base. Replace the ornate phoenix robes, jeweled topknot, long decorative ribbons and huge sleeves with a practical deep MINERAL BLUE riding robe: ROUND COLLAR, fastening on wearer's right, NARROW SLEEVES, simple dark belt, hem divided and arranged to clear saddle. Ivory trousers visible and plain dark riding boots, not jeweled slippers. Sparse small tonal cloud repeat on upper robe, narrow gold hem edging, no phoenix or dragon medallions, no huge shoulder panels. Plain BLACK CLOTH RIDING CAP, no crown or ceremonial beads. Simplify horse harness to restrained leather/gold fittings. No armor in this proof. Keep complete horse and sword visible.",
+      "references": [
+        "designs/design2/sources/generated/minchiate-poker-v1/knight-of-swords.png"
+      ],
+      "generation_file": "C:\\Users\\Ian\\.codex\\generated_images\\01a0f01e-f18a-73a0-9adb-4bb74972cfb2\\exec-49445e34-4495-4926-94a6-d24d9a0a0e00.png",
+      "status": "generated-for-review",
+      "output": {
+        "path": "knight-of-swords.png",
+        "pixels": [
+          954,
+          1649
+        ],
+        "mode": "RGBA",
+        "sha256": "a93a876fa2cbc0e8c5f9c4d2bf484ef935fd30ed508418fccf97cff564bc3d41"
+      },
+      "reference_hashes": {
+        "designs/design2/sources/generated/minchiate-poker-v1/knight-of-swords.png": "8e7e01a173db0bd5cfb6e0dcbb1f9bb7fc477a2313894f571dd7fd1f14bf8980"
+      }
+    },
+    {
+      "id": "the-fool",
+      "prompt": "Use case: precise-object-edit. Asset: ONE reusable transparent illustration component for Design 2 TAROT, to be typeset and framed separately at 825 × 1425. Image 1 is the edit target and style reference. Preserve the subject identity, face, pose, card attributes, fine warm outlines, lightly modeled faces, luminous silk illustration technique and restrained lotus base. Revise the clothing/headwear as specified. One upright full-length centered portrait; complete extremities and objects visible with 8% transparent padding. TRUE transparent RGBA backdrop and interior gaps: no colored rectangle, halo, glow, gradient, shadow, frame, lettering, numeral or title. Maintain a coherent tall silhouette rather than broad Poker proportions. This is contemporary card illustration using a documented Ming costume vocabulary, not a portrait of a historical sovereign. THE FOOL: retain cheerful adult East Asian wandering performer, raised bell-tipped stick, two children lightly tugging garments, walking pose and small lotus/grain base. Replace European pointed jester hat and feathers with a soft ordinary dark cloth cap worn askew. Replace all royal phoenix embroidery, ornate silk stole and jeweled chains with a loose plain muted-MADDER practical robe, cream inner collar, narrow sleeves, simple cloth belt and two small visibly mended teal patches. A little tonal woven texture but no gold pattern all over. Cloth shoes. Children wear simple pale-teal and cream jackets/trousers with modest red accents, ordinary small hair ties, no jeweled costume. Retain human warmth and playful interaction, natural hands, bell stick visible. No crowns, phoenixes or dragons. Preserve two children, not more or fewer.",
+      "references": [
+        "designs/design2/sources/generated/minchiate-poker-v1/the-fool.png"
+      ],
+      "generation_file": "C:\\Users\\Ian\\.codex\\generated_images\\01a0f01e-f18a-73a0-9adb-4bb74972cfb2\\exec-a6e8a3d8-9177-421f-9d4e-6888609ee986.png",
+      "status": "generated-for-review",
+      "output": {
+        "path": "the-fool.png",
+        "pixels": [
+          954,
+          1648
+        ],
+        "mode": "RGBA",
+        "sha256": "51588de0763adbb1f1fb3cf76244c0fd90c2d220859757284c8f1e27771b8c63"
+      },
+      "reference_hashes": {
+        "designs/design2/sources/generated/minchiate-poker-v1/the-fool.png": "ec375a0eff68e381615fe1b1cb5a897549688b829e2cf27bcf64d06703c3a6c7"
+      }
+    }
+  ]
+}

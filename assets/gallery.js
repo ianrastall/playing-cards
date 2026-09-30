@@ -10,7 +10,8 @@
   const sets = [
     ['faces', 'All faces', a => a.kind === 'face'],
     ['french', 'French-suited deck', a => a.kind === 'face' && a.system === 'french-suited'],
-    ['minchiate', 'Minchiate', a => a.kind === 'face' && a.tradition === 'florentine-minchiate-97'],
+    ['tarot', 'Tarot deck', a => a.kind === 'face' && a.system === 'tarot'],
+    ['first-proofs', 'First Tarot proofs', a => a.kind === 'face' && a.proof_group === 'tarot-first-proofs'],
     ...['spades', 'hearts', 'diamonds', 'clubs', 'batons', 'cups', 'swords', 'coins'].map(suit =>
       [suit, suit[0].toUpperCase() + suit.slice(1), a => a.kind === 'face' && a.suit === suit]),
     ['trumps', 'Trumps & Fool', a => a.kind === 'face' && a.arcana === 'major'],
@@ -21,6 +22,7 @@
     ['masters', 'Original artwork masters', a => a.kind === 'masters']
   ];
   const option = (value, name) => new Option(name, value);
+  const title = a => a.chinese_title ? `${a.title} · ${a.chinese_title}` : a.title;
   function remember(a) {
     const params = new URLSearchParams({design: design.value, size: format.value, set: set.value});
     if (a) params.set('card', a.id);
@@ -39,7 +41,7 @@
     $('image-status').textContent = '';
     $('viewer-position').textContent = a ? `${index + 1} / ${cards.length}` : '0 cards';
     $('viewer-context').textContent = `${design.selectedOptions[0].text} / ${format.selectedOptions[0].text} / ${set.selectedOptions[0].text}`;
-    $('viewer-title').textContent = a ? a.title : 'No matching cards';
+    $('viewer-title').textContent = a ? title(a) : 'No matching cards';
     $('viewer-detail').textContent = a ? `${a.pixels.join(' × ')} px${a.trim_inches ? ` · ${a.trim_inches.join(' × ')} in` : ' · Original dimensions'}${a.kind === 'masters' ? ' · Source master' : ''}` : '';
     range.max = Math.max(1, cards.length);
     range.value = index + 1;
@@ -47,7 +49,7 @@
     if (a) {
       card.value = a.id;
       image.src = a.src;
-      image.alt = a.title;
+      image.alt = title(a);
       image.width = a.pixels[0]; image.height = a.pixels[1];
       download.href = a.src; download.download = a.id.replaceAll('.', '-') + '.png';
     }
@@ -59,8 +61,8 @@
   function filter(id) {
     const predicate = sets.find(s => s[0] === set.value)[2];
     const words = search.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
-    cards = available.filter(a => predicate(a) && words.every(word => `${a.title} ${a.detail} ${a.id}`.toLowerCase().includes(word)));
-    card.replaceChildren(...cards.map(a => option(a.id, a.title)));
+    cards = available.filter(a => predicate(a) && words.every(word => `${title(a)} ${a.detail} ${a.id}`.toLowerCase().includes(word)));
+    card.replaceChildren(...cards.map(a => option(a.id, title(a))));
     show(Math.max(0, cards.findIndex(a => a.id === id)));
   }
   function loadSet(preferred = set.value, id) {
@@ -69,7 +71,7 @@
     set.replaceChildren(...choices.map(s => option(s[0], `${s[1]} (${available.filter(s[2]).length})`)));
     set.value = choices.some(s => s[0] === preferred) ? preferred : choices[0][0];
     const faces = available.filter(a => a.kind === 'face').length;
-    $('availability').textContent = faces ? `${faces} finished faces · ${available.filter(a => a.kind === 'back').length} backs in this size.` : 'Faces are not yet available in this size. Browse backs and blank frames.';
+    $('availability').textContent = faces ? `${faces} faces · ${available.filter(a => a.kind === 'back').length} backs in this size.${design.value === 'design2' && format.value === 'tarot' ? ' Layout, names and costumes under review.' : ''}` : 'Faces are not yet available in this size. Browse backs and blank frames.';
     filter(id);
   }
   function restore() {
@@ -78,7 +80,8 @@
     format.value = [...format.options].some(o => o.value === params.get('size')) ? params.get('size') : data.format;
     search.value = params.get('q') || '';
     turned = params.get('turn') === '1';
-    loadSet(params.get('set') || data.set, params.get('card'));
+    const remembered = params.get('set') || data.set;
+    loadSet(remembered === 'minchiate' ? 'tarot' : remembered, params.get('card'));
   }
   [design, format].forEach(control => control.addEventListener('change', () => { search.value = ''; loadSet(); }));
   set.addEventListener('change', () => { search.value = ''; filter(); });

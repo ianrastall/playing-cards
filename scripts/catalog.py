@@ -72,6 +72,14 @@ def build_design_catalog(root: Path) -> dict:
         else:
             raise ValueError(f"Invalid asset hierarchy: {path}")
         size_info = config["formats"][size]
+        if record.get('system') == 'tarot' and 'chinese_titles' in definition:
+            key = (f'trump.{record["number"]}.{record["slug"]}' if record['arcana'] == 'major'
+                   else f'{record["suit"]}.{record["rank"]}')
+            record.update(chinese_title=definition['chinese_titles'][key],
+                          chinese_language=definition['chinese_language'],
+                          translation_status=definition['translation_status'])
+            if key in definition.get('first_proofs', []):
+                record['proof_group'] = 'tarot-first-proofs'
         if config.get('renderer') == 'face-formats-v1':
             if record['side'] == 'back':
                 record['frame_color'] = record['color']

@@ -59,6 +59,8 @@ def inventory():
     for fmt in FORMATS:
         for color in ['lamp-black', 'madder-lake']:
             path = ROOT / f'designs/design2/sources/components/design2-face-frames-v1/{fmt}/{color}.png'
+            if fmt == 'tarot':
+                path = ROOT / f'designs/design2/sources/components/tarot-faces-v1/frame/{color}.png'
             with Image.open(path) as image:
                 size = list(image.size)
             assets.append(dict(id=f'design2.frame.{fmt}.{color}', design='design2', group='face-frames',
@@ -89,6 +91,7 @@ def page_specs():
             yield f'designs/{design}/{fmt}.html', {'design': design, 'fmt': fmt}
     yield 'designs/design2/masters.html', {'design': 'design2', 'masters_only': True}
     yield 'designs/design2/number-cards.html', {'design': 'design2', 'numbers_only': True}
+    yield 'designs/design2/minchiate-review.html', {'design': 'design2', 'fmt': 'tarot'}
 
 
 def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=False, masters_only=False):
@@ -104,7 +107,8 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
     data = []
     for a in sorted(assets, key=lambda a: (a['design'], order(a))):
         entry = {key: a[key] for key in ('id', 'design', 'format', 'pixels', 'title',
-                 'detail', 'trim_inches', 'rank', 'suit', 'arcana', 'group', 'system', 'tradition') if key in a}
+                 'detail', 'trim_inches', 'rank', 'suit', 'arcana', 'group', 'system', 'tradition',
+                 'chinese_title', 'chinese_language', 'translation_status', 'proof_group') if key in a}
         entry['src'] = url(a['path'])
         entry['kind'] = 'masters' if '.master.' in a['id'] else a['side']
         data.append(entry)
@@ -132,9 +136,9 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
 <div class="selectors" id="browser-controls" hidden>
 <label for="design-select">Design</label><select id="design-select"><option value="design1">Design 1</option><option value="design2">Design 2</option></select>
 <label for="format-select">Size</label><select id="format-select">{''.join(f'<option value="{size}">{label(size)}</option>' for size in FORMATS)}</select>
-<label for="set-select">Set</label><select id="set-select"></select>
-<div class="set-step"><button id="set-prev" type="button" aria-label="Previous set">← Previous set</button><button id="set-next" type="button" aria-label="Next set">Next set →</button></div>
-<label for="card-search">Find a card in this set</label><input id="card-search" type="search" placeholder="Name, suit or color" autocomplete="off">
+<label for="set-select">View</label><select id="set-select"></select>
+<div class="set-step"><button id="set-prev" type="button" aria-label="Previous view">← Previous view</button><button id="set-next" type="button" aria-label="Next view">Next view →</button></div>
+<label for="card-search">Find a card in this view</label><input id="card-search" type="search" placeholder="Name, suit or color" autocomplete="off">
 <label for="card-select">Card</label><select id="card-select"></select>
 </div><p id="availability" class="muted"></p><p class="keyboard-note">Use ← and → to move through cards.<br>Drag the slider to jump through a set.</p>
 <details class="page-links"><summary>Size pages &amp; file links</summary><nav aria-label="Size pages">{size_links}<a href="{url(f'designs/{initial_design}/all.html')}">All file links for this design</a><a href="{url('all.html')}">All file links</a><a href="{url('designs/design2/masters.html')}">Design 2 source masters</a></nav></details></aside>
