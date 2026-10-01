@@ -31,16 +31,15 @@
       ],
       "ranks": [
         "ace", "2", "3", "4", "5", "6", "7", "8", "9", "10",
-        "king"
+        "jack", "queen", "king"
       ],
-      "rank_status": {"ace": "review", "2": "review", "3": "review", "4": "review", "5": "review", "6": "review", "7": "review", "8": "review", "9": "review", "10": "review"},
-      "jokers": []
+      "rank_status": {"ace": "review", "2": "review", "3": "review", "4": "review", "5": "review", "6": "review", "7": "review", "8": "review", "9": "review", "10": "review", "jack": "review", "queen": "review", "joker": "review"},
+      "jokers": ["black", "red"]
     }
   },
   "face_renderers": {"king": "kings-registration-v1", "ace-to-ten": "design3-a10-v1"},
   "face_renderer": "kings-registration-v1",
   "master_manifest": "sources/generated/kings-v2/manifest.json",
-  "study_manifest": "sources/components/queens-registration-v1/manifest.json",
-  "study_manifests": ["sources/components/jacks-jokers-registration-v1/manifest.json"],
+  "installed_court_manifest": "docs/design/installed-courts-v1.json",
   "pip_manifest": "sources/components/pips-v1/manifest.json"
 }

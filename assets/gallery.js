@@ -8,11 +8,12 @@
   let available = [], cards = [], index = 0;
   let turned = false;
   const isFace = a => a.kind === 'face' || a.kind === 'study';
+  const isCourtReview = a => isFace(a) && a.status === 'review' && ['queen','jack','joker'].includes(a.rank);
   const sets = [
     ['pips', 'Large suit pips', a => a.kind === 'pip'],
     ...['queen', 'jack', 'joker'].map(rank =>
-      [`review-${rank}s`, `${rank[0].toUpperCase() + rank.slice(1)}s for review`, a => a.kind === 'study' && a.rank === rank]),
-    ['studies', 'Court artwork for review', a => a.kind === 'study'],
+      [`review-${rank}s`, `${rank[0].toUpperCase() + rank.slice(1)}s for review`, a => isCourtReview(a) && a.rank === rank]),
+    ['studies', 'Court artwork for review', isCourtReview],
     ['faces', 'All faces', isFace],
     ['a10', 'Aces & number cards', a => a.kind === 'face' && a.system === 'french-suited' && /^(?:ace|[2-9]|10)$/.test(a.rank)],
     ['french', 'French-suited deck', a => isFace(a) && a.system === 'french-suited'],
@@ -80,7 +81,7 @@
     set.replaceChildren(...choices.map(s => option(s[0], `${s[1]} (${available.filter(s[2]).length})`)));
     set.value = choices.some(s => s[0] === preferred) ? preferred : choices[0][0];
     const faces = available.filter(isFace).length;
-    const studies = available.filter(a => a.kind === 'study').length;
+    const studies = available.filter(isCourtReview).length;
     $('availability').textContent = faces ? `${faces} faces · ${available.filter(a => a.kind === 'back').length} backs in this size.${studies ? ` Includes ${studies} court artworks under review.` : ''}${design.value === 'design2' && format.value === 'tarot' && available.some(a => a.kind === 'face' && a.status === 'review') ? ' Layout, names and costumes under review.' : ''}` : 'Faces are not yet available in this size. Browse backs and blank frames.';
     filter(id);
   }

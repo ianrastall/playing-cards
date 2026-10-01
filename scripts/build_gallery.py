@@ -155,7 +155,7 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
         entry['kind'] = 'masters' if '.master.' in a['id'] else a['side']
         data.append(entry)
     first = next(a for a in data if a['design'] == initial_design and a['format'] == initial_format
-                 and (a['kind'] == 'face' and a.get('rank') in RANKS[:10] if a10_only else a['kind'] == 'pip' if pips_only else a['kind'] == 'study' and (not study_rank or a.get('rank') == study_rank) if studies_only else a['kind'] == 'masters' if masters_only else
+                 and (a['kind'] == 'face' and a.get('rank') in RANKS[:10] if a10_only else a['kind'] == 'pip' if pips_only else a['kind'] in ('face','study') and a.get('status') == 'review' and a.get('rank') in ('queen','jack','joker') and (not study_rank or a.get('rank') == study_rank) if studies_only else a['kind'] == 'masters' if masters_only else
                       a.get('rank') in list(map(str, range(2, 11))) and a['kind'] == 'face' if numbers_only else
                       a['kind'] in ('face', 'back', 'study')))
     chosen = [a for a in data if (not design or a['design'] == design)
@@ -163,7 +163,7 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
               and (not pips_only or a['kind'] == 'pip')
               and (not a10_only or a['kind'] == 'face' and a.get('system') == 'french-suited' and a.get('rank') in RANKS[:10])
               and (not masters_only or a['kind'] == 'masters')
-              and (not studies_only or a['kind'] == 'study')
+              and (not studies_only or a['kind'] in ('face','study') and a.get('status') == 'review' and a.get('rank') in ('queen','jack','joker'))
               and (not study_rank or a.get('rank') == study_rank)
               and (not numbers_only or a['group'] == 'design2-numbers')]
     title = 'Playing cards' if not design else f'Design {design[-1]}' + (f' · {label(fmt)}' if fmt else '')

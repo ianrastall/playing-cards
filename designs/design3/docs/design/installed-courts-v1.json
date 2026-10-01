@@ -1,0 +1,75 @@
+{
+  "status": "review",
+  "cards": [
+    {
+      "rank": "queen",
+      "suit": "spades",
+      "source": "sources/components/queens-registration-v1/spades/queen.png",
+      "path": "cards/faces/french-suited/poker/spades/queen.png",
+      "sha256": "174a100ea3365a500fff8f3041a37423ceac41d4b6abb8db568f049a671268ea"
+    },
+    {
+      "rank": "queen",
+      "suit": "hearts",
+      "source": "sources/components/queens-registration-v1/hearts/queen.png",
+      "path": "cards/faces/french-suited/poker/hearts/queen.png",
+      "sha256": "bc67326faf09255c4bca69d48668e93a183b2fb2950748ad6473fc729f882587"
+    },
+    {
+      "rank": "queen",
+      "suit": "diamonds",
+      "source": "sources/components/queens-registration-v1/diamonds/queen.png",
+      "path": "cards/faces/french-suited/poker/diamonds/queen.png",
+      "sha256": "944a710fc32fc59bbc12a8c5ec56998369b0a0ddfd9a2bf93b7995e7a3015b0e"
+    },
+    {
+      "rank": "queen",
+      "suit": "clubs",
+      "source": "sources/components/queens-registration-v1/clubs/queen.png",
+      "path": "cards/faces/french-suited/poker/clubs/queen.png",
+      "sha256": "cb7ccafb42fc7257110fe5c7650c79f4cef5f546f948f7d6e135a5ee9991afa9"
+    },
+    {
+      "rank": "jack",
+      "suit": "spades",
+      "source": "sources/components/jacks-jokers-registration-v1/jack/spades.png",
+      "path": "cards/faces/french-suited/poker/spades/jack.png",
+      "sha256": "a386f5aece9c39916bb4b387801f266e6075b79ebba736f4981ab20c2468981c"
+    },
+    {
+      "rank": "jack",
+      "suit": "hearts",
+      "source": "sources/components/jacks-jokers-registration-v1/jack/hearts.png",
+      "path": "cards/faces/french-suited/poker/hearts/jack.png",
+      "sha256": "afa3d3b8bbf36dbd6dda54e9c5b34d1094d3dc2fe24c21afc6d2bc346e82fe9b"
+    },
+    {
+      "rank": "jack",
+      "suit": "diamonds",
+      "source": "sources/components/jacks-jokers-registration-v1/jack/diamonds.png",
+      "path": "cards/faces/french-suited/poker/diamonds/jack.png",
+      "sha256": "df15e2092f386aef2e685b7dc5d8e00d55cfdf07375a5b475c450e647bb085f7"
+    },
+    {
+      "rank": "jack",
+      "suit": "clubs",
+      "source": "sources/components/jacks-jokers-registration-v1/jack/clubs.png",
+      "path": "cards/faces/french-suited/poker/clubs/jack.png",
+      "sha256": "33a17bf853317c9e599d41c2aa7296751346507901cf59e572becf5f48ac3653"
+    },
+    {
+      "rank": "joker",
+      "suit": "black",
+      "source": "sources/components/jacks-jokers-registration-v1/joker/black.png",
+      "path": "cards/faces/french-suited/poker/jokers/black.png",
+      "sha256": "16c9e87dca9a24eddb4703fa8d70b2db1fca527f0ffaab457a05000b4f967c49"
+    },
+    {
+      "rank": "joker",
+      "suit": "red",
+      "source": "sources/components/jacks-jokers-registration-v1/joker/red.png",
+      "path": "cards/faces/french-suited/poker/jokers/red.png",
+      "sha256": "255a272a1f7d70ddfdb592ef45beafdacf6b34072dbc926e79132aa1ca1ba2ee"
+    }
+  ]
+}

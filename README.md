@@ -1,12 +1,13 @@
 # Playing Cards
 
-Three independent designs, with **838 card PNGs available directly in the repository**, including forty Celtic A–10 faces for review.
+Three independent designs, with **848 card PNGs available directly in the repository**, including all 54 Celtic Poker faces.
 Open the [card viewer](index.html) to choose a design, size, set, and card.
 One shared display area shows each complete PNG without cropping. Step through
 cards with the buttons, arrow keys, or position slider; rotate the view or
 download the selected PNG. Direct file links are available below the viewer,
-including the 18 Design 2 and four Design 3 source masters, ten Celtic Queen,
-Jack and Joker review faces, four large Celtic pip masters and 12 blank face frames.
+including the 18 Design 2 and four Design 3 source masters, four large Celtic
+pip masters and 12 blank face frames. The Celtic Queens, Jacks and Jokers now
+live in the card hierarchy alongside A–10 and the Kings.
 
 | Design | Finished artwork | Files | Gallery |
 | --- | --- | --- | --- |

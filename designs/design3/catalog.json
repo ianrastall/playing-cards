@@ -364,6 +364,40 @@
       "sha256": "2dc9a24483e1568b18ae8de15231a23097a3305525f91017fe9dfd76a1018d06"
     },
     {
+      "id": "face.french-suited.poker.clubs.jack",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "clubs",
+      "rank": "jack",
+      "color_variant": null,
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/clubs/jack.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "33a17bf853317c9e599d41c2aa7296751346507901cf59e572becf5f48ac3653"
+    },
+    {
       "id": "face.french-suited.poker.clubs.king",
       "side": "face",
       "system": "french-suited",
@@ -396,6 +430,40 @@
         300.0
       ],
       "sha256": "d7e46dfd6f29849d06984566f6aadea90a21f94efc600ee96e4c819745afc28d"
+    },
+    {
+      "id": "face.french-suited.poker.clubs.queen",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "clubs",
+      "rank": "queen",
+      "color_variant": null,
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/clubs/queen.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "cb7ccafb42fc7257110fe5c7650c79f4cef5f546f948f7d6e135a5ee9991afa9"
     },
     {
       "id": "face.french-suited.poker.diamonds.10",
@@ -738,6 +806,40 @@
       "sha256": "fc653618720dd5c79f906ceae4e6d7b21c90c4f214b2086c8dcfa9804bc0b3dd"
     },
     {
+      "id": "face.french-suited.poker.diamonds.jack",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "diamonds",
+      "rank": "jack",
+      "color_variant": null,
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/diamonds/jack.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "df15e2092f386aef2e685b7dc5d8e00d55cfdf07375a5b475c450e647bb085f7"
+    },
+    {
       "id": "face.french-suited.poker.diamonds.king",
       "side": "face",
       "system": "french-suited",
@@ -770,6 +872,40 @@
         300.0
       ],
       "sha256": "a5e750a725bad46d5955a1ecada315e92355ead1306b32e08752f94887652468"
+    },
+    {
+      "id": "face.french-suited.poker.diamonds.queen",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "diamonds",
+      "rank": "queen",
+      "color_variant": null,
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/diamonds/queen.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "944a710fc32fc59bbc12a8c5ec56998369b0a0ddfd9a2bf93b7995e7a3015b0e"
     },
     {
       "id": "face.french-suited.poker.hearts.10",
@@ -1112,6 +1248,40 @@
       "sha256": "d474253cbe5be16f5fc6443a5ea01c3dcd8c992a25fe2cd145ab65a4f057df16"
     },
     {
+      "id": "face.french-suited.poker.hearts.jack",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "hearts",
+      "rank": "jack",
+      "color_variant": null,
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/hearts/jack.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "afa3d3b8bbf36dbd6dda54e9c5b34d1094d3dc2fe24c21afc6d2bc346e82fe9b"
+    },
+    {
       "id": "face.french-suited.poker.hearts.king",
       "side": "face",
       "system": "french-suited",
@@ -1144,6 +1314,108 @@
         300.0
       ],
       "sha256": "2d27810e2c9df30ec1e4106e883602200088b56b9a51697c99207a8780e034a4"
+    },
+    {
+      "id": "face.french-suited.poker.hearts.queen",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "hearts",
+      "rank": "queen",
+      "color_variant": null,
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/hearts/queen.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "bc67326faf09255c4bca69d48668e93a183b2fb2950748ad6473fc729f882587"
+    },
+    {
+      "id": "face.french-suited.poker.joker.black",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": null,
+      "rank": "joker",
+      "color_variant": "black",
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/jokers/black.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "16c9e87dca9a24eddb4703fa8d70b2db1fca527f0ffaab457a05000b4f967c49"
+    },
+    {
+      "id": "face.french-suited.poker.joker.red",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": null,
+      "rank": "joker",
+      "color_variant": "red",
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/jokers/red.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "255a272a1f7d70ddfdb592ef45beafdacf6b34072dbc926e79132aa1ca1ba2ee"
     },
     {
       "id": "face.french-suited.poker.spades.10",
@@ -1486,6 +1758,40 @@
       "sha256": "f6642fc2dd541d5e65bfee189b17d52da98bf0ea1c45bc9a349faafae1198690"
     },
     {
+      "id": "face.french-suited.poker.spades.jack",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "spades",
+      "rank": "jack",
+      "color_variant": null,
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/spades/jack.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "a386f5aece9c39916bb4b387801f266e6075b79ebba736f4981ab20c2468981c"
+    },
+    {
       "id": "face.french-suited.poker.spades.king",
       "side": "face",
       "system": "french-suited",
@@ -1518,6 +1824,40 @@
         300.0
       ],
       "sha256": "64224f6052a8c59571bcfb779587cccf32374bb31a829488a5ae77051ba49269"
+    },
+    {
+      "id": "face.french-suited.poker.spades.queen",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "spades",
+      "rank": "queen",
+      "color_variant": null,
+      "status": "review",
+      "path": "cards/faces/french-suited/poker/spades/queen.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "174a100ea3365a500fff8f3041a37423ceac41d4b6abb8db568f049a671268ea"
     }
   ]
 }

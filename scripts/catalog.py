@@ -62,7 +62,7 @@ def build_design_catalog(root: Path) -> dict:
                     raise ValueError(f"Invalid Joker variant: {path}")
                 record = dict(id=f"face.{system}.{size}.joker.{rank}", side="face",
                               system=system, format=size, suit=None, rank="joker",
-                              color_variant=rank, status=config["face_status"])
+                              color_variant=rank, status=definition.get('rank_status', {}).get('joker', config["face_status"]))
             else:
                 if suit not in definition["suits"] or rank not in definition["ranks"]:
                     raise ValueError(f"Invalid suit/rank: {path}")

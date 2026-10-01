@@ -34,8 +34,8 @@ The originals remain 1060 × 1484, except Spades at 1061 × 1483, and retain the
 recorded hashes. The [registration notes](docs/design/kings-registration-v1.md),
 [release manifest](docs/design/kings-registration-v1.json) and
 [audit](docs/design/kings-registration-v1-audit.json) document the deterministic
-production normalization. The catalog contains these four approved Kings and
-forty A–10 faces with review status.
+production normalization. The catalog contains all 54 Poker faces: four approved
+Kings and fifty other faces with review status.
 
 The **four Poker Queens are now ready for review** in [their viewer](queens.html).
 They share the Kings' border and center, with exact opposing halves and consistent
@@ -44,7 +44,8 @@ pointed ivory flower; Clubs a white blossom and closed bud. The portraits retain
 the established suit-specific turns, with both eyes visible on every Queen.
 [Queen notes](docs/design/queens-v1.md), [proof](docs/design/queens-v1-proof.png)
 and [prompts](sources/generated/queens-v1/prompts.json) document the new work.
-The Queens are listed separately as review artwork.
+The Queens are installed as `queen.png` in each suit's Poker card folder and
+remain accessible through their dedicated review page.
 
 The [initial Spades trio](sources/generated/courts-v1/README.md) remains preserved
 as earlier work.
@@ -72,7 +73,15 @@ one upright center pip while pairing every other pip with its rotated partner.
 [Assembly notes and suit proofs](docs/design/a10-v1.md) explain the layouts;
 the [audit](docs/design/a10-v1-audit.json) verifies all forty cards. Together with
 the courts and Jokers, all 54 Poker faces are now available to view, with the
-Queens, Jacks and Jokers still in their separate review sets.
+Queens, Jacks and Jokers also accessible in their dedicated review sets.
+
+All thirteen ranks are installed in each suit folder under
+[cards/faces/french-suited/poker/](cards/faces/french-suited/poker/).
+The two Jokers are `jokers/black.png` and `jokers/red.png`. The installed Queens,
+Jacks and Jokers are exact copies of the balanced components, recorded in the
+[installation manifest](docs/design/installed-courts-v1.json); their source
+components remain preserved. The catalog and all viewer pages use the installed
+card paths without duplicate review entries.
 
 The Poker viewer's **All faces** contains all 54 faces, including the review
 courts and Jokers. Suit views contain all thirteen ranks, and the Jokers view
@@ -91,6 +100,7 @@ python designs/design3/scripts/register_queens.py --check
 python designs/design3/scripts/register_jacks_jokers.py --check
 python designs/design3/scripts/inspect_pips.py --check
 python designs/design3/scripts/build_a10.py --check
+python designs/design3/scripts/install_courts.py --check
 python -m unittest discover -s scripts -p "test_*.py"
 node scripts/test_gallery_filters.js
 ```
