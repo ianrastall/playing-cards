@@ -1,0 +1,131 @@
+{
+  "generator": "built-in image_gen",
+  "status": "review-components",
+  "layout_policy": "Preserve alpha and aspect ratio; bounds and alpha centroids are measured, not central-medallion anchors.",
+  "cards": [
+    {
+      "rank": "pip",
+      "suit": "spades",
+      "title": "Spades pip",
+      "format": "poker",
+      "path": "spades-master.png",
+      "status": "review-component",
+      "prompt_file": "spades-prompt.json",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "0ae7fecc93f4bfa3da5e596ad2278f4e9351c919705a7d1ee1f637d53284bf3f",
+      "opaque_bounds": [
+        92,
+        24,
+        1162,
+        1200
+      ],
+      "alpha_centroid": [
+        626.577721696602,
+        645.4419183522346
+      ],
+      "transparent_fraction": 0.5544490485311437,
+      "fully_opaque_fraction": 0.0010098466406701107,
+      "near_opaque_fraction": 0.43402674440196476,
+      "faint_alpha_pixels": 7788,
+      "exterior_edge_max_alpha": 1,
+      "visible_edges_clear": true
+    },
+    {
+      "rank": "pip",
+      "suit": "hearts",
+      "title": "Hearts pip",
+      "format": "poker",
+      "path": "hearts-master.png",
+      "status": "review-component",
+      "prompt_file": "hearts-prompt.json",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "6676e7bb788248d64320dae496b6baf4640d3a8568383d7ec2090b7cb136a19f",
+      "opaque_bounds": [
+        32,
+        64,
+        1222,
+        1196
+      ],
+      "alpha_centroid": [
+        626.9138253285095,
+        514.6254093462956
+      ],
+      "transparent_fraction": 0.43643562291258087,
+      "fully_opaque_fraction": 0.0008088947902596857,
+      "near_opaque_fraction": 0.5539008824075558,
+      "faint_alpha_pixels": 6547,
+      "exterior_edge_max_alpha": 0,
+      "visible_edges_clear": true
+    },
+    {
+      "rank": "pip",
+      "suit": "diamonds",
+      "title": "Diamonds pip",
+      "format": "poker",
+      "path": "diamonds-master.png",
+      "status": "review-component",
+      "prompt_file": "diamonds-prompt.json",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "4668162bb84727fba262268127f61c6389be13d2686e5a5c4a8fb3764713f96d",
+      "opaque_bounds": [
+        132,
+        19,
+        1123,
+        1228
+      ],
+      "alpha_centroid": [
+        626.923221740761,
+        624.1613495234193
+      ],
+      "transparent_fraction": 0.6544302251932572,
+      "fully_opaque_fraction": 0.00017233528943425694,
+      "near_opaque_fraction": 0.33489897718051836,
+      "faint_alpha_pixels": 7271,
+      "exterior_edge_max_alpha": 0,
+      "visible_edges_clear": true
+    },
+    {
+      "rank": "pip",
+      "suit": "clubs",
+      "title": "Clubs pip",
+      "format": "poker",
+      "path": "clubs-master.png",
+      "status": "review-component",
+      "prompt_file": "clubs-prompt.json",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "02ac084e01ad891bc49112b6c7b902811d6e4d8e62b6739c099bc55a1d5112b1",
+      "opaque_bounds": [
+        54,
+        46,
+        1200,
+        1208
+      ],
+      "alpha_centroid": [
+        626.6812272034613,
+        633.6371333651279
+      ],
+      "transparent_fraction": 0.5077989667513717,
+      "fully_opaque_fraction": 0.0014079348000274718,
+      "near_opaque_fraction": 0.47982405266464695,
+      "faint_alpha_pixels": 7973,
+      "exterior_edge_max_alpha": 0,
+      "visible_edges_clear": true
+    }
+  ]
+}

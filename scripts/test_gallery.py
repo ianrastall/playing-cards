@@ -38,8 +38,8 @@ class GalleryTests(unittest.TestCase):
         catalog = json.loads((ROOT / 'catalog.json').read_text(encoding='utf-8'))
         production = {a['path'] for a in catalog['assets']}
         self.assertTrue(production <= set(paths))
-        self.assertEqual(len(page.assets), 832)
-        self.assertEqual(len(set(page.assets)), 832)
+        self.assertEqual(len(page.assets), 886)
+        self.assertEqual(len(set(page.assets)), 886)
         self.assertTrue(set(page.assets) <= set(page.downloads))
         self.assertEqual(len(page.images), 1)
         self.assertIn('designs/design2/sources/generated/courts-v1/king-spades-floral-jian-v3.png', paths)
@@ -77,7 +77,7 @@ class GalleryTests(unittest.TestCase):
 
     def test_celtic_official_kings_are_separate_from_unchanged_masters(self):
         assets = build_gallery.inventory()
-        celtic = [a for a in assets if a['design'] == 'design3']
+        celtic = [a for a in assets if a['design'] == 'design3' and a['rank'] == 'king']
         self.assertEqual(len(celtic), 8)
         self.assertEqual({a['rank'] for a in celtic}, {'king'})
         self.assertEqual({a['suit'] for a in celtic}, {'spades', 'hearts', 'diamonds', 'clubs'})
@@ -89,16 +89,45 @@ class GalleryTests(unittest.TestCase):
         self.assertTrue(all(a['pixels'] == [750, 1050] and a['status'] == 'approved' for a in faces))
         self.assertFalse(any('initial' in a['path'] or 'repair' in a['path'] for a in celtic))
         catalog = json.loads((ROOT / 'catalog.json').read_text(encoding='utf-8'))
-        self.assertEqual(len([a for a in catalog['assets'] if a['design'] == 'design3']), 4)
+        self.assertEqual(len([a for a in catalog['assets'] if a['design'] == 'design3']), 44)
         file = ROOT / 'designs/design3/poker.html'
         page = Page(file.read_text(encoding='utf-8'))
-        self.assertEqual(len(page.assets), 4)
+        self.assertEqual(len(page.assets), 54)
         self.assertIn('index.html', page.links)
         self.assertNotIn('tarot.html', page.links)
         html = file.read_text(encoding='utf-8')
         self.assertIn('"set":"faces"', html)
         self.assertIn('"kind":"masters"', html)
-        self.assertNotIn('"kind":"study"', html)
+        self.assertIn('"kind":"study"', html)
+
+    def test_celtic_queens_open_as_review_art_without_entering_production(self):
+        queens = [a for a in build_gallery.inventory() if a['design'] == 'design3' and a['rank'] == 'queen']
+        self.assertEqual(len(queens), 4)
+        self.assertEqual({a['suit'] for a in queens}, {'spades', 'hearts', 'diamonds', 'clubs'})
+        self.assertTrue(all(a['side'] == 'study' and a['status'] == 'review' for a in queens))
+        self.assertTrue(all(a['pixels'] == [750, 1050] for a in queens))
+        html = (ROOT / 'designs/design3/queens.html').read_text(encoding='utf-8')
+        self.assertEqual(len(Page(html).assets), 4)
+        self.assertIn('"set":"review-queens"', html)
+        self.assertEqual(Page(html).images[0].split('?')[0], 'sources/components/queens-registration-v1/spades/queen.png')
+        catalog = json.loads((ROOT / 'catalog.json').read_text(encoding='utf-8'))
+        self.assertFalse(any(a['design'] == 'design3' and a['rank'] == 'queen' for a in catalog['assets']))
+
+    def test_celtic_jack_and_joker_review_pages_keep_ranks_and_colors_separate(self):
+        assets = build_gallery.inventory()
+        for rank, count in [('jack', 4), ('joker', 2)]:
+            selected = [a for a in assets if a['design'] == 'design3' and a.get('rank') == rank]
+            self.assertEqual(len(selected), count)
+            self.assertTrue(all(a['side'] == 'study' and a['status'] == 'review' for a in selected))
+            html = (ROOT / f'designs/design3/{rank}s.html').read_text(encoding='utf-8')
+            page = Page(html)
+            self.assertEqual(len(page.assets), count)
+            self.assertTrue(all(f'/{rank}/' in url for url in page.assets))
+            self.assertIn(f'"set":"review-{rank}s"', html)
+            self.assertIn(f'/{rank}/', page.images[0])
+        jokers = [a for a in assets if a['design'] == 'design3' and a.get('rank') == 'joker']
+        self.assertEqual({a['title'] for a in jokers}, {'Black Joker', 'Red Joker'})
+        self.assertEqual({a['suit'] for a in jokers}, {'black', 'red'})
 
     def test_every_page_has_one_stage_and_navigation(self):
         for relative, _ in build_gallery.page_specs():
@@ -114,6 +143,32 @@ class GalleryTests(unittest.TestCase):
             for fmt in build_gallery.FORMATS:
                 self.assertIn(f'{fmt}.html', page.links)
             self.assertIn('all.html', page.links)
+
+    def test_celtic_large_pips_are_components_separate_from_finished_cards(self):
+        pips = [a for a in build_gallery.inventory() if a['design'] == 'design3' and a['side'] == 'pip']
+        self.assertEqual(len(pips), 4)
+        self.assertEqual({a['suit'] for a in pips}, {'spades', 'hearts', 'diamonds', 'clubs'})
+        html = (ROOT/'designs/design3/pips.html').read_text(encoding='utf-8')
+        self.assertEqual(len(Page(html).assets), 4)
+        self.assertIn('"set":"pips"', html)
+        self.assertIn('pips-v1/spades-master.png', Page(html).images[0])
+        poker = Page((ROOT/'designs/design3/poker.html').read_text(encoding='utf-8'))
+        self.assertFalse(any('/pips-v1/' in url for url in poker.assets))
+
+    def test_celtic_a10_review_inventory_has_ten_cards_per_suit(self):
+        assets = [a for a in build_gallery.inventory() if a['design'] == 'design3'
+                  and a['side'] == 'face' and a['rank'] in build_gallery.RANKS[:10]]
+        self.assertEqual(len(assets), 40)
+        for suit in build_gallery.SUITS[:4]:
+            self.assertEqual({a['rank'] for a in assets if a['suit'] == suit}, set(build_gallery.RANKS[:10]))
+        self.assertTrue(all(a['status'] == 'review' and a['pixels'] == [750, 1050] for a in assets))
+        file = ROOT/'designs/design3/a-10.html'
+        html = file.read_text(encoding='utf-8')
+        paths = {(file.parent/urlsplit(url).path).resolve().relative_to(ROOT).as_posix()
+                 for url in Page(html).assets}
+        self.assertEqual(paths, {a['path'] for a in assets})
+        self.assertIn('"set":"a10"', html)
+        self.assertIn('spades/ace.png', Page(html).images[0])
 
     def test_size_galleries_partition_cards_without_mislabeling_masters(self):
         assets = build_gallery.inventory()

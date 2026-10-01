@@ -1,0 +1,62 @@
+{
+  "generator": "built-in image_gen",
+  "status": "review",
+  "cards": [
+    {
+      "rank": "jack",
+      "suit": "spades",
+      "title": "Jack of Spades",
+      "format": "poker",
+      "path": "jack-spades-v1.png",
+      "pixels": [
+        1061,
+        1483
+      ],
+      "sha256": "363ef8956d843fc94a83326f09c080974201f939ef0d9c6fea1f129ae5a88418",
+      "prompt_file": "jack-spades-prompt.json",
+      "status": "review-source-master"
+    },
+    {
+      "rank": "jack",
+      "suit": "hearts",
+      "title": "Jack of Hearts",
+      "format": "poker",
+      "path": "jack-hearts-v1.png",
+      "pixels": [
+        1061,
+        1482
+      ],
+      "sha256": "cf038e67a655729bd12ab9d6724385558df0a723a2d39789276f435cff0e9097",
+      "prompt_file": "jack-hearts-prompt.json",
+      "status": "review-source-master"
+    },
+    {
+      "rank": "jack",
+      "suit": "diamonds",
+      "title": "Jack of Diamonds",
+      "format": "poker",
+      "path": "jack-diamonds-v1.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "sha256": "ef440a9c93b9f595321698b95b32832853432809bea698e46ee76042dbabe94f",
+      "prompt_file": "jack-diamonds-prompt.json",
+      "status": "review-source-master"
+    },
+    {
+      "rank": "jack",
+      "suit": "clubs",
+      "title": "Jack of Clubs",
+      "format": "poker",
+      "path": "jack-clubs-v1.png",
+      "pixels": [
+        1061,
+        1483
+      ],
+      "sha256": "5d82525b3906e3fbab4c3e7041646fa1c10f28911dd4bebe9e1d3c5dedf39e7f",
+      "prompt_file": "jack-clubs-prompt.json",
+      "status": "review-source-master"
+    }
+  ]
+}

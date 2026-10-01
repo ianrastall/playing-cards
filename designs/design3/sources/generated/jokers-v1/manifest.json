@@ -1,0 +1,34 @@
+{
+  "generator": "built-in image_gen",
+  "status": "review",
+  "cards": [
+    {
+      "rank": "joker",
+      "suit": "black",
+      "title": "Black Joker",
+      "format": "poker",
+      "path": "joker-black-v1.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "sha256": "00d0ded68870490ecea911c501ab9265707c0699006a60be7ec05ab87b6e6bfb",
+      "prompt_file": "joker-black-prompt.json",
+      "status": "review-source-master"
+    },
+    {
+      "rank": "joker",
+      "suit": "red",
+      "title": "Red Joker",
+      "format": "poker",
+      "path": "joker-red-v1.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "sha256": "3f0c2037b055a04d6cb17311cb5c43b84d46af58b3ce39161a34b7a2cf32e0f8",
+      "prompt_file": "joker-red-prompt.json",
+      "status": "review-source-master"
+    }
+  ]
+}

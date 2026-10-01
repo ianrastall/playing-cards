@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "cards": [
+    {
+      "title": "Jack of Spades",
+      "shared_border_exact": true,
+      "half_turn_exact": true,
+      "center": [
+        374.5,
+        524.5
+      ],
+      "source_hash_unchanged": true
+    },
+    {
+      "title": "Jack of Hearts",
+      "shared_border_exact": true,
+      "half_turn_exact": true,
+      "center": [
+        374.5,
+        524.5
+      ],
+      "source_hash_unchanged": true
+    },
+    {
+      "title": "Jack of Diamonds",
+      "shared_border_exact": true,
+      "half_turn_exact": true,
+      "center": [
+        374.5,
+        524.5
+      ],
+      "source_hash_unchanged": true
+    },
+    {
+      "title": "Jack of Clubs",
+      "shared_border_exact": true,
+      "half_turn_exact": true,
+      "center": [
+        374.5,
+        524.5
+      ],
+      "source_hash_unchanged": true
+    },
+    {
+      "title": "Black Joker",
+      "shared_border_exact": true,
+      "half_turn_exact": true,
+      "center": [
+        374.5,
+        524.5
+      ],
+      "source_hash_unchanged": true
+    },
+    {
+      "title": "Red Joker",
+      "shared_border_exact": true,
+      "half_turn_exact": true,
+      "center": [
+        374.5,
+        524.5
+      ],
+      "source_hash_unchanged": true
+    }
+  ]
+}

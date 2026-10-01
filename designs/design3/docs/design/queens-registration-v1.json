@@ -1,0 +1,144 @@
+{
+  "renderer": "design3-queens-registration-v1",
+  "status": "review",
+  "pixels": [
+    750,
+    1050
+  ],
+  "center": [
+    374.5,
+    524.5
+  ],
+  "components": [
+    {
+      "path": "sources/components/kings-registration-v1/center-medallion.png",
+      "sha256": "69377f896f140d5b21082376617df2c8ffd6b3ad7318ad13e82636e75af65635"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/field-mask.png",
+      "sha256": "186fc91bc4358bde17c4b3ee1b5ef60a42f51ef9a82088e704ff285c2c5b3bc6"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/index-clubs.png",
+      "sha256": "cadfecf51280990f8e4f833dd3d3458c243f1bf829771b4688e1b48a59b47207"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/index-diamonds.png",
+      "sha256": "64d4bb4b39ed3f653f8e817a288daddc4ffc0d7fdbc1f8749c58896343769081"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/index-hearts.png",
+      "sha256": "8ddb4405f12995edb5d30726ae09ab69f63f7ab30edf8b960ad0bfd3c4fffbd4"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/index-spades.png",
+      "sha256": "c40a1959e271fbf5b72237bfdd67eb9c7f9d129a43f1d6c4750ce99179885214"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/outline-mask.png",
+      "sha256": "68a76fec974aaccc174b3aa88d2661fba45ca836f3fc5f87283ad5534607a89c"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/paired-side-medallions.png",
+      "sha256": "9f2a08b1727d23f9cb4a7db5ec2a03aa9fa80f5cea5b0b7a69b3b0adf52610de"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/shared-frame.png",
+      "sha256": "c0187d4b0ea862c005d779adc74e02951c058555c557f67978af84b6ff671e72"
+    }
+  ],
+  "cards": [
+    {
+      "rank": "queen",
+      "suit": "spades",
+      "format": "poker",
+      "status": "review",
+      "path": "spades/queen.png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "sha256": "174a100ea3365a500fff8f3041a37423ceac41d4b6abb8db568f049a671268ea",
+      "source": "sources/generated/queens-v1/queen-spades-v1.png",
+      "source_sha256": "b5035d61a413ac89fe37fdb31b1bbff395363d598b4dbeeaf7da8bf6413d653b",
+      "source_center": [
+        531.5701102147027,
+        734.7286512085706
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "half_turn_exact": true
+    },
+    {
+      "rank": "queen",
+      "suit": "hearts",
+      "format": "poker",
+      "status": "review",
+      "path": "hearts/queen.png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "sha256": "bc67326faf09255c4bca69d48668e93a183b2fb2950748ad6473fc729f882587",
+      "source": "sources/generated/queens-v1/queen-hearts-v1.png",
+      "source_sha256": "661ef987992a119ff1391cc10487e03f14d00d4d35ce95f02dc746e113f3b548",
+      "source_center": [
+        531.2292759224064,
+        735.6367408373818
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "half_turn_exact": true
+    },
+    {
+      "rank": "queen",
+      "suit": "diamonds",
+      "format": "poker",
+      "status": "review",
+      "path": "diamonds/queen.png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "sha256": "944a710fc32fc59bbc12a8c5ec56998369b0a0ddfd9a2bf93b7995e7a3015b0e",
+      "source": "sources/generated/queens-v1/queen-diamonds-v1.png",
+      "source_sha256": "d43516c0985a784cf63da3f6edacb4de2f8de3e5fc0c43a962fac54fa58f361e",
+      "source_center": [
+        531.3384903852098,
+        733.8126634308633
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "half_turn_exact": true
+    },
+    {
+      "rank": "queen",
+      "suit": "clubs",
+      "format": "poker",
+      "status": "review",
+      "path": "clubs/queen.png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "sha256": "cb7ccafb42fc7257110fe5c7650c79f4cef5f546f948f7d6e135a5ee9991afa9",
+      "source": "sources/generated/queens-v1/queen-clubs-v1.png",
+      "source_sha256": "62ecfc7e8c57df1bf1bc322fc82001af49ae39b71a728deb4d920e6a38425ee9",
+      "source_center": [
+        531.2558000744539,
+        735.6205196145482
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "half_turn_exact": true
+    }
+  ]
+}

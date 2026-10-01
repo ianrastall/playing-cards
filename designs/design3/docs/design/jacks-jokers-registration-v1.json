@@ -1,0 +1,196 @@
+{
+  "renderer": "design3-jacks-jokers-registration-v1",
+  "status": "review",
+  "pixels": [
+    750,
+    1050
+  ],
+  "center": [
+    374.5,
+    524.5
+  ],
+  "components": [
+    {
+      "path": "sources/components/kings-registration-v1/center-medallion.png",
+      "sha256": "69377f896f140d5b21082376617df2c8ffd6b3ad7318ad13e82636e75af65635"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/field-mask.png",
+      "sha256": "186fc91bc4358bde17c4b3ee1b5ef60a42f51ef9a82088e704ff285c2c5b3bc6"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/index-clubs.png",
+      "sha256": "cadfecf51280990f8e4f833dd3d3458c243f1bf829771b4688e1b48a59b47207"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/index-diamonds.png",
+      "sha256": "64d4bb4b39ed3f653f8e817a288daddc4ffc0d7fdbc1f8749c58896343769081"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/index-hearts.png",
+      "sha256": "8ddb4405f12995edb5d30726ae09ab69f63f7ab30edf8b960ad0bfd3c4fffbd4"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/index-spades.png",
+      "sha256": "c40a1959e271fbf5b72237bfdd67eb9c7f9d129a43f1d6c4750ce99179885214"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/outline-mask.png",
+      "sha256": "68a76fec974aaccc174b3aa88d2661fba45ca836f3fc5f87283ad5534607a89c"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/paired-side-medallions.png",
+      "sha256": "9f2a08b1727d23f9cb4a7db5ec2a03aa9fa80f5cea5b0b7a69b3b0adf52610de"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/shared-frame.png",
+      "sha256": "c0187d4b0ea862c005d779adc74e02951c058555c557f67978af84b6ff671e72"
+    }
+  ],
+  "cards": [
+    {
+      "rank": "jack",
+      "suit": "spades",
+      "title": "Jack of Spades",
+      "format": "poker",
+      "status": "review",
+      "path": "jack/spades.png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "sha256": "a386f5aece9c39916bb4b387801f266e6075b79ebba736f4981ab20c2468981c",
+      "source": "sources/generated/jacks-v1/jack-spades-v1.png",
+      "source_sha256": "363ef8956d843fc94a83326f09c080974201f939ef0d9c6fea1f129ae5a88418",
+      "source_center": [
+        531.799021438227,
+        735.0235337029038
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "half_turn_exact": true
+    },
+    {
+      "rank": "jack",
+      "suit": "hearts",
+      "title": "Jack of Hearts",
+      "format": "poker",
+      "status": "review",
+      "path": "jack/hearts.png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "sha256": "afa3d3b8bbf36dbd6dda54e9c5b34d1094d3dc2fe24c21afc6d2bc346e82fe9b",
+      "source": "sources/generated/jacks-v1/jack-hearts-v1.png",
+      "source_sha256": "cf038e67a655729bd12ab9d6724385558df0a723a2d39789276f435cff0e9097",
+      "source_center": [
+        531.3586389102085,
+        735.0196406249912
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "half_turn_exact": true
+    },
+    {
+      "rank": "jack",
+      "suit": "diamonds",
+      "title": "Jack of Diamonds",
+      "format": "poker",
+      "status": "review",
+      "path": "jack/diamonds.png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "sha256": "df15e2092f386aef2e685b7dc5d8e00d55cfdf07375a5b475c450e647bb085f7",
+      "source": "sources/generated/jacks-v1/jack-diamonds-v1.png",
+      "source_sha256": "ef440a9c93b9f595321698b95b32832853432809bea698e46ee76042dbabe94f",
+      "source_center": [
+        530.9433257162974,
+        735.6767746390282
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "half_turn_exact": true
+    },
+    {
+      "rank": "jack",
+      "suit": "clubs",
+      "title": "Jack of Clubs",
+      "format": "poker",
+      "status": "review",
+      "path": "jack/clubs.png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "sha256": "33a17bf853317c9e599d41c2aa7296751346507901cf59e572becf5f48ac3653",
+      "source": "sources/generated/jacks-v1/jack-clubs-v1.png",
+      "source_sha256": "5d82525b3906e3fbab4c3e7041646fa1c10f28911dd4bebe9e1d3c5dedf39e7f",
+      "source_center": [
+        531.7799799462178,
+        735.2242297186388
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "half_turn_exact": true
+    },
+    {
+      "rank": "joker",
+      "suit": "black",
+      "title": "Black Joker",
+      "format": "poker",
+      "status": "review",
+      "path": "joker/black.png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "sha256": "16c9e87dca9a24eddb4703fa8d70b2db1fca527f0ffaab457a05000b4f967c49",
+      "source": "sources/generated/jokers-v1/joker-black-v1.png",
+      "source_sha256": "00d0ded68870490ecea911c501ab9265707c0699006a60be7ec05ab87b6e6bfb",
+      "source_center": [
+        531.0383622246188,
+        735.5311445437628
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "half_turn_exact": true
+    },
+    {
+      "rank": "joker",
+      "suit": "red",
+      "title": "Red Joker",
+      "format": "poker",
+      "status": "review",
+      "path": "joker/red.png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "sha256": "255a272a1f7d70ddfdb592ef45beafdacf6b34072dbc926e79132aa1ca1ba2ee",
+      "source": "sources/generated/jokers-v1/joker-red-v1.png",
+      "source_sha256": "3f0c2037b055a04d6cb17311cb5c43b84d46af58b3ce39161a34b7a2cf32e0f8",
+      "source_center": [
+        530.58659428245,
+        735.5175883393964
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "half_turn_exact": true
+    }
+  ]
+}

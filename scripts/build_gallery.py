@@ -78,26 +78,27 @@ def inventory():
     for design in designs():
         root = ROOT / design['path']
         config = json.loads((root / 'deck.json').read_text(encoding='utf-8'))
-        manifest_key = 'master_manifest' if config.get('master_manifest') else 'study_manifest'
-        if not config.get(manifest_key):
-            continue
-        source_kind = 'master' if manifest_key == 'master_manifest' else 'study'
-        manifest_file = root / config[manifest_key]
-        manifest = json.loads(manifest_file.read_text(encoding='utf-8'))
-        for entry in manifest['cards']:
-            path = manifest_file.parent / entry['path']
-            if hashlib.sha256(path.read_bytes()).hexdigest() != entry['sha256']:
-                raise ValueError(f'Source manifest hash mismatch: {path}')
-            with Image.open(path) as image:
-                size = list(image.size)
-            if size != entry['pixels']:
-                raise ValueError(f'Source manifest dimensions mismatch: {path}')
-            assets.append(dict(id=f"{design['id']}.{source_kind}.{entry['rank']}.{entry['suit']}",
-                               design=design['id'], group=f"{design['id']}-{source_kind}s",
-                               path=path.relative_to(ROOT).as_posix(), pixels=size,
-                               title=f"{label(entry['rank'])} of {label(entry['suit'])}",
-                               rank=entry['rank'], suit=entry['suit'], format=entry['format'],
-                               side=source_kind, detail=f'Artwork {source_kind} · {size[0]} × {size[1]}'))
+        manifests = [(config[key], kind) for key, kind in [('master_manifest', 'master'), ('study_manifest', 'study'), ('pip_manifest', 'pip')] if config.get(key)]
+        manifests.extend((path, 'study') for path in config.get('study_manifests', []))
+        for manifest_path, source_kind in manifests:
+            manifest_file = root / manifest_path
+            manifest = json.loads(manifest_file.read_text(encoding='utf-8'))
+            for entry in manifest['cards']:
+                path = manifest_file.parent / entry['path']
+                if hashlib.sha256(path.read_bytes()).hexdigest() != entry['sha256']:
+                    raise ValueError(f'Source manifest hash mismatch: {path}')
+                with Image.open(path) as image:
+                    size = list(image.size)
+                if size != entry['pixels']:
+                    raise ValueError(f'Source manifest dimensions mismatch: {path}')
+                assets.append(dict(id=f"{design['id']}.{source_kind}.{entry['rank']}.{entry['suit']}",
+                                   design=design['id'], group=f"{design['id']}-{source_kind}s",
+                                   path=path.relative_to(ROOT).as_posix(), pixels=size,
+                                   title=entry.get('title') or f"{label(entry['rank'])} of {label(entry['suit'])}",
+                                   rank=entry['rank'], suit=entry['suit'], format=entry['format'],
+                                   side=source_kind, status=entry.get('status', source_kind),
+                                   **({'system': entry.get('system', 'french-suited')} if source_kind == 'study' else {}),
+                                   detail=f'Artwork {source_kind} · {size[0]} × {size[1]}'))
     assert len({a['path'] for a in assets}) == len(assets), 'Duplicate gallery artwork'
     return assets
 
@@ -125,9 +126,13 @@ def page_specs():
     yield 'designs/design2/masters.html', {'design': 'design2', 'masters_only': True}
     yield 'designs/design2/number-cards.html', {'design': 'design2', 'numbers_only': True}
     yield 'designs/design2/minchiate-review.html', {'design': 'design2', 'fmt': 'tarot'}
+    for rank in ('queen', 'jack', 'joker'):
+        yield f'designs/design3/{rank}s.html', {'design': 'design3', 'fmt': 'poker', 'studies_only': True, 'study_rank': rank}
+    yield 'designs/design3/pips.html', {'design': 'design3', 'pips_only': True}
+    yield 'designs/design3/a-10.html', {'design': 'design3', 'fmt': 'poker', 'a10_only': True}
 
 
-def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=False, masters_only=False):
+def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=False, masters_only=False, studies_only=False, study_rank=None, pips_only=False, a10_only=False):
     def url(path):
         relative = os.path.relpath(ROOT / path, page.parent).replace(os.sep, '/')
         if Path(path).suffix in {'.png', '.css', '.js'}:
@@ -136,8 +141,8 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
 
     initial_design = design or 'design1'
     initial_format = fmt or 'poker'
-    initial_set = 'masters' if masters_only else 'numbers' if numbers_only else 'faces'
-    if not masters_only and not numbers_only and not any(
+    initial_set = 'a10' if a10_only else 'pips' if pips_only else f'review-{study_rank}s' if studies_only and study_rank else 'studies' if studies_only else 'masters' if masters_only else 'numbers' if numbers_only else 'faces'
+    if not masters_only and not numbers_only and not pips_only and not any(
             a['design'] == initial_design and a['format'] == initial_format and a['side'] == 'face' for a in assets):
         if any(a['design'] == initial_design and a['format'] == initial_format and a['side'] == 'study' for a in assets):
             initial_set = 'studies'
@@ -150,12 +155,16 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
         entry['kind'] = 'masters' if '.master.' in a['id'] else a['side']
         data.append(entry)
     first = next(a for a in data if a['design'] == initial_design and a['format'] == initial_format
-                 and (a['kind'] == 'masters' if masters_only else
+                 and (a['kind'] == 'face' and a.get('rank') in RANKS[:10] if a10_only else a['kind'] == 'pip' if pips_only else a['kind'] == 'study' and (not study_rank or a.get('rank') == study_rank) if studies_only else a['kind'] == 'masters' if masters_only else
                       a.get('rank') in list(map(str, range(2, 11))) and a['kind'] == 'face' if numbers_only else
                       a['kind'] in ('face', 'back', 'study')))
     chosen = [a for a in data if (not design or a['design'] == design)
-              and (not fmt or (a['format'] == fmt and a['kind'] != 'masters'))
+              and (not fmt or (a['format'] == fmt and a['kind'] not in ('masters', 'pip')))
+              and (not pips_only or a['kind'] == 'pip')
+              and (not a10_only or a['kind'] == 'face' and a.get('system') == 'french-suited' and a.get('rank') in RANKS[:10])
               and (not masters_only or a['kind'] == 'masters')
+              and (not studies_only or a['kind'] == 'study')
+              and (not study_rank or a.get('rank') == study_rank)
               and (not numbers_only or a['group'] == 'design2-numbers')]
     title = 'Playing cards' if not design else f'Design {design[-1]}' + (f' · {label(fmt)}' if fmt else '')
     directory = ''.join(f'<li><a href="{escape(a["src"], quote=True)}" data-artwork="{a["id"]}" download="{a["id"]}.png">Design {a["design"][-1]} · {label(a["format"])} · {escape(a["title"])}{ " · Original master" if a["kind"] == "masters" else ""}</a></li>' for a in chosen)

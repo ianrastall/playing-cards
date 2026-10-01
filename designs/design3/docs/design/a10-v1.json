@@ -1,0 +1,3131 @@
+{
+  "renderer": "design3-a10-v1",
+  "status": "review",
+  "pixels": [
+    750,
+    1050
+  ],
+  "center": [
+    374.5,
+    524.5
+  ],
+  "safe_pip_box": [
+    120,
+    110,
+    630,
+    940
+  ],
+  "ranks": {
+    "ace": {
+      "pips": [
+        {
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 0
+        }
+      ],
+      "bounds": [
+        490,
+        710
+      ],
+      "symmetry": "upright-center-only",
+      "components": {
+        "spades": {
+          "path": "sources/components/a10-v1/pips/spades/ace.png",
+          "sha256": "4c6ef9b20a5defb837764bcaa2256f8d4261d46bd52ce9a3e48d6805326c81f6",
+          "pixels": [
+            490,
+            710
+          ],
+          "anchor": [
+            244.5,
+            354.5
+          ],
+          "target_rim_radius": 56.81655616599452,
+          "uniform_scale": 0.3825466555238355,
+          "transform": [
+            2.6140602343802026,
+            0,
+            -103.59225144216362,
+            0,
+            2.6140602343802026,
+            -310.49017611278236
+          ],
+          "alpha_bounds": [
+            40,
+            119,
+            450,
+            569
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/a10-v1/pips/hearts/ace.png",
+          "sha256": "d3518788b669af77e0e8c80407a9ed9fe8ca87d8198e8778c7d97b2e269637a9",
+          "pixels": [
+            490,
+            710
+          ],
+          "anchor": [
+            244.5,
+            354.5
+          ],
+          "target_rim_radius": 56.81655616599452,
+          "uniform_scale": 0.4043510313558597,
+          "transform": [
+            2.47309867529415,
+            0,
+            -10.189406855309926,
+            0,
+            2.47309867529415,
+            -337.621575582176
+          ],
+          "alpha_bounds": [
+            4,
+            137,
+            486,
+            595
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/a10-v1/pips/diamonds/ace.png",
+          "sha256": "821a038cce6ae140fe70bc5940444fa628eba4a758a49939080560b200fa184e",
+          "pixels": [
+            490,
+            710
+          ],
+          "anchor": [
+            244.5,
+            354.5
+          ],
+          "target_rim_radius": 56.81655616599452,
+          "uniform_scale": 0.48264795258697474,
+          "transform": [
+            2.0719035368119516,
+            0,
+            -10.542352642693231,
+            0,
+            2.0719035368119516,
+            -124.25063275162518
+          ],
+          "alpha_bounds": [
+            5,
+            60,
+            484,
+            644
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/a10-v1/pips/clubs/ace.png",
+          "sha256": "c147fdf8c63c5e5f76bb2fb439ac74f184db6cfc90b40dc990f06b957741dde2",
+          "pixels": [
+            490,
+            710
+          ],
+          "anchor": [
+            244.5,
+            354.5
+          ],
+          "target_rim_radius": 56.81655616599452,
+          "uniform_scale": 0.3993261239998146,
+          "transform": [
+            2.5042188324259604,
+            0,
+            -40.0320149162136,
+            0,
+            2.5042188324259604,
+            -314.6987798302821
+          ],
+          "alpha_bounds": [
+            16,
+            126,
+            474,
+            590
+          ]
+        }
+      }
+    },
+    "2": {
+      "pips": [
+        {
+          "center": [
+            374.5,
+            274.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            374.5,
+            774.5
+          ],
+          "rotation": 180
+        }
+      ],
+      "bounds": [
+        250,
+        280
+      ],
+      "symmetry": "exact-half-turn",
+      "components": {
+        "spades": {
+          "path": "sources/components/a10-v1/pips/spades/2.png",
+          "sha256": "f1d2c0ae190c761910707c33be4c5821357a0bcf8e738622b4938beedb5e6f2b",
+          "pixels": [
+            250,
+            280
+          ],
+          "anchor": [
+            124.5,
+            139.5
+          ],
+          "target_rim_radius": 26.21365449937524,
+          "uniform_scale": 0.17649689693433412,
+          "transform": [
+            5.665821991035067,
+            0,
+            -169.84936202006998,
+            0,
+            5.665821991035067,
+            -174.18799077439246
+          ],
+          "alpha_bounds": [
+            30,
+            31,
+            219,
+            239
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/a10-v1/pips/hearts/2.png",
+          "sha256": "92b85d5032cbfc9ca866ab2426216223a932342793e30a4c293329540e566669",
+          "pixels": [
+            250,
+            280
+          ],
+          "anchor": [
+            124.5,
+            139.5
+          ],
+          "target_rim_radius": 26.21365449937524,
+          "uniform_scale": 0.18655685855828952,
+          "transform": [
+            5.360296092719373,
+            0,
+            -72.87364428945205,
+            0,
+            5.360296092719373,
+            -208.66940012475231
+          ],
+          "alpha_bounds": [
+            14,
+            39,
+            236,
+            250
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/a10-v1/pips/diamonds/2.png",
+          "sha256": "4f0cd5f708440c3699afa29c28e6b463f4426dba99b2c5094ac788f02f390a3b",
+          "pixels": [
+            250,
+            280
+          ],
+          "anchor": [
+            124.5,
+            139.5
+          ],
+          "target_rim_radius": 26.21365449937524,
+          "uniform_scale": 0.22268098469365116,
+          "transform": [
+            4.490729198883908,
+            0,
+            -63.05772315321781,
+            0,
+            4.490729198883908,
+            -16.21755219609372
+          ],
+          "alpha_bounds": [
+            14,
+            4,
+            235,
+            273
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/a10-v1/pips/clubs/2.png",
+          "sha256": "459b116146dfd93784b72c450b474f355769199a66f716dcf5daab67838e9756",
+          "pixels": [
+            250,
+            280
+          ],
+          "anchor": [
+            124.5,
+            139.5
+          ],
+          "target_rim_radius": 26.21365449937524,
+          "uniform_scale": 0.18423849936492515,
+          "transform": [
+            5.427747205101137,
+            0,
+            -103.50503742315777,
+            0,
+            5.427747205101137,
+            -184.12393884688765
+          ],
+          "alpha_bounds": [
+            19,
+            34,
+            231,
+            248
+          ]
+        }
+      }
+    },
+    "3": {
+      "pips": [
+        {
+          "center": [
+            374.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            374.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 0
+        }
+      ],
+      "bounds": [
+        205,
+        225
+      ],
+      "symmetry": "upright-center-only",
+      "components": {
+        "spades": {
+          "path": "sources/components/a10-v1/pips/spades/3.png",
+          "sha256": "47e1f45e5a2766bb6765f044597e247995bcdb591d62cf485e042de0ece7205d",
+          "pixels": [
+            206,
+            226
+          ],
+          "anchor": [
+            102.5,
+            112.5
+          ],
+          "target_rim_radius": 21.00947309141104,
+          "uniform_scale": 0.14145707180766484,
+          "transform": [
+            7.06928248422724,
+            0,
+            -189.05597876949616,
+            0,
+            7.06928248422724,
+            -179.10010250056507
+          ],
+          "alpha_bounds": [
+            27,
+            25,
+            178,
+            192
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/a10-v1/pips/hearts/3.png",
+          "sha256": "ab78a359708c27b687dd52ab33216bcb951d625be8bc0ef1dc9f23c3504d60b0",
+          "pixels": [
+            206,
+            226
+          ],
+          "anchor": [
+            102.5,
+            112.5
+          ],
+          "target_rim_radius": 21.00947309141104,
+          "uniform_scale": 0.14951983516804085,
+          "transform": [
+            6.688075858805823,
+            0,
+            -91.04455627348705,
+            0,
+            6.688075858805823,
+            -213.3166293060549
+          ],
+          "alpha_bounds": [
+            14,
+            32,
+            192,
+            201
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/a10-v1/pips/diamonds/3.png",
+          "sha256": "dd049273e573167e6dab3ea0bd720fffa9910aa632b5c9aeb6dd3b831488827d",
+          "pixels": [
+            206,
+            226
+          ],
+          "anchor": [
+            102.5,
+            112.5
+          ],
+          "target_rim_radius": 21.00947309141104,
+          "uniform_scale": 0.17847225979123513,
+          "transform": [
+            5.6031116609927665,
+            0,
+            -78.28088314392971,
+            0,
+            5.6031116609927665,
+            -20.11089081347461
+          ],
+          "alpha_bounds": [
+            14,
+            4,
+            191,
+            220
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/a10-v1/pips/clubs/3.png",
+          "sha256": "de50c2bf333135da658b167487b3e59bc27b7f1360426c63e8384d3ef8812431",
+          "pixels": [
+            206,
+            226
+          ],
+          "anchor": [
+            102.5,
+            112.5
+          ],
+          "target_rim_radius": 21.00947309141104,
+          "uniform_scale": 0.14766173846159442,
+          "transform": [
+            6.772235044896831,
+            0,
+            -121.90460248999148,
+            0,
+            6.772235044896831,
+            -188.82964628617265
+          ],
+          "alpha_bounds": [
+            18,
+            28,
+            188,
+            200
+          ]
+        }
+      }
+    },
+    "4": {
+      "pips": [
+        {
+          "center": [
+            224.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            794.5
+          ],
+          "rotation": 180
+        }
+      ],
+      "bounds": [
+        195,
+        220
+      ],
+      "symmetry": "exact-half-turn",
+      "components": {
+        "spades": {
+          "path": "sources/components/a10-v1/pips/spades/4.png",
+          "sha256": "d52c4cfa3a12f8afc33671f14a00c17e7fc02cec12d1a5bffc6fa2c7c509df9e",
+          "pixels": [
+            196,
+            220
+          ],
+          "anchor": [
+            97.5,
+            109.5
+          ],
+          "target_rim_radius": 20.43123071274835,
+          "uniform_scale": 0.1375637579047016,
+          "transform": [
+            7.269356516799709,
+            0,
+            -173.21678452417564,
+            0,
+            7.269356516799709,
+            -179.8003616145686
+          ],
+          "alpha_bounds": [
+            24,
+            25,
+            171,
+            187
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/a10-v1/pips/hearts/4.png",
+          "sha256": "893b7e6cbdeb73a5cfa58ade804d486a1d2b2c6fee0532f410bfb14410d71eef",
+          "pixels": [
+            196,
+            220
+          ],
+          "anchor": [
+            97.5,
+            109.5
+          ],
+          "target_rim_radius": 20.43123071274835,
+          "uniform_scale": 0.1454046103469021,
+          "transform": [
+            6.877361024621083,
+            0,
+            -76.05948064644576,
+            0,
+            6.877361024621083,
+            -213.97912738640832
+          ],
+          "alpha_bounds": [
+            11,
+            31,
+            184,
+            196
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/a10-v1/pips/diamonds/4.png",
+          "sha256": "9702c5f4886a4eb3543ac9ae0b02a76be9b7d68d59d3a8593e34a2578557e0ae",
+          "pixels": [
+            196,
+            220
+          ],
+          "anchor": [
+            97.5,
+            109.5
+          ],
+          "target_rim_radius": 20.43123071274835,
+          "uniform_scale": 0.17356017924652223,
+          "transform": [
+            5.761690292907656,
+            0,
+            -65.72674145066765,
+            0,
+            5.761690292907656,
+            -20.665916025176784
+          ],
+          "alpha_bounds": [
+            11,
+            4,
+            184,
+            214
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/a10-v1/pips/clubs/4.png",
+          "sha256": "2d080518db2db963ce4c686c7648eb106368d0cf7d7e19593119fb3356a29c50",
+          "pixels": [
+            196,
+            220
+          ],
+          "anchor": [
+            97.5,
+            109.5
+          ],
+          "target_rim_radius": 20.43123071274835,
+          "uniform_scale": 0.14359765391677987,
+          "transform": [
+            6.9639020744693845,
+            0,
+            -106.73096264883122,
+            0,
+            6.9639020744693845,
+            -189.50048088967662
+          ],
+          "alpha_bounds": [
+            15,
+            27,
+            180,
+            194
+          ]
+        }
+      }
+    },
+    "5": {
+      "pips": [
+        {
+          "center": [
+            224.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 0
+        }
+      ],
+      "bounds": [
+        180,
+        205
+      ],
+      "symmetry": "upright-center-only",
+      "components": {
+        "spades": {
+          "path": "sources/components/a10-v1/pips/spades/5.png",
+          "sha256": "1e962018d138127cc6cc3442246a23a364ff8e9d3e6d1fc1e838b7194a237924",
+          "pixels": [
+            180,
+            206
+          ],
+          "anchor": [
+            89.5,
+            102.5
+          ],
+          "target_rim_radius": 19.08199849586874,
+          "uniform_scale": 0.12847935879778732,
+          "transform": [
+            7.783351422027972,
+            0,
+            -161.06447640770762,
+            0,
+            7.783351422027972,
+            -181.59934378286766
+          ],
+          "alpha_bounds": [
+            21,
+            23,
+            158,
+            175
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/a10-v1/pips/hearts/5.png",
+          "sha256": "a244f5af56736d90dca1e1124bbcc5548b90d5d5fd932c64a1119d71bdc29693",
+          "pixels": [
+            180,
+            206
+          ],
+          "anchor": [
+            89.5,
+            102.5
+          ],
+          "target_rim_radius": 19.08199849586874,
+          "uniform_scale": 0.13580241909757837,
+          "transform": [
+            7.363639076867019,
+            0,
+            -64.56247812548838,
+            0,
+            7.363639076867019,
+            -215.68110056926923
+          ],
+          "alpha_bounds": [
+            9,
+            29,
+            171,
+            183
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/a10-v1/pips/diamonds/5.png",
+          "sha256": "1385260066f390204f2a8e8fdf823a7d22fbd61489ede582a98bb1d10818f023",
+          "pixels": [
+            180,
+            206
+          ],
+          "anchor": [
+            89.5,
+            102.5
+          ],
+          "target_rim_radius": 19.08199849586874,
+          "uniform_scale": 0.16209865797552545,
+          "transform": [
+            6.169082535840523,
+            0,
+            -56.09482484989792,
+            0,
+            6.169082535840523,
+            -22.09178887544192
+          ],
+          "alpha_bounds": [
+            9,
+            4,
+            170,
+            200
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/a10-v1/pips/clubs/5.png",
+          "sha256": "0950c89ca4733ab9e5fdfe9e596b3c4f0327ada0fb10d54046ecaa441aa24a86",
+          "pixels": [
+            180,
+            206
+          ],
+          "anchor": [
+            89.5,
+            102.5
+          ],
+          "target_rim_radius": 19.08199849586874,
+          "uniform_scale": 0.1341147899788793,
+          "transform": [
+            7.456299190846008,
+            0,
+            -95.08928796878399,
+            0,
+            7.456299190846008,
+            -191.2238707969949
+          ],
+          "alpha_bounds": [
+            13,
+            26,
+            167,
+            182
+          ]
+        }
+      }
+    },
+    "6": {
+      "pips": [
+        {
+          "center": [
+            224.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            224.5,
+            524.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            524.5
+          ],
+          "rotation": 180
+        }
+      ],
+      "bounds": [
+        175,
+        195
+      ],
+      "symmetry": "exact-half-turn",
+      "components": {
+        "spades": {
+          "path": "sources/components/a10-v1/pips/spades/6.png",
+          "sha256": "d49e2cef5a1a82612abac20884371205761808828eaa1bb98d88cb793e316343",
+          "pixels": [
+            176,
+            196
+          ],
+          "anchor": [
+            87.5,
+            97.5
+          ],
+          "target_rim_radius": 18.118261198097592,
+          "uniform_scale": 0.12199050229284858,
+          "transform": [
+            8.197359476391162,
+            0,
+            -181.72347832043067,
+            0,
+            8.197359476391162,
+            -183.04837197313884
+          ],
+          "alpha_bounds": [
+            22,
+            22,
+            153,
+            166
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/a10-v1/pips/hearts/6.png",
+          "sha256": "87fe764fa1b1434909cdb0e420f4a4ceea22494a1e055a72bc610255a7f3549c",
+          "pixels": [
+            176,
+            196
+          ],
+          "anchor": [
+            87.5,
+            97.5
+          ],
+          "target_rim_radius": 18.118261198097592,
+          "uniform_scale": 0.12894371106234714,
+          "transform": [
+            7.755322006487605,
+            0,
+            -84.10745631355553,
+            0,
+            7.755322006487605,
+            -217.0519908229412
+          ],
+          "alpha_bounds": [
+            11,
+            28,
+            164,
+            174
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/a10-v1/pips/diamonds/6.png",
+          "sha256": "9476b42b5b27579e2c6b617bb46e4f2145f00a0329285c27c29166179137c8d8",
+          "pixels": [
+            176,
+            196
+          ],
+          "anchor": [
+            87.5,
+            97.5
+          ],
+          "target_rim_radius": 18.118261198097592,
+          "uniform_scale": 0.15391185706767066,
+          "transform": [
+            6.497225223917145,
+            0,
+            -72.46914498492129,
+            0,
+            6.497225223917145,
+            -23.240288283710015
+          ],
+          "alpha_bounds": [
+            11,
+            4,
+            164,
+            190
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/a10-v1/pips/clubs/6.png",
+          "sha256": "787f0390828629732eb07f91ff0d5190f4bd5b9aac1de195e4b103d0e70a3fe3",
+          "pixels": [
+            176,
+            196
+          ],
+          "anchor": [
+            87.5,
+            97.5
+          ],
+          "target_rim_radius": 18.118261198097592,
+          "uniform_scale": 0.12734131573752178,
+          "transform": [
+            7.8529108499335605,
+            0,
+            -114.88020975725271,
+            0,
+            7.8529108499335605,
+            -192.6120116038012
+          ],
+          "alpha_bounds": [
+            15,
+            25,
+            161,
+            173
+          ]
+        }
+      }
+    },
+    "7": {
+      "pips": [
+        {
+          "center": [
+            224.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            224.5,
+            524.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            524.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 0
+        }
+      ],
+      "bounds": [
+        135,
+        160
+      ],
+      "symmetry": "upright-center-only",
+      "components": {
+        "spades": {
+          "path": "sources/components/a10-v1/pips/spades/7.png",
+          "sha256": "fd81a08ad637af068b4e18ae14062da944b66a30bdf582e6424aa6ac456a6fe9",
+          "pixels": [
+            136,
+            160
+          ],
+          "anchor": [
+            67.5,
+            79.5
+          ],
+          "target_rim_radius": 14.648806926121457,
+          "uniform_scale": 0.09863061887506906,
+          "transform": [
+            10.138839352378541,
+            0,
+            -148.82618042175568,
+            0,
+            10.138839352378541,
+            -189.84355153909462
+          ],
+          "alpha_bounds": [
+            15,
+            19,
+            120,
+            135
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/a10-v1/pips/hearts/7.png",
+          "sha256": "895964c866dac72ddacf8f60f6ed524284382082cfee32050c128b7fb2e20b58",
+          "pixels": [
+            136,
+            160
+          ],
+          "anchor": [
+            67.5,
+            79.5
+          ],
+          "target_rim_radius": 14.648806926121457,
+          "uniform_scale": 0.10425236213551473,
+          "transform": [
+            9.592108797497826,
+            0,
+            -52.984124576993395,
+            0,
+            9.592108797497826,
+            -223.48074459147688
+          ],
+          "alpha_bounds": [
+            6,
+            23,
+            130,
+            141
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/a10-v1/pips/diamonds/7.png",
+          "sha256": "98d0e167cef3975cb042065d4cdfeda4d1a064af821f66b3488df61ddebbc4e6",
+          "pixels": [
+            136,
+            160
+          ],
+          "anchor": [
+            67.5,
+            79.5
+          ],
+          "target_rim_radius": 14.648806926121457,
+          "uniform_scale": 0.1244393737993933,
+          "transform": [
+            8.036041724318574,
+            0,
+            -46.39475428367484,
+            0,
+            8.036041724318574,
+            -28.62614603511497
+          ],
+          "alpha_bounds": [
+            6,
+            4,
+            129,
+            154
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/a10-v1/pips/clubs/7.png",
+          "sha256": "0a87c9550b45fed5cf8e797c427886a73f89597654e4522e9129fbf21925a3d5",
+          "pixels": [
+            136,
+            160
+          ],
+          "anchor": [
+            67.5,
+            79.5
+          ],
+          "target_rim_radius": 14.648806926121457,
+          "uniform_scale": 0.10295680846863463,
+          "transform": [
+            9.71281078807572,
+            0,
+            -83.3652385831773,
+            0,
+            9.71281078807572,
+            -199.1216613872988
+          ],
+          "alpha_bounds": [
+            9,
+            21,
+            127,
+            140
+          ]
+        }
+      }
+    },
+    "8": {
+      "pips": [
+        {
+          "center": [
+            224.5,
+            224.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            824.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            224.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            824.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            224.5,
+            424.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            624.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            424.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            624.5
+          ],
+          "rotation": 180
+        }
+      ],
+      "bounds": [
+        165,
+        180
+      ],
+      "symmetry": "exact-half-turn",
+      "components": {
+        "spades": {
+          "path": "sources/components/a10-v1/pips/spades/8.png",
+          "sha256": "5cb30bd5f4cac79a03c5dc5e3cfb7931f659dd897def0ca481b50eb065fde147",
+          "pixels": [
+            166,
+            180
+          ],
+          "anchor": [
+            82.5,
+            89.5
+          ],
+          "target_rim_radius": 16.576281521663756,
+          "uniform_scale": 0.11160833188494658,
+          "transform": [
+            8.959904543962432,
+            0,
+            -203.6466490131047,
+            0,
+            8.959904543962432,
+            -185.7172797096382
+          ],
+          "alpha_bounds": [
+            23,
+            21,
+            142,
+            152
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/a10-v1/pips/hearts/8.png",
+          "sha256": "35f01982dc387f543d28d7c06086e30b10da958ea80f4bd8c6956585d6ae675a",
+          "pixels": [
+            166,
+            180
+          ],
+          "anchor": [
+            82.5,
+            89.5
+          ],
+          "target_rim_radius": 16.576281521663756,
+          "uniform_scale": 0.11796977820597719,
+          "transform": [
+            8.476747309416684,
+            0,
+            -104.8484337727665,
+            0,
+            8.476747309416684,
+            -219.5769793831929
+          ],
+          "alpha_bounds": [
+            12,
+            26,
+            153,
+            159
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/a10-v1/pips/diamonds/8.png",
+          "sha256": "0489bb7e82a7139c0dd883ac99934d93452ae20b86f90dc1741f597c1d0b33c8",
+          "pixels": [
+            166,
+            180
+          ],
+          "anchor": [
+            82.5,
+            89.5
+          ],
+          "target_rim_radius": 16.576281521663756,
+          "uniform_scale": 0.14081297561510295,
+          "transform": [
+            7.1016182680024595,
+            0,
+            -89.84544500237405,
+            0,
+            7.1016182680024595,
+            -25.355663938008547
+          ],
+          "alpha_bounds": [
+            13,
+            4,
+            152,
+            174
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/a10-v1/pips/clubs/8.png",
+          "sha256": "764ee64f5a4dea1da8342870a86a5dd1bab822261a44551bc59c126a00436bc4",
+          "pixels": [
+            166,
+            180
+          ],
+          "anchor": [
+            82.5,
+            89.5
+          ],
+          "target_rim_radius": 16.576281521663756,
+          "uniform_scale": 0.11650375695134972,
+          "transform": [
+            8.5834141848111,
+            0,
+            -135.88218063498198,
+            0,
+            8.5834141848111,
+            -195.16877327587258
+          ],
+          "alpha_bounds": [
+            16,
+            23,
+            150,
+            158
+          ]
+        }
+      }
+    },
+    "9": {
+      "pips": [
+        {
+          "center": [
+            224.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            374.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            374.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            254.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            794.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            224.5,
+            524.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            524.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            374.5,
+            524.5
+          ],
+          "rotation": 0
+        }
+      ],
+      "bounds": [
+        135,
+        155
+      ],
+      "symmetry": "upright-center-only",
+      "components": {
+        "spades": {
+          "path": "sources/components/a10-v1/pips/spades/9.png",
+          "sha256": "bcd9f75424fb2fc8e71a452a160de2df2880eeee36909cb77544fe9828d64d93",
+          "pixels": [
+            136,
+            156
+          ],
+          "anchor": [
+            67.5,
+            77.5
+          ],
+          "target_rim_radius": 14.263312007012997,
+          "uniform_scale": 0.09603507627309356,
+          "transform": [
+            10.412862037577963,
+            0,
+            -167.32271167271654,
+            0,
+            10.412862037577963,
+            -190.80263093729263
+          ],
+          "alpha_bounds": [
+            16,
+            18,
+            119,
+            131
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/a10-v1/pips/hearts/9.png",
+          "sha256": "f4defdf73de94f567f860bea6bfe77e5b42d98d3a570cf2ff380cf423e80170b",
+          "pixels": [
+            136,
+            156
+          ],
+          "anchor": [
+            67.5,
+            77.5
+          ],
+          "target_rim_radius": 14.263312007012997,
+          "uniform_scale": 0.10150887892142223,
+          "transform": [
+            9.851354981213984,
+            0,
+            -70.48324197783404,
+            0,
+            9.851354981213984,
+            -224.38810623448353
+          ],
+          "alpha_bounds": [
+            7,
+            23,
+            128,
+            138
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/a10-v1/pips/diamonds/9.png",
+          "sha256": "2ec7626a5f17485f7b547986d5a9f9c09223586da4c2b293049c49f75c8e3651",
+          "pixels": [
+            136,
+            156
+          ],
+          "anchor": [
+            67.5,
+            77.5
+          ],
+          "target_rim_radius": 14.263312007012997,
+          "uniform_scale": 0.12116465343625137,
+          "transform": [
+            8.253232041192048,
+            0,
+            -61.05510067263435,
+            0,
+            8.253232041192048,
+            -29.386312144172166
+          ],
+          "alpha_bounds": [
+            7,
+            4,
+            128,
+            150
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/a10-v1/pips/clubs/9.png",
+          "sha256": "a4698acb7f914c7315f1e99583e325c5ab2b1f0b4e3476acfad6d40cdca11ffc",
+          "pixels": [
+            136,
+            156
+          ],
+          "anchor": [
+            67.5,
+            77.5
+          ],
+          "target_rim_radius": 14.263312007012997,
+          "uniform_scale": 0.1002474187720916,
+          "transform": [
+            9.975319187753442,
+            0,
+            -101.0845555614236,
+            0,
+            9.975319187753442,
+            -200.04044078617085
+          ],
+          "alpha_bounds": [
+            10,
+            20,
+            125,
+            137
+          ]
+        }
+      }
+    },
+    "10": {
+      "pips": [
+        {
+          "center": [
+            224.5,
+            224.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            824.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            224.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            824.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            224.5,
+            424.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            524.5,
+            624.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            524.5,
+            424.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            224.5,
+            624.5
+          ],
+          "rotation": 180
+        },
+        {
+          "center": [
+            374.5,
+            324.5
+          ],
+          "rotation": 0
+        },
+        {
+          "center": [
+            374.5,
+            724.5
+          ],
+          "rotation": 180
+        }
+      ],
+      "bounds": [
+        140,
+        160
+      ],
+      "symmetry": "exact-half-turn",
+      "components": {
+        "spades": {
+          "path": "sources/components/a10-v1/pips/spades/10.png",
+          "sha256": "559f481ac2eeb4f5edeb974c6895cec4e67f7af4d095c1524628af49533cd4b7",
+          "pixels": [
+            140,
+            160
+          ],
+          "anchor": [
+            69.5,
+            79.5
+          ],
+          "target_rim_radius": 14.648806926121457,
+          "uniform_scale": 0.09863061887506906,
+          "transform": [
+            10.138839352378541,
+            0,
+            -169.10385912651282,
+            0,
+            10.138839352378541,
+            -189.84355153909462
+          ],
+          "alpha_bounds": [
+            17,
+            19,
+            122,
+            135
+          ]
+        },
+        "hearts": {
+          "path": "sources/components/a10-v1/pips/hearts/10.png",
+          "sha256": "96aac979641d4e01e2ca8fd7f3eff59a8eed8a57ded463dce534bfa7e76604bf",
+          "pixels": [
+            140,
+            160
+          ],
+          "anchor": [
+            69.5,
+            79.5
+          ],
+          "target_rim_radius": 14.648806926121457,
+          "uniform_scale": 0.10425236213551473,
+          "transform": [
+            9.592108797497826,
+            0,
+            -72.16834217198902,
+            0,
+            9.592108797497826,
+            -223.48074459147688
+          ],
+          "alpha_bounds": [
+            8,
+            23,
+            132,
+            141
+          ]
+        },
+        "diamonds": {
+          "path": "sources/components/a10-v1/pips/diamonds/10.png",
+          "sha256": "8bbf973732aceebfaef9dfbd2d07136f29b4a122bd1dd33fe6f2dc2f323b4ddd",
+          "pixels": [
+            140,
+            160
+          ],
+          "anchor": [
+            69.5,
+            79.5
+          ],
+          "target_rim_radius": 14.648806926121457,
+          "uniform_scale": 0.1244393737993933,
+          "transform": [
+            8.036041724318574,
+            0,
+            -62.466837732312,
+            0,
+            8.036041724318574,
+            -28.62614603511497
+          ],
+          "alpha_bounds": [
+            8,
+            4,
+            131,
+            154
+          ]
+        },
+        "clubs": {
+          "path": "sources/components/a10-v1/pips/clubs/10.png",
+          "sha256": "cceb9e7d7c41b3729e51615149db61fcd5b893be3c46752990461699cf6bcf47",
+          "pixels": [
+            140,
+            160
+          ],
+          "anchor": [
+            69.5,
+            79.5
+          ],
+          "target_rim_radius": 14.648806926121457,
+          "uniform_scale": 0.10295680846863463,
+          "transform": [
+            9.71281078807572,
+            0,
+            -102.79086015932876,
+            0,
+            9.71281078807572,
+            -199.1216613872988
+          ],
+          "alpha_bounds": [
+            11,
+            21,
+            129,
+            140
+          ]
+        }
+      }
+    }
+  },
+  "sources": {
+    "spades": {
+      "path": "sources/components/pips-v1/spades-master.png",
+      "sha256": "0ae7fecc93f4bfa3da5e596ad2278f4e9351c919705a7d1ee1f637d53284bf3f",
+      "source_anchor": [
+        626.5454758637959,
+        639.1941769749994
+      ],
+      "rim_radius": 148.52190012795558,
+      "rim_fit_residual_px": 4.249206164684231,
+      "crop": [
+        91,
+        23,
+        1163,
+        1201
+      ],
+      "cleaned": {
+        "path": "sources/components/a10-v1/cleaned/spades.png",
+        "sha256": "bbc3a70c51f3aa80e70dfd84cc218b211947c784e2afd65da96269fa37485c5f"
+      },
+      "anchor": [
+        535.5454758637959,
+        616.1941769749994
+      ]
+    },
+    "hearts": {
+      "path": "sources/components/pips-v1/hearts-master.png",
+      "sha256": "6676e7bb788248d64320dae496b6baf4640d3a8568383d7ec2090b7cb136a19f",
+      "source_anchor": [
+        626.4832192541098,
+        603.0919048096002
+      ],
+      "rim_radius": 140.51294978889672,
+      "rim_fit_residual_px": 2.701498986085933,
+      "crop": [
+        32,
+        64,
+        1223,
+        1197
+      ],
+      "cleaned": {
+        "path": "sources/components/a10-v1/cleaned/hearts.png",
+        "sha256": "92afa861910dc2226d1e9878ccd397a1b1e3de17b4eeba3917562c50017657d4"
+      },
+      "anchor": [
+        594.4832192541098,
+        539.0919048096002
+      ]
+    },
+    "diamonds": {
+      "path": "sources/components/pips-v1/diamonds-master.png",
+      "sha256": "4668162bb84727fba262268127f61c6389be13d2686e5a5c4a8fb3764713f96d",
+      "source_anchor": [
+        627.0380621078289,
+        628.2391710482116
+      ],
+      "rim_radius": 117.71842366979894,
+      "rim_fit_residual_px": 1.8134717863898808,
+      "crop": [
+        131,
+        18,
+        1124,
+        1229
+      ],
+      "cleaned": {
+        "path": "sources/components/a10-v1/cleaned/diamonds.png",
+        "sha256": "262f90e686147693232a395c54c9f7af94de16fcb5af7404722c50cd2857a6fb"
+      },
+      "anchor": [
+        496.03806210782886,
+        610.2391710482116
+      ]
+    },
+    "clubs": {
+      "path": "sources/components/pips-v1/clubs-master.png",
+      "sha256": "02ac084e01ad891bc49112b6c7b902811d6e4d8e62b6739c099bc55a1d5112b1",
+      "source_anchor": [
+        625.2494896119338,
+        619.0467962647209
+      ],
+      "rim_radius": 142.2810899444708,
+      "rim_fit_residual_px": 4.105281988919866,
+      "crop": [
+        53,
+        46,
+        1201,
+        1209
+      ],
+      "cleaned": {
+        "path": "sources/components/a10-v1/cleaned/clubs.png",
+        "sha256": "89252bdb56f14cb5d6e225d94486b0a89b43a0f0b4c01f2054a329ba10b3fc71"
+      },
+      "anchor": [
+        572.2494896119338,
+        573.0467962647209
+      ]
+    }
+  },
+  "frame": {
+    "path": "sources/components/a10-v1/frame.png",
+    "sha256": "dd4a638c3668fa0cdd8b4b3887be1f00beddfd6623f8423ae8cc6173644a6edb"
+  },
+  "frame_source": {
+    "path": "sources/components/kings-registration-v1/shared-frame.png",
+    "sha256": "c0187d4b0ea862c005d779adc74e02951c058555c557f67978af84b6ff671e72"
+  },
+  "field": {
+    "path": "sources/components/a10-v1/field-mask.png",
+    "sha256": "fa4ce6a2de44e5f689d97dd64bc8b7cb722565b5ebfed7ae295008d1b7d59330"
+  },
+  "panel_repair": {
+    "path": "sources/components/a10-v1/panel-repair-mask.png",
+    "sha256": "c3fb2cde7082ad9db7599b9557c1cea2d4bab98ab8741948fff957e7ab5c38b0"
+  },
+  "outline": {
+    "path": "sources/components/kings-registration-v1/outline-mask.png",
+    "sha256": "68a76fec974aaccc174b3aa88d2661fba45ca836f3fc5f87283ad5534607a89c"
+  },
+  "font": {
+    "path": "C:/Windows/Fonts/timesbd.ttf",
+    "sha256": "54fbe2c70af7c85a97bed0573227e3ccc4b2486012e3ca2a40c6bc77065846f5"
+  },
+  "cards": [
+    {
+      "suit": "spades",
+      "rank": "ace",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "a9d45419348b63eab92eacf2e05f2c0f1c81ed89623de6b244a4fba684bc506f",
+      "path": "cards/faces/french-suited/poker/spades/ace.png",
+      "staged_path": "work/a10-v1/cards/spades/ace.png",
+      "sha256": "f6642fc2dd541d5e65bfee189b17d52da98bf0ea1c45bc9a349faafae1198690"
+    },
+    {
+      "suit": "spades",
+      "rank": "2",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "582a0a527fad5a9ca591b20fe43c8d7fe37cd9d117d332c2193c09d8677670d1",
+      "path": "cards/faces/french-suited/poker/spades/2.png",
+      "staged_path": "work/a10-v1/cards/spades/2.png",
+      "sha256": "3e3183de402b36881503f45c14144451891f36954f2c3b723be3de37c74a1005"
+    },
+    {
+      "suit": "spades",
+      "rank": "3",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "f225bba95f70939debee3464d6fef3610c4548ee466945dddc808b37411d2803",
+      "path": "cards/faces/french-suited/poker/spades/3.png",
+      "staged_path": "work/a10-v1/cards/spades/3.png",
+      "sha256": "50b14be5e53d75d1c357ba1649b9b4bc38a4eac99b482799c20a0a38b08f1637"
+    },
+    {
+      "suit": "spades",
+      "rank": "4",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "9feb5e0107b6ee4cc68ae9a41515ab2ab64bb4d85c6ee8ca27941d214df2a2dc",
+      "path": "cards/faces/french-suited/poker/spades/4.png",
+      "staged_path": "work/a10-v1/cards/spades/4.png",
+      "sha256": "9aa18ac9284802c28dcd9b658719a6a12548ce503f24d8b899ff7872f5c5bb7b"
+    },
+    {
+      "suit": "spades",
+      "rank": "5",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "48328518eb466e9048f9a49d5a2018e89cfcb8c1af1769376479ea1b6d051f06",
+      "path": "cards/faces/french-suited/poker/spades/5.png",
+      "staged_path": "work/a10-v1/cards/spades/5.png",
+      "sha256": "e9db906caf90c430b2f907e3cf593fdf05e31bd8753763839a19138bf5b9ab51"
+    },
+    {
+      "suit": "spades",
+      "rank": "6",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "b1837fce3789592833743781e2d4bc911c4b6a8597ff5105e5fd511b7a91930e",
+      "path": "cards/faces/french-suited/poker/spades/6.png",
+      "staged_path": "work/a10-v1/cards/spades/6.png",
+      "sha256": "8efba96ef45b1ae77a8a6dd17d8a19c3aaacbab19c02426de0ba8b4ea6c73390"
+    },
+    {
+      "suit": "spades",
+      "rank": "7",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "d0a5df023b83b869645876ad47985903e31953eb7f9312c6bc084c891941cb6e",
+      "path": "cards/faces/french-suited/poker/spades/7.png",
+      "staged_path": "work/a10-v1/cards/spades/7.png",
+      "sha256": "f58437901514bbcdea4f3335674e1377ad32b3ee5736a6fc57ff1df61c522898"
+    },
+    {
+      "suit": "spades",
+      "rank": "8",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "36240335d9c17acde59f3ea6e909a058b5b3f3db9db3194be6a7eec0681d55c9",
+      "path": "cards/faces/french-suited/poker/spades/8.png",
+      "staged_path": "work/a10-v1/cards/spades/8.png",
+      "sha256": "adfdbeb30002f7e50498c35b1b2527010278b4eb76f111582f6f3d838af5ce01"
+    },
+    {
+      "suit": "spades",
+      "rank": "9",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "5bae7837228747956adbe998a1efd61f0034ce192a71d32e63373a270f474b08",
+      "path": "cards/faces/french-suited/poker/spades/9.png",
+      "staged_path": "work/a10-v1/cards/spades/9.png",
+      "sha256": "48bc28eafbfec128b8e1726c887c7be666fef94d2af6d426861f0fa298277985"
+    },
+    {
+      "suit": "spades",
+      "rank": "10",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "208d6bde62de1e889312477989454f82c5a8ae30776aeba2e4cbd8d87a6939b9",
+      "path": "cards/faces/french-suited/poker/spades/10.png",
+      "staged_path": "work/a10-v1/cards/spades/10.png",
+      "sha256": "ecf09516cc6fc98ee98358c9283fa4a2fe522f80ee008757b77ebc2fbc1d56e6"
+    },
+    {
+      "suit": "hearts",
+      "rank": "ace",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "23aaf526317bfec18651b3724e125f7778dac41b9ef581c29f0942b9baa5827f",
+      "path": "cards/faces/french-suited/poker/hearts/ace.png",
+      "staged_path": "work/a10-v1/cards/hearts/ace.png",
+      "sha256": "d474253cbe5be16f5fc6443a5ea01c3dcd8c992a25fe2cd145ab65a4f057df16"
+    },
+    {
+      "suit": "hearts",
+      "rank": "2",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "09613110196324bbb65c255d607fc32de57f04a7616632118c490949433f380d",
+      "path": "cards/faces/french-suited/poker/hearts/2.png",
+      "staged_path": "work/a10-v1/cards/hearts/2.png",
+      "sha256": "60301e96b868fdbab75376a76411d202ec819a03ab3fec45d5f6bbbd12a7fb9a"
+    },
+    {
+      "suit": "hearts",
+      "rank": "3",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "211373e5de7ca46e2cab682e82194005621e090bb2a9fa8e1058de57df5cc79a",
+      "path": "cards/faces/french-suited/poker/hearts/3.png",
+      "staged_path": "work/a10-v1/cards/hearts/3.png",
+      "sha256": "d40fa348f43d70a1f3a580e339141054671554da87b66ca7882c1ef9db8f6d07"
+    },
+    {
+      "suit": "hearts",
+      "rank": "4",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "3cb2d688d36f0f088a9ea58d1971b533eb5b47be9b68fb761722d5ba227ec00b",
+      "path": "cards/faces/french-suited/poker/hearts/4.png",
+      "staged_path": "work/a10-v1/cards/hearts/4.png",
+      "sha256": "61cf017b5450279926167d400cfe4d7d1c5a86d13210ffae9a20b2c17ba36da9"
+    },
+    {
+      "suit": "hearts",
+      "rank": "5",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "3117844d9f26778866099d55182fd213760f7f3f505660473c6b3faf48a79d84",
+      "path": "cards/faces/french-suited/poker/hearts/5.png",
+      "staged_path": "work/a10-v1/cards/hearts/5.png",
+      "sha256": "fae718581eb93e85a434a988120f12c4731f501fe9fe8fc98a9803985537033f"
+    },
+    {
+      "suit": "hearts",
+      "rank": "6",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "586e9367a747c6dccf2334b5cd092f0675e6fbad246e5b18f1f456ee8ddb2890",
+      "path": "cards/faces/french-suited/poker/hearts/6.png",
+      "staged_path": "work/a10-v1/cards/hearts/6.png",
+      "sha256": "492c42c26d370e594979278998144da26462f317854ee6d19be110b44e0a1536"
+    },
+    {
+      "suit": "hearts",
+      "rank": "7",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "a53b749db9d5d7bac361c74b4e8f6813ea035e1eae78f6700ad08dbe7a7613f4",
+      "path": "cards/faces/french-suited/poker/hearts/7.png",
+      "staged_path": "work/a10-v1/cards/hearts/7.png",
+      "sha256": "af33d0c58514d5c8bf86353e46446aa292be3c6a82988a8ec940da6ada233e96"
+    },
+    {
+      "suit": "hearts",
+      "rank": "8",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "6364c5dc717b5ce2055430e84316462e2f1cf04310027d6d587f8c3570da7b28",
+      "path": "cards/faces/french-suited/poker/hearts/8.png",
+      "staged_path": "work/a10-v1/cards/hearts/8.png",
+      "sha256": "f70a24aef3ad4d6626654a9fad3778a6812df71a6c0740191c667d59f2d80797"
+    },
+    {
+      "suit": "hearts",
+      "rank": "9",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "8b8befa802dd03ca41325fe5ff2287efa822414abb34731d01c1ddc40abcfb8e",
+      "path": "cards/faces/french-suited/poker/hearts/9.png",
+      "staged_path": "work/a10-v1/cards/hearts/9.png",
+      "sha256": "b632d1465f35cbc0764213e3addb917a722bfc9819b69c404054cbdb7bf3449a"
+    },
+    {
+      "suit": "hearts",
+      "rank": "10",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "52d9c08d4970e0d0d07f2fd7bf2ce3468f79257a84e7997d051b02f6a1c0afdd",
+      "path": "cards/faces/french-suited/poker/hearts/10.png",
+      "staged_path": "work/a10-v1/cards/hearts/10.png",
+      "sha256": "340c3c32d1bce80f7bc5380a481270eaaba37c865f40f3254e3a59531290c8c5"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "ace",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "b8fcd69953ad8a1f986b1ed3bcc67a404b5b15ea22526e5780e73a4a42c3edd9",
+      "path": "cards/faces/french-suited/poker/diamonds/ace.png",
+      "staged_path": "work/a10-v1/cards/diamonds/ace.png",
+      "sha256": "fc653618720dd5c79f906ceae4e6d7b21c90c4f214b2086c8dcfa9804bc0b3dd"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "2",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "d4a4911fe51031d54da2371f05c05e2380d18c329322f41287d719859c48651b",
+      "path": "cards/faces/french-suited/poker/diamonds/2.png",
+      "staged_path": "work/a10-v1/cards/diamonds/2.png",
+      "sha256": "aab846209310315316658818c793e577249f30e62fcad0f5d48f08ef077957bc"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "3",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "d279c2c84fb9ce869dab6cb43cd9932d6c0fef860fa419c6b7b25b94308666d7",
+      "path": "cards/faces/french-suited/poker/diamonds/3.png",
+      "staged_path": "work/a10-v1/cards/diamonds/3.png",
+      "sha256": "71c7fbe8c3523a04692dd56de2d36a2a2c73eb8d964467edf9b219c3dde38d47"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "4",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "85ddd1a4e5d94cd1d0077b6d77e2722daa1f18fa0f548934dbad26ba5457225e",
+      "path": "cards/faces/french-suited/poker/diamonds/4.png",
+      "staged_path": "work/a10-v1/cards/diamonds/4.png",
+      "sha256": "a84867c76f95980ee320e96328bcb50498065e335ae6100487ba3c8d8fe533a5"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "5",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "c7648d0ce504b1f0decfa40745ce79194ac03beddb5a483420404e84e032ad57",
+      "path": "cards/faces/french-suited/poker/diamonds/5.png",
+      "staged_path": "work/a10-v1/cards/diamonds/5.png",
+      "sha256": "99e616ab4411c31b35b710b5a36b7315bd8ca519ff76363f5cf3e50f61f249c0"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "6",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "70c787c4822afae0853ee22de5f225eb1bf03f63c4061ef5ef73ce5eddec9a68",
+      "path": "cards/faces/french-suited/poker/diamonds/6.png",
+      "staged_path": "work/a10-v1/cards/diamonds/6.png",
+      "sha256": "8fc1a96eb29b07ae77515479614f2d464a66728146781936fd8c75c4889322b3"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "7",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "2ed62f3cd976102a1a1bfadc6b17dfe8f542a5b4c02b06f2a522a9e0dc31adfa",
+      "path": "cards/faces/french-suited/poker/diamonds/7.png",
+      "staged_path": "work/a10-v1/cards/diamonds/7.png",
+      "sha256": "4e66c3d41f281a91bad5b1afa209e949aaa5a950ebda3ae8c13bb7f1a9bb0f25"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "8",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "ad6886348caa11e25b2622fed0b81706ad4dd94aa01389cbd7931093f046a419",
+      "path": "cards/faces/french-suited/poker/diamonds/8.png",
+      "staged_path": "work/a10-v1/cards/diamonds/8.png",
+      "sha256": "7554fc2ed1bc1c7e488a78725998362a23a1c08b1972c68f2c85e22ba0950433"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "9",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "9adcf635b01d2bc83e9cbbad7c6203df4a08c6e9ab430817a3ac6e66c04b8174",
+      "path": "cards/faces/french-suited/poker/diamonds/9.png",
+      "staged_path": "work/a10-v1/cards/diamonds/9.png",
+      "sha256": "b4ce7e4c243dc2a27988311b8a7b6be5d35303eb8ff1c22ef37e13dadc0bd903"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "10",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "355a9403d949785e5d4baeabfb517802e6d5156017faaa3e7e87fa5ce895dd08",
+      "path": "cards/faces/french-suited/poker/diamonds/10.png",
+      "staged_path": "work/a10-v1/cards/diamonds/10.png",
+      "sha256": "3d363800f71aff91de18943c2857f6c9f606819770df3ff11e0037f69f6ab7f4"
+    },
+    {
+      "suit": "clubs",
+      "rank": "ace",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "359309ade24701fa32cd9f81e4011263102d7613f0bb767f180ab73b09b71b50",
+      "path": "cards/faces/french-suited/poker/clubs/ace.png",
+      "staged_path": "work/a10-v1/cards/clubs/ace.png",
+      "sha256": "2dc9a24483e1568b18ae8de15231a23097a3305525f91017fe9dfd76a1018d06"
+    },
+    {
+      "suit": "clubs",
+      "rank": "2",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "8c7cb04c382310dbfcf263dcc01bc02b54dced13e3af803eb97a7588d33e7fc8",
+      "path": "cards/faces/french-suited/poker/clubs/2.png",
+      "staged_path": "work/a10-v1/cards/clubs/2.png",
+      "sha256": "e3b5c1e00cb5e349fbd0d518f37fd1c3389131ed6b4be0117c80b1f53f924a6f"
+    },
+    {
+      "suit": "clubs",
+      "rank": "3",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "52b74dac7b0dcb5e7d7a90a7f4e7022527a1f04641c555214e56e8cb27fc8e1d",
+      "path": "cards/faces/french-suited/poker/clubs/3.png",
+      "staged_path": "work/a10-v1/cards/clubs/3.png",
+      "sha256": "684c3d4e4ebf5d1a4b022161de116f0af737afb7878052ddf3a457f7e79ec479"
+    },
+    {
+      "suit": "clubs",
+      "rank": "4",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "6fa4bab56dc51d61fa2c2fb8f0cf78787f0b9a9e381ecbe23e6455db411ba4ff",
+      "path": "cards/faces/french-suited/poker/clubs/4.png",
+      "staged_path": "work/a10-v1/cards/clubs/4.png",
+      "sha256": "8d432de24bba5ef3fdec8eba7ce124aec8e94da2ddd016b77382fd8729857637"
+    },
+    {
+      "suit": "clubs",
+      "rank": "5",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "250ac631e8f4a74acd144808e973c752959cf1832b329ae7e03145d0ae8ce3db",
+      "path": "cards/faces/french-suited/poker/clubs/5.png",
+      "staged_path": "work/a10-v1/cards/clubs/5.png",
+      "sha256": "a15e42b1a995a55229559fbb1ba96ed554dc5bdcbdfcebddd11ecdc99d080109"
+    },
+    {
+      "suit": "clubs",
+      "rank": "6",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "43072f72069f1e92cb6c2ea05b4a9fe55cd2390cd73def800d82bfbae3f67f25",
+      "path": "cards/faces/french-suited/poker/clubs/6.png",
+      "staged_path": "work/a10-v1/cards/clubs/6.png",
+      "sha256": "e6b5127d1bc768a8551f7744b65e3ba0391074902435b7ba46ee66e6213bff6d"
+    },
+    {
+      "suit": "clubs",
+      "rank": "7",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "0cdf9540eeba6cc7c70b4bc2abe88801afb71c0b0a1ac22fdb6bf25cfa786874",
+      "path": "cards/faces/french-suited/poker/clubs/7.png",
+      "staged_path": "work/a10-v1/cards/clubs/7.png",
+      "sha256": "6818295708ef9c2b1268ddbcab5b705da6af386c270a69e58526d626fdf14ece"
+    },
+    {
+      "suit": "clubs",
+      "rank": "8",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "51876fe47c9d9ebabb1930ced9a5968bad8a03b18986ed114eadba75018c6405",
+      "path": "cards/faces/french-suited/poker/clubs/8.png",
+      "staged_path": "work/a10-v1/cards/clubs/8.png",
+      "sha256": "0448cc8fd025e31575dfcb71908a4f89a4e72a160654ee756c9d67b96c24c6ca"
+    },
+    {
+      "suit": "clubs",
+      "rank": "9",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "a2088e7b337739baddde9ee3507c2f3985e60247490283d989cdf861c337b2b4",
+      "path": "cards/faces/french-suited/poker/clubs/9.png",
+      "staged_path": "work/a10-v1/cards/clubs/9.png",
+      "sha256": "cda09353ff66a780a348ece324a68759a9427cd2655326889ee34085b9abd007"
+    },
+    {
+      "suit": "clubs",
+      "rank": "10",
+      "status": "review",
+      "pixels": [
+        750,
+        1050
+      ],
+      "prior_sha256": "68e1aa9cbc30fe1f75bc985ef17872265b9feb3fd5757850901188f9a49df569",
+      "path": "cards/faces/french-suited/poker/clubs/10.png",
+      "staged_path": "work/a10-v1/cards/clubs/10.png",
+      "sha256": "cb7c451d0583595169e74317a75a83a105de420af9f999a03dbb01fb046c1373"
+    }
+  ],
+  "preserved_inputs": {
+    "designs/design1/cards/backs/bridge/lamp-black.png": "a9a16f7a63f8abb5d39fc5558d660c2c4a512ff91e938eb6683245415f7754c8",
+    "designs/design1/cards/backs/bridge/madder-lake.png": "4e1c74c3b672ab1ce9229075ecfc7d373f04108f081688d90a203888af862415",
+    "designs/design1/cards/backs/bridge/manganese-violet.png": "5c574518c749b2e02b5650196805e30d32682807ff8f5acbc94569d93af568ca",
+    "designs/design1/cards/backs/bridge/prussian-blue.png": "b68d8499025ea45b2e95bbe0e3bd403e79be2301260ed0edf1bbe281a74ebcd6",
+    "designs/design1/cards/backs/bridge/verdigris.png": "e033d23780e338836629c7af6e2171f1df4ee328ca0fa0daf1a8a14a13e1657b",
+    "designs/design1/cards/backs/european-standard/lamp-black.png": "1d4ea94f826670941b802cd273208ec2ccde0e588028a5f1c53be89e214ee9c4",
+    "designs/design1/cards/backs/european-standard/madder-lake.png": "954c8e398688bb83a48e0f5d5e4e42cfdb8293653446f056a00dc6f8c1e6486f",
+    "designs/design1/cards/backs/european-standard/manganese-violet.png": "dbe108b89d04b5ce6f6b8995ed1f948de5acd8d1b3f34416fee60b353910eb45",
+    "designs/design1/cards/backs/european-standard/prussian-blue.png": "8f4db81494984971e750651ced58199cf27580ae1bf1eae1853a26696f2803e9",
+    "designs/design1/cards/backs/european-standard/verdigris.png": "ec1478afff8efbc1d626086479ea74ae9b6e023c1e8c00aeaa254480153819e8",
+    "designs/design1/cards/backs/jumbo/lamp-black.png": "d6825a658ff5ab94fbfc9cac6398f4908d6bfb1f4c80f66cc828bd6868ae892a",
+    "designs/design1/cards/backs/jumbo/madder-lake.png": "783ae5fe525a9c06fb45415dcb3480aba56e3b1818892097af5c446d3d747f1d",
+    "designs/design1/cards/backs/jumbo/manganese-violet.png": "073b235e8f9b282e2869cfc0b9fc7720a5e40588d6fefa34a2c57879e99640d3",
+    "designs/design1/cards/backs/jumbo/prussian-blue.png": "b6615ffd68b671e3387c512e0b455965ec70e841f46ef98c388217e1c84bbff2",
+    "designs/design1/cards/backs/jumbo/verdigris.png": "7a3741596e92342f54b69734796fdc8df9a8794c55ec8fff388ca1dbfda073c3",
+    "designs/design1/cards/backs/poker/lamp-black.png": "eb596d622b9e6a8ad45411f3555b59dec3986a426258374c169346c71722cf08",
+    "designs/design1/cards/backs/poker/madder-lake.png": "565b70596bee61be55cb2c828dfd2040cfc324922eb2a48757f17690f212ec74",
+    "designs/design1/cards/backs/poker/manganese-violet.png": "11cc23a6a19bef66f4cd3d162b447e167e458c919b8d414cf3f6a4358987dab8",
+    "designs/design1/cards/backs/poker/prussian-blue.png": "4337401837ddf0bfda6676c6ea9b4b4ef31f7969c2db77e6f48a77291e00f242",
+    "designs/design1/cards/backs/poker/verdigris.png": "b9a8e87defb01762c64fd6db0ee4c130006edac068dfb0d6430607fbc1850075",
+    "designs/design1/cards/backs/tarot/lamp-black.png": "fb4c878386ef58435249c9b49b59bb04833a9fdec49a778253fdf9e4ffa3624d",
+    "designs/design1/cards/backs/tarot/madder-lake.png": "e591038deeb203a77e7fc0fa5f28a084978f3a8b04683f4e4844d5676cbe5366",
+    "designs/design1/cards/backs/tarot/manganese-violet.png": "b91c6a5ff552b295682740bd90a34a454bfc88bfc1fc1f870d291841e179272d",
+    "designs/design1/cards/backs/tarot/prussian-blue.png": "002f80d67c62b0b9ad37bbf16705c8ccb61b1bd04411c50655f9a90a5b58f0b8",
+    "designs/design1/cards/backs/tarot/verdigris.png": "d0989ecad7dd3f992de2ee353325d6bebc036cf769ab361737d10f55ba5c0787",
+    "designs/design1/cards/backs/travel/lamp-black.png": "d0ed165e2a7657a8c2da493debfca5e39efe8d4ccbc208ae48c26fd9352f116d",
+    "designs/design1/cards/backs/travel/madder-lake.png": "804abdde6c2d1216a15292d90ebc05c704a4c3769543769f45552a2071969515",
+    "designs/design1/cards/backs/travel/manganese-violet.png": "cd547444f932725dbf3c54ff6a580aff2493f6698fa6145929d026429923e3ac",
+    "designs/design1/cards/backs/travel/prussian-blue.png": "28394eded00b1b5fcc0c81416af5d92f9f254390b0380e0755c7cd44f0c8d963",
+    "designs/design1/cards/backs/travel/verdigris.png": "ce3105f3d3583f628eb6f03f37ce7ce8870d01b07dd2684b79bab90f791fa259",
+    "designs/design1/cards/faces/french-suited/bridge/clubs/10.png": "98f2064681c34e3b04b429261f39d0b48455ecf8e0345943cb202bd0d078efc7",
+    "designs/design1/cards/faces/french-suited/bridge/clubs/2.png": "950eaf74d67841898232cb53b37575c4f4537c9a48a66c68d7b40b7647fd5920",
+    "designs/design1/cards/faces/french-suited/bridge/clubs/3.png": "37a888e824c139d8d7730c5d004d423b4d04e0f77e111989a7314da03e13accb",
+    "designs/design1/cards/faces/french-suited/bridge/clubs/4.png": "1b41c557ef94e97dbf46e8bdd26212b3f98a469cd6a81a26d94d376baf0777ee",
+    "designs/design1/cards/faces/french-suited/bridge/clubs/5.png": "d95127e9d5b811f0258f1e36a67cc3d203017ec54cfa36b530fd107f312dae7a",
+    "designs/design1/cards/faces/french-suited/bridge/clubs/6.png": "d4081dff29c224e65d4bacc947fa827598b3b4a87f3276e8adea9ed827dea1f8",
+    "designs/design1/cards/faces/french-suited/bridge/clubs/7.png": "2b214fd87333dfd4c50dabed74336ecaec6782f6b0cb09663f0f2033cba28b06",
+    "designs/design1/cards/faces/french-suited/bridge/clubs/8.png": "7d80012a1a420c57b01ab2cda9e2810e04bbb7f679b045a523c1c1be12d84c8f",
+    "designs/design1/cards/faces/french-suited/bridge/clubs/9.png": "4f7d6ad9c3fdf042ae7b7301b789919c35a967cd283e2ee5113fe78291eeb549",
+    "designs/design1/cards/faces/french-suited/bridge/clubs/ace.png": "d40327059de4298e7d858437422d6aa74518e61fd66be582122eb2275a8e55bb",
+    "designs/design1/cards/faces/french-suited/bridge/clubs/jack.png": "9b3c72777387e43b6002a5da13ee44217879785fcb9aa9036eede1c61f4e3d2e",
+    "designs/design1/cards/faces/french-suited/bridge/clubs/king.png": "fc1790e7762ae47c0a9143a3de7822aef409648373c2697c338cf2011d76c7cb",
+    "designs/design1/cards/faces/french-suited/bridge/clubs/queen.png": "e00c3774575805be49af783f59166f933acffc1965c79b5e4e00970caa490f49",
+    "designs/design1/cards/faces/french-suited/bridge/diamonds/10.png": "94e98249c944d825f1bbadd216357d867a4e08b2be61bfe5d58b34db643e2f9e",
+    "designs/design1/cards/faces/french-suited/bridge/diamonds/2.png": "d162426095cb5c0ee71577ad9dbc16a077d893b2ec8d2fc29e05f3445ebb91cc",
+    "designs/design1/cards/faces/french-suited/bridge/diamonds/3.png": "c1daef845c06bd20d5d4556e869613bae9e3063a41ae37ffe5d2164bee3f265a",
+    "designs/design1/cards/faces/french-suited/bridge/diamonds/4.png": "5c1a15ec69eeb35526fd21ca5cc7c953d300bcb6deb755d7ae18cf29686f633f",
+    "designs/design1/cards/faces/french-suited/bridge/diamonds/5.png": "f40bcf0947a2d5f842050a1f1e6f8a12a258380417ef83b723bfa725bc9b7b8c",
+    "designs/design1/cards/faces/french-suited/bridge/diamonds/6.png": "50ad5a7d6e1a3170ba68c7894e950185c0cc1611cfd20f3c92852dcc61c5ecd7",
+    "designs/design1/cards/faces/french-suited/bridge/diamonds/7.png": "e7c014106af948f8e84aaee0702dc6bf087be3ad9660da25f637f4d2ff2963bc",
+    "designs/design1/cards/faces/french-suited/bridge/diamonds/8.png": "cf2ea3022732df73d977f4a5358ba6745fecc0358f4edf17aa523ff223258395",
+    "designs/design1/cards/faces/french-suited/bridge/diamonds/9.png": "adef58a4a81cd519a5fab5fc848e3ce1c62589744e3672d74344d3f26458470c",
+    "designs/design1/cards/faces/french-suited/bridge/diamonds/ace.png": "9c3074203afbbb32ae0b3145ed160e588639cd918c8d748fa6124d694f7c43da",
+    "designs/design1/cards/faces/french-suited/bridge/diamonds/jack.png": "d32112f6067c2ca077361dd077cfac347261038a30d33ffa189dbe04696b2898",
+    "designs/design1/cards/faces/french-suited/bridge/diamonds/king.png": "54f07d0ae74de3804fb45bc5698ab4d8294caa697ea8857a52b9cb77fb4f58ca",
+    "designs/design1/cards/faces/french-suited/bridge/diamonds/queen.png": "7148b306da9e8988b1cd1d9c7dd3f848dd58a3260095e70dd0c0f839614853e0",
+    "designs/design1/cards/faces/french-suited/bridge/hearts/10.png": "728bb5b419ff69d8a92519fed0c86c11e6617e1a3621090ed30cb48e6b5fbbba",
+    "designs/design1/cards/faces/french-suited/bridge/hearts/2.png": "c7c907b15245a2dd500b61948312da53cd29afe445c22de85f97c69cccff2524",
+    "designs/design1/cards/faces/french-suited/bridge/hearts/3.png": "d0120d9802f8d65fd64cca54a48708e17cdaf84e5e508b2ac374892cdd7d96e2",
+    "designs/design1/cards/faces/french-suited/bridge/hearts/4.png": "c24c3791750588940a6d24fbca9fce3c043bcfb39e0d53520de648684a34256e",
+    "designs/design1/cards/faces/french-suited/bridge/hearts/5.png": "5c70d4126d327bb52a448846a7f376ff5521f25d532d6a2777b8c512c20d64a8",
+    "designs/design1/cards/faces/french-suited/bridge/hearts/6.png": "cbe06d5492889b68bc68aa48992d1d111046fc227657d441c05936d19d6cf815",
+    "designs/design1/cards/faces/french-suited/bridge/hearts/7.png": "e77762a188c3b4c3638102d0bec7f068c17b61a6a44468ee2fc6286605996278",
+    "designs/design1/cards/faces/french-suited/bridge/hearts/8.png": "b0c03e51fa396c016626dab4562a9ae1ef36447fde30837238f52435696e3f83",
+    "designs/design1/cards/faces/french-suited/bridge/hearts/9.png": "41ae363f35f7f47cc88fddd3f22733feaabc32754102feeb744acb636ac14ce3",
+    "designs/design1/cards/faces/french-suited/bridge/hearts/ace.png": "390076f67eabd1db4eb1bdfa16f45acf5c69a0569d03358758c5668f2190f909",
+    "designs/design1/cards/faces/french-suited/bridge/hearts/jack.png": "e3f1e6aeb6e4d2fdb23668845d06afc218d9a269489b9868bebcec6603204d59",
+    "designs/design1/cards/faces/french-suited/bridge/hearts/king.png": "7d87edf2e23163ae361281451831011fb4b1d5798b4f88cb138e831bde95d6e4",
+    "designs/design1/cards/faces/french-suited/bridge/hearts/queen.png": "5987ab59c5bbccd0a345474965645278ab8dea7886d8beb2fec1e66065add0ed",
+    "designs/design1/cards/faces/french-suited/bridge/jokers/black.png": "f5c2009e89295715bec5ca18abe1e2a6dbf3d481e93207c076c7c74a28caf1b9",
+    "designs/design1/cards/faces/french-suited/bridge/jokers/red.png": "1f852b8cfe2ff1fa2513f24749dcb977eb4235a904aee2afb03518ed093b679a",
+    "designs/design1/cards/faces/french-suited/bridge/spades/10.png": "95766765938747a082a9440bf4a83b70dd5d49e0e6debf484c5922e829e5fbf0",
+    "designs/design1/cards/faces/french-suited/bridge/spades/2.png": "509b07f0b190822fa682804472e5ff02c2c3cc1f4bf821131985d05a109e19c4",
+    "designs/design1/cards/faces/french-suited/bridge/spades/3.png": "52396fa4b234dd6cb1aa6fb8d813c70b934fdc4398ed7e38473ab36a3a183eac",
+    "designs/design1/cards/faces/french-suited/bridge/spades/4.png": "9d0093d60cfee273cc54ef787dd17f75ec9b04340063dd970e7d0ad7b07fe135",
+    "designs/design1/cards/faces/french-suited/bridge/spades/5.png": "718b4d3b2429f00817f6e8353da29e194c4009a96d9989d8cdfb083e11f876db",
+    "designs/design1/cards/faces/french-suited/bridge/spades/6.png": "8282d4a5fcea7be8c426d74b2e45a5dd0f1b625db13fa25c231cf94fd34acadb",
+    "designs/design1/cards/faces/french-suited/bridge/spades/7.png": "40a53cd8b5b60b16fd178fe2b58aff48d85da2970f2a44a547964362098870f8",
+    "designs/design1/cards/faces/french-suited/bridge/spades/8.png": "3d70650d931ac2154980404a0361f78fb8554d562a1d546d601569e3ba8e4c24",
+    "designs/design1/cards/faces/french-suited/bridge/spades/9.png": "3412115ba1efaabeb3b18595363a79ee4afb999621883b3ab0729c6f9024f6e8",
+    "designs/design1/cards/faces/french-suited/bridge/spades/ace.png": "2317862157a77823d8813dbc1e700e6c7537368742635dc0966b195ef2d85f4c",
+    "designs/design1/cards/faces/french-suited/bridge/spades/jack.png": "42e0242950fdee4dcad91830d191604054b20bfad49479723173f4f068429e96",
+    "designs/design1/cards/faces/french-suited/bridge/spades/king.png": "6825174a65062c90e3f729f85a45d51af45f1fb92d6716921adcf4c858b42bf3",
+    "designs/design1/cards/faces/french-suited/bridge/spades/queen.png": "efb511b6610e8797af32193c4b01f1da981c674f4b2013d0204998e8b9bc036e",
+    "designs/design1/cards/faces/french-suited/european-standard/clubs/10.png": "7309b4b53a6a5e5500790e35115c2abcd3a733043442a5c8fc0a1b9347c1492b",
+    "designs/design1/cards/faces/french-suited/european-standard/clubs/2.png": "3226fc28a91a160dea691bcf3d662f775c79797e065c23b0fad02625b6125a84",
+    "designs/design1/cards/faces/french-suited/european-standard/clubs/3.png": "62331cbf5b4b5b1aff8a95b9d19e63a855a62bfcce3410b65840519dddb5507d",
+    "designs/design1/cards/faces/french-suited/european-standard/clubs/4.png": "31b5e1ea36e1635f5d883b4735dd3f3156d7148881f91a58d977958cdbb2df53",
+    "designs/design1/cards/faces/french-suited/european-standard/clubs/5.png": "60d6371b2984841083e380b573b05a59200a352bb0f05ac74810656c6d28cdd7",
+    "designs/design1/cards/faces/french-suited/european-standard/clubs/6.png": "85a7d8aa22bf5b1ca50cdeb693a0b31200c7c626c8bbcad303cdb53918c217fc",
+    "designs/design1/cards/faces/french-suited/european-standard/clubs/7.png": "c69a2a7246713e9e4cfc3db3572905023c0321a6cc12077ecd5ce211ac931c67",
+    "designs/design1/cards/faces/french-suited/european-standard/clubs/8.png": "03995caafffad80f507318d947370e8369ee0a09079af3969cd260c4922ed236",
+    "designs/design1/cards/faces/french-suited/european-standard/clubs/9.png": "51f0bdb106e71fcca773738b1e5dddb71a1080cbca8e6feaa0a16be368fa72e5",
+    "designs/design1/cards/faces/french-suited/european-standard/clubs/ace.png": "120ab9f26d7ff0fffe02430169c3d2eedb57f3a3460cdc8c5213292e17851797",
+    "designs/design1/cards/faces/french-suited/european-standard/clubs/jack.png": "0c18613807a33b139e44f7272f4aa7339b35700bcd2715e7a2b326dc4458b178",
+    "designs/design1/cards/faces/french-suited/european-standard/clubs/king.png": "d8d414c9a834e16da98c6cd6f40fe3fcc981adaf7f9bf6832033408aaa4644fd",
+    "designs/design1/cards/faces/french-suited/european-standard/clubs/queen.png": "7c2d8bb29134aee2fd3d3654c91ec0016ee227afff61e08a4e57f4d6b6d5d3c7",
+    "designs/design1/cards/faces/french-suited/european-standard/diamonds/10.png": "3685928cdb0e52b679d2abea535edd8109d828f2720bc558f5216f4ca8ffcf75",
+    "designs/design1/cards/faces/french-suited/european-standard/diamonds/2.png": "b65c67324e8c4af12150a40a0bb85267c12a8130e73cc6f22fcbd2f4c87264b5",
+    "designs/design1/cards/faces/french-suited/european-standard/diamonds/3.png": "6db02302d113ae17ccf9237d4800f2893a70d902a6ab962f60be43321ceff690",
+    "designs/design1/cards/faces/french-suited/european-standard/diamonds/4.png": "aa64c990a963f265fccd43958ab592587a9aa120752a13c11b668779868d52f7",
+    "designs/design1/cards/faces/french-suited/european-standard/diamonds/5.png": "237c4cfd9f16c01890a3f7c82b82e93f069ab90a26d08202a7a27a1a0552e264",
+    "designs/design1/cards/faces/french-suited/european-standard/diamonds/6.png": "9bd420481bec67a5f17b52ea523d455d850053583f86cbe26284f2bd9379f976",
+    "designs/design1/cards/faces/french-suited/european-standard/diamonds/7.png": "8e7945d98090c5f5a8b76ea1e82dbc8695442ee2d01dbbd7bf3d9c7cae0c9f98",
+    "designs/design1/cards/faces/french-suited/european-standard/diamonds/8.png": "7d35d37115cd3ac37e691a24fde96753a5485a4a1b899682a7d781b95f693e75",
+    "designs/design1/cards/faces/french-suited/european-standard/diamonds/9.png": "b0d7c031e5c365a89b391a3c842fe75d7207d85d96849336565610f910fee669",
+    "designs/design1/cards/faces/french-suited/european-standard/diamonds/ace.png": "599e69b7ce85dcc75e54596544a751ff4175c357e596ad4e262e78bdf5d1a3e9",
+    "designs/design1/cards/faces/french-suited/european-standard/diamonds/jack.png": "ea2eca41129e0eb08325422f66707ced3eeeddb43545ea17a01b2d2b9e5f679c",
+    "designs/design1/cards/faces/french-suited/european-standard/diamonds/king.png": "0b8bd050e7f6168057d30d5a027be0545d134cf7907d31b4d130c9d75a277e0d",
+    "designs/design1/cards/faces/french-suited/european-standard/diamonds/queen.png": "e1f4a23a53fde41664a56266826d6202a69597deadfcf7f54ee3962631b9d8eb",
+    "designs/design1/cards/faces/french-suited/european-standard/hearts/10.png": "c0a9aea0bafd5ff2da2c4308b31c1b5caf16d7163d028344cd0a6b7ef9804a68",
+    "designs/design1/cards/faces/french-suited/european-standard/hearts/2.png": "c831cc73e557a21ea3953bef394a3ec8977586cbe8aa825843694b024e0403da",
+    "designs/design1/cards/faces/french-suited/european-standard/hearts/3.png": "4a4ae3bccbc09356bf4efddfcbfa289e1cd1d4c90694dc9e636c6aa57e6035d9",
+    "designs/design1/cards/faces/french-suited/european-standard/hearts/4.png": "9a59a6db244fec7ce551c3a1088e6e5182bfed1ed602578778a9eb7d7febe317",
+    "designs/design1/cards/faces/french-suited/european-standard/hearts/5.png": "af06b12bf6a47fad89ac9369a8cd4b23a986635120406a8d294004178e78f714",
+    "designs/design1/cards/faces/french-suited/european-standard/hearts/6.png": "bc679cb72ece837235ef05c4404a488eedd6e9335bfb777598ae095c76d7145d",
+    "designs/design1/cards/faces/french-suited/european-standard/hearts/7.png": "3e1de535fb368863c40c7f1f7e1e3ba0e578392e1400e1f167a31d7aa4cc6f73",
+    "designs/design1/cards/faces/french-suited/european-standard/hearts/8.png": "9f20222aadc0730b1b69753cd5f0f9a01ab4c9926cdfa8199a5549ae5e5f0268",
+    "designs/design1/cards/faces/french-suited/european-standard/hearts/9.png": "03f734a721aa8ca746e2b6ba7b6758abc7c77f64c53a3d0a85815ecc8182dd7d",
+    "designs/design1/cards/faces/french-suited/european-standard/hearts/ace.png": "b41b6e44320c003a64e3e1a06a5e1d8530ea6798537ca64709a6881ac6337e98",
+    "designs/design1/cards/faces/french-suited/european-standard/hearts/jack.png": "2bf1e8add3524c820fedb30f5c1cbc02773c9b08a7a439e0070cb3c74b6150f7",
+    "designs/design1/cards/faces/french-suited/european-standard/hearts/king.png": "542400aa16489d49a2aac1750407b0fe1e0cd776f7fa0c0a028693ff2a2b33a9",
+    "designs/design1/cards/faces/french-suited/european-standard/hearts/queen.png": "b5c99d65c5d62fef3d3b15f88f11330ba80cee9062ba6a9726c121b805e4b530",
+    "designs/design1/cards/faces/french-suited/european-standard/jokers/black.png": "3333a5238a7eb2bd10176ac81c058b077e8e786a6f524a4f6e46e5b0a42d3aa9",
+    "designs/design1/cards/faces/french-suited/european-standard/jokers/red.png": "bcef120b87e6597dfe21f6370090df101a12c5f6fcdad6125a9975e8f2d661e9",
+    "designs/design1/cards/faces/french-suited/european-standard/spades/10.png": "527bca775df5825a476b54567d5e0c9bee6bdb170384f05da590cd18d9067b75",
+    "designs/design1/cards/faces/french-suited/european-standard/spades/2.png": "6a55c0e0ffe57ae70567b2a587b9297400b695b79799cf4da7a9f061ba532753",
+    "designs/design1/cards/faces/french-suited/european-standard/spades/3.png": "969a1e5b9ef92ce92f5b8095ecd982bbd12e02f946a71304d1bbf9ef64eb9c36",
+    "designs/design1/cards/faces/french-suited/european-standard/spades/4.png": "323259b37db8dccfc8d6b06569d5229e751aa6290d4a9ffb3d6ab7399e4f3548",
+    "designs/design1/cards/faces/french-suited/european-standard/spades/5.png": "c8391150ec6978a0af36fea6704962b54315d54ece1695d66a077795f1c91c72",
+    "designs/design1/cards/faces/french-suited/european-standard/spades/6.png": "ba9f14fc5418f36171b2b36ea6e52af42b70b222187503f584108a30d598a6a9",
+    "designs/design1/cards/faces/french-suited/european-standard/spades/7.png": "648a937db129d705751d72e0549568ea3394b01b6251f5ccc16db3766945badd",
+    "designs/design1/cards/faces/french-suited/european-standard/spades/8.png": "009a03dfd8d1db5f6702a290acc0fac95d5da5918aef05619c0c85c4becc6da5",
+    "designs/design1/cards/faces/french-suited/european-standard/spades/9.png": "a5472b4bc2d9df12b8524be308a248dafabe9cc5592e83d99e3bb6a860ad9544",
+    "designs/design1/cards/faces/french-suited/european-standard/spades/ace.png": "507b78027ecad9632a3c181e993f849121e434ada3d8d0bf8ede0dd890391f05",
+    "designs/design1/cards/faces/french-suited/european-standard/spades/jack.png": "0fe0e25051e501b3d414f5e809de7b113d9f99a44eeb3e8f2a63b1c0ae83e0f0",
+    "designs/design1/cards/faces/french-suited/european-standard/spades/king.png": "c8e242c70be0007af9293f483174a26a4db5631459371606d29da20480a15b56",
+    "designs/design1/cards/faces/french-suited/european-standard/spades/queen.png": "7350e41e1c12ab77c1b863ba6177d50df3894cf82db714a10e9e44e1bf684363",
+    "designs/design1/cards/faces/french-suited/jumbo/clubs/10.png": "badef3010f02f014a0a6876803d1c5a1bdeedf98e0880e401c03c8d6ae2ec8e2",
+    "designs/design1/cards/faces/french-suited/jumbo/clubs/2.png": "45e22082a701bdac3acc8edd8839bfebde2eda9028324a103f855cb6f3b0c549",
+    "designs/design1/cards/faces/french-suited/jumbo/clubs/3.png": "74c15575383be898fd74724db3c54992a435db72a33bc78d88bdb83819e40e43",
+    "designs/design1/cards/faces/french-suited/jumbo/clubs/4.png": "cc2ef387780bec610e151714f8d6df077cdd51eaa0954d19a25cd546326f5640",
+    "designs/design1/cards/faces/french-suited/jumbo/clubs/5.png": "3ad4b9a7206988331e2f167e14a8ff566528f0a4af507af6dd658a84b0141a32",
+    "designs/design1/cards/faces/french-suited/jumbo/clubs/6.png": "d9ffd7896c1fa63aba4631bacf31e0d3c935c65aaaf2ff4a82a0c4f2792c6a36",
+    "designs/design1/cards/faces/french-suited/jumbo/clubs/7.png": "c82bd451add12685eccfb5f80b16d66bc80703c4f3feb173d05e71632479de3a",
+    "designs/design1/cards/faces/french-suited/jumbo/clubs/8.png": "de9a924bcb26192ef3010371f8bd6b4d14112042166f13f2cfc966743b469d27",
+    "designs/design1/cards/faces/french-suited/jumbo/clubs/9.png": "eb1f5db75dedd170a9fd4af70d888368e4da689059525caf26c451cc9e66d7ad",
+    "designs/design1/cards/faces/french-suited/jumbo/clubs/ace.png": "ccf67f973e15721ec3c61f4f1a459d06b83ce45d8207320aa0472fdefa26774b",
+    "designs/design1/cards/faces/french-suited/jumbo/clubs/jack.png": "61d52a0e01b17a7222954389617352b6ba516646b840a7615e3d237978feef7d",
+    "designs/design1/cards/faces/french-suited/jumbo/clubs/king.png": "7d6a54a6aeffce432e8f9f1fab3d068e59901a30b26ccfe17de7d593fc6ff63b",
+    "designs/design1/cards/faces/french-suited/jumbo/clubs/queen.png": "1e83d36ee00c1028879a6d0c5b76ac7ebab2a9da7a927fb5dd9c84808487c659",
+    "designs/design1/cards/faces/french-suited/jumbo/diamonds/10.png": "472ce54d9162fce12de45e01e9e5c29fc94d1bca91b9818d8b674f2d6654fa68",
+    "designs/design1/cards/faces/french-suited/jumbo/diamonds/2.png": "3fea34b20c742f0bd5fd31446d7ae74703da0666d980289e655fef6db4292bd4",
+    "designs/design1/cards/faces/french-suited/jumbo/diamonds/3.png": "b27c70f2844a3923dbe1641ae1609cdefd66271386e70abc1ee558aef8e312a1",
+    "designs/design1/cards/faces/french-suited/jumbo/diamonds/4.png": "eef4ea8e9aee3370cd606b26e11d1d07420a72de1c3d06d61a53fc2a9b64d8ab",
+    "designs/design1/cards/faces/french-suited/jumbo/diamonds/5.png": "5bf7da4416c90079df3a99e25208001fc6d53680f9fddc20c3d6c76f85d3d070",
+    "designs/design1/cards/faces/french-suited/jumbo/diamonds/6.png": "29ab412203aedbd1e3bc900b3af529a2c556ed3f18f29e0a1dd7ecbc9a031a02",
+    "designs/design1/cards/faces/french-suited/jumbo/diamonds/7.png": "15ca81cadef77a9bea38a7ca89dbce7700460823d5dbfaf9a663fba7f1f6402c",
+    "designs/design1/cards/faces/french-suited/jumbo/diamonds/8.png": "f7bdbaaf6c9459c401edd90d9600ccaffa5b95c936d2e88e6570df34a7f604e8",
+    "designs/design1/cards/faces/french-suited/jumbo/diamonds/9.png": "c7c89ec4923753cdd0d10f214f0cb7b373ed2eb8843307b618ae9bd3ea7b4139",
+    "designs/design1/cards/faces/french-suited/jumbo/diamonds/ace.png": "2b41fcbd202ec1264a8866005140cb94d14429ee1c6e87955a7cb2118b2a7d52",
+    "designs/design1/cards/faces/french-suited/jumbo/diamonds/jack.png": "208444797f8d1d93495bf6ab684f6843d3e7e412528e08a63d1bb1014139533c",
+    "designs/design1/cards/faces/french-suited/jumbo/diamonds/king.png": "8d9bad99d64f585d9b67ac078bed3a806d35319a4c90ea131fca12c1fc9b64bb",
+    "designs/design1/cards/faces/french-suited/jumbo/diamonds/queen.png": "9e39e100f6f76e1ae73369f11150372843978d148ed9028f9d9fb629399d3a9d",
+    "designs/design1/cards/faces/french-suited/jumbo/hearts/10.png": "206c8d8d92b5f2775ae04d87eaaf1ec99b17d344ccf5d1c54f42630199228053",
+    "designs/design1/cards/faces/french-suited/jumbo/hearts/2.png": "62401104cdcf764fb0445a728583ff61052f3b662699019dc522b2305b51a663",
+    "designs/design1/cards/faces/french-suited/jumbo/hearts/3.png": "1ec933c25fc8d565312b1fa0a40591e323064ea39a6f9e3d26b4e04c4a856e8d",
+    "designs/design1/cards/faces/french-suited/jumbo/hearts/4.png": "65ef0e3ecbb813a01a6b91e816259b46cbe5b7355ad2bd2880c41fde9f74d77f",
+    "designs/design1/cards/faces/french-suited/jumbo/hearts/5.png": "63c567e837401ff44e15699862abc905f0f67d8b319a0ceb54d50a57cfc4c549",
+    "designs/design1/cards/faces/french-suited/jumbo/hearts/6.png": "c036a838d5f8e896460162e618a151cb7ae20d007206301cc0e9d4d9f6186aa1",
+    "designs/design1/cards/faces/french-suited/jumbo/hearts/7.png": "764e7245b2785bd1d733e8dac888cc9f97cc8bbfc6da844a88d4657aac7cae8a",
+    "designs/design1/cards/faces/french-suited/jumbo/hearts/8.png": "2c429a41e7aff058130000636a32b4ec775ea37884442995f135888faad8c9a6",
+    "designs/design1/cards/faces/french-suited/jumbo/hearts/9.png": "dd1dcfe390a6fb59c6646ff3fdb088b41283be5817578d670116591d34139dec",
+    "designs/design1/cards/faces/french-suited/jumbo/hearts/ace.png": "6ca4ce4a6f8e2295705241b69b134c649c5c8a8c9234a8819b26a5dd79bdcbc4",
+    "designs/design1/cards/faces/french-suited/jumbo/hearts/jack.png": "cce2ce25a7676221e276bfc51c370e57dd8dcd493474b26fdfe88f300fb05efd",
+    "designs/design1/cards/faces/french-suited/jumbo/hearts/king.png": "a7c6bb63486da522c55fd134ff1982bcded385f298244e59591fb34dad1c4a2d",
+    "designs/design1/cards/faces/french-suited/jumbo/hearts/queen.png": "cb83bda6f2fd7d4acf34ea839ae60146b51e920d8d83ba16ba5e2cb156ee09bd",
+    "designs/design1/cards/faces/french-suited/jumbo/jokers/black.png": "e9b9d695dd1bd326486736fe5e2e5f4c6e053e891bdb8efcaf9066c86e76cb31",
+    "designs/design1/cards/faces/french-suited/jumbo/jokers/red.png": "83c0ec67906073b216144f5e732c3b1072f79a2e637778cc4c1cc00ae2e57c32",
+    "designs/design1/cards/faces/french-suited/jumbo/spades/10.png": "98d0fbdc3a7e827b0885d16a621fab69b2030fbf178fb8280b63daaab648a6aa",
+    "designs/design1/cards/faces/french-suited/jumbo/spades/2.png": "8cb05a92e86584ccdf36e227535ab3ccc8776faffc4a82f0b0dfb9055fb48537",
+    "designs/design1/cards/faces/french-suited/jumbo/spades/3.png": "ee03b2cf6f160af6f4e5a128094436d268072febc8aea720ad48cda5e8b59b84",
+    "designs/design1/cards/faces/french-suited/jumbo/spades/4.png": "b78f3fbf9ef879b861270e9960c82e6899a231735efce8ca5b396729b90628d8",
+    "designs/design1/cards/faces/french-suited/jumbo/spades/5.png": "bf3970d186b369442c500728c0ea002e4964f127dd70bd3a37096c6d901869bf",
+    "designs/design1/cards/faces/french-suited/jumbo/spades/6.png": "01ac1ea10636ff9a6695bf3e3d93d729686d81173df87036cf1db512f94db063",
+    "designs/design1/cards/faces/french-suited/jumbo/spades/7.png": "6ef2ff94429fd37ec1c19777dd20cb0eb737eeca40b53fa5fe3bcfbb47feddde",
+    "designs/design1/cards/faces/french-suited/jumbo/spades/8.png": "19533515829a4488263693f1b4531ec994dc00cd1312ed3cf3d6406ff996fd1c",
+    "designs/design1/cards/faces/french-suited/jumbo/spades/9.png": "fcb657614d1088f64b5682391bd960360f8b57642af7d99383867b991873197e",
+    "designs/design1/cards/faces/french-suited/jumbo/spades/ace.png": "cbbeb866b724406b226161d095ce751042f8c109cb0ddb7230548db618eea8ae",
+    "designs/design1/cards/faces/french-suited/jumbo/spades/jack.png": "1d8bacd3045dcc1044d3656c0793dc40b4d73f0519d28ce884f84958acae30da",
+    "designs/design1/cards/faces/french-suited/jumbo/spades/king.png": "29cdfc818752eb7622eda0b839c67fceda041567ec19bd5f1334a1bf3c88fa27",
+    "designs/design1/cards/faces/french-suited/jumbo/spades/queen.png": "bcea8fe4d87282564fa1f8a00e1a5a9d86aeb416dd315fcb6f56fb0083b70d85",
+    "designs/design1/cards/faces/french-suited/poker/clubs/10.png": "e843da21c623f8ec995dd1c62e7f767681a6135cb03ca99a0528064aa9680331",
+    "designs/design1/cards/faces/french-suited/poker/clubs/2.png": "6694d0dae9bb8aaf653d792d830687b537f1020b3af327a0fbfa2567b0b5da60",
+    "designs/design1/cards/faces/french-suited/poker/clubs/3.png": "f973083b62ad668ffb835fb53b36307a6c701d4d2bc915a995e1c9deed11815c",
+    "designs/design1/cards/faces/french-suited/poker/clubs/4.png": "cfec4f6161c1b97faeb674da9f7723012ea4395770e20fb4acde1a624aca5cd8",
+    "designs/design1/cards/faces/french-suited/poker/clubs/5.png": "e3209ddc56f924b99e4ad120142bc93ab03ce05db190d620ac7e1e2e2e4cb8f3",
+    "designs/design1/cards/faces/french-suited/poker/clubs/6.png": "42cff2d150a26403b9384e3d128228cb7660d594c2526278103103a4727b26d9",
+    "designs/design1/cards/faces/french-suited/poker/clubs/7.png": "d38e35e06a7ef9367e8d3928f89242f7d3487340b2e9e1f5bfa39a8d6e015671",
+    "designs/design1/cards/faces/french-suited/poker/clubs/8.png": "b141d356f1e3582f8a32fda9f841e6cd485bf20eff74a2d27a0fe77f491e1639",
+    "designs/design1/cards/faces/french-suited/poker/clubs/9.png": "20fdb531797e7b9c4d946a2f58acd6d56f6227ecd29d49826d98a4bc510826b4",
+    "designs/design1/cards/faces/french-suited/poker/clubs/ace.png": "4b3ee281f55694ed774090b8a2cefc7dbbbb7a366fc43863b3bc73a38e256550",
+    "designs/design1/cards/faces/french-suited/poker/clubs/jack.png": "075296779017a8a0e1a55284633723f5cc7d7f76d6d9c89cc49376fc0811fffe",
+    "designs/design1/cards/faces/french-suited/poker/clubs/king.png": "72de67fab6dab65a5a475d30cd3667afdc9c99be73bc2e99b2065f729366522d",
+    "designs/design1/cards/faces/french-suited/poker/clubs/queen.png": "dca89a8dd362d4bd1f1184c5a37df2e98fc2ed83ebd904d3dd7da6c10eb14a10",
+    "designs/design1/cards/faces/french-suited/poker/diamonds/10.png": "766deeae7ca40a581d9e462b12afea2f24dff8cf6ad4b0c542f7aa02fb9538f8",
+    "designs/design1/cards/faces/french-suited/poker/diamonds/2.png": "cfafa180b91c44d3869bb2d0bc3a40302c5c72f6189de6142a37716f076f01cf",
+    "designs/design1/cards/faces/french-suited/poker/diamonds/3.png": "d4e0d716ec0c595d84918a60738f54bb2ef3bb68a1f130575d9bfe3186d6fec4",
+    "designs/design1/cards/faces/french-suited/poker/diamonds/4.png": "d5506aac8128d4742694c2fb5dbe699da79a12112c6a617ec366ae97edced721",
+    "designs/design1/cards/faces/french-suited/poker/diamonds/5.png": "adbb5d1527214ec34e4f4b749c3f004a035b70c3a4dbd9eb5d69fa3335af2317",
+    "designs/design1/cards/faces/french-suited/poker/diamonds/6.png": "a3b79107b382f923f317d1c759a90cc8013ff11e0a5fe0b6afa961771cb0833a",
+    "designs/design1/cards/faces/french-suited/poker/diamonds/7.png": "cd482b68c2ab00029417653b76c949b913e8f83b70a445d36b669dad3110a2cd",
+    "designs/design1/cards/faces/french-suited/poker/diamonds/8.png": "bf0293700f3b17dca819fe912bec97974a8dc66f896472050e6ef9df6f0f26ac",
+    "designs/design1/cards/faces/french-suited/poker/diamonds/9.png": "01e60af693e096645c9f8d705818eb77c8b3253838b38154ac371748768e1393",
+    "designs/design1/cards/faces/french-suited/poker/diamonds/ace.png": "aeee9c7e28b9fe14d523d042fb51ebda30afcc1e2ab09d8de25e2086cf374fe6",
+    "designs/design1/cards/faces/french-suited/poker/diamonds/jack.png": "ee3eab4b0f06952b45e83b3640e134cd1f418f1482d818298408de858c98ff33",
+    "designs/design1/cards/faces/french-suited/poker/diamonds/king.png": "eda234b5c4455bdc29b297c4f6f932bde10f5a0fb62452cabd95c3929b691645",
+    "designs/design1/cards/faces/french-suited/poker/diamonds/queen.png": "5014b087e32c4132509139567e248d42f52af558e9ea4f02357aecea01d3f0c8",
+    "designs/design1/cards/faces/french-suited/poker/hearts/10.png": "e00644dc0a7f14ecc61e2974175edc4c3f1c2b4b79fb2916ece3f5dfc94a9e7d",
+    "designs/design1/cards/faces/french-suited/poker/hearts/2.png": "67ad3ca549ac5f5dd8589dccb6ba03640d713775f279db900b8880df33669f5d",
+    "designs/design1/cards/faces/french-suited/poker/hearts/3.png": "2b749f23a53417f055ced39e5b942af4f95cc4451923f29af580693a871c247c",
+    "designs/design1/cards/faces/french-suited/poker/hearts/4.png": "5f4d7edd172606c18e87f2d323cc0f8492107fbd9a3152734266e8b5e2447f2f",
+    "designs/design1/cards/faces/french-suited/poker/hearts/5.png": "5a60461fab135a426d25b6e0dfd3a8d98758d312edde15ecdb9aabfab649b24e",
+    "designs/design1/cards/faces/french-suited/poker/hearts/6.png": "4ed59d1625085e1eefaae6088307d614a905be3618e7e1b232c6d40a22700204",
+    "designs/design1/cards/faces/french-suited/poker/hearts/7.png": "9118a260faa071183b7879dee6ec2147581b50b1ffeb2a05eb06e45875cb8182",
+    "designs/design1/cards/faces/french-suited/poker/hearts/8.png": "69492294f868632d07ad03ed0eca274e1d8a651aadd61b49f53d955c2a1b3653",
+    "designs/design1/cards/faces/french-suited/poker/hearts/9.png": "674c4fb185d38309f7f00c7d642ba869f3e45572061e620981e7128409fb90f6",
+    "designs/design1/cards/faces/french-suited/poker/hearts/ace.png": "687ca6fcc08b6202d43a0bcb53df4830b1915b4d86a8f70511d4791e38271b76",
+    "designs/design1/cards/faces/french-suited/poker/hearts/jack.png": "2cee72fde7d860e5741a5ae6d550438a1f1e16c6234d57f2984ccd98aa76ab59",
+    "designs/design1/cards/faces/french-suited/poker/hearts/king.png": "4e85f641048e53a93c3d84af4c92277b723b1708b5f723e8ac77b28a13234f26",
+    "designs/design1/cards/faces/french-suited/poker/hearts/queen.png": "2587f506d5904ec2865af75f47ffa844ecada75b8a1195cfdf0200417acac376",
+    "designs/design1/cards/faces/french-suited/poker/jokers/black.png": "c3a54ab334696dd5e4e2a526e3c72647b34bf176f6a68b6e1c623631af6d3395",
+    "designs/design1/cards/faces/french-suited/poker/jokers/red.png": "05b00e0095d43f8878de484f25e1d1ffa4d530216498892e580055b3c0574949",
+    "designs/design1/cards/faces/french-suited/poker/spades/10.png": "431a7a013b63f2c84892d2287413e13dbde3751288b36c62bccfbd2d70febfef",
+    "designs/design1/cards/faces/french-suited/poker/spades/2.png": "245b3443a1cdbffc76e5aa5dae749213d086fe29b057837c37d3f2db7bccd70d",
+    "designs/design1/cards/faces/french-suited/poker/spades/3.png": "4e936f34ced9a80617bad9a92738339a78f772917b9ef29ef2191a4a439303d4",
+    "designs/design1/cards/faces/french-suited/poker/spades/4.png": "b0ccade0232f930e854639b644bc66614a05a435a5d4f2cc5bc1507df33e8f38",
+    "designs/design1/cards/faces/french-suited/poker/spades/5.png": "df6b7ffbf5666e0fa9ddd1ad37c8ecbb397668d101fac565a356f13a64cd8e69",
+    "designs/design1/cards/faces/french-suited/poker/spades/6.png": "cd4e4d5e4ec905d231c8a865fbde96d8161a7a6f1eb0d15ccd894c1537a5053f",
+    "designs/design1/cards/faces/french-suited/poker/spades/7.png": "b6a226cffc0e488ccae7639cdfdebfd16d69e6760bd407e0e3ebac595ad1a41a",
+    "designs/design1/cards/faces/french-suited/poker/spades/8.png": "674fe1295a8fe53c96ded08c5d8fae573f5f00531a77fbe02c5dae34d6b0c3b4",
+    "designs/design1/cards/faces/french-suited/poker/spades/9.png": "7dec1accbd400e940656c6a4c8b459b248a76ea74cf2328170c0e9fb6ed918ea",
+    "designs/design1/cards/faces/french-suited/poker/spades/ace.png": "30e0ea802bb98e33518ed691b2cd0e215766ad20f9b82c18303e73a429cef25d",
+    "designs/design1/cards/faces/french-suited/poker/spades/jack.png": "165f5f81a523dc0f90819f31713022a7ac19ea94591533653147fb031093adc8",
+    "designs/design1/cards/faces/french-suited/poker/spades/king.png": "41d423cec673799e5959b60755756351aa73eb4a901ff14d6b820c756a2890f2",
+    "designs/design1/cards/faces/french-suited/poker/spades/queen.png": "5b1d6830e0bb6aa8efc233c800b97cfe445b27409eef507643fd34dee4a2b8fc",
+    "designs/design1/cards/faces/french-suited/travel/clubs/10.png": "eca44d741cd54e77ceaf46d8a1c456302b5a6ee921fa8ee790a8f8f42a9ad495",
+    "designs/design1/cards/faces/french-suited/travel/clubs/2.png": "f2078a96e6affb1e9971529d3c8f85beb453422bc7489e33bc6248129eaa666e",
+    "designs/design1/cards/faces/french-suited/travel/clubs/3.png": "67989880a0b0a977ab25a2c776d8dcdc7fbae589e3c62db9dcc9d9626e5cde46",
+    "designs/design1/cards/faces/french-suited/travel/clubs/4.png": "b57214949ba6648aceb4ea1508fb91fc9f474a651288917fdec64d182d3f4514",
+    "designs/design1/cards/faces/french-suited/travel/clubs/5.png": "71f346681c14cba6ebcd1caab2789eb2e1d325de813fedb2422823bb31f9e278",
+    "designs/design1/cards/faces/french-suited/travel/clubs/6.png": "3fc3903fa1593d7584aa85bd98579605ff9cf7b96120e80097fb5732d8910730",
+    "designs/design1/cards/faces/french-suited/travel/clubs/7.png": "ee3ca3bc8d3a4f73381b4f01f1c618a3cfd2c5d97a59eb3e18b37720cf707e0c",
+    "designs/design1/cards/faces/french-suited/travel/clubs/8.png": "f96befd084bb0c9133e9c1278b9c570879fb53b069cf20607f09884168da513f",
+    "designs/design1/cards/faces/french-suited/travel/clubs/9.png": "2eea8ca57c020867042ecaef64628f0691e53116eba2d7fe0b13de5f8cbb98d8",
+    "designs/design1/cards/faces/french-suited/travel/clubs/ace.png": "c8fe8a60b0cc3749fdc98e215c8dd3418d5d6b24148b3d8dbf5a214f7e46ea9d",
+    "designs/design1/cards/faces/french-suited/travel/clubs/jack.png": "8d4795a40c37a700ae3d95d506340d225773892abd7867ad63879d24f645308e",
+    "designs/design1/cards/faces/french-suited/travel/clubs/king.png": "fc70436e69e9c0c6153e2fcf5858eb98421dc156180b17936822ad98cc312592",
+    "designs/design1/cards/faces/french-suited/travel/clubs/queen.png": "77fb2d7f0b4f34f2151a79f513c8a6b843df72745071330b9817aeee3bfbc017",
+    "designs/design1/cards/faces/french-suited/travel/diamonds/10.png": "c6f8c80e0d91a9e6894f467f3dac11441452ff8d7c281cb39d7b734b8e83abed",
+    "designs/design1/cards/faces/french-suited/travel/diamonds/2.png": "2c352316724f8a665aa006046e6967b34c4f8becb61ba1813061094b3165785d",
+    "designs/design1/cards/faces/french-suited/travel/diamonds/3.png": "b366cad38e28de56e2d175df388ea904ee1451120115739e3d0dd3760fae5a09",
+    "designs/design1/cards/faces/french-suited/travel/diamonds/4.png": "14d0930008a5932b94aa4efb2982db241376556bf1cdfa96f6d93fb2b3dc1fd8",
+    "designs/design1/cards/faces/french-suited/travel/diamonds/5.png": "6dfd7e6bf00aa732cdcda78e8c87b4d3c570a073c4b3a78dab81939f31d7b5e8",
+    "designs/design1/cards/faces/french-suited/travel/diamonds/6.png": "3f1cdbd38e76e7a4f2a9facf9d3307f7b008bf1d565e87cd41f028cef99537d8",
+    "designs/design1/cards/faces/french-suited/travel/diamonds/7.png": "94f4a5659449e625f4b4c9f43c8b1834d46806c3cec3b1539cba98b94774287b",
+    "designs/design1/cards/faces/french-suited/travel/diamonds/8.png": "fc962a013bb14f57e37ff6ad7b3359ac0570b0bd70e0838e6d408e985f2640e3",
+    "designs/design1/cards/faces/french-suited/travel/diamonds/9.png": "6dc7453a19fb4683b13539819b8f852b3c72e6f5c683726a3a9783a5b0280b70",
+    "designs/design1/cards/faces/french-suited/travel/diamonds/ace.png": "f5bc3b0ffa1432cab6d7a028342910ee448864e5f68dfaea4b5ab90ae212d4a7",
+    "designs/design1/cards/faces/french-suited/travel/diamonds/jack.png": "a60712674486f4e3e8662954a26790a61eecd821e7ff80f6a2033056a8f2d05c",
+    "designs/design1/cards/faces/french-suited/travel/diamonds/king.png": "b77126d85276b0f6cc019f9c768af9506addc7546493e8cea45a8be3d6c48ef0",
+    "designs/design1/cards/faces/french-suited/travel/diamonds/queen.png": "54d15afb1b64bf4cc6daae860dd4fc7f5a87e77c208272bee2c1bb469cf35c6d",
+    "designs/design1/cards/faces/french-suited/travel/hearts/10.png": "db11d8fafac04265687a8891e278216b02b5b2832d647afffcc0571c0d97c249",
+    "designs/design1/cards/faces/french-suited/travel/hearts/2.png": "5762625b7c98070a394a2c75246fad3a622a83b6bc3cd21d586c4ecac9900acd",
+    "designs/design1/cards/faces/french-suited/travel/hearts/3.png": "5d57dbbe3e76e75e4aad13975e5637da7fb49dcc4b7e0f4b28ba2e9a74cf3460",
+    "designs/design1/cards/faces/french-suited/travel/hearts/4.png": "e7ae91fa82d8d3b525e527e1b31272bb9a9df6695440156f7ac020552edb3bcb",
+    "designs/design1/cards/faces/french-suited/travel/hearts/5.png": "a73a4cec09e8e7851f397db2a4f221d20f82b01949be1f588c579ee02f9e5dc9",
+    "designs/design1/cards/faces/french-suited/travel/hearts/6.png": "4d189b0f27878cd0c57c514975f4946f8caed91f2a8474f0bd3811e4f22330b2",
+    "designs/design1/cards/faces/french-suited/travel/hearts/7.png": "fc4d0afbfbf27bb8806a28e0cc93a04e9fd3329cf0c27f25f07a7a7b5e7a9a0e",
+    "designs/design1/cards/faces/french-suited/travel/hearts/8.png": "4572a3e06b69c89b9a35899e7fca4ee0d02cd6ffdc1b3888960e814c8b8c32f3",
+    "designs/design1/cards/faces/french-suited/travel/hearts/9.png": "ef7a5c341e0ffcf0a2bcafa28bb9bc3f5c2f64b62e21aa7d7fd30a9e60efc207",
+    "designs/design1/cards/faces/french-suited/travel/hearts/ace.png": "4a29c6ef4feb17c6235154446d55f73b24df812fdc16cc237809d39fd5c0151e",
+    "designs/design1/cards/faces/french-suited/travel/hearts/jack.png": "d9056476f8cb4a2ea1600aab23f4ffe60fede26c820ce98f7b2854cd0c3231d0",
+    "designs/design1/cards/faces/french-suited/travel/hearts/king.png": "bfcdf8dadc59d65db822e81feee15424122523adbc709082daefa5f160e6d2ae",
+    "designs/design1/cards/faces/french-suited/travel/hearts/queen.png": "7614c4f6be4552d59429867398c9f92e63a87828c5bc65f2e98c85be48577922",
+    "designs/design1/cards/faces/french-suited/travel/jokers/black.png": "83ff069d6c11e7cea44fd25330bfceceeb9007ad2173c40f8810fe81ac3d2cfa",
+    "designs/design1/cards/faces/french-suited/travel/jokers/red.png": "d87b6847c348e81d6fe779f7ef421b18aca86c108adffee97e36defc2f4a679f",
+    "designs/design1/cards/faces/french-suited/travel/spades/10.png": "54873b99fedce68c02df01b26810ce26d83083bfc1554dff960f65b839dd2bbf",
+    "designs/design1/cards/faces/french-suited/travel/spades/2.png": "89815139ce8ccb28d09679d79a07187c5ea84b3fb65548175d713d00ec9aef72",
+    "designs/design1/cards/faces/french-suited/travel/spades/3.png": "f4f8d6d01b03b8489f4c7c1701d7c2c8921dbb86e380f7cc920a7c1144bdc723",
+    "designs/design1/cards/faces/french-suited/travel/spades/4.png": "f72ceb8d5d67c9a6d299120bde19877e562556931e8fa7ee2203ef7837548674",
+    "designs/design1/cards/faces/french-suited/travel/spades/5.png": "9b5bcfae96095c0177ed78b1c89e14fdef2015b81e1ac17407413179b551d746",
+    "designs/design1/cards/faces/french-suited/travel/spades/6.png": "9a09020632c554c3a92fc17188816ee7339eb319871e1b02754acdbac062f69c",
+    "designs/design1/cards/faces/french-suited/travel/spades/7.png": "5e1f4bf6102fdb66ebb7c0aca6e844a9f778ae454ebea759330b32d88d4a2685",
+    "designs/design1/cards/faces/french-suited/travel/spades/8.png": "59b5c41f81b01c5b8686825f2717f10e3994e1eccec4eeaf2cded5c3bd3dd89f",
+    "designs/design1/cards/faces/french-suited/travel/spades/9.png": "a80e550e133881e9d6f3f3190164f4de01c47bb6cb87d67668aec76f6b18e0cb",
+    "designs/design1/cards/faces/french-suited/travel/spades/ace.png": "d781680270a45a248c4f1a66e0281688eb9d75d4ec51fc0cadc3ade075852991",
+    "designs/design1/cards/faces/french-suited/travel/spades/jack.png": "a8ed42f81505a8e8af6917d0905e463480782f473c906bd4fb0527063235e71f",
+    "designs/design1/cards/faces/french-suited/travel/spades/king.png": "5b20a5532383d34fe94e1ff4e9371e08a52276dfb81b31fdc6eb0ac4358568cc",
+    "designs/design1/cards/faces/french-suited/travel/spades/queen.png": "b56e26377f336552e912df4d49606a7ad914f1625c6d0cfcee4a7722e1432a16",
+    "designs/design1/cards/faces/tarot/tarot/batons/10.png": "174558568de0c1c01df30e6df867daf26ffb9017427ca73f89d2998f84f96f97",
+    "designs/design1/cards/faces/tarot/tarot/batons/2.png": "6953a60d8c83e7f8758e6160adf722d31af9083ec9c3240c37c60f9a27e9b43a",
+    "designs/design1/cards/faces/tarot/tarot/batons/3.png": "be3b9d71ab5548f16d0818a8f6816ad3d99600e7e93c557314bd27ce4cd24dc6",
+    "designs/design1/cards/faces/tarot/tarot/batons/4.png": "0e811ef8963bdc1935f49026cd4a2eea7ccc08b0bdb6bed70d2bcfcce4d59e07",
+    "designs/design1/cards/faces/tarot/tarot/batons/5.png": "fab39f0ee437866c9659de258e0417c688a5e06e4e738e804057671495039772",
+    "designs/design1/cards/faces/tarot/tarot/batons/6.png": "ee5787d1312b6e6db50c4c0463ddb36df2bc2504c4757d88e875846f93a8150d",
+    "designs/design1/cards/faces/tarot/tarot/batons/7.png": "2a72ff420e30f304ae5cb28cd83e8091a8b3a0bec7a10ea2e128cc3dac3f5507",
+    "designs/design1/cards/faces/tarot/tarot/batons/8.png": "79c340f73d5c32854ef2582fca8ab239292ffae2727db03eeb180360228f92ac",
+    "designs/design1/cards/faces/tarot/tarot/batons/9.png": "64e2b159276caefdd5eb82037040e3045332dec468ed502304912a88a25ebcab",
+    "designs/design1/cards/faces/tarot/tarot/batons/ace.png": "de0163785d7818b85ab7e57b6bda88b7da89396bb3d4aa891c3b17d4762203f3",
+    "designs/design1/cards/faces/tarot/tarot/batons/king.png": "9fb1a0bd746ec769f94c2029996ab35d0451925ee80ce114b3ea02e17d8addce",
+    "designs/design1/cards/faces/tarot/tarot/batons/knight.png": "80008b3d628428ea2fd5aaa4d60417ab9c0d437d5c181622c6fc9de7d5630f1a",
+    "designs/design1/cards/faces/tarot/tarot/batons/page.png": "85f66bda32bf558b90343c4ce43ff27a47d75a807a5b2658494e5f065b83c960",
+    "designs/design1/cards/faces/tarot/tarot/batons/queen.png": "cf85f70d28bf4c9b93d6e3b076c455d28e7fc21efc074dea2c08249aecfca965",
+    "designs/design1/cards/faces/tarot/tarot/coins/10.png": "e460350b679ff86ce09ffb78f2e0da7871347b3c85efe143040a796b68a6a02d",
+    "designs/design1/cards/faces/tarot/tarot/coins/2.png": "281d8dc955a5d544451a32c8cf7794e232ec9db6715300f95ceb40b1c3888747",
+    "designs/design1/cards/faces/tarot/tarot/coins/3.png": "7bc44bdef4401658eebdf7fc5f95cd78af96c3b3a7dbfcd81102aa458d9f51de",
+    "designs/design1/cards/faces/tarot/tarot/coins/4.png": "dbd8a460aef62972960e0d50b1b4f14f1ea9ec1513f69a991c58d8a56a5b73b0",
+    "designs/design1/cards/faces/tarot/tarot/coins/5.png": "478e6ae7837e62516e994277cb84f0ee1cf847bfa17dfc0f26b1d7912f0b4d4e",
+    "designs/design1/cards/faces/tarot/tarot/coins/6.png": "f63e4a3a75bd0e1bc8a6661321e2cea5b71bf42cf9b9085148c0aa773699a583",
+    "designs/design1/cards/faces/tarot/tarot/coins/7.png": "073ef3fdf8e64208913f825c015fefbb4bddb27e33f62ad1c43bcaa38ae1feca",
+    "designs/design1/cards/faces/tarot/tarot/coins/8.png": "0038df93c6e3c671ce5e63468ed2aa07049967822363d7d22bb1296c66d610a6",
+    "designs/design1/cards/faces/tarot/tarot/coins/9.png": "b8961136573628af0b8c668a30637f4ae4f83f183f4b7c6516ff6c7aa8fa809f",
+    "designs/design1/cards/faces/tarot/tarot/coins/ace.png": "ac7f53717f033c34ecdd492a48a0d4c0b7752c13313d7f3c875696f9403fb845",
+    "designs/design1/cards/faces/tarot/tarot/coins/king.png": "335dfba7b0d500290cdd6b22a863f085c671c91c86e61fd9e47436be75e23832",
+    "designs/design1/cards/faces/tarot/tarot/coins/knight.png": "13c7c4ad474055616318cb4988fd55d90674f30cd75fec883328160b5f888e53",
+    "designs/design1/cards/faces/tarot/tarot/coins/page.png": "d4e7e663ec9ca390f1a9e9578f497781838493a410c925a67d6753841e827924",
+    "designs/design1/cards/faces/tarot/tarot/coins/queen.png": "14ff98a7351b43d4f590b0e702bdd1a3249ea0795c5b67a6fb2ed55f37b80ad0",
+    "designs/design1/cards/faces/tarot/tarot/cups/10.png": "8553154b68891e178162fcedda77d7b42244482648a2f786ca280e0107e06a1b",
+    "designs/design1/cards/faces/tarot/tarot/cups/2.png": "a72c8dd71d7ba90483a4fc03df69773c45ed087de3bf057217e1b5a3db49a46e",
+    "designs/design1/cards/faces/tarot/tarot/cups/3.png": "a1711065b5199b8bd35bfcbd54c514476c792360e6aeee7bc0c19ab234a62755",
+    "designs/design1/cards/faces/tarot/tarot/cups/4.png": "6e776bfdad0c901ec3aaccf94eb9ee0791427e11a8e35a71e31a4cc2427b4597",
+    "designs/design1/cards/faces/tarot/tarot/cups/5.png": "09f0e1d67bef4cb5826f49837a92e34018271bfbf92626ac52ee0388ca2790d0",
+    "designs/design1/cards/faces/tarot/tarot/cups/6.png": "9a110be88dfc2b6569de55c2429ca4091656a2c4915c0be7dbc079c32a5f05aa",
+    "designs/design1/cards/faces/tarot/tarot/cups/7.png": "fbb5b207eb025183c90db16629669f781c3cc342db06336ed9329336f6bac554",
+    "designs/design1/cards/faces/tarot/tarot/cups/8.png": "ce12047b2e7a4f76546b03d11d12b89d45a8248c5fbdc22d6173f9cc0df1bd4d",
+    "designs/design1/cards/faces/tarot/tarot/cups/9.png": "b23575b9033f9db879a82fe1c27e12637905a651d6bb6c0681e3ffe6652bcc23",
+    "designs/design1/cards/faces/tarot/tarot/cups/ace.png": "dc4e0b8127724bfcf1e93cc9b6d56758cfe679f0df83571e85b7a3a9242580c8",
+    "designs/design1/cards/faces/tarot/tarot/cups/king.png": "358d5e95979fe6e915c8ab93f490ec63188095ec220aab1f04067a5f099412b5",
+    "designs/design1/cards/faces/tarot/tarot/cups/knight.png": "5e181ccb8c309ccf7927a61b2ce480084d3b21fc53167e9e0569b8d390d15832",
+    "designs/design1/cards/faces/tarot/tarot/cups/page.png": "573adfd1016903d1f040da4568a23bd92fd76ba9954104b3ee071ab9f61ed5b3",
+    "designs/design1/cards/faces/tarot/tarot/cups/queen.png": "3a947c361ae4f8d1a712a3567eeed06efcc849d612925d84c04cb52984d615d8",
+    "designs/design1/cards/faces/tarot/tarot/swords/10.png": "ea2917817626e19a9be0ab7e332ae66ec23ac57e115a67a08f846a3f33cf5d27",
+    "designs/design1/cards/faces/tarot/tarot/swords/2.png": "50dcbebbc6f831fb6bedc9a7f67311918e24fa9896dea35354416f31576b5a49",
+    "designs/design1/cards/faces/tarot/tarot/swords/3.png": "6b531c5a4fc1e74d981cf319a70e96f29627e2c58303e4c9ee49816ab6dfaef0",
+    "designs/design1/cards/faces/tarot/tarot/swords/4.png": "ae5b4e9b90b2025a39063bb6bf4fe8ae1ade7bea9da0cacfb33de6034bf1a905",
+    "designs/design1/cards/faces/tarot/tarot/swords/5.png": "145c7a62dbd5db1bb82a657f8dcc711e0552202e05b2683c9327634fdfd52023",
+    "designs/design1/cards/faces/tarot/tarot/swords/6.png": "6893f3e851949e61b6e0ceb340b0f6bb76a1f134dd2f4986c21d4eedec915e0d",
+    "designs/design1/cards/faces/tarot/tarot/swords/7.png": "44f715053f74d140659e3a3aa4a43cc00f91210b03ddfd9b1562f2d2f5a308a3",
+    "designs/design1/cards/faces/tarot/tarot/swords/8.png": "054409ce576bcdc68ed35aec17b37deeed7467154adb1c7c547d5992287926db",
+    "designs/design1/cards/faces/tarot/tarot/swords/9.png": "89a5eec0d824319ba5c5aa92df7fa596e49c6f6e5deeae6b25fcf9c6d396257d",
+    "designs/design1/cards/faces/tarot/tarot/swords/ace.png": "2c3fb28ef6f5e17beb1bd70e0f50ed3035b5a8ef2b7abd65c5f03727be000a79",
+    "designs/design1/cards/faces/tarot/tarot/swords/king.png": "fd8330183df0ec6f5f186e6da67df50d0cee3b20bf096c96a4b552ff341bdd56",
+    "designs/design1/cards/faces/tarot/tarot/swords/knight.png": "e8ff1ff2ed3fe6c6fc6d5bba0c225a90849ad0cdf932a06533e5b7c93d702124",
+    "designs/design1/cards/faces/tarot/tarot/swords/page.png": "0353a951bb09a9d402c2ef49264b99baf27787b62850e371e6d86c90d593edae",
+    "designs/design1/cards/faces/tarot/tarot/swords/queen.png": "859f556882f65e1504f9c4744bb00b4cef8ce9441bf858eea06e60e8a72beb5c",
+    "designs/design1/cards/faces/tarot/tarot/trumps/00-the-fool.png": "05797bec98ee17123b08f0641a9116e41282112946112635a7a8e9f2fa81d73b",
+    "designs/design1/cards/faces/tarot/tarot/trumps/01-bagatella.png": "13ec89bef01c1d725d99724cdd06605f6d19a413c19fef3547314756d5ba52a0",
+    "designs/design1/cards/faces/tarot/tarot/trumps/02-the-empress.png": "82b34c9eec001de4f02019948f251d09789b427a531da7c72546c692b837f7b4",
+    "designs/design1/cards/faces/tarot/tarot/trumps/03-the-emperor.png": "1d77fd88ca4e9b1c914660e521195a2dd77a111d08f4ad3d28ac7d2a8ff80c70",
+    "designs/design1/cards/faces/tarot/tarot/trumps/04-the-eastern-emperor.png": "e5fc8dbc0904d2d0e95aa97725bcd11181cde8fa68ecfdeb2ac7452281dbb3dc",
+    "designs/design1/cards/faces/tarot/tarot/trumps/05-love.png": "e9188f6ecc161bd29717d826c681ac099c6020ea14db1c065d2c4834fd644db8",
+    "designs/design1/cards/faces/tarot/tarot/trumps/06-temperance.png": "417843450242dc49315897cee84222facdb371a91cd1325620139a765b9f3dc3",
+    "designs/design1/cards/faces/tarot/tarot/trumps/07-fortitude.png": "923c313de5f328e3e94a540ef4cf8e834bd31b8a2354776508a3a641d3fd99fd",
+    "designs/design1/cards/faces/tarot/tarot/trumps/08-justice.png": "0de0efc9ed0dbbcdf6fe05e6e1e4cdc986ca4cdca7053c7d16fa2190855cf6e8",
+    "designs/design1/cards/faces/tarot/tarot/trumps/09-wheel-of-fortune.png": "a0e65aaf61edc58435fc69f5a141cfe0eb7beba134ee446013c75274c4b9e9d8",
+    "designs/design1/cards/faces/tarot/tarot/trumps/10-the-chariot.png": "c393b8e5767331cc15454a2ab6c75ec7cbc1e2642d36f8c32a54b1c586e87c19",
+    "designs/design1/cards/faces/tarot/tarot/trumps/11-time.png": "0e3f4d090cc0dd39c8bed80c1108dd9ad6ce49db34840901ce53b9a5e180bad3",
+    "designs/design1/cards/faces/tarot/tarot/trumps/12-the-hanged-man.png": "80f497bfd32e9c6f862ce3c175dc7cb7e458def65eaf305930c0548fbf596735",
+    "designs/design1/cards/faces/tarot/tarot/trumps/13-death.png": "ecdfd0fdf380fd8c270959d4d28761d6c7319da8eff1e9d51503347a8b24b3b9",
+    "designs/design1/cards/faces/tarot/tarot/trumps/14-the-devil.png": "9f037f3c193bd84dadebebd0719b9ea5d4cfb95d965854c3d14de658729ea3ff",
+    "designs/design1/cards/faces/tarot/tarot/trumps/15-the-house-of-the-devil.png": "2e38a678936aa929cab293cdb025aa76d748105ac551bbd4539158f31a1b339a",
+    "designs/design1/cards/faces/tarot/tarot/trumps/16-hope.png": "78bb4a4b53e105c38d1d3564587f6499c8a9e3ff74e042c4b9111501b523eec5",
+    "designs/design1/cards/faces/tarot/tarot/trumps/17-prudence.png": "50016ec29f5819715d67ec3b50fafabbeb0e85bf1a9b4cb1a25f9578d7be9a50",
+    "designs/design1/cards/faces/tarot/tarot/trumps/18-faith.png": "83ad6879a8db7883147e81485fed840f9bee21d7858be5646d86eee75917c73d",
+    "designs/design1/cards/faces/tarot/tarot/trumps/19-charity.png": "f0791856aaa5dd2316b9a461c65ca80594aa60f10600ebec92b981e39f7c2de5",
+    "designs/design1/cards/faces/tarot/tarot/trumps/20-fire.png": "1a1f090bac247f42006789aa5c54c58c6bc9d139b2c606ea04bdf5ff6eb05ff7",
+    "designs/design1/cards/faces/tarot/tarot/trumps/21-water.png": "51730943b0c7ba6a978c7a0b6d252a210ef75c115958b054629e6d2e5bf3f348",
+    "designs/design1/cards/faces/tarot/tarot/trumps/22-earth.png": "b463f6e51b5e577f4993cd05aa3f96c7036f0928e880cc29b5c67a4253852ba4",
+    "designs/design1/cards/faces/tarot/tarot/trumps/23-air.png": "835a5f3f200c7a8ef7d141262f25f31ae162e788744710ecdb2b8621306a7452",
+    "designs/design1/cards/faces/tarot/tarot/trumps/24-libra.png": "9b47fa47ba66edaed0bca3fb7b41042e3f5876f1ca6239d1dccc66641af4257b",
+    "designs/design1/cards/faces/tarot/tarot/trumps/25-virgo.png": "abd1fd843854fff00f8635a2e4e4c7e198d3c0dc08ff84ffe0c2ed6d92a9145f",
+    "designs/design1/cards/faces/tarot/tarot/trumps/26-scorpio.png": "0d84bdb54a4b05f5aacf446c37b7d1add295693870b098bce2d13afaceaa3d30",
+    "designs/design1/cards/faces/tarot/tarot/trumps/27-aries.png": "614d88e1b08d0a3302a0ca3df26b0857461736d8d152aaf7451e7521872319e9",
+    "designs/design1/cards/faces/tarot/tarot/trumps/28-capricorn.png": "0df21b96d7ab4f693122bd99e079a10560adc781c53622ec3b6df94de4745a91",
+    "designs/design1/cards/faces/tarot/tarot/trumps/29-sagittarius.png": "85ef24c62eea38713d1db133886656fd026c156b3308402c427e5356f626b3c7",
+    "designs/design1/cards/faces/tarot/tarot/trumps/30-cancer.png": "c91effd19db533c29ac1998f5c9c0ae519f4119db8a9b63288dc5545db583f60",
+    "designs/design1/cards/faces/tarot/tarot/trumps/31-pisces.png": "83afb0eaa48703521ca466c8eb3c24d033a0b1f620d21f0bad7c92deea28c773",
+    "designs/design1/cards/faces/tarot/tarot/trumps/32-aquarius.png": "ac931e4368cc0bceacaea3cf544eb4ba1249a8e55143d5aaa72c2b6d8ebfe3c7",
+    "designs/design1/cards/faces/tarot/tarot/trumps/33-leo.png": "23c134c2eaa41da641a645e308d2dfa3d4da2600ab5ad61b01f2181c27eccd37",
+    "designs/design1/cards/faces/tarot/tarot/trumps/34-taurus.png": "ceadb4df4f7c7dcacc09a53546266c97e5893bef004aae83b45b3d9196353336",
+    "designs/design1/cards/faces/tarot/tarot/trumps/35-gemini.png": "b76d94cbe06e86be36d7e2bf2b02601ac0c54ec24991e46e6f6bde035f019dcc",
+    "designs/design1/cards/faces/tarot/tarot/trumps/36-the-star.png": "56a5d92a9a019da99798f6ec922ecdf7fb11fe03bdcd72494e58ce45950af453",
+    "designs/design1/cards/faces/tarot/tarot/trumps/37-the-moon.png": "9f429c0013da8a73eef7b2bce0a41cf22268a9b6496754f94392207412bd2003",
+    "designs/design1/cards/faces/tarot/tarot/trumps/38-the-sun.png": "c5a43f55ce2730b6176f140ccaf97303ce00a06fc1cb9595c0d6ffcd410d0509",
+    "designs/design1/cards/faces/tarot/tarot/trumps/39-the-world.png": "df3138f0b79c0929232f6523f38642636e715e28f29d4ae7f298277834d4c412",
+    "designs/design1/cards/faces/tarot/tarot/trumps/40-the-trumpets.png": "746ee6d44189c42ea04d78696eef3107570d6c5ba60c45fd0ac796b08f41ee6a",
+    "designs/design2/cards/backs/bridge/lamp-black.png": "58054d39d66884a6b1c9e47044a40f963cacd477930bb0d2be82464175aef5e4",
+    "designs/design2/cards/backs/bridge/madder-lake.png": "f712838f77d9ba2bba7c5063ac1d92732bd6e2de826e736222bde4940e33270f",
+    "designs/design2/cards/backs/bridge/manganese-violet.png": "465b04c47f1d1cc6913a8d808f2b8f25f6d104f05617b5ea767191b073242187",
+    "designs/design2/cards/backs/bridge/prussian-blue.png": "d203edbac5392427a6411cb5198fd187a1a223f8c6e313c7f32d5474103c7c4f",
+    "designs/design2/cards/backs/bridge/verdigris.png": "2ec57536e55c9251db74741aa92e4ce8c8ac45ef28c545268df65cd71b95e9c1",
+    "designs/design2/cards/backs/european-standard/lamp-black.png": "90ee49f4c51bbb001f489bb5ca4681f88d973d74b8382d27baac35085e5cf3c1",
+    "designs/design2/cards/backs/european-standard/madder-lake.png": "2d2081c50a622fe38ea1faaa1f17cdb0b4c1984d3d40fce9a20d4f12c7ccf8b4",
+    "designs/design2/cards/backs/european-standard/manganese-violet.png": "61f7a222288c3c1b950ff7e09785fc4defcf2300d3c5ecb4e84400a9f753dc0a",
+    "designs/design2/cards/backs/european-standard/prussian-blue.png": "574c45b17003f0659fb740d55f16f5ccd8fc839c65922452517f22dbb5013705",
+    "designs/design2/cards/backs/european-standard/verdigris.png": "b9012605538fa2cb47f278e36432b71cacb7cc071cffd0e2e474040cded2308b",
+    "designs/design2/cards/backs/jumbo/lamp-black.png": "770d6c753b6a168e31c49074cd6f9c817524a2523bac3ddba7d1c355ed4e7dae",
+    "designs/design2/cards/backs/jumbo/madder-lake.png": "784d985aaffb6ddbaf7d9bb6abf7cbec6b408b3b19543f429821608aa31fa221",
+    "designs/design2/cards/backs/jumbo/manganese-violet.png": "6940f1c12171d5c6f381de5a57a265a2a7abe4a7123058365b152bfed0595da9",
+    "designs/design2/cards/backs/jumbo/prussian-blue.png": "369e4ebcc48e7e8f7adaf5ce11e6f31c13bca0f0471b0e8f437e3822f9f8883b",
+    "designs/design2/cards/backs/jumbo/verdigris.png": "4346d148b92966733549dba3a7f348ce58f9369907c8798e9b0f00e511842054",
+    "designs/design2/cards/backs/poker/lamp-black.png": "fe53fe44e74d616a7186d7ba23019adbe5ea73057ab41388e943ba810f1cdd88",
+    "designs/design2/cards/backs/poker/madder-lake.png": "aee6fc40b20c3786505589a2eaa35d0a23ee8569bc073869982513137a30a645",
+    "designs/design2/cards/backs/poker/manganese-violet.png": "9affedec058dd9c9c3d97b08d7ed81b19bcec0d7b52ef3709c0a0cd1213c8489",
+    "designs/design2/cards/backs/poker/prussian-blue.png": "0b4af1ec43cebdf831230e7b2377329554c707dd63b095f85b46cfe1683d69ea",
+    "designs/design2/cards/backs/poker/verdigris.png": "e70736dc1aa1fcb74240e56198990410b80c07492869dd45e7b16e3be1b7eeb9",
+    "designs/design2/cards/backs/tarot/lamp-black.png": "837874284f12b1fee7f5645e73cb2a6ce5fd4b3950ae4ff71eb318ad0f2b6bbf",
+    "designs/design2/cards/backs/tarot/madder-lake.png": "252cab62c14a7d12d2cc4e1e48e9a6b0a886a5855794db0c66cb456ea749d439",
+    "designs/design2/cards/backs/tarot/manganese-violet.png": "8403d228e85087d8eb08e0ce916ff7b01ff8bf4e32eb3196b033d649909304e8",
+    "designs/design2/cards/backs/tarot/prussian-blue.png": "a7473d2506f02fab80123033f0af51c1d54ff752474738ecc0391ede9b79ab62",
+    "designs/design2/cards/backs/tarot/verdigris.png": "427f3cba8ecf40ec47a378a932501f1f2efcef368102576257ed076c5e37689c",
+    "designs/design2/cards/backs/travel/lamp-black.png": "9264cedf1c9d94af4ea9fbb5e87cac5b746a4b88ccc76c4c36bdc4c7fa1f3cc0",
+    "designs/design2/cards/backs/travel/madder-lake.png": "2db3c3843e1a92c8379f477333fd484956604f4e7610541d0fade326ad4e3f41",
+    "designs/design2/cards/backs/travel/manganese-violet.png": "ec00bb894839218cde72a20b67f93865c3884019b4930d651af3cd1d9c84db93",
+    "designs/design2/cards/backs/travel/prussian-blue.png": "13de6879acb5a918c7e1effcfb0187e454661372ae52880b28294c2d8d8274e0",
+    "designs/design2/cards/backs/travel/verdigris.png": "cf9e5b5f177f6aca4f61bea448f91839b6d433b1f3c1555530566a1539ce3da7",
+    "designs/design2/cards/faces/french-suited/bridge/clubs/10.png": "b4f6b2ef0da09d89859fbc4ea5fa71b3b317efd8001282ab9e565601c389a5c0",
+    "designs/design2/cards/faces/french-suited/bridge/clubs/2.png": "3fd20051abd75a399e07a1a8cc523678f173c6de7721c0234f27096589c025b4",
+    "designs/design2/cards/faces/french-suited/bridge/clubs/3.png": "f5c3f218ff8d60c5afbcc4a9ba450b1c72cd270fd9018092e527f6ff32643caa",
+    "designs/design2/cards/faces/french-suited/bridge/clubs/4.png": "cff0304ade3edb9c806aaef012f7786c19d2acaaa1c680ec66e4e38b3a4cc6eb",
+    "designs/design2/cards/faces/french-suited/bridge/clubs/5.png": "b1a7fff6f9fdb66c46338aac0293a4f147c2240b602659470c877fff3bdfd406",
+    "designs/design2/cards/faces/french-suited/bridge/clubs/6.png": "6524bfe649aade7add60f8d6d83de99938b971200a79e0d52bbc429db04cbe54",
+    "designs/design2/cards/faces/french-suited/bridge/clubs/7.png": "0a3e89deb7139e343312cc0d26d816c198c2837fd614995da3ea522265dd0f68",
+    "designs/design2/cards/faces/french-suited/bridge/clubs/8.png": "327349de751dc3df42bb7e7be475e081da7d8f56603e125b988d8722c733772b",
+    "designs/design2/cards/faces/french-suited/bridge/clubs/9.png": "e47c634bde0f3dfddf9d6f6ec000dcb21ce46e78fac885aa5d05ed8c143bfce2",
+    "designs/design2/cards/faces/french-suited/bridge/clubs/ace.png": "61edd2a004175cc04c9e9fc7e1ec82dc83865afa90dd691a3e72d888c22b8e6c",
+    "designs/design2/cards/faces/french-suited/bridge/clubs/jack.png": "0285d18aabac9c8796f5037483ce50b7e0913494d0dda7bedbe6207374cceab4",
+    "designs/design2/cards/faces/french-suited/bridge/clubs/king.png": "4eae896ea9c94058ab536b37a3aabc8e20bf2145b557ce02618934b28696287c",
+    "designs/design2/cards/faces/french-suited/bridge/clubs/queen.png": "6cea12a56bde7501bc4bb9a74be1fbe7047a36b0aa38258a94d932c0470feac0",
+    "designs/design2/cards/faces/french-suited/bridge/diamonds/10.png": "36f1695200f29176613c0674b31350b8c6a8c5368378043d933744f0cd12d548",
+    "designs/design2/cards/faces/french-suited/bridge/diamonds/2.png": "1a40a325c773d1f197548bd4ed1eb7f9f4c95b9ce3f917bfa61107ed595c98d8",
+    "designs/design2/cards/faces/french-suited/bridge/diamonds/3.png": "44169abe586534926a57dccd626330718b80c85c846d57d727b52e48df5f8401",
+    "designs/design2/cards/faces/french-suited/bridge/diamonds/4.png": "939d6f5fa27b0a1cf7b647e1c0b741a83d3dbe4448c2963dac6e35daa19ef5de",
+    "designs/design2/cards/faces/french-suited/bridge/diamonds/5.png": "982c00343e829a4af09104f244f63b08dae582e4325020798209a540afcabe55",
+    "designs/design2/cards/faces/french-suited/bridge/diamonds/6.png": "a981e90cd06f6a1aed4559ffb672b87044122685750af31efa38a5649d201776",
+    "designs/design2/cards/faces/french-suited/bridge/diamonds/7.png": "355a7cc72a9c284d29a2719d5193838c02ab544f5dd990bb9039a19aae9bade1",
+    "designs/design2/cards/faces/french-suited/bridge/diamonds/8.png": "0e3e1d42ab86867a73e3723664ddc2a76d8223622bf95e6b96233edc79033c9e",
+    "designs/design2/cards/faces/french-suited/bridge/diamonds/9.png": "f75cd266f30116a0df8ea61d6383c46cf458b7a129bd274aeaae77ee650b24cb",
+    "designs/design2/cards/faces/french-suited/bridge/diamonds/ace.png": "1ab96919cbd45dd07d317bbd6d5e0f3dc35ca2b43fa198f81cc04ae400747711",
+    "designs/design2/cards/faces/french-suited/bridge/diamonds/jack.png": "72874e2b314c30a2fea18a5b46a66bdaf63a539118cf3b960418924ca1fefb48",
+    "designs/design2/cards/faces/french-suited/bridge/diamonds/king.png": "2be0a4a0e69315182118f48e4680861c0e7b946ddf01cf70f9a161861db75ece",
+    "designs/design2/cards/faces/french-suited/bridge/diamonds/queen.png": "604baa38462562982c915b746156e9ba48e5934b34cb7e3e9618922a09413ba8",
+    "designs/design2/cards/faces/french-suited/bridge/hearts/10.png": "de37e210564099101453f67227a9b9de061b7acfd03e08edf927bc6cb84eb660",
+    "designs/design2/cards/faces/french-suited/bridge/hearts/2.png": "7b33f2c80c8d6229fba5952b7991067f4a4234b84a63a3253607b1f3199f5795",
+    "designs/design2/cards/faces/french-suited/bridge/hearts/3.png": "d7e489e6aa2affca91100a935ea091931dbb631081f8b62073f6c8d013bf9316",
+    "designs/design2/cards/faces/french-suited/bridge/hearts/4.png": "d53b6054e1155911fb6ab2e48e3a93b3691f5eeaa04cd723fd378c3cf2b41dc2",
+    "designs/design2/cards/faces/french-suited/bridge/hearts/5.png": "d736c1d378457b145f4fa642bc035ccbf8754b419f73684cc37b13d4909810fc",
+    "designs/design2/cards/faces/french-suited/bridge/hearts/6.png": "3feb6cd6373be2579bd5bd8526e1418ec345be9bec19d55fcb1feeda4c892a84",
+    "designs/design2/cards/faces/french-suited/bridge/hearts/7.png": "253c932f65a36583e871a7ebf37d43fc34552e4f3fbb33382088384303250476",
+    "designs/design2/cards/faces/french-suited/bridge/hearts/8.png": "930bc4e7e69b36477c65c3d2a5879e83c39f4d2a79d9481a470117f6d78dc51c",
+    "designs/design2/cards/faces/french-suited/bridge/hearts/9.png": "224517ec07b4486a5dd6014bc7a233c21b5c7835ee668da18c937197159eed14",
+    "designs/design2/cards/faces/french-suited/bridge/hearts/ace.png": "329a2490460c8f727729905c749e6613ea7df010ebb9e6a421f2b115902486f1",
+    "designs/design2/cards/faces/french-suited/bridge/hearts/jack.png": "c8b85d59f94c5fa4e4a4d6a7a49c03d3912272fe5ba646d732c90f6e8e1dab33",
+    "designs/design2/cards/faces/french-suited/bridge/hearts/king.png": "c5305cce72e76b881d21dbe613fa2fc05c01b1ca57f926235f58fc3dad0af8aa",
+    "designs/design2/cards/faces/french-suited/bridge/hearts/queen.png": "1e60e92e41e34bf4c4df5fbc9e37f1bdf3af0a39e38b5514a851c05262246368",
+    "designs/design2/cards/faces/french-suited/bridge/jokers/black.png": "b3f2b31a985a7ed7cb91508a303659217eae9de188f6cd9a61be7e74bd2c2325",
+    "designs/design2/cards/faces/french-suited/bridge/jokers/red.png": "0bc9df52620f1eeb048f549f6a23b5200fbb23bcbf33104eb2db66d5976a0fb7",
+    "designs/design2/cards/faces/french-suited/bridge/spades/10.png": "435be1da72f669611c433365f2d6b66ebbc8cbcfabcbaf239e9dd0428aa0fa1e",
+    "designs/design2/cards/faces/french-suited/bridge/spades/2.png": "22937f5437065d20249063ae155a30775acaa984d0e54a6772bafe6cc566e843",
+    "designs/design2/cards/faces/french-suited/bridge/spades/3.png": "3cbbef7640ec09840446043f9c4de45cc522e76f4b579fc33cf3b84a5ccebf8e",
+    "designs/design2/cards/faces/french-suited/bridge/spades/4.png": "be326e690d06e3ef8a7d46623e8967519c113830299afe20275dad19a6371695",
+    "designs/design2/cards/faces/french-suited/bridge/spades/5.png": "a6652cf26dbd6845e2252eea5df6e9ac781bfc0bd25ede898372cb53e47f5331",
+    "designs/design2/cards/faces/french-suited/bridge/spades/6.png": "cbace5a662caa25ea7291c95f027537167d30b9f8b40f7504cd39487d3b42c0c",
+    "designs/design2/cards/faces/french-suited/bridge/spades/7.png": "e25d965753363a2f808d40cd2f63227d63b5b29ac14c68fbaa157e04164b5362",
+    "designs/design2/cards/faces/french-suited/bridge/spades/8.png": "1cc5508b64e4946cadb0ebf928788ee9f7582cc6a28fa36adf8805ffbcd41556",
+    "designs/design2/cards/faces/french-suited/bridge/spades/9.png": "babb231b7013bb5a96b4ce781fc1a784bde02e19598e02293fe7c72720907053",
+    "designs/design2/cards/faces/french-suited/bridge/spades/ace.png": "5db52a2eee5f1207a353f5989823e9042e6aa3fa0a3cfdad4422bb1ccca0b9f9",
+    "designs/design2/cards/faces/french-suited/bridge/spades/jack.png": "bba0b3989aeb6fbe756842d215f689825415d181a8d38dcc611c77f2a48a11f1",
+    "designs/design2/cards/faces/french-suited/bridge/spades/king.png": "eda111b109656ee08f683deb2c85dbdf5b654cf4d6c835e2fc36bc74e8b4681b",
+    "designs/design2/cards/faces/french-suited/bridge/spades/queen.png": "acb3b21b476d2073fcd2612ce07cdec90c6628660e5f9618abe26ca3cb760a69",
+    "designs/design2/cards/faces/french-suited/european-standard/clubs/10.png": "581ffaa5f392824ce314d3a5ee2893fdd6db205ec09baff2c3c1cd2a83fa6bcd",
+    "designs/design2/cards/faces/french-suited/european-standard/clubs/2.png": "306bf806569ecdca9b8da007148773a8274615717c34761bca9b9e11f6488a21",
+    "designs/design2/cards/faces/french-suited/european-standard/clubs/3.png": "eae85f6a0ea3c89f15ddcc8bcbc92e43a5b8a42c9a756dae3d88607be9510ba2",
+    "designs/design2/cards/faces/french-suited/european-standard/clubs/4.png": "5046e6b99d7f94bf908386010b62d4da95fb9eeed82480cd60b4a0852ae3754d",
+    "designs/design2/cards/faces/french-suited/european-standard/clubs/5.png": "fcfa5366414281645b562ed1497adb9a96fe36b98348767dc04a42f9fdb4dc09",
+    "designs/design2/cards/faces/french-suited/european-standard/clubs/6.png": "70c6026d20f40338821d08d925dac14ae81549d40a373f501ac0572939c21840",
+    "designs/design2/cards/faces/french-suited/european-standard/clubs/7.png": "921a29d9cb64c87eb7280be2ee0e39cd6c3e4f7d24d3d385836234ab3215b3de",
+    "designs/design2/cards/faces/french-suited/european-standard/clubs/8.png": "edf060fc22b4a5c29aecb0856160d1fe46f58edd59cdd5dcebd41552cb1577c0",
+    "designs/design2/cards/faces/french-suited/european-standard/clubs/9.png": "0681be13a360178034b33e7a2cffd35f914a66ea6daef25d7a48adb7e88b0675",
+    "designs/design2/cards/faces/french-suited/european-standard/clubs/ace.png": "00fdc9dfabd339a986a1fd4fd59d294626dd95deb952ed38ab792f10ed20931a",
+    "designs/design2/cards/faces/french-suited/european-standard/clubs/jack.png": "107dcf60666e40ce3e1e7f2059436b035c794b1a48d084bdb37d8a4d4a56bb87",
+    "designs/design2/cards/faces/french-suited/european-standard/clubs/king.png": "d5a94fca7c004e2bd6e964756e19d5b6aea8cb4decbe66c68e8a5eed3bd9d4b5",
+    "designs/design2/cards/faces/french-suited/european-standard/clubs/queen.png": "f8b3287ce044153c85f52153a2ee830295076b9903eb1bc85b062cd48d514a19",
+    "designs/design2/cards/faces/french-suited/european-standard/diamonds/10.png": "814d53b1dd0de115e7dd52cc5d232f3d54d656033d91cd2d05b4fe0fdbc3f6da",
+    "designs/design2/cards/faces/french-suited/european-standard/diamonds/2.png": "c7dff8378955eee58832bcbf0c1aa9ec010a9730eeb9e246c87edffe2191cee5",
+    "designs/design2/cards/faces/french-suited/european-standard/diamonds/3.png": "c4f31241c761bb0a76172464ef8cd09147ee009f00b0c4d85b25addaf7c6cc77",
+    "designs/design2/cards/faces/french-suited/european-standard/diamonds/4.png": "e39a80723569b769ff5ebbfd6928a16f58bc55232c57bd317e833a5abfe1687f",
+    "designs/design2/cards/faces/french-suited/european-standard/diamonds/5.png": "baebd1652bd1c43a55f892380a9a5f5b7ff8d92d69a84d83db6bac09357ffdb9",
+    "designs/design2/cards/faces/french-suited/european-standard/diamonds/6.png": "89a5e5d3751c8a08047ff819d5e1c6f3f31f1051d0293e4f946e5df03bf909c8",
+    "designs/design2/cards/faces/french-suited/european-standard/diamonds/7.png": "f9cf3fd8b2dc18fa39d0d0ce5ced9666cea8c7931cfe9206f20acc88e82ae4f5",
+    "designs/design2/cards/faces/french-suited/european-standard/diamonds/8.png": "66af9b13517d50699fb0567c0dabab887d30ad5c1ce5473568e2e9a696db335c",
+    "designs/design2/cards/faces/french-suited/european-standard/diamonds/9.png": "c37bbb9f0c3d6ea137c22ab8a018f0ffebc6b916c4e0e720b3557132888628be",
+    "designs/design2/cards/faces/french-suited/european-standard/diamonds/ace.png": "e04304704024b149e83e211068e607ed37637a36e55f997c2e84bf4dfa8db68f",
+    "designs/design2/cards/faces/french-suited/european-standard/diamonds/jack.png": "b5c27d7000be919e46c51b64988687d8f61d1e66697f5b4427ffae4a051198f0",
+    "designs/design2/cards/faces/french-suited/european-standard/diamonds/king.png": "796eecd57c86380d6b04f485314973ad2fe243e76a83688904c25ed3a064449d",
+    "designs/design2/cards/faces/french-suited/european-standard/diamonds/queen.png": "f7d11eaaa3c4465e360727b282d40c57decb61807dd788abfa7b919edba43b48",
+    "designs/design2/cards/faces/french-suited/european-standard/hearts/10.png": "43ba9de553bbb5f54264a96f2bbee123341c25f7ba0b1aa3086eb24b55664995",
+    "designs/design2/cards/faces/french-suited/european-standard/hearts/2.png": "6e7d95a70f9133f71dc3dfc5c8e4d55df1f9c36aeae02386322733fc85d9c9d7",
+    "designs/design2/cards/faces/french-suited/european-standard/hearts/3.png": "836fb17de61a830671edb6da1c03bb5456c40edd3a0e223956fabcee0f19c388",
+    "designs/design2/cards/faces/french-suited/european-standard/hearts/4.png": "3ac6e39344f582fbcdad7711f695740708981e5c6b50e8f1c0c969299d90f92c",
+    "designs/design2/cards/faces/french-suited/european-standard/hearts/5.png": "3dfa9b1b2758c90717c0763b471d6f2fe71bda7def582c0c267b931871117896",
+    "designs/design2/cards/faces/french-suited/european-standard/hearts/6.png": "33d07ad64af9d98d34cc88af92ff97edc0c5f12025802b87e65116571ac69aa9",
+    "designs/design2/cards/faces/french-suited/european-standard/hearts/7.png": "f09d585a74f1d7d39e0e62439c688f9219b716c8407f47ef36cfec308d6c2ab6",
+    "designs/design2/cards/faces/french-suited/european-standard/hearts/8.png": "4460935a42e4264a997afcbd4369c97e37056fe97d5cabfb2cbc8bf51077eb24",
+    "designs/design2/cards/faces/french-suited/european-standard/hearts/9.png": "e06769aec17a55c7c405ebd53a7771caa5f536e18370bb5c5c52968ce37c1782",
+    "designs/design2/cards/faces/french-suited/european-standard/hearts/ace.png": "5953fd30c8de116fe3dd71a240ffdc77f2eb4b80b67e52a63ab8ec0c83c2209b",
+    "designs/design2/cards/faces/french-suited/european-standard/hearts/jack.png": "7a86471f901dac4390ad8c7e647846affaf4569bbcd02b159c9d235ce701370f",
+    "designs/design2/cards/faces/french-suited/european-standard/hearts/king.png": "cfc8b10dc3e257bb437570c1742da8930f65a791547dc2a6b067bc6884541ef5",
+    "designs/design2/cards/faces/french-suited/european-standard/hearts/queen.png": "e706427bc21ad44c88591a3e43ee5472694e8cc2beac70943d10d6aa8138a2de",
+    "designs/design2/cards/faces/french-suited/european-standard/jokers/black.png": "7581ae6a4b6124971711bbf5dc061d3accbdef5927509c56b99d7b5a457c14f1",
+    "designs/design2/cards/faces/french-suited/european-standard/jokers/red.png": "6ee22a7cf752a81f4618f5a4298b539a9d0d222de428eea87854e44319585ed8",
+    "designs/design2/cards/faces/french-suited/european-standard/spades/10.png": "db25a87f755bf7fc22bfae940ce797a9ade8c6e14df7fd1e13df7488e875c1dd",
+    "designs/design2/cards/faces/french-suited/european-standard/spades/2.png": "c38777ec514c0fd375339d4b9033caae45f1b3b18b30102de1ed438ddafbbc7d",
+    "designs/design2/cards/faces/french-suited/european-standard/spades/3.png": "5de891a05f3747e489f88195e95bd4ca174849bcb5c8f0895763c8456afe1698",
+    "designs/design2/cards/faces/french-suited/european-standard/spades/4.png": "f566e1e9f77a92325455b080bc7f879e436ea9c90861aebd2c4c48b9cc1801dc",
+    "designs/design2/cards/faces/french-suited/european-standard/spades/5.png": "dce4d8ebb9f1360bb0693edc44b992afa1e1b60fdf9b9606e6695ba805ceaaf5",
+    "designs/design2/cards/faces/french-suited/european-standard/spades/6.png": "79373ba2ebb6c75cb627f4ce30420d4c85413c771e140f231c6a0ef5e98cd313",
+    "designs/design2/cards/faces/french-suited/european-standard/spades/7.png": "53a0b5c595e266105ce8f0d82340e5f4c3b319b77e9b8e9f332577ec9b7af166",
+    "designs/design2/cards/faces/french-suited/european-standard/spades/8.png": "b113229f466b3f69800f711d590af85c9de863c61f456a8ae22de3c6aff424c3",
+    "designs/design2/cards/faces/french-suited/european-standard/spades/9.png": "880811afac86f471584b45053bd805d946c1bcfcfb6fa0b4df4d814f8f94c981",
+    "designs/design2/cards/faces/french-suited/european-standard/spades/ace.png": "d72983dff07723632f7bc989257b1bd6f95c53368d69bd1c943d3d30335b9d57",
+    "designs/design2/cards/faces/french-suited/european-standard/spades/jack.png": "c9e4ff9353e374f1003ced29358cb1a9d47b710a21ccf580a0b76774349be012",
+    "designs/design2/cards/faces/french-suited/european-standard/spades/king.png": "de8ec5caac9781e297ce8137c35b654bed0819ad177fac0d931e5defab333e34",
+    "designs/design2/cards/faces/french-suited/european-standard/spades/queen.png": "a1f9d27942e3038ecf08c31c45c8c30e7163b03feed6c50d46ec092572a1c6ad",
+    "designs/design2/cards/faces/french-suited/jumbo/clubs/10.png": "62060ac436b47d461adbe73b2d1c7d23bae54d5ca7ec3e7c5a1a384941962065",
+    "designs/design2/cards/faces/french-suited/jumbo/clubs/2.png": "d311a9ced153bedb947065e79d05bd626aaa11f50bd259629bd044173cc007e6",
+    "designs/design2/cards/faces/french-suited/jumbo/clubs/3.png": "070c6888daf7fdc15a1e1d1cf667cf007ab3443f2c3421abab3882925cde9112",
+    "designs/design2/cards/faces/french-suited/jumbo/clubs/4.png": "6ef5711b6c9936ae8c1762d97a022d8714e3cb2b3ad52d4489bc0f9c45c9dc33",
+    "designs/design2/cards/faces/french-suited/jumbo/clubs/5.png": "f70cd90ee3ed02980ed019dfaa1c8fd43c8c3bd47ba86e0b9fd75599d4f21664",
+    "designs/design2/cards/faces/french-suited/jumbo/clubs/6.png": "f9fad39fe3fe230eb312c7145eb673791d241c741da3f83959cfd910a9f4eb7e",
+    "designs/design2/cards/faces/french-suited/jumbo/clubs/7.png": "ce7591ebf89a712637d68f91e0ad8a736cfb523b045feec33c4abe4108653ddb",
+    "designs/design2/cards/faces/french-suited/jumbo/clubs/8.png": "708ff0bf8f50f8f75bc4766041984ac1b24e6fe4663863861668022cee9d28e7",
+    "designs/design2/cards/faces/french-suited/jumbo/clubs/9.png": "3b75a21084df2c70029150f399c4ca14f7857559c1c9fa44f85897bdfb58149a",
+    "designs/design2/cards/faces/french-suited/jumbo/clubs/ace.png": "7a8cf5b70666da0576b60580d07835610c6ac9f0ee2889a6a1ee16abc0757918",
+    "designs/design2/cards/faces/french-suited/jumbo/clubs/jack.png": "eb460aba95c0e7bd14bb587f8358c5451ea9fe68a828f30906c6a1456d683eec",
+    "designs/design2/cards/faces/french-suited/jumbo/clubs/king.png": "e0b63c6d6c93e759f00aba5fa5e7875abede98ff0a54f8c01df1e8d9b61a3ce9",
+    "designs/design2/cards/faces/french-suited/jumbo/clubs/queen.png": "3fe17066846c10e5192112f44741ef6c679843ec99421e395a9700c9c8321da2",
+    "designs/design2/cards/faces/french-suited/jumbo/diamonds/10.png": "4dd8ef9bb0609f43ebbf0c3e2c30058cd165c6d4a63daf0f5e0c1ce52657a2fa",
+    "designs/design2/cards/faces/french-suited/jumbo/diamonds/2.png": "16f5ca0c7a864a385c40b9cc286ebb8731a701a0008c63c775224f6cad3d5f75",
+    "designs/design2/cards/faces/french-suited/jumbo/diamonds/3.png": "ead5cb8e64b020de15e8c0539ac697341e187476d610102ba257e82ced46e50a",
+    "designs/design2/cards/faces/french-suited/jumbo/diamonds/4.png": "1b50e11dcaf9d83bd1f7a4171d0b9d5de4bf0f2e4b75271eb91e5e35580d1c7d",
+    "designs/design2/cards/faces/french-suited/jumbo/diamonds/5.png": "3c533b1dfc235593191056c637bfff763b733705c2ee5790c1843a0d61b05d00",
+    "designs/design2/cards/faces/french-suited/jumbo/diamonds/6.png": "eed1a7e14a3f27a411ce7bb1bcc2daccd29099d9c5c990d1c8e4a5e0ab780a8a",
+    "designs/design2/cards/faces/french-suited/jumbo/diamonds/7.png": "89400823b52eb7ab73e910dff9fffbfbadcf9fb48d4e8e5b779e671c9dea3df2",
+    "designs/design2/cards/faces/french-suited/jumbo/diamonds/8.png": "b809011c8ee332b807d0bf4dda59e44c19e976201b70002133c5239e2ba1f56d",
+    "designs/design2/cards/faces/french-suited/jumbo/diamonds/9.png": "53f6ad2029f6f36069cb0c2b9378b51d5f244e097629a031822ca4c8f444dced",
+    "designs/design2/cards/faces/french-suited/jumbo/diamonds/ace.png": "c4d5d07e9a516aedbb0658b09b79f39793ded5b9038220765c6fc87c7689a1fa",
+    "designs/design2/cards/faces/french-suited/jumbo/diamonds/jack.png": "0ccfabf8647cca21e99bda65350a3ad845696c7cd5de74c10f42e0c91e312dff",
+    "designs/design2/cards/faces/french-suited/jumbo/diamonds/king.png": "fa2e76f9898e836da41fab6b7598d2c936c7ce89b64b51a2235aa766c95d50ae",
+    "designs/design2/cards/faces/french-suited/jumbo/diamonds/queen.png": "3b3d5b392a77091e83ac97354e726014cd2fa7cbb2b542bb85946ac5c79db039",
+    "designs/design2/cards/faces/french-suited/jumbo/hearts/10.png": "9020746e381957a3fabef59ccac9f088ad90f75470baa1efb1991fb41ae7e3d8",
+    "designs/design2/cards/faces/french-suited/jumbo/hearts/2.png": "ee605035d56e450ab22a206e979951a8e06986a091a2a8c717708b1909448071",
+    "designs/design2/cards/faces/french-suited/jumbo/hearts/3.png": "584d55b77b44cf3604e11c4d2df00ba05843033575bcdc3f4bee53e65aa8fdc1",
+    "designs/design2/cards/faces/french-suited/jumbo/hearts/4.png": "1cd7e70d7553060effdf4876b31d8102439f3cf3b3c3f75ef1466d24c2fa1cf1",
+    "designs/design2/cards/faces/french-suited/jumbo/hearts/5.png": "b803a4884673f2d77bace31f17e3313f82f5052aafa449d69f61ef98a204d76c",
+    "designs/design2/cards/faces/french-suited/jumbo/hearts/6.png": "380b5930411b41f6e4530e61c3be38d8bbd5eda4812b7b0a619bd71d557d5b4c",
+    "designs/design2/cards/faces/french-suited/jumbo/hearts/7.png": "891d6517bf2cf28b9628ac488e899e217a40015e5cb8522b34f2265f3dad6f60",
+    "designs/design2/cards/faces/french-suited/jumbo/hearts/8.png": "a7e7e8112a85d3b98fc77ca9b64560ea5ad5eb0be0ea6b70d0cfe516e2875dce",
+    "designs/design2/cards/faces/french-suited/jumbo/hearts/9.png": "1138595497232c823645dae8979e6ad1692d7e1bbf68ba7f164fc3c20c00b6ab",
+    "designs/design2/cards/faces/french-suited/jumbo/hearts/ace.png": "50ece14a4eafa297e7306f1e96d5ebff3a458b317f7c98904b2560f482d2159e",
+    "designs/design2/cards/faces/french-suited/jumbo/hearts/jack.png": "0e4d18f469bca5f26aaa7882dbf3a9a80ef72e61138b594fd0333f934ebd1331",
+    "designs/design2/cards/faces/french-suited/jumbo/hearts/king.png": "1f8f310125be758b0a6cb17b7d907950dd51a225ccbef8277ae256df3a7a3b6a",
+    "designs/design2/cards/faces/french-suited/jumbo/hearts/queen.png": "d4f45bbf25038fc526b774bbfc54ef219e5cae5bf5ec4b64124f0f03b4307214",
+    "designs/design2/cards/faces/french-suited/jumbo/jokers/black.png": "c5d3af32128a3602543d4cfc4fc6851feb0610d7663cd50768b7f43ed9f88cbb",
+    "designs/design2/cards/faces/french-suited/jumbo/jokers/red.png": "e5651680c7cb72c89d025820ea341630b94fbee800b3f53f8c7a98d64860d5c6",
+    "designs/design2/cards/faces/french-suited/jumbo/spades/10.png": "c4d3a0d6ea58634bd072fa20368df73c9b70566bb8c563e9c58d2b89ea757ba4",
+    "designs/design2/cards/faces/french-suited/jumbo/spades/2.png": "11a2b4da687966fa6ab2f4879fdc51254cf791f07270b0355da23d15139b37b2",
+    "designs/design2/cards/faces/french-suited/jumbo/spades/3.png": "955b856125725d2c8d714658e0dda7846a7f82f0ed3d11a648a3f49d67c8dd8a",
+    "designs/design2/cards/faces/french-suited/jumbo/spades/4.png": "81c60225f0199072ea51b325996b538bedfce4cfdde598c87366ae4f72f448aa",
+    "designs/design2/cards/faces/french-suited/jumbo/spades/5.png": "85ca5d845b6f087142b5fe31ef0d360cc9e2634db024299d270bd5a7d415e075",
+    "designs/design2/cards/faces/french-suited/jumbo/spades/6.png": "2645fc16308554b5b4611bfe6367b1d79109ee0bc1028321acf6851855585967",
+    "designs/design2/cards/faces/french-suited/jumbo/spades/7.png": "0d096457cc93b4794244828ec7ffa0681a8b5d84524dfc63e9a1645f8884c298",
+    "designs/design2/cards/faces/french-suited/jumbo/spades/8.png": "97bf886f65268f3698c9fc3d9f394a7a8ec8d624e5b42961297f38eab6f076ed",
+    "designs/design2/cards/faces/french-suited/jumbo/spades/9.png": "e140d99629f47445c24142e3ea97e09cd3a013be533a9e4f2b2c2eb3a0fe601d",
+    "designs/design2/cards/faces/french-suited/jumbo/spades/ace.png": "60e4c5ca157d903c0ec5e10fc8a92fba7751c3b3a08c4863aa4dc4c334f6791d",
+    "designs/design2/cards/faces/french-suited/jumbo/spades/jack.png": "64e9a3cb635597c775645f9c7615ea8634ef4177c6c0ba66692b721b2c98c37c",
+    "designs/design2/cards/faces/french-suited/jumbo/spades/king.png": "a916d39a4193a54d63d3f8b1b5223ee410be2d8fc1e30a40129cbe3b196738eb",
+    "designs/design2/cards/faces/french-suited/jumbo/spades/queen.png": "fca162cb8618af58f292ca4fe9f1e76dca8fd6367f9537fb51559827bb70f993",
+    "designs/design2/cards/faces/french-suited/poker/clubs/10.png": "d1a75071d07a756dc3e360d01e92df081bda38fdfa6f5d8afd9691c4fe30c3a3",
+    "designs/design2/cards/faces/french-suited/poker/clubs/2.png": "0d515c93b7fc2426eb0c79c4a8507873856559f982978e5a75779629cb617624",
+    "designs/design2/cards/faces/french-suited/poker/clubs/3.png": "9d6530d1a7629f4d0531c2a6bc324e0f2d75b2ae8a8323b1ceb0cae7c5539c02",
+    "designs/design2/cards/faces/french-suited/poker/clubs/4.png": "94596333e323067fe1f0e4886c8de12539209958e1ff29cd10bfea7bd1932bf5",
+    "designs/design2/cards/faces/french-suited/poker/clubs/5.png": "8a46cce9387aef2a3a3a6be0688f2f13cbf9c2f7b638d6f15afbf98292ee529e",
+    "designs/design2/cards/faces/french-suited/poker/clubs/6.png": "eb63af7ceae008f1bf8ed98c91a36c1f74719c0a91b4c6446c911856b995e3d2",
+    "designs/design2/cards/faces/french-suited/poker/clubs/7.png": "5238a56986397e39a1316be8edef9261df010bd4a9d60229597dd140ccc012da",
+    "designs/design2/cards/faces/french-suited/poker/clubs/8.png": "baa0dbe8b00c6ecfe5b586c8f0f89f14cd1864a63b55f0beeb48224f4553fa79",
+    "designs/design2/cards/faces/french-suited/poker/clubs/9.png": "acc01152889b4e596ac488ae54c2878ae2993e08056324d495bd63a03b2f6aeb",
+    "designs/design2/cards/faces/french-suited/poker/clubs/ace.png": "8212517adc7fd32a21f99d3e1ed40f9de45f433a208b38ac5d86457a52c025fe",
+    "designs/design2/cards/faces/french-suited/poker/clubs/jack.png": "c1ed8695d382dc6cfc8b6b29c1debd7c46327a23fb4ac2c1365e7c25fa349f2e",
+    "designs/design2/cards/faces/french-suited/poker/clubs/king.png": "ff2545f57b9e1ad943245329f2157017cf2ef243bc533a0765fb247d93ff345d",
+    "designs/design2/cards/faces/french-suited/poker/clubs/queen.png": "04e8b8912155b90dcfecd709a2576ebd82d865ad4cec0012ef62f17737222546",
+    "designs/design2/cards/faces/french-suited/poker/diamonds/10.png": "5d9658019d8e156c55add1a9e9ed978c9ae1171ad7f57062eaf2e0161d5bbe03",
+    "designs/design2/cards/faces/french-suited/poker/diamonds/2.png": "bd2561110d20d022f187908a5f91e4ce54dc7f70f0502fd1c7b16de97a8352a8",
+    "designs/design2/cards/faces/french-suited/poker/diamonds/3.png": "f3f7436b2bfedcfbc5f3f1d1e17d6974c22ab7533b3f1e1b2a3d8eb78f116f7a",
+    "designs/design2/cards/faces/french-suited/poker/diamonds/4.png": "c29c9e3c3a5a9dee401c6ce2fe8ae64c4571c9edd7794f9d77b670dfa00c3af5",
+    "designs/design2/cards/faces/french-suited/poker/diamonds/5.png": "e03d4db8543458ea15bfc1c383b1eb8f0766a9ea460bfe0a933c37b4918beda6",
+    "designs/design2/cards/faces/french-suited/poker/diamonds/6.png": "f14c64b95ec66531e410cfe92e6391e3faddba0e5a29be35d5551b628b472485",
+    "designs/design2/cards/faces/french-suited/poker/diamonds/7.png": "66b1174ac6e00467bde9674f73ccb2257e8cece92e2c81eb185346806dcfc436",
+    "designs/design2/cards/faces/french-suited/poker/diamonds/8.png": "8867ca2bb040575d8fe09a52f8403212ba740dcac5c7f7b1be3a3ca6572c8f39",
+    "designs/design2/cards/faces/french-suited/poker/diamonds/9.png": "47f906e739c7923ec8ed5cd9a1b5e5aef2c26d9e77b04f57eb71f60ddd7991a3",
+    "designs/design2/cards/faces/french-suited/poker/diamonds/ace.png": "4ca271d8fd34c4ac58fa4660649a531dd04354b742de1aa58a966ade10244583",
+    "designs/design2/cards/faces/french-suited/poker/diamonds/jack.png": "82d3cfe45cfffd1dfce75eb30f5ed003dfd219b5c156073ce92e4d03183032bc",
+    "designs/design2/cards/faces/french-suited/poker/diamonds/king.png": "27c3dab64e7d05335243aeb72762b6d97300a1fb17ec535a32580594b254c862",
+    "designs/design2/cards/faces/french-suited/poker/diamonds/queen.png": "e91f9ed29e000b3561602cabaa697095ca9f8d06b194884d0b1c8e5df36b311b",
+    "designs/design2/cards/faces/french-suited/poker/hearts/10.png": "cbfbdd4fb61734458e315173181baf020f3333fc619447b93d8d52cf23c625fd",
+    "designs/design2/cards/faces/french-suited/poker/hearts/2.png": "6f72fe7850a1e4696344dc7094b468dd88ac09b2c6490d5fad19a4f22dbd872a",
+    "designs/design2/cards/faces/french-suited/poker/hearts/3.png": "05a0a558dddb66c4a86ccae409d3194401a8b01e2d3d0e4da57dff9f061994ce",
+    "designs/design2/cards/faces/french-suited/poker/hearts/4.png": "aa16a074144ef335fe20bfef4576e7287a71097b124b8054190d60a6141d6fa9",
+    "designs/design2/cards/faces/french-suited/poker/hearts/5.png": "4ae643f088983ff678973b1c0e41a6e9b02a60eab1cacf83f2e80b55c4baa4cc",
+    "designs/design2/cards/faces/french-suited/poker/hearts/6.png": "f09c5dd7e2e5ae0944383f1178f3ec7b6fb5dc6968d12674983cd043e93d4f28",
+    "designs/design2/cards/faces/french-suited/poker/hearts/7.png": "f9650d3e31f373af5c9aa432e820b376c9f1ba1260c7509d19e9515fc3565a32",
+    "designs/design2/cards/faces/french-suited/poker/hearts/8.png": "9a745f8f906bde5e2a05cefc726d0bacbc98ce46e2a6b09ea642890a981fa608",
+    "designs/design2/cards/faces/french-suited/poker/hearts/9.png": "4086c707737c14e65ac5046023ca7abca9b2aeb19eab1c9e9d1507432e900fda",
+    "designs/design2/cards/faces/french-suited/poker/hearts/ace.png": "dfd8229c15076734a4b643fc08b696fb94c066f96033c49f44c339a5d3c5da9b",
+    "designs/design2/cards/faces/french-suited/poker/hearts/jack.png": "0dbbea77d8fb40d6e91fd52e7dec2f403888f69a54da2a33acb33c5712e44e71",
+    "designs/design2/cards/faces/french-suited/poker/hearts/king.png": "a6b84495960538c1cb692378b92861345cf2e91de054900c0d1655115f01ab33",
+    "designs/design2/cards/faces/french-suited/poker/hearts/queen.png": "6239d603444d87e23472846d72e1241c9b26df0abb6ac9e245dbe5a90d8c30c2",
+    "designs/design2/cards/faces/french-suited/poker/jokers/black.png": "11ee60a73b4dc604c562458aa000937c9921acb817b68cab0f68879af94dfbb9",
+    "designs/design2/cards/faces/french-suited/poker/jokers/red.png": "8ab3e7911da78bd50650efacebd1bf19ce85ae8927c4fe296065d6bd893440c1",
+    "designs/design2/cards/faces/french-suited/poker/spades/10.png": "37b4b14461c3bf76ca2666392ab5d658db6ad38ca1be156a7b146bee8acfe4e4",
+    "designs/design2/cards/faces/french-suited/poker/spades/2.png": "17a09a55b3a26130ecb5abb67672e3364c7905ab5c2d2a7c9602e73bab5d5a5a",
+    "designs/design2/cards/faces/french-suited/poker/spades/3.png": "1ff52eee45595c76985f71e4d25cda65e72a90f0fa52a8b27d66b3e5aaab6d70",
+    "designs/design2/cards/faces/french-suited/poker/spades/4.png": "298725a4806e7a4f1190da15792ca1d01c6770fac0c2e0499e99276894830420",
+    "designs/design2/cards/faces/french-suited/poker/spades/5.png": "51e3c48a3cfb8bcfc59f6aeb1cd709dfe12a1016a1615bb36c635cc897119a51",
+    "designs/design2/cards/faces/french-suited/poker/spades/6.png": "0158d0af3c6c13c29717e50142b1c03e0d894d7e862dc52b04abd6c2d35d3edc",
+    "designs/design2/cards/faces/french-suited/poker/spades/7.png": "27993e07c67dce0fc352b7cfb21b5260ace2fc145e963f7ec6538f1373e775b7",
+    "designs/design2/cards/faces/french-suited/poker/spades/8.png": "e1b3c4211e9c0f47ec8ef269d9998b47a1217de534772669b3fc209045c80c25",
+    "designs/design2/cards/faces/french-suited/poker/spades/9.png": "b5bc58214bc339ececaa1508429f8c1db10679caae3ae1fca49e14a5c7e18ad8",
+    "designs/design2/cards/faces/french-suited/poker/spades/ace.png": "4632d717b95af2afceb393d7dfe117b06c35cca173474e9d4dfd0200a87dc6cf",
+    "designs/design2/cards/faces/french-suited/poker/spades/jack.png": "79699beb35063348841ef36da138e6e58aea75a19a8e72659babd431010490fa",
+    "designs/design2/cards/faces/french-suited/poker/spades/king.png": "ff64e38c1381beb538966fdb7373e033d7193b940bf6b2a9ba2dc58fd94a7c12",
+    "designs/design2/cards/faces/french-suited/poker/spades/queen.png": "5597561efc45889c72fdfe4ec51228961b9f148b2494f11c6fb5b56a867bbf9f",
+    "designs/design2/cards/faces/french-suited/travel/clubs/10.png": "8764ac6861611e6afb4ef7a90e7e218061e0fc79338473704fc378c2b030544f",
+    "designs/design2/cards/faces/french-suited/travel/clubs/2.png": "edf490638f0726f123ee1ce42ca5203cc489c9ff2edb54871ffad6497c33cb64",
+    "designs/design2/cards/faces/french-suited/travel/clubs/3.png": "3764ab4ba40f80a5904f54443c83226b046cce187ef24c84669a148875a0891e",
+    "designs/design2/cards/faces/french-suited/travel/clubs/4.png": "4ee58f09e4b8762369205384362dd1c6a192d97dfd43156ee2e40ae99c832e18",
+    "designs/design2/cards/faces/french-suited/travel/clubs/5.png": "234ec0188688d83779b6e960800deefb866c244ffa855a0694feb54cedfea9bf",
+    "designs/design2/cards/faces/french-suited/travel/clubs/6.png": "dcb5d368aa52b2cc2c11e312715650a9f94e8b71d1bb792c38aa3df50b8845fb",
+    "designs/design2/cards/faces/french-suited/travel/clubs/7.png": "eb84733ac221f29903c615c4b53b491afce22072195de7523dd3bc998ca6622b",
+    "designs/design2/cards/faces/french-suited/travel/clubs/8.png": "4d94964da9a72d1b5e8f310005fd87941e0af1b2ec55a9e1903d06be5fbc3628",
+    "designs/design2/cards/faces/french-suited/travel/clubs/9.png": "2bb781908279924544f1dfa70d98c9236f3c2c0eda4837b0b074cf16eedfb72a",
+    "designs/design2/cards/faces/french-suited/travel/clubs/ace.png": "d9d4c866595a4bfc1a19b35aa6439218fa93e039b2e67dcbef0e694e625569f7",
+    "designs/design2/cards/faces/french-suited/travel/clubs/jack.png": "71d799ad55e33d836fd29a25309f3d5e8b3955a9bdb460296cca9686e4ef0285",
+    "designs/design2/cards/faces/french-suited/travel/clubs/king.png": "af58cf4cc51dc19bc1e12a6982237b2e9ad1dcdeb21efc4ac45efe5a24c72cc3",
+    "designs/design2/cards/faces/french-suited/travel/clubs/queen.png": "b0d72e84f46edfeeed40d8c8336fca99be393ea4125b56a626dd27b3bfa29e8d",
+    "designs/design2/cards/faces/french-suited/travel/diamonds/10.png": "361c3f9225a07d9e545a6fc1351f2ee4c1d686624709fcae52129a2521b61d2e",
+    "designs/design2/cards/faces/french-suited/travel/diamonds/2.png": "34c1272844db9a7ce58d1729f252dfbc0ebed90a14491c42a77dfad8fa8b166f",
+    "designs/design2/cards/faces/french-suited/travel/diamonds/3.png": "c45a26a8c667775f2e3d01ed75a8e7a9f7ea53579510fe0b97f7511cdb489601",
+    "designs/design2/cards/faces/french-suited/travel/diamonds/4.png": "2f01b2ef6e0a06631ff4aba5b7d64ae83a937b50d0ade99c678d92ec8c3392a1",
+    "designs/design2/cards/faces/french-suited/travel/diamonds/5.png": "5a388810ce24975eb7d5dbfb55aa89aebcc9516545f598800694254af5444f74",
+    "designs/design2/cards/faces/french-suited/travel/diamonds/6.png": "a1b028955a25b5ad1af58aae7031ba6dcaa380df688e6882373624051dbb53da",
+    "designs/design2/cards/faces/french-suited/travel/diamonds/7.png": "39a7d959a3cffbb402814c45a0466681a75f55d3985797288ac0a7dbd752c021",
+    "designs/design2/cards/faces/french-suited/travel/diamonds/8.png": "5405fca4160b18cd154e5df89df4800ebc58b32924f3d77b4eb5eeb1e0178aa1",
+    "designs/design2/cards/faces/french-suited/travel/diamonds/9.png": "306ee17c3e5989068ade7985344772d2136c257779c135bb281ef735b53c7b81",
+    "designs/design2/cards/faces/french-suited/travel/diamonds/ace.png": "15ef124b0fc3b0f2236d87fd4ae0ba32d0daaa211827ea77fb8cb90783402d45",
+    "designs/design2/cards/faces/french-suited/travel/diamonds/jack.png": "83913f23aabcb601ccace42d6dba24a1c4d8394c312cb51001b0770657a4f2d9",
+    "designs/design2/cards/faces/french-suited/travel/diamonds/king.png": "740c32555967e6d5f102b1147edea0ee49d88b964cb628a7e886344c30f03f3d",
+    "designs/design2/cards/faces/french-suited/travel/diamonds/queen.png": "3b65316fa38ab3dd02aea4ec1ad3085eb7f333aa92b48912c6d05101f992cf5e",
+    "designs/design2/cards/faces/french-suited/travel/hearts/10.png": "a9abe784d082db87aa82e10aa3ce930d366749b1fe916e42c3ebaee932f886c6",
+    "designs/design2/cards/faces/french-suited/travel/hearts/2.png": "b833a195ad7506d5874ae23f4ce59d7a31193bdeb039525f48c46e2c1062f12c",
+    "designs/design2/cards/faces/french-suited/travel/hearts/3.png": "f4bd04b1f44e4c6f8dc96f649f79dc654bcb718185616a785eaa6166f6c662e7",
+    "designs/design2/cards/faces/french-suited/travel/hearts/4.png": "67add98ef002528d94a41d89092a456b9b9062fec66399d3da057784b6f866f5",
+    "designs/design2/cards/faces/french-suited/travel/hearts/5.png": "a861df564e69116ff3dbaf3c52b11f25556fa860b4da0404110143e79f93caf3",
+    "designs/design2/cards/faces/french-suited/travel/hearts/6.png": "e2f2319d9c0e4b6f6c6375d10fe26bf962c258d9c04b76e79a00118a9d9a5a85",
+    "designs/design2/cards/faces/french-suited/travel/hearts/7.png": "c33e56d083aa9d090bc44fcd2acc98912ab6153c52d96b0d1c1e796b87488b2c",
+    "designs/design2/cards/faces/french-suited/travel/hearts/8.png": "c0b23d820916b35f43d45f47f31c65def866f8c3b5bbacc6369b0800a428e513",
+    "designs/design2/cards/faces/french-suited/travel/hearts/9.png": "05413a4370406b0408cfe0e3b89843febaa335a3a396127de79f017a91a8f0cb",
+    "designs/design2/cards/faces/french-suited/travel/hearts/ace.png": "1652da8b292df728b84ee3ae12555081c2a6c17496409deaf13c0325c0510b62",
+    "designs/design2/cards/faces/french-suited/travel/hearts/jack.png": "0de7df0b7b8b1f8485f3637ae5ac3c2491ceb27c349bd55ea2640ff5999cf625",
+    "designs/design2/cards/faces/french-suited/travel/hearts/king.png": "28a53f87797b8979ba7cfb7c684ecaa28b778aa2cbc9a0bcbd4a12550ee4c490",
+    "designs/design2/cards/faces/french-suited/travel/hearts/queen.png": "ea10aada36242b5e80690edba89b4b33de920ea578474c942aa5a0874b2eaee2",
+    "designs/design2/cards/faces/french-suited/travel/jokers/black.png": "6d478f085e04982f139620303454f58210b4238a493c289002ffb942d62c26ea",
+    "designs/design2/cards/faces/french-suited/travel/jokers/red.png": "b798bd951b86a0d29d68c5278b35de78f21b326d40b52e37b169e21a5d03ecf4",
+    "designs/design2/cards/faces/french-suited/travel/spades/10.png": "c199ac533671d4e972514b15022111b664e73db760066a9c446839db3a4017f6",
+    "designs/design2/cards/faces/french-suited/travel/spades/2.png": "afbc12bd77880afa97da938b1a82bb77d1f2d9e86a6837e1f32f7866d1205d60",
+    "designs/design2/cards/faces/french-suited/travel/spades/3.png": "6730b7b38f193d9313c7199ab39f2a59b2457f5f4a3de7ee6b0623237ddd57ff",
+    "designs/design2/cards/faces/french-suited/travel/spades/4.png": "9b4fff50112b279751114f6ebfef32b1a28f13702504995b5f5863ef55d3b635",
+    "designs/design2/cards/faces/french-suited/travel/spades/5.png": "d78aaf9b43e0ab2a95126e252bd7616889d9adb06c47cbaf659dc76e04da6119",
+    "designs/design2/cards/faces/french-suited/travel/spades/6.png": "60bc2d06e2d6e2e57cb9512d3fd4feae99843115ef1a5a6e807c8fd66258dcb5",
+    "designs/design2/cards/faces/french-suited/travel/spades/7.png": "cbaa3cdc7fa8478ffe55b40e450493ec1be8245f54d4fb65cb3257f29dee051a",
+    "designs/design2/cards/faces/french-suited/travel/spades/8.png": "b62a92af2debc8fe59040dd32e985dbafc7f39addf865471a27304e783b303e6",
+    "designs/design2/cards/faces/french-suited/travel/spades/9.png": "2092f20308ae591137586ac9798fb8536fdd17936318c342623c7eb275841928",
+    "designs/design2/cards/faces/french-suited/travel/spades/ace.png": "41fca7ff1bf64393fce384a1f2144c3e6ddc4ddd57e69fbab72e5001dcb9acb4",
+    "designs/design2/cards/faces/french-suited/travel/spades/jack.png": "92edde0a0994271e63886916020e4a6a45edc29441d49a8cf43d640564558956",
+    "designs/design2/cards/faces/french-suited/travel/spades/king.png": "ab8da723ad320e8766ab9080ce6b38b2ea7fad651bbed93ffd289cf6e5d9f18a",
+    "designs/design2/cards/faces/french-suited/travel/spades/queen.png": "17a53e85712de04efa17ca0ab6c8c80d971c858a354bc711b30296a262f349b2",
+    "designs/design2/cards/faces/tarot/tarot/batons/10.png": "0353675919cdff06867af29e46c190d3e134ace642225a451a81c04de96cac7f",
+    "designs/design2/cards/faces/tarot/tarot/batons/2.png": "4dfbcef1b18cdcf8766dac952aebbe3b4d786ace035a052e0281a71daeb50be4",
+    "designs/design2/cards/faces/tarot/tarot/batons/3.png": "bb514eb8b7fad9ff014c3a3b508cf7709ec45539422ea9c817615a91981f45a9",
+    "designs/design2/cards/faces/tarot/tarot/batons/4.png": "e5e5d2f538976e0998c7e455b70d31a52c3176195bfc0397765eceded9ca4fb4",
+    "designs/design2/cards/faces/tarot/tarot/batons/5.png": "4ca363ac9dbdac1d2b62bed727338d79019883c36fad88232222ad751a34f055",
+    "designs/design2/cards/faces/tarot/tarot/batons/6.png": "bccf5b64f60f0eb26244c1fd958b4b411183ac55c4d04ef2361838b898e59bb2",
+    "designs/design2/cards/faces/tarot/tarot/batons/7.png": "2473fa179ce413ceb9666a1b9815e4e86006a510ea84935bdda4a286ff9ffab2",
+    "designs/design2/cards/faces/tarot/tarot/batons/8.png": "5ea64429c0e61f778d4fe9b9ff8d8467568861def07588fb2cecd7b5ea97d1d8",
+    "designs/design2/cards/faces/tarot/tarot/batons/9.png": "d339ace2fc855c7e1e64d7ff5acb26c2a2f169794deed4dca636fd0242e23f9f",
+    "designs/design2/cards/faces/tarot/tarot/batons/ace.png": "71033c5a10933a641a12547262344510dde90598fe0ce0ec1873e825f220c927",
+    "designs/design2/cards/faces/tarot/tarot/batons/king.png": "30f27125da8b53c6c1f0589f8978c91abdf5b276f17675a3519aa6a449e7b7cd",
+    "designs/design2/cards/faces/tarot/tarot/batons/knight.png": "7a52275e6dacab3c41d1e8db838c36fc80b91aca506b3f14b27d605352cbbf21",
+    "designs/design2/cards/faces/tarot/tarot/batons/page.png": "5b1dd92e42567a2c3b1ee725ebaf9a34fdb03c047b1b48e7bc7e120bd4f6e554",
+    "designs/design2/cards/faces/tarot/tarot/batons/queen.png": "5e69cfc6c12225b0f46dcebc699a73a3c28ec3679288c2cd54e3dde0c2315bb5",
+    "designs/design2/cards/faces/tarot/tarot/coins/10.png": "59d2653251fd5fb484ca670269b6dcbea66ae5176b2d5d3108bd30b6ef4e831f",
+    "designs/design2/cards/faces/tarot/tarot/coins/2.png": "a56f734e4fa8ff965f6c8dfa72fc6c7bc4e37d5756c5ae7f4ddbd64a66ffe3f3",
+    "designs/design2/cards/faces/tarot/tarot/coins/3.png": "e9972d2fbfa0971ddb6a42004bc68ef29e2ca5afe4239a5e4fe6125ffb7dd2c1",
+    "designs/design2/cards/faces/tarot/tarot/coins/4.png": "bbcf8af95e132152982cb78255f5e12f2403bbf96d960f3c4f981df390f8536d",
+    "designs/design2/cards/faces/tarot/tarot/coins/5.png": "be498389cada9ff57453ad2367a9155c066f2c487d5d57567e1c67ea221ad5bc",
+    "designs/design2/cards/faces/tarot/tarot/coins/6.png": "1119b86c28f71cf27ba156dc7683bd836a3a5dd6fff67346211fd1b174205c17",
+    "designs/design2/cards/faces/tarot/tarot/coins/7.png": "6d1a16eea117cd3dabfe5f8c4fe8d1eb63ce5a22fe9b2379a67189fcb138f3ee",
+    "designs/design2/cards/faces/tarot/tarot/coins/8.png": "84a0e2fb30b5c03189f5ca32a8243e6297fe03332d858e0963a1a1477951e980",
+    "designs/design2/cards/faces/tarot/tarot/coins/9.png": "524071f7f70867ae6e603dbd215654a897c94740258f759684715ed26ba207f2",
+    "designs/design2/cards/faces/tarot/tarot/coins/ace.png": "70cf3b219dc0c99994e4ced0a63067da421c207241e192f91737736aff3a7736",
+    "designs/design2/cards/faces/tarot/tarot/coins/king.png": "9d75ff5d8aae110d8b0a63e7eaba28140d12602d39f5ee5f47cf4f003f86caf8",
+    "designs/design2/cards/faces/tarot/tarot/coins/knight.png": "4eb68e1a2155bfcdf09859c10a7c172ff34b90fca0ac44c466d99f61418be05e",
+    "designs/design2/cards/faces/tarot/tarot/coins/page.png": "253559275878d15caf0985b6015d36fe327e09c1217c3f523562fe00d1d4e5cf",
+    "designs/design2/cards/faces/tarot/tarot/coins/queen.png": "5a19a68ec1e170103164cb5e1fabc502c17f80c28f39c62c09680ea0c9753bd8",
+    "designs/design2/cards/faces/tarot/tarot/cups/10.png": "12c1548ea14302bde6565c1b054c28b4d57a975f1a6f6035b04ed6a534c705b0",
+    "designs/design2/cards/faces/tarot/tarot/cups/2.png": "e49c7ebde1f006b635ed319f90bc1b6b2985b662ddc8e3da9f2f569724c38d28",
+    "designs/design2/cards/faces/tarot/tarot/cups/3.png": "1cfaa2c720702683dee684203c264e1f0e83c98c01f12be114f56348fd77d630",
+    "designs/design2/cards/faces/tarot/tarot/cups/4.png": "2db2aab295b9adfd191c85c4225a84f72f9a2e435aa529311d7a9e40703d3529",
+    "designs/design2/cards/faces/tarot/tarot/cups/5.png": "85e3bf91c2bcef2a542033abca47663e8ff5e33eaac3726c30e7143de1a7fa55",
+    "designs/design2/cards/faces/tarot/tarot/cups/6.png": "318b2a7d9bcd8fff38037282fa26ec91a2ad0ec3c6368c0c3fc721ea180236c8",
+    "designs/design2/cards/faces/tarot/tarot/cups/7.png": "1e81a785e256dbce9db3b425ab047aa7852f7d5a63a22e8a0961448c03bbad1c",
+    "designs/design2/cards/faces/tarot/tarot/cups/8.png": "5ed60433bab2e7c284fc46788096b8f94ece227af4b16e535fc468357924a962",
+    "designs/design2/cards/faces/tarot/tarot/cups/9.png": "ac9d2ff1ae9c3026c8fe97e5dedaffa5eba54deb45705a0fb038d8d0e427c69c",
+    "designs/design2/cards/faces/tarot/tarot/cups/ace.png": "d4005e95e23a6591f7487901d377adc92402e3ca0048ffdbdc12ff8691b89714",
+    "designs/design2/cards/faces/tarot/tarot/cups/king.png": "deec8322158b33d9bbd9c790d62df65534d854d7bccb9f400d515b6761f9f1c7",
+    "designs/design2/cards/faces/tarot/tarot/cups/knight.png": "ff4f05ba3f08c583b548e4398a5d5b811004363de0615ec561fad21106bfb87f",
+    "designs/design2/cards/faces/tarot/tarot/cups/page.png": "49e7ef0f959dcfdd4638c37f6a408668c49ab23f2a2b93f97df9d1e2ac24eb2d",
+    "designs/design2/cards/faces/tarot/tarot/cups/queen.png": "5002644dcecba534a4b387de97a3b6fc3fdde554e64080b60ae8aea51e867d2d",
+    "designs/design2/cards/faces/tarot/tarot/swords/10.png": "8d7776abc10c3b151040fc28aaca3968daae10b4bea61ac648fec6eacfc91ec4",
+    "designs/design2/cards/faces/tarot/tarot/swords/2.png": "ce73a8c778cb495e483ca4b0d2a5b53a0ea7200665ef4b8b2e177410899976f7",
+    "designs/design2/cards/faces/tarot/tarot/swords/3.png": "d88f25242a6bfd84b6d4695023489aaf6d14c34b6a7d6f2e68913fcada614e0c",
+    "designs/design2/cards/faces/tarot/tarot/swords/4.png": "5ce6006ab310d40275fd686c48189775d2d206aee7d97c51557db5a7c4f9d238",
+    "designs/design2/cards/faces/tarot/tarot/swords/5.png": "e944d3c55e453b21ed911ed23f727b046ff0b31f981d581480166767e226f3fc",
+    "designs/design2/cards/faces/tarot/tarot/swords/6.png": "e3b8c104013ceefd25db5c92aac7ab0fa81f70e6106a26dd7dfc04b9c839537e",
+    "designs/design2/cards/faces/tarot/tarot/swords/7.png": "b2553edae116ce90fc849dd465b51a0e8b1a9c1c1f56aff8e23b803166f8d488",
+    "designs/design2/cards/faces/tarot/tarot/swords/8.png": "77a1af2f1b32231b0c9402d0bfafb3f6198ed8f5714523d624dce5c5fd05d1fb",
+    "designs/design2/cards/faces/tarot/tarot/swords/9.png": "372bfc75fe122f08484740fd9a35c1cb41f371669249729b013fb86e32ea56ee",
+    "designs/design2/cards/faces/tarot/tarot/swords/ace.png": "c1776937b87205fa10598998d5fcfe24d1ce1c159ef442bc342fecfac9954e91",
+    "designs/design2/cards/faces/tarot/tarot/swords/king.png": "77c4505acd4fc466459a9d5d16b5655a11a681219f4bfe301344e73badbc676d",
+    "designs/design2/cards/faces/tarot/tarot/swords/knight.png": "aa615834fdc701c07a792cb6717b1517b238941ce64a7dc8b7525742a30a3f24",
+    "designs/design2/cards/faces/tarot/tarot/swords/page.png": "c03401992b6311442f1d40da19d49f63cecb19be3a98260b4fd4692c46857cd1",
+    "designs/design2/cards/faces/tarot/tarot/swords/queen.png": "474c4a922ae862d12f669aa093bd77c019a7a3a7031527ae59da32c3973de811",
+    "designs/design2/cards/faces/tarot/tarot/trumps/00-the-fool.png": "e2d1600a6a713bd445c3c2e4a7d84cf7653695d999a56243357384c0baa88164",
+    "designs/design2/cards/faces/tarot/tarot/trumps/01-bagatella.png": "1bc5f2687db4e65f463b8817a9bad04069107c313745208a84bcf07b3076e327",
+    "designs/design2/cards/faces/tarot/tarot/trumps/02-the-empress.png": "f4cce2aa67fd25b22071db8accce9d7e9be01c49e7b9f9b49b29ab50215e681c",
+    "designs/design2/cards/faces/tarot/tarot/trumps/03-the-emperor.png": "4d6facd662cca829f5bfff95b9bc25f56837c13ab891e71fb37a3c776f463cc3",
+    "designs/design2/cards/faces/tarot/tarot/trumps/04-the-eastern-emperor.png": "939563751b4aa80cfd5460569a4b003834c88ee07fec6389dd1209aa1a0101ac",
+    "designs/design2/cards/faces/tarot/tarot/trumps/05-love.png": "365b6b7b7c1b977bf340b3230f4b7eb241de40d2fddbdf8cb2f880c39d4100cf",
+    "designs/design2/cards/faces/tarot/tarot/trumps/06-temperance.png": "34c1deb883fc5e9fbc0673233ae7c26f5d5cc31f33ebb7a7d0daaf1ce42f4abf",
+    "designs/design2/cards/faces/tarot/tarot/trumps/07-fortitude.png": "9c841cd17a0aa2d1cc6a174c7e82ca605630e484c07c7e4acc27a1ce23477121",
+    "designs/design2/cards/faces/tarot/tarot/trumps/08-justice.png": "1ee9e696550a3cf36393ccafad51a63ffba44d23aa20f0d6ce3697c59fca00f0",
+    "designs/design2/cards/faces/tarot/tarot/trumps/09-wheel-of-fortune.png": "2a4a74d5c9fb3a60112c22ce1117b0df62b1832dc5f6defd60f791bf758fb416",
+    "designs/design2/cards/faces/tarot/tarot/trumps/10-the-chariot.png": "ec23443eee00bfc8453a269fd4019f7c717d61743c0e5cb92b71bb0b7b258dca",
+    "designs/design2/cards/faces/tarot/tarot/trumps/11-time.png": "7243ffb569d8f158610ce118a91067e51988ce082f036e49e7b8216d004eb9c6",
+    "designs/design2/cards/faces/tarot/tarot/trumps/12-the-hanged-man.png": "787b5a2626f4ecfd6e534c3d89d170dc3ede242d50c321ff7ffddaddb5489088",
+    "designs/design2/cards/faces/tarot/tarot/trumps/13-death.png": "31c1f10ab1768ffb3f809a60e64850972e3d27177676d3ea2b53b35ca2f4485e",
+    "designs/design2/cards/faces/tarot/tarot/trumps/14-the-devil.png": "770c48765da1e519790d401b3915dbbf86c0edf7fe881c3cd8a365cdd3f5d14a",
+    "designs/design2/cards/faces/tarot/tarot/trumps/15-the-house-of-the-devil.png": "0fa4e1c7de43f8e500c2f8c5e8e0c95ec499fb92f7dc8fc73891f12dc74d9841",
+    "designs/design2/cards/faces/tarot/tarot/trumps/16-hope.png": "f07cdc6af146eab4e2f5200f360c2e2156a7df07d5ca06033c1af8881ff43c7b",
+    "designs/design2/cards/faces/tarot/tarot/trumps/17-prudence.png": "6ea70891dcd5a04aa05ab25b3b792d52e1011538f875e3bff15aa00a1d5a21f2",
+    "designs/design2/cards/faces/tarot/tarot/trumps/18-faith.png": "7dad68eece8f154d74d32170f9e0f0b3c51d2ff03373120f7326bb78980ac828",
+    "designs/design2/cards/faces/tarot/tarot/trumps/19-charity.png": "a5c97e0e6647d42970ae65cbd7aa5cd2fb050021d7bf2199526825a1fef7a67d",
+    "designs/design2/cards/faces/tarot/tarot/trumps/20-fire.png": "9dbeff3d8e5e0378170795bfbaf21aecb3b0b82ea4e7bfc40909aac35f9129ea",
+    "designs/design2/cards/faces/tarot/tarot/trumps/21-water.png": "fa01ca90185a687df1f06b6747573a8cae52f60a9839f0bfd67e152fd5118aa0",
+    "designs/design2/cards/faces/tarot/tarot/trumps/22-earth.png": "16ec1d9f510679eeb9b34c609929b40fefc99ae0ac15a50e7f9ce742aa75e788",
+    "designs/design2/cards/faces/tarot/tarot/trumps/23-air.png": "9e98e59d38d728532f9310ba59061ff52baa00131363940ccb823a95dc59e438",
+    "designs/design2/cards/faces/tarot/tarot/trumps/24-libra.png": "3fce9df32834c4143716815b9a1f382d293e4e5581e19082ff32b7a811995d62",
+    "designs/design2/cards/faces/tarot/tarot/trumps/25-virgo.png": "4ac30511774fb8118d4f94ed975a92897aebd6f0253fd934d0c312868d671e7b",
+    "designs/design2/cards/faces/tarot/tarot/trumps/26-scorpio.png": "cf656e699c2cfeaaf216841aa66e88d0b7c1a2dfffc0e9e04ce3d34d25e8ed1d",
+    "designs/design2/cards/faces/tarot/tarot/trumps/27-aries.png": "d994779522abfdc732ad9871fc92e60d1db7d9210b18ca66cb54452f626b9d34",
+    "designs/design2/cards/faces/tarot/tarot/trumps/28-capricorn.png": "b2e83391abd2cc0ca473065dd83a369891efb036e480693126b32dc3dafd9cef",
+    "designs/design2/cards/faces/tarot/tarot/trumps/29-sagittarius.png": "c4acc432318b0aac374c952480f0418e67b8b114031fc81830c8bc5598a87025",
+    "designs/design2/cards/faces/tarot/tarot/trumps/30-cancer.png": "02a0121dff25649dceed34e39d844099bf9b93419d6fb58a67a1f8b851df7cc6",
+    "designs/design2/cards/faces/tarot/tarot/trumps/31-pisces.png": "2bf1c78866a15e4cd0074788a1454942ebaca2953496bbd55ba6f9fb6f99ee68",
+    "designs/design2/cards/faces/tarot/tarot/trumps/32-aquarius.png": "84ce8c449b847493484ff0bce470ba492e555b7de515d3ae2622c0d726bbc1e2",
+    "designs/design2/cards/faces/tarot/tarot/trumps/33-leo.png": "a2ea4ac1348965de33069d23d6e64159e2263e1b4cb7704fe864817f581d889b",
+    "designs/design2/cards/faces/tarot/tarot/trumps/34-taurus.png": "f5c2347278954805b665f39a3b39237d31148121c6628cbd8d2e7dab0676e439",
+    "designs/design2/cards/faces/tarot/tarot/trumps/35-gemini.png": "1037e7b6867da0f9cf1b1aad83e93e702c38ee54d62ff0165a5caa950a5b0589",
+    "designs/design2/cards/faces/tarot/tarot/trumps/36-the-star.png": "c3e9f0a6ef42ab66f6109bfeff18bd4541b47fc3a802c5e870ab8e016ab49e4d",
+    "designs/design2/cards/faces/tarot/tarot/trumps/37-the-moon.png": "aa19c973b1dcbc92d74b6a092ab4cd8522e383b1a9b04a57d75f6b4b8565c94b",
+    "designs/design2/cards/faces/tarot/tarot/trumps/38-the-sun.png": "6e4b28b1d25dfacfb039430ab13e5660f2449bc8fbaa2df1beb244afac4d6f15",
+    "designs/design2/cards/faces/tarot/tarot/trumps/39-the-world.png": "bd11b15c8ac58b86efe32517d077cfa5c4300bbea313b39cc4d7483f4a983786",
+    "designs/design2/cards/faces/tarot/tarot/trumps/40-the-trumpets.png": "922fa29f147f7627227ed3b081e5afa41f71789dcc3c2da0ccfd3f8403e82592",
+    "designs/design3/cards/faces/french-suited/poker/clubs/king.png": "d7e46dfd6f29849d06984566f6aadea90a21f94efc600ee96e4c819745afc28d",
+    "designs/design3/cards/faces/french-suited/poker/diamonds/king.png": "a5e750a725bad46d5955a1ecada315e92355ead1306b32e08752f94887652468",
+    "designs/design3/cards/faces/french-suited/poker/hearts/king.png": "2d27810e2c9df30ec1e4106e883602200088b56b9a51697c99207a8780e034a4",
+    "designs/design3/cards/faces/french-suited/poker/spades/king.png": "64224f6052a8c59571bcfb779587cccf32374bb31a829488a5ae77051ba49269",
+    "designs/design3/docs/design/jacks-v1-proof.png": "5aa0bc5094ed8ed9e69b84ae628da146274f7d460b5de40ba441ac7c616a2dda",
+    "designs/design3/docs/design/jokers-v1-proof.png": "d5cf8c42188dae3dbe7d06e9c7f0132a514e2af013d59a8a36177dd58dc5f5c8",
+    "designs/design3/docs/design/kings-registration-v1-proof.png": "3a5b036292bfba8d7baf962e23758db694490916cb6f1552954a8a66d911ae29",
+    "designs/design3/docs/design/pips-v1-proof.png": "352ff5f84c2d4f9466c81138ce9110114e9b3074d86667caee5e110981aa5d89",
+    "designs/design3/docs/design/queens-v1-proof.png": "28f2af3805ca94af0f54f65755ea0ba15e94a73a62d642b5412acd03a35c2f5e",
+    "designs/design3/sources/components/jacks-jokers-registration-v1/jack/clubs.png": "33a17bf853317c9e599d41c2aa7296751346507901cf59e572becf5f48ac3653",
+    "designs/design3/sources/components/jacks-jokers-registration-v1/jack/diamonds.png": "df15e2092f386aef2e685b7dc5d8e00d55cfdf07375a5b475c450e647bb085f7",
+    "designs/design3/sources/components/jacks-jokers-registration-v1/jack/hearts.png": "afa3d3b8bbf36dbd6dda54e9c5b34d1094d3dc2fe24c21afc6d2bc346e82fe9b",
+    "designs/design3/sources/components/jacks-jokers-registration-v1/jack/spades.png": "a386f5aece9c39916bb4b387801f266e6075b79ebba736f4981ab20c2468981c",
+    "designs/design3/sources/components/jacks-jokers-registration-v1/joker/black.png": "16c9e87dca9a24eddb4703fa8d70b2db1fca527f0ffaab457a05000b4f967c49",
+    "designs/design3/sources/components/jacks-jokers-registration-v1/joker/red.png": "255a272a1f7d70ddfdb592ef45beafdacf6b34072dbc926e79132aa1ca1ba2ee",
+    "designs/design3/sources/components/kings-registration-v1/center-medallion.png": "69377f896f140d5b21082376617df2c8ffd6b3ad7318ad13e82636e75af65635",
+    "designs/design3/sources/components/kings-registration-v1/field-mask.png": "186fc91bc4358bde17c4b3ee1b5ef60a42f51ef9a82088e704ff285c2c5b3bc6",
+    "designs/design3/sources/components/kings-registration-v1/index-clubs.png": "cadfecf51280990f8e4f833dd3d3458c243f1bf829771b4688e1b48a59b47207",
+    "designs/design3/sources/components/kings-registration-v1/index-diamonds.png": "64d4bb4b39ed3f653f8e817a288daddc4ffc0d7fdbc1f8749c58896343769081",
+    "designs/design3/sources/components/kings-registration-v1/index-hearts.png": "8ddb4405f12995edb5d30726ae09ab69f63f7ab30edf8b960ad0bfd3c4fffbd4",
+    "designs/design3/sources/components/kings-registration-v1/index-spades.png": "c40a1959e271fbf5b72237bfdd67eb9c7f9d129a43f1d6c4750ce99179885214",
+    "designs/design3/sources/components/kings-registration-v1/outline-mask.png": "68a76fec974aaccc174b3aa88d2661fba45ca836f3fc5f87283ad5534607a89c",
+    "designs/design3/sources/components/kings-registration-v1/paired-side-medallions.png": "9f2a08b1727d23f9cb4a7db5ec2a03aa9fa80f5cea5b0b7a69b3b0adf52610de",
+    "designs/design3/sources/components/kings-registration-v1/shared-frame.png": "c0187d4b0ea862c005d779adc74e02951c058555c557f67978af84b6ff671e72",
+    "designs/design3/sources/components/pips-v1/clubs-master.png": "02ac084e01ad891bc49112b6c7b902811d6e4d8e62b6739c099bc55a1d5112b1",
+    "designs/design3/sources/components/pips-v1/diamonds-master.png": "4668162bb84727fba262268127f61c6389be13d2686e5a5c4a8fb3764713f96d",
+    "designs/design3/sources/components/pips-v1/hearts-master.png": "6676e7bb788248d64320dae496b6baf4640d3a8568383d7ec2090b7cb136a19f",
+    "designs/design3/sources/components/pips-v1/spades-master.png": "0ae7fecc93f4bfa3da5e596ad2278f4e9351c919705a7d1ee1f637d53284bf3f",
+    "designs/design3/sources/components/queens-registration-v1/clubs/queen.png": "cb7ccafb42fc7257110fe5c7650c79f4cef5f546f948f7d6e135a5ee9991afa9",
+    "designs/design3/sources/components/queens-registration-v1/diamonds/queen.png": "944a710fc32fc59bbc12a8c5ec56998369b0a0ddfd9a2bf93b7995e7a3015b0e",
+    "designs/design3/sources/components/queens-registration-v1/hearts/queen.png": "bc67326faf09255c4bca69d48668e93a183b2fb2950748ad6473fc729f882587",
+    "designs/design3/sources/components/queens-registration-v1/spades/queen.png": "174a100ea3365a500fff8f3041a37423ceac41d4b6abb8db568f049a671268ea",
+    "designs/design3/sources/generated/courts-v1/jack-spades-v1.png": "6a8ace46ea28f81a7357fac5851ba0780dbf171b19949de71b3d6459e4e21e62",
+    "designs/design3/sources/generated/courts-v1/king-spades-v1.png": "a8c03745f07086b0597d218f5c77f6ba552fcdf9b58a0705997ffcda87bc0299",
+    "designs/design3/sources/generated/courts-v1/queen-spades-v1.png": "3c778b2b40961e6df32e259b6fa104adcf0e695b0254dfe91e17ea4a62567a2f",
+    "designs/design3/sources/generated/jacks-v1/jack-clubs-v1.png": "5d82525b3906e3fbab4c3e7041646fa1c10f28911dd4bebe9e1d3c5dedf39e7f",
+    "designs/design3/sources/generated/jacks-v1/jack-diamonds-v1.png": "ef440a9c93b9f595321698b95b32832853432809bea698e46ee76042dbabe94f",
+    "designs/design3/sources/generated/jacks-v1/jack-hearts-v1.png": "cf038e67a655729bd12ab9d6724385558df0a723a2d39789276f435cff0e9097",
+    "designs/design3/sources/generated/jacks-v1/jack-spades-v1.png": "363ef8956d843fc94a83326f09c080974201f939ef0d9c6fea1f129ae5a88418",
+    "designs/design3/sources/generated/jokers-v1/joker-black-v1.png": "00d0ded68870490ecea911c501ab9265707c0699006a60be7ec05ab87b6e6bfb",
+    "designs/design3/sources/generated/jokers-v1/joker-red-v1.png": "3f0c2037b055a04d6cb17311cb5c43b84d46af58b3ce39161a34b7a2cf32e0f8",
+    "designs/design3/sources/generated/kings-v2/king-clubs-v2.png": "24ead39338c794e295c68750c20d16fc2f02e215c196adc4c7c541ce04674d40",
+    "designs/design3/sources/generated/kings-v2/king-diamonds-v2.png": "801a6ac7c929dc135e0f11183dd45fe0e304d0eaa18001a6a4343ab2dd498abb",
+    "designs/design3/sources/generated/kings-v2/king-hearts-initial-v2.png": "e2623847236f91dc82c7f9d8496c369b5bdf0749366395fd1b2965f9bb867c39",
+    "designs/design3/sources/generated/kings-v2/king-hearts-repair1-v2.png": "3d4038b7795fbd52e9b2d089ffa1b3445c3964cd179736cb71ab368666ca675a",
+    "designs/design3/sources/generated/kings-v2/king-hearts-v2.png": "776bb4349df317b1514249274647da0f411fbe1cbe0efe6224be4c447fa14989",
+    "designs/design3/sources/generated/kings-v2/king-spades-v2.png": "7ed829453e76b480439d0da13a994765f9645a5308ced4f8c6d23278b61a7d97",
+    "designs/design3/sources/generated/queens-v1/queen-clubs-initial.png": "26e290850603b63ed4af8b93d2bb243ce2445fa937e19626e6a35bb243a250b5",
+    "designs/design3/sources/generated/queens-v1/queen-clubs-v1.png": "62ecfc7e8c57df1bf1bc322fc82001af49ae39b71a728deb4d920e6a38425ee9",
+    "designs/design3/sources/generated/queens-v1/queen-diamonds-initial.png": "00132ffdddfeef400c4bd5ea2d97c7579c133539a5932947f0ff7ab99e3cec54",
+    "designs/design3/sources/generated/queens-v1/queen-diamonds-v1.png": "d43516c0985a784cf63da3f6edacb4de2f8de3e5fc0c43a962fac54fa58f361e",
+    "designs/design3/sources/generated/queens-v1/queen-hearts-initial.png": "a52a3266d23c1106e127d6f638335a6b2cf8e6c8eabf189287c756e9fb5c6f8a",
+    "designs/design3/sources/generated/queens-v1/queen-hearts-v1.png": "661ef987992a119ff1391cc10487e03f14d00d4d35ce95f02dc746e113f3b548",
+    "designs/design3/sources/generated/queens-v1/queen-spades-v1.png": "b5035d61a413ac89fe37fdb31b1bbff395363d598b4dbeeaf7da8bf6413d653b"
+  },
+  "symmetry_policy": "Even ranks exact half-turn; A,3,5,7,9 differ only within one upright central pip.",
+  "preparation": "Separate copies: retain connected alpha >8, normalize near-opaque interior, crop, uniformly scale and register fitted medallion center. Masters unchanged."
+}

@@ -1,17 +1,18 @@
 # Playing Cards
 
-Three independent designs, with **798 card PNGs available directly in the repository**.
+Three independent designs, with **838 card PNGs available directly in the repository**, including forty Celtic A–10 faces for review.
 Open the [card viewer](index.html) to choose a design, size, set, and card.
 One shared display area shows each complete PNG without cropping. Step through
 cards with the buttons, arrow keys, or position slider; rotate the view or
 download the selected PNG. Direct file links are available below the viewer,
-including the 18 Design 2 and four Design 3 source masters and 12 blank face frames.
+including the 18 Design 2 and four Design 3 source masters, ten Celtic Queen,
+Jack and Joker review faces, four large Celtic pip masters and 12 blank face frames.
 
 | Design | Finished artwork | Files | Gallery |
 | --- | --- | --- | --- |
 | [Design 1](designs/design1/README.md) — Morris, Mucha and Safavid-inspired botanical ornament | 367 faces, including the complete 97-card Minchiate; 30 backs | [Cards](designs/design1/cards/) | [Browse](designs/design1/index.html) |
 | [Design 2](designs/design2/README.md) — Ming and Tang-inspired silk florals | 367 approved faces, including 97 Minchiate Tarot cards; 30 backs in six sizes | [Cards](designs/design2/cards/) | [Browse](designs/design2/index.html) |
-| [Design 3](designs/design3/README.md) — Celtic spirals, metalwork and woodland ornament | Four approved Poker Kings with shared borders, centered medallions and exact opposing halves | [Cards](designs/design3/cards/faces/french-suited/poker/) | [Browse](designs/design3/index.html) |
+| [Design 3](designs/design3/README.md) — Celtic spirals, metalwork and woodland ornament | Four approved Poker Kings; forty A–10 faces, four Queens, four Jacks and two Jokers for review | [Cards](designs/design3/cards/faces/french-suited/poker/) | [Browse](designs/design3/index.html) · [A–10](designs/design3/a-10.html) · [Queens](designs/design3/queens.html) · [Jacks](designs/design3/jacks.html) · [Jokers](designs/design3/jokers.html) |
 
 Design 2's [number-card gallery](designs/design2/number-cards.html) includes a
 180-degree turn control. Its courts, Jokers and aces now share the numeral
@@ -148,7 +149,7 @@ clean bleed variants, separate cut-guide proofs, manifests and checksums.
 See the [Design 1 v1.2 release](https://github.com/ianrastall/playing-cards/releases/tag/1.2.0)
 and [Design 2 v1.0 release](https://github.com/ianrastall/playing-cards/releases/tag/design2-v1.0.0).
 
-After both releases, work can resume on Design 3's Poker Queens, following its
-[four official Celtic Kings](designs/design3/docs/design/kings-registration-v1.md).
+Design 3's [four Poker Queens](designs/design3/queens.html) are ready for review,
+following its [four official Celtic Kings](designs/design3/docs/design/kings-registration-v1.md).
 The related Norse Design 4 remains deferred. The
 [Design 2 roadmap](docs/design2-roadmap.md) records the completed release work.

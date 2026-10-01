@@ -1,0 +1,54 @@
+{
+  "renderer": "built-in-imagegen",
+  "status": "review",
+  "cards": [
+    {
+      "rank": "queen",
+      "suit": "spades",
+      "format": "poker",
+      "path": "queen-spades-v1.png",
+      "pixels": [
+        1061,
+        1482
+      ],
+      "sha256": "b5035d61a413ac89fe37fdb31b1bbff395363d598b4dbeeaf7da8bf6413d653b",
+      "status": "review-source-master"
+    },
+    {
+      "rank": "queen",
+      "suit": "hearts",
+      "format": "poker",
+      "path": "queen-hearts-v1.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "sha256": "661ef987992a119ff1391cc10487e03f14d00d4d35ce95f02dc746e113f3b548",
+      "status": "review-source-master"
+    },
+    {
+      "rank": "queen",
+      "suit": "diamonds",
+      "format": "poker",
+      "path": "queen-diamonds-v1.png",
+      "pixels": [
+        1061,
+        1482
+      ],
+      "sha256": "d43516c0985a784cf63da3f6edacb4de2f8de3e5fc0c43a962fac54fa58f361e",
+      "status": "review-source-master"
+    },
+    {
+      "rank": "queen",
+      "suit": "clubs",
+      "format": "poker",
+      "path": "queen-clubs-v1.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "sha256": "62ecfc7e8c57df1bf1bc322fc82001af49ae39b71a728deb4d920e6a38425ee9",
+      "status": "review-source-master"
+    }
+  ]
+}

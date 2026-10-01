@@ -68,7 +68,7 @@ def build_design_catalog(root: Path) -> dict:
                     raise ValueError(f"Invalid suit/rank: {path}")
                 record = dict(id=f"face.{system}.{size}.{suit}.{rank}", side="face",
                               system=system, format=size, suit=suit, rank=rank,
-                              color_variant=None, status=config["face_status"])
+                              color_variant=None, status=definition.get('rank_status', {}).get(rank, config["face_status"]))
         else:
             raise ValueError(f"Invalid asset hierarchy: {path}")
         size_info = config["formats"][size]

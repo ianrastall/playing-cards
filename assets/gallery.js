@@ -7,16 +7,21 @@
   const image = $('viewer-image'), turn = $('viewer-turn'), download = $('viewer-download');
   let available = [], cards = [], index = 0;
   let turned = false;
+  const isFace = a => a.kind === 'face' || a.kind === 'study';
   const sets = [
-    ['studies', 'Court design studies', a => a.kind === 'study'],
-    ['faces', 'All faces', a => a.kind === 'face'],
-    ['french', 'French-suited deck', a => a.kind === 'face' && a.system === 'french-suited'],
+    ['pips', 'Large suit pips', a => a.kind === 'pip'],
+    ...['queen', 'jack', 'joker'].map(rank =>
+      [`review-${rank}s`, `${rank[0].toUpperCase() + rank.slice(1)}s for review`, a => a.kind === 'study' && a.rank === rank]),
+    ['studies', 'Court artwork for review', a => a.kind === 'study'],
+    ['faces', 'All faces', isFace],
+    ['a10', 'Aces & number cards', a => a.kind === 'face' && a.system === 'french-suited' && /^(?:ace|[2-9]|10)$/.test(a.rank)],
+    ['french', 'French-suited deck', a => isFace(a) && a.system === 'french-suited'],
     ['tarot', 'Tarot deck', a => a.kind === 'face' && a.system === 'tarot'],
     ['first-proofs', 'First Tarot proofs', a => a.kind === 'face' && a.proof_group === 'tarot-first-proofs'],
     ...['spades', 'hearts', 'diamonds', 'clubs', 'batons', 'cups', 'swords', 'coins'].map(suit =>
-      [suit, suit[0].toUpperCase() + suit.slice(1), a => a.kind === 'face' && a.suit === suit]),
+      [suit, suit[0].toUpperCase() + suit.slice(1), a => isFace(a) && a.suit === suit]),
     ['trumps', 'Trumps & Fool', a => a.kind === 'face' && a.arcana === 'major'],
-    ['jokers', 'Jokers', a => a.kind === 'face' && a.rank === 'joker'],
+    ['jokers', 'Jokers', a => isFace(a) && a.rank === 'joker'],
     ['numbers', 'Number cards', a => a.kind === 'face' && a.arcana !== 'major' && /^(?:[2-9]|10)$/.test(a.rank)],
     ['backs', 'Card backs', a => a.kind === 'back'],
     ['frames', 'Blank face frames', a => a.kind === 'frame'],
@@ -43,7 +48,7 @@
     $('viewer-position').textContent = a ? `${index + 1} / ${cards.length}` : '0 cards';
     $('viewer-context').textContent = `${design.selectedOptions[0].text} / ${format.selectedOptions[0].text} / ${set.selectedOptions[0].text}`;
     $('viewer-title').textContent = a ? title(a) : 'No matching cards';
-    $('viewer-detail').textContent = a ? `${a.pixels.join(' × ')} px${a.trim_inches ? ` · ${a.trim_inches.join(' × ')} in` : ' · Original dimensions'}${a.kind === 'masters' ? ' · Source master' : a.kind === 'study' ? ' · Design study; production alignment pending' : ''}` : '';
+    $('viewer-detail').textContent = a ? `${a.pixels.join(' × ')} px${a.trim_inches ? ` · ${a.trim_inches.join(' × ')} in` : ' · Original dimensions'}${a.kind === 'masters' ? ' · Source master' : a.kind === 'study' || a.status === 'review' && a.kind === 'face' ? ' · Artwork under review' : a.kind === 'pip' ? ' · Transparent pip master' : ''}` : '';
     range.max = Math.max(1, cards.length);
     range.value = index + 1;
     range.setAttribute('aria-valuetext', a ? `${a.title}, ${index + 1} of ${cards.length}` : 'No matching cards');
@@ -74,9 +79,9 @@
     const choices = sets.filter(s => available.some(s[2]));
     set.replaceChildren(...choices.map(s => option(s[0], `${s[1]} (${available.filter(s[2]).length})`)));
     set.value = choices.some(s => s[0] === preferred) ? preferred : choices[0][0];
-    const faces = available.filter(a => a.kind === 'face').length;
+    const faces = available.filter(isFace).length;
     const studies = available.filter(a => a.kind === 'study').length;
-    $('availability').textContent = studies && !faces ? `${studies} court design studies · Artwork under review; production alignment pending.` : faces ? `${faces} faces · ${available.filter(a => a.kind === 'back').length} backs in this size.${design.value === 'design2' && format.value === 'tarot' && available.some(a => a.kind === 'face' && a.status === 'review') ? ' Layout, names and costumes under review.' : ''}` : 'Faces are not yet available in this size. Browse backs and blank frames.';
+    $('availability').textContent = faces ? `${faces} faces · ${available.filter(a => a.kind === 'back').length} backs in this size.${studies ? ` Includes ${studies} court artworks under review.` : ''}${design.value === 'design2' && format.value === 'tarot' && available.some(a => a.kind === 'face' && a.status === 'review') ? ' Layout, names and costumes under review.' : ''}` : 'Faces are not yet available in this size. Browse backs and blank frames.';
     filter(id);
   }
   function restore() {

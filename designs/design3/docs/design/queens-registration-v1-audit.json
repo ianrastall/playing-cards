@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "cards": [
+    {
+      "suit": "spades",
+      "shared_border_exact": true,
+      "half_turn_exact": true,
+      "center": [
+        374.5,
+        524.5
+      ],
+      "source_hash_unchanged": true
+    },
+    {
+      "suit": "hearts",
+      "shared_border_exact": true,
+      "half_turn_exact": true,
+      "center": [
+        374.5,
+        524.5
+      ],
+      "source_hash_unchanged": true
+    },
+    {
+      "suit": "diamonds",
+      "shared_border_exact": true,
+      "half_turn_exact": true,
+      "center": [
+        374.5,
+        524.5
+      ],
+      "source_hash_unchanged": true
+    },
+    {
+      "suit": "clubs",
+      "shared_border_exact": true,
+      "half_turn_exact": true,
+      "center": [
+        374.5,
+        524.5
+      ],
+      "source_hash_unchanged": true
+    }
+  ]
+}
