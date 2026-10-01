@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "design3",
+  "name": "Design 3",
+  "description": "Celtic-inspired rugged courts, La Tene spirals and woodland ornament; four approved Poker Kings.",
+  "formats": {
+    "poker": {
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "back_pixels": [
+        750,
+        1050
+      ]
+    }
+  },
+  "back_colors": [],
+  "back_status": "not-started",
+  "face_status": "approved",
+  "face_systems": {
+    "french-suited": {
+      "formats": [
+        "poker"
+      ],
+      "suits": [
+        "spades",
+        "hearts",
+        "diamonds",
+        "clubs"
+      ],
+      "ranks": [
+        "king"
+      ],
+      "jokers": []
+    }
+  },
+  "face_renderer": "kings-registration-v1",
+  "master_manifest": "sources/generated/kings-v2/manifest.json"
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "status": "initial-studies",
+  "generator": "built-in image_gen",
+  "card_count": 3,
+  "production_pixels": [
+    750,
+    1050
+  ],
+  "cards": [
+    {
+      "rank": "king",
+      "suit": "spades",
+      "format": "poker",
+      "path": "king-spades-v1.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "sha256": "a8c03745f07086b0597d218f5c77f6ba552fcdf9b58a0705997ffcda87bc0299",
+      "half_turn_exact": false
+    },
+    {
+      "rank": "queen",
+      "suit": "spades",
+      "format": "poker",
+      "path": "queen-spades-v1.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "sha256": "3c778b2b40961e6df32e259b6fa104adcf0e695b0254dfe91e17ea4a62567a2f",
+      "half_turn_exact": false
+    },
+    {
+      "rank": "jack",
+      "suit": "spades",
+      "format": "poker",
+      "path": "jack-spades-v1.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "sha256": "6a8ace46ea28f81a7357fac5851ba0780dbf171b19949de71b3d6459e4e21e62",
+      "half_turn_exact": false
+    }
+  ]
+}

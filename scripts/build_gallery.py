@@ -22,6 +22,15 @@ RANKS = ['ace', *map(str, range(2, 11)), 'jack', 'page', 'knight', 'queen', 'kin
 COLORS = ['prussian-blue', 'verdigris', 'madder-lake', 'manganese-violet', 'lamp-black']
 
 
+def designs():
+    return json.loads((ROOT / 'collection.json').read_text(encoding='utf-8'))['designs']
+
+
+def design_formats(design):
+    config = json.loads((ROOT / design['path'] / 'deck.json').read_text(encoding='utf-8'))
+    return [fmt for fmt in FORMATS if fmt in config['formats']]
+
+
 def label(value):
     return value.replace('-', ' ').title()
 
@@ -36,7 +45,7 @@ def inventory():
         else:
             title = a.get('title') or (f"{label(a['color_variant'])} Joker" if a['rank'] == 'joker' else f"{label(a['rank'])} of {label(a['suit'])}")
             group = f"design1-{a['format']}" if a['design'] == 'design1' else (
-                'design2-numbers' if a.get('system') == 'french-suited' and a['rank'] in list(map(str, range(2, 11))) else 'design2-faces')
+                f"{a['design']}-numbers" if a.get('system') == 'french-suited' and a['rank'] in list(map(str, range(2, 11))) else f"{a['design']}-faces")
             a.update(group=group, title=title, detail=f"{label(a['format'])} · {a['pixels'][0]} × {a['pixels'][1]}")
         assets.append(a)
 
@@ -66,6 +75,29 @@ def inventory():
             assets.append(dict(id=f'design2.frame.{fmt}.{color}', design='design2', group='face-frames',
                                path=path.relative_to(ROOT).as_posix(), pixels=size, title=f'{label(color)} frame',
                                format=fmt, color=color, side='frame', detail=f'{label(fmt)} · Blank face'))
+    for design in designs():
+        root = ROOT / design['path']
+        config = json.loads((root / 'deck.json').read_text(encoding='utf-8'))
+        manifest_key = 'master_manifest' if config.get('master_manifest') else 'study_manifest'
+        if not config.get(manifest_key):
+            continue
+        source_kind = 'master' if manifest_key == 'master_manifest' else 'study'
+        manifest_file = root / config[manifest_key]
+        manifest = json.loads(manifest_file.read_text(encoding='utf-8'))
+        for entry in manifest['cards']:
+            path = manifest_file.parent / entry['path']
+            if hashlib.sha256(path.read_bytes()).hexdigest() != entry['sha256']:
+                raise ValueError(f'Source manifest hash mismatch: {path}')
+            with Image.open(path) as image:
+                size = list(image.size)
+            if size != entry['pixels']:
+                raise ValueError(f'Source manifest dimensions mismatch: {path}')
+            assets.append(dict(id=f"{design['id']}.{source_kind}.{entry['rank']}.{entry['suit']}",
+                               design=design['id'], group=f"{design['id']}-{source_kind}s",
+                               path=path.relative_to(ROOT).as_posix(), pixels=size,
+                               title=f"{label(entry['rank'])} of {label(entry['suit'])}",
+                               rank=entry['rank'], suit=entry['suit'], format=entry['format'],
+                               side=source_kind, detail=f'Artwork {source_kind} · {size[0]} × {size[1]}'))
     assert len({a['path'] for a in assets}) == len(assets), 'Duplicate gallery artwork'
     return assets
 
@@ -84,11 +116,12 @@ def revision(path):
 def page_specs():
     yield 'index.html', {}
     yield 'all.html', {'all_artwork': True}
-    for design in ['design1', 'design2']:
-        yield f'designs/{design}/index.html', {'design': design}
-        yield f'designs/{design}/all.html', {'design': design, 'all_artwork': True}
-        for fmt in FORMATS:
-            yield f'designs/{design}/{fmt}.html', {'design': design, 'fmt': fmt}
+    for record in designs():
+        design = record['id']
+        yield f"{record['path']}/index.html", {'design': design}
+        yield f"{record['path']}/all.html", {'design': design, 'all_artwork': True}
+        for fmt in design_formats(record):
+            yield f"{record['path']}/{fmt}.html", {'design': design, 'fmt': fmt}
     yield 'designs/design2/masters.html', {'design': 'design2', 'masters_only': True}
     yield 'designs/design2/number-cards.html', {'design': 'design2', 'numbers_only': True}
     yield 'designs/design2/minchiate-review.html', {'design': 'design2', 'fmt': 'tarot'}
@@ -104,25 +137,33 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
     initial_design = design or 'design1'
     initial_format = fmt or 'poker'
     initial_set = 'masters' if masters_only else 'numbers' if numbers_only else 'faces'
+    if not masters_only and not numbers_only and not any(
+            a['design'] == initial_design and a['format'] == initial_format and a['side'] == 'face' for a in assets):
+        if any(a['design'] == initial_design and a['format'] == initial_format and a['side'] == 'study' for a in assets):
+            initial_set = 'studies'
     data = []
     for a in sorted(assets, key=lambda a: (a['design'], order(a))):
         entry = {key: a[key] for key in ('id', 'design', 'format', 'pixels', 'title',
                  'detail', 'trim_inches', 'rank', 'suit', 'arcana', 'group', 'system', 'tradition',
-                 'chinese_title', 'chinese_language', 'translation_status', 'proof_group') if key in a}
+                 'chinese_title', 'chinese_language', 'translation_status', 'proof_group', 'status') if key in a}
         entry['src'] = url(a['path'])
         entry['kind'] = 'masters' if '.master.' in a['id'] else a['side']
         data.append(entry)
     first = next(a for a in data if a['design'] == initial_design and a['format'] == initial_format
                  and (a['kind'] == 'masters' if masters_only else
                       a.get('rank') in list(map(str, range(2, 11))) and a['kind'] == 'face' if numbers_only else
-                      a['kind'] in ('face', 'back')))
+                      a['kind'] in ('face', 'back', 'study')))
     chosen = [a for a in data if (not design or a['design'] == design)
               and (not fmt or (a['format'] == fmt and a['kind'] != 'masters'))
               and (not masters_only or a['kind'] == 'masters')
               and (not numbers_only or a['group'] == 'design2-numbers')]
     title = 'Playing cards' if not design else f'Design {design[-1]}' + (f' · {label(fmt)}' if fmt else '')
     directory = ''.join(f'<li><a href="{escape(a["src"], quote=True)}" data-artwork="{a["id"]}" download="{a["id"]}.png">Design {a["design"][-1]} · {label(a["format"])} · {escape(a["title"])}{ " · Original master" if a["kind"] == "masters" else ""}</a></li>' for a in chosen)
-    size_links = ''.join(f'<a href="{url(f"designs/{initial_design}/{size}.html")}">{label(size)}</a>' for size in FORMATS)
+    registry = designs()
+    selected_design = next(d for d in registry if d['id'] == initial_design)
+    size_links = ''.join(f'<a href="{url(f"designs/{initial_design}/{size}.html")}">{label(size)}</a>' for size in design_formats(selected_design))
+    design_links = ''.join(f'<a href="{url(d["path"] + "/index.html")}">{escape(d["name"])}</a>' for d in registry)
+    design_options = ''.join(f'<option value="{escape(d["id"], quote=True)}">{escape(d["name"])}</option>' for d in registry)
     payload = json.dumps(dict(assets=data, design=initial_design, format=initial_format, set=initial_set), ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
     return f'''<!doctype html>
 <!-- Generated by scripts/build_gallery.py; edit the builder or shared gallery assets. -->
@@ -131,10 +172,10 @@ def render(page, assets, design=None, numbers_only=False, fmt=None, all_artwork=
 <title>{escape(title)}</title><link rel="icon" href="data:,"><link rel="stylesheet" href="{url('assets/gallery.css')}">
 <script id="card-data" type="application/json">{payload}</script><script src="{url('assets/gallery.js')}" defer></script></head>
 <body><a class="skip-link" href="#collection">Skip to card viewer</a>
-<header class="site-header"><a class="wordmark" href="{url('index.html')}">Playing cards<span class="brand-suits" aria-hidden="true"> ♠ ♡ ♣ ♢</span></a><nav aria-label="Collection"><a href="{url('designs/design1/index.html')}">Design 1</a><a href="{url('designs/design2/index.html')}">Design 2</a><a href="https://github.com/ianrastall/playing-cards">GitHub ↗</a></nav></header>
+<header class="site-header"><a class="wordmark" href="{url('index.html')}">Playing cards<span class="brand-suits" aria-hidden="true"> ♠ ♡ ♣ ♢</span></a><nav aria-label="Collection">{design_links}<a href="https://github.com/ianrastall/playing-cards">GitHub ↗</a></nav></header>
 <main id="collection"><aside class="browser-panel"><div><p class="eyebrow">The collection</p><h1>Card viewer</h1><p class="intro">Browse the faces and backs in each design.</p></div>
 <div class="selectors" id="browser-controls" hidden>
-<label for="design-select">Design</label><select id="design-select"><option value="design1">Design 1</option><option value="design2">Design 2</option></select>
+<label for="design-select">Design</label><select id="design-select">{design_options}</select>
 <label for="format-select">Size</label><select id="format-select">{''.join(f'<option value="{size}">{label(size)}</option>' for size in FORMATS)}</select>
 <label for="set-select">View</label><select id="set-select"></select>
 <div class="set-step"><button id="set-prev" type="button" aria-label="Previous view">← Previous view</button><button id="set-next" type="button" aria-label="Next view">Next view →</button></div>

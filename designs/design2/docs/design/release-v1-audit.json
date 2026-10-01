@@ -1,0 +1,2399 @@
+{
+  "status": "passed",
+  "release": "Design 2 v1.0",
+  "card_count": 397,
+  "faces": 367,
+  "backs": 30,
+  "approval": "Project owner confirmed Poker and Tarot finished and requested complete release on 2026-09-30.",
+  "renderer_manifests": {
+    "registered-faces-v1.json": "5dd9d961eef783c5913bfcf7afd8d061d85129c3876e2f23ba7588858811ca42",
+    "number-cards-v1.json": "92191987b23d64efdeaa7f0b41084350f5e424fd41bfd074dfe59727b59fbc4e",
+    "french-formats-v1.json": "791f1d39e377565645091af855f4ed0d04c118f3248754414af153e501051303",
+    "docs/design/tarot-faces-v1.json": "33503e7a903a28aef848d678284e625deabecd3d41af7c09a7de32529e98f740",
+    "manifest.json": "471fe85b05cc08ceec6e1dc9678236ab4c3558594622b867fe8ec73ae8be3be8"
+  },
+  "cards": [
+    {
+      "path": "cards/backs/bridge/lamp-black.png",
+      "sha256": "58054d39d66884a6b1c9e47044a40f963cacd477930bb0d2be82464175aef5e4",
+      "format": "bridge",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/bridge/madder-lake.png",
+      "sha256": "f712838f77d9ba2bba7c5063ac1d92732bd6e2de826e736222bde4940e33270f",
+      "format": "bridge",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/bridge/manganese-violet.png",
+      "sha256": "465b04c47f1d1cc6913a8d808f2b8f25f6d104f05617b5ea767191b073242187",
+      "format": "bridge",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/bridge/prussian-blue.png",
+      "sha256": "d203edbac5392427a6411cb5198fd187a1a223f8c6e313c7f32d5474103c7c4f",
+      "format": "bridge",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/bridge/verdigris.png",
+      "sha256": "2ec57536e55c9251db74741aa92e4ce8c8ac45ef28c545268df65cd71b95e9c1",
+      "format": "bridge",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/european-standard/lamp-black.png",
+      "sha256": "90ee49f4c51bbb001f489bb5ca4681f88d973d74b8382d27baac35085e5cf3c1",
+      "format": "european-standard",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/european-standard/madder-lake.png",
+      "sha256": "2d2081c50a622fe38ea1faaa1f17cdb0b4c1984d3d40fce9a20d4f12c7ccf8b4",
+      "format": "european-standard",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/european-standard/manganese-violet.png",
+      "sha256": "61f7a222288c3c1b950ff7e09785fc4defcf2300d3c5ecb4e84400a9f753dc0a",
+      "format": "european-standard",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/european-standard/prussian-blue.png",
+      "sha256": "574c45b17003f0659fb740d55f16f5ccd8fc839c65922452517f22dbb5013705",
+      "format": "european-standard",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/european-standard/verdigris.png",
+      "sha256": "b9012605538fa2cb47f278e36432b71cacb7cc071cffd0e2e474040cded2308b",
+      "format": "european-standard",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/jumbo/lamp-black.png",
+      "sha256": "770d6c753b6a168e31c49074cd6f9c817524a2523bac3ddba7d1c355ed4e7dae",
+      "format": "jumbo",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/jumbo/madder-lake.png",
+      "sha256": "784d985aaffb6ddbaf7d9bb6abf7cbec6b408b3b19543f429821608aa31fa221",
+      "format": "jumbo",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/jumbo/manganese-violet.png",
+      "sha256": "6940f1c12171d5c6f381de5a57a265a2a7abe4a7123058365b152bfed0595da9",
+      "format": "jumbo",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/jumbo/prussian-blue.png",
+      "sha256": "369e4ebcc48e7e8f7adaf5ce11e6f31c13bca0f0471b0e8f437e3822f9f8883b",
+      "format": "jumbo",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/jumbo/verdigris.png",
+      "sha256": "4346d148b92966733549dba3a7f348ce58f9369907c8798e9b0f00e511842054",
+      "format": "jumbo",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/poker/lamp-black.png",
+      "sha256": "fe53fe44e74d616a7186d7ba23019adbe5ea73057ab41388e943ba810f1cdd88",
+      "format": "poker",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/poker/madder-lake.png",
+      "sha256": "aee6fc40b20c3786505589a2eaa35d0a23ee8569bc073869982513137a30a645",
+      "format": "poker",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/poker/manganese-violet.png",
+      "sha256": "9affedec058dd9c9c3d97b08d7ed81b19bcec0d7b52ef3709c0a0cd1213c8489",
+      "format": "poker",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/poker/prussian-blue.png",
+      "sha256": "0b4af1ec43cebdf831230e7b2377329554c707dd63b095f85b46cfe1683d69ea",
+      "format": "poker",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/poker/verdigris.png",
+      "sha256": "e70736dc1aa1fcb74240e56198990410b80c07492869dd45e7b16e3be1b7eeb9",
+      "format": "poker",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/tarot/lamp-black.png",
+      "sha256": "837874284f12b1fee7f5645e73cb2a6ce5fd4b3950ae4ff71eb318ad0f2b6bbf",
+      "format": "tarot",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/tarot/madder-lake.png",
+      "sha256": "252cab62c14a7d12d2cc4e1e48e9a6b0a886a5855794db0c66cb456ea749d439",
+      "format": "tarot",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/tarot/manganese-violet.png",
+      "sha256": "8403d228e85087d8eb08e0ce916ff7b01ff8bf4e32eb3196b033d649909304e8",
+      "format": "tarot",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/tarot/prussian-blue.png",
+      "sha256": "a7473d2506f02fab80123033f0af51c1d54ff752474738ecc0391ede9b79ab62",
+      "format": "tarot",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/tarot/verdigris.png",
+      "sha256": "427f3cba8ecf40ec47a378a932501f1f2efcef368102576257ed076c5e37689c",
+      "format": "tarot",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/travel/lamp-black.png",
+      "sha256": "9264cedf1c9d94af4ea9fbb5e87cac5b746a4b88ccc76c4c36bdc4c7fa1f3cc0",
+      "format": "travel",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/travel/madder-lake.png",
+      "sha256": "2db3c3843e1a92c8379f477333fd484956604f4e7610541d0fade326ad4e3f41",
+      "format": "travel",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/travel/manganese-violet.png",
+      "sha256": "ec00bb894839218cde72a20b67f93865c3884019b4930d651af3cd1d9c84db93",
+      "format": "travel",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/travel/prussian-blue.png",
+      "sha256": "13de6879acb5a918c7e1effcfb0187e454661372ae52880b28294c2d8d8274e0",
+      "format": "travel",
+      "side": "back"
+    },
+    {
+      "path": "cards/backs/travel/verdigris.png",
+      "sha256": "cf9e5b5f177f6aca4f61bea448f91839b6d433b1f3c1555530566a1539ce3da7",
+      "format": "travel",
+      "side": "back"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/clubs/10.png",
+      "sha256": "b4f6b2ef0da09d89859fbc4ea5fa71b3b317efd8001282ab9e565601c389a5c0",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/clubs/2.png",
+      "sha256": "3fd20051abd75a399e07a1a8cc523678f173c6de7721c0234f27096589c025b4",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/clubs/3.png",
+      "sha256": "f5c3f218ff8d60c5afbcc4a9ba450b1c72cd270fd9018092e527f6ff32643caa",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/clubs/4.png",
+      "sha256": "cff0304ade3edb9c806aaef012f7786c19d2acaaa1c680ec66e4e38b3a4cc6eb",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/clubs/5.png",
+      "sha256": "b1a7fff6f9fdb66c46338aac0293a4f147c2240b602659470c877fff3bdfd406",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/clubs/6.png",
+      "sha256": "6524bfe649aade7add60f8d6d83de99938b971200a79e0d52bbc429db04cbe54",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/clubs/7.png",
+      "sha256": "0a3e89deb7139e343312cc0d26d816c198c2837fd614995da3ea522265dd0f68",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/clubs/8.png",
+      "sha256": "327349de751dc3df42bb7e7be475e081da7d8f56603e125b988d8722c733772b",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/clubs/9.png",
+      "sha256": "e47c634bde0f3dfddf9d6f6ec000dcb21ce46e78fac885aa5d05ed8c143bfce2",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/clubs/ace.png",
+      "sha256": "61edd2a004175cc04c9e9fc7e1ec82dc83865afa90dd691a3e72d888c22b8e6c",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/clubs/jack.png",
+      "sha256": "0285d18aabac9c8796f5037483ce50b7e0913494d0dda7bedbe6207374cceab4",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/clubs/king.png",
+      "sha256": "4eae896ea9c94058ab536b37a3aabc8e20bf2145b557ce02618934b28696287c",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/clubs/queen.png",
+      "sha256": "6cea12a56bde7501bc4bb9a74be1fbe7047a36b0aa38258a94d932c0470feac0",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/diamonds/10.png",
+      "sha256": "36f1695200f29176613c0674b31350b8c6a8c5368378043d933744f0cd12d548",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/diamonds/2.png",
+      "sha256": "1a40a325c773d1f197548bd4ed1eb7f9f4c95b9ce3f917bfa61107ed595c98d8",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/diamonds/3.png",
+      "sha256": "44169abe586534926a57dccd626330718b80c85c846d57d727b52e48df5f8401",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/diamonds/4.png",
+      "sha256": "939d6f5fa27b0a1cf7b647e1c0b741a83d3dbe4448c2963dac6e35daa19ef5de",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/diamonds/5.png",
+      "sha256": "982c00343e829a4af09104f244f63b08dae582e4325020798209a540afcabe55",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/diamonds/6.png",
+      "sha256": "a981e90cd06f6a1aed4559ffb672b87044122685750af31efa38a5649d201776",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/diamonds/7.png",
+      "sha256": "355a7cc72a9c284d29a2719d5193838c02ab544f5dd990bb9039a19aae9bade1",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/diamonds/8.png",
+      "sha256": "0e3e1d42ab86867a73e3723664ddc2a76d8223622bf95e6b96233edc79033c9e",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/diamonds/9.png",
+      "sha256": "f75cd266f30116a0df8ea61d6383c46cf458b7a129bd274aeaae77ee650b24cb",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/diamonds/ace.png",
+      "sha256": "1ab96919cbd45dd07d317bbd6d5e0f3dc35ca2b43fa198f81cc04ae400747711",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/diamonds/jack.png",
+      "sha256": "72874e2b314c30a2fea18a5b46a66bdaf63a539118cf3b960418924ca1fefb48",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/diamonds/king.png",
+      "sha256": "2be0a4a0e69315182118f48e4680861c0e7b946ddf01cf70f9a161861db75ece",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/diamonds/queen.png",
+      "sha256": "604baa38462562982c915b746156e9ba48e5934b34cb7e3e9618922a09413ba8",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/hearts/10.png",
+      "sha256": "de37e210564099101453f67227a9b9de061b7acfd03e08edf927bc6cb84eb660",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/hearts/2.png",
+      "sha256": "7b33f2c80c8d6229fba5952b7991067f4a4234b84a63a3253607b1f3199f5795",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/hearts/3.png",
+      "sha256": "d7e489e6aa2affca91100a935ea091931dbb631081f8b62073f6c8d013bf9316",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/hearts/4.png",
+      "sha256": "d53b6054e1155911fb6ab2e48e3a93b3691f5eeaa04cd723fd378c3cf2b41dc2",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/hearts/5.png",
+      "sha256": "d736c1d378457b145f4fa642bc035ccbf8754b419f73684cc37b13d4909810fc",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/hearts/6.png",
+      "sha256": "3feb6cd6373be2579bd5bd8526e1418ec345be9bec19d55fcb1feeda4c892a84",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/hearts/7.png",
+      "sha256": "253c932f65a36583e871a7ebf37d43fc34552e4f3fbb33382088384303250476",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/hearts/8.png",
+      "sha256": "930bc4e7e69b36477c65c3d2a5879e83c39f4d2a79d9481a470117f6d78dc51c",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/hearts/9.png",
+      "sha256": "224517ec07b4486a5dd6014bc7a233c21b5c7835ee668da18c937197159eed14",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/hearts/ace.png",
+      "sha256": "329a2490460c8f727729905c749e6613ea7df010ebb9e6a421f2b115902486f1",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/hearts/jack.png",
+      "sha256": "c8b85d59f94c5fa4e4a4d6a7a49c03d3912272fe5ba646d732c90f6e8e1dab33",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/hearts/king.png",
+      "sha256": "c5305cce72e76b881d21dbe613fa2fc05c01b1ca57f926235f58fc3dad0af8aa",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/hearts/queen.png",
+      "sha256": "1e60e92e41e34bf4c4df5fbc9e37f1bdf3af0a39e38b5514a851c05262246368",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/jokers/black.png",
+      "sha256": "b3f2b31a985a7ed7cb91508a303659217eae9de188f6cd9a61be7e74bd2c2325",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/jokers/red.png",
+      "sha256": "0bc9df52620f1eeb048f549f6a23b5200fbb23bcbf33104eb2db66d5976a0fb7",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/spades/10.png",
+      "sha256": "435be1da72f669611c433365f2d6b66ebbc8cbcfabcbaf239e9dd0428aa0fa1e",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/spades/2.png",
+      "sha256": "22937f5437065d20249063ae155a30775acaa984d0e54a6772bafe6cc566e843",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/spades/3.png",
+      "sha256": "3cbbef7640ec09840446043f9c4de45cc522e76f4b579fc33cf3b84a5ccebf8e",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/spades/4.png",
+      "sha256": "be326e690d06e3ef8a7d46623e8967519c113830299afe20275dad19a6371695",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/spades/5.png",
+      "sha256": "a6652cf26dbd6845e2252eea5df6e9ac781bfc0bd25ede898372cb53e47f5331",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/spades/6.png",
+      "sha256": "cbace5a662caa25ea7291c95f027537167d30b9f8b40f7504cd39487d3b42c0c",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/spades/7.png",
+      "sha256": "e25d965753363a2f808d40cd2f63227d63b5b29ac14c68fbaa157e04164b5362",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/spades/8.png",
+      "sha256": "1cc5508b64e4946cadb0ebf928788ee9f7582cc6a28fa36adf8805ffbcd41556",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/spades/9.png",
+      "sha256": "babb231b7013bb5a96b4ce781fc1a784bde02e19598e02293fe7c72720907053",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/spades/ace.png",
+      "sha256": "5db52a2eee5f1207a353f5989823e9042e6aa3fa0a3cfdad4422bb1ccca0b9f9",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/spades/jack.png",
+      "sha256": "bba0b3989aeb6fbe756842d215f689825415d181a8d38dcc611c77f2a48a11f1",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/spades/king.png",
+      "sha256": "eda111b109656ee08f683deb2c85dbdf5b654cf4d6c835e2fc36bc74e8b4681b",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/bridge/spades/queen.png",
+      "sha256": "acb3b21b476d2073fcd2612ce07cdec90c6628660e5f9618abe26ca3cb760a69",
+      "format": "bridge",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/clubs/10.png",
+      "sha256": "581ffaa5f392824ce314d3a5ee2893fdd6db205ec09baff2c3c1cd2a83fa6bcd",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/clubs/2.png",
+      "sha256": "306bf806569ecdca9b8da007148773a8274615717c34761bca9b9e11f6488a21",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/clubs/3.png",
+      "sha256": "eae85f6a0ea3c89f15ddcc8bcbc92e43a5b8a42c9a756dae3d88607be9510ba2",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/clubs/4.png",
+      "sha256": "5046e6b99d7f94bf908386010b62d4da95fb9eeed82480cd60b4a0852ae3754d",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/clubs/5.png",
+      "sha256": "fcfa5366414281645b562ed1497adb9a96fe36b98348767dc04a42f9fdb4dc09",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/clubs/6.png",
+      "sha256": "70c6026d20f40338821d08d925dac14ae81549d40a373f501ac0572939c21840",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/clubs/7.png",
+      "sha256": "921a29d9cb64c87eb7280be2ee0e39cd6c3e4f7d24d3d385836234ab3215b3de",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/clubs/8.png",
+      "sha256": "edf060fc22b4a5c29aecb0856160d1fe46f58edd59cdd5dcebd41552cb1577c0",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/clubs/9.png",
+      "sha256": "0681be13a360178034b33e7a2cffd35f914a66ea6daef25d7a48adb7e88b0675",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/clubs/ace.png",
+      "sha256": "00fdc9dfabd339a986a1fd4fd59d294626dd95deb952ed38ab792f10ed20931a",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/clubs/jack.png",
+      "sha256": "107dcf60666e40ce3e1e7f2059436b035c794b1a48d084bdb37d8a4d4a56bb87",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/clubs/king.png",
+      "sha256": "d5a94fca7c004e2bd6e964756e19d5b6aea8cb4decbe66c68e8a5eed3bd9d4b5",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/clubs/queen.png",
+      "sha256": "f8b3287ce044153c85f52153a2ee830295076b9903eb1bc85b062cd48d514a19",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/diamonds/10.png",
+      "sha256": "814d53b1dd0de115e7dd52cc5d232f3d54d656033d91cd2d05b4fe0fdbc3f6da",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/diamonds/2.png",
+      "sha256": "c7dff8378955eee58832bcbf0c1aa9ec010a9730eeb9e246c87edffe2191cee5",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/diamonds/3.png",
+      "sha256": "c4f31241c761bb0a76172464ef8cd09147ee009f00b0c4d85b25addaf7c6cc77",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/diamonds/4.png",
+      "sha256": "e39a80723569b769ff5ebbfd6928a16f58bc55232c57bd317e833a5abfe1687f",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/diamonds/5.png",
+      "sha256": "baebd1652bd1c43a55f892380a9a5f5b7ff8d92d69a84d83db6bac09357ffdb9",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/diamonds/6.png",
+      "sha256": "89a5e5d3751c8a08047ff819d5e1c6f3f31f1051d0293e4f946e5df03bf909c8",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/diamonds/7.png",
+      "sha256": "f9cf3fd8b2dc18fa39d0d0ce5ced9666cea8c7931cfe9206f20acc88e82ae4f5",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/diamonds/8.png",
+      "sha256": "66af9b13517d50699fb0567c0dabab887d30ad5c1ce5473568e2e9a696db335c",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/diamonds/9.png",
+      "sha256": "c37bbb9f0c3d6ea137c22ab8a018f0ffebc6b916c4e0e720b3557132888628be",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/diamonds/ace.png",
+      "sha256": "e04304704024b149e83e211068e607ed37637a36e55f997c2e84bf4dfa8db68f",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/diamonds/jack.png",
+      "sha256": "b5c27d7000be919e46c51b64988687d8f61d1e66697f5b4427ffae4a051198f0",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/diamonds/king.png",
+      "sha256": "796eecd57c86380d6b04f485314973ad2fe243e76a83688904c25ed3a064449d",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/diamonds/queen.png",
+      "sha256": "f7d11eaaa3c4465e360727b282d40c57decb61807dd788abfa7b919edba43b48",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/hearts/10.png",
+      "sha256": "43ba9de553bbb5f54264a96f2bbee123341c25f7ba0b1aa3086eb24b55664995",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/hearts/2.png",
+      "sha256": "6e7d95a70f9133f71dc3dfc5c8e4d55df1f9c36aeae02386322733fc85d9c9d7",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/hearts/3.png",
+      "sha256": "836fb17de61a830671edb6da1c03bb5456c40edd3a0e223956fabcee0f19c388",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/hearts/4.png",
+      "sha256": "3ac6e39344f582fbcdad7711f695740708981e5c6b50e8f1c0c969299d90f92c",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/hearts/5.png",
+      "sha256": "3dfa9b1b2758c90717c0763b471d6f2fe71bda7def582c0c267b931871117896",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/hearts/6.png",
+      "sha256": "33d07ad64af9d98d34cc88af92ff97edc0c5f12025802b87e65116571ac69aa9",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/hearts/7.png",
+      "sha256": "f09d585a74f1d7d39e0e62439c688f9219b716c8407f47ef36cfec308d6c2ab6",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/hearts/8.png",
+      "sha256": "4460935a42e4264a997afcbd4369c97e37056fe97d5cabfb2cbc8bf51077eb24",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/hearts/9.png",
+      "sha256": "e06769aec17a55c7c405ebd53a7771caa5f536e18370bb5c5c52968ce37c1782",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/hearts/ace.png",
+      "sha256": "5953fd30c8de116fe3dd71a240ffdc77f2eb4b80b67e52a63ab8ec0c83c2209b",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/hearts/jack.png",
+      "sha256": "7a86471f901dac4390ad8c7e647846affaf4569bbcd02b159c9d235ce701370f",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/hearts/king.png",
+      "sha256": "cfc8b10dc3e257bb437570c1742da8930f65a791547dc2a6b067bc6884541ef5",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/hearts/queen.png",
+      "sha256": "e706427bc21ad44c88591a3e43ee5472694e8cc2beac70943d10d6aa8138a2de",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/jokers/black.png",
+      "sha256": "7581ae6a4b6124971711bbf5dc061d3accbdef5927509c56b99d7b5a457c14f1",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/jokers/red.png",
+      "sha256": "6ee22a7cf752a81f4618f5a4298b539a9d0d222de428eea87854e44319585ed8",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/spades/10.png",
+      "sha256": "db25a87f755bf7fc22bfae940ce797a9ade8c6e14df7fd1e13df7488e875c1dd",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/spades/2.png",
+      "sha256": "c38777ec514c0fd375339d4b9033caae45f1b3b18b30102de1ed438ddafbbc7d",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/spades/3.png",
+      "sha256": "5de891a05f3747e489f88195e95bd4ca174849bcb5c8f0895763c8456afe1698",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/spades/4.png",
+      "sha256": "f566e1e9f77a92325455b080bc7f879e436ea9c90861aebd2c4c48b9cc1801dc",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/spades/5.png",
+      "sha256": "dce4d8ebb9f1360bb0693edc44b992afa1e1b60fdf9b9606e6695ba805ceaaf5",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/spades/6.png",
+      "sha256": "79373ba2ebb6c75cb627f4ce30420d4c85413c771e140f231c6a0ef5e98cd313",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/spades/7.png",
+      "sha256": "53a0b5c595e266105ce8f0d82340e5f4c3b319b77e9b8e9f332577ec9b7af166",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/spades/8.png",
+      "sha256": "b113229f466b3f69800f711d590af85c9de863c61f456a8ae22de3c6aff424c3",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/spades/9.png",
+      "sha256": "880811afac86f471584b45053bd805d946c1bcfcfb6fa0b4df4d814f8f94c981",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/spades/ace.png",
+      "sha256": "d72983dff07723632f7bc989257b1bd6f95c53368d69bd1c943d3d30335b9d57",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/spades/jack.png",
+      "sha256": "c9e4ff9353e374f1003ced29358cb1a9d47b710a21ccf580a0b76774349be012",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/spades/king.png",
+      "sha256": "de8ec5caac9781e297ce8137c35b654bed0819ad177fac0d931e5defab333e34",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/european-standard/spades/queen.png",
+      "sha256": "a1f9d27942e3038ecf08c31c45c8c30e7163b03feed6c50d46ec092572a1c6ad",
+      "format": "european-standard",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/clubs/10.png",
+      "sha256": "62060ac436b47d461adbe73b2d1c7d23bae54d5ca7ec3e7c5a1a384941962065",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/clubs/2.png",
+      "sha256": "d311a9ced153bedb947065e79d05bd626aaa11f50bd259629bd044173cc007e6",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/clubs/3.png",
+      "sha256": "070c6888daf7fdc15a1e1d1cf667cf007ab3443f2c3421abab3882925cde9112",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/clubs/4.png",
+      "sha256": "6ef5711b6c9936ae8c1762d97a022d8714e3cb2b3ad52d4489bc0f9c45c9dc33",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/clubs/5.png",
+      "sha256": "f70cd90ee3ed02980ed019dfaa1c8fd43c8c3bd47ba86e0b9fd75599d4f21664",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/clubs/6.png",
+      "sha256": "f9fad39fe3fe230eb312c7145eb673791d241c741da3f83959cfd910a9f4eb7e",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/clubs/7.png",
+      "sha256": "ce7591ebf89a712637d68f91e0ad8a736cfb523b045feec33c4abe4108653ddb",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/clubs/8.png",
+      "sha256": "708ff0bf8f50f8f75bc4766041984ac1b24e6fe4663863861668022cee9d28e7",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/clubs/9.png",
+      "sha256": "3b75a21084df2c70029150f399c4ca14f7857559c1c9fa44f85897bdfb58149a",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/clubs/ace.png",
+      "sha256": "7a8cf5b70666da0576b60580d07835610c6ac9f0ee2889a6a1ee16abc0757918",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/clubs/jack.png",
+      "sha256": "eb460aba95c0e7bd14bb587f8358c5451ea9fe68a828f30906c6a1456d683eec",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/clubs/king.png",
+      "sha256": "e0b63c6d6c93e759f00aba5fa5e7875abede98ff0a54f8c01df1e8d9b61a3ce9",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/clubs/queen.png",
+      "sha256": "3fe17066846c10e5192112f44741ef6c679843ec99421e395a9700c9c8321da2",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/diamonds/10.png",
+      "sha256": "4dd8ef9bb0609f43ebbf0c3e2c30058cd165c6d4a63daf0f5e0c1ce52657a2fa",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/diamonds/2.png",
+      "sha256": "16f5ca0c7a864a385c40b9cc286ebb8731a701a0008c63c775224f6cad3d5f75",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/diamonds/3.png",
+      "sha256": "ead5cb8e64b020de15e8c0539ac697341e187476d610102ba257e82ced46e50a",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/diamonds/4.png",
+      "sha256": "1b50e11dcaf9d83bd1f7a4171d0b9d5de4bf0f2e4b75271eb91e5e35580d1c7d",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/diamonds/5.png",
+      "sha256": "3c533b1dfc235593191056c637bfff763b733705c2ee5790c1843a0d61b05d00",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/diamonds/6.png",
+      "sha256": "eed1a7e14a3f27a411ce7bb1bcc2daccd29099d9c5c990d1c8e4a5e0ab780a8a",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/diamonds/7.png",
+      "sha256": "89400823b52eb7ab73e910dff9fffbfbadcf9fb48d4e8e5b779e671c9dea3df2",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/diamonds/8.png",
+      "sha256": "b809011c8ee332b807d0bf4dda59e44c19e976201b70002133c5239e2ba1f56d",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/diamonds/9.png",
+      "sha256": "53f6ad2029f6f36069cb0c2b9378b51d5f244e097629a031822ca4c8f444dced",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/diamonds/ace.png",
+      "sha256": "c4d5d07e9a516aedbb0658b09b79f39793ded5b9038220765c6fc87c7689a1fa",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/diamonds/jack.png",
+      "sha256": "0ccfabf8647cca21e99bda65350a3ad845696c7cd5de74c10f42e0c91e312dff",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/diamonds/king.png",
+      "sha256": "fa2e76f9898e836da41fab6b7598d2c936c7ce89b64b51a2235aa766c95d50ae",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/diamonds/queen.png",
+      "sha256": "3b3d5b392a77091e83ac97354e726014cd2fa7cbb2b542bb85946ac5c79db039",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/hearts/10.png",
+      "sha256": "9020746e381957a3fabef59ccac9f088ad90f75470baa1efb1991fb41ae7e3d8",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/hearts/2.png",
+      "sha256": "ee605035d56e450ab22a206e979951a8e06986a091a2a8c717708b1909448071",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/hearts/3.png",
+      "sha256": "584d55b77b44cf3604e11c4d2df00ba05843033575bcdc3f4bee53e65aa8fdc1",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/hearts/4.png",
+      "sha256": "1cd7e70d7553060effdf4876b31d8102439f3cf3b3c3f75ef1466d24c2fa1cf1",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/hearts/5.png",
+      "sha256": "b803a4884673f2d77bace31f17e3313f82f5052aafa449d69f61ef98a204d76c",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/hearts/6.png",
+      "sha256": "380b5930411b41f6e4530e61c3be38d8bbd5eda4812b7b0a619bd71d557d5b4c",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/hearts/7.png",
+      "sha256": "891d6517bf2cf28b9628ac488e899e217a40015e5cb8522b34f2265f3dad6f60",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/hearts/8.png",
+      "sha256": "a7e7e8112a85d3b98fc77ca9b64560ea5ad5eb0be0ea6b70d0cfe516e2875dce",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/hearts/9.png",
+      "sha256": "1138595497232c823645dae8979e6ad1692d7e1bbf68ba7f164fc3c20c00b6ab",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/hearts/ace.png",
+      "sha256": "50ece14a4eafa297e7306f1e96d5ebff3a458b317f7c98904b2560f482d2159e",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/hearts/jack.png",
+      "sha256": "0e4d18f469bca5f26aaa7882dbf3a9a80ef72e61138b594fd0333f934ebd1331",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/hearts/king.png",
+      "sha256": "1f8f310125be758b0a6cb17b7d907950dd51a225ccbef8277ae256df3a7a3b6a",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/hearts/queen.png",
+      "sha256": "d4f45bbf25038fc526b774bbfc54ef219e5cae5bf5ec4b64124f0f03b4307214",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/jokers/black.png",
+      "sha256": "c5d3af32128a3602543d4cfc4fc6851feb0610d7663cd50768b7f43ed9f88cbb",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/jokers/red.png",
+      "sha256": "e5651680c7cb72c89d025820ea341630b94fbee800b3f53f8c7a98d64860d5c6",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/spades/10.png",
+      "sha256": "c4d3a0d6ea58634bd072fa20368df73c9b70566bb8c563e9c58d2b89ea757ba4",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/spades/2.png",
+      "sha256": "11a2b4da687966fa6ab2f4879fdc51254cf791f07270b0355da23d15139b37b2",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/spades/3.png",
+      "sha256": "955b856125725d2c8d714658e0dda7846a7f82f0ed3d11a648a3f49d67c8dd8a",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/spades/4.png",
+      "sha256": "81c60225f0199072ea51b325996b538bedfce4cfdde598c87366ae4f72f448aa",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/spades/5.png",
+      "sha256": "85ca5d845b6f087142b5fe31ef0d360cc9e2634db024299d270bd5a7d415e075",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/spades/6.png",
+      "sha256": "2645fc16308554b5b4611bfe6367b1d79109ee0bc1028321acf6851855585967",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/spades/7.png",
+      "sha256": "0d096457cc93b4794244828ec7ffa0681a8b5d84524dfc63e9a1645f8884c298",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/spades/8.png",
+      "sha256": "97bf886f65268f3698c9fc3d9f394a7a8ec8d624e5b42961297f38eab6f076ed",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/spades/9.png",
+      "sha256": "e140d99629f47445c24142e3ea97e09cd3a013be533a9e4f2b2c2eb3a0fe601d",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/spades/ace.png",
+      "sha256": "60e4c5ca157d903c0ec5e10fc8a92fba7751c3b3a08c4863aa4dc4c334f6791d",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/spades/jack.png",
+      "sha256": "64e9a3cb635597c775645f9c7615ea8634ef4177c6c0ba66692b721b2c98c37c",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/spades/king.png",
+      "sha256": "a916d39a4193a54d63d3f8b1b5223ee410be2d8fc1e30a40129cbe3b196738eb",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/jumbo/spades/queen.png",
+      "sha256": "fca162cb8618af58f292ca4fe9f1e76dca8fd6367f9537fb51559827bb70f993",
+      "format": "jumbo",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/10.png",
+      "sha256": "d1a75071d07a756dc3e360d01e92df081bda38fdfa6f5d8afd9691c4fe30c3a3",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/2.png",
+      "sha256": "0d515c93b7fc2426eb0c79c4a8507873856559f982978e5a75779629cb617624",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/3.png",
+      "sha256": "9d6530d1a7629f4d0531c2a6bc324e0f2d75b2ae8a8323b1ceb0cae7c5539c02",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/4.png",
+      "sha256": "94596333e323067fe1f0e4886c8de12539209958e1ff29cd10bfea7bd1932bf5",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/5.png",
+      "sha256": "8a46cce9387aef2a3a3a6be0688f2f13cbf9c2f7b638d6f15afbf98292ee529e",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/6.png",
+      "sha256": "eb63af7ceae008f1bf8ed98c91a36c1f74719c0a91b4c6446c911856b995e3d2",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/7.png",
+      "sha256": "5238a56986397e39a1316be8edef9261df010bd4a9d60229597dd140ccc012da",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/8.png",
+      "sha256": "baa0dbe8b00c6ecfe5b586c8f0f89f14cd1864a63b55f0beeb48224f4553fa79",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/9.png",
+      "sha256": "acc01152889b4e596ac488ae54c2878ae2993e08056324d495bd63a03b2f6aeb",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/ace.png",
+      "sha256": "8212517adc7fd32a21f99d3e1ed40f9de45f433a208b38ac5d86457a52c025fe",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/jack.png",
+      "sha256": "c1ed8695d382dc6cfc8b6b29c1debd7c46327a23fb4ac2c1365e7c25fa349f2e",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/king.png",
+      "sha256": "ff2545f57b9e1ad943245329f2157017cf2ef243bc533a0765fb247d93ff345d",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/queen.png",
+      "sha256": "04e8b8912155b90dcfecd709a2576ebd82d865ad4cec0012ef62f17737222546",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/10.png",
+      "sha256": "5d9658019d8e156c55add1a9e9ed978c9ae1171ad7f57062eaf2e0161d5bbe03",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/2.png",
+      "sha256": "bd2561110d20d022f187908a5f91e4ce54dc7f70f0502fd1c7b16de97a8352a8",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/3.png",
+      "sha256": "f3f7436b2bfedcfbc5f3f1d1e17d6974c22ab7533b3f1e1b2a3d8eb78f116f7a",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/4.png",
+      "sha256": "c29c9e3c3a5a9dee401c6ce2fe8ae64c4571c9edd7794f9d77b670dfa00c3af5",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/5.png",
+      "sha256": "e03d4db8543458ea15bfc1c383b1eb8f0766a9ea460bfe0a933c37b4918beda6",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/6.png",
+      "sha256": "f14c64b95ec66531e410cfe92e6391e3faddba0e5a29be35d5551b628b472485",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/7.png",
+      "sha256": "66b1174ac6e00467bde9674f73ccb2257e8cece92e2c81eb185346806dcfc436",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/8.png",
+      "sha256": "8867ca2bb040575d8fe09a52f8403212ba740dcac5c7f7b1be3a3ca6572c8f39",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/9.png",
+      "sha256": "47f906e739c7923ec8ed5cd9a1b5e5aef2c26d9e77b04f57eb71f60ddd7991a3",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/ace.png",
+      "sha256": "4ca271d8fd34c4ac58fa4660649a531dd04354b742de1aa58a966ade10244583",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/jack.png",
+      "sha256": "82d3cfe45cfffd1dfce75eb30f5ed003dfd219b5c156073ce92e4d03183032bc",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/king.png",
+      "sha256": "27c3dab64e7d05335243aeb72762b6d97300a1fb17ec535a32580594b254c862",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/queen.png",
+      "sha256": "e91f9ed29e000b3561602cabaa697095ca9f8d06b194884d0b1c8e5df36b311b",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/10.png",
+      "sha256": "cbfbdd4fb61734458e315173181baf020f3333fc619447b93d8d52cf23c625fd",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/2.png",
+      "sha256": "6f72fe7850a1e4696344dc7094b468dd88ac09b2c6490d5fad19a4f22dbd872a",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/3.png",
+      "sha256": "05a0a558dddb66c4a86ccae409d3194401a8b01e2d3d0e4da57dff9f061994ce",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/4.png",
+      "sha256": "aa16a074144ef335fe20bfef4576e7287a71097b124b8054190d60a6141d6fa9",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/5.png",
+      "sha256": "4ae643f088983ff678973b1c0e41a6e9b02a60eab1cacf83f2e80b55c4baa4cc",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/6.png",
+      "sha256": "f09c5dd7e2e5ae0944383f1178f3ec7b6fb5dc6968d12674983cd043e93d4f28",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/7.png",
+      "sha256": "f9650d3e31f373af5c9aa432e820b376c9f1ba1260c7509d19e9515fc3565a32",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/8.png",
+      "sha256": "9a745f8f906bde5e2a05cefc726d0bacbc98ce46e2a6b09ea642890a981fa608",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/9.png",
+      "sha256": "4086c707737c14e65ac5046023ca7abca9b2aeb19eab1c9e9d1507432e900fda",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/ace.png",
+      "sha256": "dfd8229c15076734a4b643fc08b696fb94c066f96033c49f44c339a5d3c5da9b",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/jack.png",
+      "sha256": "0dbbea77d8fb40d6e91fd52e7dec2f403888f69a54da2a33acb33c5712e44e71",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/king.png",
+      "sha256": "a6b84495960538c1cb692378b92861345cf2e91de054900c0d1655115f01ab33",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/queen.png",
+      "sha256": "6239d603444d87e23472846d72e1241c9b26df0abb6ac9e245dbe5a90d8c30c2",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/jokers/black.png",
+      "sha256": "11ee60a73b4dc604c562458aa000937c9921acb817b68cab0f68879af94dfbb9",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/jokers/red.png",
+      "sha256": "8ab3e7911da78bd50650efacebd1bf19ce85ae8927c4fe296065d6bd893440c1",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/10.png",
+      "sha256": "37b4b14461c3bf76ca2666392ab5d658db6ad38ca1be156a7b146bee8acfe4e4",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/2.png",
+      "sha256": "17a09a55b3a26130ecb5abb67672e3364c7905ab5c2d2a7c9602e73bab5d5a5a",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/3.png",
+      "sha256": "1ff52eee45595c76985f71e4d25cda65e72a90f0fa52a8b27d66b3e5aaab6d70",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/4.png",
+      "sha256": "298725a4806e7a4f1190da15792ca1d01c6770fac0c2e0499e99276894830420",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/5.png",
+      "sha256": "51e3c48a3cfb8bcfc59f6aeb1cd709dfe12a1016a1615bb36c635cc897119a51",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/6.png",
+      "sha256": "0158d0af3c6c13c29717e50142b1c03e0d894d7e862dc52b04abd6c2d35d3edc",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/7.png",
+      "sha256": "27993e07c67dce0fc352b7cfb21b5260ace2fc145e963f7ec6538f1373e775b7",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/8.png",
+      "sha256": "e1b3c4211e9c0f47ec8ef269d9998b47a1217de534772669b3fc209045c80c25",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/9.png",
+      "sha256": "b5bc58214bc339ececaa1508429f8c1db10679caae3ae1fca49e14a5c7e18ad8",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/ace.png",
+      "sha256": "4632d717b95af2afceb393d7dfe117b06c35cca173474e9d4dfd0200a87dc6cf",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/jack.png",
+      "sha256": "79699beb35063348841ef36da138e6e58aea75a19a8e72659babd431010490fa",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/king.png",
+      "sha256": "ff64e38c1381beb538966fdb7373e033d7193b940bf6b2a9ba2dc58fd94a7c12",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/poker/spades/queen.png",
+      "sha256": "5597561efc45889c72fdfe4ec51228961b9f148b2494f11c6fb5b56a867bbf9f",
+      "format": "poker",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/clubs/10.png",
+      "sha256": "8764ac6861611e6afb4ef7a90e7e218061e0fc79338473704fc378c2b030544f",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/clubs/2.png",
+      "sha256": "edf490638f0726f123ee1ce42ca5203cc489c9ff2edb54871ffad6497c33cb64",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/clubs/3.png",
+      "sha256": "3764ab4ba40f80a5904f54443c83226b046cce187ef24c84669a148875a0891e",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/clubs/4.png",
+      "sha256": "4ee58f09e4b8762369205384362dd1c6a192d97dfd43156ee2e40ae99c832e18",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/clubs/5.png",
+      "sha256": "234ec0188688d83779b6e960800deefb866c244ffa855a0694feb54cedfea9bf",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/clubs/6.png",
+      "sha256": "dcb5d368aa52b2cc2c11e312715650a9f94e8b71d1bb792c38aa3df50b8845fb",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/clubs/7.png",
+      "sha256": "eb84733ac221f29903c615c4b53b491afce22072195de7523dd3bc998ca6622b",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/clubs/8.png",
+      "sha256": "4d94964da9a72d1b5e8f310005fd87941e0af1b2ec55a9e1903d06be5fbc3628",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/clubs/9.png",
+      "sha256": "2bb781908279924544f1dfa70d98c9236f3c2c0eda4837b0b074cf16eedfb72a",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/clubs/ace.png",
+      "sha256": "d9d4c866595a4bfc1a19b35aa6439218fa93e039b2e67dcbef0e694e625569f7",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/clubs/jack.png",
+      "sha256": "71d799ad55e33d836fd29a25309f3d5e8b3955a9bdb460296cca9686e4ef0285",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/clubs/king.png",
+      "sha256": "af58cf4cc51dc19bc1e12a6982237b2e9ad1dcdeb21efc4ac45efe5a24c72cc3",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/clubs/queen.png",
+      "sha256": "b0d72e84f46edfeeed40d8c8336fca99be393ea4125b56a626dd27b3bfa29e8d",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/diamonds/10.png",
+      "sha256": "361c3f9225a07d9e545a6fc1351f2ee4c1d686624709fcae52129a2521b61d2e",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/diamonds/2.png",
+      "sha256": "34c1272844db9a7ce58d1729f252dfbc0ebed90a14491c42a77dfad8fa8b166f",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/diamonds/3.png",
+      "sha256": "c45a26a8c667775f2e3d01ed75a8e7a9f7ea53579510fe0b97f7511cdb489601",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/diamonds/4.png",
+      "sha256": "2f01b2ef6e0a06631ff4aba5b7d64ae83a937b50d0ade99c678d92ec8c3392a1",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/diamonds/5.png",
+      "sha256": "5a388810ce24975eb7d5dbfb55aa89aebcc9516545f598800694254af5444f74",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/diamonds/6.png",
+      "sha256": "a1b028955a25b5ad1af58aae7031ba6dcaa380df688e6882373624051dbb53da",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/diamonds/7.png",
+      "sha256": "39a7d959a3cffbb402814c45a0466681a75f55d3985797288ac0a7dbd752c021",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/diamonds/8.png",
+      "sha256": "5405fca4160b18cd154e5df89df4800ebc58b32924f3d77b4eb5eeb1e0178aa1",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/diamonds/9.png",
+      "sha256": "306ee17c3e5989068ade7985344772d2136c257779c135bb281ef735b53c7b81",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/diamonds/ace.png",
+      "sha256": "15ef124b0fc3b0f2236d87fd4ae0ba32d0daaa211827ea77fb8cb90783402d45",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/diamonds/jack.png",
+      "sha256": "83913f23aabcb601ccace42d6dba24a1c4d8394c312cb51001b0770657a4f2d9",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/diamonds/king.png",
+      "sha256": "740c32555967e6d5f102b1147edea0ee49d88b964cb628a7e886344c30f03f3d",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/diamonds/queen.png",
+      "sha256": "3b65316fa38ab3dd02aea4ec1ad3085eb7f333aa92b48912c6d05101f992cf5e",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/hearts/10.png",
+      "sha256": "a9abe784d082db87aa82e10aa3ce930d366749b1fe916e42c3ebaee932f886c6",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/hearts/2.png",
+      "sha256": "b833a195ad7506d5874ae23f4ce59d7a31193bdeb039525f48c46e2c1062f12c",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/hearts/3.png",
+      "sha256": "f4bd04b1f44e4c6f8dc96f649f79dc654bcb718185616a785eaa6166f6c662e7",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/hearts/4.png",
+      "sha256": "67add98ef002528d94a41d89092a456b9b9062fec66399d3da057784b6f866f5",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/hearts/5.png",
+      "sha256": "a861df564e69116ff3dbaf3c52b11f25556fa860b4da0404110143e79f93caf3",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/hearts/6.png",
+      "sha256": "e2f2319d9c0e4b6f6c6375d10fe26bf962c258d9c04b76e79a00118a9d9a5a85",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/hearts/7.png",
+      "sha256": "c33e56d083aa9d090bc44fcd2acc98912ab6153c52d96b0d1c1e796b87488b2c",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/hearts/8.png",
+      "sha256": "c0b23d820916b35f43d45f47f31c65def866f8c3b5bbacc6369b0800a428e513",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/hearts/9.png",
+      "sha256": "05413a4370406b0408cfe0e3b89843febaa335a3a396127de79f017a91a8f0cb",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/hearts/ace.png",
+      "sha256": "1652da8b292df728b84ee3ae12555081c2a6c17496409deaf13c0325c0510b62",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/hearts/jack.png",
+      "sha256": "0de7df0b7b8b1f8485f3637ae5ac3c2491ceb27c349bd55ea2640ff5999cf625",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/hearts/king.png",
+      "sha256": "28a53f87797b8979ba7cfb7c684ecaa28b778aa2cbc9a0bcbd4a12550ee4c490",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/hearts/queen.png",
+      "sha256": "ea10aada36242b5e80690edba89b4b33de920ea578474c942aa5a0874b2eaee2",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/jokers/black.png",
+      "sha256": "6d478f085e04982f139620303454f58210b4238a493c289002ffb942d62c26ea",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/jokers/red.png",
+      "sha256": "b798bd951b86a0d29d68c5278b35de78f21b326d40b52e37b169e21a5d03ecf4",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/spades/10.png",
+      "sha256": "c199ac533671d4e972514b15022111b664e73db760066a9c446839db3a4017f6",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/spades/2.png",
+      "sha256": "afbc12bd77880afa97da938b1a82bb77d1f2d9e86a6837e1f32f7866d1205d60",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/spades/3.png",
+      "sha256": "6730b7b38f193d9313c7199ab39f2a59b2457f5f4a3de7ee6b0623237ddd57ff",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/spades/4.png",
+      "sha256": "9b4fff50112b279751114f6ebfef32b1a28f13702504995b5f5863ef55d3b635",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/spades/5.png",
+      "sha256": "d78aaf9b43e0ab2a95126e252bd7616889d9adb06c47cbaf659dc76e04da6119",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/spades/6.png",
+      "sha256": "60bc2d06e2d6e2e57cb9512d3fd4feae99843115ef1a5a6e807c8fd66258dcb5",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/spades/7.png",
+      "sha256": "cbaa3cdc7fa8478ffe55b40e450493ec1be8245f54d4fb65cb3257f29dee051a",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/spades/8.png",
+      "sha256": "b62a92af2debc8fe59040dd32e985dbafc7f39addf865471a27304e783b303e6",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/spades/9.png",
+      "sha256": "2092f20308ae591137586ac9798fb8536fdd17936318c342623c7eb275841928",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/spades/ace.png",
+      "sha256": "41fca7ff1bf64393fce384a1f2144c3e6ddc4ddd57e69fbab72e5001dcb9acb4",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/spades/jack.png",
+      "sha256": "92edde0a0994271e63886916020e4a6a45edc29441d49a8cf43d640564558956",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/spades/king.png",
+      "sha256": "ab8da723ad320e8766ab9080ce6b38b2ea7fad651bbed93ffd289cf6e5d9f18a",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/french-suited/travel/spades/queen.png",
+      "sha256": "17a53e85712de04efa17ca0ab6c8c80d971c858a354bc711b30296a262f349b2",
+      "format": "travel",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/batons/10.png",
+      "sha256": "0353675919cdff06867af29e46c190d3e134ace642225a451a81c04de96cac7f",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/batons/2.png",
+      "sha256": "4dfbcef1b18cdcf8766dac952aebbe3b4d786ace035a052e0281a71daeb50be4",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/batons/3.png",
+      "sha256": "bb514eb8b7fad9ff014c3a3b508cf7709ec45539422ea9c817615a91981f45a9",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/batons/4.png",
+      "sha256": "e5e5d2f538976e0998c7e455b70d31a52c3176195bfc0397765eceded9ca4fb4",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/batons/5.png",
+      "sha256": "4ca363ac9dbdac1d2b62bed727338d79019883c36fad88232222ad751a34f055",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/batons/6.png",
+      "sha256": "bccf5b64f60f0eb26244c1fd958b4b411183ac55c4d04ef2361838b898e59bb2",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/batons/7.png",
+      "sha256": "2473fa179ce413ceb9666a1b9815e4e86006a510ea84935bdda4a286ff9ffab2",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/batons/8.png",
+      "sha256": "5ea64429c0e61f778d4fe9b9ff8d8467568861def07588fb2cecd7b5ea97d1d8",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/batons/9.png",
+      "sha256": "d339ace2fc855c7e1e64d7ff5acb26c2a2f169794deed4dca636fd0242e23f9f",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/batons/ace.png",
+      "sha256": "71033c5a10933a641a12547262344510dde90598fe0ce0ec1873e825f220c927",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/batons/king.png",
+      "sha256": "30f27125da8b53c6c1f0589f8978c91abdf5b276f17675a3519aa6a449e7b7cd",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/batons/knight.png",
+      "sha256": "7a52275e6dacab3c41d1e8db838c36fc80b91aca506b3f14b27d605352cbbf21",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/batons/page.png",
+      "sha256": "5b1dd92e42567a2c3b1ee725ebaf9a34fdb03c047b1b48e7bc7e120bd4f6e554",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/batons/queen.png",
+      "sha256": "5e69cfc6c12225b0f46dcebc699a73a3c28ec3679288c2cd54e3dde0c2315bb5",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/coins/10.png",
+      "sha256": "59d2653251fd5fb484ca670269b6dcbea66ae5176b2d5d3108bd30b6ef4e831f",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/coins/2.png",
+      "sha256": "a56f734e4fa8ff965f6c8dfa72fc6c7bc4e37d5756c5ae7f4ddbd64a66ffe3f3",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/coins/3.png",
+      "sha256": "e9972d2fbfa0971ddb6a42004bc68ef29e2ca5afe4239a5e4fe6125ffb7dd2c1",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/coins/4.png",
+      "sha256": "bbcf8af95e132152982cb78255f5e12f2403bbf96d960f3c4f981df390f8536d",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/coins/5.png",
+      "sha256": "be498389cada9ff57453ad2367a9155c066f2c487d5d57567e1c67ea221ad5bc",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/coins/6.png",
+      "sha256": "1119b86c28f71cf27ba156dc7683bd836a3a5dd6fff67346211fd1b174205c17",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/coins/7.png",
+      "sha256": "6d1a16eea117cd3dabfe5f8c4fe8d1eb63ce5a22fe9b2379a67189fcb138f3ee",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/coins/8.png",
+      "sha256": "84a0e2fb30b5c03189f5ca32a8243e6297fe03332d858e0963a1a1477951e980",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/coins/9.png",
+      "sha256": "524071f7f70867ae6e603dbd215654a897c94740258f759684715ed26ba207f2",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/coins/ace.png",
+      "sha256": "70cf3b219dc0c99994e4ced0a63067da421c207241e192f91737736aff3a7736",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/coins/king.png",
+      "sha256": "9d75ff5d8aae110d8b0a63e7eaba28140d12602d39f5ee5f47cf4f003f86caf8",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/coins/knight.png",
+      "sha256": "4eb68e1a2155bfcdf09859c10a7c172ff34b90fca0ac44c466d99f61418be05e",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/coins/page.png",
+      "sha256": "253559275878d15caf0985b6015d36fe327e09c1217c3f523562fe00d1d4e5cf",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/coins/queen.png",
+      "sha256": "5a19a68ec1e170103164cb5e1fabc502c17f80c28f39c62c09680ea0c9753bd8",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/cups/10.png",
+      "sha256": "12c1548ea14302bde6565c1b054c28b4d57a975f1a6f6035b04ed6a534c705b0",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/cups/2.png",
+      "sha256": "e49c7ebde1f006b635ed319f90bc1b6b2985b662ddc8e3da9f2f569724c38d28",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/cups/3.png",
+      "sha256": "1cfaa2c720702683dee684203c264e1f0e83c98c01f12be114f56348fd77d630",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/cups/4.png",
+      "sha256": "2db2aab295b9adfd191c85c4225a84f72f9a2e435aa529311d7a9e40703d3529",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/cups/5.png",
+      "sha256": "85e3bf91c2bcef2a542033abca47663e8ff5e33eaac3726c30e7143de1a7fa55",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/cups/6.png",
+      "sha256": "318b2a7d9bcd8fff38037282fa26ec91a2ad0ec3c6368c0c3fc721ea180236c8",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/cups/7.png",
+      "sha256": "1e81a785e256dbce9db3b425ab047aa7852f7d5a63a22e8a0961448c03bbad1c",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/cups/8.png",
+      "sha256": "5ed60433bab2e7c284fc46788096b8f94ece227af4b16e535fc468357924a962",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/cups/9.png",
+      "sha256": "ac9d2ff1ae9c3026c8fe97e5dedaffa5eba54deb45705a0fb038d8d0e427c69c",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/cups/ace.png",
+      "sha256": "d4005e95e23a6591f7487901d377adc92402e3ca0048ffdbdc12ff8691b89714",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/cups/king.png",
+      "sha256": "deec8322158b33d9bbd9c790d62df65534d854d7bccb9f400d515b6761f9f1c7",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/cups/knight.png",
+      "sha256": "ff4f05ba3f08c583b548e4398a5d5b811004363de0615ec561fad21106bfb87f",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/cups/page.png",
+      "sha256": "49e7ef0f959dcfdd4638c37f6a408668c49ab23f2a2b93f97df9d1e2ac24eb2d",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/cups/queen.png",
+      "sha256": "5002644dcecba534a4b387de97a3b6fc3fdde554e64080b60ae8aea51e867d2d",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/swords/10.png",
+      "sha256": "8d7776abc10c3b151040fc28aaca3968daae10b4bea61ac648fec6eacfc91ec4",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/swords/2.png",
+      "sha256": "ce73a8c778cb495e483ca4b0d2a5b53a0ea7200665ef4b8b2e177410899976f7",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/swords/3.png",
+      "sha256": "d88f25242a6bfd84b6d4695023489aaf6d14c34b6a7d6f2e68913fcada614e0c",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/swords/4.png",
+      "sha256": "5ce6006ab310d40275fd686c48189775d2d206aee7d97c51557db5a7c4f9d238",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/swords/5.png",
+      "sha256": "e944d3c55e453b21ed911ed23f727b046ff0b31f981d581480166767e226f3fc",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/swords/6.png",
+      "sha256": "e3b8c104013ceefd25db5c92aac7ab0fa81f70e6106a26dd7dfc04b9c839537e",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/swords/7.png",
+      "sha256": "b2553edae116ce90fc849dd465b51a0e8b1a9c1c1f56aff8e23b803166f8d488",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/swords/8.png",
+      "sha256": "77a1af2f1b32231b0c9402d0bfafb3f6198ed8f5714523d624dce5c5fd05d1fb",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/swords/9.png",
+      "sha256": "372bfc75fe122f08484740fd9a35c1cb41f371669249729b013fb86e32ea56ee",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/swords/ace.png",
+      "sha256": "c1776937b87205fa10598998d5fcfe24d1ce1c159ef442bc342fecfac9954e91",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/swords/king.png",
+      "sha256": "77c4505acd4fc466459a9d5d16b5655a11a681219f4bfe301344e73badbc676d",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/swords/knight.png",
+      "sha256": "aa615834fdc701c07a792cb6717b1517b238941ce64a7dc8b7525742a30a3f24",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/swords/page.png",
+      "sha256": "c03401992b6311442f1d40da19d49f63cecb19be3a98260b4fd4692c46857cd1",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/swords/queen.png",
+      "sha256": "474c4a922ae862d12f669aa093bd77c019a7a3a7031527ae59da32c3973de811",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/00-the-fool.png",
+      "sha256": "e2d1600a6a713bd445c3c2e4a7d84cf7653695d999a56243357384c0baa88164",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/01-bagatella.png",
+      "sha256": "1bc5f2687db4e65f463b8817a9bad04069107c313745208a84bcf07b3076e327",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/02-the-empress.png",
+      "sha256": "f4cce2aa67fd25b22071db8accce9d7e9be01c49e7b9f9b49b29ab50215e681c",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/03-the-emperor.png",
+      "sha256": "4d6facd662cca829f5bfff95b9bc25f56837c13ab891e71fb37a3c776f463cc3",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/04-the-eastern-emperor.png",
+      "sha256": "939563751b4aa80cfd5460569a4b003834c88ee07fec6389dd1209aa1a0101ac",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/05-love.png",
+      "sha256": "365b6b7b7c1b977bf340b3230f4b7eb241de40d2fddbdf8cb2f880c39d4100cf",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/06-temperance.png",
+      "sha256": "34c1deb883fc5e9fbc0673233ae7c26f5d5cc31f33ebb7a7d0daaf1ce42f4abf",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/07-fortitude.png",
+      "sha256": "9c841cd17a0aa2d1cc6a174c7e82ca605630e484c07c7e4acc27a1ce23477121",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/08-justice.png",
+      "sha256": "1ee9e696550a3cf36393ccafad51a63ffba44d23aa20f0d6ce3697c59fca00f0",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/09-wheel-of-fortune.png",
+      "sha256": "2a4a74d5c9fb3a60112c22ce1117b0df62b1832dc5f6defd60f791bf758fb416",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/10-the-chariot.png",
+      "sha256": "ec23443eee00bfc8453a269fd4019f7c717d61743c0e5cb92b71bb0b7b258dca",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/11-time.png",
+      "sha256": "7243ffb569d8f158610ce118a91067e51988ce082f036e49e7b8216d004eb9c6",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/12-the-hanged-man.png",
+      "sha256": "787b5a2626f4ecfd6e534c3d89d170dc3ede242d50c321ff7ffddaddb5489088",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/13-death.png",
+      "sha256": "31c1f10ab1768ffb3f809a60e64850972e3d27177676d3ea2b53b35ca2f4485e",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/14-the-devil.png",
+      "sha256": "770c48765da1e519790d401b3915dbbf86c0edf7fe881c3cd8a365cdd3f5d14a",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/15-the-house-of-the-devil.png",
+      "sha256": "0fa4e1c7de43f8e500c2f8c5e8e0c95ec499fb92f7dc8fc73891f12dc74d9841",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/16-hope.png",
+      "sha256": "f07cdc6af146eab4e2f5200f360c2e2156a7df07d5ca06033c1af8881ff43c7b",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/17-prudence.png",
+      "sha256": "6ea70891dcd5a04aa05ab25b3b792d52e1011538f875e3bff15aa00a1d5a21f2",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/18-faith.png",
+      "sha256": "7dad68eece8f154d74d32170f9e0f0b3c51d2ff03373120f7326bb78980ac828",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/19-charity.png",
+      "sha256": "a5c97e0e6647d42970ae65cbd7aa5cd2fb050021d7bf2199526825a1fef7a67d",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/20-fire.png",
+      "sha256": "9dbeff3d8e5e0378170795bfbaf21aecb3b0b82ea4e7bfc40909aac35f9129ea",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/21-water.png",
+      "sha256": "fa01ca90185a687df1f06b6747573a8cae52f60a9839f0bfd67e152fd5118aa0",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/22-earth.png",
+      "sha256": "16ec1d9f510679eeb9b34c609929b40fefc99ae0ac15a50e7f9ce742aa75e788",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/23-air.png",
+      "sha256": "9e98e59d38d728532f9310ba59061ff52baa00131363940ccb823a95dc59e438",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/24-libra.png",
+      "sha256": "3fce9df32834c4143716815b9a1f382d293e4e5581e19082ff32b7a811995d62",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/25-virgo.png",
+      "sha256": "4ac30511774fb8118d4f94ed975a92897aebd6f0253fd934d0c312868d671e7b",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/26-scorpio.png",
+      "sha256": "cf656e699c2cfeaaf216841aa66e88d0b7c1a2dfffc0e9e04ce3d34d25e8ed1d",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/27-aries.png",
+      "sha256": "d994779522abfdc732ad9871fc92e60d1db7d9210b18ca66cb54452f626b9d34",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/28-capricorn.png",
+      "sha256": "b2e83391abd2cc0ca473065dd83a369891efb036e480693126b32dc3dafd9cef",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/29-sagittarius.png",
+      "sha256": "c4acc432318b0aac374c952480f0418e67b8b114031fc81830c8bc5598a87025",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/30-cancer.png",
+      "sha256": "02a0121dff25649dceed34e39d844099bf9b93419d6fb58a67a1f8b851df7cc6",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/31-pisces.png",
+      "sha256": "2bf1c78866a15e4cd0074788a1454942ebaca2953496bbd55ba6f9fb6f99ee68",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/32-aquarius.png",
+      "sha256": "84ce8c449b847493484ff0bce470ba492e555b7de515d3ae2622c0d726bbc1e2",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/33-leo.png",
+      "sha256": "a2ea4ac1348965de33069d23d6e64159e2263e1b4cb7704fe864817f581d889b",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/34-taurus.png",
+      "sha256": "f5c2347278954805b665f39a3b39237d31148121c6628cbd8d2e7dab0676e439",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/35-gemini.png",
+      "sha256": "1037e7b6867da0f9cf1b1aad83e93e702c38ee54d62ff0165a5caa950a5b0589",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/36-the-star.png",
+      "sha256": "c3e9f0a6ef42ab66f6109bfeff18bd4541b47fc3a802c5e870ab8e016ab49e4d",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/37-the-moon.png",
+      "sha256": "aa19c973b1dcbc92d74b6a092ab4cd8522e383b1a9b04a57d75f6b4b8565c94b",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/38-the-sun.png",
+      "sha256": "6e4b28b1d25dfacfb039430ab13e5660f2449bc8fbaa2df1beb244afac4d6f15",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/39-the-world.png",
+      "sha256": "bd11b15c8ac58b86efe32517d077cfa5c4300bbea313b39cc4d7483f4a983786",
+      "format": "tarot",
+      "side": "face"
+    },
+    {
+      "path": "cards/faces/tarot/tarot/trumps/40-the-trumpets.png",
+      "sha256": "922fa29f147f7627227ed3b081e5afa41f71789dcc3c2da0ccfd3f8403e82592",
+      "format": "tarot",
+      "side": "face"
+    }
+  ]
+}

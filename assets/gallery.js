@@ -8,6 +8,7 @@
   let available = [], cards = [], index = 0;
   let turned = false;
   const sets = [
+    ['studies', 'Court design studies', a => a.kind === 'study'],
     ['faces', 'All faces', a => a.kind === 'face'],
     ['french', 'French-suited deck', a => a.kind === 'face' && a.system === 'french-suited'],
     ['tarot', 'Tarot deck', a => a.kind === 'face' && a.system === 'tarot'],
@@ -42,7 +43,7 @@
     $('viewer-position').textContent = a ? `${index + 1} / ${cards.length}` : '0 cards';
     $('viewer-context').textContent = `${design.selectedOptions[0].text} / ${format.selectedOptions[0].text} / ${set.selectedOptions[0].text}`;
     $('viewer-title').textContent = a ? title(a) : 'No matching cards';
-    $('viewer-detail').textContent = a ? `${a.pixels.join(' × ')} px${a.trim_inches ? ` · ${a.trim_inches.join(' × ')} in` : ' · Original dimensions'}${a.kind === 'masters' ? ' · Source master' : ''}` : '';
+    $('viewer-detail').textContent = a ? `${a.pixels.join(' × ')} px${a.trim_inches ? ` · ${a.trim_inches.join(' × ')} in` : ' · Original dimensions'}${a.kind === 'masters' ? ' · Source master' : a.kind === 'study' ? ' · Design study; production alignment pending' : ''}` : '';
     range.max = Math.max(1, cards.length);
     range.value = index + 1;
     range.setAttribute('aria-valuetext', a ? `${a.title}, ${index + 1} of ${cards.length}` : 'No matching cards');
@@ -66,17 +67,21 @@
     show(Math.max(0, cards.findIndex(a => a.id === id)));
   }
   function loadSet(preferred = set.value, id) {
+    const sizes = new Set(data.assets.filter(a => a.design === design.value).map(a => a.format));
+    for (const entry of format.options) entry.disabled = !sizes.has(entry.value);
+    if (!sizes.has(format.value)) format.value = sizes.has('poker') ? 'poker' : [...sizes][0];
     available = data.assets.filter(a => a.design === design.value && a.format === format.value);
     const choices = sets.filter(s => available.some(s[2]));
     set.replaceChildren(...choices.map(s => option(s[0], `${s[1]} (${available.filter(s[2]).length})`)));
     set.value = choices.some(s => s[0] === preferred) ? preferred : choices[0][0];
     const faces = available.filter(a => a.kind === 'face').length;
-    $('availability').textContent = faces ? `${faces} faces · ${available.filter(a => a.kind === 'back').length} backs in this size.${design.value === 'design2' && format.value === 'tarot' ? ' Layout, names and costumes under review.' : ''}` : 'Faces are not yet available in this size. Browse backs and blank frames.';
+    const studies = available.filter(a => a.kind === 'study').length;
+    $('availability').textContent = studies && !faces ? `${studies} court design studies · Artwork under review; production alignment pending.` : faces ? `${faces} faces · ${available.filter(a => a.kind === 'back').length} backs in this size.${design.value === 'design2' && format.value === 'tarot' && available.some(a => a.kind === 'face' && a.status === 'review') ? ' Layout, names and costumes under review.' : ''}` : 'Faces are not yet available in this size. Browse backs and blank frames.';
     filter(id);
   }
   function restore() {
     const params = new URLSearchParams(location.hash.slice(1));
-    design.value = ['design1', 'design2'].includes(params.get('design')) ? params.get('design') : data.design;
+    design.value = [...design.options].some(o => o.value === params.get('design')) ? params.get('design') : data.design;
     format.value = [...format.options].some(o => o.value === params.get('size')) ? params.get('size') : data.format;
     search.value = params.get('q') || '';
     turned = params.get('turn') === '1';

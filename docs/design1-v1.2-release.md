@@ -37,4 +37,11 @@ To verify existing output without rebuilding the PNGs:
 python designs/design1/scripts/package_decks.py --check --all
 ```
 
-This prepares local release assets. It does not publish or upload them.
+Building prepares local release assets. Publishing is a separate step: upload
+the six ZIPs, six `.zip.sha256` files, release index and combined checksum file
+to a GitHub release. A Git commit or website push alone does not upload ZIPs.
+
+All six v1.2 archives were checked against the current cards on 2026-09-30.
+The previous public v1.1 Tarot package predates the complete 97-card Minchiate
+deck; use [Design 1 v1.2](https://github.com/ianrastall/playing-cards/releases/tag/1.2.0)
+for the current full design.

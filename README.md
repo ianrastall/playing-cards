@@ -1,16 +1,17 @@
 # Playing Cards
 
-Two independent designs, with **578 card PNGs available directly in the repository**.
+Three independent designs, with **798 card PNGs available directly in the repository**.
 Open the [card viewer](index.html) to choose a design, size, set, and card.
 One shared display area shows each complete PNG without cropping. Step through
 cards with the buttons, arrow keys, or position slider; rotate the view or
 download the selected PNG. Direct file links are available below the viewer,
-including the 18 Design 2 French-suited source masters and 12 blank face frames.
+including the 18 Design 2 and four Design 3 source masters and 12 blank face frames.
 
 | Design | Finished artwork | Files | Gallery |
 | --- | --- | --- | --- |
 | [Design 1](designs/design1/README.md) — Morris, Mucha and Safavid-inspired botanical ornament | 367 faces, including the complete 97-card Minchiate; 30 backs | [Cards](designs/design1/cards/) | [Browse](designs/design1/index.html) |
-| [Design 2](designs/design2/README.md) — Ming and Tang-inspired silk florals | 54 Poker faces; 97 Tarot faces in layout review (Minchiate tradition); 30 approved backs in six sizes | [Cards](designs/design2/cards/) | [Browse](designs/design2/index.html) |
+| [Design 2](designs/design2/README.md) — Ming and Tang-inspired silk florals | 367 approved faces, including 97 Minchiate Tarot cards; 30 backs in six sizes | [Cards](designs/design2/cards/) | [Browse](designs/design2/index.html) |
+| [Design 3](designs/design3/README.md) — Celtic spirals, metalwork and woodland ornament | Four approved Poker Kings with shared borders, centered medallions and exact opposing halves | [Cards](designs/design3/cards/faces/french-suited/poker/) | [Browse](designs/design3/index.html) |
 
 Design 2's [number-card gallery](designs/design2/number-cards.html) includes a
 180-degree turn control. Its courts, Jokers and aces now share the numeral
@@ -18,9 +19,9 @@ borders and center point in the [complete Poker gallery](designs/design2/poker.h
 Original source masters are preserved separately. Tarot-sized backs are included.
 Design 2's separate [Tarot deck](designs/design2/tarot.html) now uses its native
 825 × 1425 canvas, with taller traditional Chinese name panels. The
-[first costume proofs](designs/design2/tarot.html#design=design2&size=tarot&set=first-proofs)
-begin the Ming-based clothing revisions; translations and remaining costumes
-are under review. Minchiate describes this Tarot deck's 97-card tradition.
+[costume revision group](designs/design2/tarot.html#design=design2&size=tarot&set=first-proofs)
+records the Ming-based clothing revisions. The owner accepted the current
+Poker and Tarot artwork and names for release. Minchiate describes this Tarot deck's 97-card tradition.
 The colors are Lamp Black, Madder Lake, Manganese Violet, Prussian Blue and Verdigris.
 
 ## Folder layout
@@ -88,7 +89,7 @@ Open `http://localhost:8000/`. The viewer also works as local HTML files.
 Design, size and set selectors share one centered card stage. Search applies to
 the selected set. Rotation stays in place while comparing cards, and the URL
 fragment records the selected card, filter and rotation for sharing or reloading.
-Design 2 sizes without finished faces show backs and blank frames. Source masters
+Both full designs have faces and backs in all six sizes. Source masters
 are labeled separately and retain their original dimensions.
 
 The size pages open the same viewer with a size selected. Without JavaScript,
@@ -142,5 +143,12 @@ uses its separate [SIL OFL license](designs/design2/sources/fonts/lxgw-wenkai-tc
 
 ## Next work
 
-The ordered [Design 2 roadmap](docs/design2-roadmap.md) covers Poker tarot cards,
-whole-design alignment, and the remaining formats.
+Design 1 and Design 2 release packages include all six sizes, with native files,
+clean bleed variants, separate cut-guide proofs, manifests and checksums.
+See the [Design 1 v1.2 release](https://github.com/ianrastall/playing-cards/releases/tag/1.2.0)
+and [Design 2 v1.0 release](https://github.com/ianrastall/playing-cards/releases/tag/design2-v1.0.0).
+
+After both releases, work can resume on Design 3's Poker Queens, following its
+[four official Celtic Kings](designs/design3/docs/design/kings-registration-v1.md).
+The related Norse Design 4 remains deferred. The
+[Design 2 roadmap](docs/design2-roadmap.md) records the completed release work.

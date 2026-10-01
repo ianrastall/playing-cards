@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "status": "approved-source-masters",
+  "generator": "built-in image_gen",
+  "card_count": 4,
+  "production_pixels": [
+    750,
+    1050
+  ],
+  "cards": [
+    {
+      "rank": "king",
+      "suit": "spades",
+      "format": "poker",
+      "path": "king-spades-v2.png",
+      "pixels": [
+        1061,
+        1483
+      ],
+      "sha256": "7ed829453e76b480439d0da13a994765f9645a5308ced4f8c6d23278b61a7d97",
+      "half_turn_exact": false,
+      "visual_review": "Slight right turn, both eyes; upright sword"
+    },
+    {
+      "rank": "king",
+      "suit": "hearts",
+      "format": "poker",
+      "path": "king-hearts-v2.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "sha256": "776bb4349df317b1514249274647da0f411fbe1cbe0efe6224be4c447fa14989",
+      "half_turn_exact": false,
+      "visual_review": "Both eyes, bare upper lip; sword behind head"
+    },
+    {
+      "rank": "king",
+      "suit": "diamonds",
+      "format": "poker",
+      "path": "king-diamonds-v2.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "sha256": "801a6ac7c929dc135e0f11183dd45fe0e304d0eaa18001a6a4343ab2dd498abb",
+      "half_turn_exact": false,
+      "visual_review": "Strict left profile, one eye; axe"
+    },
+    {
+      "rank": "king",
+      "suit": "clubs",
+      "format": "poker",
+      "path": "king-clubs-v2.png",
+      "pixels": [
+        1060,
+        1484
+      ],
+      "sha256": "24ead39338c794e295c68750c20d16fc2f02e215c196adc4c7c541ce04674d40",
+      "half_turn_exact": false,
+      "visual_review": "Left three-quarter turn, both eyes; sword and spiral-topped orb"
+    }
+  ],
+  "production_manifest": "../../../docs/design/kings-registration-v1.json"
+}

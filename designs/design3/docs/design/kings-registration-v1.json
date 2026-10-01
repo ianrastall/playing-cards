@@ -1,0 +1,154 @@
+{
+  "renderer": "design3-kings-registration-v1",
+  "center": [
+    374.5,
+    524.5
+  ],
+  "pixels": [
+    750,
+    1050
+  ],
+  "trim_inches": [
+    2.5,
+    3.5
+  ],
+  "corner_radius_mm": 3.5,
+  "border_policy": "One Spades-derived painted Celtic frame, pixel-identical outside field and index ink.",
+  "center_policy": "One 104-pixel painted medallion, left half plus 180-degree partner; paired side roundels centered on the same waist axis.",
+  "components": [
+    {
+      "path": "sources/components/kings-registration-v1/center-medallion.png",
+      "sha256": "69377f896f140d5b21082376617df2c8ffd6b3ad7318ad13e82636e75af65635"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/field-mask.png",
+      "sha256": "186fc91bc4358bde17c4b3ee1b5ef60a42f51ef9a82088e704ff285c2c5b3bc6"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/index-clubs.png",
+      "sha256": "cadfecf51280990f8e4f833dd3d3458c243f1bf829771b4688e1b48a59b47207"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/index-diamonds.png",
+      "sha256": "64d4bb4b39ed3f653f8e817a288daddc4ffc0d7fdbc1f8749c58896343769081"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/index-hearts.png",
+      "sha256": "8ddb4405f12995edb5d30726ae09ab69f63f7ab30edf8b960ad0bfd3c4fffbd4"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/index-spades.png",
+      "sha256": "c40a1959e271fbf5b72237bfdd67eb9c7f9d129a43f1d6c4750ce99179885214"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/outline-mask.png",
+      "sha256": "68a76fec974aaccc174b3aa88d2661fba45ca836f3fc5f87283ad5534607a89c"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/paired-side-medallions.png",
+      "sha256": "9f2a08b1727d23f9cb4a7db5ec2a03aa9fa80f5cea5b0b7a69b3b0adf52610de"
+    },
+    {
+      "path": "sources/components/kings-registration-v1/shared-frame.png",
+      "sha256": "c0187d4b0ea862c005d779adc74e02951c058555c557f67978af84b6ff671e72"
+    }
+  ],
+  "cards": [
+    {
+      "suit": "spades",
+      "rank": "king",
+      "source": "sources/generated/kings-v2/king-spades-v2.png",
+      "source_sha256": "7ed829453e76b480439d0da13a994765f9645a5308ced4f8c6d23278b61a7d97",
+      "source_center": [
+        531.3550232650455,
+        735.3737541289602
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "medallion_bounds": [
+        323,
+        473,
+        427,
+        577
+      ],
+      "half_turn_exact": true,
+      "path": "cards/faces/french-suited/poker/spades/king.png",
+      "staged_path": "work/kings-registration-v1/spades/king.png",
+      "sha256": "64224f6052a8c59571bcfb779587cccf32374bb31a829488a5ae77051ba49269"
+    },
+    {
+      "suit": "hearts",
+      "rank": "king",
+      "source": "sources/generated/kings-v2/king-hearts-v2.png",
+      "source_sha256": "776bb4349df317b1514249274647da0f411fbe1cbe0efe6224be4c447fa14989",
+      "source_center": [
+        531.6614927816825,
+        734.4307147715573
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "medallion_bounds": [
+        323,
+        473,
+        427,
+        577
+      ],
+      "half_turn_exact": true,
+      "path": "cards/faces/french-suited/poker/hearts/king.png",
+      "staged_path": "work/kings-registration-v1/hearts/king.png",
+      "sha256": "2d27810e2c9df30ec1e4106e883602200088b56b9a51697c99207a8780e034a4"
+    },
+    {
+      "suit": "diamonds",
+      "rank": "king",
+      "source": "sources/generated/kings-v2/king-diamonds-v2.png",
+      "source_sha256": "801a6ac7c929dc135e0f11183dd45fe0e304d0eaa18001a6a4343ab2dd498abb",
+      "source_center": [
+        530.896526888994,
+        735.6762133201753
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "medallion_bounds": [
+        323,
+        473,
+        427,
+        577
+      ],
+      "half_turn_exact": true,
+      "path": "cards/faces/french-suited/poker/diamonds/king.png",
+      "staged_path": "work/kings-registration-v1/diamonds/king.png",
+      "sha256": "a5e750a725bad46d5955a1ecada315e92355ead1306b32e08752f94887652468"
+    },
+    {
+      "suit": "clubs",
+      "rank": "king",
+      "source": "sources/generated/kings-v2/king-clubs-v2.png",
+      "source_sha256": "24ead39338c794e295c68750c20d16fc2f02e215c196adc4c7c541ce04674d40",
+      "source_center": [
+        531.154490999469,
+        735.5043310477129
+      ],
+      "center": [
+        374.5,
+        524.5
+      ],
+      "medallion_bounds": [
+        323,
+        473,
+        427,
+        577
+      ],
+      "half_turn_exact": true,
+      "path": "cards/faces/french-suited/poker/clubs/king.png",
+      "staged_path": "work/kings-registration-v1/clubs/king.png",
+      "sha256": "d7e46dfd6f29849d06984566f6aadea90a21f94efc600ee96e4c819745afc28d"
+    }
+  ]
+}

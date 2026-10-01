@@ -21,6 +21,10 @@ ROOT=poker.ROOT
 OUT=poker.OUT
 FORMATS=('poker','jumbo','travel','bridge','european-standard','tarot')
 RELEASE_VERSION='1.2'
+DESIGN_ID='design1'
+DESIGN_NAME='Design 1'
+VALIDATION_REPORTS=('docs/design/face-formats-v1-report.json', 'docs/design/minchiate-v1-report.json')
+EXTRA_FILES={}
 
 
 def geometry(fmt):
@@ -151,7 +155,7 @@ def release_name(asset):
 
 
 def release_paths(fmt):
-    stem=f'design1-v{RELEASE_VERSION}-{fmt}'
+    stem=f'{DESIGN_ID}-v{RELEASE_VERSION}-{fmt}'
     return OUT/stem,OUT/f'{stem}.zip',OUT/f'{stem}.zip.sha256'
 
 
@@ -160,8 +164,7 @@ def build(fmt):
     catalog=build_catalog()
     assert catalog==json.loads((ROOT/'catalog.json').read_text(encoding='utf-8')),'Catalog stale'
     # Tie packages to the last complete artwork validation, not just its catalog.
-    reports=[json.loads((ROOT/'docs/design/face-formats-v1-report.json').read_text(encoding='utf-8')),
-             json.loads((ROOT/'docs/design/minchiate-v1-report.json').read_text(encoding='utf-8'))]
+    reports=[json.loads((ROOT/name).read_text(encoding='utf-8')) for name in VALIDATION_REPORTS]
     validated={(a['path'] if a['path'].startswith('cards/') else 'cards/'+a['path']):a['sha256']
                for report in reports for a in report['cards']}
     assets=[a for a in catalog['assets'] if a['format']==fmt]
@@ -188,14 +191,17 @@ def build(fmt):
             path.parent.mkdir(parents=True,exist_ok=True)
             im.save(path,dpi=(600,600),icc_profile=poker.SRGB)
         records.append(dict(id=asset['id'],source_path=asset['path'],source_sha256=asset['sha256'],files=variants))
-    manifest=dict(version=3,design='Design 1',release_version=RELEASE_VERSION,
+    manifest=dict(version=3,design=DESIGN_NAME,release_version=RELEASE_VERSION,
                   format=fmt,unique_assets=unique_count,faces=face_count,backs=5,png_count=png_count,
                   geometry=g,corner_radius_mm=3.5,native_ppi=300,print_ppi=600,
                   bleed_inches=.125,bleed_pixels=75,slug_pixels=75,files=records)
     (folder/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
     (folder/'README.md').write_text(readme(fmt,g),encoding='utf-8')
     shutil.copy2(ROOT.parents[1]/'LICENSE',folder/'LICENSE')
-    expected={p for r in records for p in r['files'].values()}|{'README.md','manifest.json','LICENSE','SHA256SUMS.txt'}
+    for name,source in EXTRA_FILES.items():
+        (folder/name).parent.mkdir(parents=True,exist_ok=True)
+        shutil.copy2(source,folder/name)
+    expected={p for r in records for p in r['files'].values()}|{'README.md','manifest.json','LICENSE','SHA256SUMS.txt'}|set(EXTRA_FILES)
     actual={p.relative_to(folder).as_posix() for p in folder.rglob('*') if p.is_file()}
     assert not actual-expected,(fmt,'Unexpected release files',actual-expected)
     hashes=''.join(f'{poker.sha(folder/name)}  {name}\n' for name in sorted(expected-{'SHA256SUMS.txt'}))
@@ -226,7 +232,7 @@ def check(fmt):
     assert {r['id'] for r in manifest['files']}==set(current)
     hashes={line.split('  ',1)[1]:line.split('  ',1)[0] for line in (folder/'SHA256SUMS.txt').read_text().splitlines()}
     with zipfile.ZipFile(archive_path) as archive:
-        assert len(archive.namelist())==len(set(archive.namelist()))==png_count+4
+        assert len(archive.namelist())==len(set(archive.namelist()))==png_count+4+len(EXTRA_FILES)
         assert set(archive.namelist())==set(hashes)|{'SHA256SUMS.txt'}
         assert archive.read('SHA256SUMS.txt')==(folder/'SHA256SUMS.txt').read_bytes()
         assert archive.testzip() is None
@@ -263,14 +269,14 @@ def write_release_index():
             sha256=poker.sha(archive_path),bytes=archive_path.stat().st_size,
             checksum_file=checksum_path.name,
             faces=97 if fmt=='tarot' else 54,backs=5))
-    release=dict(version=1,design='Design 1',release_version=RELEASE_VERSION,
+    release=dict(version=1,design=DESIGN_NAME,release_version=RELEASE_VERSION,
                  formats=list(FORMATS),archives=archives,
                  total_active_faces=367,total_active_backs=30,total_active_pngs=397)
-    path=OUT/f'design1-v{RELEASE_VERSION}.json'
+    path=OUT/f'{DESIGN_ID}-v{RELEASE_VERSION}.json'
     path.write_text(json.dumps(release,indent=2)+'\n',encoding='utf-8')
     sums=''.join(f"{a['sha256']}  {a['path']}\n" for a in archives)
-    (OUT/f'design1-v{RELEASE_VERSION}-SHA256SUMS.txt').write_text(sums,encoding='ascii')
-    print(f'Created Design 1 v{RELEASE_VERSION} release index for {len(archives)} archives',flush=True)
+    (OUT/f'{DESIGN_ID}-v{RELEASE_VERSION}-SHA256SUMS.txt').write_text(sums,encoding='ascii')
+    print(f'Created {DESIGN_NAME} v{RELEASE_VERSION} release index for {len(archives)} archives',flush=True)
 
 
 def main():

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "design1",
   "design": "Design 1",
-  "release_version": "1.1",
+  "release_version": "1.2",
   "formats": {
     "bridge": {
       "trim_inches": [
@@ -525,8 +525,8 @@
       }
     }
   },
-  "face_status": "review",
-  "back_status": "available",
+  "face_status": "approved",
+  "back_status": "approved",
   "renderer": "face-formats-v1",
   "frame_palette": "suit-aware faces; palette-aware backs"
 }

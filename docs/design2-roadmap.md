@@ -1,5 +1,24 @@
 # Design 2 roadmap
 
+## Release completion — 2026-09-30
+
+The owner confirmed Poker and Tarot finished and requested completion of the
+remaining sizes and publication of both full designs before Design 3 Queens.
+That acceptance supersedes the pending review gates in the historical plan below.
+Current artwork and names are accepted for this release; no new Tarot revisions
+were made during packaging.
+
+Bridge, Travel and Jumbo now each contain 54 faces composed from original
+portrait and pip components inside their own shared frames. European Standard
+derives from Bridge. Poker and Tarot PNGs retain their original bytes.
+Design 2 now contains 367 faces and 30 backs across six complete formats.
+
+See [construction](../designs/design2/docs/design/french-formats-v1.md) and
+[release notes](design2-v1.0-release.md). The remaining text records the earlier
+work order and review concerns, rather than blocking the accepted release.
+
+## Historical work order
+
 Requested order, 2026-09-28, corrected by the user on 2026-09-29. Poker and
 Tarot are separate decks with their own dimensions and matching backs.
 Minchiate describes the Tarot deck's 97-card inventory and tradition; it is

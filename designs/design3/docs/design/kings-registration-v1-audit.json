@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "target": "active",
+  "cards": [
+    {
+      "path": "cards/faces/french-suited/poker/spades/king.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0,
+      "shared_border_exact": true,
+      "half_turn_exact": true,
+      "source_hash_unchanged": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/hearts/king.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0,
+      "shared_border_exact": true,
+      "half_turn_exact": true,
+      "source_hash_unchanged": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/diamonds/king.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0,
+      "shared_border_exact": true,
+      "half_turn_exact": true,
+      "source_hash_unchanged": true
+    },
+    {
+      "path": "cards/faces/french-suited/poker/clubs/king.png",
+      "measured_center": [
+        374.5,
+        524.5
+      ],
+      "center_error_px": 0,
+      "shared_border_exact": true,
+      "half_turn_exact": true,
+      "source_hash_unchanged": true
+    }
+  ]
+}

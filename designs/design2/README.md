@@ -61,8 +61,9 @@ indices. [Construction notes and prompts](docs/design/tarot-faces-v1.md)
 record the source artwork, placements and checks. The
 [first six proofs](tarot.html#design=design2&size=tarot&set=first-proofs)
 include five new costume revisions and the previously revised World.
-The complete layout is ready for review; translations and remaining costumes
-are not yet finally approved. Earlier Poker-sized exports are archived.
+The project owner confirmed Poker and Tarot finished and requested their release
+on 2026-09-30. The current artwork and traditional Chinese names are accepted
+for this release. Earlier Poker-sized exports are archived.
 
 The [Chinese visual-direction brief](docs/design/chinese-visual-direction.md)
 governs subsequent artwork revisions. The first seven replace Christian Faith
@@ -103,15 +104,43 @@ separates its nested regions through graphite-to-ink values.
 ## Browse and reproduce
 
 Open `index.html` directly or through the repository's HTTP server. Choose a
-size and set, then browse one card at a time. Poker includes 54 faces, five backs
-and two blank frames. Tarot includes 97 faces, five backs and two four-panel
-blank frames. The other sizes include five backs and two blank frames.
+size and set, then browse one card at a time. Each French-suited size includes
+54 faces, five backs and two blank frames. Tarot includes 97 faces, five backs
+and two four-panel blank frames. Bridge, Travel and Jumbo are composed from
+source pip and portrait components; European Standard derives from Bridge.
 The [18 original French-suited court/ace/Joker masters](masters.html) are available separately
 at their original dimensions. Use previous/next, arrow keys, or the position
 slider to compare cards, turn them 180 degrees, and download the selected PNG.
-The [file directory](all.html) links all 211 selected images without loading a grid.
+The [file directory](all.html) links all 427 selected images without loading a grid.
 
 The [roadmap](../../docs/design2-roadmap.md) records the next artwork and alignment work.
+
+## Complete release
+
+The [Design 2 v1.0 release](https://github.com/ianrastall/playing-cards/releases/tag/design2-v1.0.0)
+contains six format ZIPs: Poker, Bridge, European Standard, Travel, Jumbo and
+the separate 97-card Minchiate Tarot deck. Together they cover **367 faces and
+30 alternative backs**. Choose one back color per physical deck.
+
+Each archive contains native RGBA files, clean 600 ppi bleed files, separate
+blue cut-guide proofs, a manifest, checksums, a usage guide and license notices.
+There are 177 PNGs in each French-suited archive and 306 in Tarot. Packages are
+individual artworks, without duplex sheet imposition.
+
+[Format construction](docs/design/french-formats-v1.md) and the
+[release notes](../../docs/design2-v1.0-release.md) document source preservation,
+geometry, exact opposing pairs and release checks. From the repository root:
+
+```text
+python designs/design2/scripts/expand_french_faces.py --check
+python designs/design2/scripts/audit_release.py --verify-renderers
+python designs/design2/scripts/package_decks.py --build --all
+python designs/design2/scripts/package_decks.py --check --all
+```
+
+Packaging creates ZIPs and checksums in the ignored `build/releases/` directory.
+It does not publish them; GitHub assets are uploaded separately from repository
+files and the viewer.
 
 Run from `designs/design2/`:
 

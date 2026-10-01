@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "deck_id": "design3",
+  "path_base": "design-root",
+  "formats": {
+    "poker": {
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "back_pixels": [
+        750,
+        1050
+      ]
+    }
+  },
+  "back_colors": [],
+  "print_notes": {
+    "geometry": "trim-size artwork",
+    "bleed_included": false,
+    "crop_marks_included": false,
+    "imposition_included": false,
+    "placement": "Use trim_inches; do not infer physical size from DPI metadata."
+  },
+  "assets": [
+    {
+      "id": "face.french-suited.poker.clubs.king",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "clubs",
+      "rank": "king",
+      "color_variant": null,
+      "status": "approved",
+      "path": "cards/faces/french-suited/poker/clubs/king.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "d7e46dfd6f29849d06984566f6aadea90a21f94efc600ee96e4c819745afc28d"
+    },
+    {
+      "id": "face.french-suited.poker.diamonds.king",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "diamonds",
+      "rank": "king",
+      "color_variant": null,
+      "status": "approved",
+      "path": "cards/faces/french-suited/poker/diamonds/king.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "a5e750a725bad46d5955a1ecada315e92355ead1306b32e08752f94887652468"
+    },
+    {
+      "id": "face.french-suited.poker.hearts.king",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "hearts",
+      "rank": "king",
+      "color_variant": null,
+      "status": "approved",
+      "path": "cards/faces/french-suited/poker/hearts/king.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "2d27810e2c9df30ec1e4106e883602200088b56b9a51697c99207a8780e034a4"
+    },
+    {
+      "id": "face.french-suited.poker.spades.king",
+      "side": "face",
+      "system": "french-suited",
+      "format": "poker",
+      "suit": "spades",
+      "rank": "king",
+      "color_variant": null,
+      "status": "approved",
+      "path": "cards/faces/french-suited/poker/spades/king.png",
+      "media_type": "image/png",
+      "pixels": [
+        750,
+        1050
+      ],
+      "mode": "RGBA",
+      "encoded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "trim_inches": [
+        2.5,
+        3.5
+      ],
+      "trim_mm": [
+        63.5,
+        88.9
+      ],
+      "effective_ppi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "64224f6052a8c59571bcfb779587cccf32374bb31a829488a5ae77051ba49269"
+    }
+  ]
+}

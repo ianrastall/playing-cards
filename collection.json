@@ -12,7 +12,13 @@
       "id": "design2",
       "name": "Design 2",
       "path": "designs/design2",
-      "description": "Ming and Tang-inspired silk florals; approved backs in five colors and six sizes."
+      "description": "Ming and Tang-inspired silk florals; complete French-suited and Minchiate Tarot decks with five backs in all six sizes."
+    },
+    {
+      "id": "design3",
+      "name": "Design 3",
+      "path": "designs/design3",
+      "description": "Celtic-inspired La Tene spirals and woodland ornament; four approved, balanced Poker Kings."
     }
   ]
 }

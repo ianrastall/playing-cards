@@ -38,13 +38,15 @@ class GalleryTests(unittest.TestCase):
         catalog = json.loads((ROOT / 'catalog.json').read_text(encoding='utf-8'))
         production = {a['path'] for a in catalog['assets']}
         self.assertTrue(production <= set(paths))
-        self.assertEqual(len(page.assets), 608)
-        self.assertEqual(len(set(page.assets)), 608)
+        self.assertEqual(len(page.assets), 832)
+        self.assertEqual(len(set(page.assets)), 832)
         self.assertTrue(set(page.assets) <= set(page.downloads))
         self.assertEqual(len(page.images), 1)
         self.assertIn('designs/design2/sources/generated/courts-v1/king-spades-floral-jian-v3.png', paths)
         self.assertFalse(any('initial' in path or 'study' in path for path in page.assets))
-        self.assertEqual(sum('/courts-v1/' in path for path in page.assets), 12)
+        self.assertEqual(sum('design2/sources/generated/courts-v1/' in path for path in page.assets), 12)
+        self.assertEqual(sum('design3/sources/generated/kings-v2/' in path for path in page.assets), 4)
+        self.assertFalse(any('design3/sources/generated/courts-v1/' in path for path in page.assets))
         self.assertEqual(sum('/aces-v1/' in path for path in page.assets), 4)
         self.assertEqual(sum('/jokers-v1/' in path for path in page.assets), 2)
 
@@ -73,6 +75,31 @@ class GalleryTests(unittest.TestCase):
             file = ROOT / relative
             self.assertEqual(file.read_text(encoding='utf-8'), build_gallery.render(file, assets, **options))
 
+    def test_celtic_official_kings_are_separate_from_unchanged_masters(self):
+        assets = build_gallery.inventory()
+        celtic = [a for a in assets if a['design'] == 'design3']
+        self.assertEqual(len(celtic), 8)
+        self.assertEqual({a['rank'] for a in celtic}, {'king'})
+        self.assertEqual({a['suit'] for a in celtic}, {'spades', 'hearts', 'diamonds', 'clubs'})
+        masters = [a for a in celtic if '.master.' in a['id']]
+        faces = [a for a in celtic if a['side'] == 'face']
+        self.assertEqual(len(masters), 4)
+        self.assertEqual(len(faces), 4)
+        self.assertTrue(all('/kings-v2/' in a['path'] for a in masters))
+        self.assertTrue(all(a['pixels'] == [750, 1050] and a['status'] == 'approved' for a in faces))
+        self.assertFalse(any('initial' in a['path'] or 'repair' in a['path'] for a in celtic))
+        catalog = json.loads((ROOT / 'catalog.json').read_text(encoding='utf-8'))
+        self.assertEqual(len([a for a in catalog['assets'] if a['design'] == 'design3']), 4)
+        file = ROOT / 'designs/design3/poker.html'
+        page = Page(file.read_text(encoding='utf-8'))
+        self.assertEqual(len(page.assets), 4)
+        self.assertIn('index.html', page.links)
+        self.assertNotIn('tarot.html', page.links)
+        html = file.read_text(encoding='utf-8')
+        self.assertIn('"set":"faces"', html)
+        self.assertIn('"kind":"masters"', html)
+        self.assertNotIn('"kind":"study"', html)
+
     def test_every_page_has_one_stage_and_navigation(self):
         for relative, _ in build_gallery.page_specs():
             page = Page((ROOT / relative).read_text(encoding='utf-8'))
@@ -100,7 +127,7 @@ class GalleryTests(unittest.TestCase):
                 self.assertEqual(set(paths), expected)
                 self.assertEqual(len(paths), len(expected))
                 found.extend(paths)
-            self.assertEqual(len(found), 397 if design == 'design1' else 193)
+            self.assertEqual(len(found), 397 if design == 'design1' else 409)
             self.assertEqual(len(found), len(set(found)))
         masters = Page((ROOT / 'designs/design2/masters.html').read_text(encoding='utf-8'))
         self.assertEqual(len(masters.assets), 18)
